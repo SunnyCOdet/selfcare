@@ -46,11 +46,16 @@ export function StepsSyncCard({ syncToken }: { syncToken: string }) {
           </button>
           <p className="text-xs font-semibold text-foreground/80">Option A — free (iOS Shortcuts):</p>
           <ol className="space-y-1.5 list-decimal list-inside text-xs leading-relaxed">
-            <li>iPhone → <b>Shortcuts</b> app → new Shortcut</li>
+            <li>iPhone → <b>Shortcuts</b> app → new Shortcut, name it exactly <b>&quot;Ascend Sync&quot;</b></li>
             <li>Add <b>&quot;Find Health Samples&quot;</b> → type: Steps, today, group by day → Sum</li>
             <li>Add <b>&quot;Get Contents of URL&quot;</b> → paste the URL, replace <code className="text-accent">[STEPS]</code> with the Health Samples variable</li>
-            <li>Automation tab → <b>Time of Day</b> (e.g. 9 PM daily) → run this Shortcut → turn off &quot;Ask Before Running&quot;</li>
+            <li>Done — the <b>Sync button</b> on this dashboard (visible on iPhone) runs it with one tap and brings you right back</li>
+            <li>Optional backup: Automation tab → <b>Time of Day</b> 9 PM daily → run &quot;Ascend Sync&quot; → turn off &quot;Ask Before Running&quot;</li>
           </ol>
+          <p className="text-xs text-muted/70">
+            Every sync sends the full day total and <b>replaces</b> the stored value — sync as often as you
+            like, nothing double-counts. Each hour&apos;s snapshot builds your hour-by-hour chart.
+          </p>
           <p className="text-xs font-semibold text-foreground/80 pt-1">
             Option B — hands-off (Health Auto Export app, hourly, includes distance + sleep + heart rate):
           </p>

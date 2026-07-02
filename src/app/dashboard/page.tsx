@@ -5,6 +5,7 @@ import { TodayPanel } from "@/components/dashboard/today-panel";
 import { StreakCard } from "@/components/dashboard/streak-card";
 import { WeekStrip } from "@/components/dashboard/week-strip";
 import { StepsSyncCard } from "@/components/dashboard/steps-sync-card";
+import { RefreshOnFocus } from "@/components/refresh-on-focus";
 import type { TransformationPlan } from "@/lib/types";
 
 export default async function DashboardPage() {
@@ -52,6 +53,7 @@ export default async function DashboardPage() {
 
   return (
     <div className="flex-1">
+      <RefreshOnFocus />
       <Nav avatarUrl={profile.avatar_url} name={profile.full_name} active="dashboard" />
 
       <main className="max-w-5xl mx-auto px-4 py-8 space-y-6">

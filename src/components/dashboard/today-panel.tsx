@@ -1,12 +1,52 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { updateStreak } from "@/lib/streak";
 import type { DailyCheckin, TransformationPlan } from "@/lib/types";
-import { Footprints, Check, Droplets, Moon, Scale, Loader2 } from "lucide-react";
+import { Footprints, Check, Droplets, Moon, Scale, Loader2, RefreshCw } from "lucide-react";
+
+/** Name your iOS Shortcut exactly this for the one-tap sync button. */
+const SHORTCUT_NAME = "Ascend Sync";
 
 const MOODS = ["🔥 Unstoppable", "😊 Good", "😐 Okay", "😮‍💨 Tired", "😞 Rough"];
+
+/**
+ * Apple Health-style hourly breakdown. Snapshots are cumulative day totals
+ * keyed by IST hour ("06" → 3500), so per-hour steps are the diffs between
+ * consecutive snapshots.
+ */
+function HourlyBars({ hourly }: { hourly: Record<string, number> }) {
+  const entries = Object.entries(hourly)
+    .map(([h, v]) => ({ hour: parseInt(h), total: Number(v) || 0 }))
+    .sort((a, b) => a.hour - b.hour);
+
+  const bars = entries.map((e, i) => ({
+    hour: e.hour,
+    gained: Math.max(0, e.total - (i > 0 ? entries[i - 1].total : 0)),
+  }));
+  const max = Math.max(...bars.map((b) => b.gained), 1);
+
+  return (
+    <div className="mt-4">
+      <p className="text-[10px] text-muted uppercase tracking-wide mb-1.5">Hour by hour</p>
+      <div className="flex items-end gap-1 h-14">
+        {bars.map((b) => (
+          <div key={b.hour} className="flex-1 flex flex-col items-center gap-1 group relative">
+            <div
+              className="w-full rounded-t bg-gradient-to-t from-violet-500 to-fuchsia-400 min-h-0.5 transition-all"
+              style={{ height: `${Math.max(4, (b.gained / max) * 100)}%` }}
+            />
+            <span className="text-[9px] text-muted/60">{b.hour}</span>
+            <span className="absolute -top-5 opacity-0 group-hover:opacity-100 transition-opacity text-[10px] bg-surface-2 border border-white/10 rounded px-1.5 py-0.5 whitespace-nowrap pointer-events-none">
+              +{b.gained.toLocaleString()}
+            </span>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
 
 export function TodayPanel({
   userId,
@@ -39,6 +79,29 @@ export function TodayPanel({
   const [saving, setSaving] = useState(false);
   const [savedAt, setSavedAt] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isIos, setIsIos] = useState(false);
+
+  useEffect(() => {
+    setIsIos(/iPhone|iPad|iPod/i.test(navigator.userAgent));
+  }, []);
+
+  // When a phone sync lands and the page refreshes, adopt the fresher server
+  // value (unless the user typed a bigger number locally).
+  useEffect(() => {
+    const serverSteps = initialCheckin?.steps ?? 0;
+    if (serverSteps > 0) {
+      setSteps((cur) => Math.max(cur, serverSteps));
+    }
+  }, [initialCheckin?.steps]);
+
+  function runSyncShortcut() {
+    const back = encodeURIComponent(window.location.href);
+    window.location.href = `shortcuts://x-callback-url/run-shortcut?name=${encodeURIComponent(
+      SHORTCUT_NAME
+    )}&x-success=${back}`;
+  }
+
+  const hourlySteps = initialCheckin?.health?.hourly_steps ?? null;
 
   function isTaskDone(task: string, i: number): boolean {
     if (i === stepsTaskIndex) return steps >= stepsTarget;
@@ -160,7 +223,19 @@ export function TodayPanel({
             <button onClick={commitSteps} disabled={saving} className="btn-ghost !py-2 text-sm shrink-0">
               Update
             </button>
+            {isIos && (
+              <button
+                onClick={runSyncShortcut}
+                className="btn-primary !py-2 !px-3.5 text-sm shrink-0"
+                title={`Runs your "${SHORTCUT_NAME}" Shortcut and comes right back`}
+              >
+                <RefreshCw className="w-4 h-4" /> Sync
+              </button>
+            )}
           </div>
+          {hourlySteps && Object.keys(hourlySteps).length > 1 && (
+            <HourlyBars hourly={hourlySteps} />
+          )}
         </div>
       </div>
 

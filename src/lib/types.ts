@@ -127,6 +127,12 @@ export type DailyCheckin = {
   tasks: Record<string, boolean>;
   completion_pct: number;
   notes: string | null;
+  distance_km?: number | null;
+  heart_rate_avg?: number | null;
+  health?: {
+    hourly_steps?: Record<string, number>;
+    [key: string]: unknown;
+  } | null;
 };
 
 export type Streak = {
