@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
 import { IncomeChart } from "@/components/goals/income-chart";
+import { RevenueCard } from "@/components/goals/revenue-card";
 import type { TransformationPlan } from "@/lib/types";
 import {
   Dumbbell,
@@ -22,7 +23,7 @@ export default async function PlanPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const [{ data: profile }, { data: planRow }, { data: goals }, { data: goalProgress }] =
+  const [{ data: profile }, { data: planRow }, { data: goals }, { data: goalProgress }, { data: incomeEvents }] =
     await Promise.all([
       supabase.from("profiles").select("full_name, avatar_url, theme").eq("id", user.id).single(),
       supabase
@@ -45,6 +46,12 @@ export default async function PlanPage() {
         .eq("user_id", user.id)
         .order("created_at", { ascending: false })
         .limit(10),
+      supabase
+        .from("income_events")
+        .select("source, amount, currency, received_at")
+        .eq("user_id", user.id)
+        .order("received_at", { ascending: false })
+        .limit(500),
     ]);
 
   if (!planRow) redirect("/onboarding");
@@ -62,6 +69,16 @@ export default async function PlanPage() {
           <h1 className="text-3xl font-bold mt-1">Your roadmap</h1>
           <p className="text-muted mt-3 max-w-3xl leading-relaxed">{plan.summary}</p>
         </header>
+
+        <RevenueCard
+          events={incomeEvents ?? []}
+          targetValue={
+            (goals ?? []).find((g) => g.category === "income")?.target_value != null
+              ? Number((goals ?? []).find((g) => g.category === "income")!.target_value)
+              : null
+          }
+          targetMetric={(goals ?? []).find((g) => g.category === "income")?.target_metric ?? null}
+        />
 
         {(goals ?? []).length > 0 && (
           <section id="goals" className="glass p-6 fade-up border-warning/15" style={{ animationDelay: "0.03s" }}>

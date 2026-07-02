@@ -1,6 +1,9 @@
 import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import webpush from "web-push";
 
+/** Rough FX used everywhere income is converted (matches the log_income SQL). */
+export const INR_PER_USD = 84;
+
 /** Shared helper for payment webhooks: log via RPC, then celebrate via push. */
 
 export function anonClient() {
