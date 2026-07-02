@@ -18,7 +18,7 @@ export default async function OnboardingPage() {
   if (profile?.onboarding_completed) redirect("/dashboard");
 
   return (
-    <div className="flex-1 flex flex-col items-center px-4 py-10">
+    <div className="flex-1 flex flex-col items-center px-4 pb-10 pt-[calc(2rem+env(safe-area-inset-top))]">
       <OnboardingWizard
         userId={user.id}
         initialName={profile?.full_name ?? ""}

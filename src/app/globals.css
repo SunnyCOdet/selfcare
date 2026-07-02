@@ -29,6 +29,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -36,6 +37,48 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+  overscroll-behavior-y: none;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  touch-action: manipulation;
+}
+
+/* Native-feel press states on touch devices */
+@media (hover: none) {
+  .btn-primary:active:not(:disabled) {
+    transform: scale(0.96);
+    opacity: 0.9;
+  }
+  .btn-ghost:active:not(:disabled),
+  .chip:active {
+    transform: scale(0.95);
+  }
+  .glass-hover:active {
+    border-color: rgba(139, 92, 246, 0.4);
+    transform: scale(0.99);
+  }
+}
+
+/* Tighter cards + comfortable tap targets on phones */
+@media (max-width: 767px) {
+  .glass {
+    border-radius: 1rem;
+  }
+  .chip {
+    padding: 0.6rem 1.15rem;
+  }
+  .input-field {
+    font-size: 16px; /* prevents iOS auto-zoom on focus */
+  }
 }
 
 /* Ambient glow backdrop */

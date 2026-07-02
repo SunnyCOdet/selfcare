@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Flame, LayoutDashboard, Map, TrendingUp, LogOut, Sparkles } from "lucide-react";
+import { BottomNav } from "@/components/bottom-nav";
 
 export function Nav({
   avatarUrl,
@@ -19,8 +20,9 @@ export function Nav({
   ] as const;
 
   return (
-    <nav className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-white/5">
-      <div className="max-w-5xl mx-auto px-4 h-16 flex items-center justify-between">
+    <>
+    <nav className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-white/5 pt-[env(safe-area-inset-top)]">
+      <div className="max-w-5xl mx-auto px-4 h-14 md:h-16 flex items-center justify-between">
         <Link href="/dashboard" className="flex items-center gap-2 font-bold text-lg">
           <span className="w-8 h-8 rounded-lg bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center">
             <Flame className="w-4.5 h-4.5 text-white" />
@@ -28,7 +30,7 @@ export function Nav({
           Ascend
         </Link>
 
-        <div className="flex items-center gap-1">
+        <div className="hidden md:flex items-center gap-1">
           {links.map((l) => (
             <Link
               key={l.key}
@@ -67,5 +69,7 @@ export function Nav({
         </div>
       </div>
     </nav>
+    <BottomNav active={active} />
+    </>
   );
 }

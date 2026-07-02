@@ -167,8 +167,8 @@ export function TodayPanel({
   return (
     <div className="space-y-6">
       {/* Completion + steps hero */}
-      <div className="glass p-6 fade-up flex items-center gap-6">
-        <div className="relative w-28 h-28 shrink-0">
+      <div className="glass p-5 md:p-6 fade-up flex items-center gap-4 md:gap-6">
+        <div className="relative w-24 h-24 md:w-28 md:h-28 shrink-0">
           <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
             <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.07)" strokeWidth="8" />
             <circle
@@ -196,12 +196,12 @@ export function TodayPanel({
           </div>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <Footprints className="w-5 h-5 text-accent" />
-            <h2 className="font-semibold">Steps — the non-negotiable</h2>
+            <Footprints className="w-5 h-5 text-accent shrink-0" />
+            <h2 className="font-semibold text-sm md:text-base">Steps — the non-negotiable</h2>
           </div>
-          <p className="text-3xl font-bold">
+          <p className="text-2xl md:text-3xl font-bold">
             {steps.toLocaleString()}{" "}
             <span className="text-base font-normal text-muted">/ {stepsTarget.toLocaleString()}</span>
           </p>
@@ -213,9 +213,9 @@ export function TodayPanel({
           </div>
           <div className="flex gap-2 mt-3">
             <input
-              className="input-field !py-2 text-sm"
+              className="input-field !py-2 text-sm min-w-0"
               type="number"
-              placeholder="Enter today's steps..."
+              placeholder="Today's steps..."
               value={stepsInput}
               onChange={(e) => setStepsInput(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && commitSteps()}

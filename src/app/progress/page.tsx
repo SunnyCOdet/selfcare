@@ -46,7 +46,7 @@ export default async function ProgressPage() {
     <div className="flex-1">
       <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="progress" />
 
-      <main className="max-w-5xl mx-auto px-4 py-8 space-y-6">
+      <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
         <header className="fade-up">
           <h1 className="text-3xl font-bold">Progress</h1>
           <p className="text-muted mt-1">The camera and the scale don&apos;t lie. Neither does consistency.</p>

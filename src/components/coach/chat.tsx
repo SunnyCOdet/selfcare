@@ -65,8 +65,8 @@ export function CoachChat({
   }
 
   return (
-    <div className="flex-1 flex flex-col max-w-3xl w-full mx-auto px-4 pb-4">
-      <div className="flex-1 overflow-y-auto py-6 space-y-4">
+    <div className="flex flex-col max-w-3xl w-full mx-auto px-4 h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] md:h-[calc(100dvh-4rem)]">
+      <div className="flex-1 min-h-0 overflow-y-auto py-5 space-y-4">
         {messages.length === 0 && !loading && (
           <div className="text-center py-16">
             <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-4">
@@ -130,7 +130,7 @@ export function CoachChat({
         <div ref={bottomRef} />
       </div>
 
-      <div className="space-y-3 pt-2 border-t border-white/5">
+      <div className="space-y-3 pt-2 border-t border-white/5 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-4">
         <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1">
           {QUICK_ACTIONS.map((a) => (
             <button

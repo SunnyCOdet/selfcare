@@ -76,19 +76,31 @@ export default async function DashboardPage() {
       <RefreshOnFocus />
       <Nav avatarUrl={profile.avatar_url} name={profile.full_name} active="dashboard" />
 
-      <main className="max-w-5xl mx-auto px-4 py-8 space-y-6">
-        <header className="fade-up">
-          <h1 className="text-3xl font-bold">
-            {greeting}, <span className="gradient-text">{firstName}</span>
-          </h1>
-          <p className="text-muted mt-1">
-            {new Date().toLocaleDateString("en-IN", {
-              weekday: "long",
-              day: "numeric",
-              month: "long",
-            })}{" "}
-            — every checked box is a brick in the new you.
-          </p>
+      <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
+        <header className="fade-up flex items-start justify-between gap-3">
+          <div>
+            <h1 className="text-2xl md:text-3xl font-bold">
+              {greeting}, <span className="gradient-text">{firstName}</span>
+            </h1>
+            <p className="text-muted mt-1 text-sm md:text-base">
+              {new Date().toLocaleDateString("en-IN", {
+                weekday: "long",
+                day: "numeric",
+                month: "long",
+              })}{" "}
+              — every checked box is a brick in the new you.
+            </p>
+          </div>
+          <div
+            className={`lg:hidden shrink-0 flex items-center gap-1.5 rounded-full px-3.5 py-2 border ${
+              (streak?.current_streak ?? 0) > 0
+                ? "bg-gradient-to-br from-orange-500/20 to-rose-500/15 border-orange-500/30 text-orange-300"
+                : "bg-surface-2 border-white/10 text-muted/60"
+            }`}
+          >
+            <span className="text-base leading-none">🔥</span>
+            <span className="font-bold text-sm leading-none">{streak?.current_streak ?? 0}</span>
+          </div>
         </header>
 
         {!todayCoachMsg && (
@@ -109,8 +121,8 @@ export default async function DashboardPage() {
           </Link>
         )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-2 space-y-6">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap-6">
+          <div className="lg:col-span-2 space-y-5 md:space-y-6">
             <TodayPanel
               userId={user.id}
               plan={plan}
@@ -124,7 +136,7 @@ export default async function DashboardPage() {
             />
           </div>
 
-          <div className="space-y-6">
+          <div className="space-y-5 md:space-y-6">
             <StreakCard streak={streak} />
             <WeekStrip checkins={recentCheckins ?? []} />
             <TodaySchedule plan={plan} />
