@@ -10,7 +10,7 @@ export type IncomeEvent = {
   received_at: string;
 };
 
-const INR_PER_USD = 84;
+const INR_PER_USD = 100;
 
 function istDate(ts: string): string {
   return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date(ts));

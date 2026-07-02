@@ -95,17 +95,17 @@ const sig1 = crypto.createHmac("sha256", SECRET).update(body1).digest("hex");
 const t1 = await postRazorpay(body1, sig1);
 check("route returns 200", t1.status === 200, `got ${t1.status}: ${JSON.stringify(t1).slice(0, 200)}`);
 check("goal updated", t1.goal_updated === true, JSON.stringify(t1).slice(0, 200));
-check("month total = $1000 (84000/84)", Math.abs((t1.month_total ?? 0) - 1000) < 1, `total=${t1.month_total}`);
+check("month total = $840 (84000/100)", Math.abs((t1.month_total ?? 0) - 840) < 1, `total=${t1.month_total}`);
 
 const { data: g1 } = await supabase.from("goals").select("current_value").eq("id", goal.id).single();
-check("goal current_value = 1000", Math.abs(Number(g1.current_value) - 1000) < 1, `value=${g1.current_value}`);
+check("goal current_value = 840", Math.abs(Number(g1.current_value) - 840) < 1, `value=${g1.current_value}`);
 
 // ============ TEST 2: retry (same payment id) doesn't double-count ============
 console.log("\nTEST 2: webhook retry is idempotent");
 const t2 = await postRazorpay(body1, sig1);
 check("duplicate flagged", t2.duplicate === true, JSON.stringify(t2).slice(0, 200));
 const { data: g2 } = await supabase.from("goals").select("current_value").eq("id", goal.id).single();
-check("value unchanged", Math.abs(Number(g2.current_value) - 1000) < 1, `value=${g2.current_value}`);
+check("value unchanged", Math.abs(Number(g2.current_value) - 840) < 1, `value=${g2.current_value}`);
 
 // ============ TEST 3: bad signature rejected ============
 console.log("\nTEST 3: tampered payload rejected");
@@ -125,7 +125,7 @@ const t4res = await fetch(`${APP}/api/webhooks/paypal?token=${TOKEN}`, {
 });
 const t4 = { status: t4res.status, ...(await t4res.json().catch(() => ({}))) };
 check("route returns 200", t4.status === 200, `got ${t4.status}: ${JSON.stringify(t4).slice(0, 200)}`);
-check("month total = $1500", Math.abs((t4.month_total ?? 0) - 1500) < 1, `total=${t4.month_total}`);
+check("month total = $1340", Math.abs((t4.month_total ?? 0) - 1340) < 1, `total=${t4.month_total}`);
 
 // ============ TEST 5: everything landed in the right places ============
 console.log("\nTEST 5: trail — events, progress log, coach message");
@@ -155,7 +155,7 @@ const { data: msgs } = await supabase
 check("2 coach messages", (msgs ?? []).length === 2, `msgs=${msgs?.length}`);
 check(
   "message references month total",
-  (msgs ?? []).some((m) => m.content.includes("1500")),
+  (msgs ?? []).some((m) => m.content.includes("1340")),
   JSON.stringify(msgs).slice(0, 200)
 );
 
