@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { updateStreak } from "@/lib/streak";
 import type { DailyCheckin, TransformationPlan } from "@/lib/types";
-import { Footprints, Check, Droplets, Moon, Scale, Loader2, RefreshCw } from "lucide-react";
+import { Footprints, Check, Droplets, Moon, Scale, Loader2, RefreshCw, ChevronDown } from "lucide-react";
 
 /** Name your iOS Shortcut exactly this for the one-tap sync button. */
 const SHORTCUT_NAME = "Ascend Sync";
@@ -281,9 +281,15 @@ export function TodayPanel({
         </div>
       </div>
 
-      {/* Metrics */}
-      <div className="glass p-6 fade-up" style={{ animationDelay: "0.1s" }}>
-        <h3 className="font-semibold mb-4">Log today</h3>
+      {/* Metrics — collapsed by default to keep the screen calm */}
+      <details className="glass fade-up group" style={{ animationDelay: "0.1s" }}>
+        <summary className="list-none cursor-pointer p-5 md:p-6 flex items-center justify-between">
+          <h3 className="text-[11px] font-semibold uppercase tracking-widest text-muted">
+            Log water · sleep · weight · mood
+          </h3>
+          <ChevronDown className="w-4 h-4 text-muted transition-transform group-open:rotate-180" />
+        </summary>
+        <div className="px-5 md:px-6 pb-5 md:pb-6">
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
           <div>
             <label className="text-xs text-muted uppercase tracking-wide mb-1.5 flex items-center gap-1">
@@ -332,7 +338,8 @@ export function TodayPanel({
           {savedAt && !saving && <span className="text-xs text-success">Saved at {savedAt} ✓</span>}
           {error && <span className="text-xs text-red-400">{error}</span>}
         </div>
-      </div>
+        </div>
+      </details>
     </div>
   );
 }

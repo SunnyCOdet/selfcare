@@ -30,20 +30,29 @@ You can attach ONE action to any reply. Use an action whenever the client asks y
 3. "create_theme" — design a NEW template when no preset fits the vibe the client asks for (e.g. "cyberpunk", "rose gold", "stealth wealth"). You choose the palette. Rules: dark background (very dark, near-black — the UI chrome assumes dark), high contrast foreground, all values valid hex colors. Variables you may set: ${THEME_VAR_KEYS.join(", ")}.
    Set: {"type": "create_theme", "name": "<Template Name>", "vars": {"--background": "#0a0a0f", ...}}
 
+4. "create_goal" — you manage the client's LIFE GOALS, not just fitness: income ("$10k/month"), career ("sign with a modeling agency"), skills, anything. BEFORE creating, interview them across a few messages like a strategist: the goal + why, deadline, current baseline, existing skills/assets/contacts, hours/week available. THEN create it with a milestone roadmap (4-8 concrete milestones with deadlines, each a real deliverable — "first paying client", not "work harder").
+   Set: {"type": "create_goal", "goal": {"title": string, "why": string, "category": "income"|"career"|"skill"|"body"|"life", "target_metric": string|null, "target_value": number|null, "current_value": number, "deadline": "YYYY-MM-DD"|null, "hours_per_week": number|null, "milestones": [{"title": string, "deadline": "YYYY-MM-DD"|null, "status": "pending"}]}}
+   After creating a goal, usually also suggest an update_plan to weave its weekly hours into their schedule (but only do BOTH when they agree).
+
+5. "update_goal" — log progress or change a goal when the client reports anything ("closed a ₹40k client", "hit 5k followers", "pause the agency goal"). Set: {"type": "update_goal", "goal_title": "<title, close match ok>", "progress_note": string, "new_value": number|null, "milestone_done": "<milestone title if one was completed>"|null, "status": "active"|"achieved"|"paused"|"dropped"|null}
+
+6. "remember" — save a durable fact you'll want in future conversations (injury, preference, person, win, fear). Use liberally whenever the client reveals something lasting. Set: {"type": "remember", "category": "preference"|"fact"|"person"|"win"|"struggle", "content": "<one clear sentence>"}
+
 Rules:
-- Only act when the client clearly requests a change or explicitly agrees to your suggestion. Questions get action: null.
+- Only act when the client clearly requests a change or explicitly agrees to your suggestion (exception: "remember" — use whenever something durable comes up).
 - In your reply, confirm concretely what you changed ("Done — recomp at 2400 kcal, protein stays at 170g...").
-- You have the client's full context (profile, plan, streak, last 7 days, today's food). USE IT — reference real numbers. Never generic advice when specific is possible.
+- You have the client's full context (profile, plan, streak, last 7 days, today's food, goals with milestones, recent goal progress, and your saved memories). USE IT — reference real numbers and stale milestones. Never generic advice when specific is possible.
 - Keep replies under 150 words unless they ask for detail.
 - Never prescribe medication or diagnose. Pain/injury beyond soreness → see a professional.
 
-Respond with JSON: {"reply": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object}}`;
+Respond with JSON: {"reply": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string}}`;
 
-const CHECKIN_INSTRUCTION = `This is the proactive DAILY CHECK-IN you initiate each day. Look at yesterday's and recent data:
+const CHECKIN_INSTRUCTION = `This is the proactive DAILY CHECK-IN you initiate each day. This covers their WHOLE life — body AND goals. Look at yesterday's and recent data:
 - If they crushed it, open by acknowledging it specifically.
 - If they missed steps/tasks/sleep, mention it directly but constructively.
-- Then ask 2-3 sharp check-in questions about today (energy, plan for hitting steps, meals, anything their recent data makes relevant).
-Keep it under 120 words total. action must be null.`;
+- Check their goals: any milestone with no progress logged recently or a deadline approaching? Call it out by name ("the portfolio milestone hasn't moved in 9 days").
+- Then ask 2-3 sharp check-in questions about today (energy, plan for steps, and at least one about their top goal's next milestone).
+Keep it under 130 words total. action must be null.`;
 
 const REVIEW_INSTRUCTION = `This is a WEEKLY REVIEW the client requested. Analyze the last 7 days of data: average steps vs 20k target, completion %, sleep, food logs, streak. Give:
 1. A headline verdict (one line)
@@ -66,11 +75,45 @@ ${PLAN_JSON_SPEC}
 
 ${PLAN_RULES}`;
 
+type Milestone = { title: string; deadline?: string | null; status?: string };
+
 type CoachAction =
   | { type: "update_plan"; instructions: string }
   | { type: "switch_theme"; theme: string }
   | { type: "create_theme"; name: string; vars: Record<string, string> }
+  | {
+      type: "create_goal";
+      goal: {
+        title: string;
+        why?: string;
+        category?: string;
+        target_metric?: string | null;
+        target_value?: number | null;
+        current_value?: number;
+        deadline?: string | null;
+        hours_per_week?: number | null;
+        milestones?: Milestone[];
+      };
+    }
+  | {
+      type: "update_goal";
+      goal_title: string;
+      progress_note?: string;
+      new_value?: number | null;
+      milestone_done?: string | null;
+      status?: string | null;
+    }
+  | { type: "remember"; category?: string; content: string }
   | null;
+
+const GOAL_CATEGORIES = ["income", "career", "skill", "body", "life"];
+const GOAL_STATUSES = ["active", "achieved", "paused", "dropped"];
+const MEMORY_CATEGORIES = ["preference", "fact", "person", "win", "struggle"];
+const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+
+function cleanDate(d: unknown): string | null {
+  return typeof d === "string" && DATE_RE.test(d) ? d : null;
+}
 
 export async function POST(req: Request) {
   const supabase = await createClient();
@@ -137,6 +180,8 @@ Reply as Coach now.`;
 
     let planUpdated = false;
     let themeUpdated = false;
+    let goalUpdated = false;
+    let memorySaved = false;
     let planVersion: number | null = null;
 
     // ---- Execute the agent's action ----
@@ -201,6 +246,84 @@ Return the full updated JSON plan now.`;
       } else {
         reply += `\n\n⚠️ The template I designed didn't pass validation — ask me to try again.`;
       }
+    } else if (action?.type === "create_goal" && action.goal?.title) {
+      try {
+        const g = action.goal;
+        const milestones = (Array.isArray(g.milestones) ? g.milestones : [])
+          .filter((m) => m && typeof m.title === "string")
+          .slice(0, 12)
+          .map((m) => ({
+            title: m.title.slice(0, 200),
+            deadline: cleanDate(m.deadline),
+            status: "pending",
+          }));
+        const { error: goalErr } = await supabase.from("goals").insert({
+          user_id: user.id,
+          title: g.title.slice(0, 200),
+          why: g.why?.slice(0, 500) ?? null,
+          category: GOAL_CATEGORIES.includes(g.category ?? "") ? g.category : "life",
+          target_metric: g.target_metric?.slice(0, 100) ?? null,
+          target_value: typeof g.target_value === "number" ? g.target_value : null,
+          current_value: typeof g.current_value === "number" ? g.current_value : 0,
+          deadline: cleanDate(g.deadline),
+          hours_per_week: typeof g.hours_per_week === "number" ? g.hours_per_week : null,
+          milestones,
+        });
+        if (goalErr) throw new Error(goalErr.message);
+        goalUpdated = true;
+        reply += `\n\n🎯 Goal locked in with ${milestones.length} milestones.`;
+      } catch (e) {
+        console.error("create_goal failed:", e);
+        reply += `\n\n⚠️ I couldn't save the goal — try again.`;
+      }
+    } else if (action?.type === "update_goal" && action.goal_title) {
+      try {
+        const { data: goal } = await supabase
+          .from("goals")
+          .select("id, title, current_value, milestones")
+          .eq("user_id", user.id)
+          .ilike("title", `%${action.goal_title.slice(0, 100)}%`)
+          .limit(1)
+          .maybeSingle();
+        if (!goal) throw new Error(`no goal matching "${action.goal_title}"`);
+
+        const updates: Record<string, unknown> = {};
+        if (typeof action.new_value === "number") updates.current_value = action.new_value;
+        if (action.status && GOAL_STATUSES.includes(action.status)) updates.status = action.status;
+        if (action.milestone_done) {
+          const ms = (goal.milestones as Milestone[]).map((m) =>
+            m.title.toLowerCase().includes(action.milestone_done!.toLowerCase())
+              ? { ...m, status: "done" }
+              : m
+          );
+          updates.milestones = ms;
+        }
+        if (Object.keys(updates).length > 0) {
+          const { error: upErr } = await supabase.from("goals").update(updates).eq("id", goal.id);
+          if (upErr) throw new Error(upErr.message);
+        }
+        if (action.progress_note) {
+          await supabase.from("goal_progress").insert({
+            goal_id: goal.id,
+            user_id: user.id,
+            note: action.progress_note.slice(0, 500),
+            new_value: typeof action.new_value === "number" ? action.new_value : null,
+            milestone: action.milestone_done?.slice(0, 200) ?? null,
+          });
+        }
+        goalUpdated = true;
+        reply += `\n\n🎯 Progress logged on "${goal.title}".`;
+      } catch (e) {
+        console.error("update_goal failed:", e);
+        reply += `\n\n⚠️ Couldn't log that against a goal (${e instanceof Error ? e.message : "error"}).`;
+      }
+    } else if (action?.type === "remember" && action.content) {
+      const { error: memErr } = await supabase.from("agent_memories").insert({
+        user_id: user.id,
+        category: MEMORY_CATEGORIES.includes(action.category ?? "") ? action.category : "fact",
+        content: action.content.slice(0, 500),
+      });
+      if (!memErr) memorySaved = true;
     }
 
     const rows = [];
@@ -216,6 +339,8 @@ Return the full updated JSON plan now.`;
       plan_updated: planUpdated,
       plan_version: planVersion,
       theme_updated: themeUpdated,
+      goal_updated: goalUpdated,
+      memory_saved: memorySaved,
     });
   } catch (e) {
     console.error("coach error:", e);

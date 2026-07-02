@@ -3,11 +3,19 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Sparkles, Send, Loader2, Map, Palette } from "lucide-react";
+import { Sparkles, Send, Loader2, Map, Palette, Target } from "lucide-react";
 
-type Msg = { role: string; content: string; kind?: string; planUpdated?: boolean; themeUpdated?: boolean };
+type Msg = {
+  role: string;
+  content: string;
+  kind?: string;
+  planUpdated?: boolean;
+  themeUpdated?: boolean;
+  goalUpdated?: boolean;
+};
 
 const QUICK_ACTIONS = [
+  { label: "🎯 Set a new goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
   { label: "🍽️ What should I eat right now?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
   { label: "📊 Review my week", message: "", kind: "weekly_review" },
   { label: "🔧 Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
@@ -68,10 +76,11 @@ export function CoachChat({
           kind,
           planUpdated: !!data.plan_updated,
           themeUpdated: !!data.theme_updated,
+          goalUpdated: !!data.goal_updated,
         },
       ]);
-      // Theme/plan changes affect server-rendered UI — refresh so they apply live
-      if (data.theme_updated || data.plan_updated) router.refresh();
+      // Theme/plan/goal changes affect server-rendered UI — refresh so they apply live
+      if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
@@ -135,6 +144,11 @@ export function CoachChat({
                 {m.themeUpdated && (
                   <span className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-accent bg-accent/10 border border-accent/25 rounded-full px-3 py-1.5 w-fit">
                     <Palette className="w-3.5 h-3.5" /> New template applied
+                  </span>
+                )}
+                {m.goalUpdated && (
+                  <span className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-warning bg-warning/10 border border-warning/25 rounded-full px-3 py-1.5 w-fit">
+                    <Target className="w-3.5 h-3.5" /> Goal updated
                   </span>
                 )}
               </div>

@@ -4,11 +4,11 @@
  * All providers return parsed JSON from a prompt.
  */
 
-type Provider = "gemini" | "openai" | "anthropic";
+type Provider = "gemini" | "openai" | "anthropic" | "deepseek";
 
 function getProvider(): Provider {
   const p = (process.env.AI_PROVIDER || "gemini").toLowerCase();
-  if (p === "openai" || p === "anthropic") return p;
+  if (p === "openai" || p === "anthropic" || p === "deepseek") return p;
   return "gemini";
 }
 
@@ -16,6 +16,7 @@ export function aiConfigured(): boolean {
   const p = getProvider();
   if (p === "gemini") return !!process.env.GEMINI_API_KEY;
   if (p === "openai") return !!process.env.OPENAI_API_KEY;
+  if (p === "deepseek") return !!process.env.DEEPSEEK_API_KEY;
   return !!process.env.ANTHROPIC_API_KEY;
 }
 
@@ -75,32 +76,66 @@ async function callGemini(system: string, user: string): Promise<string> {
   return text;
 }
 
-async function callOpenAI(system: string, user: string): Promise<string> {
-  const model = process.env.OPENAI_MODEL || "gpt-4o";
-  const res = await fetch("https://api.openai.com/v1/chat/completions", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model,
-      messages: [
-        { role: "system", content: system },
-        { role: "user", content: user },
-      ],
-      response_format: { type: "json_object" },
-      temperature: 0.7,
-    }),
-  });
+/** OpenAI-compatible chat completions (OpenAI, DeepSeek, and other compat APIs). */
+async function callOpenAICompat(
+  baseUrl: string,
+  apiKey: string,
+  model: string,
+  label: string,
+  system: string,
+  user: string
+): Promise<string> {
+  const res = await fetchWithRetry(
+    () =>
+      fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model,
+          messages: [
+            { role: "system", content: system },
+            { role: "user", content: user },
+          ],
+          response_format: { type: "json_object" },
+          temperature: 0.7,
+          max_tokens: 8000,
+        }),
+      }),
+    label
+  );
   if (!res.ok) {
     const body = await res.text();
-    throw new Error(`OpenAI API error ${res.status}: ${body.slice(0, 500)}`);
+    throw new Error(`${label} API error ${res.status}: ${body.slice(0, 500)}`);
   }
   const data = await res.json();
   const text = data?.choices?.[0]?.message?.content;
-  if (!text) throw new Error("OpenAI returned no content");
+  if (!text) throw new Error(`${label} returned no content`);
   return text;
+}
+
+function callOpenAI(system: string, user: string): Promise<string> {
+  return callOpenAICompat(
+    "https://api.openai.com/v1",
+    process.env.OPENAI_API_KEY!,
+    process.env.OPENAI_MODEL || "gpt-4o",
+    "OpenAI",
+    system,
+    user
+  );
+}
+
+function callDeepSeek(system: string, user: string): Promise<string> {
+  return callOpenAICompat(
+    "https://api.deepseek.com",
+    process.env.DEEPSEEK_API_KEY!,
+    process.env.DEEPSEEK_MODEL || "deepseek-v4-flash",
+    "DeepSeek",
+    system,
+    user
+  );
 }
 
 async function callAnthropic(system: string, user: string): Promise<string> {
@@ -144,6 +179,7 @@ export async function generateJSON<T>(system: string, user: string): Promise<T> 
   const provider = getProvider();
   let raw: string;
   if (provider === "openai") raw = await callOpenAI(system, user);
+  else if (provider === "deepseek") raw = await callDeepSeek(system, user);
   else if (provider === "anthropic") raw = await callAnthropic(system, user);
   else raw = await callGemini(system, user);
   return extractJson(raw) as T;
@@ -284,6 +320,55 @@ export async function generateJSONWithImage<T>(
   if (provider === "openai") raw = await callOpenAIVision(system, user, imageBase64, mimeType);
   else if (provider === "anthropic")
     raw = await callAnthropicVision(system, user, imageBase64, mimeType);
-  else raw = await callGeminiVision(system, user, imageBase64, mimeType);
+  else {
+    // DeepSeek's chat API is text-only — vision falls back to Gemini
+    if (provider === "deepseek" && !process.env.GEMINI_API_KEY) {
+      throw new Error("Photo analysis needs GEMINI_API_KEY (DeepSeek has no vision support)");
+    }
+    raw = await callGeminiVision(system, user, imageBase64, mimeType);
+  }
   return extractJson(raw) as T;
+}
+
+/** Multi-image vision (photo comparisons). Gemini-backed. */
+export async function generateJSONWithImages<T>(
+  system: string,
+  user: string,
+  images: { data: string; mimeType: string }[]
+): Promise<T> {
+  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+  const res = await fetchWithRetry(
+    () =>
+      fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-goog-api-key": process.env.GEMINI_API_KEY!,
+        },
+        body: JSON.stringify({
+          system_instruction: { parts: [{ text: system }] },
+          contents: [
+            {
+              role: "user",
+              parts: [
+                ...images.map((img) => ({
+                  inline_data: { mime_type: img.mimeType, data: img.data },
+                })),
+                { text: user },
+              ],
+            },
+          ],
+          generationConfig: { responseMimeType: "application/json", temperature: 0.4 },
+        }),
+      }),
+    "Gemini multi-vision"
+  );
+  if (!res.ok) {
+    const body = await res.text();
+    throw new Error(`Gemini API error ${res.status}: ${body.slice(0, 500)}`);
+  }
+  const data = await res.json();
+  const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!text) throw new Error("Gemini returned no content");
+  return extractJson(text) as T;
 }

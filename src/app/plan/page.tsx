@@ -21,17 +21,30 @@ export default async function PlanPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const [{ data: profile }, { data: planRow }] = await Promise.all([
-    supabase.from("profiles").select("full_name, avatar_url").eq("id", user.id).single(),
-    supabase
-      .from("transformation_plans")
-      .select("plan, version, created_at")
-      .eq("user_id", user.id)
-      .eq("status", "active")
-      .order("created_at", { ascending: false })
-      .limit(1)
-      .maybeSingle(),
-  ]);
+  const [{ data: profile }, { data: planRow }, { data: goals }, { data: goalProgress }] =
+    await Promise.all([
+      supabase.from("profiles").select("full_name, avatar_url").eq("id", user.id).single(),
+      supabase
+        .from("transformation_plans")
+        .select("plan, version, created_at")
+        .eq("user_id", user.id)
+        .eq("status", "active")
+        .order("created_at", { ascending: false })
+        .limit(1)
+        .maybeSingle(),
+      supabase
+        .from("goals")
+        .select("id, title, why, category, target_metric, target_value, current_value, deadline, status, milestones")
+        .eq("user_id", user.id)
+        .in("status", ["active", "paused"])
+        .order("created_at", { ascending: true }),
+      supabase
+        .from("goal_progress")
+        .select("goal_id, note, new_value, milestone, created_at")
+        .eq("user_id", user.id)
+        .order("created_at", { ascending: false })
+        .limit(10),
+    ]);
 
   if (!planRow) redirect("/onboarding");
   const plan = planRow.plan as TransformationPlan;
@@ -48,6 +61,94 @@ export default async function PlanPage() {
           <h1 className="text-3xl font-bold mt-1">Your roadmap</h1>
           <p className="text-muted mt-3 max-w-3xl leading-relaxed">{plan.summary}</p>
         </header>
+
+        {(goals ?? []).length > 0 && (
+          <section id="goals" className="glass p-6 fade-up border-warning/15" style={{ animationDelay: "0.03s" }}>
+            <h2 className="font-semibold flex items-center gap-2 mb-5">
+              <Target className="w-5 h-5 text-warning" /> Life goals — the roadmap
+            </h2>
+            <div className="space-y-6">
+              {(goals ?? []).map((g) => {
+                const ms = (g.milestones ?? []) as { title: string; deadline?: string | null; status?: string }[];
+                const doneCount = ms.filter((m) => m.status === "done").length;
+                const pct =
+                  g.target_value && Number(g.target_value) > 0
+                    ? Math.min(100, Math.round((Number(g.current_value) / Number(g.target_value)) * 100))
+                    : ms.length > 0
+                      ? Math.round((doneCount / ms.length) * 100)
+                      : 0;
+                const progress = (goalProgress ?? []).filter((p) => p.goal_id === g.id).slice(0, 3);
+                return (
+                  <div key={g.id}>
+                    <div className="flex items-start justify-between gap-3 flex-wrap">
+                      <div>
+                        <p className="font-bold">
+                          {g.title}
+                          {g.status === "paused" && (
+                            <span className="ml-2 text-[10px] uppercase tracking-wide text-muted border border-white/10 rounded-full px-2 py-0.5">paused</span>
+                          )}
+                        </p>
+                        {g.why && <p className="text-xs text-muted mt-0.5">{g.why}</p>}
+                      </div>
+                      <div className="text-right shrink-0">
+                        <p className="text-lg font-extrabold text-warning leading-none">{pct}%</p>
+                        {g.target_value != null && (
+                          <p className="text-[11px] text-muted mt-0.5">
+                            {Number(g.current_value).toLocaleString()} / {Number(g.target_value).toLocaleString()}
+                            {g.target_metric ? ` ${g.target_metric}` : ""}
+                          </p>
+                        )}
+                        {g.deadline && <p className="text-[11px] text-muted">by {g.deadline}</p>}
+                      </div>
+                    </div>
+                    <div className="h-1.5 rounded-full bg-white/8 overflow-hidden mt-2 mb-3">
+                      <div
+                        className="h-full rounded-full bg-gradient-to-r from-amber-500 to-orange-500"
+                        style={{ width: `${pct}%` }}
+                      />
+                    </div>
+                    <ol className="space-y-1.5">
+                      {ms.map((m, i) => {
+                        const done = m.status === "done";
+                        const isNext = !done && ms.slice(0, i).every((x) => x.status === "done");
+                        return (
+                          <li key={i} className="flex items-center gap-2.5 text-sm">
+                            <span
+                              className={`w-5 h-5 rounded-full border flex items-center justify-center text-[10px] font-bold shrink-0 ${
+                                done
+                                  ? "bg-success/20 border-success/50 text-success"
+                                  : isNext
+                                    ? "border-warning/60 text-warning"
+                                    : "border-white/15 text-muted/50"
+                              }`}
+                            >
+                              {done ? "✓" : i + 1}
+                            </span>
+                            <span className={done ? "line-through text-muted" : isNext ? "font-semibold" : "text-muted"}>
+                              {m.title}
+                            </span>
+                            {m.deadline && (
+                              <span className="text-[11px] text-muted/60 ml-auto shrink-0">{m.deadline}</span>
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ol>
+                    {progress.length > 0 && (
+                      <div className="mt-3 border-t border-white/5 pt-2.5 space-y-1">
+                        {progress.map((p, i) => (
+                          <p key={i} className="text-xs text-muted">
+                            <span className="text-muted/50">{String(p.created_at).slice(0, 10)}</span> — {p.note}
+                          </p>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         <Section icon={Target} title="The honest analysis" delay={0.05}>
           <p className="text-sm text-muted leading-relaxed whitespace-pre-line">{plan.goal_analysis}</p>

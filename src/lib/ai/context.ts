@@ -14,6 +14,9 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
     { data: streak },
     { data: checkins },
     { data: foods },
+    { data: goals },
+    { data: goalProgress },
+    { data: memories },
   ] = await Promise.all([
     supabase.from("profiles").select("*").eq("id", userId).single(),
     supabase
@@ -37,6 +40,24 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
       .eq("user_id", userId)
       .eq("log_date", today)
       .order("created_at", { ascending: true }),
+    supabase
+      .from("goals")
+      .select("id, title, why, category, target_metric, target_value, current_value, deadline, status, milestones, hours_per_week, updated_at")
+      .eq("user_id", userId)
+      .in("status", ["active", "paused"])
+      .order("created_at", { ascending: true }),
+    supabase
+      .from("goal_progress")
+      .select("note, new_value, milestone, created_at")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .limit(15),
+    supabase
+      .from("agent_memories")
+      .select("category, content, created_at")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .limit(50),
   ]);
 
   const plan = (planRow?.plan ?? null) as TransformationPlan | null;
@@ -98,5 +119,8 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
       calories_so_far: caloriesToday,
       protein_so_far: proteinToday,
     },
+    goals: goals ?? [],
+    recent_goal_progress: goalProgress ?? [],
+    memories: memories ?? [],
   };
 }

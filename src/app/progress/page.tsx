@@ -3,6 +3,9 @@ import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
 import { WeightChart } from "@/components/progress/weight-chart";
 import { PhotoSection } from "@/components/progress/photo-section";
+import { PhotoCompare } from "@/components/progress/photo-compare";
+import { StepsSyncCard } from "@/components/dashboard/steps-sync-card";
+import { NotificationsCard } from "@/components/notifications-card";
 
 export default async function ProgressPage() {
   const supabase = await createClient();
@@ -14,7 +17,7 @@ export default async function ProgressPage() {
   const [{ data: profile }, { data: weights }, { data: photos }] = await Promise.all([
     supabase
       .from("profiles")
-      .select("full_name, avatar_url, weight_kg, target_weight_kg")
+      .select("full_name, avatar_url, weight_kg, target_weight_kg, sync_token")
       .eq("id", user.id)
       .single(),
     supabase
@@ -52,6 +55,8 @@ export default async function ProgressPage() {
           <p className="text-muted mt-1">The camera and the scale don&apos;t lie. Neither does consistency.</p>
         </header>
 
+        <PhotoCompare photoCount={(photos ?? []).length} />
+
         <WeightChart
           data={(weights ?? []).map((w) => ({
             date: w.checkin_date,
@@ -62,6 +67,11 @@ export default async function ProgressPage() {
         />
 
         <PhotoSection userId={user.id} photos={photosWithUrls} />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          <NotificationsCard />
+          {profile?.sync_token && <StepsSyncCard syncToken={profile.sync_token} />}
+        </div>
       </main>
     </div>
   );

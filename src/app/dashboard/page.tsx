@@ -4,7 +4,7 @@ import { Nav } from "@/components/nav";
 import { TodayPanel } from "@/components/dashboard/today-panel";
 import { StreakCard } from "@/components/dashboard/streak-card";
 import { WeekStrip } from "@/components/dashboard/week-strip";
-import { StepsSyncCard } from "@/components/dashboard/steps-sync-card";
+import { GoalsCard } from "@/components/dashboard/goals-card";
 import { FoodLog } from "@/components/dashboard/food-log";
 import { RefreshOnFocus } from "@/components/refresh-on-focus";
 import type { TransformationPlan } from "@/lib/types";
@@ -43,7 +43,7 @@ export default async function DashboardPage() {
   const plan = planRow.plan as TransformationPlan;
   const today = new Date().toISOString().slice(0, 10);
 
-  const [{ data: todayCheckin }, { data: todayFood }, { data: todayCoachMsg }] =
+  const [{ data: todayCheckin }, { data: todayFood }, { data: todayCoachMsg }, { data: goals }] =
     await Promise.all([
       supabase
         .from("daily_checkins")
@@ -65,6 +65,12 @@ export default async function DashboardPage() {
         .gte("created_at", `${today}T00:00:00Z`)
         .limit(1)
         .maybeSingle(),
+      supabase
+        .from("goals")
+        .select("id, title, category, target_metric, target_value, current_value, deadline, milestones")
+        .eq("user_id", user.id)
+        .eq("status", "active")
+        .order("created_at", { ascending: true }),
     ]);
 
   // Signed thumbnails for photo-logged meals (private bucket)
@@ -140,6 +146,7 @@ export default async function DashboardPage() {
               initialCheckin={todayCheckin}
               today={today}
             />
+            <GoalsCard goals={goals ?? []} />
             <FoodLog
               initialItems={foodWithUrls}
               calorieTarget={plan.nutrition?.daily_calories ?? null}
@@ -150,9 +157,10 @@ export default async function DashboardPage() {
           </div>
 
           <div className="space-y-5 md:space-y-6">
-            <StreakCard streak={streak} />
+            <div className="hidden lg:block">
+              <StreakCard streak={streak} />
+            </div>
             <TodaySchedule plan={plan} />
-            {profile.sync_token && <StepsSyncCard syncToken={profile.sync_token} />}
           </div>
         </div>
       </main>
@@ -169,11 +177,16 @@ function TodaySchedule({ plan }: { plan: TransformationPlan }) {
 
   return (
     <div className="glass p-5 fade-up" style={{ animationDelay: "0.2s" }}>
-      <h3 className="font-semibold mb-3 text-sm uppercase tracking-wide text-muted">
-        Today&apos;s schedule
-      </h3>
+      <div className="flex items-center justify-between mb-3">
+        <h3 className="text-[11px] font-semibold uppercase tracking-widest text-muted">
+          Today&apos;s schedule
+        </h3>
+        <Link href="/plan" className="text-xs text-muted flex items-center">
+          Full plan <ChevronRight className="w-3.5 h-3.5" />
+        </Link>
+      </div>
       <div className="space-y-2.5">
-        {todaySchedule.blocks.map((b, i) => (
+        {todaySchedule.blocks.slice(0, 4).map((b, i) => (
           <div key={i} className="flex gap-3 text-sm">
             <span className="text-accent font-mono text-xs pt-0.5 w-12 shrink-0">{b.time}</span>
             <div>
@@ -182,6 +195,9 @@ function TodaySchedule({ plan }: { plan: TransformationPlan }) {
             </div>
           </div>
         ))}
+        {todaySchedule.blocks.length > 4 && (
+          <p className="text-xs text-muted/60">+{todaySchedule.blocks.length - 4} more blocks</p>
+        )}
       </div>
     </div>
   );

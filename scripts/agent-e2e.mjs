@@ -167,7 +167,7 @@ const { count: archived } = await supabase
   .eq("status", "archived");
 check("old plan archived", (archived ?? 0) === 1, `archived=${archived}`);
 
-await cooldown(30);
+await cooldown(5);
 
 // ============ TEST 2: switch to preset template ============
 console.log("\nTEST 2: 'switch the app to the CEO template'");
@@ -183,7 +183,7 @@ check(
   `accent=${prof1?.theme?.vars?.["--accent"]}`
 );
 
-await cooldown(30);
+await cooldown(5);
 
 // ============ TEST 3: AI-generated custom template ============
 console.log("\nTEST 3: 'create a cyberpunk neon template'");
@@ -202,7 +202,7 @@ const bg = vars2["--background"] ?? "#000000";
 const [r, g, b] = [1, 3, 5].map((i) => parseInt(bg.slice(i, i + 2), 16));
 check("background stayed dark", (r + g + b) / 3 < 80, `bg=${bg}`);
 
-await cooldown(30);
+await cooldown(5);
 
 // ============ TEST 4: plain question -> no action ============
 console.log("\nTEST 4: plain question triggers no action");
@@ -211,6 +211,74 @@ check("route returns 200", t4.status === 200, `got ${t4.status}: ${t4.error ?? "
 check("no plan update", !t4.plan_updated);
 check("no theme update", !t4.theme_updated);
 check("reply is substantive", typeof t4.reply === "string" && t4.reply.length > 20);
+
+
+await cooldown(5);
+
+// ============ TEST 5: goal creation via chat ============
+console.log("\nTEST 5: create a $10k/month goal with milestone roadmap");
+const t5 = await coach(
+  "I want to hit $10,000 a month from freelance video editing by June 2027. Right now I make about $800 a month, and I can put in 15 hours a week. You have everything you need - set this up as a goal with a milestone roadmap right now, no more questions."
+);
+check("route returns 200", t5.status === 200, `got ${t5.status}: ${t5.error ?? ""}`);
+check("agent executed create_goal", t5.goal_updated === true, JSON.stringify(t5).slice(0, 300));
+
+const { data: goalRow } = await supabase
+  .from("goals")
+  .select("*")
+  .eq("user_id", userId)
+  .order("created_at", { ascending: false })
+  .limit(1)
+  .maybeSingle();
+check("goal saved", !!goalRow, "no goal row");
+check("target value 10000", Number(goalRow?.target_value) === 10000, `target=${goalRow?.target_value}`);
+check(
+  "milestone roadmap generated (3+)",
+  Array.isArray(goalRow?.milestones) && goalRow.milestones.length >= 3,
+  `milestones=${goalRow?.milestones?.length}`
+);
+check("category income", goalRow?.category === "income", `cat=${goalRow?.category}`);
+
+await cooldown(5);
+
+// ============ TEST 6: progress tracked from chat ============
+console.log("\nTEST 6: 'closed a client, now at $1200/month'");
+const t6 = await coach(
+  "Progress update on my video editing income goal: I closed a new retainer client today. I am now at $1200 a month total. Log it."
+);
+check("route returns 200", t6.status === 200, `got ${t6.status}: ${t6.error ?? ""}`);
+check("agent executed update_goal", t6.goal_updated === true, JSON.stringify(t6).slice(0, 300));
+
+const { data: goalAfter } = goalRow
+  ? await supabase.from("goals").select("current_value").eq("id", goalRow.id).single()
+  : { data: null };
+check("current_value updated to 1200", Number(goalAfter?.current_value) === 1200, `value=${goalAfter?.current_value}`);
+
+const { count: progressCount } = await supabase
+  .from("goal_progress")
+  .select("*", { count: "exact", head: true })
+  .eq("user_id", userId);
+check("progress log row created", (progressCount ?? 0) >= 1, `rows=${progressCount}`);
+
+await cooldown(5);
+
+// ============ TEST 7: persistent memory ============
+console.log("\nTEST 7: 'remember my left knee clicks on heavy squats'");
+const t7 = await coach(
+  "Important, remember this permanently: my left knee clicks on heavy squats, so my leg work should stay knee-friendly."
+);
+check("route returns 200", t7.status === 200, `got ${t7.status}: ${t7.error ?? ""}`);
+check("agent saved a memory", t7.memory_saved === true, JSON.stringify(t7).slice(0, 300));
+
+const { data: mems } = await supabase
+  .from("agent_memories")
+  .select("content, category")
+  .eq("user_id", userId);
+check(
+  "memory content mentions knee",
+  (mems ?? []).some((m) => /knee/i.test(m.content)),
+  JSON.stringify(mems).slice(0, 200)
+);
 
 console.log(`\n========== RESULTS: ${pass} passed, ${fail} failed ==========`);
 process.exit(fail > 0 ? 1 : 0);
