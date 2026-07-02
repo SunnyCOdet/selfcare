@@ -5,8 +5,11 @@ import { TodayPanel } from "@/components/dashboard/today-panel";
 import { StreakCard } from "@/components/dashboard/streak-card";
 import { WeekStrip } from "@/components/dashboard/week-strip";
 import { StepsSyncCard } from "@/components/dashboard/steps-sync-card";
+import { FoodLog } from "@/components/dashboard/food-log";
 import { RefreshOnFocus } from "@/components/refresh-on-focus";
 import type { TransformationPlan } from "@/lib/types";
+import Link from "next/link";
+import { Sparkles, ChevronRight } from "lucide-react";
 
 export default async function DashboardPage() {
   const supabase = await createClient();
@@ -40,12 +43,29 @@ export default async function DashboardPage() {
   const plan = planRow.plan as TransformationPlan;
   const today = new Date().toISOString().slice(0, 10);
 
-  const { data: todayCheckin } = await supabase
-    .from("daily_checkins")
-    .select("*")
-    .eq("user_id", user.id)
-    .eq("checkin_date", today)
-    .maybeSingle();
+  const [{ data: todayCheckin }, { data: todayFood }, { data: todayCoachMsg }] =
+    await Promise.all([
+      supabase
+        .from("daily_checkins")
+        .select("*")
+        .eq("user_id", user.id)
+        .eq("checkin_date", today)
+        .maybeSingle(),
+      supabase
+        .from("food_logs")
+        .select("id, description, calories, protein_g, verdict, ai_notes")
+        .eq("user_id", user.id)
+        .eq("log_date", today)
+        .order("created_at", { ascending: true }),
+      supabase
+        .from("coach_messages")
+        .select("id")
+        .eq("user_id", user.id)
+        .eq("kind", "daily_checkin")
+        .gte("created_at", `${today}T00:00:00Z`)
+        .limit(1)
+        .maybeSingle(),
+    ]);
 
   const firstName = (profile.full_name ?? "Champion").split(" ")[0];
   const hour = new Date().getHours();
@@ -71,6 +91,24 @@ export default async function DashboardPage() {
           </p>
         </header>
 
+        {!todayCoachMsg && (
+          <Link
+            href="/coach"
+            className="glass glass-hover fade-up flex items-center justify-between px-5 py-4 border-accent/25"
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-9 h-9 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center">
+                <Sparkles className="w-4 h-4 text-white" />
+              </div>
+              <div>
+                <p className="font-semibold text-sm">Your coach wants to check in</p>
+                <p className="text-xs text-muted">Daily check-in pending — 30 seconds, keeps the plan sharp.</p>
+              </div>
+            </div>
+            <ChevronRight className="w-5 h-5 text-muted" />
+          </Link>
+        )}
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           <div className="lg:col-span-2 space-y-6">
             <TodayPanel
@@ -78,6 +116,11 @@ export default async function DashboardPage() {
               plan={plan}
               initialCheckin={todayCheckin}
               today={today}
+            />
+            <FoodLog
+              initialItems={todayFood ?? []}
+              calorieTarget={plan.nutrition?.daily_calories ?? null}
+              proteinTarget={plan.nutrition?.protein_g ?? null}
             />
           </div>
 

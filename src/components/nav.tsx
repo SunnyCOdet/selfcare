@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Flame, LayoutDashboard, Map, TrendingUp, LogOut } from "lucide-react";
+import { Flame, LayoutDashboard, Map, TrendingUp, LogOut, Sparkles } from "lucide-react";
 
 export function Nav({
   avatarUrl,
@@ -9,10 +9,11 @@ export function Nav({
 }: {
   avatarUrl: string | null;
   name: string | null;
-  active: "dashboard" | "plan" | "progress";
+  active: "dashboard" | "coach" | "plan" | "progress";
 }) {
   const links = [
     { href: "/dashboard", label: "Today", key: "dashboard", icon: LayoutDashboard },
+    { href: "/coach", label: "Coach", key: "coach", icon: Sparkles },
     { href: "/plan", label: "Plan", key: "plan", icon: Map },
     { href: "/progress", label: "Progress", key: "progress", icon: TrendingUp },
   ] as const;
