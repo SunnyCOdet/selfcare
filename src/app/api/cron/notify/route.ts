@@ -4,7 +4,7 @@ import webpush from "web-push";
 import { generateJSON, aiConfigured } from "@/lib/ai/provider";
 import { PLAN_UPDATER_SYSTEM, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
 import { computeReadiness } from "@/lib/readiness";
-import { todayStr, todayWeekday, currentHour } from "@/lib/dates";
+import { todayStr, todayWeekday, currentHour, nowStr } from "@/lib/dates";
 import type { TransformationPlan } from "@/lib/types";
 
 /**
@@ -116,7 +116,7 @@ async function aiNotification(
   try {
     return await generateJSON<{ send: boolean; title: string; body: string }>(
       NOTIFY_SYSTEM,
-      `SLOT: ${slot} (${todayWeekday()}, ${todayStr()})
+      `SLOT: ${slot} — CURRENT TIME: ${nowStr()}
 CLIENT DATA:
 ${JSON.stringify(
   {

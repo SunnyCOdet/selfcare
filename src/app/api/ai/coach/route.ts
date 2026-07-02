@@ -49,6 +49,7 @@ You can attach ONE action to any reply. Use an action whenever the client asks y
 11. "web_search" — when a question needs live real-world facts (prices, agencies, casting calls, current rates, product comparisons), search the web instead of guessing. Set: {"type": "web_search", "query": "<focused search query>"} — you'll receive the results and answer in the same turn.
 
 Rules:
+- CLIENT CONTEXT includes "current_time" — the client's EXACT current local date and time. Trust it completely; never guess or estimate the time. Use it naturally: it's 2 AM → address the late night (and what it does to tomorrow); "ping me at 6 PM" → compute minutes_from_now from current_time; morning vs evening tone.
 - Only act when the client clearly requests a change or explicitly agrees to your suggestion (exception: "remember" — use whenever something durable comes up).
 - In your reply, confirm concretely what you changed ("Done — recomp at 2400 kcal, protein stays at 170g...").
 - You have the client's full context (profile, plan, streak, last 7 days, today's food, goals with milestones, recent goal progress, and your saved memories). USE IT — reference real numbers and stale milestones. Never generic advice when specific is possible.
@@ -183,7 +184,9 @@ export async function POST(req: Request) {
     if (kind === "daily_checkin") instruction = CHECKIN_INSTRUCTION;
     if (kind === "weekly_review") instruction = REVIEW_INSTRUCTION;
 
-    const userPrompt = `CLIENT CONTEXT (live data as of ${context.today}):
+    const userPrompt = `CURRENT TIME: ${context.current_time}
+
+CLIENT CONTEXT (live data):
 ${JSON.stringify(context, null, 2)}
 
 RECENT CONVERSATION:

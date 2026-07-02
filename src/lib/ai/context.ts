@@ -1,6 +1,6 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { TransformationPlan } from "@/lib/types";
-import { todayStr } from "@/lib/dates";
+import { todayStr, nowStr } from "@/lib/dates";
 import { computeReadiness } from "@/lib/readiness";
 
 /**
@@ -89,6 +89,7 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
   const proteinToday = foodToday.reduce((s, f) => s + (f.protein_g ?? 0), 0);
 
   return {
+    current_time: nowStr(),
     today,
     profile: profile
       ? {

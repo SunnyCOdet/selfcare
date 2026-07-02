@@ -32,3 +32,19 @@ export function weekdayNarrow(offsetDays: number): string {
   const d = new Date(Date.now() + offsetDays * 86400000);
   return new Intl.DateTimeFormat("en-US", { timeZone: APP_TZ, weekday: "narrow" }).format(d);
 }
+
+/** Full human timestamp in app timezone: "Friday, 3 July 2026, 2:15 am IST". */
+export function nowStr(): string {
+  return (
+    new Intl.DateTimeFormat("en-IN", {
+      timeZone: APP_TZ,
+      weekday: "long",
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hour12: true,
+    }).format(new Date()) + " IST"
+  );
+}
