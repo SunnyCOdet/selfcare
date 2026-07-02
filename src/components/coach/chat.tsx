@@ -157,7 +157,7 @@ export function CoachChat({
             placeholder="Message your coach..."
             disabled={loading}
           />
-          <button type="submit" disabled={loading || !input.trim()} className="btn-primary !px-4">
+          <button type="submit" disabled={loading || !input.trim()} className="btn-ai !px-4">
             <Send className="w-4 h-4" />
           </button>
         </form>

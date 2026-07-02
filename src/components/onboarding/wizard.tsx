@@ -175,8 +175,26 @@ export function OnboardingWizard({
 
   return (
     <div className="w-full max-w-2xl">
-      {/* Step indicator */}
-      <div className="flex items-center justify-between mb-10 px-2">
+      {/* Mobile: Tonal-style thin progress bar */}
+      <div className="md:hidden mb-8">
+        <div className="flex items-center justify-between mb-2 px-0.5">
+          <span className="text-[11px] font-semibold uppercase tracking-widest text-muted">
+            {STEPS[step].label}
+          </span>
+          <span className="text-[11px] text-muted/60">
+            {step + 1} / {STEPS.length}
+          </span>
+        </div>
+        <div className="h-1 rounded-full bg-white/10 overflow-hidden">
+          <div
+            className="h-full rounded-full bg-foreground transition-all duration-500"
+            style={{ width: `${((step + 1) / STEPS.length) * 100}%` }}
+          />
+        </div>
+      </div>
+
+      {/* Desktop: icon stepper */}
+      <div className="hidden md:flex items-center justify-between mb-10 px-2">
         {STEPS.map((s, i) => (
           <div key={s.key} className="flex flex-col items-center gap-1.5 flex-1">
             <div
@@ -197,11 +215,11 @@ export function OnboardingWizard({
         ))}
       </div>
 
-      <div className="glass p-8 fade-up" key={step}>
+      <div className="glass p-5 md:p-8 fade-up" key={step}>
         {step === 0 && (
           <div className="space-y-5">
             <div>
-              <h2 className="text-2xl font-bold mb-1">Let&apos;s get the basics</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Let&apos;s get the basics</h2>
               <p className="text-muted text-sm">Your coach needs your starting point.</p>
             </div>
             <div>
@@ -244,7 +262,7 @@ export function OnboardingWizard({
         {step === 1 && (
           <div className="space-y-5">
             <div>
-              <h2 className="text-2xl font-bold mb-1">Your dream physique</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Your dream physique</h2>
               <p className="text-muted text-sm">
                 Doesn&apos;t matter where you start — overweight, underweight, skinny-fat. Describe where you&apos;re going.
               </p>
@@ -285,7 +303,7 @@ export function OnboardingWizard({
         {step === 2 && (
           <div className="space-y-5">
             <div>
-              <h2 className="text-2xl font-bold mb-1">What do you enjoy?</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">What do you enjoy?</h2>
               <p className="text-muted text-sm">
                 Pick activities you love (or want to learn). Your plan will include them — consistency is easier when it&apos;s fun.
               </p>
@@ -329,7 +347,7 @@ export function OnboardingWizard({
         {step === 3 && (
           <div className="space-y-5">
             <div>
-              <h2 className="text-2xl font-bold mb-1">Your lifestyle</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Your lifestyle</h2>
               <p className="text-muted text-sm">The plan has to survive contact with your real life.</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
@@ -384,7 +402,7 @@ export function OnboardingWizard({
         {step === 4 && (
           <div className="space-y-5">
             <div>
-              <h2 className="text-2xl font-bold mb-1">Starting photos</h2>
+              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Starting photos</h2>
               <p className="text-muted text-sm">
                 Private — only you can see them. Day 1 photos are what future-you will thank you for.
               </p>
@@ -411,7 +429,7 @@ export function OnboardingWizard({
                 Next <ChevronRight className="w-4 h-4" />
               </button>
             ) : (
-              <button type="button" onClick={saveProfileAndContinue} disabled={saving} className="btn-primary">
+              <button type="button" onClick={saveProfileAndContinue} disabled={saving} className="btn-ai">
                 {saving ? "Saving..." : "Meet your AI coach"} <ChevronRight className="w-4 h-4" />
               </button>
             )}

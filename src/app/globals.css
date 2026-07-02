@@ -1,16 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --background: #07070b;
-  --surface: #0e0e16;
-  --surface-2: #14141f;
+  /* Apple Fitness-style true-black base */
+  --background: #050506;
+  --surface: #0d0d11;
+  --surface-2: #16161c;
   --border: rgba(255, 255, 255, 0.08);
-  --foreground: #f4f4f6;
-  --muted: #9b9ba8;
+  --foreground: #f5f5f7;
+  --muted: #98989f;
+  /* AI / brand */
   --accent: #8b5cf6;
   --accent-2: #ec4899;
-  --success: #34d399;
+  /* Activity ring (Apple Move) */
+  --move: #fa2d6c;
+  --move-light: #ff8fab;
+  /* Wins */
+  --success: #a3e635;
   --warning: #fbbf24;
+  /* Streak flame (Numo) */
+  --flame: #ff5c1f;
+  /* Macros (Cal AI) */
+  --protein: #f87171;
+  --carbs: #fbbf24;
+  --fat: #60a5fa;
 }
 
 @theme inline {
@@ -23,6 +35,11 @@
   --color-accent-2: var(--accent-2);
   --color-success: var(--success);
   --color-warning: var(--warning);
+  --color-move: var(--move);
+  --color-flame: var(--flame);
+  --color-protein: var(--protein);
+  --color-carbs: var(--carbs);
+  --color-fat: var(--fat);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -54,7 +71,8 @@ textarea {
 
 /* Native-feel press states on touch devices */
 @media (hover: none) {
-  .btn-primary:active:not(:disabled) {
+  .btn-primary:active:not(:disabled),
+  .btn-ai:active:not(:disabled) {
     transform: scale(0.96);
     opacity: 0.9;
   }
@@ -133,7 +151,32 @@ textarea {
   color: transparent;
 }
 
+/* Cal AI / Numo-style high-contrast pill CTA */
 .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  color: #0a0a0a;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  transition: opacity 0.15s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 24px -8px rgba(255, 255, 255, 0.35);
+  cursor: pointer;
+}
+.btn-primary:hover:not(:disabled) {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+.btn-primary:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Violet gradient reserved for AI actions (coach, analysis) */
+.btn-ai {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -147,12 +190,11 @@ textarea {
   box-shadow: 0 4px 24px -6px rgba(139, 92, 246, 0.5);
   cursor: pointer;
 }
-.btn-primary:hover:not(:disabled) {
+.btn-ai:hover:not(:disabled) {
   opacity: 0.92;
   transform: translateY(-1px);
-  box-shadow: 0 8px 32px -6px rgba(139, 92, 246, 0.6);
 }
-.btn-primary:disabled {
+.btn-ai:disabled {
   opacity: 0.45;
   cursor: not-allowed;
 }

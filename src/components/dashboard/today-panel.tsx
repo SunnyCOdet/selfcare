@@ -34,7 +34,7 @@ function HourlyBars({ hourly }: { hourly: Record<string, number> }) {
         {bars.map((b) => (
           <div key={b.hour} className="flex-1 flex flex-col items-center gap-1 group relative">
             <div
-              className="w-full rounded-t bg-gradient-to-t from-violet-500 to-fuchsia-400 min-h-0.5 transition-all"
+              className="w-full rounded-t bg-gradient-to-t from-[#fa2d6c] to-[#ff8fab] min-h-0.5 transition-all"
               style={{ height: `${Math.max(4, (b.gained / max) * 100)}%` }}
             />
             <span className="text-[9px] text-muted/60">{b.hour}</span>
@@ -166,51 +166,53 @@ export function TodayPanel({
 
   return (
     <div className="space-y-6">
-      {/* Completion + steps hero */}
-      <div className="glass p-5 md:p-6 fade-up flex items-center gap-4 md:gap-6">
-        <div className="relative w-24 h-24 md:w-28 md:h-28 shrink-0">
+      {/* Activity hero — Apple Fitness style ring */}
+      <div className="glass p-5 md:p-6 fade-up flex items-center gap-5 md:gap-7">
+        <div className="relative w-32 h-32 md:w-36 md:h-36 shrink-0">
           <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
-            <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(255,255,255,0.07)" strokeWidth="8" />
+            <circle cx="50" cy="50" r="44" fill="none" stroke="rgba(250,45,108,0.15)" strokeWidth="9" />
             <circle
               cx="50"
               cy="50"
               r="44"
               fill="none"
               stroke="url(#grad)"
-              strokeWidth="8"
+              strokeWidth="9"
               strokeLinecap="round"
               strokeDasharray={ring}
-              strokeDashoffset={ring - (ring * completionPct) / 100}
+              strokeDashoffset={ring - (ring * Math.min(100, (steps / stepsTarget) * 100)) / 100}
               className="transition-all duration-700"
+              style={{ filter: "drop-shadow(0 0 6px rgba(250,45,108,0.5))" }}
             />
             <defs>
               <linearGradient id="grad" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stopColor="#8b5cf6" />
-                <stop offset="100%" stopColor="#ec4899" />
+                <stop offset="0%" stopColor="#fa2d6c" />
+                <stop offset="100%" stopColor="#ff8fab" />
               </linearGradient>
             </defs>
           </svg>
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <span className="text-2xl font-bold">{completionPct}%</span>
-            <span className="text-[10px] text-muted uppercase tracking-wide">today</span>
+            <Footprints className="w-4 h-4 text-move mb-0.5" />
+            <span className="text-xl md:text-2xl font-extrabold tracking-tight leading-none">
+              {Math.round((steps / stepsTarget) * 100)}%
+            </span>
+            <span className="text-[9px] text-muted uppercase tracking-widest mt-0.5">steps</span>
           </div>
         </div>
 
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-1">
-            <Footprints className="w-5 h-5 text-accent shrink-0" />
-            <h2 className="font-semibold text-sm md:text-base">Steps — the non-negotiable</h2>
-          </div>
-          <p className="text-2xl md:text-3xl font-bold">
-            {steps.toLocaleString()}{" "}
-            <span className="text-base font-normal text-muted">/ {stepsTarget.toLocaleString()}</span>
+          <h2 className="text-[11px] font-semibold uppercase tracking-widest text-muted mb-1">
+            Move — non-negotiable
+          </h2>
+          <p className="text-3xl md:text-4xl font-extrabold tracking-tight text-move leading-none">
+            {steps.toLocaleString()}
           </p>
-          <div className="h-2 rounded-full bg-white/5 mt-2 overflow-hidden">
-            <div
-              className="h-full rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500 transition-all duration-700"
-              style={{ width: `${Math.min(100, (steps / stepsTarget) * 100)}%` }}
-            />
-          </div>
+          <p className="text-sm text-muted mt-1">/ {stepsTarget.toLocaleString()} steps</p>
+          <p className="text-xs mt-1.5">
+            <span className={completionPct >= 70 ? "text-success" : "text-muted"}>
+              {completionPct}% of today&apos;s routine done
+            </span>
+          </p>
           <div className="flex gap-2 mt-3">
             <input
               className="input-field !py-2 text-sm min-w-0"

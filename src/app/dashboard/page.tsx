@@ -53,7 +53,7 @@ export default async function DashboardPage() {
         .maybeSingle(),
       supabase
         .from("food_logs")
-        .select("id, description, calories, protein_g, verdict, ai_notes")
+        .select("id, description, calories, protein_g, carbs_g, fat_g, verdict, ai_notes, breakdown, photo_path")
         .eq("user_id", user.id)
         .eq("log_date", today)
         .order("created_at", { ascending: true }),
@@ -66,6 +66,15 @@ export default async function DashboardPage() {
         .limit(1)
         .maybeSingle(),
     ]);
+
+  // Signed thumbnails for photo-logged meals (private bucket)
+  const foodWithUrls = await Promise.all(
+    (todayFood ?? []).map(async (f) => {
+      if (!f.photo_path) return { ...f, photo_url: null };
+      const { data } = await supabase.storage.from("photos").createSignedUrl(f.photo_path, 3600);
+      return { ...f, photo_url: data?.signedUrl ?? null };
+    })
+  );
 
   const firstName = (profile.full_name ?? "Champion").split(" ")[0];
   const hour = new Date().getHours();
@@ -103,6 +112,8 @@ export default async function DashboardPage() {
           </div>
         </header>
 
+        <WeekStrip checkins={recentCheckins ?? []} />
+
         {!todayCoachMsg && (
           <Link
             href="/coach"
@@ -130,15 +141,16 @@ export default async function DashboardPage() {
               today={today}
             />
             <FoodLog
-              initialItems={todayFood ?? []}
+              initialItems={foodWithUrls}
               calorieTarget={plan.nutrition?.daily_calories ?? null}
               proteinTarget={plan.nutrition?.protein_g ?? null}
+              carbsTarget={plan.nutrition?.carbs_g ?? null}
+              fatTarget={plan.nutrition?.fat_g ?? null}
             />
           </div>
 
           <div className="space-y-5 md:space-y-6">
             <StreakCard streak={streak} />
-            <WeekStrip checkins={recentCheckins ?? []} />
             <TodaySchedule plan={plan} />
             {profile.sync_token && <StepsSyncCard syncToken={profile.sync_token} />}
           </div>

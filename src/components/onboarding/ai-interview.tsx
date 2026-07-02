@@ -187,7 +187,7 @@ export function AiInterview({ userId, profile }: { userId: string; profile: Wiza
               placeholder={question.input_type === "choice" ? "Or type your own answer..." : "Type your answer..."}
               autoFocus
             />
-            <button type="submit" disabled={!input.trim()} className="btn-primary !px-4">
+            <button type="submit" disabled={!input.trim()} className="btn-ai !px-4">
               <Send className="w-4 h-4" />
             </button>
           </form>
