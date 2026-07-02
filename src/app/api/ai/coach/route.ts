@@ -45,7 +45,9 @@ Rules:
 - Keep replies under 150 words unless they ask for detail.
 - Never prescribe medication or diagnose. Pain/injury beyond soreness → see a professional.
 
-Respond with JSON: {"reply": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string}}`;
+Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string}}
+
+conversation_title: a 2-5 word title for this conversation (like ChatGPT's sidebar titles) — set it ONLY when the conversation history is empty (first exchange); otherwise use "".`;
 
 const CHECKIN_INSTRUCTION = `This is the proactive DAILY CHECK-IN you initiate each day. This covers their WHOLE life — body AND goals. Look at yesterday's and recent data:
 - If they crushed it, open by acknowledging it specifically.
@@ -134,20 +136,36 @@ export async function POST(req: Request) {
   const kind: string = ["chat", "daily_checkin", "weekly_review"].includes(body.kind)
     ? body.kind
     : "chat";
+  let conversationId: string | null =
+    typeof body.conversation_id === "string" && body.conversation_id ? body.conversation_id : null;
 
   if (kind === "chat" && !message.trim()) {
     return NextResponse.json({ error: "Empty message" }, { status: 400 });
   }
 
   try {
+    // Validate the conversation belongs to this user (RLS would also catch it)
+    if (conversationId) {
+      const { data: conv } = await supabase
+        .from("coach_conversations")
+        .select("id")
+        .eq("id", conversationId)
+        .eq("user_id", user.id)
+        .maybeSingle();
+      if (!conv) conversationId = null;
+    }
+
     const [context, { data: history }] = await Promise.all([
       buildUserContext(supabase, user.id),
-      supabase
-        .from("coach_messages")
-        .select("role, content")
-        .eq("user_id", user.id)
-        .order("created_at", { ascending: false })
-        .limit(20),
+      conversationId
+        ? supabase
+            .from("coach_messages")
+            .select("role, content")
+            .eq("user_id", user.id)
+            .eq("conversation_id", conversationId)
+            .order("created_at", { ascending: false })
+            .limit(20)
+        : Promise.resolve({ data: [] as { role: string; content: string }[] }),
     ]);
 
     const conversation = (history ?? [])
@@ -171,10 +189,11 @@ ${instruction ? `SPECIAL INSTRUCTION:\n${instruction}\n` : ""}${
 
 Reply as Coach now.`;
 
-    const result = await generateJSON<{ reply: string; action?: CoachAction }>(
-      PERSONA,
-      userPrompt
-    );
+    const result = await generateJSON<{
+      reply: string;
+      conversation_title?: string;
+      action?: CoachAction;
+    }>(PERSONA, userPrompt);
     let reply = result.reply;
     const action = result.action ?? null;
 
@@ -326,16 +345,54 @@ Return the full updated JSON plan now.`;
       if (!memErr) memorySaved = true;
     }
 
+    // Create the thread on first exchange, titled by the model (ChatGPT-style)
+    let conversationTitle: string | null = null;
+    if (!conversationId) {
+      conversationTitle =
+        result.conversation_title?.trim().slice(0, 60) ||
+        (kind === "daily_checkin"
+          ? "Daily check-in"
+          : kind === "weekly_review"
+            ? "Weekly review"
+            : message.trim().slice(0, 40) || "New chat");
+      const { data: newConv, error: convErr } = await supabase
+        .from("coach_conversations")
+        .insert({ user_id: user.id, title: conversationTitle })
+        .select("id")
+        .single();
+      if (convErr) console.error("conversation create failed:", convErr.message);
+      conversationId = newConv?.id ?? null;
+    } else {
+      await supabase
+        .from("coach_conversations")
+        .update({ updated_at: new Date().toISOString() })
+        .eq("id", conversationId);
+    }
+
     const rows = [];
     if (message.trim()) {
-      rows.push({ user_id: user.id, role: "user", content: message.trim(), kind });
+      rows.push({
+        user_id: user.id,
+        role: "user",
+        content: message.trim(),
+        kind,
+        conversation_id: conversationId,
+      });
     }
-    rows.push({ user_id: user.id, role: "coach", content: reply, kind });
+    rows.push({
+      user_id: user.id,
+      role: "coach",
+      content: reply,
+      kind,
+      conversation_id: conversationId,
+    });
     const { error: insertErr } = await supabase.from("coach_messages").insert(rows);
     if (insertErr) console.error("coach message save failed:", insertErr.message);
 
     return NextResponse.json({
       reply,
+      conversation_id: conversationId,
+      conversation_title: conversationTitle,
       plan_updated: planUpdated,
       plan_version: planVersion,
       theme_updated: themeUpdated,

@@ -1,9 +1,22 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Sparkles, ArrowUp, Map, Palette, Target } from "lucide-react";
+import { createClient } from "@/lib/supabase/client";
+import {
+  Sparkles,
+  ArrowUp,
+  Map,
+  Palette,
+  Target,
+  Menu,
+  SquarePen,
+  Search,
+  Trash2,
+  X,
+  MessageSquare,
+} from "lucide-react";
 
 type Msg = {
   role: string;
@@ -13,6 +26,8 @@ type Msg = {
   themeUpdated?: boolean;
   goalUpdated?: boolean;
 };
+
+type Conversation = { id: string; title: string; updated_at: string };
 
 const QUICK_ACTIONS = [
   { label: "🎯 Set a goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
@@ -24,26 +39,50 @@ const QUICK_ACTIONS = [
   { label: "🏋️ Today's workout", message: "What's my workout today? Give me the exact session." },
 ];
 
+function groupLabel(dateStr: string): string {
+  const d = new Date(dateStr);
+  const today = new Date();
+  const startOfDay = (x: Date) => new Date(x.getFullYear(), x.getMonth(), x.getDate()).getTime();
+  const diffDays = Math.round((startOfDay(today) - startOfDay(d)) / 86400000);
+  if (diffDays <= 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
+  if (diffDays <= 7) return "Previous 7 days";
+  if (diffDays <= 30) return "Previous 30 days";
+  return "Older";
+}
+
 export function CoachChat({
+  conversations: initialConversations,
+  initialConversationId,
   initialMessages,
   needsDailyCheckin,
 }: {
+  conversations: Conversation[];
+  initialConversationId: string | null;
   initialMessages: Msg[];
   needsDailyCheckin: boolean;
 }) {
   const router = useRouter();
+  const supabase = useMemo(() => createClient(), []);
+  const [conversations, setConversations] = useState<Conversation[]>(initialConversations);
+  const [activeId, setActiveId] = useState<string | null>(initialConversationId);
   const [messages, setMessages] = useState<Msg[]>(initialMessages);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [switching, setSwitching] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [drawerOpen, setDrawerOpen] = useState(false);
+  const [query, setQuery] = useState("");
   const bottomRef = useRef<HTMLDivElement>(null);
   const checkinFired = useRef(false);
+
+  const activeTitle = conversations.find((c) => c.id === activeId)?.title ?? "New chat";
 
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
 
-  // Coach proactively opens the day
+  // Coach proactively opens the day in a fresh thread
   useEffect(() => {
     if (needsDailyCheckin && !checkinFired.current) {
       checkinFired.current = true;
@@ -51,6 +90,18 @@ export function CoachChat({
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [needsDailyCheckin]);
+
+  function bumpConversation(id: string, title?: string) {
+    setConversations((prev) => {
+      const existing = prev.find((c) => c.id === id);
+      const updated: Conversation = {
+        id,
+        title: title ?? existing?.title ?? "New chat",
+        updated_at: new Date().toISOString(),
+      };
+      return [updated, ...prev.filter((c) => c.id !== id)];
+    });
+  }
 
   async function send(message: string, kind: string = "chat") {
     if (kind === "chat" && !message.trim()) return;
@@ -64,7 +115,7 @@ export function CoachChat({
       const res = await fetch("/api/ai/coach", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, kind }),
+        body: JSON.stringify({ message, kind, conversation_id: activeId }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Coach unavailable");
@@ -79,6 +130,10 @@ export function CoachChat({
           goalUpdated: !!data.goal_updated,
         },
       ]);
+      if (data.conversation_id) {
+        setActiveId(data.conversation_id);
+        bumpConversation(data.conversation_id, data.conversation_title ?? undefined);
+      }
       if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
@@ -87,12 +142,156 @@ export function CoachChat({
     }
   }
 
+  async function openConversation(id: string) {
+    if (id === activeId) {
+      setDrawerOpen(false);
+      return;
+    }
+    setDrawerOpen(false);
+    setSwitching(true);
+    setActiveId(id);
+    setMessages([]);
+    const { data } = await supabase
+      .from("coach_messages")
+      .select("role, content, kind")
+      .eq("conversation_id", id)
+      .order("created_at", { ascending: true })
+      .limit(100);
+    setMessages((data as Msg[]) ?? []);
+    setSwitching(false);
+  }
+
+  function newChat() {
+    setDrawerOpen(false);
+    setActiveId(null);
+    setMessages([]);
+    setError(null);
+  }
+
+  async function deleteConversation(id: string, e: React.MouseEvent) {
+    e.stopPropagation();
+    setConversations((prev) => prev.filter((c) => c.id !== id));
+    if (id === activeId) newChat();
+    await supabase.from("coach_conversations").delete().eq("id", id);
+  }
+
+  const filtered = query.trim()
+    ? conversations.filter((c) => c.title.toLowerCase().includes(query.toLowerCase()))
+    : conversations;
+  const groups: { label: string; items: Conversation[] }[] = [];
+  for (const c of filtered) {
+    const label = groupLabel(c.updated_at);
+    const g = groups.find((x) => x.label === label);
+    if (g) g.items.push(c);
+    else groups.push({ label, items: [c] });
+  }
+
   return (
     <div className="flex flex-col max-w-3xl w-full mx-auto h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] md:h-[calc(100dvh-4rem)]">
-      {/* Messages — ChatGPT style: user pills right, coach plain text */}
+      {/* Chat sub-header — history menu · title · new chat */}
+      <div className="flex items-center justify-between px-2 py-1.5 border-b border-white/5">
+        <button
+          onClick={() => setDrawerOpen(true)}
+          className="p-2.5 rounded-full text-muted hover:text-foreground hover:bg-white/5 transition-colors active:scale-90"
+          aria-label="Chat history"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+        <p className="text-sm font-semibold truncate px-2">{activeId ? activeTitle : "New chat"}</p>
+        <button
+          onClick={newChat}
+          className="p-2.5 rounded-full text-muted hover:text-foreground hover:bg-white/5 transition-colors active:scale-90"
+          aria-label="New chat"
+        >
+          <SquarePen className="w-5 h-5" />
+        </button>
+      </div>
+
+      {/* History drawer — ChatGPT-style slide-in */}
+      <div
+        className={`fixed inset-0 z-50 transition-[visibility] ${drawerOpen ? "visible" : "invisible delay-300"}`}
+        aria-hidden={!drawerOpen}
+      >
+        <div
+          className={`absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-300 ${
+            drawerOpen ? "opacity-100" : "opacity-0"
+          }`}
+          onClick={() => setDrawerOpen(false)}
+        />
+        <aside
+          className={`absolute left-0 top-0 h-full w-[85%] max-w-xs bg-surface border-r border-white/10 flex flex-col transition-transform duration-300 ease-out pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] ${
+            drawerOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
+          <div className="flex items-center gap-2 p-3">
+            <div className="flex-1 flex items-center gap-2 bg-surface-2 border border-white/10 rounded-full px-3.5 py-2">
+              <Search className="w-4 h-4 text-muted shrink-0" />
+              <input
+                className="flex-1 bg-transparent outline-none text-sm placeholder:text-muted/60 min-w-0"
+                placeholder="Search chats"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+              />
+              {query && (
+                <button onClick={() => setQuery("")} className="text-muted">
+                  <X className="w-3.5 h-3.5" />
+                </button>
+              )}
+            </div>
+            <button
+              onClick={() => setDrawerOpen(false)}
+              className="p-2 rounded-full text-muted hover:text-foreground md:hidden"
+              aria-label="Close"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+
+          <button
+            onClick={newChat}
+            className="flex items-center gap-3 mx-3 px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors text-sm font-semibold"
+          >
+            <SquarePen className="w-4.5 h-4.5" /> New chat
+          </button>
+
+          <div className="flex-1 overflow-y-auto px-3 pb-4 mt-1">
+            {groups.length === 0 && (
+              <p className="text-xs text-muted/60 px-3 py-6 text-center">
+                {query ? "No chats match" : "No conversations yet"}
+              </p>
+            )}
+            {groups.map((g) => (
+              <div key={g.label} className="mt-4">
+                <p className="text-[11px] font-semibold text-muted/60 px-3 mb-1">{g.label}</p>
+                {g.items.map((c) => (
+                  <div
+                    key={c.id}
+                    onClick={() => openConversation(c.id)}
+                    className={`group flex items-center gap-2.5 px-3 py-2.5 rounded-xl cursor-pointer transition-colors ${
+                      c.id === activeId ? "bg-white/8" : "hover:bg-white/5"
+                    }`}
+                  >
+                    <MessageSquare className="w-4 h-4 text-muted/50 shrink-0" />
+                    <span className="flex-1 text-sm truncate">{c.title}</span>
+                    <button
+                      onClick={(e) => deleteConversation(c.id, e)}
+                      className="opacity-0 group-hover:opacity-100 max-md:opacity-60 text-muted hover:text-red-400 transition-opacity p-1"
+                      aria-label="Delete chat"
+                    >
+                      <Trash2 className="w-3.5 h-3.5" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            ))}
+          </div>
+        </aside>
+      </div>
+
+      {/* Messages — user pills right, coach plain text */}
       <div className="flex-1 min-h-0 overflow-y-auto px-4 py-6 space-y-6">
-        {messages.length === 0 && !loading && (
-          <div className="h-full flex flex-col items-center justify-center text-center">
+        {messages.length === 0 && !loading && !switching && (
+          <div className="h-full flex flex-col items-center justify-center text-center fade-up">
             <div className="w-14 h-14 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-5">
               <Sparkles className="w-6 h-6 text-white" />
             </div>
@@ -103,15 +302,23 @@ export function CoachChat({
           </div>
         )}
 
+        {switching && (
+          <div className="space-y-4 animate-pulse pt-2">
+            <div className="w-2/3 h-14 rounded-2xl bg-white/5" />
+            <div className="w-1/2 h-10 rounded-2xl bg-white/5 ml-auto" />
+            <div className="w-3/4 h-16 rounded-2xl bg-white/5" />
+          </div>
+        )}
+
         {messages.map((m, i) =>
           m.role === "user" ? (
-            <div key={i} className="flex justify-end">
+            <div key={i} className="flex justify-end fade-up">
               <div className="bg-surface-2 border border-white/5 rounded-3xl rounded-br-lg px-4 py-2.5 text-[15px] max-w-[80%] whitespace-pre-wrap">
                 {m.content}
               </div>
             </div>
           ) : (
-            <div key={i} className="max-w-none">
+            <div key={i} className="max-w-none fade-up">
               {m.kind === "daily_checkin" && (
                 <p className="text-[10px] uppercase tracking-widest text-accent mb-1.5 font-bold">
                   Daily check-in
@@ -166,7 +373,7 @@ export function CoachChat({
         <div ref={bottomRef} />
       </div>
 
-      {/* Composer — ChatGPT-style floating pill */}
+      {/* Composer — floating pill */}
       <div className="px-3 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-4 pt-1">
         <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {QUICK_ACTIONS.map((a) => (
