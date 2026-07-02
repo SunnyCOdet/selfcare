@@ -83,7 +83,8 @@ async function callOpenAICompat(
   model: string,
   label: string,
   system: string,
-  user: string
+  user: string,
+  extraBody: Record<string, unknown> = {}
 ): Promise<string> {
   const res = await fetchWithRetry(
     () =>
@@ -102,6 +103,7 @@ async function callOpenAICompat(
           response_format: { type: "json_object" },
           temperature: 0.7,
           max_tokens: 8000,
+          ...extraBody,
         }),
       }),
     label
@@ -134,7 +136,9 @@ function callDeepSeek(system: string, user: string): Promise<string> {
     process.env.DEEPSEEK_MODEL || "deepseek-v4-flash",
     "DeepSeek",
     system,
-    user
+    user,
+    // thinking mode roughly doubles latency — chat replies should be snappy
+    { thinking: { type: "disabled" } }
   );
 }
 

@@ -13,7 +13,7 @@ export default async function CoachPage() {
   const today = new Date().toISOString().slice(0, 10);
 
   const [{ data: profile }, { data: messages }, { data: todayCheckinMsg }] = await Promise.all([
-    supabase.from("profiles").select("full_name, avatar_url").eq("id", user.id).single(),
+    supabase.from("profiles").select("full_name, avatar_url, theme").eq("id", user.id).single(),
     supabase
       .from("coach_messages")
       .select("role, content, kind, created_at")
@@ -32,7 +32,7 @@ export default async function CoachPage() {
 
   return (
     <div className="flex-1 flex flex-col">
-      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="coach" />
+      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="coach" theme={profile?.theme} />
       <CoachChat
         initialMessages={(messages ?? []).reverse()}
         needsDailyCheckin={!todayCheckinMsg}

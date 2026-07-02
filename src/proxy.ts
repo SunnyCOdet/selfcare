@@ -27,9 +27,13 @@ export async function proxy(request: NextRequest) {
     }
   );
 
+  // getSession reads the cookie locally (no network round-trip per navigation,
+  // unlike getUser). Pages still call getUser + RLS — that's the security
+  // boundary; this check only handles redirects.
   const {
-    data: { user },
-  } = await supabase.auth.getUser();
+    data: { session },
+  } = await supabase.auth.getSession();
+  const user = session?.user ?? null;
 
   const path = request.nextUrl.pathname;
   const isProtected = PROTECTED.some((p) => path.startsWith(p));

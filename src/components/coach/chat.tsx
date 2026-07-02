@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Sparkles, Send, Loader2, Map, Palette, Target } from "lucide-react";
+import { Sparkles, ArrowUp, Map, Palette, Target } from "lucide-react";
 
 type Msg = {
   role: string;
@@ -15,13 +15,13 @@ type Msg = {
 };
 
 const QUICK_ACTIONS = [
-  { label: "🎯 Set a new goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
-  { label: "🍽️ What should I eat right now?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
+  { label: "🎯 Set a goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
+  { label: "🍽️ What should I eat?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
   { label: "📊 Review my week", message: "", kind: "weekly_review" },
   { label: "🔧 Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
-  { label: "🎨 Change the app's look", message: "I want to change the app's template. What presets do you have, and can you make custom ones?" },
-  { label: "😮‍💨 Feeling lazy today", message: "I'm feeling lazy and unmotivated today. Get me moving." },
-  { label: "🏋️ What's my workout today?", message: "What's my workout today? Give me the exact session." },
+  { label: "🎨 Change the look", message: "I want to change the app's template. What presets do you have, and can you make custom ones?" },
+  { label: "😮‍💨 Feeling lazy", message: "I'm feeling lazy and unmotivated today. Get me moving." },
+  { label: "🏋️ Today's workout", message: "What's my workout today? Give me the exact session." },
 ];
 
 export function CoachChat({
@@ -79,7 +79,6 @@ export function CoachChat({
           goalUpdated: !!data.goal_updated,
         },
       ]);
-      // Theme/plan/goal changes affect server-rendered UI — refresh so they apply live
       if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
@@ -89,16 +88,17 @@ export function CoachChat({
   }
 
   return (
-    <div className="flex flex-col max-w-3xl w-full mx-auto px-4 h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] md:h-[calc(100dvh-4rem)]">
-      <div className="flex-1 min-h-0 overflow-y-auto py-5 space-y-4">
+    <div className="flex flex-col max-w-3xl w-full mx-auto h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] md:h-[calc(100dvh-4rem)]">
+      {/* Messages — ChatGPT style: user pills right, coach plain text */}
+      <div className="flex-1 min-h-0 overflow-y-auto px-4 py-6 space-y-6">
         {messages.length === 0 && !loading && (
-          <div className="text-center py-16">
-            <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-4">
-              <Sparkles className="w-7 h-7 text-white" />
+          <div className="h-full flex flex-col items-center justify-center text-center">
+            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-5">
+              <Sparkles className="w-6 h-6 text-white" />
             </div>
-            <h2 className="text-xl font-bold">Your coach is here 24/7</h2>
-            <p className="text-muted text-sm mt-2 max-w-sm mx-auto">
-              Ask anything — food calls, workout tweaks, motivation, skincare. He knows your plan and your numbers.
+            <h2 className="text-2xl font-bold tracking-tight">Ready when you are.</h2>
+            <p className="text-muted text-sm mt-2 max-w-xs mx-auto">
+              Plans, food calls, goals, the app itself — just say it, I&apos;ll do it.
             </p>
           </div>
         )}
@@ -106,48 +106,39 @@ export function CoachChat({
         {messages.map((m, i) =>
           m.role === "user" ? (
             <div key={i} className="flex justify-end">
-              <div className="bg-accent/15 border border-accent/25 rounded-2xl rounded-br-sm px-4 py-3 text-sm max-w-[85%] whitespace-pre-wrap">
+              <div className="bg-surface-2 border border-white/5 rounded-3xl rounded-br-lg px-4 py-2.5 text-[15px] max-w-[80%] whitespace-pre-wrap">
                 {m.content}
               </div>
             </div>
           ) : (
-            <div key={i} className="flex gap-2.5 items-start">
-              <div className="w-7 h-7 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center shrink-0 mt-1">
-                <Sparkles className="w-3.5 h-3.5 text-white" />
-              </div>
-              <div
-                className={`rounded-2xl rounded-bl-sm px-4 py-3 text-sm max-w-[85%] whitespace-pre-wrap leading-relaxed ${
-                  m.kind === "daily_checkin"
-                    ? "bg-gradient-to-br from-violet-500/15 to-fuchsia-500/10 border border-accent/20"
-                    : "bg-surface-2"
-                }`}
-              >
-                {m.kind === "daily_checkin" && (
-                  <p className="text-[10px] uppercase tracking-wide text-accent mb-1.5 font-semibold">
-                    Daily check-in
-                  </p>
-                )}
-                {m.kind === "weekly_review" && (
-                  <p className="text-[10px] uppercase tracking-wide text-accent mb-1.5 font-semibold">
-                    Weekly review
-                  </p>
-                )}
-                {m.content}
+            <div key={i} className="max-w-none">
+              {m.kind === "daily_checkin" && (
+                <p className="text-[10px] uppercase tracking-widest text-accent mb-1.5 font-bold">
+                  Daily check-in
+                </p>
+              )}
+              {m.kind === "weekly_review" && (
+                <p className="text-[10px] uppercase tracking-widest text-accent mb-1.5 font-bold">
+                  Weekly review
+                </p>
+              )}
+              <div className="text-[15px] leading-relaxed whitespace-pre-wrap">{m.content}</div>
+              <div className="flex flex-wrap gap-2 mt-2">
                 {m.planUpdated && (
                   <Link
                     href="/plan"
-                    className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-success bg-success/10 border border-success/25 rounded-full px-3 py-1.5 w-fit"
+                    className="flex items-center gap-1.5 text-xs font-semibold text-success bg-success/10 border border-success/25 rounded-full px-3 py-1.5"
                   >
                     <Map className="w-3.5 h-3.5" /> Plan updated — view it
                   </Link>
                 )}
                 {m.themeUpdated && (
-                  <span className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-accent bg-accent/10 border border-accent/25 rounded-full px-3 py-1.5 w-fit">
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-accent bg-accent/10 border border-accent/25 rounded-full px-3 py-1.5">
                     <Palette className="w-3.5 h-3.5" /> New template applied
                   </span>
                 )}
                 {m.goalUpdated && (
-                  <span className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-warning bg-warning/10 border border-warning/25 rounded-full px-3 py-1.5 w-fit">
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-warning bg-warning/10 border border-warning/25 rounded-full px-3 py-1.5">
                     <Target className="w-3.5 h-3.5" /> Goal updated
                   </span>
                 )}
@@ -157,12 +148,15 @@ export function CoachChat({
         )}
 
         {loading && (
-          <div className="flex items-center gap-2 text-muted text-sm px-2">
-            <Loader2 className="w-4 h-4 animate-spin" /> Coach is typing...
+          <div className="flex items-center gap-1.5 px-1">
+            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "0ms" }} />
+            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "150ms" }} />
+            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "300ms" }} />
           </div>
         )}
+
         {error && (
-          <p className="text-sm text-red-400 px-2">
+          <p className="text-sm text-red-400">
             {error}{" "}
             <button className="underline" onClick={() => send(input || "Hey coach", "chat")}>
               Retry
@@ -172,35 +166,42 @@ export function CoachChat({
         <div ref={bottomRef} />
       </div>
 
-      <div className="space-y-3 pt-2 border-t border-white/5 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-4">
-        <div className="flex gap-2 overflow-x-auto pb-1 -mx-1 px-1">
+      {/* Composer — ChatGPT-style floating pill */}
+      <div className="px-3 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-4 pt-1">
+        <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {QUICK_ACTIONS.map((a) => (
             <button
               key={a.label}
               onClick={() => send(a.message, a.kind ?? "chat")}
               disabled={loading}
-              className="chip whitespace-nowrap shrink-0"
+              className="shrink-0 text-xs font-medium text-muted border border-white/10 rounded-full px-3.5 py-2 hover:border-accent/40 hover:text-foreground transition-colors whitespace-nowrap active:scale-95"
             >
               {a.label}
             </button>
           ))}
         </div>
+
         <form
           onSubmit={(e) => {
             e.preventDefault();
             send(input);
           }}
-          className="flex gap-2"
+          className="flex items-end gap-2 bg-surface-2 border border-white/10 rounded-[26px] pl-5 pr-2 py-2 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.8)]"
         >
           <input
-            className="input-field"
+            className="flex-1 bg-transparent outline-none text-[15px] py-1.5 placeholder:text-muted/60 min-w-0"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Message your coach..."
+            placeholder="Ask your coach"
             disabled={loading}
           />
-          <button type="submit" disabled={loading || !input.trim()} className="btn-ai !px-4">
-            <Send className="w-4 h-4" />
+          <button
+            type="submit"
+            disabled={loading || !input.trim()}
+            className="w-9 h-9 rounded-full bg-foreground text-background flex items-center justify-center shrink-0 transition-all disabled:opacity-25 active:scale-90"
+            aria-label="Send"
+          >
+            <ArrowUp className="w-4.5 h-4.5" strokeWidth={2.5} />
           </button>
         </form>
       </div>

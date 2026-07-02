@@ -18,33 +18,36 @@ export default async function DashboardPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const [{ data: profile }, { data: planRow }, { data: streak }, { data: recentCheckins }] =
-    await Promise.all([
-      supabase.from("profiles").select("*").eq("id", user.id).single(),
-      supabase
-        .from("transformation_plans")
-        .select("plan, version")
-        .eq("user_id", user.id)
-        .eq("status", "active")
-        .order("created_at", { ascending: false })
-        .limit(1)
-        .maybeSingle(),
-      supabase.from("streaks").select("*").eq("user_id", user.id).maybeSingle(),
-      supabase
-        .from("daily_checkins")
-        .select("checkin_date, completion_pct")
-        .eq("user_id", user.id)
-        .order("checkin_date", { ascending: false })
-        .limit(7),
-    ]);
-
-  if (!profile?.onboarding_completed || !planRow) redirect("/onboarding");
-
-  const plan = planRow.plan as TransformationPlan;
   const today = new Date().toISOString().slice(0, 10);
 
-  const [{ data: todayCheckin }, { data: todayFood }, { data: todayCoachMsg }, { data: goals }] =
-    await Promise.all([
+  // Single parallel batch — every extra sequential round-trip to the DB
+  // region adds visible latency to tab switches.
+  const [
+    { data: profile },
+    { data: planRow },
+    { data: streak },
+    { data: recentCheckins },
+    { data: todayCheckin },
+    { data: todayFood },
+    { data: todayCoachMsg },
+    { data: goals },
+  ] = await Promise.all([
+    supabase.from("profiles").select("*").eq("id", user.id).single(),
+    supabase
+      .from("transformation_plans")
+      .select("plan, version")
+      .eq("user_id", user.id)
+      .eq("status", "active")
+      .order("created_at", { ascending: false })
+      .limit(1)
+      .maybeSingle(),
+    supabase.from("streaks").select("*").eq("user_id", user.id).maybeSingle(),
+    supabase
+      .from("daily_checkins")
+      .select("checkin_date, completion_pct")
+      .eq("user_id", user.id)
+      .order("checkin_date", { ascending: false })
+      .limit(7),
       supabase
         .from("daily_checkins")
         .select("*")
@@ -73,6 +76,10 @@ export default async function DashboardPage() {
         .order("created_at", { ascending: true }),
     ]);
 
+  if (!profile?.onboarding_completed || !planRow) redirect("/onboarding");
+
+  const plan = planRow.plan as TransformationPlan;
+
   // Signed thumbnails for photo-logged meals (private bucket)
   const foodWithUrls = await Promise.all(
     (todayFood ?? []).map(async (f) => {
@@ -89,7 +96,7 @@ export default async function DashboardPage() {
   return (
     <div className="flex-1">
       <RefreshOnFocus />
-      <Nav avatarUrl={profile.avatar_url} name={profile.full_name} active="dashboard" />
+      <Nav avatarUrl={profile.avatar_url} name={profile.full_name} active="dashboard" theme={profile.theme} />
 
       <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
         <header className="fade-up flex items-start justify-between gap-3">

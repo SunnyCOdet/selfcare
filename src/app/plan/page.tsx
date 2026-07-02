@@ -23,7 +23,7 @@ export default async function PlanPage() {
 
   const [{ data: profile }, { data: planRow }, { data: goals }, { data: goalProgress }] =
     await Promise.all([
-      supabase.from("profiles").select("full_name, avatar_url").eq("id", user.id).single(),
+      supabase.from("profiles").select("full_name, avatar_url, theme").eq("id", user.id).single(),
       supabase
         .from("transformation_plans")
         .select("plan, version, created_at")
@@ -51,7 +51,7 @@ export default async function PlanPage() {
 
   return (
     <div className="flex-1">
-      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="plan" />
+      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="plan" theme={profile?.theme} />
 
       <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
         <header className="fade-up">

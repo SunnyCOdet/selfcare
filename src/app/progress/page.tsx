@@ -17,7 +17,7 @@ export default async function ProgressPage() {
   const [{ data: profile }, { data: weights }, { data: photos }] = await Promise.all([
     supabase
       .from("profiles")
-      .select("full_name, avatar_url, weight_kg, target_weight_kg, sync_token")
+      .select("full_name, avatar_url, weight_kg, target_weight_kg, sync_token, theme")
       .eq("id", user.id)
       .single(),
     supabase
@@ -47,7 +47,7 @@ export default async function ProgressPage() {
 
   return (
     <div className="flex-1">
-      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="progress" />
+      <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="progress" theme={profile?.theme} />
 
       <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
         <header className="fade-up">
