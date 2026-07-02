@@ -19,25 +19,51 @@ export function aiConfigured(): boolean {
   return !!process.env.ANTHROPIC_API_KEY;
 }
 
+/**
+ * Fetch with automatic retry on rate limits (429) and transient overload
+ * (500/503/529) — essential on free-tier API quotas. Honors the provider's
+ * "retry in Ns" hint when present, capped so serverless functions don't
+ * exceed their execution window.
+ */
+async function fetchWithRetry(
+  makeRequest: () => Promise<Response>,
+  label: string
+): Promise<Response> {
+  const RETRYABLE = new Set([429, 500, 503, 529]);
+  let lastRes: Response | null = null;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    const res = await makeRequest();
+    if (res.ok || !RETRYABLE.has(res.status) || attempt === 3) return res;
+    const body = await res.text().catch(() => "");
+    const hint = body.match(/retry in ([\d.]+)\s*s/i);
+    const wait = Math.min(hint ? Math.ceil(parseFloat(hint[1]) * 1000) + 1000 : attempt * 12000, 50000);
+    console.warn(`${label}: ${res.status}, retrying in ${Math.round(wait / 1000)}s (attempt ${attempt}/3)`);
+    await new Promise((r) => setTimeout(r, wait));
+    lastRes = res;
+  }
+  return lastRes!;
+}
+
 async function callGemini(system: string, user: string): Promise<string> {
   const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-goog-api-key": process.env.GEMINI_API_KEY!,
-      },
-      body: JSON.stringify({
-        system_instruction: { parts: [{ text: system }] },
-        contents: [{ role: "user", parts: [{ text: user }] }],
-        generationConfig: {
-          responseMimeType: "application/json",
-          temperature: 0.7,
+  const res = await fetchWithRetry(
+    () =>
+      fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-goog-api-key": process.env.GEMINI_API_KEY!,
         },
+        body: JSON.stringify({
+          system_instruction: { parts: [{ text: system }] },
+          contents: [{ role: "user", parts: [{ text: user }] }],
+          generationConfig: {
+            responseMimeType: "application/json",
+            temperature: 0.7,
+          },
+        }),
       }),
-    }
+    "Gemini"
   );
   if (!res.ok) {
     const body = await res.text();
@@ -132,28 +158,29 @@ async function callGeminiVision(
   mimeType: string
 ): Promise<string> {
   const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        "x-goog-api-key": process.env.GEMINI_API_KEY!,
-      },
-      body: JSON.stringify({
-        system_instruction: { parts: [{ text: system }] },
-        contents: [
-          {
-            role: "user",
-            parts: [
-              { inline_data: { mime_type: mimeType, data: imageBase64 } },
-              { text: user },
-            ],
-          },
-        ],
-        generationConfig: { responseMimeType: "application/json", temperature: 0.4 },
+  const res = await fetchWithRetry(
+    () =>
+      fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-goog-api-key": process.env.GEMINI_API_KEY!,
+        },
+        body: JSON.stringify({
+          system_instruction: { parts: [{ text: system }] },
+          contents: [
+            {
+              role: "user",
+              parts: [
+                { inline_data: { mime_type: mimeType, data: imageBase64 } },
+                { text: user },
+              ],
+            },
+          ],
+          generationConfig: { responseMimeType: "application/json", temperature: 0.4 },
+        }),
       }),
-    }
+    "Gemini vision"
   );
   if (!res.ok) {
     const body = await res.text();

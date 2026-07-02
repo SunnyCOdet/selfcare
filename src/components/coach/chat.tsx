@@ -1,16 +1,19 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Sparkles, Send, Loader2 } from "lucide-react";
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import { Sparkles, Send, Loader2, Map, Palette } from "lucide-react";
 
-type Msg = { role: string; content: string; kind?: string };
+type Msg = { role: string; content: string; kind?: string; planUpdated?: boolean; themeUpdated?: boolean };
 
 const QUICK_ACTIONS = [
   { label: "🍽️ What should I eat right now?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
   { label: "📊 Review my week", message: "", kind: "weekly_review" },
+  { label: "🔧 Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
+  { label: "🎨 Change the app's look", message: "I want to change the app's template. What presets do you have, and can you make custom ones?" },
   { label: "😮‍💨 Feeling lazy today", message: "I'm feeling lazy and unmotivated today. Get me moving." },
   { label: "🏋️ What's my workout today?", message: "What's my workout today? Give me the exact session." },
-  { label: "✨ Skincare check", message: "Quick skincare check — what should I be doing today and am I missing anything?" },
 ];
 
 export function CoachChat({
@@ -20,6 +23,7 @@ export function CoachChat({
   initialMessages: Msg[];
   needsDailyCheckin: boolean;
 }) {
+  const router = useRouter();
   const [messages, setMessages] = useState<Msg[]>(initialMessages);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -56,7 +60,18 @@ export function CoachChat({
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Coach unavailable");
-      setMessages((m) => [...m, { role: "coach", content: data.reply, kind }]);
+      setMessages((m) => [
+        ...m,
+        {
+          role: "coach",
+          content: data.reply,
+          kind,
+          planUpdated: !!data.plan_updated,
+          themeUpdated: !!data.theme_updated,
+        },
+      ]);
+      // Theme/plan changes affect server-rendered UI — refresh so they apply live
+      if (data.theme_updated || data.plan_updated) router.refresh();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
@@ -109,6 +124,19 @@ export function CoachChat({
                   </p>
                 )}
                 {m.content}
+                {m.planUpdated && (
+                  <Link
+                    href="/plan"
+                    className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-success bg-success/10 border border-success/25 rounded-full px-3 py-1.5 w-fit"
+                  >
+                    <Map className="w-3.5 h-3.5" /> Plan updated — view it
+                  </Link>
+                )}
+                {m.themeUpdated && (
+                  <span className="mt-2.5 flex items-center gap-1.5 text-xs font-semibold text-accent bg-accent/10 border border-accent/25 rounded-full px-3 py-1.5 w-fit">
+                    <Palette className="w-3.5 h-3.5" /> New template applied
+                  </span>
+                )}
               </div>
             </div>
           )

@@ -2,6 +2,25 @@ import Link from "next/link";
 import Image from "next/image";
 import { Flame, LayoutDashboard, Map, TrendingUp, LogOut, Sparkles } from "lucide-react";
 import { BottomNav } from "@/components/bottom-nav";
+import { createClient } from "@/lib/supabase/server";
+import { sanitizeThemeVars, themeToCss } from "@/lib/themes";
+
+/** AI-set theme overrides, applied on every page that renders the Nav. */
+async function UserTheme() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+  if (!user) return null;
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("theme")
+    .eq("id", user.id)
+    .single();
+  const vars = sanitizeThemeVars(profile?.theme?.vars);
+  if (!vars) return null;
+  return <style id="user-theme">{themeToCss(vars)}</style>;
+}
 
 export function Nav({
   avatarUrl,
@@ -21,6 +40,7 @@ export function Nav({
 
   return (
     <>
+    <UserTheme />
     <nav className="sticky top-0 z-40 backdrop-blur-xl bg-background/70 border-b border-white/5 pt-[env(safe-area-inset-top)]">
       <div className="max-w-5xl mx-auto px-4 h-14 md:h-16 flex items-center justify-between">
         <Link href="/dashboard" className="flex items-center gap-2 font-bold text-lg">
