@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
+import { IncomeChart } from "@/components/goals/income-chart";
 import type { TransformationPlan } from "@/lib/types";
 import {
   Dumbbell,
@@ -134,6 +135,19 @@ export default async function PlanPage() {
                         );
                       })}
                     </ol>
+                    {g.target_value != null && Number(g.target_value) > 0 && (
+                      <IncomeChart
+                        target={Number(g.target_value)}
+                        unit={g.target_metric ?? ""}
+                        points={(goalProgress ?? [])
+                          .filter((p) => p.goal_id === g.id && p.new_value != null)
+                          .map((p) => ({
+                            date: String(p.created_at).slice(0, 10),
+                            value: Number(p.new_value),
+                          }))
+                          .reverse()}
+                      />
+                    )}
                     {progress.length > 0 && (
                       <div className="mt-3 border-t border-white/5 pt-2.5 space-y-1">
                         {progress.map((p, i) => (

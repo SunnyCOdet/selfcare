@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { generateJSON, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
-import { PLAN_JSON_SPEC, PLAN_RULES, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
+import { PLAN_UPDATER_SYSTEM, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
 import { PRESET_THEMES, sanitizeThemeVars, THEME_VAR_KEYS } from "@/lib/themes";
 import type { TransformationPlan } from "@/lib/types";
 
@@ -38,6 +38,16 @@ You can attach ONE action to any reply. Use an action whenever the client asks y
 
 6. "remember" — save a durable fact you'll want in future conversations (injury, preference, person, win, fear). Use liberally whenever the client reveals something lasting. Set: {"type": "remember", "category": "preference"|"fact"|"person"|"win"|"struggle", "content": "<one clear sentence>"}
 
+7. "log_workout" — when the client reports lifts ("bench 60kg 4x8, squats 80 for 5x5"), log every entry. You can see their recent_workouts history — call out PRs and stalls, prescribe the next progression. Set: {"type": "log_workout", "entries": [{"exercise": string, "weight_kg": number, "sets": number, "reps": number, "notes": string|null}]}
+
+8. "create_tracker" — when the client wants to track a new daily habit ("track my pages read"), create it; it appears in their daily checklist automatically. Set: {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null}
+
+9. "schedule_ping" — when the client defers something ("I'll walk after lunch") or you want to follow up, schedule a push notification to their phone. Set: {"type": "schedule_ping", "minutes_from_now": number (5-10080), "message": "<the notification text, direct and short>"} and tell them when you'll check in.
+
+10. "revert_plan" — restore the previous plan version when the client asks to undo a plan change. Set: {"type": "revert_plan"}
+
+11. "web_search" — when a question needs live real-world facts (prices, agencies, casting calls, current rates, product comparisons), search the web instead of guessing. Set: {"type": "web_search", "query": "<focused search query>"} — you'll receive the results and answer in the same turn.
+
 Rules:
 - Only act when the client clearly requests a change or explicitly agrees to your suggestion (exception: "remember" — use whenever something durable comes up).
 - In your reply, confirm concretely what you changed ("Done — recomp at 2400 kcal, protein stays at 170g...").
@@ -45,7 +55,7 @@ Rules:
 - Keep replies under 150 words unless they ask for detail.
 - Never prescribe medication or diagnose. Pain/injury beyond soreness → see a professional.
 
-Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string}}
+Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string} | {"type": "log_workout", "entries": array} | {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null} | {"type": "schedule_ping", "minutes_from_now": number, "message": string} | {"type": "revert_plan"} | {"type": "web_search", "query": string}}
 
 conversation_title: a 2-5 word title for this conversation (like ChatGPT's sidebar titles) — set it ONLY when the conversation history is empty (first exchange); otherwise use "".`;
 
@@ -63,19 +73,7 @@ const REVIEW_INSTRUCTION = `This is a WEEKLY REVIEW the client requested. Analyz
 4. One focus for next week
 Keep it under 220 words, formatted with short lines. action must be null unless they asked for a change.`;
 
-const UPDATER_SYSTEM = `You are the plan-rewriting engine of a transformation app. You receive the client's CURRENT plan, their full context, and precise CHANGE INSTRUCTIONS from their coach.
-
-Rewrite the plan applying the instructions coherently across EVERYTHING affected:
-- calorie/phase change → recalculate macros, rewrite every meal with matching portions, adjust cardio guidance
-- split/schedule change → rebuild workout days and the weekly schedule
-- new activities/routines → integrate into weekly_schedule, activities, and daily_non_negotiables
-Keep everything NOT affected by the instructions as close to the current plan as possible — do not gratuitously rewrite what works.
-
-You MUST respond with a single JSON object exactly matching this shape (all fields required):
-
-${PLAN_JSON_SPEC}
-
-${PLAN_RULES}`;
+const UPDATER_SYSTEM = PLAN_UPDATER_SYSTEM;
 
 type Milestone = { title: string; deadline?: string | null; status?: string };
 
@@ -106,6 +104,14 @@ type CoachAction =
       status?: string | null;
     }
   | { type: "remember"; category?: string; content: string }
+  | {
+      type: "log_workout";
+      entries: { exercise: string; weight_kg?: number; sets?: number; reps?: number; notes?: string | null }[];
+    }
+  | { type: "create_tracker"; name: string; emoji?: string; unit?: string | null; target_value?: number | null }
+  | { type: "schedule_ping"; minutes_from_now: number; message: string }
+  | { type: "revert_plan" }
+  | { type: "web_search"; query: string }
   | null;
 
 const GOAL_CATEGORIES = ["income", "career", "skill", "body", "life"];
@@ -201,6 +207,9 @@ Reply as Coach now.`;
     let themeUpdated = false;
     let goalUpdated = false;
     let memorySaved = false;
+    let workoutLogged = false;
+    let trackerUpdated = false;
+    let pingScheduled = false;
     let planVersion: number | null = null;
 
     // ---- Execute the agent's action ----
@@ -343,6 +352,126 @@ Return the full updated JSON plan now.`;
         content: action.content.slice(0, 500),
       });
       if (!memErr) memorySaved = true;
+    } else if (action?.type === "log_workout" && Array.isArray(action.entries)) {
+      try {
+        const prNames: string[] = [];
+        for (const e of action.entries.slice(0, 12)) {
+          if (!e?.exercise) continue;
+          const weight = typeof e.weight_kg === "number" ? e.weight_kg : null;
+          const reps = typeof e.reps === "number" ? e.reps : null;
+          // Epley estimated 1RM
+          const est1rm =
+            weight != null && reps != null ? Math.round(weight * (1 + reps / 30) * 10) / 10 : null;
+
+          let isPr = false;
+          if (est1rm != null) {
+            const { data: best } = await supabase
+              .from("workouts")
+              .select("est_1rm")
+              .eq("user_id", user.id)
+              .ilike("exercise", e.exercise.trim())
+              .order("est_1rm", { ascending: false })
+              .limit(1)
+              .maybeSingle();
+            isPr = !best?.est_1rm || est1rm > Number(best.est_1rm);
+          }
+          const { error: wErr } = await supabase.from("workouts").insert({
+            user_id: user.id,
+            exercise: e.exercise.trim().slice(0, 80),
+            weight_kg: weight,
+            sets: typeof e.sets === "number" ? e.sets : null,
+            reps,
+            est_1rm: est1rm,
+            is_pr: isPr,
+            notes: e.notes?.slice(0, 200) ?? null,
+          });
+          if (!wErr) {
+            workoutLogged = true;
+            if (isPr) prNames.push(e.exercise.trim());
+          }
+        }
+        if (workoutLogged) {
+          reply += `\n\n💪 Logged.${prNames.length ? ` PR on ${prNames.join(", ")}! 🔥` : ""}`;
+        }
+      } catch (e) {
+        console.error("log_workout failed:", e);
+      }
+    } else if (action?.type === "create_tracker" && action.name) {
+      const { error: tErr } = await supabase.from("custom_trackers").insert({
+        user_id: user.id,
+        name: action.name.trim().slice(0, 60),
+        emoji: (action.emoji ?? "✅").slice(0, 8),
+        unit: action.unit?.slice(0, 20) ?? null,
+        target_value: typeof action.target_value === "number" ? action.target_value : null,
+      });
+      if (!tErr) {
+        trackerUpdated = true;
+        reply += `\n\n📊 "${action.name.trim()}" is now on your daily checklist.`;
+      }
+    } else if (action?.type === "schedule_ping" && action.message) {
+      const mins = Math.min(10080, Math.max(5, Math.round(Number(action.minutes_from_now) || 60)));
+      const sendAt = new Date(Date.now() + mins * 60000);
+      const { error: pErr } = await supabase.from("scheduled_pings").insert({
+        user_id: user.id,
+        send_at: sendAt.toISOString(),
+        message: action.message.slice(0, 200),
+      });
+      if (!pErr) {
+        pingScheduled = true;
+        reply += `\n\n⏰ I'll ping you in ${mins >= 60 ? `${Math.round(mins / 60)}h` : `${mins}min`}.`;
+      }
+    } else if (action?.type === "revert_plan") {
+      try {
+        const { data: prev } = await supabase
+          .from("transformation_plans")
+          .select("plan")
+          .eq("user_id", user.id)
+          .eq("status", "archived")
+          .order("created_at", { ascending: false })
+          .limit(1)
+          .maybeSingle();
+        if (!prev?.plan) throw new Error("no previous version");
+        planVersion = await savePlanVersion(supabase, user.id, prev.plan as TransformationPlan);
+        planUpdated = true;
+        reply += `\n\n↩️ Reverted — previous plan restored as v${planVersion}.`;
+      } catch (e) {
+        reply += `\n\n⚠️ Couldn't revert (${e instanceof Error ? e.message : "error"}).`;
+      }
+    } else if (action?.type === "web_search" && action.query) {
+      if (!process.env.TAVILY_API_KEY) {
+        reply += `\n\n🌐 I can't search the web yet — add a TAVILY_API_KEY (free at tavily.com) and I'll have live search.`;
+      } else {
+        try {
+          const sRes = await fetch("https://api.tavily.com/search", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              api_key: process.env.TAVILY_API_KEY,
+              query: action.query.slice(0, 300),
+              max_results: 5,
+              include_answer: true,
+            }),
+          });
+          if (!sRes.ok) throw new Error(`search ${sRes.status}`);
+          const sData = await sRes.json();
+          const findings = JSON.stringify({
+            answer: sData.answer,
+            results: (sData.results ?? []).map((r: { title: string; url: string; content: string }) => ({
+              title: r.title,
+              url: r.url,
+              snippet: (r.content ?? "").slice(0, 300),
+            })),
+          });
+          const followUp = await generateJSON<{ reply: string }>(
+            PERSONA,
+            `${userPrompt}\n\nWEB SEARCH RESULTS for "${action.query}":\n${findings}\n\nNow answer the client's question using these results. Cite specifics. action must be null. Reply as Coach.`
+          );
+          reply = followUp.reply;
+        } catch (e) {
+          console.error("web_search failed:", e);
+          reply += `\n\n⚠️ Search failed — answering from what I know.`;
+        }
+      }
     }
 
     // Create the thread on first exchange, titled by the model (ChatGPT-style)
@@ -398,6 +527,9 @@ Return the full updated JSON plan now.`;
       theme_updated: themeUpdated,
       goal_updated: goalUpdated,
       memory_saved: memorySaved,
+      workout_logged: workoutLogged,
+      tracker_updated: trackerUpdated,
+      ping_scheduled: pingScheduled,
     });
   } catch (e) {
     console.error("coach error:", e);

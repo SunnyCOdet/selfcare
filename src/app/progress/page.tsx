@@ -14,7 +14,7 @@ export default async function ProgressPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const [{ data: profile }, { data: weights }, { data: photos }] = await Promise.all([
+  const [{ data: profile }, { data: weights }, { data: photos }, { data: workouts }] = await Promise.all([
     supabase
       .from("profiles")
       .select("full_name, avatar_url, weight_kg, target_weight_kg, sync_token, theme")
@@ -33,6 +33,12 @@ export default async function ProgressPage() {
       .eq("user_id", user.id)
       .order("created_at", { ascending: false })
       .limit(60),
+    supabase
+      .from("workouts")
+      .select("logged_on, exercise, weight_kg, sets, reps, est_1rm, is_pr")
+      .eq("user_id", user.id)
+      .order("created_at", { ascending: false })
+      .limit(20),
   ]);
 
   // Signed URLs for the private bucket
@@ -67,6 +73,40 @@ export default async function ProgressPage() {
         />
 
         <PhotoSection userId={user.id} photos={photosWithUrls} />
+
+        {(workouts ?? []).length > 0 && (
+          <div className="glass p-6 fade-up" style={{ animationDelay: "0.12s" }}>
+            <h2 className="font-semibold mb-1">🏋️ Strength log</h2>
+            <p className="text-xs text-muted mb-4">
+              Tell the coach your lifts in chat — &quot;bench 60kg 4x8&quot; — and they land here.
+            </p>
+            <div className="space-y-2">
+              {(workouts ?? []).map((w, i) => (
+                <div key={i} className="flex items-center justify-between gap-3 bg-surface-2 rounded-xl px-4 py-3">
+                  <div className="min-w-0">
+                    <p className="text-sm font-semibold truncate">
+                      {w.exercise}
+                      {w.is_pr && (
+                        <span className="ml-2 text-[9px] uppercase tracking-wide font-bold text-warning bg-warning/15 border border-warning/30 rounded-full px-2 py-0.5">
+                          PR
+                        </span>
+                      )}
+                    </p>
+                    <p className="text-xs text-muted">{w.logged_on}</p>
+                  </div>
+                  <div className="text-right shrink-0">
+                    <p className="text-sm font-bold font-mono">
+                      {w.weight_kg != null ? `${w.weight_kg}kg` : "—"} × {w.sets ?? "?"}×{w.reps ?? "?"}
+                    </p>
+                    {w.est_1rm != null && (
+                      <p className="text-[11px] text-muted">e1RM {Math.round(Number(w.est_1rm))}kg</p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <NotificationsCard />

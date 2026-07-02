@@ -43,6 +43,21 @@ export const PLAN_RULES = `Rules:
 - Be specific (exercise names, sets x reps, product types) but never prescribe medication.
 - Tone: confident, motivating, no fluff.`;
 
+/** System prompt for coherently rewriting an existing plan (chat + weekly cron). */
+export const PLAN_UPDATER_SYSTEM = `You are the plan-rewriting engine of a transformation app. You receive the client's CURRENT plan, their full context, and precise CHANGE INSTRUCTIONS from their coach.
+
+Rewrite the plan applying the instructions coherently across EVERYTHING affected:
+- calorie/phase change → recalculate macros, rewrite every meal with matching portions, adjust cardio guidance
+- split/schedule change → rebuild workout days and the weekly schedule
+- new activities/routines → integrate into weekly_schedule, activities, and daily_non_negotiables
+Keep everything NOT affected by the instructions as close to the current plan as possible — do not gratuitously rewrite what works.
+
+You MUST respond with a single JSON object exactly matching this shape (all fields required):
+
+${PLAN_JSON_SPEC}
+
+${PLAN_RULES}`;
+
 /** Sanity-check that an AI response is a complete plan before saving it. */
 export function isValidPlan(p: unknown): p is TransformationPlan {
   if (!p || typeof p !== "object") return false;

@@ -16,6 +16,10 @@ import {
   Trash2,
   X,
   MessageSquare,
+  Mic,
+  Dumbbell,
+  ListChecks,
+  AlarmClock,
 } from "lucide-react";
 
 type Msg = {
@@ -25,7 +29,33 @@ type Msg = {
   planUpdated?: boolean;
   themeUpdated?: boolean;
   goalUpdated?: boolean;
+  workoutLogged?: boolean;
+  trackerUpdated?: boolean;
+  pingScheduled?: boolean;
 };
+
+/** ChatGPT-style streaming feel: reveal the newest reply progressively. */
+function Typewriter({ text, animate }: { text: string; animate: boolean }) {
+  const [shown, setShown] = useState(animate ? 0 : text.length);
+  useEffect(() => {
+    if (!animate) {
+      setShown(text.length);
+      return;
+    }
+    setShown(0);
+    const iv = setInterval(() => {
+      setShown((s) => {
+        if (s >= text.length) {
+          clearInterval(iv);
+          return s;
+        }
+        return s + 3;
+      });
+    }, 16);
+    return () => clearInterval(iv);
+  }, [text, animate]);
+  return <>{text.slice(0, shown)}</>;
+}
 
 type Conversation = { id: string; title: string; updated_at: string };
 
@@ -73,8 +103,41 @@ export function CoachChat({
   const [error, setError] = useState<string | null>(null);
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [query, setQuery] = useState("");
+  const [animateLast, setAnimateLast] = useState(false);
+  const [listening, setListening] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const checkinFired = useRef(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const recognitionRef = useRef<any>(null);
+
+  function toggleMic() {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const SR = (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
+    if (!SR) {
+      setError("Voice input isn't supported in this browser");
+      return;
+    }
+    if (listening) {
+      recognitionRef.current?.stop();
+      setListening(false);
+      return;
+    }
+    const rec = new SR();
+    rec.lang = "en-IN";
+    rec.interimResults = true;
+    rec.continuous = false;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    rec.onresult = (e: any) => {
+      let transcript = "";
+      for (const r of e.results) transcript += r[0].transcript;
+      setInput(transcript);
+    };
+    rec.onend = () => setListening(false);
+    rec.onerror = () => setListening(false);
+    recognitionRef.current = rec;
+    rec.start();
+    setListening(true);
+  }
 
   const activeTitle = conversations.find((c) => c.id === activeId)?.title ?? "New chat";
 
@@ -119,6 +182,7 @@ export function CoachChat({
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Coach unavailable");
+      setAnimateLast(true);
       setMessages((m) => [
         ...m,
         {
@@ -128,6 +192,9 @@ export function CoachChat({
           planUpdated: !!data.plan_updated,
           themeUpdated: !!data.theme_updated,
           goalUpdated: !!data.goal_updated,
+          workoutLogged: !!data.workout_logged,
+          trackerUpdated: !!data.tracker_updated,
+          pingScheduled: !!data.ping_scheduled,
         },
       ]);
       if (data.conversation_id) {
@@ -329,7 +396,9 @@ export function CoachChat({
                   Weekly review
                 </p>
               )}
-              <div className="text-[15px] leading-relaxed whitespace-pre-wrap">{m.content}</div>
+              <div className="text-[15px] leading-relaxed whitespace-pre-wrap">
+                <Typewriter text={m.content} animate={animateLast && i === messages.length - 1} />
+              </div>
               <div className="flex flex-wrap gap-2 mt-2">
                 {m.planUpdated && (
                   <Link
@@ -347,6 +416,21 @@ export function CoachChat({
                 {m.goalUpdated && (
                   <span className="flex items-center gap-1.5 text-xs font-semibold text-warning bg-warning/10 border border-warning/25 rounded-full px-3 py-1.5">
                     <Target className="w-3.5 h-3.5" /> Goal updated
+                  </span>
+                )}
+                {m.workoutLogged && (
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-move bg-move/10 border border-move/25 rounded-full px-3 py-1.5">
+                    <Dumbbell className="w-3.5 h-3.5" /> Workout logged
+                  </span>
+                )}
+                {m.trackerUpdated && (
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-success bg-success/10 border border-success/25 rounded-full px-3 py-1.5">
+                    <ListChecks className="w-3.5 h-3.5" /> Tracker added
+                  </span>
+                )}
+                {m.pingScheduled && (
+                  <span className="flex items-center gap-1.5 text-xs font-semibold text-sky-400 bg-sky-400/10 border border-sky-400/25 rounded-full px-3 py-1.5">
+                    <AlarmClock className="w-3.5 h-3.5" /> Follow-up scheduled
                   </span>
                 )}
               </div>
@@ -399,9 +483,19 @@ export function CoachChat({
             className="flex-1 bg-transparent outline-none text-[15px] py-1.5 placeholder:text-muted/60 min-w-0"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="Ask your coach"
+            placeholder={listening ? "Listening..." : "Ask your coach"}
             disabled={loading}
           />
+          <button
+            type="button"
+            onClick={toggleMic}
+            className={`w-9 h-9 rounded-full flex items-center justify-center shrink-0 transition-all active:scale-90 ${
+              listening ? "bg-red-500/20 text-red-400 animate-pulse" : "text-muted hover:text-foreground"
+            }`}
+            aria-label="Voice input"
+          >
+            <Mic className="w-4.5 h-4.5" />
+          </button>
           <button
             type="submit"
             disabled={loading || !input.trim()}

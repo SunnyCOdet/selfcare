@@ -9,6 +9,7 @@ import { FoodLog } from "@/components/dashboard/food-log";
 import { RefreshOnFocus } from "@/components/refresh-on-focus";
 import type { TransformationPlan } from "@/lib/types";
 import { todayStr, todayWeekday, currentHour, APP_TZ } from "@/lib/dates";
+import { computeReadiness } from "@/lib/readiness";
 import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
@@ -32,6 +33,9 @@ export default async function DashboardPage() {
     { data: todayFood },
     { data: todayCoachMsg },
     { data: goals },
+    { data: trackers },
+    { data: trackerLogs },
+    { data: vitals },
   ] = await Promise.all([
     supabase.from("profiles").select("*").eq("id", user.id).single(),
     supabase
@@ -75,6 +79,23 @@ export default async function DashboardPage() {
         .eq("user_id", user.id)
         .eq("status", "active")
         .order("created_at", { ascending: true }),
+      supabase
+        .from("custom_trackers")
+        .select("id, name, emoji, unit, target_value")
+        .eq("user_id", user.id)
+        .eq("active", true)
+        .order("created_at", { ascending: true }),
+      supabase
+        .from("tracker_logs")
+        .select("tracker_id, done, value")
+        .eq("user_id", user.id)
+        .eq("log_date", today),
+      supabase
+        .from("daily_checkins")
+        .select("checkin_date, sleep_hours, heart_rate_avg")
+        .eq("user_id", user.id)
+        .order("checkin_date", { ascending: false })
+        .limit(14),
     ]);
 
   if (!profile?.onboarding_completed || !planRow) redirect("/onboarding");
@@ -93,6 +114,7 @@ export default async function DashboardPage() {
   const firstName = (profile.full_name ?? "Champion").split(" ")[0];
   const hour = currentHour();
   const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
+  const readiness = computeReadiness(vitals ?? []);
 
   return (
     <div className="flex-1">
@@ -129,6 +151,35 @@ export default async function DashboardPage() {
 
         <WeekStrip checkins={recentCheckins ?? []} />
 
+        {readiness && (
+          <div className="glass fade-up flex items-center gap-3.5 px-5 py-3.5">
+            <div
+              className={`w-11 h-11 rounded-full flex flex-col items-center justify-center shrink-0 border-2 ${
+                readiness.score >= 85
+                  ? "border-success text-success"
+                  : readiness.score >= 65
+                    ? "border-sky-400 text-sky-400"
+                    : readiness.score >= 45
+                      ? "border-warning text-warning"
+                      : "border-red-400 text-red-400"
+              }`}
+            >
+              <span className="text-sm font-extrabold leading-none">{readiness.score}</span>
+            </div>
+            <div className="min-w-0">
+              <p className="text-sm font-bold">
+                {readiness.label}
+                <span className="text-muted font-normal text-xs ml-2">
+                  {readiness.sleep_hours != null && `${readiness.sleep_hours}h sleep`}
+                  {readiness.hr_delta != null &&
+                    ` · HR ${readiness.hr_delta > 0 ? "+" : ""}${readiness.hr_delta} vs baseline`}
+                </span>
+              </p>
+              <p className="text-xs text-muted truncate">{readiness.advice}</p>
+            </div>
+          </div>
+        )}
+
         {!todayCoachMsg && (
           <Link
             href="/coach"
@@ -154,6 +205,8 @@ export default async function DashboardPage() {
               plan={plan}
               initialCheckin={todayCheckin}
               today={today}
+              trackers={trackers ?? []}
+              initialTrackerLogs={trackerLogs ?? []}
             />
             <GoalsCard goals={goals ?? []} />
             <FoodLog

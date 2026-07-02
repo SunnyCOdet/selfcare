@@ -48,18 +48,42 @@ function HourlyBars({ hourly }: { hourly: Record<string, number> }) {
   );
 }
 
+type Tracker = {
+  id: string;
+  name: string;
+  emoji: string;
+  unit: string | null;
+  target_value: number | null;
+};
+
 export function TodayPanel({
   userId,
   plan,
   initialCheckin,
   today,
+  trackers = [],
+  initialTrackerLogs = [],
 }: {
   userId: string;
   plan: TransformationPlan;
   initialCheckin: DailyCheckin | null;
   today: string;
+  trackers?: Tracker[];
+  initialTrackerLogs?: { tracker_id: string; done: boolean }[];
 }) {
   const supabase = useMemo(() => createClient(), []);
+  const [trackerDone, setTrackerDone] = useState<Record<string, boolean>>(
+    Object.fromEntries(initialTrackerLogs.map((l) => [l.tracker_id, l.done]))
+  );
+
+  async function toggleTracker(t: Tracker) {
+    const next = !trackerDone[t.id];
+    setTrackerDone((prev) => ({ ...prev, [t.id]: next }));
+    await supabase.from("tracker_logs").upsert(
+      { tracker_id: t.id, user_id: userId, log_date: today, done: next, value: next ? 1 : 0 },
+      { onConflict: "tracker_id,log_date" }
+    );
+  }
 
   const nonNegotiables = plan.daily_non_negotiables ?? [];
   const stepsTarget = plan.steps_target || 20000;
@@ -279,6 +303,48 @@ export function TodayPanel({
             );
           })}
         </div>
+
+        {/* Agent-created custom habits */}
+        {trackers.length > 0 && (
+          <div className="mt-4 pt-3 border-t border-white/5">
+            <p className="text-[11px] font-semibold uppercase tracking-widest text-muted mb-2">
+              Your habits
+            </p>
+            <div className="space-y-2">
+              {trackers.map((t) => {
+                const done = !!trackerDone[t.id];
+                return (
+                  <button
+                    key={t.id}
+                    onClick={() => toggleTracker(t)}
+                    className={`w-full flex items-center gap-3 rounded-xl px-4 py-3 text-left transition-all border ${
+                      done
+                        ? "bg-success/10 border-success/25"
+                        : "bg-surface-2 border-white/5 hover:border-white/15"
+                    }`}
+                  >
+                    <span
+                      className={`w-6 h-6 rounded-full flex items-center justify-center border shrink-0 transition-all ${
+                        done ? "bg-success border-success text-black" : "border-white/20"
+                      }`}
+                    >
+                      {done && <Check className="w-3.5 h-3.5" strokeWidth={3} />}
+                    </span>
+                    <span className={`text-sm ${done ? "line-through text-muted" : ""}`}>
+                      {t.emoji} {t.name}
+                      {t.target_value != null && (
+                        <span className="text-muted text-xs ml-1.5">
+                          {t.target_value}
+                          {t.unit ?? ""}
+                        </span>
+                      )}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Metrics — collapsed by default to keep the screen calm */}

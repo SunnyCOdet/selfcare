@@ -1,6 +1,7 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { TransformationPlan } from "@/lib/types";
 import { todayStr } from "@/lib/dates";
+import { computeReadiness } from "@/lib/readiness";
 
 /**
  * Gathers everything the AI coach needs to know about the user so every
@@ -18,6 +19,9 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
     { data: goals },
     { data: goalProgress },
     { data: memories },
+    { data: recentWorkouts },
+    { data: trackers },
+    { data: vitals },
   ] = await Promise.all([
     supabase.from("profiles").select("*").eq("id", userId).single(),
     supabase
@@ -59,6 +63,23 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
       .eq("user_id", userId)
       .order("created_at", { ascending: false })
       .limit(50),
+    supabase
+      .from("workouts")
+      .select("logged_on, exercise, weight_kg, sets, reps, est_1rm, is_pr")
+      .eq("user_id", userId)
+      .order("created_at", { ascending: false })
+      .limit(20),
+    supabase
+      .from("custom_trackers")
+      .select("name, emoji, unit, target_value")
+      .eq("user_id", userId)
+      .eq("active", true),
+    supabase
+      .from("daily_checkins")
+      .select("checkin_date, sleep_hours, heart_rate_avg")
+      .eq("user_id", userId)
+      .order("checkin_date", { ascending: false })
+      .limit(14),
   ]);
 
   const plan = (planRow?.plan ?? null) as TransformationPlan | null;
@@ -123,5 +144,8 @@ export async function buildUserContext(supabase: SupabaseClient, userId: string)
     goals: goals ?? [],
     recent_goal_progress: goalProgress ?? [],
     memories: memories ?? [],
+    recent_workouts: recentWorkouts ?? [],
+    custom_trackers: trackers ?? [],
+    readiness_today: computeReadiness(vitals ?? []),
   };
 }
