@@ -1,12 +1,13 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
 import type { TransformationPlan } from "@/lib/types";
+import { todayStr } from "@/lib/dates";
 
 /**
  * Gathers everything the AI coach needs to know about the user so every
  * reply is grounded in their actual plan and recent behavior.
  */
 export async function buildUserContext(supabase: SupabaseClient, userId: string) {
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayStr();
 
   const [
     { data: profile },

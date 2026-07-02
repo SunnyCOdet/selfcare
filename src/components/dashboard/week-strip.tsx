@@ -1,7 +1,8 @@
 import { Check } from "lucide-react";
 import { STREAK_THRESHOLD } from "@/lib/streak";
+import { todayStr, weekdayNarrow } from "@/lib/dates";
 
-/** Numo/Apple Fitness-style week row: a check circle per day. */
+/** Numo/Apple Fitness-style week row: a check circle per day (IST days). */
 export function WeekStrip({
   checkins,
 }: {
@@ -10,10 +11,9 @@ export function WeekStrip({
   const byDate = new Map(checkins.map((c) => [c.checkin_date, c.completion_pct]));
   const days: { label: string; date: string; isToday: boolean }[] = [];
   for (let i = 6; i >= 0; i--) {
-    const d = new Date(Date.now() - i * 86400000);
     days.push({
-      label: d.toLocaleDateString("en-US", { weekday: "narrow" }),
-      date: d.toISOString().slice(0, 10),
+      label: weekdayNarrow(-i),
+      date: todayStr(-i),
       isToday: i === 0,
     });
   }

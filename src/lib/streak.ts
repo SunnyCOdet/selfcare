@@ -1,15 +1,13 @@
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { todayStr } from "@/lib/dates";
 
 /** A day counts toward the streak once completion reaches this percentage. */
 export const STREAK_THRESHOLD = 70;
 
-function toDateString(d: Date): string {
-  return d.toISOString().slice(0, 10);
-}
-
 /**
  * Called after a check-in save. If today's completion crosses the threshold
  * and the streak hasn't already counted today, extend (or reset) the streak.
+ * Days roll over at midnight IST (see lib/dates.ts).
  */
 export async function updateStreak(
   supabase: SupabaseClient,
@@ -18,8 +16,8 @@ export async function updateStreak(
 ) {
   if (completionPct < STREAK_THRESHOLD) return;
 
-  const today = toDateString(new Date());
-  const yesterday = toDateString(new Date(Date.now() - 86400000));
+  const today = todayStr();
+  const yesterday = todayStr(-1);
 
   const { data: streak } = await supabase
     .from("streaks")

@@ -2,6 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
 import { CoachChat } from "@/components/coach/chat";
+import { todayStr, APP_TZ } from "@/lib/dates";
 
 export default async function CoachPage() {
   const supabase = await createClient();
@@ -10,7 +11,7 @@ export default async function CoachPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayStr();
 
   const [{ data: profile }, { data: conversations }, { data: todayCheckinMsg }] =
     await Promise.all([
@@ -26,7 +27,7 @@ export default async function CoachPage() {
         .select("id, conversation_id")
         .eq("user_id", user.id)
         .eq("kind", "daily_checkin")
-        .gte("created_at", `${today}T00:00:00Z`)
+        .gte("created_at", `${today}T00:00:00+05:30`)
         .limit(1)
         .maybeSingle(),
     ]);

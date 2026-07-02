@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import webpush from "web-push";
 import type { TransformationPlan } from "@/lib/types";
+import { todayStr, todayWeekday } from "@/lib/dates";
 
 /**
  * Scheduled coach notifications, invoked by Vercel Cron:
@@ -60,7 +61,7 @@ export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const slot = searchParams.get("slot") === "evening" ? "evening" : "morning";
   const db = admin();
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayStr();
 
   const { data: subs } = await db.from("push_subscriptions").select("user_id, endpoint, keys");
   if (!subs || subs.length === 0) return NextResponse.json({ ok: true, sent: 0 });
@@ -104,7 +105,7 @@ export async function GET(req: Request) {
     let payload: Record<string, string> | null = null;
 
     if (slot === "morning") {
-      const dayName = new Date().toLocaleDateString("en-US", { weekday: "long" });
+      const dayName = todayWeekday();
       const workout = plan?.workout_plan?.days?.find(
         (d) => d.day.toLowerCase() === dayName.toLowerCase()
       );

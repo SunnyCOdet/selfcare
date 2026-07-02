@@ -8,6 +8,7 @@ import { GoalsCard } from "@/components/dashboard/goals-card";
 import { FoodLog } from "@/components/dashboard/food-log";
 import { RefreshOnFocus } from "@/components/refresh-on-focus";
 import type { TransformationPlan } from "@/lib/types";
+import { todayStr, todayWeekday, currentHour, APP_TZ } from "@/lib/dates";
 import Link from "next/link";
 import { Sparkles, ChevronRight } from "lucide-react";
 
@@ -18,7 +19,7 @@ export default async function DashboardPage() {
   } = await supabase.auth.getUser();
   if (!user) redirect("/");
 
-  const today = new Date().toISOString().slice(0, 10);
+  const today = todayStr();
 
   // Single parallel batch — every extra sequential round-trip to the DB
   // region adds visible latency to tab switches.
@@ -65,7 +66,7 @@ export default async function DashboardPage() {
         .select("id")
         .eq("user_id", user.id)
         .eq("kind", "daily_checkin")
-        .gte("created_at", `${today}T00:00:00Z`)
+        .gte("created_at", `${today}T00:00:00+05:30`)
         .limit(1)
         .maybeSingle(),
       supabase
@@ -90,7 +91,7 @@ export default async function DashboardPage() {
   );
 
   const firstName = (profile.full_name ?? "Champion").split(" ")[0];
-  const hour = new Date().getHours();
+  const hour = currentHour();
   const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
 
   return (
@@ -109,6 +110,7 @@ export default async function DashboardPage() {
                 weekday: "long",
                 day: "numeric",
                 month: "long",
+                timeZone: APP_TZ,
               })}{" "}
               — every checked box is a brick in the new you.
             </p>
@@ -176,7 +178,7 @@ export default async function DashboardPage() {
 }
 
 function TodaySchedule({ plan }: { plan: TransformationPlan }) {
-  const dayName = new Date().toLocaleDateString("en-US", { weekday: "long" });
+  const dayName = todayWeekday();
   const todaySchedule = plan.weekly_schedule?.find(
     (d) => d.day.toLowerCase() === dayName.toLowerCase()
   );
