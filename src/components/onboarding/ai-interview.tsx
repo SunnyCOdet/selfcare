@@ -121,7 +121,7 @@ export function AiInterview({ userId, profile }: { userId: string; profile: Wiza
     <div className="flex flex-col">
       <div className="mb-4">
         <h2 className="text-2xl font-bold mb-1 flex items-center gap-2">
-          <Sparkles className="w-5 h-5 text-accent" /> Your AI coach
+          <Sparkles className="w-5 h-5 text-accent" /> Meet Jarvis
         </h2>
         <p className="text-muted text-sm">
           A few sharp questions so your plan actually fits your life. {answers.length > 0 && `${answers.length} answered.`}
@@ -146,7 +146,7 @@ export function AiInterview({ userId, profile }: { userId: string; profile: Wiza
 
         {loading && (
           <div className="flex items-center gap-2 text-muted text-sm px-2">
-            <Loader2 className="w-4 h-4 animate-spin" /> Coach is thinking...
+            <Loader2 className="w-4 h-4 animate-spin" /> Jarvis is thinking...
           </div>
         )}
         <div ref={bottomRef} />

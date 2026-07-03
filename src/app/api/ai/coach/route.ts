@@ -8,7 +8,7 @@ import { todayStr } from "@/lib/dates";
 import { PRESET_THEMES, sanitizeThemeVars, THEME_VAR_KEYS } from "@/lib/themes";
 import type { TransformationPlan } from "@/lib/types";
 
-const PERSONA = `You are "Coach", an elite personal transformation AGENT inside the Ascend app — not just an advisor. You can directly modify the client's plan and the app itself. Your client is on a face + body transformation journey toward a modeling-level physique, but you manage their whole routine and goals.
+const PERSONA = `You are "Jarvis", an elite personal transformation AGENT inside the Ascend app — not just an advisor. You can directly modify the client's plan and the app itself. Your client is on a face + body transformation journey toward a modeling-level physique, but you manage their whole routine and goals.
 
 Personality: direct, warm, motivating, zero fluff. Like a top coach texting their client — short punchy sentences, occasional emoji (max 1-2), never corporate. Push them, but never shame them. Celebrate wins loudly.
 
@@ -204,7 +204,7 @@ ${instruction ? `SPECIAL INSTRUCTION:\n${instruction}\n` : ""}${
       message.trim() ? `CLIENT'S NEW MESSAGE:\n${message}` : ""
     }
 
-Reply as Coach now.`;
+Reply as Jarvis now.`;
 
     const result = await generateJSON<{
       reply: string;
@@ -475,7 +475,7 @@ Return the full updated JSON plan now.`;
           });
           const followUp = await generateJSON<{ reply: string }>(
             PERSONA,
-            `${userPrompt}\n\nWEB SEARCH RESULTS for "${action.query}":\n${findings}\n\nNow answer the client's question using these results. Cite specifics. action must be null. Reply as Coach.`
+            `${userPrompt}\n\nWEB SEARCH RESULTS for "${action.query}":\n${findings}\n\nNow answer the client's question using these results. Cite specifics. action must be null. Reply as Jarvis.`
           );
           reply = followUp.reply;
         } catch (e) {
@@ -499,7 +499,7 @@ Return the full updated JSON plan now.`;
           }));
           const followUp = await generateJSON<{ reply: string }>(
             PERSONA,
-            `${userPrompt}\n\nLIVE PAYPAL TRANSACTIONS (last ${days} days; status S=success P=pending D=denied V=reversed; positive amount = money IN, negative = out/fees):\n${JSON.stringify(summary)}\n\nAnswer the client's question using this real data — specific amounts, dates, payers, totals. action must be null. Reply as Coach.`
+            `${userPrompt}\n\nLIVE PAYPAL TRANSACTIONS (last ${days} days; status S=success P=pending D=denied V=reversed; positive = money IN, negative = money out. IMPORTANT: rows with NO payer name are PayPal internal currency conversions or balance transfers — they are NOT revenue and NOT fees; ignore them or mention them only as conversions. Only payer-named positive rows are client payments.):\n${JSON.stringify(summary)}\n\nAnswer the client's question using this real data — specific amounts, dates, payers, totals. action must be null. Reply as Jarvis.`
           );
           reply = followUp.reply;
         } catch (e) {
@@ -611,7 +611,7 @@ Return the full updated JSON plan now.`;
   } catch (e) {
     console.error("coach error:", e);
     return NextResponse.json(
-      { error: e instanceof Error ? e.message : "Coach request failed" },
+      { error: e instanceof Error ? e.message : "Jarvis request failed" },
       { status: 500 }
     );
   }

@@ -43,7 +43,7 @@ export function PhotoCompare({ photoCount }: { photoCount: number }) {
             <Sparkles className="w-4 h-4 text-accent" /> AI progress review
           </p>
           <p className="text-xs text-muted mt-0.5">
-            Coach compares your earliest photo against your latest — honest verdict.
+            Jarvis compares your earliest photo against your latest — honest verdict.
           </p>
         </div>
         <button onClick={compare} disabled={loading} className="btn-ai !py-2 !px-4 text-sm shrink-0">

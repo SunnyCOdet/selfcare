@@ -23,7 +23,7 @@ const STEPS = [
   { key: "activities", label: "Activities", icon: Bike },
   { key: "lifestyle", label: "Lifestyle", icon: Moon },
   { key: "photos", label: "Photos", icon: Camera },
-  { key: "interview", label: "AI Coach", icon: MessageSquareText },
+  { key: "interview", label: "Jarvis", icon: MessageSquareText },
 ] as const;
 
 const ACTIVITY_OPTIONS = [
@@ -430,7 +430,7 @@ export function OnboardingWizard({
               </button>
             ) : (
               <button type="button" onClick={saveProfileAndContinue} disabled={saving} className="btn-ai">
-                {saving ? "Saving..." : "Meet your AI coach"} <ChevronRight className="w-4 h-4" />
+                {saving ? "Saving..." : "Meet Jarvis"} <ChevronRight className="w-4 h-4" />
               </button>
             )}
           </div>

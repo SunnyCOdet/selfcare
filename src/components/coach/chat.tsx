@@ -34,6 +34,67 @@ type Msg = {
   pingScheduled?: boolean;
 };
 
+/** Inline markdown: **bold**, *italic*, `code`. */
+function inline(text: string): React.ReactNode[] {
+  const out: React.ReactNode[] = [];
+  const re = /(\*\*(.+?)\*\*|`([^`]+)`)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let k = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    if (m[2] !== undefined) out.push(<strong key={k++}>{m[2]}</strong>);
+    else if (m[3] !== undefined)
+      out.push(
+        <code key={k++} className="bg-white/10 rounded px-1 py-0.5 text-[13px]">
+          {m[3]}
+        </code>
+      );
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
+/** Minimal markdown block renderer for Jarvis replies (bold, lists, headers). */
+function Md({ text }: { text: string }) {
+  const lines = text.split("\n");
+  return (
+    <>
+      {lines.map((line, i) => {
+        const h = line.match(/^#{1,4}\s+(.*)/);
+        if (h) {
+          return (
+            <p key={i} className="font-bold mt-2 mb-0.5">
+              {inline(h[1])}
+            </p>
+          );
+        }
+        const li = line.match(/^\s*[-*•]\s+(.*)/);
+        if (li) {
+          return (
+            <p key={i} className="pl-4 relative">
+              <span className="absolute left-0.5 text-muted">•</span>
+              {inline(li[1])}
+            </p>
+          );
+        }
+        const ol = line.match(/^\s*(\d+)[.)]\s+(.*)/);
+        if (ol) {
+          return (
+            <p key={i} className="pl-5 relative">
+              <span className="absolute left-0 text-muted">{ol[1]}.</span>
+              {inline(ol[2])}
+            </p>
+          );
+        }
+        if (line.trim() === "") return <div key={i} className="h-2.5" />;
+        return <p key={i}>{inline(line)}</p>;
+      })}
+    </>
+  );
+}
+
 /** ChatGPT-style streaming feel: reveal the newest reply progressively. */
 function Typewriter({ text, animate }: { text: string; animate: boolean }) {
   const [shown, setShown] = useState(animate ? 0 : text.length);
@@ -54,7 +115,7 @@ function Typewriter({ text, animate }: { text: string; animate: boolean }) {
     }, 16);
     return () => clearInterval(iv);
   }, [text, animate]);
-  return <>{text.slice(0, shown)}</>;
+  return <Md text={text.slice(0, shown)} />;
 }
 
 type Conversation = { id: string; title: string; updated_at: string };
@@ -181,7 +242,7 @@ export function CoachChat({
         body: JSON.stringify({ message, kind, conversation_id: activeId }),
       });
       const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Coach unavailable");
+      if (!res.ok) throw new Error(data.error || "Jarvis unavailable");
       setAnimateLast(true);
       setMessages((m) => [
         ...m,
@@ -396,7 +457,7 @@ export function CoachChat({
                   Weekly review
                 </p>
               )}
-              <div className="text-[15px] leading-relaxed whitespace-pre-wrap">
+              <div className="text-[15px] leading-relaxed">
                 <Typewriter text={m.content} animate={animateLast && i === messages.length - 1} />
               </div>
               <div className="flex flex-wrap gap-2 mt-2">
@@ -449,7 +510,7 @@ export function CoachChat({
         {error && (
           <p className="text-sm text-red-400">
             {error}{" "}
-            <button className="underline" onClick={() => send(input || "Hey coach", "chat")}>
+            <button className="underline" onClick={() => send(input || "Hey Jarvis", "chat")}>
               Retry
             </button>
           </p>
@@ -483,7 +544,7 @@ export function CoachChat({
             className="flex-1 bg-transparent outline-none text-[15px] py-1.5 placeholder:text-muted/60 min-w-0"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={listening ? "Listening..." : "Ask your coach"}
+            placeholder={listening ? "Listening..." : "Ask Jarvis"}
             disabled={loading}
           />
           <button

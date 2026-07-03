@@ -62,7 +62,7 @@ export function NotificationsCard() {
     return (
       <div className="glass p-5 fade-up text-sm text-muted">
         <p className="font-semibold text-foreground mb-1 flex items-center gap-2">
-          <Bell className="w-4 h-4" /> Coach notifications
+          <Bell className="w-4 h-4" /> Jarvis notifications
         </p>
         Notifications need the app installed on your home screen (iOS 16.4+). Open in Safari →
         Share → Add to Home Screen, then enable here.
@@ -80,11 +80,11 @@ export function NotificationsCard() {
             ) : (
               <Bell className="w-4 h-4 text-accent" />
             )}
-            Coach notifications
+            Jarvis notifications
           </p>
           <p className="text-xs text-muted mt-1">
             {status === "subscribed"
-              ? "On — morning brief + evening steps nudge from your coach."
+              ? "On — morning brief + evening steps nudge from Jarvis."
               : status === "denied"
                 ? "Blocked in system settings — allow notifications for Ascend to enable."
                 : "Morning brief + evening nudge if your steps are short."}

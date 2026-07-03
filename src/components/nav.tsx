@@ -24,7 +24,7 @@ export function Nav({
 }) {
   const links = [
     { href: "/dashboard", label: "Today", key: "dashboard", icon: LayoutDashboard },
-    { href: "/coach", label: "Coach", key: "coach", icon: Sparkles },
+    { href: "/coach", label: "Jarvis", key: "coach", icon: Sparkles },
     { href: "/plan", label: "Plan", key: "plan", icon: Map },
     { href: "/progress", label: "Progress", key: "progress", icon: TrendingUp },
   ] as const;

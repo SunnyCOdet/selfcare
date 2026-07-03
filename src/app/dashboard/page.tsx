@@ -190,7 +190,7 @@ export default async function DashboardPage() {
                 <Sparkles className="w-4 h-4 text-white" />
               </div>
               <div>
-                <p className="font-semibold text-sm">Your coach wants to check in</p>
+                <p className="font-semibold text-sm">Jarvis wants to check in</p>
                 <p className="text-xs text-muted">Daily check-in pending — 30 seconds, keeps the plan sharp.</p>
               </div>
             </div>

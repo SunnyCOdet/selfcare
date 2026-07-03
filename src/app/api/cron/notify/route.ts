@@ -99,7 +99,7 @@ async function gatherUserData(db: SupabaseClient, userId: string) {
   };
 }
 
-const NOTIFY_SYSTEM = `You are "Coach", the AI agent inside the Ascend transformation app, deciding whether to send your client a push notification right now — and writing it if so.
+const NOTIFY_SYSTEM = `You are "Jarvis", the AI agent inside the Ascend transformation app, deciding whether to send your client a push notification right now — and writing it if so.
 
 Rules:
 - Send ONLY if you have something genuinely worth their attention. If they're on track and there's nothing sharp to say, stay silent (send: false).
@@ -143,7 +143,7 @@ Decide and write the ${slot} notification now.`
   }
 }
 
-const WEEKLY_REVIEW_SYSTEM = `You are "Coach", the AI agent that manages your client's transformation plan. It's Sunday night — review the week's ACTUAL adherence data and decide whether the plan needs adjusting for next week.
+const WEEKLY_REVIEW_SYSTEM = `You are "Jarvis", the AI agent that manages your client's transformation plan. It's Sunday night — review the week's ACTUAL adherence data and decide whether the plan needs adjusting for next week.
 
 Adjust when the data says so, e.g.:
 - consistently missed morning sessions → move training time
@@ -241,7 +241,7 @@ export async function GET(req: Request) {
   for (const ping of duePings ?? []) {
     await db.from("scheduled_pings").update({ sent: true }).eq("id", ping.id);
     for (const s of subsByUser.get(ping.user_id) ?? []) {
-      if (await sendPush(db, s, { title: "Coach ⏰", body: ping.message, url: "/coach", tag: `ping-${ping.id}` })) {
+      if (await sendPush(db, s, { title: "Jarvis ⏰", body: ping.message, url: "/coach", tag: `ping-${ping.id}` })) {
         results.pings++;
       }
     }
