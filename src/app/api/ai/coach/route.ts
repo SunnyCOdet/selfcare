@@ -3,6 +3,8 @@ import { createClient } from "@/lib/supabase/server";
 import { generateJSON, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
 import { PLAN_UPDATER_SYSTEM, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
+import { paypalConfigured, paypalTransactions, incomingPayments } from "@/lib/paypal";
+import { todayStr } from "@/lib/dates";
 import { PRESET_THEMES, sanitizeThemeVars, THEME_VAR_KEYS } from "@/lib/themes";
 import type { TransformationPlan } from "@/lib/types";
 
@@ -48,6 +50,10 @@ You can attach ONE action to any reply. Use an action whenever the client asks y
 
 11. "web_search" — when a question needs live real-world facts (prices, agencies, casting calls, current rates, product comparisons), search the web instead of guessing. Set: {"type": "web_search", "query": "<focused search query>"} — you'll receive the results and answer in the same turn.
 
+12. "paypal_query" — the client's PayPal business account is connected. Whenever they ask ANYTHING about their PayPal money (payments received, who paid, pending amounts, refunds, history, totals), pull the live data instead of guessing. Set: {"type": "paypal_query", "days": number (1-31, default 30)} — you'll receive the transactions and answer in the same turn.
+
+13. "paypal_sync" — import this month's PayPal payments into the income ledger + revenue chart (safe: already-tracked payments are skipped). Use when they ask to sync/backfill/pull PayPal revenue into the app. Set: {"type": "paypal_sync"}
+
 Rules:
 - CLIENT CONTEXT includes "current_time" — the client's EXACT current local date and time. Trust it completely; never guess or estimate the time. Use it naturally: it's 2 AM → address the late night (and what it does to tomorrow); "ping me at 6 PM" → compute minutes_from_now from current_time; morning vs evening tone.
 - Only act when the client clearly requests a change or explicitly agrees to your suggestion (exception: "remember" — use whenever something durable comes up).
@@ -56,7 +62,7 @@ Rules:
 - Keep replies under 150 words unless they ask for detail.
 - Never prescribe medication or diagnose. Pain/injury beyond soreness → see a professional.
 
-Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string} | {"type": "log_workout", "entries": array} | {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null} | {"type": "schedule_ping", "minutes_from_now": number, "message": string} | {"type": "revert_plan"} | {"type": "web_search", "query": string}}
+Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string} | {"type": "log_workout", "entries": array} | {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null} | {"type": "schedule_ping", "minutes_from_now": number, "message": string} | {"type": "revert_plan"} | {"type": "web_search", "query": string} | {"type": "paypal_query", "days": number} | {"type": "paypal_sync"}}
 
 conversation_title: a 2-5 word title for this conversation (like ChatGPT's sidebar titles) — set it ONLY when the conversation history is empty (first exchange); otherwise use "".`;
 
@@ -113,6 +119,8 @@ type CoachAction =
   | { type: "schedule_ping"; minutes_from_now: number; message: string }
   | { type: "revert_plan" }
   | { type: "web_search"; query: string }
+  | { type: "paypal_query"; days?: number }
+  | { type: "paypal_sync" }
   | null;
 
 const GOAL_CATEGORIES = ["income", "career", "skill", "body", "life"];
@@ -473,6 +481,72 @@ Return the full updated JSON plan now.`;
         } catch (e) {
           console.error("web_search failed:", e);
           reply += `\n\n⚠️ Search failed — answering from what I know.`;
+        }
+      }
+    } else if (action?.type === "paypal_query") {
+      if (!paypalConfigured()) {
+        reply += `\n\n⚠️ PayPal isn't connected on the server yet.`;
+      } else {
+        try {
+          const days = Math.min(31, Math.max(1, Number(action.days) || 30));
+          const txs = await paypalTransactions(days);
+          const summary = txs.slice(0, 80).map((t) => ({
+            date: t.date?.slice(0, 10),
+            amount: t.amount,
+            currency: t.currency,
+            status: t.status,
+            payer: t.payer,
+          }));
+          const followUp = await generateJSON<{ reply: string }>(
+            PERSONA,
+            `${userPrompt}\n\nLIVE PAYPAL TRANSACTIONS (last ${days} days; status S=success P=pending D=denied V=reversed; positive amount = money IN, negative = out/fees):\n${JSON.stringify(summary)}\n\nAnswer the client's question using this real data — specific amounts, dates, payers, totals. action must be null. Reply as Coach.`
+          );
+          reply = followUp.reply;
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : "PayPal query failed";
+          reply += msg.includes("PERMISSION_PENDING")
+            ? `\n\n⏳ PayPal history access was just enabled and their side is still propagating it (can take a few hours). Ask me again later.`
+            : `\n\n⚠️ Couldn't reach PayPal (${msg.slice(0, 120)}).`;
+        }
+      }
+    } else if (action?.type === "paypal_sync") {
+      if (!paypalConfigured()) {
+        reply += `\n\n⚠️ PayPal isn't connected on the server yet.`;
+      } else {
+        try {
+          const txs = incomingPayments(await paypalTransactions(31));
+          const month = todayStr().slice(0, 7);
+          const thisMonth = txs.filter((t) => (t.date ?? "").slice(0, 7) === month);
+          if (thisMonth.length === 0) {
+            reply += `\n\n📥 PayPal checked — no incoming payments found this month.`;
+          } else {
+            const { data: prof } = await supabase
+              .from("profiles")
+              .select("sync_token")
+              .eq("id", user.id)
+              .single();
+            const { data: result, error: bfErr } = await supabase.rpc("backfill_income", {
+              p_token: prof?.sync_token,
+              p_events: thisMonth.map((t) => ({
+                source: "paypal",
+                amount: t.amount,
+                currency: t.currency,
+                reference: `pp_${t.id}`,
+                note: t.payer,
+                received_at: t.date,
+              })),
+            });
+            if (bfErr) throw new Error(bfErr.message);
+            goalUpdated = !!result?.goal_updated;
+            reply += `\n\n📥 PayPal synced: ${result?.added ?? 0} payment(s) imported${
+              result?.skipped ? ` (${result.skipped} already tracked)` : ""
+            }${result?.month_total != null ? `. Month now: ${result.month_total}` : ""}.`;
+          }
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : "sync failed";
+          reply += msg.includes("PERMISSION_PENDING")
+            ? `\n\n⏳ PayPal history access is still propagating on their side (few hours). Ask me to sync again later.`
+            : `\n\n⚠️ PayPal sync failed (${msg.slice(0, 120)}).`;
         }
       }
     }
