@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Flame, LayoutDashboard, Map, TrendingUp, LogOut, Sparkles } from "lucide-react";
 import { BottomNav } from "@/components/bottom-nav";
+import { RealtimeRefresh } from "@/components/realtime-refresh";
 import { sanitizeThemeVars, themeToCss } from "@/lib/themes";
 import { Button } from "@/components/ui/button";
 
@@ -33,6 +34,7 @@ export function Nav({
   return (
     <>
     <UserTheme theme={theme} />
+    <RealtimeRefresh />
     <nav className="sticky top-0 z-40 border-b border-border bg-background/78 pt-[env(safe-area-inset-top)] backdrop-blur-2xl">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 md:h-16">
         <Link href="/dashboard" className="group flex items-center gap-2 font-bold text-lg">
