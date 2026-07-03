@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { generateJSON, aiConfigured } from "@/lib/ai/provider";
+import { generatePlanJSON, aiConfigured } from "@/lib/ai/provider";
 import { PLAN_JSON_SPEC, PLAN_RULES, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
 import type { TransformationPlan } from "@/lib/types";
 
@@ -43,7 +43,7 @@ ${history || "(no follow-up answers)"}
 Return the full JSON plan now.`;
 
   try {
-    const plan = await generateJSON<TransformationPlan>(SYSTEM, userPrompt);
+    const plan = await generatePlanJSON<TransformationPlan>(SYSTEM, userPrompt);
     if (!isValidPlan(plan)) throw new Error("AI returned an incomplete plan — please retry");
 
     const version = await savePlanVersion(supabase, user.id, plan);

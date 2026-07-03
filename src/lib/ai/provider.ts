@@ -195,6 +195,28 @@ export function parseModelJson<T>(raw: string): T {
 }
 
 /**
+ * Plan generation needs arithmetic that reconciles — on DeepSeek this runs
+ * with reasoning enabled (slower, far better at macro math). Other providers
+ * behave like generateJSON.
+ */
+export async function generatePlanJSON<T>(system: string, user: string): Promise<T> {
+  const provider = getProvider();
+  if (provider === "deepseek") {
+    const raw = await callOpenAICompat(
+      "https://api.deepseek.com",
+      process.env.DEEPSEEK_API_KEY!,
+      process.env.DEEPSEEK_MODEL || "deepseek-v4-flash",
+      "DeepSeek (reasoning)",
+      system,
+      user,
+      { thinking: { type: "enabled" } }
+    );
+    return extractJson(raw) as T;
+  }
+  return generateJSON<T>(system, user);
+}
+
+/**
  * Incrementally extracts the value of the top-level "reply" string field
  * while a JSON completion streams in, emitting decoded text deltas.
  */

@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { generateJSON, streamJSON, parseModelJson, aiConfigured } from "@/lib/ai/provider";
+import { generateJSON, generatePlanJSON, streamJSON, parseModelJson, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
 
 export const maxDuration = 300;
@@ -264,7 +264,7 @@ ${action.instructions}
 Return the full updated JSON plan now.`;
 
         emit?.({ t: "s", s: "Rebuilding your plan…" });
-        const newPlan = await generateJSON<TransformationPlan>(UPDATER_SYSTEM, updaterPrompt);
+        const newPlan = await generatePlanJSON<TransformationPlan>(UPDATER_SYSTEM, updaterPrompt);
         if (!isValidPlan(newPlan)) throw new Error("rewriter returned incomplete plan");
 
         planVersion = await savePlanVersion(supabase, user.id, newPlan);

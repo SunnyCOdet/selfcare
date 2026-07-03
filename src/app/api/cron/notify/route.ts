@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { createClient as createSupabaseClient, type SupabaseClient } from "@supabase/supabase-js";
 import webpush from "web-push";
-import { generateJSON, aiConfigured } from "@/lib/ai/provider";
+import { generateJSON, generatePlanJSON, aiConfigured } from "@/lib/ai/provider";
 import { PLAN_UPDATER_SYSTEM, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
 import { computeReadiness } from "@/lib/readiness";
 import { todayStr, todayWeekday, currentHour, nowStr } from "@/lib/dates";
@@ -168,7 +168,7 @@ Decide now.`
 
   let changed = false;
   if (decision.needs_change && decision.instructions && data.plan) {
-    const newPlan = await generateJSON<TransformationPlan>(
+    const newPlan = await generatePlanJSON<TransformationPlan>(
       PLAN_UPDATER_SYSTEM,
       `CLIENT WEEK DATA:\n${JSON.stringify(data.checkins.slice(0, 7), null, 1)}\n\nCURRENT PLAN:\n${JSON.stringify(data.plan, null, 1)}\n\nCHANGE INSTRUCTIONS FROM COACH:\n${decision.instructions}\n\nReturn the full updated JSON plan now.`
     );
