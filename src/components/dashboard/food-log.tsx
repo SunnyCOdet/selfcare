@@ -207,6 +207,7 @@ export function FoodLog({
         body: JSON.stringify({
           phase: "finalize",
           photo_path: f.photoPath,
+          dish_name: f.dishName,
           answers,
           hunger_level: f.hunger,
         }),

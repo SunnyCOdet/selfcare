@@ -56,6 +56,10 @@ You can attach ONE action to any reply. Use an action whenever the client asks y
 
 13. "paypal_sync" — import this month's PayPal payments into the income ledger + revenue chart (safe: already-tracked payments are skipped). Use when they ask to sync/backfill/pull PayPal revenue into the app. Set: {"type": "paypal_sync"}
 
+14. "update_food_log" — corrects a food entry in TODAY's log. Use whenever the client says a logged food's calories or macros are wrong ("that chocolate wasn't 650, it's 450"). CLIENT CONTEXT's food_today.items shows today's entries — match by description. If the client gave exact numbers, use them; otherwise use your best verified values. NEVER claim you updated a food entry without using this action. Set: {"type": "update_food_log", "description_match": "<words from the entry's description>", "calories": number|null, "protein_g": number|null, "carbs_g": number|null, "fat_g": number|null, "note": "<one-line reason>"}
+
+15. "delete_food_log" — removes an entry from TODAY's log ("remove that sundae, I didn't eat it"). Set: {"type": "delete_food_log", "description_match": "<words from the entry's description>"}
+
 Rules:
 - ACCURACY OVER GUESSING — you have tools, use them. Never state factual data you are not certain of: nutrition values, prices, market rates, product specs, current events → use "web_search" and answer from the results. Your own money data → "paypal_query". Missing information that only the client knows (portion sizes, preferences, constraints, how they feel) → ASK the client a direct question instead of assuming. A short verified answer beats a fast wrong one every time.
 - CLIENT CONTEXT includes "current_time" — the client's EXACT current local date and time. Trust it completely; never guess or estimate the time. Use it naturally: it's 2 AM → address the late night (and what it does to tomorrow); "ping me at 6 PM" → compute minutes_from_now from current_time; morning vs evening tone.
@@ -65,7 +69,7 @@ Rules:
 - Keep replies under 150 words unless they ask for detail.
 - Never prescribe medication or diagnose. Pain/injury beyond soreness → see a professional.
 
-Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string} | {"type": "log_workout", "entries": array} | {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null} | {"type": "schedule_ping", "minutes_from_now": number, "message": string} | {"type": "revert_plan"} | {"type": "web_search", "query": string} | {"type": "paypal_query", "days": number} | {"type": "paypal_sync"}}
+Respond with JSON: {"reply": string, "conversation_title": string, "action": null | {"type": "update_plan", "instructions": string} | {"type": "switch_theme", "theme": string} | {"type": "create_theme", "name": string, "vars": object} | {"type": "create_goal", "goal": object} | {"type": "update_goal", "goal_title": string, "progress_note": string, "new_value": number|null, "milestone_done": string|null, "status": string|null} | {"type": "remember", "category": string, "content": string} | {"type": "log_workout", "entries": array} | {"type": "create_tracker", "name": string, "emoji": string, "unit": string|null, "target_value": number|null} | {"type": "schedule_ping", "minutes_from_now": number, "message": string} | {"type": "revert_plan"} | {"type": "web_search", "query": string} | {"type": "paypal_query", "days": number} | {"type": "paypal_sync"} | {"type": "update_food_log", "description_match": string, "calories": number|null, "protein_g": number|null, "carbs_g": number|null, "fat_g": number|null, "note": string} | {"type": "delete_food_log", "description_match": string}}
 
 conversation_title: a 2-5 word title for this conversation (like ChatGPT's sidebar titles) — set it ONLY when the conversation history is empty (first exchange); otherwise use "".`;
 
@@ -124,6 +128,16 @@ type CoachAction =
   | { type: "web_search"; query: string }
   | { type: "paypal_query"; days?: number }
   | { type: "paypal_sync" }
+  | {
+      type: "update_food_log";
+      description_match: string;
+      calories?: number | null;
+      protein_g?: number | null;
+      carbs_g?: number | null;
+      fat_g?: number | null;
+      note?: string;
+    }
+  | { type: "delete_food_log"; description_match: string }
   | null;
 
 const GOAL_CATEGORIES = ["income", "career", "skill", "body", "life"];
@@ -239,6 +253,7 @@ Reply as Jarvis now.`;
     let workoutLogged = false;
     let trackerUpdated = false;
     let pingScheduled = false;
+    let foodUpdated = false;
     let planVersion: number | null = null;
 
     // ---- Execute the agent's action ----
@@ -565,10 +580,63 @@ Return the full updated JSON plan now.`;
           }
         } catch (e) {
           const msg = e instanceof Error ? e.message : "sync failed";
-          reply += msg.includes("PERMISSION_PENDING")
-            ? `\n\nPayPal history access is still propagating on their side (few hours). Ask me to sync again later.`
-            : `\n\nPayPal sync failed (${msg.slice(0, 120)}).`;
+          push(
+            msg.includes("PERMISSION_PENDING")
+              ? `\n\nPayPal history access is still propagating on their side (few hours). Ask me to sync again later.`
+              : `\n\nPayPal sync failed (${msg.slice(0, 120)}).`
+          );
         }
+      }
+    } else if (action?.type === "update_food_log" && action.description_match) {
+      try {
+        const { data: entry } = await supabase
+          .from("food_logs")
+          .select("id, description, calories")
+          .eq("user_id", user.id)
+          .eq("log_date", todayStr())
+          .ilike("description", `%${action.description_match.slice(0, 80)}%`)
+          .order("created_at", { ascending: false })
+          .limit(1)
+          .maybeSingle();
+        if (!entry) throw new Error(`no entry matching "${action.description_match}" in today's log`);
+
+        const updates: Record<string, unknown> = {};
+        if (typeof action.calories === "number") updates.calories = Math.round(action.calories);
+        if (typeof action.protein_g === "number") updates.protein_g = Math.round(action.protein_g);
+        if (typeof action.carbs_g === "number") updates.carbs_g = Math.round(action.carbs_g);
+        if (typeof action.fat_g === "number") updates.fat_g = Math.round(action.fat_g);
+        if (Object.keys(updates).length === 0) throw new Error("no corrected values provided");
+        if (action.note) updates.ai_notes = `Corrected: ${action.note.slice(0, 180)}`;
+
+        const { error: upErr } = await supabase.from("food_logs").update(updates).eq("id", entry.id);
+        if (upErr) throw new Error(upErr.message);
+        foodUpdated = true;
+        push(
+          `\n\n"${entry.description}" corrected${
+            typeof action.calories === "number" ? ` to ${Math.round(action.calories)} kcal` : ""
+          }. Today's totals are updated.`
+        );
+      } catch (e) {
+        push(`\n\nCouldn't update that entry (${e instanceof Error ? e.message : "error"}).`);
+      }
+    } else if (action?.type === "delete_food_log" && action.description_match) {
+      try {
+        const { data: entry } = await supabase
+          .from("food_logs")
+          .select("id, description")
+          .eq("user_id", user.id)
+          .eq("log_date", todayStr())
+          .ilike("description", `%${action.description_match.slice(0, 80)}%`)
+          .order("created_at", { ascending: false })
+          .limit(1)
+          .maybeSingle();
+        if (!entry) throw new Error(`no entry matching "${action.description_match}" in today's log`);
+        const { error: delErr } = await supabase.from("food_logs").delete().eq("id", entry.id);
+        if (delErr) throw new Error(delErr.message);
+        foodUpdated = true;
+        push(`\n\n"${entry.description}" removed from today's log.`);
+      } catch (e) {
+        push(`\n\nCouldn't remove that entry (${e instanceof Error ? e.message : "error"}).`);
       }
     }
 
@@ -628,6 +696,7 @@ Return the full updated JSON plan now.`;
       workout_logged: workoutLogged,
       tracker_updated: trackerUpdated,
       ping_scheduled: pingScheduled,
+      food_updated: foodUpdated,
     };
   };
 

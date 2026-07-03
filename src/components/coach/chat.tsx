@@ -272,7 +272,8 @@ export function CoachChat({
         setActiveId(data.conversation_id);
         bumpConversation(data.conversation_id, (data.conversation_title as string) ?? undefined);
       }
-      if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
+      if (data.theme_updated || data.plan_updated || data.goal_updated || data.food_updated)
+        router.refresh();
     };
 
     try {

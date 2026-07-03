@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { generateJSONWithImage, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
+import { searchNutrition } from "@/lib/ai/nutrition";
 
 /**
  * Photo-based food logging, two phases:
@@ -22,7 +23,8 @@ Your job in this phase:
    - Cooking method if ambiguous (fried vs baked vs grilled)
    - Sugar in drinks/desserts
    - Homemade vs restaurant/street vendor (vendor portions use far more oil)
-3. If the photo is unclear or you can't identify something, ASK the user what it is instead of guessing.
+3. BRANDED, PACKAGED, OR PREPARED DESSERT ITEMS (chocolates, ice creams, "Death by Chocolate"-style desserts, protein bars, packaged snacks, cafe items): NEVER mark confident=true. Always ask the brand/exact product name and the size/weight or number of pieces — packaged calorie counts vary enormously and guessing is how numbers go wrong.
+4. If the photo is unclear or you can't identify something, ASK the user what it is instead of guessing.
 4. Street food: identify it by name if you can (vada pav, pani puri, momos...). If the user won't know details, you'll estimate typical vendor preparation later — but still ask how many pieces.
 5. Ask 2-5 questions max — only ones that change the numbers. If the image is truly self-explanatory, return an empty questions array.
 
@@ -110,6 +112,13 @@ export async function POST(req: Request) {
 
     const context = await buildUserContext(supabase, user.id);
 
+    // Ground the estimate in web-verified nutrition data (branded items
+    // especially) — the dish name from the identify phase or the answers.
+    const dishHint = (body.dish_name ?? "").toString().slice(0, 100);
+    const searchQuery =
+      dishHint || answers.map((a) => a.answer).join(" ").slice(0, 100) || "meal";
+    const webNutrition = await searchNutrition(searchQuery);
+
     const prompt = `CLIENT:
 - Diet preference: ${context.profile?.diet_preference ?? "unknown"}
 - Goal: ${context.profile?.body_goal ?? "transformation"}
@@ -119,7 +128,7 @@ export async function POST(req: Request) {
 
 CLIENT'S ANSWERS ABOUT THIS FOOD:
 ${answers.map((a) => `Q: ${a.question}\nA: ${a.answer}`).join("\n") || "(none — estimate from the image using standard preparations)"}
-
+${webNutrition ? `\nWEB-VERIFIED NUTRITION DATA (prefer these values over your own estimates when they match the item):\n${webNutrition}\n` : ""}
 Dissect this meal now.`;
 
     const result = await generateJSONWithImage<{
