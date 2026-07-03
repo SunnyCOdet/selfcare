@@ -167,7 +167,7 @@ export async function POST(req: Request) {
   const runCoach = async (emit: ((e: Record<string, unknown>) => void) | null) => {
     let reply = "";
     const push = (s: string) => {
-      push(s);
+      reply += s;
       emit?.({ t: "d", d: s });
     };
 
