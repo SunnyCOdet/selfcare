@@ -1,0 +1,39 @@
+{
+  "id": "81b398e4-67d9-4e71-9aff-6c5031a5f6c6",
+  "name": "Joining a project",
+  "actions": [
+    "Browsing Tutorial",
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/81b398e4-67d9-4e71-9aff-6c5031a5f6c6",
+  "app_name": "Replit",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "45625173-8f93-4d1b-b439-bc74b147644f",
+      "image_url": "https://mobbin.com/api/mcp/short/T6gUTyCb",
+      "position": 1
+    },
+    {
+      "screen_id": "4234b000-664d-4a2b-b7e5-6604a5f0be80",
+      "image_url": "https://mobbin.com/api/mcp/short/V8avLHKs",
+      "position": 2
+    },
+    {
+      "screen_id": "e45981e5-240e-4ed3-9f56-e48465a0c139",
+      "image_url": "https://mobbin.com/api/mcp/short/7nNrKxuo",
+      "position": 3
+    },
+    {
+      "screen_id": "95f02f3d-84f8-479d-a554-621d591f7b43",
+      "image_url": "https://mobbin.com/api/mcp/short/9rf8hEdM",
+      "position": 4
+    },
+    {
+      "screen_id": "7334701a-2f4b-4c7a-bc83-f395e052cdc7",
+      "image_url": "https://mobbin.com/api/mcp/short/mZplFJZq",
+      "position": 5
+    }
+  ]
+}

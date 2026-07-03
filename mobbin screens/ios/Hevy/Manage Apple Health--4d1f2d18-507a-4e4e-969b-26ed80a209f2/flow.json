@@ -1,0 +1,31 @@
+{
+  "id": "4d1f2d18-507a-4e4e-969b-26ed80a209f2",
+  "name": "Manage Apple Health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4d1f2d18-507a-4e4e-969b-26ed80a209f2",
+  "app_name": "Hevy",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0d4b430b-0bc0-435e-8318-0ce23a723ba8",
+      "image_url": "https://mobbin.com/api/mcp/short/uXrJEuIK",
+      "position": 1
+    },
+    {
+      "screen_id": "4ef712f2-329e-4c81-92b2-7b00b4b21fd6",
+      "image_url": "https://mobbin.com/api/mcp/short/KoEVQxuw",
+      "position": 2
+    },
+    {
+      "screen_id": "0d9e90eb-6263-444e-b754-4737728be7ee",
+      "image_url": "https://mobbin.com/api/mcp/short/w382RnSQ",
+      "position": 3
+    },
+    {
+      "screen_id": "2e3bcd4b-f5e3-44a6-8dfb-03ae1aabed96",
+      "image_url": "https://mobbin.com/api/mcp/short/gPNMAf4k",
+      "position": 4
+    }
+  ]
+}

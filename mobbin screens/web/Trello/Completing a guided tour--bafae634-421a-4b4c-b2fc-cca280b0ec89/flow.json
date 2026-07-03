@@ -1,0 +1,69 @@
+{
+  "id": "bafae634-421a-4b4c-b2fc-cca280b0ec89",
+  "name": "Completing a guided tour",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bafae634-421a-4b4c-b2fc-cca280b0ec89",
+  "app_name": "Trello",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "3e1e593b-edd8-47a1-878e-bff8e223cd7c",
+      "image_url": "https://mobbin.com/api/mcp/short/j75mNVrp",
+      "position": 1
+    },
+    {
+      "screen_id": "7d9af547-e051-4c41-b2bc-a17037cf1a6d",
+      "image_url": "https://mobbin.com/api/mcp/short/c5VRtPiS",
+      "position": 2
+    },
+    {
+      "screen_id": "ae84c77b-d245-4952-8ebc-c4fe215bcfdb",
+      "image_url": "https://mobbin.com/api/mcp/short/4rQlDuet",
+      "position": 3
+    },
+    {
+      "screen_id": "868f9a96-c77d-4e33-82f2-597e1e6e9024",
+      "image_url": "https://mobbin.com/api/mcp/short/GZQf1m1m",
+      "position": 4
+    },
+    {
+      "screen_id": "87f3483b-b1c6-40ef-9c07-1f676342f3d4",
+      "image_url": "https://mobbin.com/api/mcp/short/5ZBJlQPk",
+      "position": 5
+    },
+    {
+      "screen_id": "bfac2e1f-0513-4152-a2e7-091f26722f08",
+      "image_url": "https://mobbin.com/api/mcp/short/iW7eqRc3",
+      "position": 6
+    },
+    {
+      "screen_id": "d4f0cc03-3ad2-4fb9-9eeb-19518460c332",
+      "image_url": "https://mobbin.com/api/mcp/short/4CyyxdAz",
+      "position": 7
+    },
+    {
+      "screen_id": "d55ef4d3-46e7-482d-a695-4f9de5c413ae",
+      "image_url": "https://mobbin.com/api/mcp/short/mNYbateZ",
+      "position": 8
+    },
+    {
+      "screen_id": "a596c011-d913-4f88-909a-2c1ca047db88",
+      "image_url": "https://mobbin.com/api/mcp/short/2rl67qSf",
+      "position": 9
+    },
+    {
+      "screen_id": "c897c535-b81c-41f9-a3ce-6b739395b429",
+      "image_url": "https://mobbin.com/api/mcp/short/Tn3HCxFp",
+      "position": 10
+    },
+    {
+      "screen_id": "5efa7ddf-952d-4264-938c-b5ec328ee885",
+      "image_url": "https://mobbin.com/api/mcp/short/37uadyrE",
+      "position": 11
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5e37f533-5969-409a-8c04-e2fa7350d880",
+  "name": "Setting up an account",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5e37f533-5969-409a-8c04-e2fa7350d880",
+  "app_name": "Docusign",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "f3207cda-3132-4897-abe1-bc58fc9d0d22",
+      "image_url": "https://mobbin.com/api/mcp/short/u3x9r9pS",
+      "position": 1
+    },
+    {
+      "screen_id": "729251a2-1b2b-4fd1-b550-888efdd04634",
+      "image_url": "https://mobbin.com/api/mcp/short/Zx2CsFou",
+      "position": 2
+    },
+    {
+      "screen_id": "d0b62e5f-12f4-4238-8dd6-4186822b4197",
+      "image_url": "https://mobbin.com/api/mcp/short/bAFyJRTL",
+      "position": 3
+    },
+    {
+      "screen_id": "adee5f2b-179d-4e1c-bf2f-0b08830ccc75",
+      "image_url": "https://mobbin.com/api/mcp/short/a26F9b4Z",
+      "position": 4
+    },
+    {
+      "screen_id": "44c247c1-1111-4766-aa2c-b39f5f8e6353",
+      "image_url": "https://mobbin.com/api/mcp/short/7mpmZW9C",
+      "position": 5
+    },
+    {
+      "screen_id": "9e45be0f-d4d5-4b60-9454-20aab8f07e2b",
+      "image_url": "https://mobbin.com/api/mcp/short/r4lQCRqV",
+      "position": 6
+    },
+    {
+      "screen_id": "a8272e65-4799-4056-814f-6583b6fd66c8",
+      "image_url": "https://mobbin.com/api/mcp/short/Y8irWP96",
+      "position": 7
+    },
+    {
+      "screen_id": "c0248abe-0324-4739-83e6-cbc310da9912",
+      "image_url": "https://mobbin.com/api/mcp/short/JpzkfkTZ",
+      "position": 8
+    },
+    {
+      "screen_id": "9e151d01-4c78-4fff-9c02-1d0a0f7627fb",
+      "image_url": "https://mobbin.com/api/mcp/short/ZXxm28fy",
+      "position": 9
+    }
+  ]
+}

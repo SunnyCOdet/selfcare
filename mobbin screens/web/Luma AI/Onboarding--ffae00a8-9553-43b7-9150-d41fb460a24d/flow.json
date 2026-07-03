@@ -1,0 +1,33 @@
+{
+  "id": "ffae00a8-9553-43b7-9150-d41fb460a24d",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ffae00a8-9553-43b7-9150-d41fb460a24d",
+  "app_name": "Luma AI",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d59cde38-a64d-441e-b467-f3ed30d6f7e9",
+      "image_url": "https://mobbin.com/api/mcp/short/ezVQpjCv",
+      "position": 1
+    },
+    {
+      "screen_id": "3a250513-4ff1-464e-921f-056327875471",
+      "image_url": "https://mobbin.com/api/mcp/short/VgySg4jQ",
+      "position": 2
+    },
+    {
+      "screen_id": "aba1e739-2a03-437a-ac3a-81bd67908a02",
+      "image_url": "https://mobbin.com/api/mcp/short/tZshxkuQ",
+      "position": 3
+    },
+    {
+      "screen_id": "5c804355-fe4b-4043-9c6f-e9b2eb8034e9",
+      "image_url": "https://mobbin.com/api/mcp/short/WRygMfGQ",
+      "position": 4
+    }
+  ]
+}

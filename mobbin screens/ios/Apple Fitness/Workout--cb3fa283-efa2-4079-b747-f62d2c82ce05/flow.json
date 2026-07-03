@@ -1,0 +1,31 @@
+{
+  "id": "cb3fa283-efa2-4079-b747-f62d2c82ce05",
+  "name": "Workout",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/cb3fa283-efa2-4079-b747-f62d2c82ce05",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "a69eb6f0-44e3-4b5c-95e6-43a34561d837",
+      "image_url": "https://mobbin.com/api/mcp/short/m4Ci13wY",
+      "position": 1
+    },
+    {
+      "screen_id": "fd35782b-3943-45de-876d-5ac2197fb4d4",
+      "image_url": "https://mobbin.com/api/mcp/short/wlztu06w",
+      "position": 2
+    },
+    {
+      "screen_id": "d48a826c-b7b9-48d8-9948-5b456e2d5447",
+      "image_url": "https://mobbin.com/api/mcp/short/xZOF6E0n",
+      "position": 3
+    },
+    {
+      "screen_id": "8a91523f-2e4e-4c56-8f81-0e3a45e146d2",
+      "image_url": "https://mobbin.com/api/mcp/short/QH6iiZpF",
+      "position": 4
+    }
+  ]
+}

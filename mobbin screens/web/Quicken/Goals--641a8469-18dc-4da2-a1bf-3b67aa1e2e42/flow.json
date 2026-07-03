@@ -1,0 +1,31 @@
+{
+  "id": "641a8469-18dc-4da2-a1bf-3b67aa1e2e42",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/641a8469-18dc-4da2-a1bf-3b67aa1e2e42",
+  "app_name": "Quicken",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d464d729-2489-45a0-ad89-0a084dcb7b2f",
+      "image_url": "https://mobbin.com/api/mcp/short/jFPoA3VO",
+      "position": 1
+    },
+    {
+      "screen_id": "420bd897-c25d-4b6f-9227-76bf9cb702e3",
+      "image_url": "https://mobbin.com/api/mcp/short/jSKz8Rw7",
+      "position": 2
+    },
+    {
+      "screen_id": "a71ffafb-ecf9-446c-bb47-3587ee51f226",
+      "image_url": "https://mobbin.com/api/mcp/short/cm6s0dGu",
+      "position": 3
+    },
+    {
+      "screen_id": "03c4a646-9250-4b02-aeed-e5566c17af59",
+      "image_url": "https://mobbin.com/api/mcp/short/7rwbFWJ8",
+      "position": 4
+    }
+  ]
+}

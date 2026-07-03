@@ -1,0 +1,21 @@
+{
+  "id": "107bc2b5-242d-462f-9707-acbb766d9f88",
+  "name": "Ask Jobber AI (voice note)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/107bc2b5-242d-462f-9707-acbb766d9f88",
+  "app_name": "Jobber",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "c6b6d75c-2fc4-480d-899d-4572a3321295",
+      "image_url": "https://mobbin.com/api/mcp/short/sp7Il0qT",
+      "position": 1
+    },
+    {
+      "screen_id": "bc7ab501-113a-46c8-8489-92e99140ea45",
+      "image_url": "https://mobbin.com/api/mcp/short/0cdWYXUh",
+      "position": 2
+    }
+  ]
+}

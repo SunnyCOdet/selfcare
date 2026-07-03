@@ -1,0 +1,38 @@
+{
+  "id": "2ccc324e-049f-4f5f-b291-493259902d2b",
+  "name": "Adding a workspace",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2ccc324e-049f-4f5f-b291-493259902d2b",
+  "app_name": "Attio",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "a1b79e12-966a-430e-a38b-a8bf72a6be89",
+      "image_url": "https://mobbin.com/api/mcp/short/KnZ4uNET",
+      "position": 1
+    },
+    {
+      "screen_id": "9aad6ee1-bc28-4940-a551-a3a0dfae39b1",
+      "image_url": "https://mobbin.com/api/mcp/short/oPz07UXd",
+      "position": 2
+    },
+    {
+      "screen_id": "68f34c09-0e70-4ed5-a79d-a230a64d9cdb",
+      "image_url": "https://mobbin.com/api/mcp/short/c9Z11SSM",
+      "position": 3
+    },
+    {
+      "screen_id": "501e56ae-5c7e-430d-aef4-deabe205be37",
+      "image_url": "https://mobbin.com/api/mcp/short/YlsHyBxP",
+      "position": 4
+    },
+    {
+      "screen_id": "4a0b6416-0304-4828-8df7-8588a5da1171",
+      "image_url": "https://mobbin.com/api/mcp/short/M6DQ4hfh",
+      "position": 5
+    }
+  ]
+}

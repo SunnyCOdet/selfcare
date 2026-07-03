@@ -1,0 +1,38 @@
+{
+  "id": "4d443190-bca6-4c55-8ca7-6c48adc54964",
+  "name": "Giving feedback (AI highlighter)",
+  "actions": [
+    "Giving Feedback"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4d443190-bca6-4c55-8ca7-6c48adc54964",
+  "app_name": "Indeed",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "429a66bd-3a47-4b43-86b7-dbfe7fbd896f",
+      "image_url": "https://mobbin.com/api/mcp/short/EnI6C6ht",
+      "position": 1
+    },
+    {
+      "screen_id": "9c645c84-5eb1-4cb6-a097-72e164220084",
+      "image_url": "https://mobbin.com/api/mcp/short/LzjFQpm1",
+      "position": 2
+    },
+    {
+      "screen_id": "fa11a274-a000-46df-9d50-8a2cf6a79965",
+      "image_url": "https://mobbin.com/api/mcp/short/1RKKZBfw",
+      "position": 3
+    },
+    {
+      "screen_id": "2910ce2e-f842-4047-8c2a-0314ff3d80bb",
+      "image_url": "https://mobbin.com/api/mcp/short/WLfDbdf1",
+      "position": 4
+    },
+    {
+      "screen_id": "99003d4a-bccc-42bb-a48e-8fe9b55a470a",
+      "image_url": "https://mobbin.com/api/mcp/short/JnfsgZyO",
+      "position": 5
+    }
+  ]
+}

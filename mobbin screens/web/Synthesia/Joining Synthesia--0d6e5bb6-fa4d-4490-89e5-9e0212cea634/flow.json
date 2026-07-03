@@ -1,0 +1,68 @@
+{
+  "id": "0d6e5bb6-fa4d-4490-89e5-9e0212cea634",
+  "name": "Joining Synthesia",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0d6e5bb6-fa4d-4490-89e5-9e0212cea634",
+  "app_name": "Synthesia",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "1073f3f0-c293-4454-af01-29c5c262881b",
+      "image_url": "https://mobbin.com/api/mcp/short/wxTfpbqs",
+      "position": 1
+    },
+    {
+      "screen_id": "51b9191f-3907-4bc4-adc8-eecfefbe4c3e",
+      "image_url": "https://mobbin.com/api/mcp/short/gnayYS8g",
+      "position": 2
+    },
+    {
+      "screen_id": "a86ac7fe-666d-47c1-b268-f70cde800169",
+      "image_url": "https://mobbin.com/api/mcp/short/BnaHSdv7",
+      "position": 3
+    },
+    {
+      "screen_id": "d0dc3634-3b38-4a23-8bbb-0cba7c2de5e1",
+      "image_url": "https://mobbin.com/api/mcp/short/T2I6F9k2",
+      "position": 4
+    },
+    {
+      "screen_id": "bd2df27b-f232-47cb-987b-c79bd34e0e2a",
+      "image_url": "https://mobbin.com/api/mcp/short/3hmADeaT",
+      "position": 5
+    },
+    {
+      "screen_id": "b109b6bf-2125-493a-9109-8e785da43218",
+      "image_url": "https://mobbin.com/api/mcp/short/SkrsKZVM",
+      "position": 6
+    },
+    {
+      "screen_id": "e7a9f307-207b-4f98-aba6-8eb1f216251d",
+      "image_url": "https://mobbin.com/api/mcp/short/0EqWi6NO",
+      "position": 7
+    },
+    {
+      "screen_id": "5a285362-d1b1-48db-a4f2-7990ad9323d2",
+      "image_url": "https://mobbin.com/api/mcp/short/fGqo80ut",
+      "position": 8
+    },
+    {
+      "screen_id": "58b09fad-e702-4643-8c0a-a4fa8f85016e",
+      "image_url": "https://mobbin.com/api/mcp/short/zxCdaYWt",
+      "position": 9
+    },
+    {
+      "screen_id": "d6f457ba-dc5b-4349-a3cb-07691902f475",
+      "image_url": "https://mobbin.com/api/mcp/short/8ErCuZOt",
+      "position": 10
+    },
+    {
+      "screen_id": "8379374b-9e6b-4bc2-a8a7-e3e8cc458ae6",
+      "image_url": "https://mobbin.com/api/mcp/short/erDNxYiY",
+      "position": 11
+    }
+  ]
+}

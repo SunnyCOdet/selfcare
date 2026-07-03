@@ -1,0 +1,28 @@
+{
+  "id": "e03617a3-9125-4c10-a668-fe629dcae3bd",
+  "name": "Choosing an AI action",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e03617a3-9125-4c10-a668-fe629dcae3bd",
+  "app_name": "Fabric",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "396b5f79-6844-40b1-9ffe-0bf62ddf1096",
+      "image_url": "https://mobbin.com/api/mcp/short/1cPGXBpe",
+      "position": 1
+    },
+    {
+      "screen_id": "4f0f6cdd-ddb2-4b6f-9d83-454cdddb0fb0",
+      "image_url": "https://mobbin.com/api/mcp/short/4ukw7jdl",
+      "position": 2
+    },
+    {
+      "screen_id": "e3f54683-04e3-4a2a-a9be-15ba7ed9a558",
+      "image_url": "https://mobbin.com/api/mcp/short/aHvJBr8q",
+      "position": 3
+    }
+  ]
+}

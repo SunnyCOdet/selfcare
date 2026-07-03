@@ -1,0 +1,64 @@
+{
+  "id": "9e0051c2-a775-4a37-adcd-a9649df80a60",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9e0051c2-a775-4a37-adcd-a9649df80a60",
+  "app_name": "Codecademy",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "91a6fcd8-416a-4ba4-a990-c24c70bbef8d",
+      "image_url": "https://mobbin.com/api/mcp/short/0OmEQVCF",
+      "position": 1
+    },
+    {
+      "screen_id": "4bb83f7a-7b4e-4be6-a566-2587b2591122",
+      "image_url": "https://mobbin.com/api/mcp/short/yxyouhpp",
+      "position": 2
+    },
+    {
+      "screen_id": "5f776d8f-0728-47e9-bcbc-7f2b6fd2e078",
+      "image_url": "https://mobbin.com/api/mcp/short/O2laDWd7",
+      "position": 3
+    },
+    {
+      "screen_id": "c32a271b-b7f8-4209-b086-884be23b0095",
+      "image_url": "https://mobbin.com/api/mcp/short/QoTtL1ZN",
+      "position": 4
+    },
+    {
+      "screen_id": "8568ad8a-98ca-4100-b04b-98ab61b7d8f4",
+      "image_url": "https://mobbin.com/api/mcp/short/qBHk4Cnb",
+      "position": 5
+    },
+    {
+      "screen_id": "118fedf8-78c6-45d1-bd49-1fbb58576d45",
+      "image_url": "https://mobbin.com/api/mcp/short/AkF8gE2L",
+      "position": 6
+    },
+    {
+      "screen_id": "e12886a5-2c5e-490b-9290-04f6251cf977",
+      "image_url": "https://mobbin.com/api/mcp/short/cybzzMw0",
+      "position": 7
+    },
+    {
+      "screen_id": "3e4cb2c5-e081-4fff-91f9-47fa428ad92e",
+      "image_url": "https://mobbin.com/api/mcp/short/1J5prNe5",
+      "position": 8
+    },
+    {
+      "screen_id": "c4a50a9d-781a-49d2-8c80-4951d73253f1",
+      "image_url": "https://mobbin.com/api/mcp/short/TFn8abSS",
+      "position": 9
+    },
+    {
+      "screen_id": "d0e0bac6-d7e1-4315-ab6f-4f07373c40cf",
+      "image_url": "https://mobbin.com/api/mcp/short/Zu0lMLSd",
+      "position": 10
+    }
+  ]
+}

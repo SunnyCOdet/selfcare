@@ -1,0 +1,53 @@
+{
+  "id": "ebbc276d-1d04-4f8b-a1be-017878854d1f",
+  "name": "Chatting Asana AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ebbc276d-1d04-4f8b-a1be-017878854d1f",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "bd5534f7-5aef-4794-b974-16e0f60f6b27",
+      "image_url": "https://mobbin.com/api/mcp/short/it5LJv5I",
+      "position": 1
+    },
+    {
+      "screen_id": "9ee63b9e-0d92-473b-a6ce-4aeb1880e952",
+      "image_url": "https://mobbin.com/api/mcp/short/xibi0nfB",
+      "position": 2
+    },
+    {
+      "screen_id": "718a4f38-4f7f-4025-b5d9-451d8cba39a5",
+      "image_url": "https://mobbin.com/api/mcp/short/TXD2R3O8",
+      "position": 3
+    },
+    {
+      "screen_id": "9fcd2296-3195-4e30-9694-50bb56556067",
+      "image_url": "https://mobbin.com/api/mcp/short/mNrJHeuT",
+      "position": 4
+    },
+    {
+      "screen_id": "f2b651ef-bce1-464c-9c47-52f2fb187238",
+      "image_url": "https://mobbin.com/api/mcp/short/R2Jvx8Iy",
+      "position": 5
+    },
+    {
+      "screen_id": "2c898804-6907-4ded-a728-1e87a5352e95",
+      "image_url": "https://mobbin.com/api/mcp/short/nTzlK8Pv",
+      "position": 6
+    },
+    {
+      "screen_id": "fc214162-cbcd-4ca4-ae4f-2f49299053b3",
+      "image_url": "https://mobbin.com/api/mcp/short/3cYiG8Yq",
+      "position": 7
+    },
+    {
+      "screen_id": "3e5d7a86-fa91-4c04-829c-8c119bf76b04",
+      "image_url": "https://mobbin.com/api/mcp/short/kow4XsPj",
+      "position": 8
+    }
+  ]
+}

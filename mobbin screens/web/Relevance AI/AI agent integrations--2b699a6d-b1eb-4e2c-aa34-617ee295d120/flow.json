@@ -1,0 +1,36 @@
+{
+  "id": "2b699a6d-b1eb-4e2c-aa34-617ee295d120",
+  "name": "AI agent integrations",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2b699a6d-b1eb-4e2c-aa34-617ee295d120",
+  "app_name": "Relevance AI",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "11cec81b-b9ba-4ce5-a9c3-e09e92af959f",
+      "image_url": "https://mobbin.com/api/mcp/short/sfYECASK",
+      "position": 1
+    },
+    {
+      "screen_id": "471b8fdf-97f0-48ba-99ac-64fbe0aa159f",
+      "image_url": "https://mobbin.com/api/mcp/short/NSsvUd5z",
+      "position": 2
+    },
+    {
+      "screen_id": "cc17d254-f9c8-4243-8f38-92c6a7961d40",
+      "image_url": "https://mobbin.com/api/mcp/short/NNxRrGoV",
+      "position": 3
+    },
+    {
+      "screen_id": "56b98b48-8cbc-4a25-9e16-26a6138e190f",
+      "image_url": "https://mobbin.com/api/mcp/short/kVRyGsQR",
+      "position": 4
+    },
+    {
+      "screen_id": "17ee2a9d-3050-42f5-a3bb-1069a3c31384",
+      "image_url": "https://mobbin.com/api/mcp/short/9KL4Q8Xa",
+      "position": 5
+    }
+  ]
+}

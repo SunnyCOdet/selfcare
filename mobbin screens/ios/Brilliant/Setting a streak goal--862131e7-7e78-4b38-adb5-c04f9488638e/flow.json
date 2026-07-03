@@ -1,0 +1,43 @@
+{
+  "id": "862131e7-7e78-4b38-adb5-c04f9488638e",
+  "name": "Setting a streak goal",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/862131e7-7e78-4b38-adb5-c04f9488638e",
+  "app_name": "Brilliant",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3c3cb198-8f28-4ed3-84e0-d9607f4da700",
+      "image_url": "https://mobbin.com/api/mcp/short/lfnh5voq",
+      "position": 1
+    },
+    {
+      "screen_id": "545e5b45-b0e3-45a5-a556-44769ad88f80",
+      "image_url": "https://mobbin.com/api/mcp/short/qEdmcZz7",
+      "position": 2
+    },
+    {
+      "screen_id": "b09588d0-5cf8-408a-a565-2180e0fa4823",
+      "image_url": "https://mobbin.com/api/mcp/short/WcHSiww4",
+      "position": 3
+    },
+    {
+      "screen_id": "ec3fe703-fe07-489e-92a5-45eb5b3d4720",
+      "image_url": "https://mobbin.com/api/mcp/short/kvT7gTIr",
+      "position": 4
+    },
+    {
+      "screen_id": "a458260c-2ee5-4ccc-baef-1ce839868226",
+      "image_url": "https://mobbin.com/api/mcp/short/Ju2bRjZu",
+      "position": 5
+    },
+    {
+      "screen_id": "00df16fe-ab17-4a0a-bf37-e632017f64bd",
+      "image_url": "https://mobbin.com/api/mcp/short/R48Yd8RH",
+      "position": 6
+    }
+  ]
+}

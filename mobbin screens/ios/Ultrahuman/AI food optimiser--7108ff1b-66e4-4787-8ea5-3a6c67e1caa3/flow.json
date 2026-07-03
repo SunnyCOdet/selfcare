@@ -1,0 +1,31 @@
+{
+  "id": "7108ff1b-66e4-4787-8ea5-3a6c67e1caa3",
+  "name": "AI food optimiser",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/7108ff1b-66e4-4787-8ea5-3a6c67e1caa3",
+  "app_name": "Ultrahuman",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "1d872e28-7f25-4a80-be6f-ec9e37411146",
+      "image_url": "https://mobbin.com/api/mcp/short/53vMAyYc",
+      "position": 1
+    },
+    {
+      "screen_id": "da5f6ed4-3d11-46f7-b9fb-872a68c15a73",
+      "image_url": "https://mobbin.com/api/mcp/short/60m1tIsE",
+      "position": 2
+    },
+    {
+      "screen_id": "6cfa1747-2c12-4d8a-8192-a656e50eb636",
+      "image_url": "https://mobbin.com/api/mcp/short/cMpTn5YQ",
+      "position": 3
+    },
+    {
+      "screen_id": "cc82706f-805d-40f0-a179-962a6c2ef331",
+      "image_url": "https://mobbin.com/api/mcp/short/19N2CLVF",
+      "position": 4
+    }
+  ]
+}

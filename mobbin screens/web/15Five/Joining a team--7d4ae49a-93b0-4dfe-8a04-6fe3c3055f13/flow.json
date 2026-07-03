@@ -1,0 +1,33 @@
+{
+  "id": "7d4ae49a-93b0-4dfe-8a04-6fe3c3055f13",
+  "name": "Joining a team",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7d4ae49a-93b0-4dfe-8a04-6fe3c3055f13",
+  "app_name": "15Five",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "984c3377-0677-4866-91e4-a23c34645348",
+      "image_url": "https://mobbin.com/api/mcp/short/47zKLAnn",
+      "position": 1
+    },
+    {
+      "screen_id": "3c38c277-464f-4ad9-8029-90f2372f069a",
+      "image_url": "https://mobbin.com/api/mcp/short/QmrxvdIK",
+      "position": 2
+    },
+    {
+      "screen_id": "3863c4ff-dab3-4547-84bb-11a410f30a76",
+      "image_url": "https://mobbin.com/api/mcp/short/Ehq6JQXD",
+      "position": 3
+    },
+    {
+      "screen_id": "cd8c2e19-4e42-488c-a906-0f026dd9a15d",
+      "image_url": "https://mobbin.com/api/mcp/short/LKMuftIo",
+      "position": 4
+    }
+  ]
+}

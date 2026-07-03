@@ -1,0 +1,38 @@
+{
+  "id": "b560a517-a549-4c15-990f-632dfb1f33c1",
+  "name": "Joining a path",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b560a517-a549-4c15-990f-632dfb1f33c1",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "64eb6868-cc47-4cd0-bc67-f08fbdb4bd5d",
+      "image_url": "https://mobbin.com/api/mcp/short/58FYd0HH",
+      "position": 1
+    },
+    {
+      "screen_id": "f7f0ec2e-89bf-4361-a9f3-ee19a8cd43bc",
+      "image_url": "https://mobbin.com/api/mcp/short/2HNRpnaf",
+      "position": 2
+    },
+    {
+      "screen_id": "78e1bcab-be3f-487a-b103-1aca12a9661c",
+      "image_url": "https://mobbin.com/api/mcp/short/TxbiY5as",
+      "position": 3
+    },
+    {
+      "screen_id": "3e67dd3b-a36c-4aa2-a949-13961a16446b",
+      "image_url": "https://mobbin.com/api/mcp/short/y9KX9vMY",
+      "position": 4
+    },
+    {
+      "screen_id": "c067c4a2-3b12-4d45-a54a-55985370756b",
+      "image_url": "https://mobbin.com/api/mcp/short/r6aixklS",
+      "position": 5
+    }
+  ]
+}

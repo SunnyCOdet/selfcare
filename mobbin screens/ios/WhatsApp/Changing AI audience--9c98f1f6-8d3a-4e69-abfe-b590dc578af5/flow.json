@@ -1,0 +1,33 @@
+{
+  "id": "9c98f1f6-8d3a-4e69-abfe-b590dc578af5",
+  "name": "Changing AI audience",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9c98f1f6-8d3a-4e69-abfe-b590dc578af5",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "8403d0fe-79d1-40af-ac80-f9108a0b34a1",
+      "image_url": "https://mobbin.com/api/mcp/short/sgmDM2Cr",
+      "position": 1
+    },
+    {
+      "screen_id": "9028c783-bdb2-40be-a4d6-f2a1fb407688",
+      "image_url": "https://mobbin.com/api/mcp/short/au1ubrV5",
+      "position": 2
+    },
+    {
+      "screen_id": "5a10566b-0907-410c-a473-409b3afc4929",
+      "image_url": "https://mobbin.com/api/mcp/short/D8GmnJkn",
+      "position": 3
+    },
+    {
+      "screen_id": "e4982ca9-ceaa-4d79-a004-71963e47b1af",
+      "image_url": "https://mobbin.com/api/mcp/short/uGZuQZ9t",
+      "position": 4
+    }
+  ]
+}

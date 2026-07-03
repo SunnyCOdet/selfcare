@@ -1,0 +1,39 @@
+{
+  "id": "919314a5-0e4a-4b3a-a422-19ce8dc75316",
+  "name": "Getting started",
+  "actions": [
+    "Browsing Tutorial",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/919314a5-0e4a-4b3a-a422-19ce8dc75316",
+  "app_name": "Rise",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "388b5a12-68b9-46a1-a039-c8643663b620",
+      "image_url": "https://mobbin.com/api/mcp/short/Tt1TkG0q",
+      "position": 1
+    },
+    {
+      "screen_id": "b22a2fa2-ed57-4767-9880-adf9bffc2830",
+      "image_url": "https://mobbin.com/api/mcp/short/HhKzCUC9",
+      "position": 2
+    },
+    {
+      "screen_id": "da201db3-c29d-46c5-9610-6f65e34b6ff4",
+      "image_url": "https://mobbin.com/api/mcp/short/qDQahenc",
+      "position": 3
+    },
+    {
+      "screen_id": "eb1d1d5f-2831-492e-afd8-fcd1d8d6b53d",
+      "image_url": "https://mobbin.com/api/mcp/short/evCmVUQH",
+      "position": 4
+    },
+    {
+      "screen_id": "304debad-2f94-42ce-8799-edeb5624eda8",
+      "image_url": "https://mobbin.com/api/mcp/short/9qI5BGzz",
+      "position": 5
+    }
+  ]
+}

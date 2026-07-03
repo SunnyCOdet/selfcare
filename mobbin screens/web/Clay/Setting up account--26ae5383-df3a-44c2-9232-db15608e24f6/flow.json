@@ -1,0 +1,48 @@
+{
+  "id": "26ae5383-df3a-44c2-9232-db15608e24f6",
+  "name": "Setting up account",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/26ae5383-df3a-44c2-9232-db15608e24f6",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "cfcc738e-9e60-4cee-b116-5e1fbee9bb3a",
+      "image_url": "https://mobbin.com/api/mcp/short/WWAGrYsI",
+      "position": 1
+    },
+    {
+      "screen_id": "a0a9c34f-8ffc-4bf6-860f-7e85841aca9d",
+      "image_url": "https://mobbin.com/api/mcp/short/SUH0CfeX",
+      "position": 2
+    },
+    {
+      "screen_id": "50ca3634-a342-4aa9-ba9e-e91e308c0d27",
+      "image_url": "https://mobbin.com/api/mcp/short/G2U6Vlpc",
+      "position": 3
+    },
+    {
+      "screen_id": "cc71ee45-7791-43ac-97f2-5b8867619ae8",
+      "image_url": "https://mobbin.com/api/mcp/short/b6QWoXyi",
+      "position": 4
+    },
+    {
+      "screen_id": "0779e95b-0b68-4d26-9a1f-3c9f2eb1a7e8",
+      "image_url": "https://mobbin.com/api/mcp/short/07buNLTb",
+      "position": 5
+    },
+    {
+      "screen_id": "b1e1ca24-7951-49ac-888b-d9dd26129717",
+      "image_url": "https://mobbin.com/api/mcp/short/JdTzHL8j",
+      "position": 6
+    },
+    {
+      "screen_id": "69097134-199e-499a-b3fa-0c5fc1aa1527",
+      "image_url": "https://mobbin.com/api/mcp/short/2PGZLePN",
+      "position": 7
+    }
+  ]
+}

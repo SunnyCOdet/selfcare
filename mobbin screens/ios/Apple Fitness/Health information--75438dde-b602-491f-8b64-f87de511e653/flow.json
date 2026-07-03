@@ -1,0 +1,21 @@
+{
+  "id": "75438dde-b602-491f-8b64-f87de511e653",
+  "name": "Health information",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/75438dde-b602-491f-8b64-f87de511e653",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "f618bfa8-e996-4cb6-b7b8-f138e29963b1",
+      "image_url": "https://mobbin.com/api/mcp/short/mEaoL59C",
+      "position": 1
+    },
+    {
+      "screen_id": "a7ed92e9-17d8-4880-99bd-a24e01992f25",
+      "image_url": "https://mobbin.com/api/mcp/short/t326g06R",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "81f0e7b6-ece8-4f14-8c2a-7bdbf8d045ce",
+  "name": "Starter guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/81f0e7b6-ece8-4f14-8c2a-7bdbf8d045ce",
+  "app_name": "Vanta",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "e6dd67af-62df-470e-8240-f01b7d46768f",
+      "image_url": "https://mobbin.com/api/mcp/short/2g5npTfk",
+      "position": 1
+    },
+    {
+      "screen_id": "cdb77e49-f11b-4c36-939c-de5d6b041c4f",
+      "image_url": "https://mobbin.com/api/mcp/short/LmDVd6kK",
+      "position": 2
+    },
+    {
+      "screen_id": "9d01d795-4911-45ca-9f74-e06249616d31",
+      "image_url": "https://mobbin.com/api/mcp/short/j6LkZgtA",
+      "position": 3
+    }
+  ]
+}

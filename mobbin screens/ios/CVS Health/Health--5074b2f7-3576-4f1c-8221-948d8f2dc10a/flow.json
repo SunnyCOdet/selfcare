@@ -1,0 +1,31 @@
+{
+  "id": "5074b2f7-3576-4f1c-8221-948d8f2dc10a",
+  "name": "Health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5074b2f7-3576-4f1c-8221-948d8f2dc10a",
+  "app_name": "CVS Health",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "8ded5c35-ab09-48ab-bad2-0f0ef568a173",
+      "image_url": "https://mobbin.com/api/mcp/short/6x3q3byk",
+      "position": 1
+    },
+    {
+      "screen_id": "b1b9424e-b0c0-422a-a509-69e0cfc1e34e",
+      "image_url": "https://mobbin.com/api/mcp/short/l5G8LZCM",
+      "position": 2
+    },
+    {
+      "screen_id": "9a2a6a68-5554-431c-8456-e3bff2521d17",
+      "image_url": "https://mobbin.com/api/mcp/short/fEDnvrPG",
+      "position": 3
+    },
+    {
+      "screen_id": "ae61119d-6525-4470-8f51-2327456db197",
+      "image_url": "https://mobbin.com/api/mcp/short/qc7CFnaF",
+      "position": 4
+    }
+  ]
+}

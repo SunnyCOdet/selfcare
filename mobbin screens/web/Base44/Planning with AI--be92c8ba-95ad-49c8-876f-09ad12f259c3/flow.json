@@ -1,0 +1,69 @@
+{
+  "id": "be92c8ba-95ad-49c8-876f-09ad12f259c3",
+  "name": "Planning with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/be92c8ba-95ad-49c8-876f-09ad12f259c3",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "a6728537-0988-423a-a81c-788fd6320c0e",
+      "image_url": "https://mobbin.com/api/mcp/short/61zgLE04",
+      "position": 1
+    },
+    {
+      "screen_id": "81909f33-5508-40dd-8e7a-196e46875415",
+      "image_url": "https://mobbin.com/api/mcp/short/hsYh4lrU",
+      "position": 2
+    },
+    {
+      "screen_id": "115c690d-e8a4-4a37-9e4a-3c9d0707f4a9",
+      "image_url": "https://mobbin.com/api/mcp/short/iGxcP0qU",
+      "position": 3
+    },
+    {
+      "screen_id": "9917e0b0-8be7-43ff-b5eb-0609647b6ed0",
+      "image_url": "https://mobbin.com/api/mcp/short/wh9C2mh9",
+      "position": 4
+    },
+    {
+      "screen_id": "526e5b5e-9fcb-4bd2-a93b-64cdc0079512",
+      "image_url": "https://mobbin.com/api/mcp/short/xsdw4ndg",
+      "position": 5
+    },
+    {
+      "screen_id": "ec0e1eaa-3052-4088-bd70-ad730e58d177",
+      "image_url": "https://mobbin.com/api/mcp/short/Y0kFP98y",
+      "position": 6
+    },
+    {
+      "screen_id": "7e6acf41-e32f-4628-b83b-e9b4dc06aecb",
+      "image_url": "https://mobbin.com/api/mcp/short/iDXG1zIu",
+      "position": 7
+    },
+    {
+      "screen_id": "c1c8ed46-61fe-4495-b04f-3db81b65a3f6",
+      "image_url": "https://mobbin.com/api/mcp/short/H6vAP9eJ",
+      "position": 8
+    },
+    {
+      "screen_id": "b15b6ef8-4a98-4fe8-aafc-cda60ec1e9ba",
+      "image_url": "https://mobbin.com/api/mcp/short/YCP01xRS",
+      "position": 9
+    },
+    {
+      "screen_id": "1af86cad-8541-40c6-9999-c6d7e4147660",
+      "image_url": "https://mobbin.com/api/mcp/short/1KkygVwb",
+      "position": 10
+    },
+    {
+      "screen_id": "32c71939-0db7-4007-aab9-16051a0cf1da",
+      "image_url": "https://mobbin.com/api/mcp/short/2dpTAIjx",
+      "position": 11
+    }
+  ]
+}

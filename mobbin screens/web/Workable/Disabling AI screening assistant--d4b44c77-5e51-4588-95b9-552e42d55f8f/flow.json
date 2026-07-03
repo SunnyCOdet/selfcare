@@ -1,0 +1,28 @@
+{
+  "id": "d4b44c77-5e51-4588-95b9-552e42d55f8f",
+  "name": "Disabling AI screening assistant",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d4b44c77-5e51-4588-95b9-552e42d55f8f",
+  "app_name": "Workable",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "acea9703-f335-4839-af58-fc952c8ff7b6",
+      "image_url": "https://mobbin.com/api/mcp/short/2RLtrojJ",
+      "position": 1
+    },
+    {
+      "screen_id": "f036419d-6018-43c1-846d-4da4df1c1af0",
+      "image_url": "https://mobbin.com/api/mcp/short/JEvS5B9k",
+      "position": 2
+    },
+    {
+      "screen_id": "dcea05c8-8d7d-43e9-84c0-edc78b1e5a70",
+      "image_url": "https://mobbin.com/api/mcp/short/ZMG5Cdb0",
+      "position": 3
+    }
+  ]
+}

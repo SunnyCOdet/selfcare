@@ -1,0 +1,33 @@
+{
+  "id": "f8ace3cf-27fe-4c50-bbc0-cd4598d4a03a",
+  "name": "Linking to Health app",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f8ace3cf-27fe-4c50-bbc0-cd4598d4a03a",
+  "app_name": "Ladder",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d3ee84ac-d44a-4b95-bacf-a585c8861a70",
+      "image_url": "https://mobbin.com/api/mcp/short/jvXBW7N2",
+      "position": 1
+    },
+    {
+      "screen_id": "34f1f9f2-3b00-48f1-b1b8-5d081d487f24",
+      "image_url": "https://mobbin.com/api/mcp/short/MegKcuVV",
+      "position": 2
+    },
+    {
+      "screen_id": "d49e5620-36df-4e18-a83d-41d36aaa1428",
+      "image_url": "https://mobbin.com/api/mcp/short/TDiVBNme",
+      "position": 3
+    },
+    {
+      "screen_id": "93a44975-dc97-4d0a-ac8e-afe73826da93",
+      "image_url": "https://mobbin.com/api/mcp/short/W2tB3Os3",
+      "position": 4
+    }
+  ]
+}

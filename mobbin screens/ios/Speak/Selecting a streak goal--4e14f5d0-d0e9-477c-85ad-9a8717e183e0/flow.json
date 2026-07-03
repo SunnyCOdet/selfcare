@@ -1,0 +1,28 @@
+{
+  "id": "4e14f5d0-d0e9-477c-85ad-9a8717e183e0",
+  "name": "Selecting a streak goal",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4e14f5d0-d0e9-477c-85ad-9a8717e183e0",
+  "app_name": "Speak",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "7acbb2fc-3817-408f-9db3-25380bb43706",
+      "image_url": "https://mobbin.com/api/mcp/short/A6lkvG8C",
+      "position": 1
+    },
+    {
+      "screen_id": "bf472006-4a10-40b1-bcf0-daf42ca52784",
+      "image_url": "https://mobbin.com/api/mcp/short/MfNvBGoB",
+      "position": 2
+    },
+    {
+      "screen_id": "9b2bf5c2-581a-48f0-b7d5-0c4fa2d86754",
+      "image_url": "https://mobbin.com/api/mcp/short/vAXfIF3R",
+      "position": 3
+    }
+  ]
+}

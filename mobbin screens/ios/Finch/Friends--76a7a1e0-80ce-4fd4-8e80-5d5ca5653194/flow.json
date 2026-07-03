@@ -1,0 +1,56 @@
+{
+  "id": "76a7a1e0-80ce-4fd4-8e80-5d5ca5653194",
+  "name": "Friends",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/76a7a1e0-80ce-4fd4-8e80-5d5ca5653194",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "69d2434c-2a20-4e29-a62f-3fcd46801368",
+      "image_url": "https://mobbin.com/api/mcp/short/OkJDw65O",
+      "position": 1
+    },
+    {
+      "screen_id": "fe719020-e54f-43c2-92bd-d1df2ab097f5",
+      "image_url": "https://mobbin.com/api/mcp/short/JYypVXjj",
+      "position": 2
+    },
+    {
+      "screen_id": "defb485c-3ce1-482a-8b81-ef2721cfe922",
+      "image_url": "https://mobbin.com/api/mcp/short/IMxy3Zta",
+      "position": 3
+    },
+    {
+      "screen_id": "2e5ce3f1-26c9-4cc4-8912-91348d13d690",
+      "image_url": "https://mobbin.com/api/mcp/short/VXhQUHw1",
+      "position": 4
+    },
+    {
+      "screen_id": "e6c040ad-7636-4b80-9129-1e101a6483e9",
+      "image_url": "https://mobbin.com/api/mcp/short/ox2zDQ5c",
+      "position": 5
+    },
+    {
+      "screen_id": "6d799096-c36d-417c-b661-2804fcc2b662",
+      "image_url": "https://mobbin.com/api/mcp/short/0HLO3rM6",
+      "position": 6
+    },
+    {
+      "screen_id": "309c0976-7430-4ada-b0d1-553795ac51bb",
+      "image_url": "https://mobbin.com/api/mcp/short/3DGNu2oa",
+      "position": 7
+    },
+    {
+      "screen_id": "85ccc06a-9be2-4978-9079-9e7505c1406c",
+      "image_url": "https://mobbin.com/api/mcp/short/Tkr9xZn5",
+      "position": 8
+    },
+    {
+      "screen_id": "eaafaa2f-e3ad-4630-bcb4-e341e9f190dd",
+      "image_url": "https://mobbin.com/api/mcp/short/18cpqCsp",
+      "position": 9
+    }
+  ]
+}

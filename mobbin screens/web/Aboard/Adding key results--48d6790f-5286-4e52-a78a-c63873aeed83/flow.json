@@ -1,0 +1,43 @@
+{
+  "id": "48d6790f-5286-4e52-a78a-c63873aeed83",
+  "name": "Adding key results",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/48d6790f-5286-4e52-a78a-c63873aeed83",
+  "app_name": "Aboard",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "194dc161-96ea-43bd-9978-b0643536f98b",
+      "image_url": "https://mobbin.com/api/mcp/short/VWfcGbr9",
+      "position": 1
+    },
+    {
+      "screen_id": "c1b2ce0f-f1a7-4531-8822-3743847e19b1",
+      "image_url": "https://mobbin.com/api/mcp/short/1wNZUC0U",
+      "position": 2
+    },
+    {
+      "screen_id": "19ee9308-2f1a-4ed1-ad6f-005fb140fefc",
+      "image_url": "https://mobbin.com/api/mcp/short/Ya8IXSub",
+      "position": 3
+    },
+    {
+      "screen_id": "c1c659ba-2d09-4eb9-a794-f9e17c4fae16",
+      "image_url": "https://mobbin.com/api/mcp/short/sM75qxc5",
+      "position": 4
+    },
+    {
+      "screen_id": "716c9443-678c-4bb2-9b90-5d77231c8def",
+      "image_url": "https://mobbin.com/api/mcp/short/QqopuVta",
+      "position": 5
+    },
+    {
+      "screen_id": "290b1f66-0783-4ade-b907-800cea3eb389",
+      "image_url": "https://mobbin.com/api/mcp/short/BtoNVKRq",
+      "position": 6
+    }
+  ]
+}

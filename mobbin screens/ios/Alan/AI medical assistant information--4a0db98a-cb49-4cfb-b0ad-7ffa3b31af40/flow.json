@@ -1,0 +1,46 @@
+{
+  "id": "4a0db98a-cb49-4cfb-b0ad-7ffa3b31af40",
+  "name": "AI medical assistant information",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4a0db98a-cb49-4cfb-b0ad-7ffa3b31af40",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "7f4dc1be-95b5-48e3-9935-6495806b55e4",
+      "image_url": "https://mobbin.com/api/mcp/short/8yXBznQD",
+      "position": 1
+    },
+    {
+      "screen_id": "43e3141a-35bc-4e9c-8482-a6b2a4ca8599",
+      "image_url": "https://mobbin.com/api/mcp/short/58DVqW5N",
+      "position": 2
+    },
+    {
+      "screen_id": "32816a53-84a0-40d4-8e19-21d12169c5b9",
+      "image_url": "https://mobbin.com/api/mcp/short/DW6730jF",
+      "position": 3
+    },
+    {
+      "screen_id": "3be69eae-2014-4546-8f4d-251764ef66f3",
+      "image_url": "https://mobbin.com/api/mcp/short/yW3r1YlM",
+      "position": 4
+    },
+    {
+      "screen_id": "0c93d2c3-c1d8-488c-a663-25d10f2090fa",
+      "image_url": "https://mobbin.com/api/mcp/short/dp8oVwrt",
+      "position": 5
+    },
+    {
+      "screen_id": "be80e5c7-405e-4ab9-84fb-7496cac871dc",
+      "image_url": "https://mobbin.com/api/mcp/short/sTMcWoxO",
+      "position": 6
+    },
+    {
+      "screen_id": "99c84b9a-fd3c-4c61-812e-ebd9fadd33f6",
+      "image_url": "https://mobbin.com/api/mcp/short/mmqaSCWm",
+      "position": 7
+    }
+  ]
+}

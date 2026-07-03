@@ -1,0 +1,28 @@
+{
+  "id": "45051fc5-954d-4433-9701-041a7c3f42ad",
+  "name": "Generating business context with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/45051fc5-954d-4433-9701-041a7c3f42ad",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "38941aea-22e6-405e-a86f-0427d31fdbce",
+      "image_url": "https://mobbin.com/api/mcp/short/Fv3IBseA",
+      "position": 1
+    },
+    {
+      "screen_id": "ff7738c0-b270-469f-9747-e099c3429218",
+      "image_url": "https://mobbin.com/api/mcp/short/lZ6AG2Oc",
+      "position": 2
+    },
+    {
+      "screen_id": "64417312-872f-4af3-b113-a2e04c13fbdd",
+      "image_url": "https://mobbin.com/api/mcp/short/cbAFTS8I",
+      "position": 3
+    }
+  ]
+}

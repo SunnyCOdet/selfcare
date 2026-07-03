@@ -1,0 +1,33 @@
+{
+  "id": "671e3f4d-bd4d-4d0e-b229-fec56d4e215f",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/671e3f4d-bd4d-4d0e-b229-fec56d4e215f",
+  "app_name": "Apple News",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "a89003a4-2323-450e-9a84-14129b98a125",
+      "image_url": "https://mobbin.com/api/mcp/short/YYsG3wtJ",
+      "position": 1
+    },
+    {
+      "screen_id": "dcf7884c-7bfa-4bb1-a3fe-d9dd27701353",
+      "image_url": "https://mobbin.com/api/mcp/short/GTNdXO3x",
+      "position": 2
+    },
+    {
+      "screen_id": "9e153c5d-82ad-441b-b85b-559e758e4f6f",
+      "image_url": "https://mobbin.com/api/mcp/short/cZPCdcZf",
+      "position": 3
+    },
+    {
+      "screen_id": "2450aa3b-98e8-45ed-a7bc-afb38e478b73",
+      "image_url": "https://mobbin.com/api/mcp/short/Ocg3TdtF",
+      "position": 4
+    }
+  ]
+}

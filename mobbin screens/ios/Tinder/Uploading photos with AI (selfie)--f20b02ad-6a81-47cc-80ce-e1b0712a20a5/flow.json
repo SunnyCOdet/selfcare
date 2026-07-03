@@ -1,0 +1,49 @@
+{
+  "id": "f20b02ad-6a81-47cc-80ce-e1b0712a20a5",
+  "name": "Uploading photos with AI (selfie)",
+  "actions": [
+    "Taking Photos",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f20b02ad-6a81-47cc-80ce-e1b0712a20a5",
+  "app_name": "Tinder",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "4b0927bb-b8cc-4e5e-929f-d7dfc5607b76",
+      "image_url": "https://mobbin.com/api/mcp/short/M8jn30C4",
+      "position": 1
+    },
+    {
+      "screen_id": "230db0e1-0345-4d2f-9930-d2bbb28c4e7e",
+      "image_url": "https://mobbin.com/api/mcp/short/Wd6VEqLK",
+      "position": 2
+    },
+    {
+      "screen_id": "85c40fd9-9754-4e0d-b43c-ef2354a52994",
+      "image_url": "https://mobbin.com/api/mcp/short/t5MghWfK",
+      "position": 3
+    },
+    {
+      "screen_id": "e093294c-1663-4271-9e1b-b3d36d977618",
+      "image_url": "https://mobbin.com/api/mcp/short/ButQjw2d",
+      "position": 4
+    },
+    {
+      "screen_id": "5b1eef61-2dcb-466a-9c54-21d2003d76ca",
+      "image_url": "https://mobbin.com/api/mcp/short/zypToHRq",
+      "position": 5
+    },
+    {
+      "screen_id": "08921b52-c43c-453c-bb28-e964a1d56baf",
+      "image_url": "https://mobbin.com/api/mcp/short/imi71T6s",
+      "position": 6
+    },
+    {
+      "screen_id": "61004e49-8223-4b3d-a765-562fe379ca92",
+      "image_url": "https://mobbin.com/api/mcp/short/FwAJ5QMy",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "0d59f51a-0b0d-4eed-a14b-bd757ef90436",
+  "name": "Default widgets",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0d59f51a-0b0d-4eed-a14b-bd757ef90436",
+  "app_name": "timespent",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5154780c-34a7-48f9-9c52-298bcc050c6b",
+      "image_url": "https://mobbin.com/api/mcp/short/nRRxV9ca",
+      "position": 1
+    },
+    {
+      "screen_id": "dd35b0eb-30d1-483a-952e-9572bb80523c",
+      "image_url": "https://mobbin.com/api/mcp/short/1DQc0Zjd",
+      "position": 2
+    },
+    {
+      "screen_id": "56250a84-08b8-4640-b70c-05b182eb8051",
+      "image_url": "https://mobbin.com/api/mcp/short/5vTnO8SC",
+      "position": 3
+    }
+  ]
+}

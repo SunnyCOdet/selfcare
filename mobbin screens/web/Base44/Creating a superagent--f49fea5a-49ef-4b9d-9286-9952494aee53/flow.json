@@ -1,0 +1,54 @@
+{
+  "id": "f49fea5a-49ef-4b9d-9286-9952494aee53",
+  "name": "Creating a superagent",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f49fea5a-49ef-4b9d-9286-9952494aee53",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "ea1bba5c-253f-4454-8a01-5a9c6ff04df5",
+      "image_url": "https://mobbin.com/api/mcp/short/4pVH39Ik",
+      "position": 1
+    },
+    {
+      "screen_id": "023cffea-bead-4416-a515-a703c4696c9e",
+      "image_url": "https://mobbin.com/api/mcp/short/Wdm6Gpde",
+      "position": 2
+    },
+    {
+      "screen_id": "1f9cb6ce-96e7-4eb1-822a-aa0ec51ac15e",
+      "image_url": "https://mobbin.com/api/mcp/short/bHcI4Zh7",
+      "position": 3
+    },
+    {
+      "screen_id": "7c7fbdc9-6042-43d9-967b-7600af89551b",
+      "image_url": "https://mobbin.com/api/mcp/short/dVXufEII",
+      "position": 4
+    },
+    {
+      "screen_id": "982bcc65-5e97-4e37-980c-9cbb54959de1",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHcSgey3",
+      "position": 5
+    },
+    {
+      "screen_id": "a7be36e7-8a0f-4784-bad9-bab92a4b61d7",
+      "image_url": "https://mobbin.com/api/mcp/short/bdnDS7Ns",
+      "position": 6
+    },
+    {
+      "screen_id": "0cc141d6-ea40-42aa-b5a7-3100230f325c",
+      "image_url": "https://mobbin.com/api/mcp/short/lnzs0isw",
+      "position": 7
+    },
+    {
+      "screen_id": "b1b8c32a-3e9e-47d0-8c1b-370f20fdb43a",
+      "image_url": "https://mobbin.com/api/mcp/short/WztSd5pO",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "237108e7-d222-48d1-9ba6-7c712170612d",
+  "name": "Profile and settings",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/237108e7-d222-48d1-9ba6-7c712170612d",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "88877f59-e0a9-4e07-b4ea-bcc4b26265bd",
+      "image_url": "https://mobbin.com/api/mcp/short/XK7mYy7c",
+      "position": 1
+    },
+    {
+      "screen_id": "a05f82c4-492a-4caf-bfd7-91abdb3ae32d",
+      "image_url": "https://mobbin.com/api/mcp/short/odDwNEae",
+      "position": 2
+    },
+    {
+      "screen_id": "8021472a-5672-44ae-add0-9b4880720b29",
+      "image_url": "https://mobbin.com/api/mcp/short/qPvhEkik",
+      "position": 3
+    },
+    {
+      "screen_id": "d664d4d3-b56f-467d-96a2-928233af5567",
+      "image_url": "https://mobbin.com/api/mcp/short/GTVtbQMX",
+      "position": 4
+    },
+    {
+      "screen_id": "2a4d265d-e82c-4fd2-bcd1-eaafd6f931d5",
+      "image_url": "https://mobbin.com/api/mcp/short/QsMATBPB",
+      "position": 5
+    }
+  ]
+}

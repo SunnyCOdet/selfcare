@@ -1,0 +1,53 @@
+{
+  "id": "c35c6b5f-a827-49d9-8817-69ebd628f122",
+  "name": "Accepting an invitation",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c35c6b5f-a827-49d9-8817-69ebd628f122",
+  "app_name": "Intercom",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "1a9fb615-d0da-41ee-a701-3ba2d750f44b",
+      "image_url": "https://mobbin.com/api/mcp/short/e957dz2E",
+      "position": 1
+    },
+    {
+      "screen_id": "cdf08836-90ed-43f2-a454-71710e163b6f",
+      "image_url": "https://mobbin.com/api/mcp/short/mixwFOst",
+      "position": 2
+    },
+    {
+      "screen_id": "278ca7fa-d27a-4153-997d-0e4bee256d8f",
+      "image_url": "https://mobbin.com/api/mcp/short/xKt9cQZ0",
+      "position": 3
+    },
+    {
+      "screen_id": "a0ed3d98-837a-4ee7-bc18-71ccbe2a6bcf",
+      "image_url": "https://mobbin.com/api/mcp/short/CYYo092I",
+      "position": 4
+    },
+    {
+      "screen_id": "b4fb4d72-337e-406f-bcb6-ebbc8640dbcc",
+      "image_url": "https://mobbin.com/api/mcp/short/kY8hxQ6o",
+      "position": 5
+    },
+    {
+      "screen_id": "f285db86-8cea-47e7-beb4-3f332a00d856",
+      "image_url": "https://mobbin.com/api/mcp/short/Q7VUgj3E",
+      "position": 6
+    },
+    {
+      "screen_id": "2641d4fd-5dc2-444f-8488-ab02e413e2c9",
+      "image_url": "https://mobbin.com/api/mcp/short/0jvactWQ",
+      "position": 7
+    },
+    {
+      "screen_id": "85e681d3-693d-4f18-a832-5fc0ae2c4539",
+      "image_url": "https://mobbin.com/api/mcp/short/kaYRhvgk",
+      "position": 8
+    }
+  ]
+}

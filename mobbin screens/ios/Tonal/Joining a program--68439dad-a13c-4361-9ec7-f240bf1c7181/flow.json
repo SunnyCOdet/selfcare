@@ -1,0 +1,34 @@
+{
+  "id": "68439dad-a13c-4361-9ec7-f240bf1c7181",
+  "name": "Joining a program",
+  "actions": [
+    "Registering",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/68439dad-a13c-4361-9ec7-f240bf1c7181",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5324e86f-5cf1-4e9b-82a5-7180451ed22a",
+      "image_url": "https://mobbin.com/api/mcp/short/v3GgGrUf",
+      "position": 1
+    },
+    {
+      "screen_id": "24db49c3-fb68-4ca6-955b-07d29192e6f5",
+      "image_url": "https://mobbin.com/api/mcp/short/dENsG9hs",
+      "position": 2
+    },
+    {
+      "screen_id": "7192fd86-8d9a-4253-955f-4395685bf54d",
+      "image_url": "https://mobbin.com/api/mcp/short/eWauJ8sG",
+      "position": 3
+    },
+    {
+      "screen_id": "7a350c49-0451-4f16-add0-6ecd14f5ed7b",
+      "image_url": "https://mobbin.com/api/mcp/short/SCAbjerc",
+      "position": 4
+    }
+  ]
+}

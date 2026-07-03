@@ -1,0 +1,31 @@
+{
+  "id": "cc1ef498-2095-46d2-8658-b12faab34ad7",
+  "name": "Coin detail (AI trending)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/cc1ef498-2095-46d2-8658-b12faab34ad7",
+  "app_name": "Binance",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "fba7813a-efb2-44cb-8b66-26d42d9921a5",
+      "image_url": "https://mobbin.com/api/mcp/short/8pw1awIc",
+      "position": 1
+    },
+    {
+      "screen_id": "7dbe059b-f099-4354-898a-d4be986e99e6",
+      "image_url": "https://mobbin.com/api/mcp/short/0O8XRvsN",
+      "position": 2
+    },
+    {
+      "screen_id": "34a1ce37-925e-421e-a3b5-50dfa44e8993",
+      "image_url": "https://mobbin.com/api/mcp/short/7DbvLhMe",
+      "position": 3
+    },
+    {
+      "screen_id": "d95b1a83-4d29-4965-966a-d125e6cc0b62",
+      "image_url": "https://mobbin.com/api/mcp/short/iwDMfEWb",
+      "position": 4
+    }
+  ]
+}

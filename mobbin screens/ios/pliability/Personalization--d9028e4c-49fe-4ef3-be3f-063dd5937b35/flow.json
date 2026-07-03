@@ -1,0 +1,21 @@
+{
+  "id": "d9028e4c-49fe-4ef3-be3f-063dd5937b35",
+  "name": "Personalization",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d9028e4c-49fe-4ef3-be3f-063dd5937b35",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "098da7f7-c725-4812-9241-605ca83cb38c",
+      "image_url": "https://mobbin.com/api/mcp/short/lRVdMBLn",
+      "position": 1
+    },
+    {
+      "screen_id": "de876794-8d4e-45d0-93bb-dcb9e4074bac",
+      "image_url": "https://mobbin.com/api/mcp/short/Km9duzq5",
+      "position": 2
+    }
+  ]
+}

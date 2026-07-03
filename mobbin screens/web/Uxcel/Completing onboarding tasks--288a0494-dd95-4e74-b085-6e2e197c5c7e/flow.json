@@ -1,0 +1,33 @@
+{
+  "id": "288a0494-dd95-4e74-b085-6e2e197c5c7e",
+  "name": "Completing onboarding tasks",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/288a0494-dd95-4e74-b085-6e2e197c5c7e",
+  "app_name": "Uxcel",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3ecefcd9-b189-4af0-8b01-db3435e62234",
+      "image_url": "https://mobbin.com/api/mcp/short/mZXztQxc",
+      "position": 1
+    },
+    {
+      "screen_id": "2c1683ab-316a-4ed9-aae5-58ee24139189",
+      "image_url": "https://mobbin.com/api/mcp/short/a24X2zW9",
+      "position": 2
+    },
+    {
+      "screen_id": "463b5632-a32f-4031-9553-933a34601115",
+      "image_url": "https://mobbin.com/api/mcp/short/lztGbwMO",
+      "position": 3
+    },
+    {
+      "screen_id": "cb549eba-050c-42a8-a6e9-5acb4aa52fce",
+      "image_url": "https://mobbin.com/api/mcp/short/yxlYQOiA",
+      "position": 4
+    }
+  ]
+}

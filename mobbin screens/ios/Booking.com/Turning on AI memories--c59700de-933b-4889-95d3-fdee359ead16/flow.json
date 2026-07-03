@@ -1,0 +1,28 @@
+{
+  "id": "c59700de-933b-4889-95d3-fdee359ead16",
+  "name": "Turning on AI memories",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c59700de-933b-4889-95d3-fdee359ead16",
+  "app_name": "Booking.com",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "63b90355-5732-4acd-9d02-a341cac9a164",
+      "image_url": "https://mobbin.com/api/mcp/short/eQvbAoDr",
+      "position": 1
+    },
+    {
+      "screen_id": "7c2d6a0c-9b2c-4ae3-994a-e2f4dafc742f",
+      "image_url": "https://mobbin.com/api/mcp/short/OJa9Nsfc",
+      "position": 2
+    },
+    {
+      "screen_id": "ef14c154-5fb0-4170-bf62-87cff106ec55",
+      "image_url": "https://mobbin.com/api/mcp/short/ok2BKWvo",
+      "position": 3
+    }
+  ]
+}

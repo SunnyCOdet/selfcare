@@ -1,0 +1,60 @@
+{
+  "id": "304e21fb-a5b7-470b-a12d-f2ae84361985",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/304e21fb-a5b7-470b-a12d-f2ae84361985",
+  "app_name": "Polestar",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "f947f716-ac7a-4947-aaf8-cde8a08db314",
+      "image_url": "https://mobbin.com/api/mcp/short/yNQeeMqR",
+      "position": 1
+    },
+    {
+      "screen_id": "f0a529e1-afb6-44eb-8ee0-0a5e68122e9d",
+      "image_url": "https://mobbin.com/api/mcp/short/V89Q0XF6",
+      "position": 2
+    },
+    {
+      "screen_id": "090220fa-656e-451b-8a6e-a2504cca934b",
+      "image_url": "https://mobbin.com/api/mcp/short/DfVPfuov",
+      "position": 3
+    },
+    {
+      "screen_id": "626ff472-b84b-4b9c-8963-a71ef73e60fc",
+      "image_url": "https://mobbin.com/api/mcp/short/KWoaTbug",
+      "position": 4
+    },
+    {
+      "screen_id": "5b5996b9-27df-4e66-a68b-3a26b732ca6f",
+      "image_url": "https://mobbin.com/api/mcp/short/j6rVu5P9",
+      "position": 5
+    },
+    {
+      "screen_id": "1e1ccf63-1229-4fc0-a18b-1a48a8d9988e",
+      "image_url": "https://mobbin.com/api/mcp/short/xWmSKeUI",
+      "position": 6
+    },
+    {
+      "screen_id": "5e29b7f8-4b42-4b87-888e-ddefa2d1d94e",
+      "image_url": "https://mobbin.com/api/mcp/short/BLJL1jmC",
+      "position": 7
+    },
+    {
+      "screen_id": "e68a327e-1320-4f7c-b6ee-1ebe4b3287ca",
+      "image_url": "https://mobbin.com/api/mcp/short/QW7DUxNQ",
+      "position": 8
+    },
+    {
+      "screen_id": "b9ceef94-8bbf-4e06-b001-157d853338c9",
+      "image_url": "https://mobbin.com/api/mcp/short/bvrT21ch",
+      "position": 9
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "0447ed53-fb99-4aff-9350-78944e8395fe",
+  "name": "Chatting with Sparky (AI)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0447ed53-fb99-4aff-9350-78944e8395fe",
+  "app_name": "Walmart",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "539a9bad-2658-4773-a8b7-41545061e219",
+      "image_url": "https://mobbin.com/api/mcp/short/dnfV6DUq",
+      "position": 1
+    },
+    {
+      "screen_id": "febcc200-a91a-48f1-bd3c-f2e9201ad894",
+      "image_url": "https://mobbin.com/api/mcp/short/zHlDjxa4",
+      "position": 2
+    },
+    {
+      "screen_id": "55fc321e-c84f-4296-a539-032eae50208e",
+      "image_url": "https://mobbin.com/api/mcp/short/7zu1PygU",
+      "position": 3
+    },
+    {
+      "screen_id": "c6828156-8fc1-49d3-b52b-90a2e2e14fdf",
+      "image_url": "https://mobbin.com/api/mcp/short/L4mof30x",
+      "position": 4
+    },
+    {
+      "screen_id": "3d76dea5-d0a0-4d84-a0b2-72bfcfa8f74d",
+      "image_url": "https://mobbin.com/api/mcp/short/lLP7XyTX",
+      "position": 5
+    },
+    {
+      "screen_id": "915e3d72-c239-4cb4-a12e-3e1267f08ea8",
+      "image_url": "https://mobbin.com/api/mcp/short/aG6WM7FC",
+      "position": 6
+    },
+    {
+      "screen_id": "ae93a3a0-d4ec-4c40-9b24-828cfbcf4350",
+      "image_url": "https://mobbin.com/api/mcp/short/TwzyFSRA",
+      "position": 7
+    }
+  ]
+}

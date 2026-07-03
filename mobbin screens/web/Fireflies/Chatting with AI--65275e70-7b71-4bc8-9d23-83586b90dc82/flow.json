@@ -1,0 +1,63 @@
+{
+  "id": "65275e70-7b71-4bc8-9d23-83586b90dc82",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/65275e70-7b71-4bc8-9d23-83586b90dc82",
+  "app_name": "Fireflies",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "9aaaf547-cc08-4cae-b0f3-76b8b3ed915e",
+      "image_url": "https://mobbin.com/api/mcp/short/1QgPjRfr",
+      "position": 1
+    },
+    {
+      "screen_id": "98bce96c-dff8-4e96-82db-85ba18f45be6",
+      "image_url": "https://mobbin.com/api/mcp/short/luOPj1FP",
+      "position": 2
+    },
+    {
+      "screen_id": "0d66a117-dddf-4e68-83cf-7144b06119cc",
+      "image_url": "https://mobbin.com/api/mcp/short/E2ba9Iui",
+      "position": 3
+    },
+    {
+      "screen_id": "ef61eefc-ae0b-4618-a9f8-18135d039dd3",
+      "image_url": "https://mobbin.com/api/mcp/short/mkNKYpMj",
+      "position": 4
+    },
+    {
+      "screen_id": "bbd234a5-f959-4188-ad3d-37b3a0ddba8e",
+      "image_url": "https://mobbin.com/api/mcp/short/tFK1wIdL",
+      "position": 5
+    },
+    {
+      "screen_id": "e50270db-bb99-4e44-9daf-45fdb2854157",
+      "image_url": "https://mobbin.com/api/mcp/short/Z6iGK3Go",
+      "position": 6
+    },
+    {
+      "screen_id": "5dbe7af8-4bb5-470d-a5f3-67edecfdac9b",
+      "image_url": "https://mobbin.com/api/mcp/short/49EHGCCJ",
+      "position": 7
+    },
+    {
+      "screen_id": "3f11994c-6e9a-4ba4-a6cb-d80a88640fe5",
+      "image_url": "https://mobbin.com/api/mcp/short/DYzoNxHs",
+      "position": 8
+    },
+    {
+      "screen_id": "ce545e5e-b714-4e53-8ad3-8d04b48c3f32",
+      "image_url": "https://mobbin.com/api/mcp/short/w4hL5d9e",
+      "position": 9
+    },
+    {
+      "screen_id": "0e277c22-7dac-4085-aa59-cd24cd3dbc52",
+      "image_url": "https://mobbin.com/api/mcp/short/908qTcVr",
+      "position": 10
+    }
+  ]
+}

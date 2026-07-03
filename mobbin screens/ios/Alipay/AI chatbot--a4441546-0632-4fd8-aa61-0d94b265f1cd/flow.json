@@ -1,0 +1,36 @@
+{
+  "id": "a4441546-0632-4fd8-aa61-0d94b265f1cd",
+  "name": "AI chatbot",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a4441546-0632-4fd8-aa61-0d94b265f1cd",
+  "app_name": "Alipay",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c8cd2967-c37a-4a68-9612-2e054deda0fb",
+      "image_url": "https://mobbin.com/api/mcp/short/97hEwD5s",
+      "position": 1
+    },
+    {
+      "screen_id": "fa1a523a-9791-4257-9d98-f318da51c2c4",
+      "image_url": "https://mobbin.com/api/mcp/short/RInY9DKJ",
+      "position": 2
+    },
+    {
+      "screen_id": "210f3e6c-ac3e-4f8f-a28e-be2d0651f615",
+      "image_url": "https://mobbin.com/api/mcp/short/gkVnyw9U",
+      "position": 3
+    },
+    {
+      "screen_id": "33d0fddb-b3a6-43e3-8a57-f68cae8bd543",
+      "image_url": "https://mobbin.com/api/mcp/short/OyZpnARX",
+      "position": 4
+    },
+    {
+      "screen_id": "5857b119-9485-4b9b-b148-58a90c68c2b0",
+      "image_url": "https://mobbin.com/api/mcp/short/9MJP89sM",
+      "position": 5
+    }
+  ]
+}

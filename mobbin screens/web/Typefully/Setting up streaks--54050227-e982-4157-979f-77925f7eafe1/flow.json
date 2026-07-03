@@ -1,0 +1,43 @@
+{
+  "id": "54050227-e982-4157-979f-77925f7eafe1",
+  "name": "Setting up streaks",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/54050227-e982-4157-979f-77925f7eafe1",
+  "app_name": "Typefully",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3c18b45c-93ca-48c2-8d54-de23b86d3002",
+      "image_url": "https://mobbin.com/api/mcp/short/XfrbJiIp",
+      "position": 1
+    },
+    {
+      "screen_id": "7394c1a8-bc0e-4279-95bf-fff7b3bf0c9a",
+      "image_url": "https://mobbin.com/api/mcp/short/SeDJa6AW",
+      "position": 2
+    },
+    {
+      "screen_id": "8f1fb80f-f6d2-446d-897d-697874ad69ac",
+      "image_url": "https://mobbin.com/api/mcp/short/VUOOYCok",
+      "position": 3
+    },
+    {
+      "screen_id": "011c03ad-5900-4878-adcb-5987086926f1",
+      "image_url": "https://mobbin.com/api/mcp/short/gIpmCG55",
+      "position": 4
+    },
+    {
+      "screen_id": "a4ad181e-1779-45bb-bfb8-6c338c5a2cb4",
+      "image_url": "https://mobbin.com/api/mcp/short/1BtDrqOV",
+      "position": 5
+    },
+    {
+      "screen_id": "0013b167-9797-4325-8fbc-e12498714d2f",
+      "image_url": "https://mobbin.com/api/mcp/short/SyOtbCEo",
+      "position": 6
+    }
+  ]
+}

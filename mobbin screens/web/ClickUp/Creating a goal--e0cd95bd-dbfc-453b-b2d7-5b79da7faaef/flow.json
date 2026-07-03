@@ -1,0 +1,68 @@
+{
+  "id": "e0cd95bd-dbfc-453b-b2d7-5b79da7faaef",
+  "name": "Creating a goal",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e0cd95bd-dbfc-453b-b2d7-5b79da7faaef",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "359b4eb8-824b-4948-a739-6a26ac3b69ec",
+      "image_url": "https://mobbin.com/api/mcp/short/fFQZ6vhB",
+      "position": 1
+    },
+    {
+      "screen_id": "3f3c2432-3db0-4cfc-b469-2a088d38dde5",
+      "image_url": "https://mobbin.com/api/mcp/short/GGZQgYbo",
+      "position": 2
+    },
+    {
+      "screen_id": "2626bbc6-4550-4841-9b14-118dcd4cbb5c",
+      "image_url": "https://mobbin.com/api/mcp/short/2wL6q7zP",
+      "position": 3
+    },
+    {
+      "screen_id": "90935276-73f0-4b29-aff4-53e55ce9841d",
+      "image_url": "https://mobbin.com/api/mcp/short/kJMiQKvK",
+      "position": 4
+    },
+    {
+      "screen_id": "b55b0907-07e2-436a-99ea-b36b1d7cc1de",
+      "image_url": "https://mobbin.com/api/mcp/short/RB57Asgm",
+      "position": 5
+    },
+    {
+      "screen_id": "d4c1b331-4f8d-4bd7-af0e-76fb1a0b8fb6",
+      "image_url": "https://mobbin.com/api/mcp/short/ItYAlERK",
+      "position": 6
+    },
+    {
+      "screen_id": "6218cd77-5d64-4d19-bcf0-4995181c976d",
+      "image_url": "https://mobbin.com/api/mcp/short/JPt20A2L",
+      "position": 7
+    },
+    {
+      "screen_id": "ca36bf6c-49b7-463e-8a53-5457816d9bd4",
+      "image_url": "https://mobbin.com/api/mcp/short/9ZunErDG",
+      "position": 8
+    },
+    {
+      "screen_id": "17c107e5-c1dc-4e31-a766-99ea9d05d9cb",
+      "image_url": "https://mobbin.com/api/mcp/short/yetuTjGe",
+      "position": 9
+    },
+    {
+      "screen_id": "155b8eb2-ca0d-4b8f-a17d-c295cf6a28d0",
+      "image_url": "https://mobbin.com/api/mcp/short/8hRTO1HS",
+      "position": 10
+    },
+    {
+      "screen_id": "65a8b364-6b11-4694-b081-c1833a3e5b8f",
+      "image_url": "https://mobbin.com/api/mcp/short/quDB2E2h",
+      "position": 11
+    }
+  ]
+}

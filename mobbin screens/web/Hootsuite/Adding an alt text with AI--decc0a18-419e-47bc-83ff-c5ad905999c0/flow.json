@@ -1,0 +1,38 @@
+{
+  "id": "decc0a18-419e-47bc-83ff-c5ad905999c0",
+  "name": "Adding an alt text with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/decc0a18-419e-47bc-83ff-c5ad905999c0",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "bcfd31d1-e014-4600-9f3f-64e43c61a2ff",
+      "image_url": "https://mobbin.com/api/mcp/short/dbNrjIGr",
+      "position": 1
+    },
+    {
+      "screen_id": "814e6612-0735-4799-a24b-99220318bffa",
+      "image_url": "https://mobbin.com/api/mcp/short/la10OIZm",
+      "position": 2
+    },
+    {
+      "screen_id": "e51d4e31-5b96-40f5-826c-d267c309f1a2",
+      "image_url": "https://mobbin.com/api/mcp/short/l1N8YBNQ",
+      "position": 3
+    },
+    {
+      "screen_id": "70b54a87-d343-4b39-9ccc-1b75e2695bfc",
+      "image_url": "https://mobbin.com/api/mcp/short/Lrb8dTff",
+      "position": 4
+    },
+    {
+      "screen_id": "46ece65e-e707-4647-a271-8b2b60c6c888",
+      "image_url": "https://mobbin.com/api/mcp/short/rybetvz4",
+      "position": 5
+    }
+  ]
+}

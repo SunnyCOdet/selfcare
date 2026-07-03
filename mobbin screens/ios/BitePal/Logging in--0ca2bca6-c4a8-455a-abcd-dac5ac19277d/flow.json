@@ -1,0 +1,28 @@
+{
+  "id": "0ca2bca6-c4a8-455a-abcd-dac5ac19277d",
+  "name": "Logging in",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0ca2bca6-c4a8-455a-abcd-dac5ac19277d",
+  "app_name": "BitePal",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "7f0f1cef-f5a1-40ba-8a33-9ae85b35716e",
+      "image_url": "https://mobbin.com/api/mcp/short/Zb6yad3z",
+      "position": 1
+    },
+    {
+      "screen_id": "89724b2b-a186-4620-830b-4efd64aa78c4",
+      "image_url": "https://mobbin.com/api/mcp/short/HLeTeYrD",
+      "position": 2
+    },
+    {
+      "screen_id": "a2fab3a4-fe0a-486d-9211-358206b15b41",
+      "image_url": "https://mobbin.com/api/mcp/short/AimgwrLS",
+      "position": 3
+    }
+  ]
+}

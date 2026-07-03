@@ -1,0 +1,21 @@
+{
+  "id": "8f00cd48-86aa-4eac-9002-e1d2948653fe",
+  "name": "Getting started",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8f00cd48-86aa-4eac-9002-e1d2948653fe",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "a5116d44-bf6d-468e-a5c3-4e7bdae45e0b",
+      "image_url": "https://mobbin.com/api/mcp/short/j52J0VM6",
+      "position": 1
+    },
+    {
+      "screen_id": "4c94e13b-354f-4607-8b49-f2a00b051089",
+      "image_url": "https://mobbin.com/api/mcp/short/rzt9nlVo",
+      "position": 2
+    }
+  ]
+}

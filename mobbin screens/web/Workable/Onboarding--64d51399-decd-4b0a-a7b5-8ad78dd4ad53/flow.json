@@ -1,0 +1,69 @@
+{
+  "id": "64d51399-decd-4b0a-a7b5-8ad78dd4ad53",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/64d51399-decd-4b0a-a7b5-8ad78dd4ad53",
+  "app_name": "Workable",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "ed6910cd-d667-4762-94fc-777a532a5b75",
+      "image_url": "https://mobbin.com/api/mcp/short/XRR97ncT",
+      "position": 1
+    },
+    {
+      "screen_id": "1f2b2aee-f0b8-4a57-ad43-ca1241dab891",
+      "image_url": "https://mobbin.com/api/mcp/short/H3blhvEG",
+      "position": 2
+    },
+    {
+      "screen_id": "ab7e958e-e811-4137-9521-6ca09f2e5a71",
+      "image_url": "https://mobbin.com/api/mcp/short/naS6C09Y",
+      "position": 3
+    },
+    {
+      "screen_id": "d9f5a690-d4fe-48c8-b7fb-7e9ef42660d8",
+      "image_url": "https://mobbin.com/api/mcp/short/uIzMNceH",
+      "position": 4
+    },
+    {
+      "screen_id": "f57e1f1d-4686-4bd3-b585-31a66973870c",
+      "image_url": "https://mobbin.com/api/mcp/short/DLgMjCrN",
+      "position": 5
+    },
+    {
+      "screen_id": "4577fb9a-9540-4a5d-82d2-3fbf1e69e1fc",
+      "image_url": "https://mobbin.com/api/mcp/short/xCr6VXgB",
+      "position": 6
+    },
+    {
+      "screen_id": "e25e14a3-e2ae-42c1-89b2-46322a23f31e",
+      "image_url": "https://mobbin.com/api/mcp/short/RUEuI9a4",
+      "position": 7
+    },
+    {
+      "screen_id": "82295bf0-87eb-473d-b24d-3e996b0cdda9",
+      "image_url": "https://mobbin.com/api/mcp/short/qwrDVJQI",
+      "position": 8
+    },
+    {
+      "screen_id": "d9cb48c9-31d2-49ef-a7b1-ce9e134ef99f",
+      "image_url": "https://mobbin.com/api/mcp/short/aAkkm2G9",
+      "position": 9
+    },
+    {
+      "screen_id": "727089cc-2ba9-49f9-bdac-5a4fd225213b",
+      "image_url": "https://mobbin.com/api/mcp/short/bs2uKc6G",
+      "position": 10
+    },
+    {
+      "screen_id": "c383b07d-301d-4471-98d3-91bd3419aea6",
+      "image_url": "https://mobbin.com/api/mcp/short/oi4jhpwz",
+      "position": 11
+    }
+  ]
+}

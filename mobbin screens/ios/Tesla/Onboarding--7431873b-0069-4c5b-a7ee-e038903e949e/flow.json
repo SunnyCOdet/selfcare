@@ -1,0 +1,65 @@
+{
+  "id": "7431873b-0069-4c5b-a7ee-e038903e949e",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding",
+    "Verifying"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7431873b-0069-4c5b-a7ee-e038903e949e",
+  "app_name": "Tesla",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "f9dbef0e-cbfa-44d9-8da8-6f6156315e71",
+      "image_url": "https://mobbin.com/api/mcp/short/Ky9Kp08T",
+      "position": 1
+    },
+    {
+      "screen_id": "03169baa-5614-400b-85e0-ae039939556d",
+      "image_url": "https://mobbin.com/api/mcp/short/yiH7Wzj2",
+      "position": 2
+    },
+    {
+      "screen_id": "034ae7dc-a29f-46b6-b219-81057317ad98",
+      "image_url": "https://mobbin.com/api/mcp/short/lJzDVgGj",
+      "position": 3
+    },
+    {
+      "screen_id": "2263918c-21ea-4fd2-b1cb-4312609e5361",
+      "image_url": "https://mobbin.com/api/mcp/short/kBg9W5kZ",
+      "position": 4
+    },
+    {
+      "screen_id": "f8ef9778-6582-4ac0-ab2e-991f95581cf8",
+      "image_url": "https://mobbin.com/api/mcp/short/eQ3YhpLr",
+      "position": 5
+    },
+    {
+      "screen_id": "8635f82c-2cbe-44e4-815a-c68f22c03551",
+      "image_url": "https://mobbin.com/api/mcp/short/dnqvWLgU",
+      "position": 6
+    },
+    {
+      "screen_id": "c98548d6-b8ac-4e28-a358-aa4c38c3a0d2",
+      "image_url": "https://mobbin.com/api/mcp/short/NNfr6eSY",
+      "position": 7
+    },
+    {
+      "screen_id": "94287863-4171-472e-8261-3fd8aad523c1",
+      "image_url": "https://mobbin.com/api/mcp/short/e7HsIrE2",
+      "position": 8
+    },
+    {
+      "screen_id": "7e9a48ac-8c80-41f5-abf1-5aff59238dbf",
+      "image_url": "https://mobbin.com/api/mcp/short/6ZuuPtOh",
+      "position": 9
+    },
+    {
+      "screen_id": "c0a37ffb-23c3-44d7-a3e8-fd50735582e0",
+      "image_url": "https://mobbin.com/api/mcp/short/uncvTs3G",
+      "position": 10
+    }
+  ]
+}

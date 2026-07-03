@@ -1,0 +1,39 @@
+{
+  "id": "765ad57f-d8e5-4ff7-98c4-97a92d288379",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/765ad57f-d8e5-4ff7-98c4-97a92d288379",
+  "app_name": "GOAT",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "04ab4cbd-8df7-4731-8b35-1492d1179b08",
+      "image_url": "https://mobbin.com/api/mcp/short/aNNVyHt5",
+      "position": 1
+    },
+    {
+      "screen_id": "3efb736f-7eca-4395-8783-af0035b75158",
+      "image_url": "https://mobbin.com/api/mcp/short/SXZkuCTY",
+      "position": 2
+    },
+    {
+      "screen_id": "8822046f-c7db-45ca-8ce9-d1906826a8de",
+      "image_url": "https://mobbin.com/api/mcp/short/v57wss66",
+      "position": 3
+    },
+    {
+      "screen_id": "1c9a6e7c-d355-452d-b6a6-88be6678efc6",
+      "image_url": "https://mobbin.com/api/mcp/short/xsWBaqcx",
+      "position": 4
+    },
+    {
+      "screen_id": "d9cb494c-7e4c-4960-ac19-2a811cdeeb13",
+      "image_url": "https://mobbin.com/api/mcp/short/KRieGG3d",
+      "position": 5
+    }
+  ]
+}

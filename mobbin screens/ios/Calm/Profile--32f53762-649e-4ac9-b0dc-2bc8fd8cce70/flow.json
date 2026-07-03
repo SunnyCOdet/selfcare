@@ -1,0 +1,41 @@
+{
+  "id": "32f53762-649e-4ac9-b0dc-2bc8fd8cce70",
+  "name": "Profile",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/32f53762-649e-4ac9-b0dc-2bc8fd8cce70",
+  "app_name": "Calm",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "82e555db-347c-4690-95fe-fb1d395b9c7e",
+      "image_url": "https://mobbin.com/api/mcp/short/kpF6DULO",
+      "position": 1
+    },
+    {
+      "screen_id": "cf8d199b-8c24-489c-85e4-0c17b95fa482",
+      "image_url": "https://mobbin.com/api/mcp/short/uqRgH3GB",
+      "position": 2
+    },
+    {
+      "screen_id": "f75163d0-1025-4cf4-ab70-92a6bcf9f399",
+      "image_url": "https://mobbin.com/api/mcp/short/POJvc2DQ",
+      "position": 3
+    },
+    {
+      "screen_id": "789ef9d9-84f3-4eb3-867d-e74a736afe75",
+      "image_url": "https://mobbin.com/api/mcp/short/UF1ESvFr",
+      "position": 4
+    },
+    {
+      "screen_id": "1ee16947-c00a-4a9f-864d-43432ecd2350",
+      "image_url": "https://mobbin.com/api/mcp/short/6yV9QUgB",
+      "position": 5
+    },
+    {
+      "screen_id": "a83054de-5765-4015-9374-e05663e1c52b",
+      "image_url": "https://mobbin.com/api/mcp/short/QuP4Jbtu",
+      "position": 6
+    }
+  ]
+}

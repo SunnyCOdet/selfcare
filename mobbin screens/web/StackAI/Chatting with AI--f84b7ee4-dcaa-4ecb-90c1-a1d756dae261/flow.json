@@ -1,0 +1,43 @@
+{
+  "id": "f84b7ee4-dcaa-4ecb-90c1-a1d756dae261",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f84b7ee4-dcaa-4ecb-90c1-a1d756dae261",
+  "app_name": "StackAI",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "152af70d-9deb-4745-9b9e-ad4db74f129e",
+      "image_url": "https://mobbin.com/api/mcp/short/0HZEvJpT",
+      "position": 1
+    },
+    {
+      "screen_id": "08d3d0f2-758c-42c6-b141-cc08358af08b",
+      "image_url": "https://mobbin.com/api/mcp/short/DVCWVRad",
+      "position": 2
+    },
+    {
+      "screen_id": "899151d9-4744-4c04-8ba7-5f72a94da45e",
+      "image_url": "https://mobbin.com/api/mcp/short/oVQhCJFc",
+      "position": 3
+    },
+    {
+      "screen_id": "534e89dc-c5c9-4756-ab8b-439be2c00120",
+      "image_url": "https://mobbin.com/api/mcp/short/YYVn07Mx",
+      "position": 4
+    },
+    {
+      "screen_id": "14e9de11-c9f2-4d35-b1bb-fc6778cb00ec",
+      "image_url": "https://mobbin.com/api/mcp/short/KWgBWuPc",
+      "position": 5
+    },
+    {
+      "screen_id": "bace0ee2-3c73-430e-a9fe-e22dd0c88b8f",
+      "image_url": "https://mobbin.com/api/mcp/short/162l3ZHy",
+      "position": 6
+    }
+  ]
+}

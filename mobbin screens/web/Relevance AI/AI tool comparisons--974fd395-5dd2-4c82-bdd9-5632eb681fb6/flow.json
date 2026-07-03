@@ -1,0 +1,31 @@
+{
+  "id": "974fd395-5dd2-4c82-bdd9-5632eb681fb6",
+  "name": "AI tool comparisons",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/974fd395-5dd2-4c82-bdd9-5632eb681fb6",
+  "app_name": "Relevance AI",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "11cec81b-b9ba-4ce5-a9c3-e09e92af959f",
+      "image_url": "https://mobbin.com/api/mcp/short/evz9Qio3",
+      "position": 1
+    },
+    {
+      "screen_id": "7370b43e-c684-4669-82bc-606e122fd2ba",
+      "image_url": "https://mobbin.com/api/mcp/short/3pARod3z",
+      "position": 2
+    },
+    {
+      "screen_id": "b48ab921-0e9c-42ff-ae0d-56a54da6af01",
+      "image_url": "https://mobbin.com/api/mcp/short/jJ0MCkSt",
+      "position": 3
+    },
+    {
+      "screen_id": "975475ae-fbc2-4a44-86ca-1e5c74093f8b",
+      "image_url": "https://mobbin.com/api/mcp/short/OCz2JbG8",
+      "position": 4
+    }
+  ]
+}

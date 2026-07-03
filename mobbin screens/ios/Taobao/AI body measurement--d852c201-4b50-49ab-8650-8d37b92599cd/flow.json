@@ -1,0 +1,41 @@
+{
+  "id": "d852c201-4b50-49ab-8650-8d37b92599cd",
+  "name": "AI body measurement",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d852c201-4b50-49ab-8650-8d37b92599cd",
+  "app_name": "Taobao",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "35950230-03e6-4c67-9eeb-5f231d4118e6",
+      "image_url": "https://mobbin.com/api/mcp/short/NFyVO7MG",
+      "position": 1
+    },
+    {
+      "screen_id": "ddebb7c0-c632-4a25-9f4c-43dfffa91b15",
+      "image_url": "https://mobbin.com/api/mcp/short/tpHEfSnp",
+      "position": 2
+    },
+    {
+      "screen_id": "999d00b9-de8f-4dbd-8a39-e22e721d2d61",
+      "image_url": "https://mobbin.com/api/mcp/short/aT0Go2qF",
+      "position": 3
+    },
+    {
+      "screen_id": "c1f87a80-830a-4f2e-9478-1ac2d73448ad",
+      "image_url": "https://mobbin.com/api/mcp/short/mHZZtnU4",
+      "position": 4
+    },
+    {
+      "screen_id": "c9aa55f9-fd10-4c67-beba-d11eaf271e36",
+      "image_url": "https://mobbin.com/api/mcp/short/JmdoDPRA",
+      "position": 5
+    },
+    {
+      "screen_id": "63cdaaf3-1f79-4fff-8523-0ccb242b14db",
+      "image_url": "https://mobbin.com/api/mcp/short/yz43sz4b",
+      "position": 6
+    }
+  ]
+}

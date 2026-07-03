@@ -1,0 +1,131 @@
+{
+  "id": "22894679-e7a7-42c0-b9c1-94935e733866",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding",
+    "Selecting & Choosing",
+    "Verifying"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/22894679-e7a7-42c0-b9c1-94935e733866",
+  "app_name": "Klaviyo",
+  "platform": "web",
+  "screen_count": 23,
+  "screens": [
+    {
+      "screen_id": "aa7ea287-d298-4697-94e1-2f049f8f8f23",
+      "image_url": "https://mobbin.com/api/mcp/short/YFxgfT3D",
+      "position": 1
+    },
+    {
+      "screen_id": "e2ca68d8-e8eb-4f53-9f34-6fa752495fd3",
+      "image_url": "https://mobbin.com/api/mcp/short/6l5oB9iV",
+      "position": 2
+    },
+    {
+      "screen_id": "6d004be0-f632-4335-b601-93b54684c804",
+      "image_url": "https://mobbin.com/api/mcp/short/dBHBiYC2",
+      "position": 3
+    },
+    {
+      "screen_id": "0d49a24c-eb5f-4736-9702-99f4b0cce189",
+      "image_url": "https://mobbin.com/api/mcp/short/79SqRIVc",
+      "position": 4
+    },
+    {
+      "screen_id": "585cbcd0-253e-4140-897d-4a45819a592b",
+      "image_url": "https://mobbin.com/api/mcp/short/ew25aPzU",
+      "position": 5
+    },
+    {
+      "screen_id": "b32c8292-2480-4b33-98a0-4a598f6a80f9",
+      "image_url": "https://mobbin.com/api/mcp/short/cajBcEyl",
+      "position": 6
+    },
+    {
+      "screen_id": "0e7e9bea-4e22-4818-a5ff-c13cd24b00e1",
+      "image_url": "https://mobbin.com/api/mcp/short/3RsR55Rk",
+      "position": 7
+    },
+    {
+      "screen_id": "2eec0181-4492-4c73-ba64-56fea727c060",
+      "image_url": "https://mobbin.com/api/mcp/short/MC4Ibo1s",
+      "position": 8
+    },
+    {
+      "screen_id": "96edd617-ec16-492b-a846-c7a5ea273500",
+      "image_url": "https://mobbin.com/api/mcp/short/3QzMaQtm",
+      "position": 9
+    },
+    {
+      "screen_id": "8895675b-6abb-4b59-8912-01a50b6da1f1",
+      "image_url": "https://mobbin.com/api/mcp/short/ik8DpcKc",
+      "position": 10
+    },
+    {
+      "screen_id": "7a014664-61ff-4bd8-9e36-30775bbbd777",
+      "image_url": "https://mobbin.com/api/mcp/short/IFUUpZiU",
+      "position": 11
+    },
+    {
+      "screen_id": "ddca19c1-e7a9-40b1-8dd7-9db687748fb7",
+      "image_url": "https://mobbin.com/api/mcp/short/SnVEwbE9",
+      "position": 12
+    },
+    {
+      "screen_id": "75d9c5d1-46ea-423e-b0de-4b9c0a148e65",
+      "image_url": "https://mobbin.com/api/mcp/short/hmzgD7jz",
+      "position": 13
+    },
+    {
+      "screen_id": "8f4192e3-9c29-48c2-bbc3-b8c09d2174f0",
+      "image_url": "https://mobbin.com/api/mcp/short/tN8U3rWL",
+      "position": 14
+    },
+    {
+      "screen_id": "9a1921a7-11a7-492c-bd26-4db3597bb924",
+      "image_url": "https://mobbin.com/api/mcp/short/1FLkrSl8",
+      "position": 15
+    },
+    {
+      "screen_id": "a70a7cf6-0f52-4b1c-8710-1c312829e95d",
+      "image_url": "https://mobbin.com/api/mcp/short/5YHrhdsq",
+      "position": 16
+    },
+    {
+      "screen_id": "0ed5e735-fe65-4826-a3cc-7b47a97c51ab",
+      "image_url": "https://mobbin.com/api/mcp/short/0VYCnAXL",
+      "position": 17
+    },
+    {
+      "screen_id": "b5de179e-2475-4261-b509-6bbc7268712c",
+      "image_url": "https://mobbin.com/api/mcp/short/B0CwgrsJ",
+      "position": 18
+    },
+    {
+      "screen_id": "15587cef-ed40-45e1-8655-0ac9f2ddd060",
+      "image_url": "https://mobbin.com/api/mcp/short/Zm180fEy",
+      "position": 19
+    },
+    {
+      "screen_id": "f8caa6b1-ecd5-4cee-9d29-185cc96202fd",
+      "image_url": "https://mobbin.com/api/mcp/short/i3ybY9I4",
+      "position": 20
+    },
+    {
+      "screen_id": "70059d30-f2e8-4f84-97ee-bf98f7ec957e",
+      "image_url": "https://mobbin.com/api/mcp/short/noWQePjL",
+      "position": 21
+    },
+    {
+      "screen_id": "bdbe07a0-8753-4343-95bb-c1428013b8c9",
+      "image_url": "https://mobbin.com/api/mcp/short/jlljOLHk",
+      "position": 22
+    },
+    {
+      "screen_id": "c116a0f9-8c5e-450d-b66d-d7a4f52a4b61",
+      "image_url": "https://mobbin.com/api/mcp/short/nk3nz6vT",
+      "position": 23
+    }
+  ]
+}

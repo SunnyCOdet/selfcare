@@ -1,0 +1,58 @@
+{
+  "id": "2646c208-26b2-433c-bf57-191b9bc96e96",
+  "name": "Adding a family member",
+  "actions": [
+    "Inviting Teammates & Friends"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2646c208-26b2-433c-bf57-191b9bc96e96",
+  "app_name": "Withings Health Mate",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "ab62686f-a709-49c3-a514-bef3b4377104",
+      "image_url": "https://mobbin.com/api/mcp/short/NLprmO5e",
+      "position": 1
+    },
+    {
+      "screen_id": "3a5a7bd5-9442-49b7-a9be-f0033585542d",
+      "image_url": "https://mobbin.com/api/mcp/short/do5q1DEK",
+      "position": 2
+    },
+    {
+      "screen_id": "505740c6-d4f9-4c94-b8af-c0bec82a7f42",
+      "image_url": "https://mobbin.com/api/mcp/short/3NnSaf1h",
+      "position": 3
+    },
+    {
+      "screen_id": "e7e01e0f-e1b4-492f-a0a4-dac6fdb7e5e2",
+      "image_url": "https://mobbin.com/api/mcp/short/qnifP1fI",
+      "position": 4
+    },
+    {
+      "screen_id": "755b380b-00a3-4093-9d6f-834b5d057a66",
+      "image_url": "https://mobbin.com/api/mcp/short/5uPKal56",
+      "position": 5
+    },
+    {
+      "screen_id": "0409e28d-8b0c-4f2b-92e9-33736c53c7be",
+      "image_url": "https://mobbin.com/api/mcp/short/YDXZnMFk",
+      "position": 6
+    },
+    {
+      "screen_id": "35a60041-834e-4c65-8d2e-523e69772f1a",
+      "image_url": "https://mobbin.com/api/mcp/short/Up9IKL2D",
+      "position": 7
+    },
+    {
+      "screen_id": "378e5a56-eea4-49f9-ae8d-9ef998f45926",
+      "image_url": "https://mobbin.com/api/mcp/short/7Xxli9Za",
+      "position": 8
+    },
+    {
+      "screen_id": "1f3fe778-2316-4588-9259-be59d16db4ae",
+      "image_url": "https://mobbin.com/api/mcp/short/qU2jIQZn",
+      "position": 9
+    }
+  ]
+}

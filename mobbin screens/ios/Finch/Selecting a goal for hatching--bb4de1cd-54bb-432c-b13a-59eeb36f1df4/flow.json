@@ -1,0 +1,54 @@
+{
+  "id": "bb4de1cd-54bb-432c-b13a-59eeb36f1df4",
+  "name": "Selecting a goal for hatching",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bb4de1cd-54bb-432c-b13a-59eeb36f1df4",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "2d03eaff-d2e3-4bed-b6d1-b4b0b77d7481",
+      "image_url": "https://mobbin.com/api/mcp/short/zBXmNEuB",
+      "position": 1
+    },
+    {
+      "screen_id": "786e6c7f-409e-4ca7-989b-df1d4829eda9",
+      "image_url": "https://mobbin.com/api/mcp/short/jG6GpLWr",
+      "position": 2
+    },
+    {
+      "screen_id": "e35e65d4-5375-4ea1-99f1-b83e54d88140",
+      "image_url": "https://mobbin.com/api/mcp/short/ZzXLbhD5",
+      "position": 3
+    },
+    {
+      "screen_id": "75c0006a-8e29-4db7-bbc6-7bcf3d6c7655",
+      "image_url": "https://mobbin.com/api/mcp/short/GTq76Ea4",
+      "position": 4
+    },
+    {
+      "screen_id": "13533cfb-8d8a-4eb9-98ee-cf7f54e16a4b",
+      "image_url": "https://mobbin.com/api/mcp/short/cWQDI3HC",
+      "position": 5
+    },
+    {
+      "screen_id": "9e889015-3299-45d3-94b2-0707324a1e2e",
+      "image_url": "https://mobbin.com/api/mcp/short/Z0M1BfVH",
+      "position": 6
+    },
+    {
+      "screen_id": "4df55058-39a6-4c3c-a48e-402bd1be6b6b",
+      "image_url": "https://mobbin.com/api/mcp/short/nauVIpuy",
+      "position": 7
+    },
+    {
+      "screen_id": "7d6b1b1e-41e7-49bd-8526-d88301daeab6",
+      "image_url": "https://mobbin.com/api/mcp/short/3pTAxkLi",
+      "position": 8
+    }
+  ]
+}

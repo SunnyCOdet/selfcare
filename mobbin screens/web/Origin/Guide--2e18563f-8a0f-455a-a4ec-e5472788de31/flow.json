@@ -1,0 +1,21 @@
+{
+  "id": "2e18563f-8a0f-455a-a4ec-e5472788de31",
+  "name": "Guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2e18563f-8a0f-455a-a4ec-e5472788de31",
+  "app_name": "Origin",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "e39a4e8b-0d81-4948-ac70-cfc63b04baa0",
+      "image_url": "https://mobbin.com/api/mcp/short/X2LJeRKG",
+      "position": 1
+    },
+    {
+      "screen_id": "d863598c-245d-4fdc-b75a-5d59526f139e",
+      "image_url": "https://mobbin.com/api/mcp/short/puiIvMMB",
+      "position": 2
+    }
+  ]
+}

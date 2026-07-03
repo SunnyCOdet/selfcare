@@ -1,0 +1,22 @@
+{
+  "name": "form",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui",
+    "@hookform/resolvers",
+    "zod",
+    "react-hook-form"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [
+    "button",
+    "label"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/form.tsx",
+      "extractedTo": "ui/form.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b630f124-26a7-4f2d-bcb7-99a68a8e8f00",
+  "name": "Permissions and Watch App",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b630f124-26a7-4f2d-bcb7-99a68a8e8f00",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "cf1e35ee-8b9f-437a-8815-4959240e44d3",
+      "image_url": "https://mobbin.com/api/mcp/short/8DCJssVD",
+      "position": 1
+    },
+    {
+      "screen_id": "0d7abfb3-d86a-426e-b4de-e15f1d54bf63",
+      "image_url": "https://mobbin.com/api/mcp/short/4tPqBo5e",
+      "position": 2
+    },
+    {
+      "screen_id": "3a9b9408-4a6e-43eb-af7d-54bdfad2a3f8",
+      "image_url": "https://mobbin.com/api/mcp/short/JnS4Fvdh",
+      "position": 3
+    },
+    {
+      "screen_id": "c53feb9a-7a8c-4f31-9632-a7a5fcc69b0f",
+      "image_url": "https://mobbin.com/api/mcp/short/YQvAcwr9",
+      "position": 4
+    },
+    {
+      "screen_id": "2c064832-392d-4086-90bd-dfe2b021ed30",
+      "image_url": "https://mobbin.com/api/mcp/short/nnjDhyUb",
+      "position": 5
+    }
+  ]
+}

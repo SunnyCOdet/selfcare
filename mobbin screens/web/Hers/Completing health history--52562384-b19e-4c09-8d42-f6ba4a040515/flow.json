@@ -1,0 +1,58 @@
+{
+  "id": "52562384-b19e-4c09-8d42-f6ba4a040515",
+  "name": "Completing health history",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/52562384-b19e-4c09-8d42-f6ba4a040515",
+  "app_name": "Hers",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "5d4f0861-2623-42d7-aabc-a48f6541a27d",
+      "image_url": "https://mobbin.com/api/mcp/short/F4wxXSV0",
+      "position": 1
+    },
+    {
+      "screen_id": "beb8d513-fa34-4a64-8bac-d7c30c626db4",
+      "image_url": "https://mobbin.com/api/mcp/short/1XMcYjLj",
+      "position": 2
+    },
+    {
+      "screen_id": "d429bcfa-de06-4b7c-98d1-3e03626ff7ea",
+      "image_url": "https://mobbin.com/api/mcp/short/u6rZTtbE",
+      "position": 3
+    },
+    {
+      "screen_id": "c561fb16-c13e-4ba8-8251-9fd9975fdfc8",
+      "image_url": "https://mobbin.com/api/mcp/short/3bF2Szyn",
+      "position": 4
+    },
+    {
+      "screen_id": "c9c3c0c9-c028-48e8-9a73-33eacdac04f4",
+      "image_url": "https://mobbin.com/api/mcp/short/WwYmrJCu",
+      "position": 5
+    },
+    {
+      "screen_id": "2c1d369c-d825-41a1-9a3e-be04eebba19a",
+      "image_url": "https://mobbin.com/api/mcp/short/IoMX622z",
+      "position": 6
+    },
+    {
+      "screen_id": "f83d2dd6-f1bb-4547-939b-624a27394641",
+      "image_url": "https://mobbin.com/api/mcp/short/LUe87wA4",
+      "position": 7
+    },
+    {
+      "screen_id": "ef267d6c-f73b-452a-967b-fc4081599980",
+      "image_url": "https://mobbin.com/api/mcp/short/MJwUtTPy",
+      "position": 8
+    },
+    {
+      "screen_id": "9654f344-f2da-418d-8512-f194298604c8",
+      "image_url": "https://mobbin.com/api/mcp/short/ZLnRkDDp",
+      "position": 9
+    }
+  ]
+}

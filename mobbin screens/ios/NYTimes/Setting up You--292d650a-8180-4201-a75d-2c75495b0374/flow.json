@@ -1,0 +1,48 @@
+{
+  "id": "292d650a-8180-4201-a75d-2c75495b0374",
+  "name": "Setting up You",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/292d650a-8180-4201-a75d-2c75495b0374",
+  "app_name": "NYTimes",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "2ada17b8-cb33-4077-a85b-4a765da55415",
+      "image_url": "https://mobbin.com/api/mcp/short/3YVVErQM",
+      "position": 1
+    },
+    {
+      "screen_id": "b310d07d-2614-4375-b8f6-0d5ffb173827",
+      "image_url": "https://mobbin.com/api/mcp/short/T6NKSNQ8",
+      "position": 2
+    },
+    {
+      "screen_id": "80851436-a558-4854-9b48-07f2c2be5f85",
+      "image_url": "https://mobbin.com/api/mcp/short/1UfIYchd",
+      "position": 3
+    },
+    {
+      "screen_id": "dbc14f2e-a151-4e3e-ae02-2e58d29d4e15",
+      "image_url": "https://mobbin.com/api/mcp/short/WOtL3Ely",
+      "position": 4
+    },
+    {
+      "screen_id": "f8ff1e55-3464-4787-854b-5bb7bd2619dc",
+      "image_url": "https://mobbin.com/api/mcp/short/GVGq2ugT",
+      "position": 5
+    },
+    {
+      "screen_id": "f456c783-e5b3-402a-aeb0-865865622893",
+      "image_url": "https://mobbin.com/api/mcp/short/lJwvF1wq",
+      "position": 6
+    },
+    {
+      "screen_id": "fe20322d-55e4-40e6-8c3d-cffde53eb88a",
+      "image_url": "https://mobbin.com/api/mcp/short/NJfgKruN",
+      "position": 7
+    }
+  ]
+}

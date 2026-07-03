@@ -1,0 +1,28 @@
+{
+  "id": "3e8f40b1-8e02-4615-bfec-53f6ca5cb0c3",
+  "name": "Subscribing to Myfitnesspal",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3e8f40b1-8e02-4615-bfec-53f6ca5cb0c3",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0ce65583-4e00-4345-825b-b6ef6e0a02fc",
+      "image_url": "https://mobbin.com/api/mcp/short/lK1guiB5",
+      "position": 1
+    },
+    {
+      "screen_id": "ea1d92e0-3481-47ad-9888-555ce11311f5",
+      "image_url": "https://mobbin.com/api/mcp/short/Sqy3UVWE",
+      "position": 2
+    },
+    {
+      "screen_id": "6d601313-d6be-43a7-80a2-d372ab0bfcf4",
+      "image_url": "https://mobbin.com/api/mcp/short/utk3EryL",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "2bc0e309-5157-4579-be63-156bcf6b5bc8",
+  "name": "Adding a health condition",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2bc0e309-5157-4579-be63-156bcf6b5bc8",
+  "app_name": "Clue",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f3af93bb-52b7-4c84-b15e-c8bbdc3e16d5",
+      "image_url": "https://mobbin.com/api/mcp/short/zzrrhxdL",
+      "position": 1
+    },
+    {
+      "screen_id": "fd05d512-979f-4011-bb15-0d66425a1cf8",
+      "image_url": "https://mobbin.com/api/mcp/short/r9d9PlbO",
+      "position": 2
+    },
+    {
+      "screen_id": "73bc5198-6321-4635-ab55-e0cbe8c35942",
+      "image_url": "https://mobbin.com/api/mcp/short/4YwtC9bj",
+      "position": 3
+    },
+    {
+      "screen_id": "552a3049-cfa8-41d7-a1b5-4e521e32608b",
+      "image_url": "https://mobbin.com/api/mcp/short/rmWaYk1W",
+      "position": 4
+    }
+  ]
+}

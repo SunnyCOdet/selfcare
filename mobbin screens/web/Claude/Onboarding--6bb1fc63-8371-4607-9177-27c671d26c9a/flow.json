@@ -1,0 +1,44 @@
+{
+  "id": "6bb1fc63-8371-4607-9177-27c671d26c9a",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6bb1fc63-8371-4607-9177-27c671d26c9a",
+  "app_name": "Claude",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "feff4766-fde6-4ba3-9e2c-9821e5c17bc4",
+      "image_url": "https://mobbin.com/api/mcp/short/B8RJJNGr",
+      "position": 1
+    },
+    {
+      "screen_id": "73588268-0aee-4a43-b37b-79d58500119e",
+      "image_url": "https://mobbin.com/api/mcp/short/vgObcaGw",
+      "position": 2
+    },
+    {
+      "screen_id": "973fcf94-ab1c-4119-b842-e61242939826",
+      "image_url": "https://mobbin.com/api/mcp/short/gqEIzI4a",
+      "position": 3
+    },
+    {
+      "screen_id": "0ff8ae68-3510-48f9-83c8-3a89d5091781",
+      "image_url": "https://mobbin.com/api/mcp/short/5BRP7yHU",
+      "position": 4
+    },
+    {
+      "screen_id": "f5b26318-4345-4c49-a0bd-a031edacb3a8",
+      "image_url": "https://mobbin.com/api/mcp/short/z1XSszbR",
+      "position": 5
+    },
+    {
+      "screen_id": "31119433-f7f8-48aa-91a6-cee4d0360e83",
+      "image_url": "https://mobbin.com/api/mcp/short/PwtGCwRs",
+      "position": 6
+    }
+  ]
+}

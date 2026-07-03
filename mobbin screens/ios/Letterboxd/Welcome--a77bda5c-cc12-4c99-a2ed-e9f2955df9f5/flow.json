@@ -1,0 +1,26 @@
+{
+  "id": "a77bda5c-cc12-4c99-a2ed-e9f2955df9f5",
+  "name": "Welcome",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a77bda5c-cc12-4c99-a2ed-e9f2955df9f5",
+  "app_name": "Letterboxd",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "8c19d3a2-76a8-440f-bd79-dd828cd2ce1a",
+      "image_url": "https://mobbin.com/api/mcp/short/8bRrVTDW",
+      "position": 1
+    },
+    {
+      "screen_id": "62fc020d-6b4e-4080-b525-dc420b97efa9",
+      "image_url": "https://mobbin.com/api/mcp/short/c2Clwt9c",
+      "position": 2
+    },
+    {
+      "screen_id": "d1016188-3155-4a11-a9d5-0efb1d1b8d89",
+      "image_url": "https://mobbin.com/api/mcp/short/MJYdUMNg",
+      "position": 3
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Loader2, Send, Camera, ChevronDown, Sparkles, Flame, Beef, Wheat, Droplet } from "lucide-react";
+import { Loader2, Send, Camera, ChevronDown, Sparkles, Flame, Beef, Wheat, Droplet, Utensils } from "lucide-react";
 
 type Component = {
   name: string;
@@ -46,7 +46,7 @@ const VERDICT_STYLE: Record<string, string> = {
   avoid: "bg-red-500/15 text-red-400 border-red-500/30",
 };
 
-const HUNGER_LEVELS = ["🥵 Starving", "😋 Hungry", "🙂 Peckish", "😑 Just craving"];
+const HUNGER_LEVELS = ["Starving", "Hungry", "Peckish", "Just craving"];
 
 async function resizeToJpegB64(file: File, maxDim = 1280): Promise<string> {
   const bitmap = await createImageBitmap(file);
@@ -196,7 +196,7 @@ export function FoodLog({
     try {
       const answers = f.questions.map((q, i) => ({
         question: q,
-        answer: f.answers[i]?.trim() || "not sure — estimate from the photo",
+        answer: f.answers[i]?.trim() || "not sure - estimate from the photo",
       }));
       if (f.extraInfo.trim()) {
         answers.push({ question: "Anything else about this food?", answer: f.extraInfo.trim() });
@@ -319,21 +319,21 @@ export function FoodLog({
         )}
 
         {flow?.stage === "analyzing" && (
-          <div className="flex items-center gap-3 bg-surface-2 rounded-xl px-4 py-4 mt-5 text-sm text-muted">
+          <div className="flex items-center gap-3 rounded-md bg-surface-2 px-4 py-4 mt-5 text-sm text-muted">
             <Loader2 className="w-4 h-4 animate-spin text-accent" />
-            Studying your plate — identifying every ingredient...
+            Studying your plate - identifying every ingredient...
           </div>
         )}
 
         {flow?.stage === "finalizing" && (
-          <div className="flex items-center gap-3 bg-surface-2 rounded-xl px-4 py-4 mt-5 text-sm text-muted">
+          <div className="flex items-center gap-3 rounded-md bg-surface-2 px-4 py-4 mt-5 text-sm text-muted">
             <Loader2 className="w-4 h-4 animate-spin text-accent" />
-            Dissecting the meal — counting the hidden oil too...
+            Dissecting the meal - counting the hidden oil too...
           </div>
         )}
 
         {flow?.stage === "questions" && (
-          <div className="bg-surface-2 rounded-2xl p-4 mt-5 space-y-4 fade-up">
+          <div className="mt-5 space-y-4 rounded-lg bg-surface-2 p-4 fade-up">
             <div>
               <p className="font-bold text-sm flex items-center gap-1.5">
                 <Sparkles className="w-4 h-4 text-accent" /> {flow.dishName}
@@ -352,7 +352,7 @@ export function FoodLog({
                   onChange={(e) =>
                     setFlow({ ...flow, answers: { ...flow.answers, [i]: e.target.value } })
                   }
-                  placeholder="Not sure? Leave blank — I'll estimate"
+                  placeholder="Not sure? Leave blank - I will estimate"
                 />
               </div>
             ))}
@@ -399,7 +399,7 @@ export function FoodLog({
         {error && <p className="text-sm text-red-400 mt-3">{error}</p>}
       </div>
 
-      {/* Recently logged — Cal AI style cards with thumbnails */}
+      {/* Recently logged - Cal AI style cards with thumbnails */}
       {items.length > 0 && (
         <div className="fade-up" style={{ animationDelay: "0.16s" }}>
           <h3 className="font-bold text-base mb-2.5 px-1">Recently logged</h3>
@@ -408,7 +408,7 @@ export function FoodLog({
               const hasBreakdown = !!f.breakdown?.components?.length;
               const isOpen = expanded === f.id;
               return (
-                <div key={f.id} className="glass !rounded-2xl px-3.5 py-3">
+                <div key={f.id} className="glass px-3.5 py-3">
                   <button
                     className="w-full text-left"
                     onClick={() => hasBreakdown && setExpanded(isOpen ? null : f.id)}
@@ -419,11 +419,11 @@ export function FoodLog({
                         <img
                           src={f.photo_url}
                           alt={f.description}
-                          className="w-12 h-12 rounded-xl object-cover shrink-0 border border-white/10"
+                          className="w-12 h-12 rounded-md object-cover shrink-0 border border-border"
                         />
                       ) : (
-                        <div className="w-12 h-12 rounded-xl bg-surface-2 flex items-center justify-center shrink-0 text-lg">
-                          🍽️
+                        <div className="w-12 h-12 rounded-md bg-surface-2 flex items-center justify-center shrink-0 text-lg">
+                          <Utensils className="size-5 text-muted-foreground" />
                         </div>
                       )}
                       <div className="flex-1 min-w-0">
@@ -469,7 +469,7 @@ export function FoodLog({
                             {c.name} <span className="text-muted/60">({c.quantity})</span>
                           </span>
                           <span className="font-mono shrink-0">
-                            {Math.round(c.calories)} kcal · {Math.round(c.protein_g)}P {Math.round(c.carbs_g)}C {Math.round(c.fat_g)}F
+                            {Math.round(c.calories)} kcal / {Math.round(c.protein_g)}P {Math.round(c.carbs_g)}C {Math.round(c.fat_g)}F
                           </span>
                         </div>
                       ))}

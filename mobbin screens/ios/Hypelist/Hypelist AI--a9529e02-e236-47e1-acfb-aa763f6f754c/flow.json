@@ -1,0 +1,21 @@
+{
+  "id": "a9529e02-e236-47e1-acfb-aa763f6f754c",
+  "name": "Hypelist AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a9529e02-e236-47e1-acfb-aa763f6f754c",
+  "app_name": "Hypelist",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "e3516870-7d0f-47db-b1a8-39d8c50e4744",
+      "image_url": "https://mobbin.com/api/mcp/short/rYmrIAEj",
+      "position": 1
+    },
+    {
+      "screen_id": "596b55a3-0adf-4469-a46b-ad5bbbec6fe6",
+      "image_url": "https://mobbin.com/api/mcp/short/FNEJfCeE",
+      "position": 2
+    }
+  ]
+}

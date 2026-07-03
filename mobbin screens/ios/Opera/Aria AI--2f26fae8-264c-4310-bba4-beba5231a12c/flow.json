@@ -1,0 +1,66 @@
+{
+  "id": "2f26fae8-264c-4310-bba4-beba5231a12c",
+  "name": "Aria AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2f26fae8-264c-4310-bba4-beba5231a12c",
+  "app_name": "Opera",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "3c26b40d-b912-42e5-b7da-571760b4d3b4",
+      "image_url": "https://mobbin.com/api/mcp/short/bPCGxY37",
+      "position": 1
+    },
+    {
+      "screen_id": "23cdc07c-3f46-43f2-be9d-f1bc042a265e",
+      "image_url": "https://mobbin.com/api/mcp/short/MvQAr2qX",
+      "position": 2
+    },
+    {
+      "screen_id": "815df7f6-010c-4829-9963-11a3da66c228",
+      "image_url": "https://mobbin.com/api/mcp/short/hDKNtZXh",
+      "position": 3
+    },
+    {
+      "screen_id": "b808cd18-f02e-46f0-b15b-e5048f7268bf",
+      "image_url": "https://mobbin.com/api/mcp/short/5b1FHeIV",
+      "position": 4
+    },
+    {
+      "screen_id": "c63dbf4f-729b-4044-b7e6-cee9325ccdcd",
+      "image_url": "https://mobbin.com/api/mcp/short/T22l5lLH",
+      "position": 5
+    },
+    {
+      "screen_id": "9502b787-3c27-4351-ba79-cb143c1b3661",
+      "image_url": "https://mobbin.com/api/mcp/short/7DB3sT3S",
+      "position": 6
+    },
+    {
+      "screen_id": "339bbd04-033d-4ec2-87a2-e53e10c05971",
+      "image_url": "https://mobbin.com/api/mcp/short/Z7iKpmCa",
+      "position": 7
+    },
+    {
+      "screen_id": "32919959-dfc3-4b30-b652-e95f8335a077",
+      "image_url": "https://mobbin.com/api/mcp/short/IkUmkfH4",
+      "position": 8
+    },
+    {
+      "screen_id": "55148250-5268-460c-8860-8d9c84b76636",
+      "image_url": "https://mobbin.com/api/mcp/short/jxNkWr7F",
+      "position": 9
+    },
+    {
+      "screen_id": "2d98f41b-56a8-4c91-8a43-299d302d7e2b",
+      "image_url": "https://mobbin.com/api/mcp/short/M7gD4jnj",
+      "position": 10
+    },
+    {
+      "screen_id": "941591d6-1903-4af6-91e2-df4d911bb8f4",
+      "image_url": "https://mobbin.com/api/mcp/short/FMZivTFI",
+      "position": 11
+    }
+  ]
+}

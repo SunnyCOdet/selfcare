@@ -1,0 +1,28 @@
+{
+  "id": "24944efb-9390-4538-ba29-dbe8a13a2684",
+  "name": "Completing setup guide",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/24944efb-9390-4538-ba29-dbe8a13a2684",
+  "app_name": "Outseta",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5d6f85be-812f-4932-96a5-34c4dcbd27a8",
+      "image_url": "https://mobbin.com/api/mcp/short/9lf65XQ1",
+      "position": 1
+    },
+    {
+      "screen_id": "48846715-4b2f-4727-918d-9018ce505f7d",
+      "image_url": "https://mobbin.com/api/mcp/short/QkU1QqOo",
+      "position": 2
+    },
+    {
+      "screen_id": "b1bcf27d-e787-4a4d-81f7-a1ec5515f5fe",
+      "image_url": "https://mobbin.com/api/mcp/short/rv6K8eTi",
+      "position": 3
+    }
+  ]
+}

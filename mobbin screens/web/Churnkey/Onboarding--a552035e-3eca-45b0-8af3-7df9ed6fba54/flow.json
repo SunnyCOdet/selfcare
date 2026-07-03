@@ -1,0 +1,59 @@
+{
+  "id": "a552035e-3eca-45b0-8af3-7df9ed6fba54",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a552035e-3eca-45b0-8af3-7df9ed6fba54",
+  "app_name": "Churnkey",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "79bf8e1a-be67-474a-93bb-704d504d802d",
+      "image_url": "https://mobbin.com/api/mcp/short/KQzXbXIO",
+      "position": 1
+    },
+    {
+      "screen_id": "fb3f5f54-8d6d-4fdc-99ad-69bde8a7a683",
+      "image_url": "https://mobbin.com/api/mcp/short/ZL1M1ZVx",
+      "position": 2
+    },
+    {
+      "screen_id": "ef8b37af-f616-4164-872f-5eadc72d3fe9",
+      "image_url": "https://mobbin.com/api/mcp/short/eIEiTgdT",
+      "position": 3
+    },
+    {
+      "screen_id": "6dade099-53f0-43f2-b7b6-f9acc5b45cd2",
+      "image_url": "https://mobbin.com/api/mcp/short/jsOrhTKa",
+      "position": 4
+    },
+    {
+      "screen_id": "a742fb95-bb29-4935-977f-da63df717102",
+      "image_url": "https://mobbin.com/api/mcp/short/qHXhJVUg",
+      "position": 5
+    },
+    {
+      "screen_id": "bfe0d8e7-957f-4f63-b6d7-63d6c9fbcfd9",
+      "image_url": "https://mobbin.com/api/mcp/short/ie3Ehlgz",
+      "position": 6
+    },
+    {
+      "screen_id": "8c45a11f-ba29-4d54-a751-e8c7756eae5c",
+      "image_url": "https://mobbin.com/api/mcp/short/o3Gg3fCv",
+      "position": 7
+    },
+    {
+      "screen_id": "f3004223-462d-4443-848d-0f781b34bd28",
+      "image_url": "https://mobbin.com/api/mcp/short/paMVIHOg",
+      "position": 8
+    },
+    {
+      "screen_id": "ddf93ed3-37f7-47f2-96b0-bb370ff5908a",
+      "image_url": "https://mobbin.com/api/mcp/short/rgvv9Jeh",
+      "position": 9
+    }
+  ]
+}

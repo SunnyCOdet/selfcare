@@ -1,0 +1,63 @@
+{
+  "id": "754cee5d-c1f4-44a7-9ae9-5e09474db3a3",
+  "name": "Personalizing a program",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/754cee5d-c1f4-44a7-9ae9-5e09474db3a3",
+  "app_name": "Equinox+",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "88c0333f-b106-498e-aec7-f0747751953a",
+      "image_url": "https://mobbin.com/api/mcp/short/rh9S1Y5s",
+      "position": 1
+    },
+    {
+      "screen_id": "07217d85-434c-4c91-9ea9-92a67e1d9b27",
+      "image_url": "https://mobbin.com/api/mcp/short/8iqpK3FM",
+      "position": 2
+    },
+    {
+      "screen_id": "0182fa67-4f1c-4ae5-b619-b0933f94de15",
+      "image_url": "https://mobbin.com/api/mcp/short/UvEr6cL0",
+      "position": 3
+    },
+    {
+      "screen_id": "31fc4dba-04c3-4bcf-8345-3a908db86e08",
+      "image_url": "https://mobbin.com/api/mcp/short/VQJ771h0",
+      "position": 4
+    },
+    {
+      "screen_id": "d8c29db8-7813-4abd-a525-2287ee532e6d",
+      "image_url": "https://mobbin.com/api/mcp/short/7sv5BwVB",
+      "position": 5
+    },
+    {
+      "screen_id": "3b8213e3-38d0-4b30-b631-9f927bc3c588",
+      "image_url": "https://mobbin.com/api/mcp/short/vdjpAUrW",
+      "position": 6
+    },
+    {
+      "screen_id": "15f5fd49-a17e-4042-b996-a9d935e21deb",
+      "image_url": "https://mobbin.com/api/mcp/short/ahJ7YZtU",
+      "position": 7
+    },
+    {
+      "screen_id": "5b9d278d-9a11-4a9c-bf96-a243a4344604",
+      "image_url": "https://mobbin.com/api/mcp/short/evvJFsHn",
+      "position": 8
+    },
+    {
+      "screen_id": "be7ba465-da7b-4941-9054-8e709fb6e45e",
+      "image_url": "https://mobbin.com/api/mcp/short/XSuKGakB",
+      "position": 9
+    },
+    {
+      "screen_id": "182adce2-cfdf-460a-8a08-c65de690601d",
+      "image_url": "https://mobbin.com/api/mcp/short/81nVjTJ7",
+      "position": 10
+    }
+  ]
+}

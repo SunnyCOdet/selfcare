@@ -1,0 +1,43 @@
+{
+  "id": "442a4a74-cabc-4b16-94d0-84394cb2f25b",
+  "name": "Joining a team",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/442a4a74-cabc-4b16-94d0-84394cb2f25b",
+  "app_name": "Wayyy",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "7ed6cf9a-9ec5-4290-b71a-29c1adbafa9d",
+      "image_url": "https://mobbin.com/api/mcp/short/gA5ny7m8",
+      "position": 1
+    },
+    {
+      "screen_id": "46aa9ca0-226c-4bd1-a488-d294b53e4957",
+      "image_url": "https://mobbin.com/api/mcp/short/UsTHcrqt",
+      "position": 2
+    },
+    {
+      "screen_id": "aca76a7a-d0ee-4234-941a-4d4d623d21a0",
+      "image_url": "https://mobbin.com/api/mcp/short/3IOASm89",
+      "position": 3
+    },
+    {
+      "screen_id": "4c5f71ba-9cc4-4ee3-b1a2-a1d6d646a5c2",
+      "image_url": "https://mobbin.com/api/mcp/short/JWudlp7y",
+      "position": 4
+    },
+    {
+      "screen_id": "3e437a77-f68f-4d5a-86de-b95b0b32ed33",
+      "image_url": "https://mobbin.com/api/mcp/short/HyVeEf2h",
+      "position": 5
+    },
+    {
+      "screen_id": "d8e3dd31-74f7-41ce-8e56-6f7577b689bf",
+      "image_url": "https://mobbin.com/api/mcp/short/LAg3lSpP",
+      "position": 6
+    }
+  ]
+}

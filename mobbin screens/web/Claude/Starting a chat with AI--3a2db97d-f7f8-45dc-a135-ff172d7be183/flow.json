@@ -1,0 +1,59 @@
+{
+  "id": "3a2db97d-f7f8-45dc-a135-ff172d7be183",
+  "name": "Starting a chat with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3a2db97d-f7f8-45dc-a135-ff172d7be183",
+  "app_name": "Claude",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "d72b17b4-df91-4813-8e5d-a04d20041570",
+      "image_url": "https://mobbin.com/api/mcp/short/Tf3YpUsK",
+      "position": 1
+    },
+    {
+      "screen_id": "5572ff23-c06d-49f4-b9c6-a10327f2e35d",
+      "image_url": "https://mobbin.com/api/mcp/short/hbRhtZu3",
+      "position": 2
+    },
+    {
+      "screen_id": "be54eee2-7dce-401c-87f7-05decb33155c",
+      "image_url": "https://mobbin.com/api/mcp/short/AQbRA0Lh",
+      "position": 3
+    },
+    {
+      "screen_id": "33f11630-09ce-486e-9482-3fdf9bee9b62",
+      "image_url": "https://mobbin.com/api/mcp/short/NyZvIQNc",
+      "position": 4
+    },
+    {
+      "screen_id": "a584de73-9ae1-4c5c-851d-73c1131e0a21",
+      "image_url": "https://mobbin.com/api/mcp/short/PtJNfoZJ",
+      "position": 5
+    },
+    {
+      "screen_id": "80c15c61-fc55-44c3-96a9-b48ed850ef16",
+      "image_url": "https://mobbin.com/api/mcp/short/pgHYP8k6",
+      "position": 6
+    },
+    {
+      "screen_id": "7a8f884e-7db7-4944-967b-e2e5abca64a8",
+      "image_url": "https://mobbin.com/api/mcp/short/Y9Ma7pSE",
+      "position": 7
+    },
+    {
+      "screen_id": "98255484-f7b1-43c3-b9a1-1c6f971de3bd",
+      "image_url": "https://mobbin.com/api/mcp/short/23QokNNF",
+      "position": 8
+    },
+    {
+      "screen_id": "62554846-ab6f-4d72-b509-7389df69716e",
+      "image_url": "https://mobbin.com/api/mcp/short/ktTKcaua",
+      "position": 9
+    }
+  ]
+}

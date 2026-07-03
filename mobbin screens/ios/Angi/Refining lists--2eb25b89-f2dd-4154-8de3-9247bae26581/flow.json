@@ -1,0 +1,48 @@
+{
+  "id": "2eb25b89-f2dd-4154-8de3-9247bae26581",
+  "name": "Refining lists",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2eb25b89-f2dd-4154-8de3-9247bae26581",
+  "app_name": "Angi",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "c80853ab-e6a7-489e-999f-ac6bc0162e14",
+      "image_url": "https://mobbin.com/api/mcp/short/JkFvwPin",
+      "position": 1
+    },
+    {
+      "screen_id": "ebfd4d84-173e-4fcb-8b49-b88f669e3bd4",
+      "image_url": "https://mobbin.com/api/mcp/short/UCuklSGI",
+      "position": 2
+    },
+    {
+      "screen_id": "3539cd2e-7e53-49bb-8dd6-d51a2e1652c4",
+      "image_url": "https://mobbin.com/api/mcp/short/GRsX4gI4",
+      "position": 3
+    },
+    {
+      "screen_id": "5509d327-d914-4101-b3e9-a1c91cee377b",
+      "image_url": "https://mobbin.com/api/mcp/short/7EhZSgFi",
+      "position": 4
+    },
+    {
+      "screen_id": "01ac1c4d-47d4-45c6-a6fb-5218ec63f6e8",
+      "image_url": "https://mobbin.com/api/mcp/short/AcMvJQAf",
+      "position": 5
+    },
+    {
+      "screen_id": "db3daf02-79a7-4555-b825-9ab5bbb5ba18",
+      "image_url": "https://mobbin.com/api/mcp/short/R1SAbLDm",
+      "position": 6
+    },
+    {
+      "screen_id": "03530586-1a4d-4cb6-b352-1454b95d7b6c",
+      "image_url": "https://mobbin.com/api/mcp/short/1cj6a6nF",
+      "position": 7
+    }
+  ]
+}

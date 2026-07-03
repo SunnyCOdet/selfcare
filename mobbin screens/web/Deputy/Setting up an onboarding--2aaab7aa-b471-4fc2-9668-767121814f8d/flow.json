@@ -1,0 +1,53 @@
+{
+  "id": "2aaab7aa-b471-4fc2-9668-767121814f8d",
+  "name": "Setting up an onboarding",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2aaab7aa-b471-4fc2-9668-767121814f8d",
+  "app_name": "Deputy",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "a12fcd7f-ce63-43da-a98e-0cd47e116308",
+      "image_url": "https://mobbin.com/api/mcp/short/gDG1WvpC",
+      "position": 1
+    },
+    {
+      "screen_id": "4abf05c2-026e-4693-bcff-ee07a40990b2",
+      "image_url": "https://mobbin.com/api/mcp/short/bQQIlVuf",
+      "position": 2
+    },
+    {
+      "screen_id": "610abc75-f753-4b95-a590-3d9e60423c99",
+      "image_url": "https://mobbin.com/api/mcp/short/WLl5hsTR",
+      "position": 3
+    },
+    {
+      "screen_id": "61dbaf7c-0e7b-4c2a-8f69-c80eb7ec0fdb",
+      "image_url": "https://mobbin.com/api/mcp/short/4WXbnbyx",
+      "position": 4
+    },
+    {
+      "screen_id": "a93c1faf-b5f4-4a8d-b897-faa2ea93483b",
+      "image_url": "https://mobbin.com/api/mcp/short/6j9mq0Du",
+      "position": 5
+    },
+    {
+      "screen_id": "191f75a5-473a-4154-ae62-b92bc8f5928c",
+      "image_url": "https://mobbin.com/api/mcp/short/5mnVvDAG",
+      "position": 6
+    },
+    {
+      "screen_id": "1c841b6b-4786-4bce-ad54-64905efe6463",
+      "image_url": "https://mobbin.com/api/mcp/short/vWIojQRQ",
+      "position": 7
+    },
+    {
+      "screen_id": "7b9e3527-e56f-4d17-a01d-c8b78da9e188",
+      "image_url": "https://mobbin.com/api/mcp/short/mP8xQ7Vk",
+      "position": 8
+    }
+  ]
+}

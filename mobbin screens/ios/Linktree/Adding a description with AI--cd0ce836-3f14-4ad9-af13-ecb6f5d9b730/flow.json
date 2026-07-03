@@ -1,0 +1,28 @@
+{
+  "id": "cd0ce836-3f14-4ad9-af13-ecb6f5d9b730",
+  "name": "Adding a description with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cd0ce836-3f14-4ad9-af13-ecb6f5d9b730",
+  "app_name": "Linktree",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "6734c8c3-05ac-4815-b394-fc32668ef6fb",
+      "image_url": "https://mobbin.com/api/mcp/short/Zt4mxvK4",
+      "position": 1
+    },
+    {
+      "screen_id": "6de7d6f8-3582-421b-8506-7153ac84d78b",
+      "image_url": "https://mobbin.com/api/mcp/short/lwWXAy3h",
+      "position": 2
+    },
+    {
+      "screen_id": "2d18fc29-f15b-435c-9ddb-372bb1f2eaaa",
+      "image_url": "https://mobbin.com/api/mcp/short/7AHsgp1y",
+      "position": 3
+    }
+  ]
+}

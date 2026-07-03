@@ -1,0 +1,53 @@
+{
+  "id": "c2870795-6eef-4bab-8088-00e480452c95",
+  "name": "Creating a customer journey",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c2870795-6eef-4bab-8088-00e480452c95",
+  "app_name": "Mailchimp",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "e6881983-646f-4479-9129-01104f8174e0",
+      "image_url": "https://mobbin.com/api/mcp/short/5qKQ7ody",
+      "position": 1
+    },
+    {
+      "screen_id": "f3ff9aa3-ebe4-43a2-9788-d6ae7c16ea13",
+      "image_url": "https://mobbin.com/api/mcp/short/a5BzZ70T",
+      "position": 2
+    },
+    {
+      "screen_id": "a1501450-122e-4bf5-8f70-4bf7c679fb4d",
+      "image_url": "https://mobbin.com/api/mcp/short/LHqSA2LR",
+      "position": 3
+    },
+    {
+      "screen_id": "f9f366e0-a58e-428d-92e6-6cb5a2f2eb80",
+      "image_url": "https://mobbin.com/api/mcp/short/xCBRu0KS",
+      "position": 4
+    },
+    {
+      "screen_id": "d7a12010-f72f-46e4-8b74-c1f39659b656",
+      "image_url": "https://mobbin.com/api/mcp/short/Ltb5yixX",
+      "position": 5
+    },
+    {
+      "screen_id": "51088825-58bf-4d7d-9ec4-3fc02e07ef81",
+      "image_url": "https://mobbin.com/api/mcp/short/cbf4NNY7",
+      "position": 6
+    },
+    {
+      "screen_id": "cbd097ca-4791-48f0-8c98-d98064e10fcf",
+      "image_url": "https://mobbin.com/api/mcp/short/eTAUmF8A",
+      "position": 7
+    },
+    {
+      "screen_id": "6bf87116-7940-4237-85eb-24ed0bad348e",
+      "image_url": "https://mobbin.com/api/mcp/short/xYPX6wG7",
+      "position": 8
+    }
+  ]
+}

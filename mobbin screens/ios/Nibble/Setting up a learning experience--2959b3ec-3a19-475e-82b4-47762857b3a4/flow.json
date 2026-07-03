@@ -1,0 +1,53 @@
+{
+  "id": "2959b3ec-3a19-475e-82b4-47762857b3a4",
+  "name": "Setting up a learning experience",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2959b3ec-3a19-475e-82b4-47762857b3a4",
+  "app_name": "Nibble",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "cef63c18-2a1f-4fbe-bc21-49071d0fbcff",
+      "image_url": "https://mobbin.com/api/mcp/short/c0Jdt6Qn",
+      "position": 1
+    },
+    {
+      "screen_id": "7efb2edb-079a-4de5-82ef-d5c6a9c5fcf5",
+      "image_url": "https://mobbin.com/api/mcp/short/enCArC2E",
+      "position": 2
+    },
+    {
+      "screen_id": "daae661a-0ab9-4e9d-8ac4-00fc1a0ef949",
+      "image_url": "https://mobbin.com/api/mcp/short/lS1y9BrF",
+      "position": 3
+    },
+    {
+      "screen_id": "a7b69d8b-3203-4f94-b936-6682cbfa1572",
+      "image_url": "https://mobbin.com/api/mcp/short/2iHN5ggy",
+      "position": 4
+    },
+    {
+      "screen_id": "cef7a366-b31b-429b-b29b-0cda0ecb5d6d",
+      "image_url": "https://mobbin.com/api/mcp/short/jPn7PIAi",
+      "position": 5
+    },
+    {
+      "screen_id": "e722f5a0-b638-4060-86cc-2a05426b3f17",
+      "image_url": "https://mobbin.com/api/mcp/short/PrWMbz4z",
+      "position": 6
+    },
+    {
+      "screen_id": "75679089-03fd-4c7c-ba25-0ee6e4b916ef",
+      "image_url": "https://mobbin.com/api/mcp/short/sCV0x4Pi",
+      "position": 7
+    },
+    {
+      "screen_id": "a8b5e3bb-0ea6-4174-a471-5c230b11914b",
+      "image_url": "https://mobbin.com/api/mcp/short/5CupHpAD",
+      "position": 8
+    }
+  ]
+}

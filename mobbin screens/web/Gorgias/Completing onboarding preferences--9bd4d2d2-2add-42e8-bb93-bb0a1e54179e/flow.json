@@ -1,0 +1,43 @@
+{
+  "id": "9bd4d2d2-2add-42e8-bb93-bb0a1e54179e",
+  "name": "Completing onboarding preferences",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9bd4d2d2-2add-42e8-bb93-bb0a1e54179e",
+  "app_name": "Gorgias",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3db38720-877a-4db3-9572-ba0ccae222a7",
+      "image_url": "https://mobbin.com/api/mcp/short/9xQssoar",
+      "position": 1
+    },
+    {
+      "screen_id": "9ad7d118-f751-4f10-99e0-c91e9205441e",
+      "image_url": "https://mobbin.com/api/mcp/short/sMfuZ1mm",
+      "position": 2
+    },
+    {
+      "screen_id": "0e3ec474-3037-4ce4-945e-92a40a72115b",
+      "image_url": "https://mobbin.com/api/mcp/short/2RDo0h0G",
+      "position": 3
+    },
+    {
+      "screen_id": "beeb091b-2a1a-4dc6-aecd-f5e89ada162b",
+      "image_url": "https://mobbin.com/api/mcp/short/GnFPeNkK",
+      "position": 4
+    },
+    {
+      "screen_id": "9c27752f-c050-480e-8bd2-ee67553791ee",
+      "image_url": "https://mobbin.com/api/mcp/short/HFf0rMQv",
+      "position": 5
+    },
+    {
+      "screen_id": "c31a6f4b-ae33-45a8-9a10-7c0868b8d0cb",
+      "image_url": "https://mobbin.com/api/mcp/short/R87aIULU",
+      "position": 6
+    }
+  ]
+}

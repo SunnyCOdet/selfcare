@@ -1,0 +1,38 @@
+{
+  "id": "f1282aa8-2d49-4286-b914-806371a93452",
+  "name": "Enabling AI notetaker",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f1282aa8-2d49-4286-b914-806371a93452",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "87aa6e25-826f-425c-8456-d385d344fc83",
+      "image_url": "https://mobbin.com/api/mcp/short/OGTYPnnU",
+      "position": 1
+    },
+    {
+      "screen_id": "a7192241-75c0-448e-82ec-0e3db39d7456",
+      "image_url": "https://mobbin.com/api/mcp/short/0IylUC3u",
+      "position": 2
+    },
+    {
+      "screen_id": "7d4c9da7-fee9-41f2-8542-d2e96dab5e5e",
+      "image_url": "https://mobbin.com/api/mcp/short/RupBzYgu",
+      "position": 3
+    },
+    {
+      "screen_id": "7f50212b-0cd6-4c46-a7a4-50b64c8ab2ab",
+      "image_url": "https://mobbin.com/api/mcp/short/bWoZw5iG",
+      "position": 4
+    },
+    {
+      "screen_id": "04fda0b9-d82a-453e-8f5a-846e7f13ecf9",
+      "image_url": "https://mobbin.com/api/mcp/short/SdIi5bC6",
+      "position": 5
+    }
+  ]
+}

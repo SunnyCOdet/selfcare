@@ -1,0 +1,38 @@
+{
+  "id": "c1fd668c-9eaa-44b2-8d26-d7584e7c625d",
+  "name": "Asking AI a question",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c1fd668c-9eaa-44b2-8d26-d7584e7c625d",
+  "app_name": "Kakao Pay",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "f3a94068-07de-4b43-8a31-534c7f9c01f9",
+      "image_url": "https://mobbin.com/api/mcp/short/4blrV98u",
+      "position": 1
+    },
+    {
+      "screen_id": "4d0d695a-2047-47bb-b36e-f23e03fb9511",
+      "image_url": "https://mobbin.com/api/mcp/short/418LiHKQ",
+      "position": 2
+    },
+    {
+      "screen_id": "45d532e4-88a9-4976-97ec-6ff994b7584f",
+      "image_url": "https://mobbin.com/api/mcp/short/GQ6jbi5w",
+      "position": 3
+    },
+    {
+      "screen_id": "0c1569a8-8f27-456a-8082-f05b6ef2813b",
+      "image_url": "https://mobbin.com/api/mcp/short/5aWHCcmw",
+      "position": 4
+    },
+    {
+      "screen_id": "415619ac-bae9-4967-bbaa-c3d3a8c2fba7",
+      "image_url": "https://mobbin.com/api/mcp/short/PpRADi15",
+      "position": 5
+    }
+  ]
+}

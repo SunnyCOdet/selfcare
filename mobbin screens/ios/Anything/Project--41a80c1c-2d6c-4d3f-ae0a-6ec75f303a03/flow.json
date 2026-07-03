@@ -1,0 +1,26 @@
+{
+  "id": "41a80c1c-2d6c-4d3f-ae0a-6ec75f303a03",
+  "name": "Project",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/41a80c1c-2d6c-4d3f-ae0a-6ec75f303a03",
+  "app_name": "Anything",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "bfc92040-9959-42af-9cb2-b1ee817a8533",
+      "image_url": "https://mobbin.com/api/mcp/short/dOr2ZMAX",
+      "position": 1
+    },
+    {
+      "screen_id": "21233206-393a-47a9-a271-47c7bd78f5e3",
+      "image_url": "https://mobbin.com/api/mcp/short/845iJVIG",
+      "position": 2
+    },
+    {
+      "screen_id": "5d0e3b4b-a4a5-4e4d-b969-7577157db613",
+      "image_url": "https://mobbin.com/api/mcp/short/P01wzoB7",
+      "position": 3
+    }
+  ]
+}

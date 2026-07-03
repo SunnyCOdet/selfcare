@@ -1,0 +1,39 @@
+{
+  "id": "51788826-a888-4d7c-8b74-c19556b6c228",
+  "name": "Editing a document with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/51788826-a888-4d7c-8b74-c19556b6c228",
+  "app_name": "Sana AI",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "9026b4b0-6ab1-474e-87b7-5a99941ac48d",
+      "image_url": "https://mobbin.com/api/mcp/short/MPQiTLVW",
+      "position": 1
+    },
+    {
+      "screen_id": "de7ee5af-e926-427a-baae-7b3b97e87dc3",
+      "image_url": "https://mobbin.com/api/mcp/short/pe9cfO3b",
+      "position": 2
+    },
+    {
+      "screen_id": "0aea2511-41d3-4c40-bd7e-0ee57193d35f",
+      "image_url": "https://mobbin.com/api/mcp/short/XvAfWnGG",
+      "position": 3
+    },
+    {
+      "screen_id": "7c780953-3d24-437d-be72-d6247c64ca24",
+      "image_url": "https://mobbin.com/api/mcp/short/12AWxDis",
+      "position": 4
+    },
+    {
+      "screen_id": "7ad8f6ee-056b-47f8-8e25-c6d8ae648687",
+      "image_url": "https://mobbin.com/api/mcp/short/JxFfvQIU",
+      "position": 5
+    }
+  ]
+}

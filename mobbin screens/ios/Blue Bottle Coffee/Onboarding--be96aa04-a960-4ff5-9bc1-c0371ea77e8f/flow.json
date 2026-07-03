@@ -1,0 +1,54 @@
+{
+  "id": "be96aa04-a960-4ff5-9bc1-c0371ea77e8f",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/be96aa04-a960-4ff5-9bc1-c0371ea77e8f",
+  "app_name": "Blue Bottle Coffee",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "b2c4275a-b929-4e0c-aaef-252bbb87da5a",
+      "image_url": "https://mobbin.com/api/mcp/short/6yNJC7eN",
+      "position": 1
+    },
+    {
+      "screen_id": "36123ab3-4eab-41f6-bf82-6c578b01e08f",
+      "image_url": "https://mobbin.com/api/mcp/short/pY4965sL",
+      "position": 2
+    },
+    {
+      "screen_id": "1873dc72-a3ea-4c17-a20f-7c0fa97b4072",
+      "image_url": "https://mobbin.com/api/mcp/short/AFXRoEc1",
+      "position": 3
+    },
+    {
+      "screen_id": "48107f3b-c397-416a-8514-1744a551db15",
+      "image_url": "https://mobbin.com/api/mcp/short/MY7g5VmO",
+      "position": 4
+    },
+    {
+      "screen_id": "1c24c790-881e-4728-97a6-2591a1d93a96",
+      "image_url": "https://mobbin.com/api/mcp/short/8jJPauMI",
+      "position": 5
+    },
+    {
+      "screen_id": "b5b68e3e-c87f-41bb-a4c3-c9a04cb5e33d",
+      "image_url": "https://mobbin.com/api/mcp/short/Cjpza9AN",
+      "position": 6
+    },
+    {
+      "screen_id": "9acbcbfb-dc0d-40d6-b9ce-8736365ff972",
+      "image_url": "https://mobbin.com/api/mcp/short/L3W1Kkf5",
+      "position": 7
+    },
+    {
+      "screen_id": "cbeac90e-53f5-4711-9e03-ed931ea0522d",
+      "image_url": "https://mobbin.com/api/mcp/short/rf17hWGU",
+      "position": 8
+    }
+  ]
+}

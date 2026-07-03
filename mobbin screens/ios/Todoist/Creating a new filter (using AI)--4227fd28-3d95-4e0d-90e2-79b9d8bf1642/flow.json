@@ -1,0 +1,44 @@
+{
+  "id": "4227fd28-3d95-4e0d-90e2-79b9d8bf1642",
+  "name": "Creating a new filter (using AI)",
+  "actions": [
+    "Adding & Creating",
+    "Filtering & Sorting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4227fd28-3d95-4e0d-90e2-79b9d8bf1642",
+  "app_name": "Todoist",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "aad9c6ac-096e-473d-9c4a-d5fe3aaeb6b1",
+      "image_url": "https://mobbin.com/api/mcp/short/Z2Ut6Clf",
+      "position": 1
+    },
+    {
+      "screen_id": "4f3b471b-325c-4c1e-9605-a14d5f71ba88",
+      "image_url": "https://mobbin.com/api/mcp/short/JUeLHYMM",
+      "position": 2
+    },
+    {
+      "screen_id": "3550b573-2511-44b6-a1e1-196fae716dbc",
+      "image_url": "https://mobbin.com/api/mcp/short/dSWQycmD",
+      "position": 3
+    },
+    {
+      "screen_id": "abceff52-b4c0-4980-9d34-2912411e78a9",
+      "image_url": "https://mobbin.com/api/mcp/short/uuc0dxQX",
+      "position": 4
+    },
+    {
+      "screen_id": "eb75390e-70d8-49d4-9bb9-b1ef096c0c41",
+      "image_url": "https://mobbin.com/api/mcp/short/blbD3x9o",
+      "position": 5
+    },
+    {
+      "screen_id": "790ca7d1-0aa6-4408-974b-98530f6cc091",
+      "image_url": "https://mobbin.com/api/mcp/short/jQVoOFJn",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "b30021cf-bc7e-4ecd-91ca-12266cf9568f",
+  "name": "Adding a new tag",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b30021cf-bc7e-4ecd-91ca-12266cf9568f",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d3c823f7-cde9-41f8-bae6-7500538cbb0d",
+      "image_url": "https://mobbin.com/api/mcp/short/q5ibsht2",
+      "position": 1
+    },
+    {
+      "screen_id": "bc94094c-1a44-42c9-8a09-a59e488f41fc",
+      "image_url": "https://mobbin.com/api/mcp/short/610JAMKY",
+      "position": 2
+    },
+    {
+      "screen_id": "a1f0b454-c809-448e-8f36-9b222d061fc8",
+      "image_url": "https://mobbin.com/api/mcp/short/kJpzHuwh",
+      "position": 3
+    },
+    {
+      "screen_id": "99f041e0-4057-4a58-abe5-8207b91826c6",
+      "image_url": "https://mobbin.com/api/mcp/short/kV3eFuuC",
+      "position": 4
+    }
+  ]
+}

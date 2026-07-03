@@ -1,0 +1,26 @@
+{
+  "id": "e07d12d9-0f91-48e0-a94a-f1c4102fe92a",
+  "name": "OwlyWriter AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e07d12d9-0f91-48e0-a94a-f1c4102fe92a",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "377cb827-6086-4f1c-8542-7e638f4aed8f",
+      "image_url": "https://mobbin.com/api/mcp/short/5elL4nXw",
+      "position": 1
+    },
+    {
+      "screen_id": "52a2bc91-8c6f-4bd7-bcd7-f106463edd81",
+      "image_url": "https://mobbin.com/api/mcp/short/YEWpzvRf",
+      "position": 2
+    },
+    {
+      "screen_id": "e86bae45-0ad2-425a-83b2-12a28650d60d",
+      "image_url": "https://mobbin.com/api/mcp/short/iDxPt5X2",
+      "position": 3
+    }
+  ]
+}

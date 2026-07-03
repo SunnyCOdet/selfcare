@@ -1,0 +1,28 @@
+{
+  "id": "99f2fb61-8a8d-4c44-bf62-9eede46f93fe",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/99f2fb61-8a8d-4c44-bf62-9eede46f93fe",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b66f3c41-1f73-419d-a2ed-6f9be0063b47",
+      "image_url": "https://mobbin.com/api/mcp/short/lnsZbcPT",
+      "position": 1
+    },
+    {
+      "screen_id": "d365d8bf-344d-482d-88fa-d14564386be8",
+      "image_url": "https://mobbin.com/api/mcp/short/Gd310Xnv",
+      "position": 2
+    },
+    {
+      "screen_id": "ab5fc4ba-8529-4e6d-a9fc-6ff4006d8b86",
+      "image_url": "https://mobbin.com/api/mcp/short/rYeC0fow",
+      "position": 3
+    }
+  ]
+}

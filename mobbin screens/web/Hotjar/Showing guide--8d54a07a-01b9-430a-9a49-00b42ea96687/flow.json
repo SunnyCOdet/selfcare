@@ -1,0 +1,28 @@
+{
+  "id": "8d54a07a-01b9-430a-9a49-00b42ea96687",
+  "name": "Showing guide",
+  "actions": [
+    "Showing & Hiding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8d54a07a-01b9-430a-9a49-00b42ea96687",
+  "app_name": "Hotjar",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d4fca8c7-64a9-42d9-8c18-7babe3f8eb80",
+      "image_url": "https://mobbin.com/api/mcp/short/9CN1h8mW",
+      "position": 1
+    },
+    {
+      "screen_id": "f424fcc9-0612-459c-ba1e-cc03da1de738",
+      "image_url": "https://mobbin.com/api/mcp/short/TyIdhl1h",
+      "position": 2
+    },
+    {
+      "screen_id": "ce31ee3c-f013-4a45-8322-a59fc5e33331",
+      "image_url": "https://mobbin.com/api/mcp/short/MGr7TBxq",
+      "position": 3
+    }
+  ]
+}

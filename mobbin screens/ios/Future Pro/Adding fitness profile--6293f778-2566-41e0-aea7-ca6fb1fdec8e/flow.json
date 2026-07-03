@@ -1,0 +1,59 @@
+{
+  "id": "6293f778-2566-41e0-aea7-ca6fb1fdec8e",
+  "name": "Adding fitness profile",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6293f778-2566-41e0-aea7-ca6fb1fdec8e",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "cf1e35ee-8b9f-437a-8815-4959240e44d3",
+      "image_url": "https://mobbin.com/api/mcp/short/l2BIkb5P",
+      "position": 1
+    },
+    {
+      "screen_id": "5832e040-6bb8-4ee8-91e6-a95d7bf0b363",
+      "image_url": "https://mobbin.com/api/mcp/short/ObmyPNlg",
+      "position": 2
+    },
+    {
+      "screen_id": "3ceacc47-2ed0-44e3-89fa-770dfbc8a871",
+      "image_url": "https://mobbin.com/api/mcp/short/BizNay3A",
+      "position": 3
+    },
+    {
+      "screen_id": "b9fb087e-5e33-4a4d-8563-c6ed55565da5",
+      "image_url": "https://mobbin.com/api/mcp/short/9QjL0n2K",
+      "position": 4
+    },
+    {
+      "screen_id": "642b3946-e5fd-414e-b382-306d3a38ea5c",
+      "image_url": "https://mobbin.com/api/mcp/short/G9xYLFwH",
+      "position": 5
+    },
+    {
+      "screen_id": "ea99e2e0-c78f-4654-a0c4-9dceb12dddb3",
+      "image_url": "https://mobbin.com/api/mcp/short/nrgHkJ1k",
+      "position": 6
+    },
+    {
+      "screen_id": "dee65c72-1ba6-4249-b20b-39c42842a9b2",
+      "image_url": "https://mobbin.com/api/mcp/short/CkjmhkIC",
+      "position": 7
+    },
+    {
+      "screen_id": "d0bb3c9e-10dd-4249-8227-abe87efa2535",
+      "image_url": "https://mobbin.com/api/mcp/short/qUBLAnWL",
+      "position": 8
+    },
+    {
+      "screen_id": "be59dd4f-b059-4ac0-9ed4-67ce5e4c8a32",
+      "image_url": "https://mobbin.com/api/mcp/short/9oJ7Wf4N",
+      "position": 9
+    }
+  ]
+}

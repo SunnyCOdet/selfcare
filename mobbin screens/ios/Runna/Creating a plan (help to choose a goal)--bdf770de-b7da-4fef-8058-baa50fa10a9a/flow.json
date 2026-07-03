@@ -1,0 +1,54 @@
+{
+  "id": "bdf770de-b7da-4fef-8058-baa50fa10a9a",
+  "name": "Creating a plan (help to choose a goal)",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bdf770de-b7da-4fef-8058-baa50fa10a9a",
+  "app_name": "Runna",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "14d2bbd2-09e8-4d1b-97ad-a7332512d305",
+      "image_url": "https://mobbin.com/api/mcp/short/anlksfw6",
+      "position": 1
+    },
+    {
+      "screen_id": "486d82be-1919-47e1-ad77-d449d7f7ea82",
+      "image_url": "https://mobbin.com/api/mcp/short/la6fTp5X",
+      "position": 2
+    },
+    {
+      "screen_id": "d7943c32-2090-4598-b76b-85af50ae56a9",
+      "image_url": "https://mobbin.com/api/mcp/short/1qImtmsz",
+      "position": 3
+    },
+    {
+      "screen_id": "1393ee32-59af-44e0-88e8-c594583d565a",
+      "image_url": "https://mobbin.com/api/mcp/short/7DYCiw7N",
+      "position": 4
+    },
+    {
+      "screen_id": "f2628370-51a5-41ce-9356-520d1f9fa66f",
+      "image_url": "https://mobbin.com/api/mcp/short/CEUhlCzg",
+      "position": 5
+    },
+    {
+      "screen_id": "f03ad38b-3aba-4778-96f8-af2f1bfc0e41",
+      "image_url": "https://mobbin.com/api/mcp/short/yBvtgBcO",
+      "position": 6
+    },
+    {
+      "screen_id": "7dd82874-c8a5-4ef5-ad5b-815b1eb970da",
+      "image_url": "https://mobbin.com/api/mcp/short/KtOIhZXc",
+      "position": 7
+    },
+    {
+      "screen_id": "aafe801e-6b9d-402d-b035-09da28d49a1e",
+      "image_url": "https://mobbin.com/api/mcp/short/bJjRjWpG",
+      "position": 8
+    }
+  ]
+}

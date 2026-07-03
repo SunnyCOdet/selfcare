@@ -1,0 +1,38 @@
+{
+  "id": "638f5196-dc11-4c40-9db8-3897002c77d9",
+  "name": "Adding a menu to Health app",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/638f5196-dc11-4c40-9db8-3897002c77d9",
+  "app_name": "sweetgreen",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "02a7663c-5cac-4b8a-a010-4e5944667c2a",
+      "image_url": "https://mobbin.com/api/mcp/short/rACwB4Rt",
+      "position": 1
+    },
+    {
+      "screen_id": "d03a2ca8-b917-44a8-946c-ba1b1b5bbe41",
+      "image_url": "https://mobbin.com/api/mcp/short/BAy6qAd5",
+      "position": 2
+    },
+    {
+      "screen_id": "6149ab89-68c7-4bbf-86b9-901391d93151",
+      "image_url": "https://mobbin.com/api/mcp/short/l6HCtOdG",
+      "position": 3
+    },
+    {
+      "screen_id": "4a4b99cf-0830-4160-8b61-d91df3ceb4a3",
+      "image_url": "https://mobbin.com/api/mcp/short/VTgMYPwO",
+      "position": 4
+    },
+    {
+      "screen_id": "d2c80b5b-22b5-4e94-a85e-347e8b93a2f2",
+      "image_url": "https://mobbin.com/api/mcp/short/hMYLGVqB",
+      "position": 5
+    }
+  ]
+}

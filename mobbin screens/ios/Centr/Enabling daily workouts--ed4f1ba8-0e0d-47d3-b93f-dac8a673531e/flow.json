@@ -1,0 +1,28 @@
+{
+  "id": "ed4f1ba8-0e0d-47d3-b93f-dac8a673531e",
+  "name": "Enabling daily workouts",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ed4f1ba8-0e0d-47d3-b93f-dac8a673531e",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "1ceff787-93f8-4796-9fa1-90fb80e31df8",
+      "image_url": "https://mobbin.com/api/mcp/short/cSxNuKKN",
+      "position": 1
+    },
+    {
+      "screen_id": "2a896c0a-2fdd-46af-ad16-cefe2044c0b0",
+      "image_url": "https://mobbin.com/api/mcp/short/lczW7vd0",
+      "position": 2
+    },
+    {
+      "screen_id": "ac76c458-77df-4830-96d3-99278f8b05b2",
+      "image_url": "https://mobbin.com/api/mcp/short/bIOfiU8O",
+      "position": 3
+    }
+  ]
+}

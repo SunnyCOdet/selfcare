@@ -1,0 +1,38 @@
+{
+  "id": "9e30984f-798d-4b40-b0dc-217eaa295de1",
+  "name": "Revising with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9e30984f-798d-4b40-b0dc-217eaa295de1",
+  "app_name": "Remote",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "f4827d25-4a76-4e3a-905a-d490b1e2c061",
+      "image_url": "https://mobbin.com/api/mcp/short/cRYviN5c",
+      "position": 1
+    },
+    {
+      "screen_id": "6865003f-78d1-4eae-97d2-b700b7c4a45a",
+      "image_url": "https://mobbin.com/api/mcp/short/zMFKCt5s",
+      "position": 2
+    },
+    {
+      "screen_id": "f6ab68ea-04c0-41e2-905b-636d34db16ec",
+      "image_url": "https://mobbin.com/api/mcp/short/kt7Ock3B",
+      "position": 3
+    },
+    {
+      "screen_id": "9fa3ea16-deaa-4bc8-95c7-7a4aace262e1",
+      "image_url": "https://mobbin.com/api/mcp/short/EeF3pqXI",
+      "position": 4
+    },
+    {
+      "screen_id": "e62dee33-c84d-450d-9dab-4d6e27b2b89b",
+      "image_url": "https://mobbin.com/api/mcp/short/2vQ42SSS",
+      "position": 5
+    }
+  ]
+}

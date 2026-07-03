@@ -1,0 +1,28 @@
+{
+  "id": "9b31229f-855d-4432-85ee-1b34fe9bc395",
+  "name": "Starting a trial",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9b31229f-855d-4432-85ee-1b34fe9bc395",
+  "app_name": "HubSpot",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5544efe4-452b-497d-ab64-ef65ee03e052",
+      "image_url": "https://mobbin.com/api/mcp/short/5ZmttcGr",
+      "position": 1
+    },
+    {
+      "screen_id": "fce0ffb7-b9e7-4188-ade1-f729657fb531",
+      "image_url": "https://mobbin.com/api/mcp/short/Dwc9ZYGI",
+      "position": 2
+    },
+    {
+      "screen_id": "d1dee324-d7f1-485d-8b11-7c1e75599de2",
+      "image_url": "https://mobbin.com/api/mcp/short/78fDI8Fd",
+      "position": 3
+    }
+  ]
+}

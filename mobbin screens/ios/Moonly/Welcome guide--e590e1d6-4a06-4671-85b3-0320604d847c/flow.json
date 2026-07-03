@@ -1,0 +1,31 @@
+{
+  "id": "e590e1d6-4a06-4671-85b3-0320604d847c",
+  "name": "Welcome guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e590e1d6-4a06-4671-85b3-0320604d847c",
+  "app_name": "Moonly",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "47c51620-c835-4d8b-a238-b197cafadbcc",
+      "image_url": "https://mobbin.com/api/mcp/short/kRxX4n1t",
+      "position": 1
+    },
+    {
+      "screen_id": "710c6a78-eb9a-4115-bee9-325196cd0437",
+      "image_url": "https://mobbin.com/api/mcp/short/zmuiP6HW",
+      "position": 2
+    },
+    {
+      "screen_id": "c2c99aba-3a4f-4550-98b4-749cf1391f2e",
+      "image_url": "https://mobbin.com/api/mcp/short/ciDKK047",
+      "position": 3
+    },
+    {
+      "screen_id": "7a1f16b5-a301-42d3-89ff-597dfb3921c9",
+      "image_url": "https://mobbin.com/api/mcp/short/RZkaNTr7",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "c6636474-58e8-42c5-83b3-83c721c9248b",
+  "name": "Learning path",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c6636474-58e8-42c5-83b3-83c721c9248b",
+  "app_name": "Front",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "2e13e581-ec3e-4383-a02e-5782bc61ea4b",
+      "image_url": "https://mobbin.com/api/mcp/short/ff560D14",
+      "position": 1
+    },
+    {
+      "screen_id": "ea510a58-692a-4c53-bc34-060aee0dd993",
+      "image_url": "https://mobbin.com/api/mcp/short/A2vQJjqy",
+      "position": 2
+    },
+    {
+      "screen_id": "631381ad-bd5c-4660-bc89-16f5a91869bc",
+      "image_url": "https://mobbin.com/api/mcp/short/T3tke3f2",
+      "position": 3
+    },
+    {
+      "screen_id": "c0efaf56-8a77-44eb-b538-ff6a1cbcbc05",
+      "image_url": "https://mobbin.com/api/mcp/short/T7Ppf3RM",
+      "position": 4
+    },
+    {
+      "screen_id": "065beaa2-8029-4f66-9aa2-828c5f1ff7a5",
+      "image_url": "https://mobbin.com/api/mcp/short/3lHLg3z6",
+      "position": 5
+    }
+  ]
+}

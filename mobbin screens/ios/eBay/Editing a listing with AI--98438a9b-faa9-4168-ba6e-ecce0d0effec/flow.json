@@ -1,0 +1,43 @@
+{
+  "id": "98438a9b-faa9-4168-ba6e-ecce0d0effec",
+  "name": "Editing a listing with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/98438a9b-faa9-4168-ba6e-ecce0d0effec",
+  "app_name": "eBay",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "f526623f-5088-4e01-801b-85ea4289dbc2",
+      "image_url": "https://mobbin.com/api/mcp/short/RFApdU6p",
+      "position": 1
+    },
+    {
+      "screen_id": "4c909042-7c40-4a3b-8b32-c3276b8e7d8c",
+      "image_url": "https://mobbin.com/api/mcp/short/lt5Pui8M",
+      "position": 2
+    },
+    {
+      "screen_id": "335a4cff-f166-4bc4-9887-989c05464195",
+      "image_url": "https://mobbin.com/api/mcp/short/AGhEUFPn",
+      "position": 3
+    },
+    {
+      "screen_id": "12f34009-d0cc-48f4-9122-8eeb48b79ebb",
+      "image_url": "https://mobbin.com/api/mcp/short/DxhphkZK",
+      "position": 4
+    },
+    {
+      "screen_id": "c74a62f5-c4dd-4ccd-b0c8-73aa2df77b4a",
+      "image_url": "https://mobbin.com/api/mcp/short/NRalyBEm",
+      "position": 5
+    },
+    {
+      "screen_id": "70fb1dad-4dd9-4629-b534-441e59db7ced",
+      "image_url": "https://mobbin.com/api/mcp/short/iUVjOr3w",
+      "position": 6
+    }
+  ]
+}

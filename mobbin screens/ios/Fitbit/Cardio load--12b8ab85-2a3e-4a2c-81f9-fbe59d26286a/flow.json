@@ -1,0 +1,56 @@
+{
+  "id": "12b8ab85-2a3e-4a2c-81f9-fbe59d26286a",
+  "name": "Cardio load",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/12b8ab85-2a3e-4a2c-81f9-fbe59d26286a",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "10d034c3-883a-4e3f-aa84-6821c56ff632",
+      "image_url": "https://mobbin.com/api/mcp/short/vVpKvEEx",
+      "position": 1
+    },
+    {
+      "screen_id": "8ce33510-a6c9-46be-959c-b6377fdc440b",
+      "image_url": "https://mobbin.com/api/mcp/short/LDi7EDNm",
+      "position": 2
+    },
+    {
+      "screen_id": "308c106e-c7e8-4550-b107-89148204c333",
+      "image_url": "https://mobbin.com/api/mcp/short/5xXGRNYE",
+      "position": 3
+    },
+    {
+      "screen_id": "241f93ac-4069-4416-a0e0-c2bf2a9c49fd",
+      "image_url": "https://mobbin.com/api/mcp/short/tCiuzwkV",
+      "position": 4
+    },
+    {
+      "screen_id": "001dc540-16a2-4716-9eea-607448503a32",
+      "image_url": "https://mobbin.com/api/mcp/short/jn1cdV9b",
+      "position": 5
+    },
+    {
+      "screen_id": "89c5b835-4656-4d04-8e94-edb2b979dfc7",
+      "image_url": "https://mobbin.com/api/mcp/short/vBWoKJxP",
+      "position": 6
+    },
+    {
+      "screen_id": "64c6f733-8e6b-4907-b827-bd8bc52aca67",
+      "image_url": "https://mobbin.com/api/mcp/short/4vNKlzLZ",
+      "position": 7
+    },
+    {
+      "screen_id": "69b8c36e-546b-4b09-82cd-4a1564b9f38b",
+      "image_url": "https://mobbin.com/api/mcp/short/EVxgqPRd",
+      "position": 8
+    },
+    {
+      "screen_id": "5dbe9207-8fd6-4bb3-9050-d75330485284",
+      "image_url": "https://mobbin.com/api/mcp/short/Z8DqII64",
+      "position": 9
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "4f2c4071-81b4-4276-8a8c-41b1a927b081",
+  "name": "Adding a water intake tracker",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4f2c4071-81b4-4276-8a8c-41b1a927b081",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "b6261b36-44bc-4b38-a1db-a9d921ff1777",
+      "image_url": "https://mobbin.com/api/mcp/short/cZcUhZ6b",
+      "position": 1
+    },
+    {
+      "screen_id": "13449be8-6eaa-4350-8206-f5acad61770c",
+      "image_url": "https://mobbin.com/api/mcp/short/Q8Odl1Hc",
+      "position": 2
+    },
+    {
+      "screen_id": "4e9cd767-ea15-49e0-ab63-3ff5afb12c21",
+      "image_url": "https://mobbin.com/api/mcp/short/TH0AMw7m",
+      "position": 3
+    },
+    {
+      "screen_id": "fc21a380-a075-4f58-8791-105a56bb5b1f",
+      "image_url": "https://mobbin.com/api/mcp/short/HIx1envO",
+      "position": 4
+    },
+    {
+      "screen_id": "a118d5a8-9ecc-45c1-856f-fd1d2dbb3b8f",
+      "image_url": "https://mobbin.com/api/mcp/short/xKiRhoup",
+      "position": 5
+    },
+    {
+      "screen_id": "02c7f6cf-2f85-4b41-8f9c-3a076206de4c",
+      "image_url": "https://mobbin.com/api/mcp/short/rkiJ7kem",
+      "position": 6
+    },
+    {
+      "screen_id": "a870c131-03f6-4414-b785-af47a6c18c9d",
+      "image_url": "https://mobbin.com/api/mcp/short/ackvCzjH",
+      "position": 7
+    },
+    {
+      "screen_id": "631d3bbc-b941-4b2f-bd62-0cf51073c7f9",
+      "image_url": "https://mobbin.com/api/mcp/short/eHMbNA2F",
+      "position": 8
+    }
+  ]
+}

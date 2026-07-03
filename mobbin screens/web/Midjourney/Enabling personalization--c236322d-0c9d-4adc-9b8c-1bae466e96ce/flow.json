@@ -1,0 +1,23 @@
+{
+  "id": "c236322d-0c9d-4adc-9b8c-1bae466e96ce",
+  "name": "Enabling personalization",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c236322d-0c9d-4adc-9b8c-1bae466e96ce",
+  "app_name": "Midjourney",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "2f33ac0b-f0da-416a-888a-f6ec050dc805",
+      "image_url": "https://mobbin.com/api/mcp/short/Okj0B8GE",
+      "position": 1
+    },
+    {
+      "screen_id": "256fa9d9-c408-4e07-87f3-bc5f4d080480",
+      "image_url": "https://mobbin.com/api/mcp/short/OEyR2UGR",
+      "position": 2
+    }
+  ]
+}

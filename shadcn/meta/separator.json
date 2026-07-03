@@ -1,0 +1,16 @@
+{
+  "name": "separator",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/separator.tsx",
+      "extractedTo": "ui/separator.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

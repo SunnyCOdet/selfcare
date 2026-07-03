@@ -1,0 +1,21 @@
+{
+  "id": "5617b412-83be-42a2-826c-9b89fefebe39",
+  "name": "Accept invite code",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5617b412-83be-42a2-826c-9b89fefebe39",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "8021472a-5672-44ae-add0-9b4880720b29",
+      "image_url": "https://mobbin.com/api/mcp/short/nNFVbBZL",
+      "position": 1
+    },
+    {
+      "screen_id": "f62c6e69-f99a-4270-8f7d-b2b97a3e9c59",
+      "image_url": "https://mobbin.com/api/mcp/short/WUk5HaSM",
+      "position": 2
+    }
+  ]
+}

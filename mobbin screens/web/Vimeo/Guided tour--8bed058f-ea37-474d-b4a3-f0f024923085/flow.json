@@ -1,0 +1,36 @@
+{
+  "id": "8bed058f-ea37-474d-b4a3-f0f024923085",
+  "name": "Guided tour",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8bed058f-ea37-474d-b4a3-f0f024923085",
+  "app_name": "Vimeo",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "015cd4b8-0c34-47ba-9fec-72883fcf7f4c",
+      "image_url": "https://mobbin.com/api/mcp/short/YBfTRtaS",
+      "position": 1
+    },
+    {
+      "screen_id": "eb6d93dd-f710-43be-a418-80df44f97d71",
+      "image_url": "https://mobbin.com/api/mcp/short/hbgzTjbW",
+      "position": 2
+    },
+    {
+      "screen_id": "a1ad65dc-e61a-405a-8f45-43b76ce0e60e",
+      "image_url": "https://mobbin.com/api/mcp/short/eduA6OUc",
+      "position": 3
+    },
+    {
+      "screen_id": "d5aeabe8-7e07-43d3-bc4a-10eaa6243e6a",
+      "image_url": "https://mobbin.com/api/mcp/short/kcKtZihR",
+      "position": 4
+    },
+    {
+      "screen_id": "0cf4923d-f5dd-42dc-9ddc-250fb8b91202",
+      "image_url": "https://mobbin.com/api/mcp/short/53RtpMvC",
+      "position": 5
+    }
+  ]
+}

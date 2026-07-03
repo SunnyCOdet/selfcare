@@ -1,0 +1,53 @@
+{
+  "id": "d6432fcc-c67b-49cb-9afd-11e552e63e2f",
+  "name": "Adding services",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d6432fcc-c67b-49cb-9afd-11e552e63e2f",
+  "app_name": "Time2book",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "3fa81b5f-9d3a-49d0-a9e5-59d609f4b2fc",
+      "image_url": "https://mobbin.com/api/mcp/short/gCisdffG",
+      "position": 1
+    },
+    {
+      "screen_id": "9769ed18-b549-4416-b6c8-16650c3a2b86",
+      "image_url": "https://mobbin.com/api/mcp/short/ZeXb8QmD",
+      "position": 2
+    },
+    {
+      "screen_id": "4b410628-e622-4ea3-a0a0-0bf87e984cd5",
+      "image_url": "https://mobbin.com/api/mcp/short/5vyo9sWW",
+      "position": 3
+    },
+    {
+      "screen_id": "60127e31-ca9a-43b6-9c3d-b1b9a0778e7d",
+      "image_url": "https://mobbin.com/api/mcp/short/fYi5LpA9",
+      "position": 4
+    },
+    {
+      "screen_id": "afaa52f8-a633-49ad-9833-ae5bd45b735d",
+      "image_url": "https://mobbin.com/api/mcp/short/U7fUcrbj",
+      "position": 5
+    },
+    {
+      "screen_id": "51169402-1aa1-411b-83b1-8b680583ccb0",
+      "image_url": "https://mobbin.com/api/mcp/short/CFcHxi7b",
+      "position": 6
+    },
+    {
+      "screen_id": "4ce19b35-8812-4015-96fc-f4bf6c98ea7f",
+      "image_url": "https://mobbin.com/api/mcp/short/aPWwm3oj",
+      "position": 7
+    },
+    {
+      "screen_id": "fd0225e7-455f-4c8b-84cc-685a3d3cc815",
+      "image_url": "https://mobbin.com/api/mcp/short/fI8P9cPI",
+      "position": 8
+    }
+  ]
+}

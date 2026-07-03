@@ -1,0 +1,68 @@
+{
+  "id": "48c850ab-006f-4536-a9bc-1d4033c46c9c",
+  "name": "Taking lifestyle quiz",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/48c850ab-006f-4536-a9bc-1d4033c46c9c",
+  "app_name": "Superpower",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "44b7ac6b-18da-48e4-91c1-eeebb55b0034",
+      "image_url": "https://mobbin.com/api/mcp/short/qGhIYSEj",
+      "position": 1
+    },
+    {
+      "screen_id": "e18244c3-9ac5-4419-995a-8b1408dd1a42",
+      "image_url": "https://mobbin.com/api/mcp/short/wIh7guXf",
+      "position": 2
+    },
+    {
+      "screen_id": "2358fe7c-f3e4-4e23-857d-181fd8d601f9",
+      "image_url": "https://mobbin.com/api/mcp/short/5tjeDP87",
+      "position": 3
+    },
+    {
+      "screen_id": "190d8a82-8506-43e3-accd-a9b8d8072bec",
+      "image_url": "https://mobbin.com/api/mcp/short/yZQT07XL",
+      "position": 4
+    },
+    {
+      "screen_id": "798a3c78-3db6-4430-8438-486a54275e2c",
+      "image_url": "https://mobbin.com/api/mcp/short/5A5nJarP",
+      "position": 5
+    },
+    {
+      "screen_id": "ed63e6fb-20ab-401b-b3ba-0df62f3e38ca",
+      "image_url": "https://mobbin.com/api/mcp/short/WxuGga42",
+      "position": 6
+    },
+    {
+      "screen_id": "ba73eeb3-4bb4-482a-80dc-a8bc2f1c9292",
+      "image_url": "https://mobbin.com/api/mcp/short/uXAZP6tt",
+      "position": 7
+    },
+    {
+      "screen_id": "ccad5080-8910-491f-b863-94b9433f0214",
+      "image_url": "https://mobbin.com/api/mcp/short/De1kPpba",
+      "position": 8
+    },
+    {
+      "screen_id": "d8ec98f5-93c0-4e56-bdf8-756e82d92872",
+      "image_url": "https://mobbin.com/api/mcp/short/INbobdMG",
+      "position": 9
+    },
+    {
+      "screen_id": "a827aec3-4247-4191-ae44-edc79d3723fd",
+      "image_url": "https://mobbin.com/api/mcp/short/jyvqoJyr",
+      "position": 10
+    },
+    {
+      "screen_id": "8266f5d0-f942-4bfb-9d86-b0e3caad8658",
+      "image_url": "https://mobbin.com/api/mcp/short/6Z2NQPVN",
+      "position": 11
+    }
+  ]
+}

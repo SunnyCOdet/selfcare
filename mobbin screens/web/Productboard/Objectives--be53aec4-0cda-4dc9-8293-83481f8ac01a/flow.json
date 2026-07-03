@@ -1,0 +1,31 @@
+{
+  "id": "be53aec4-0cda-4dc9-8293-83481f8ac01a",
+  "name": "Objectives",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/be53aec4-0cda-4dc9-8293-83481f8ac01a",
+  "app_name": "Productboard",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "e4473f92-5ff7-4447-8735-49e604751408",
+      "image_url": "https://mobbin.com/api/mcp/short/8VxHDxql",
+      "position": 1
+    },
+    {
+      "screen_id": "c81cf517-1fbc-4e78-8253-f34f0d81978a",
+      "image_url": "https://mobbin.com/api/mcp/short/JOCZ6S1M",
+      "position": 2
+    },
+    {
+      "screen_id": "647d4a71-f2e5-41f6-9473-8308ee3cedfd",
+      "image_url": "https://mobbin.com/api/mcp/short/HK0eceJ6",
+      "position": 3
+    },
+    {
+      "screen_id": "11967733-700f-422c-bd1a-266461ec192b",
+      "image_url": "https://mobbin.com/api/mcp/short/XFuT6Po9",
+      "position": 4
+    }
+  ]
+}

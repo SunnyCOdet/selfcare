@@ -1,0 +1,36 @@
+{
+  "id": "e53480d9-868f-478d-9437-1df535cddaf3",
+  "name": "Onboarding tasks",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e53480d9-868f-478d-9437-1df535cddaf3",
+  "app_name": "Better Stack",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "1be5cd7d-32e7-4bc5-ae78-7bf7f5a75590",
+      "image_url": "https://mobbin.com/api/mcp/short/Nrdqboyj",
+      "position": 1
+    },
+    {
+      "screen_id": "4ed2e29e-77df-43c3-aa2e-45dfee29a920",
+      "image_url": "https://mobbin.com/api/mcp/short/rnn1ffLL",
+      "position": 2
+    },
+    {
+      "screen_id": "946dc743-5246-4637-bdd5-03e11a0b9503",
+      "image_url": "https://mobbin.com/api/mcp/short/xLE5x7iE",
+      "position": 3
+    },
+    {
+      "screen_id": "44bfce6f-465c-4396-9733-5bd86ad128d9",
+      "image_url": "https://mobbin.com/api/mcp/short/99CEgfuO",
+      "position": 4
+    },
+    {
+      "screen_id": "3c1d71b7-6bfd-4598-88cb-199ec0cbefe0",
+      "image_url": "https://mobbin.com/api/mcp/short/mIKIjWrE",
+      "position": 5
+    }
+  ]
+}

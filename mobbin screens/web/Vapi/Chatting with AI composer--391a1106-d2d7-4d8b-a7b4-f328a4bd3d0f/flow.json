@@ -1,0 +1,38 @@
+{
+  "id": "391a1106-d2d7-4d8b-a7b4-f328a4bd3d0f",
+  "name": "Chatting with AI composer",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/391a1106-d2d7-4d8b-a7b4-f328a4bd3d0f",
+  "app_name": "Vapi",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0e6e1bfa-efea-4a61-9069-be2a7d8869e3",
+      "image_url": "https://mobbin.com/api/mcp/short/NpvWVVaS",
+      "position": 1
+    },
+    {
+      "screen_id": "02cdea9d-e14a-45b2-a23c-71f0c669d4f5",
+      "image_url": "https://mobbin.com/api/mcp/short/vbZbjqlH",
+      "position": 2
+    },
+    {
+      "screen_id": "5bf929df-50fa-4f7c-b7b7-ac92e1126e18",
+      "image_url": "https://mobbin.com/api/mcp/short/NMeDy2KI",
+      "position": 3
+    },
+    {
+      "screen_id": "41f74002-60b2-40e3-b092-a14bf4377ad5",
+      "image_url": "https://mobbin.com/api/mcp/short/Z5760KqY",
+      "position": 4
+    },
+    {
+      "screen_id": "05075b5c-0ddf-4663-a452-868b60d694ea",
+      "image_url": "https://mobbin.com/api/mcp/short/sMkYi0QF",
+      "position": 5
+    }
+  ]
+}

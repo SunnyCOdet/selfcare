@@ -1,0 +1,49 @@
+{
+  "id": "f7edf66b-8ad2-4503-8ac8-026cf3aaed3e",
+  "name": "Requesting songs to AI DJ",
+  "actions": [
+    "Adding & Creating",
+    "Listening to Audio"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f7edf66b-8ad2-4503-8ac8-026cf3aaed3e",
+  "app_name": "Spotify",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "f55540ce-24bd-43ac-a919-0908f07e3e09",
+      "image_url": "https://mobbin.com/api/mcp/short/uV3j0Xh5",
+      "position": 1
+    },
+    {
+      "screen_id": "5c0103b9-fe6f-4229-ac66-c8c462b5d871",
+      "image_url": "https://mobbin.com/api/mcp/short/TjqLQQ3C",
+      "position": 2
+    },
+    {
+      "screen_id": "c1a30642-72d4-4f6a-99b3-d2ffd0840f76",
+      "image_url": "https://mobbin.com/api/mcp/short/i28Swz7y",
+      "position": 3
+    },
+    {
+      "screen_id": "283b56ad-69a2-44dc-830b-77e28c388454",
+      "image_url": "https://mobbin.com/api/mcp/short/CDOqgCuZ",
+      "position": 4
+    },
+    {
+      "screen_id": "6d0aef99-6d3e-45bb-8518-320fb0cc09c7",
+      "image_url": "https://mobbin.com/api/mcp/short/xXENXFEZ",
+      "position": 5
+    },
+    {
+      "screen_id": "e5a03920-10ee-4981-a704-7f90611987f3",
+      "image_url": "https://mobbin.com/api/mcp/short/kZf1bOyp",
+      "position": 6
+    },
+    {
+      "screen_id": "210d2d81-19f4-4df5-9b05-079beaf417a9",
+      "image_url": "https://mobbin.com/api/mcp/short/L61xiNWk",
+      "position": 7
+    }
+  ]
+}

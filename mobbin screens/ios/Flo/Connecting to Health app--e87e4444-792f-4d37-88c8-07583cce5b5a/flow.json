@@ -1,0 +1,28 @@
+{
+  "id": "e87e4444-792f-4d37-88c8-07583cce5b5a",
+  "name": "Connecting to Health app",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e87e4444-792f-4d37-88c8-07583cce5b5a",
+  "app_name": "Flo",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "54d86529-5264-4595-ad02-8c309ad28524",
+      "image_url": "https://mobbin.com/api/mcp/short/9TCDQXak",
+      "position": 1
+    },
+    {
+      "screen_id": "837cb343-958a-429b-8b03-26fd2be4750f",
+      "image_url": "https://mobbin.com/api/mcp/short/KK0biE7p",
+      "position": 2
+    },
+    {
+      "screen_id": "ff2f2bb1-c59b-491b-8ea0-54b4bd258bb8",
+      "image_url": "https://mobbin.com/api/mcp/short/2oTGIw62",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "b52344d5-1bef-4040-b7f5-7e9dff89bf19",
+  "name": "Set your team for success",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b52344d5-1bef-4040-b7f5-7e9dff89bf19",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "799cdc00-c355-4d0f-bc74-f6b2ea09f29c",
+      "image_url": "https://mobbin.com/api/mcp/short/bM2HkdRf",
+      "position": 1
+    },
+    {
+      "screen_id": "b51f1a79-3591-4efb-90de-4a8d97d535d3",
+      "image_url": "https://mobbin.com/api/mcp/short/kjnoYFNW",
+      "position": 2
+    },
+    {
+      "screen_id": "1e7b19ed-84ad-41cd-9b0a-58bc9180df57",
+      "image_url": "https://mobbin.com/api/mcp/short/N5lepQSk",
+      "position": 3
+    },
+    {
+      "screen_id": "e01d25e9-fffe-4cc2-ad42-7e3523753c99",
+      "image_url": "https://mobbin.com/api/mcp/short/u6UiE6nJ",
+      "position": 4
+    },
+    {
+      "screen_id": "cd625ef1-be6c-454c-852b-00642bf16f7e",
+      "image_url": "https://mobbin.com/api/mcp/short/0j4Q5hoD",
+      "position": 5
+    }
+  ]
+}

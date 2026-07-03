@@ -1,0 +1,33 @@
+{
+  "id": "8c4097d1-4377-4041-a1ac-1ecee2cc6030",
+  "name": "Joining an organization",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8c4097d1-4377-4041-a1ac-1ecee2cc6030",
+  "app_name": "Amplitude",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "ba407fd7-3a6e-4581-b71e-4172ad6f1823",
+      "image_url": "https://mobbin.com/api/mcp/short/L3iihMkN",
+      "position": 1
+    },
+    {
+      "screen_id": "49f5f404-51f0-44a9-8c64-e851c796d741",
+      "image_url": "https://mobbin.com/api/mcp/short/f2eSL45g",
+      "position": 2
+    },
+    {
+      "screen_id": "482c72e6-9e07-4b11-a934-72e87a30d54d",
+      "image_url": "https://mobbin.com/api/mcp/short/H8uMMlGT",
+      "position": 3
+    },
+    {
+      "screen_id": "00454e69-6b1f-486e-ab83-2435d0a3e7b5",
+      "image_url": "https://mobbin.com/api/mcp/short/YrNgulmx",
+      "position": 4
+    }
+  ]
+}

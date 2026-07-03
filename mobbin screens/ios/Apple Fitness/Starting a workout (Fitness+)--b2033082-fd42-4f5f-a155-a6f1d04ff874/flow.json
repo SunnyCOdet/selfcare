@@ -1,0 +1,49 @@
+{
+  "id": "b2033082-fd42-4f5f-a155-a6f1d04ff874",
+  "name": "Starting a workout (Fitness+)",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b2033082-fd42-4f5f-a155-a6f1d04ff874",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "f001c65a-4897-49b9-96c2-69ad6d4c566e",
+      "image_url": "https://mobbin.com/api/mcp/short/i4Ak8MRZ",
+      "position": 1
+    },
+    {
+      "screen_id": "32d310ef-7677-491e-bb46-0cdb77861414",
+      "image_url": "https://mobbin.com/api/mcp/short/fSONrRNn",
+      "position": 2
+    },
+    {
+      "screen_id": "336b222c-66f9-4e12-9faa-60c4de43f482",
+      "image_url": "https://mobbin.com/api/mcp/short/EF1c87wa",
+      "position": 3
+    },
+    {
+      "screen_id": "56a49f54-59d4-493b-81bd-2e09b310831d",
+      "image_url": "https://mobbin.com/api/mcp/short/71k4fzml",
+      "position": 4
+    },
+    {
+      "screen_id": "620e1c4b-46e7-4ba7-936d-a2bded2de22e",
+      "image_url": "https://mobbin.com/api/mcp/short/iTzsjTqr",
+      "position": 5
+    },
+    {
+      "screen_id": "0c625a3f-37c1-4ed5-9727-4eafb9100926",
+      "image_url": "https://mobbin.com/api/mcp/short/FP59K8Il",
+      "position": 6
+    },
+    {
+      "screen_id": "9d7eda62-74e6-4bd6-9efc-b0c05c1e5753",
+      "image_url": "https://mobbin.com/api/mcp/short/HemI8CMT",
+      "position": 7
+    }
+  ]
+}

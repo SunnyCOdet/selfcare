@@ -1,0 +1,39 @@
+{
+  "id": "300aabc4-c2f3-4c5f-b5c2-89e48a2a0962",
+  "name": "Onboarding ",
+  "actions": [
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/300aabc4-c2f3-4c5f-b5c2-89e48a2a0962",
+  "app_name": "Pangea Charging",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ba1b0625-8c99-4d6e-bdc6-381a527b6cba",
+      "image_url": "https://mobbin.com/api/mcp/short/Nt2SIsAT",
+      "position": 1
+    },
+    {
+      "screen_id": "c810ed75-d401-42c0-b446-7a5cd288b7ab",
+      "image_url": "https://mobbin.com/api/mcp/short/gxhO6PTT",
+      "position": 2
+    },
+    {
+      "screen_id": "25ffa0a4-bec1-4ff0-ac70-bc2b0a33f34a",
+      "image_url": "https://mobbin.com/api/mcp/short/fDi0MoVG",
+      "position": 3
+    },
+    {
+      "screen_id": "05bda964-a792-4c7b-af02-a32749c71bcd",
+      "image_url": "https://mobbin.com/api/mcp/short/tOs92T9K",
+      "position": 4
+    },
+    {
+      "screen_id": "63c46c48-fa1b-4b4a-a392-ba864d3e98f6",
+      "image_url": "https://mobbin.com/api/mcp/short/rIdfHWDa",
+      "position": 5
+    }
+  ]
+}

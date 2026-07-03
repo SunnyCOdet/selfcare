@@ -1,0 +1,21 @@
+{
+  "id": "fb43b92c-113a-4bcd-aa83-cbafa8c8bee4",
+  "name": "Meta AI training",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/fb43b92c-113a-4bcd-aa83-cbafa8c8bee4",
+  "app_name": "Instagram",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "cae5feb0-1986-441e-b8b2-704694476653",
+      "image_url": "https://mobbin.com/api/mcp/short/5PYiOoUp",
+      "position": 1
+    },
+    {
+      "screen_id": "e77c282c-58bc-4c82-ada4-2fa3b8ce291c",
+      "image_url": "https://mobbin.com/api/mcp/short/KgDnvlAR",
+      "position": 2
+    }
+  ]
+}

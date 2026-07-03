@@ -1,0 +1,46 @@
+{
+  "id": "844863f5-3435-4362-ba40-b37a04a6e6b9",
+  "name": "App walkthrough",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/844863f5-3435-4362-ba40-b37a04a6e6b9",
+  "app_name": "Numo",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "4f61f5a9-ddb4-4042-a0d1-f646f9091e87",
+      "image_url": "https://mobbin.com/api/mcp/short/M8K4nRP8",
+      "position": 1
+    },
+    {
+      "screen_id": "c8cbdcbf-0247-4086-be52-73762ac587c2",
+      "image_url": "https://mobbin.com/api/mcp/short/Df5XB4Tu",
+      "position": 2
+    },
+    {
+      "screen_id": "f1161529-6e81-4636-88ad-76f0cde0cf35",
+      "image_url": "https://mobbin.com/api/mcp/short/T4mDXsIt",
+      "position": 3
+    },
+    {
+      "screen_id": "d5efd6ec-a81c-4aa2-bc97-3fd830363f58",
+      "image_url": "https://mobbin.com/api/mcp/short/HzyebTCd",
+      "position": 4
+    },
+    {
+      "screen_id": "ce69ef20-ae7a-4f09-85e7-cb7e621f5aae",
+      "image_url": "https://mobbin.com/api/mcp/short/yYDWmnsG",
+      "position": 5
+    },
+    {
+      "screen_id": "96174a43-7e8e-4692-b456-13f53c2100e4",
+      "image_url": "https://mobbin.com/api/mcp/short/cqOzfUXe",
+      "position": 6
+    },
+    {
+      "screen_id": "d254fac8-12f6-400f-841e-c7fd17bb314e",
+      "image_url": "https://mobbin.com/api/mcp/short/aZmTWH0f",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "5ad953e4-2915-4a9b-a48f-214b59efb2dc",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5ad953e4-2915-4a9b-a48f-214b59efb2dc",
+  "app_name": "Asana",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3021a769-6c8f-4906-bd64-43dea803c08c",
+      "image_url": "https://mobbin.com/api/mcp/short/oGEnvZg9",
+      "position": 1
+    },
+    {
+      "screen_id": "de8ff0aa-9512-4d41-b7fc-0886a3e76071",
+      "image_url": "https://mobbin.com/api/mcp/short/Hz74P90C",
+      "position": 2
+    },
+    {
+      "screen_id": "a1c192ef-b012-4cb9-b117-367d14dba042",
+      "image_url": "https://mobbin.com/api/mcp/short/EWQVc2A4",
+      "position": 3
+    },
+    {
+      "screen_id": "ccfd8fc8-1947-416c-bed3-89fce94005a4",
+      "image_url": "https://mobbin.com/api/mcp/short/uheONquI",
+      "position": 4
+    },
+    {
+      "screen_id": "16437132-f18a-48ef-ad5a-c499d3f5d339",
+      "image_url": "https://mobbin.com/api/mcp/short/yXSFq09Y",
+      "position": 5
+    },
+    {
+      "screen_id": "7eb98401-ae7a-4974-bd97-b42a8a316398",
+      "image_url": "https://mobbin.com/api/mcp/short/os7dINHX",
+      "position": 6
+    }
+  ]
+}

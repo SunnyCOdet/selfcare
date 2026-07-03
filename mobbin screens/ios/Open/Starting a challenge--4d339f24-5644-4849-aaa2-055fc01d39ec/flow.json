@@ -1,0 +1,38 @@
+{
+  "id": "4d339f24-5644-4849-aaa2-055fc01d39ec",
+  "name": "Starting a challenge",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4d339f24-5644-4849-aaa2-055fc01d39ec",
+  "app_name": "Open",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "b354d1b2-1cfe-4e00-be83-6c7eee3587d0",
+      "image_url": "https://mobbin.com/api/mcp/short/TNephr2p",
+      "position": 1
+    },
+    {
+      "screen_id": "c3f7d3fd-ecb4-4569-9b63-1042de2b6ec3",
+      "image_url": "https://mobbin.com/api/mcp/short/8jDUVgWm",
+      "position": 2
+    },
+    {
+      "screen_id": "105c8d10-2f61-44ed-8f1c-f1e50f71377f",
+      "image_url": "https://mobbin.com/api/mcp/short/GmwYQoi4",
+      "position": 3
+    },
+    {
+      "screen_id": "1d04eea3-08a0-482c-b3c7-8800e4e15475",
+      "image_url": "https://mobbin.com/api/mcp/short/1ZPHBi9E",
+      "position": 4
+    },
+    {
+      "screen_id": "d68868ff-0e0a-4526-80d1-88d30ed4e632",
+      "image_url": "https://mobbin.com/api/mcp/short/cX0cts2J",
+      "position": 5
+    }
+  ]
+}

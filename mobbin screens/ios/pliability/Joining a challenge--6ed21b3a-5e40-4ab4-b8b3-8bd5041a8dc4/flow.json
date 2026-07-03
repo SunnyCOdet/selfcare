@@ -1,0 +1,43 @@
+{
+  "id": "6ed21b3a-5e40-4ab4-b8b3-8bd5041a8dc4",
+  "name": "Joining a challenge",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6ed21b3a-5e40-4ab4-b8b3-8bd5041a8dc4",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "62baffd6-16c6-45a2-8193-c3cd47e7f20e",
+      "image_url": "https://mobbin.com/api/mcp/short/IXGZniNQ",
+      "position": 1
+    },
+    {
+      "screen_id": "4f1c84fd-bb5a-481c-a87a-b3a01756a358",
+      "image_url": "https://mobbin.com/api/mcp/short/Gv6ekUc9",
+      "position": 2
+    },
+    {
+      "screen_id": "5999f54f-94c6-4320-b4a6-7e0a1d3079ab",
+      "image_url": "https://mobbin.com/api/mcp/short/NvErHhMm",
+      "position": 3
+    },
+    {
+      "screen_id": "54254a8a-4cfe-4992-9d5b-d5b91faaf485",
+      "image_url": "https://mobbin.com/api/mcp/short/AK5yTKZU",
+      "position": 4
+    },
+    {
+      "screen_id": "cf863ce2-462b-4eb3-b5c1-db64704f7fe7",
+      "image_url": "https://mobbin.com/api/mcp/short/gyBk2opX",
+      "position": 5
+    },
+    {
+      "screen_id": "0536937f-388e-4878-ad45-2dacbd01de4d",
+      "image_url": "https://mobbin.com/api/mcp/short/IMBBiiCD",
+      "position": 6
+    }
+  ]
+}

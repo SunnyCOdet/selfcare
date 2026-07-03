@@ -1,0 +1,64 @@
+{
+  "id": "c9310203-76fd-400f-b125-3a7f1a1ddbb3",
+  "name": "Purchasing a credit",
+  "actions": [
+    "Adding to Cart & Bag",
+    "Purchasing & Ordering"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c9310203-76fd-400f-b125-3a7f1a1ddbb3",
+  "app_name": "Open",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "707f814d-9f34-4808-9b37-f319228e3f70",
+      "image_url": "https://mobbin.com/api/mcp/short/lWf5dRlh",
+      "position": 1
+    },
+    {
+      "screen_id": "2ec5c5aa-a4df-489f-9f07-9342c6fb4277",
+      "image_url": "https://mobbin.com/api/mcp/short/Ojx1DzXi",
+      "position": 2
+    },
+    {
+      "screen_id": "ec020a9a-267e-4386-846a-b42613b2e95d",
+      "image_url": "https://mobbin.com/api/mcp/short/ZZYu2uSg",
+      "position": 3
+    },
+    {
+      "screen_id": "d16aafae-8bf0-4f1a-aed4-62d52679788d",
+      "image_url": "https://mobbin.com/api/mcp/short/R9qWf13e",
+      "position": 4
+    },
+    {
+      "screen_id": "4137da6d-e624-42d7-a121-5ed05e344d61",
+      "image_url": "https://mobbin.com/api/mcp/short/8EYsFxhi",
+      "position": 5
+    },
+    {
+      "screen_id": "e4ae072b-4d06-4ac6-8918-b4cb0f3f97c3",
+      "image_url": "https://mobbin.com/api/mcp/short/KRJOV4PW",
+      "position": 6
+    },
+    {
+      "screen_id": "b90df21b-b67d-4d63-a188-f262b007b4aa",
+      "image_url": "https://mobbin.com/api/mcp/short/n1zoIdu1",
+      "position": 7
+    },
+    {
+      "screen_id": "675b2324-fea5-47ae-8fc9-576b72dd3857",
+      "image_url": "https://mobbin.com/api/mcp/short/pAKEaHv3",
+      "position": 8
+    },
+    {
+      "screen_id": "64e3c46d-610e-44ca-9df3-9e370b0182ba",
+      "image_url": "https://mobbin.com/api/mcp/short/5iDsOGzU",
+      "position": 9
+    },
+    {
+      "screen_id": "d5d00070-d101-403a-a0f9-1f468e4117dc",
+      "image_url": "https://mobbin.com/api/mcp/short/EvfMmyx8",
+      "position": 10
+    }
+  ]
+}

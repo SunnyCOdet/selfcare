@@ -1,0 +1,28 @@
+{
+  "id": "b1cc8a2a-fdc1-4b5c-b710-7987a8d6a7d1",
+  "name": "Updating a main goal",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b1cc8a2a-fdc1-4b5c-b710-7987a8d6a7d1",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "de876794-8d4e-45d0-93bb-dcb9e4074bac",
+      "image_url": "https://mobbin.com/api/mcp/short/4ZOdN1PG",
+      "position": 1
+    },
+    {
+      "screen_id": "755ceba7-9e0a-4eef-80c6-5b8bfc652266",
+      "image_url": "https://mobbin.com/api/mcp/short/J466XlnX",
+      "position": 2
+    },
+    {
+      "screen_id": "7e6d0c65-8035-44f7-9973-75c2f511d512",
+      "image_url": "https://mobbin.com/api/mcp/short/Lm1g98Tc",
+      "position": 3
+    }
+  ]
+}

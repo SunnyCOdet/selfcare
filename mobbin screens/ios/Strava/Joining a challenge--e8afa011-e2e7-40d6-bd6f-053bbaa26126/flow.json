@@ -1,0 +1,23 @@
+{
+  "id": "e8afa011-e2e7-40d6-bd6f-053bbaa26126",
+  "name": "Joining a challenge",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e8afa011-e2e7-40d6-bd6f-053bbaa26126",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "e83a3184-261f-4aa5-800a-19fb7a7098f2",
+      "image_url": "https://mobbin.com/api/mcp/short/6FfMpiRp",
+      "position": 1
+    },
+    {
+      "screen_id": "61b81286-8b15-4161-9ea3-5e71762d5113",
+      "image_url": "https://mobbin.com/api/mcp/short/tb8vnPzn",
+      "position": 2
+    }
+  ]
+}

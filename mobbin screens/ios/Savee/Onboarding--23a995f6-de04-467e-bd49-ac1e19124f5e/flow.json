@@ -1,0 +1,44 @@
+{
+  "id": "23a995f6-de04-467e-bd49-ac1e19124f5e",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/23a995f6-de04-467e-bd49-ac1e19124f5e",
+  "app_name": "Savee",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "60d2757f-ceb0-4c92-8f6b-6751b193a896",
+      "image_url": "https://mobbin.com/api/mcp/short/AwAk6ogP",
+      "position": 1
+    },
+    {
+      "screen_id": "c6e44041-0a19-46ca-b89b-cf8ba808a365",
+      "image_url": "https://mobbin.com/api/mcp/short/x84dZaIv",
+      "position": 2
+    },
+    {
+      "screen_id": "3a9b8279-73f9-4c42-a738-9f20b83efbf6",
+      "image_url": "https://mobbin.com/api/mcp/short/Sqk7NtYx",
+      "position": 3
+    },
+    {
+      "screen_id": "ca0911a9-8046-40fa-b179-1e152bdcca5e",
+      "image_url": "https://mobbin.com/api/mcp/short/dkwvp3MG",
+      "position": 4
+    },
+    {
+      "screen_id": "d9e90afc-19c4-4c76-a20e-57cc37a06941",
+      "image_url": "https://mobbin.com/api/mcp/short/KEa1mXjS",
+      "position": 5
+    },
+    {
+      "screen_id": "7b8b8b21-715c-48ba-9630-1a1b9acabefa",
+      "image_url": "https://mobbin.com/api/mcp/short/7ydI7utc",
+      "position": 6
+    }
+  ]
+}

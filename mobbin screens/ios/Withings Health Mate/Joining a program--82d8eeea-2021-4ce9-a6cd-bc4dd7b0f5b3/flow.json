@@ -1,0 +1,79 @@
+{
+  "id": "82d8eeea-2021-4ce9-a6cd-bc4dd7b0f5b3",
+  "name": "Joining a program",
+  "actions": [
+    "Joining & Accepting",
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/82d8eeea-2021-4ce9-a6cd-bc4dd7b0f5b3",
+  "app_name": "Withings Health Mate",
+  "platform": "ios",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "adcfb372-0bc8-4039-aa5a-6d8f2dc97fb3",
+      "image_url": "https://mobbin.com/api/mcp/short/KfMbpuI0",
+      "position": 1
+    },
+    {
+      "screen_id": "a19e8b7b-bc62-49ca-9873-012aec2541f5",
+      "image_url": "https://mobbin.com/api/mcp/short/803z2SF0",
+      "position": 2
+    },
+    {
+      "screen_id": "18197394-687f-43c7-b567-7a066652443f",
+      "image_url": "https://mobbin.com/api/mcp/short/NAgMRDzK",
+      "position": 3
+    },
+    {
+      "screen_id": "51aa3dc0-3f18-41d2-aefd-b04833a3d681",
+      "image_url": "https://mobbin.com/api/mcp/short/Mvqkp1jb",
+      "position": 4
+    },
+    {
+      "screen_id": "08b73e08-6517-4b01-b250-be4c6d8d0805",
+      "image_url": "https://mobbin.com/api/mcp/short/MJPj8tAp",
+      "position": 5
+    },
+    {
+      "screen_id": "db1f21b5-008b-4388-bf9a-39b2d27c9789",
+      "image_url": "https://mobbin.com/api/mcp/short/9nVcXOEu",
+      "position": 6
+    },
+    {
+      "screen_id": "2b216b74-bbdc-4fd6-ad29-8d941189d0cb",
+      "image_url": "https://mobbin.com/api/mcp/short/qE2XdsXE",
+      "position": 7
+    },
+    {
+      "screen_id": "3a4f2428-bdf1-427b-b578-c703c4a0b0f5",
+      "image_url": "https://mobbin.com/api/mcp/short/1FQ42eHs",
+      "position": 8
+    },
+    {
+      "screen_id": "a2e75e79-77a4-4ed7-8e44-8dbe758f5031",
+      "image_url": "https://mobbin.com/api/mcp/short/bVAOC4T8",
+      "position": 9
+    },
+    {
+      "screen_id": "f88de6bd-22d6-4a00-aba2-7aba2e92b8e9",
+      "image_url": "https://mobbin.com/api/mcp/short/OWWqKcMQ",
+      "position": 10
+    },
+    {
+      "screen_id": "8528f041-a798-4b98-9c62-5a2f4fa85ce4",
+      "image_url": "https://mobbin.com/api/mcp/short/HXYhVDol",
+      "position": 11
+    },
+    {
+      "screen_id": "5c3cf4d0-2105-4444-afc5-1f1a501303d0",
+      "image_url": "https://mobbin.com/api/mcp/short/xw1FlGGy",
+      "position": 12
+    },
+    {
+      "screen_id": "418da309-7ad3-4362-aa74-b1d4b19e249f",
+      "image_url": "https://mobbin.com/api/mcp/short/i9HNsAhX",
+      "position": 13
+    }
+  ]
+}

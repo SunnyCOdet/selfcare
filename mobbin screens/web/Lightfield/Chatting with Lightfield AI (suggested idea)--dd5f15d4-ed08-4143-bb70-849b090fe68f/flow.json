@@ -1,0 +1,28 @@
+{
+  "id": "dd5f15d4-ed08-4143-bb70-849b090fe68f",
+  "name": "Chatting with Lightfield AI (suggested idea)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dd5f15d4-ed08-4143-bb70-849b090fe68f",
+  "app_name": "Lightfield",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "6fcd23da-34c0-4578-aab6-13c6dc55050f",
+      "image_url": "https://mobbin.com/api/mcp/short/giDLTb4y",
+      "position": 1
+    },
+    {
+      "screen_id": "d8df269b-f79a-4abc-8362-4411c1923de3",
+      "image_url": "https://mobbin.com/api/mcp/short/sJicrWZ5",
+      "position": 2
+    },
+    {
+      "screen_id": "562ba9b2-f665-45a1-ba0f-cdee7d16b6da",
+      "image_url": "https://mobbin.com/api/mcp/short/2LTp3Id3",
+      "position": 3
+    }
+  ]
+}

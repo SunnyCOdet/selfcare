@@ -1,0 +1,28 @@
+{
+  "id": "bfcc34b6-32a9-4588-a3d1-1155815cdae5",
+  "name": "Searching a training plan",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bfcc34b6-32a9-4588-a3d1-1155815cdae5",
+  "app_name": "Tempo",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "3b6166f4-9ea0-46a3-b1c0-5c27047344d4",
+      "image_url": "https://mobbin.com/api/mcp/short/DjDqOvZE",
+      "position": 1
+    },
+    {
+      "screen_id": "c7abb939-d953-43b3-b996-c27156ba743a",
+      "image_url": "https://mobbin.com/api/mcp/short/TSrmx6JZ",
+      "position": 2
+    },
+    {
+      "screen_id": "4b4350f5-2e86-427b-811a-79e3f2b561a9",
+      "image_url": "https://mobbin.com/api/mcp/short/3hdIH4PY",
+      "position": 3
+    }
+  ]
+}

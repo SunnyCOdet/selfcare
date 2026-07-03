@@ -1,0 +1,55 @@
+{
+  "id": "6ab45ed0-8bdd-4e36-8a6d-5b49b4e7a8fc",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Selecting & Choosing",
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6ab45ed0-8bdd-4e36-8a6d-5b49b4e7a8fc",
+  "app_name": "Apple Store",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "5c3c2895-3815-42a6-9c66-32f09f4a4014",
+      "image_url": "https://mobbin.com/api/mcp/short/ojgkFNEl",
+      "position": 1
+    },
+    {
+      "screen_id": "0b0e8cd8-bf63-4a25-98b0-a836c9f34381",
+      "image_url": "https://mobbin.com/api/mcp/short/LbFhLLyc",
+      "position": 2
+    },
+    {
+      "screen_id": "e6a8509c-d8e7-435f-a6ed-dba20eac7f3f",
+      "image_url": "https://mobbin.com/api/mcp/short/FBNETJZ4",
+      "position": 3
+    },
+    {
+      "screen_id": "f59fbb2f-a449-4dc8-ab71-f34d66a2bc33",
+      "image_url": "https://mobbin.com/api/mcp/short/Q8IdYFhd",
+      "position": 4
+    },
+    {
+      "screen_id": "6d6d04f8-a177-4ab4-ab2e-9fb4fcceeb85",
+      "image_url": "https://mobbin.com/api/mcp/short/gWB2xeSR",
+      "position": 5
+    },
+    {
+      "screen_id": "b0bd4163-08a5-4c7e-b57a-d6d7e275af78",
+      "image_url": "https://mobbin.com/api/mcp/short/bDeUzhUp",
+      "position": 6
+    },
+    {
+      "screen_id": "925fa653-0b07-4695-bc0b-1a33ba339b61",
+      "image_url": "https://mobbin.com/api/mcp/short/zadstNGM",
+      "position": 7
+    },
+    {
+      "screen_id": "0c41790b-1666-459d-b60a-dbf817dc6835",
+      "image_url": "https://mobbin.com/api/mcp/short/3C2XCbbV",
+      "position": 8
+    }
+  ]
+}

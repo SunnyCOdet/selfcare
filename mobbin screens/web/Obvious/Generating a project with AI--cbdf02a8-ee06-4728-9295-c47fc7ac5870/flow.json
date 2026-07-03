@@ -1,0 +1,65 @@
+{
+  "id": "cbdf02a8-ee06-4728-9295-c47fc7ac5870",
+  "name": "Generating a project with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cbdf02a8-ee06-4728-9295-c47fc7ac5870",
+  "app_name": "Obvious",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "c680f912-0d2d-4bb6-9926-9fda232cba7d",
+      "image_url": "https://mobbin.com/api/mcp/short/5xx69U7q",
+      "position": 1
+    },
+    {
+      "screen_id": "e02a3b8c-ca83-4357-96d2-6ef99b894555",
+      "image_url": "https://mobbin.com/api/mcp/short/OvS0ucEo",
+      "position": 2
+    },
+    {
+      "screen_id": "e87c5b20-bd8c-43ae-85ae-17b266918dd6",
+      "image_url": "https://mobbin.com/api/mcp/short/zaMKce2g",
+      "position": 3
+    },
+    {
+      "screen_id": "086103c7-8693-42ff-99a0-99b97e72954a",
+      "image_url": "https://mobbin.com/api/mcp/short/Bs8qSCDd",
+      "position": 4
+    },
+    {
+      "screen_id": "7831d2d0-8706-40e2-b621-199cfac1a912",
+      "image_url": "https://mobbin.com/api/mcp/short/Ly8eNqEe",
+      "position": 5
+    },
+    {
+      "screen_id": "24087525-bb65-4199-b385-6a85bb48ef80",
+      "image_url": "https://mobbin.com/api/mcp/short/geItSX5k",
+      "position": 6
+    },
+    {
+      "screen_id": "30c3c852-9df8-4375-956e-553e6e48a928",
+      "image_url": "https://mobbin.com/api/mcp/short/EFwf8Oih",
+      "position": 7
+    },
+    {
+      "screen_id": "9fc57d9a-f743-45f8-8649-af972c53d9d5",
+      "image_url": "https://mobbin.com/api/mcp/short/VxRrebaU",
+      "position": 8
+    },
+    {
+      "screen_id": "10583b85-2fb7-4d8d-a046-e957c024f438",
+      "image_url": "https://mobbin.com/api/mcp/short/Q89mpD50",
+      "position": 9
+    },
+    {
+      "screen_id": "05371b8c-e988-4705-91d6-80ac14d41e56",
+      "image_url": "https://mobbin.com/api/mcp/short/frYYeGEH",
+      "position": 10
+    }
+  ]
+}

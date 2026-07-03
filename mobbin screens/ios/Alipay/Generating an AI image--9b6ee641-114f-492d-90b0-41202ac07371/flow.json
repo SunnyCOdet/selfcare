@@ -1,0 +1,69 @@
+{
+  "id": "9b6ee641-114f-492d-90b0-41202ac07371",
+  "name": "Generating an AI image",
+  "actions": [
+    "Adding & Creating",
+    "Taking Photos"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9b6ee641-114f-492d-90b0-41202ac07371",
+  "app_name": "Alipay",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "33d0fddb-b3a6-43e3-8a57-f68cae8bd543",
+      "image_url": "https://mobbin.com/api/mcp/short/IjIE8Bkg",
+      "position": 1
+    },
+    {
+      "screen_id": "3d2c5680-7c4e-425a-802d-99744051f465",
+      "image_url": "https://mobbin.com/api/mcp/short/AM7HuV5D",
+      "position": 2
+    },
+    {
+      "screen_id": "0b9a1e1a-a312-4c50-b103-c7f656133567",
+      "image_url": "https://mobbin.com/api/mcp/short/1kJk9EvR",
+      "position": 3
+    },
+    {
+      "screen_id": "a18a49eb-bd41-46a0-8b89-a07947bdb253",
+      "image_url": "https://mobbin.com/api/mcp/short/cFCRqc9k",
+      "position": 4
+    },
+    {
+      "screen_id": "47efa371-8b24-45d9-9c49-c8e370783318",
+      "image_url": "https://mobbin.com/api/mcp/short/THVYjmhk",
+      "position": 5
+    },
+    {
+      "screen_id": "7c57c8d9-5eb0-44c1-ae06-ef4efe5208de",
+      "image_url": "https://mobbin.com/api/mcp/short/PFTV3des",
+      "position": 6
+    },
+    {
+      "screen_id": "93a7c4d3-a2c1-449e-bcd9-051414fc2d36",
+      "image_url": "https://mobbin.com/api/mcp/short/TiC2PpZv",
+      "position": 7
+    },
+    {
+      "screen_id": "2f276abd-4ce4-4e1e-9069-5855bdeb5c62",
+      "image_url": "https://mobbin.com/api/mcp/short/44gMjaM1",
+      "position": 8
+    },
+    {
+      "screen_id": "6a365078-8a8c-44e8-b75c-4cf855fcf7e0",
+      "image_url": "https://mobbin.com/api/mcp/short/oxGcHatB",
+      "position": 9
+    },
+    {
+      "screen_id": "865483a2-67e3-4ca2-a075-15f418f5ce27",
+      "image_url": "https://mobbin.com/api/mcp/short/sE1hmLnk",
+      "position": 10
+    },
+    {
+      "screen_id": "6282562d-b850-46ea-9eec-fc5792d445f8",
+      "image_url": "https://mobbin.com/api/mcp/short/VzboVRGI",
+      "position": 11
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2bc18aff-75e7-4b6d-af27-ca2694fe6d0d",
+  "name": "AI info",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2bc18aff-75e7-4b6d-af27-ca2694fe6d0d",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "2a75006f-547c-4a85-bebb-e61b06215321",
+      "image_url": "https://mobbin.com/api/mcp/short/l2O3xv6U",
+      "position": 1
+    },
+    {
+      "screen_id": "35347822-a16c-4cfe-a6f4-9d71fb5c54f1",
+      "image_url": "https://mobbin.com/api/mcp/short/CZLPWR0i",
+      "position": 2
+    },
+    {
+      "screen_id": "b20482da-55dc-4773-9eaf-390ee6e62191",
+      "image_url": "https://mobbin.com/api/mcp/short/q7EFahty",
+      "position": 3
+    }
+  ]
+}

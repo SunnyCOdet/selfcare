@@ -1,0 +1,81 @@
+{
+  "id": "8f65c909-38c0-4080-925f-0ae82272b35a",
+  "name": "Creating an app with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages",
+    "Recording Audio & Video",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8f65c909-38c0-4080-925f-0ae82272b35a",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "a6728537-0988-423a-a81c-788fd6320c0e",
+      "image_url": "https://mobbin.com/api/mcp/short/PXsdyfuF",
+      "position": 1
+    },
+    {
+      "screen_id": "c93c4118-27de-4dc1-b3ed-439ae030bd70",
+      "image_url": "https://mobbin.com/api/mcp/short/DbVYsj1V",
+      "position": 2
+    },
+    {
+      "screen_id": "fc4815ca-a9e9-4039-8fea-4d92a4c13aee",
+      "image_url": "https://mobbin.com/api/mcp/short/qN5FXQOl",
+      "position": 3
+    },
+    {
+      "screen_id": "6fa4bd0f-771d-43e2-9a6a-c6e4efb9c8ed",
+      "image_url": "https://mobbin.com/api/mcp/short/6i63cVsM",
+      "position": 4
+    },
+    {
+      "screen_id": "c0e57e46-bdf1-401b-9c4b-8a86644381ab",
+      "image_url": "https://mobbin.com/api/mcp/short/ent30Hfr",
+      "position": 5
+    },
+    {
+      "screen_id": "b4707852-fb79-4493-90d8-31e30d0823c9",
+      "image_url": "https://mobbin.com/api/mcp/short/8GH8pD5c",
+      "position": 6
+    },
+    {
+      "screen_id": "82c82260-cb48-4a18-bb4e-fd600abe7a9e",
+      "image_url": "https://mobbin.com/api/mcp/short/2U7yodNw",
+      "position": 7
+    },
+    {
+      "screen_id": "6b22695d-9232-4728-8285-4b064e683b8c",
+      "image_url": "https://mobbin.com/api/mcp/short/Y2bgAwE6",
+      "position": 8
+    },
+    {
+      "screen_id": "3c8b319f-8fef-483a-8b97-8e2e066f679e",
+      "image_url": "https://mobbin.com/api/mcp/short/QhuoTrz5",
+      "position": 9
+    },
+    {
+      "screen_id": "15bd9c47-1fcd-4e67-8368-fc22cf1b2091",
+      "image_url": "https://mobbin.com/api/mcp/short/qs5b8DTB",
+      "position": 10
+    },
+    {
+      "screen_id": "7c37fcf1-f9fb-41d4-80ce-00510d1c0836",
+      "image_url": "https://mobbin.com/api/mcp/short/lBnixbqN",
+      "position": 11
+    },
+    {
+      "screen_id": "8c2f53ba-9f23-45b1-a45f-a33c6d3513e6",
+      "image_url": "https://mobbin.com/api/mcp/short/vC0rUssM",
+      "position": 12
+    },
+    {
+      "screen_id": "933bf64f-2313-47c2-9f0a-e491b596192d",
+      "image_url": "https://mobbin.com/api/mcp/short/gClRonpp",
+      "position": 13
+    }
+  ]
+}

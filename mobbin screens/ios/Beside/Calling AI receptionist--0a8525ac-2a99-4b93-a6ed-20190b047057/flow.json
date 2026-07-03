@@ -1,0 +1,33 @@
+{
+  "id": "0a8525ac-2a99-4b93-a6ed-20190b047057",
+  "name": "Calling AI receptionist",
+  "actions": [
+    "Calling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0a8525ac-2a99-4b93-a6ed-20190b047057",
+  "app_name": "Beside",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "582c587b-53d7-445a-baae-7d8aaaab482a",
+      "image_url": "https://mobbin.com/api/mcp/short/dLsfd6bH",
+      "position": 1
+    },
+    {
+      "screen_id": "b4367e03-a552-4d9e-88b7-6e50d375a572",
+      "image_url": "https://mobbin.com/api/mcp/short/1m0EIiRn",
+      "position": 2
+    },
+    {
+      "screen_id": "b1323695-ab14-4f55-abb5-bae2caa8a118",
+      "image_url": "https://mobbin.com/api/mcp/short/oVFfCS0w",
+      "position": 3
+    },
+    {
+      "screen_id": "622b9ce8-f5a8-4e97-96bc-7fb18aa4d5b6",
+      "image_url": "https://mobbin.com/api/mcp/short/PFwwBFEb",
+      "position": 4
+    }
+  ]
+}

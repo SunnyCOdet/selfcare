@@ -1,0 +1,33 @@
+{
+  "id": "0a87a2d3-cc80-4768-8d4b-9bb2b731e3af",
+  "name": "Chatting with Beside AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0a87a2d3-cc80-4768-8d4b-9bb2b731e3af",
+  "app_name": "Beside",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "1623fcd9-01f0-49bf-8f0b-0470049fcf4e",
+      "image_url": "https://mobbin.com/api/mcp/short/lZGzbYqk",
+      "position": 1
+    },
+    {
+      "screen_id": "21571be9-a20a-4ddf-811c-7cc16dd0d2e8",
+      "image_url": "https://mobbin.com/api/mcp/short/zcYnpIlW",
+      "position": 2
+    },
+    {
+      "screen_id": "efec250d-18dc-41d3-9a88-a23506269ca9",
+      "image_url": "https://mobbin.com/api/mcp/short/0z8cemuP",
+      "position": 3
+    },
+    {
+      "screen_id": "45d3b7ee-27f0-40c8-a6d2-96bfa114c7e3",
+      "image_url": "https://mobbin.com/api/mcp/short/t6bMwMrY",
+      "position": 4
+    }
+  ]
+}

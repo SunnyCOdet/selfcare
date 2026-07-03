@@ -1,0 +1,21 @@
+{
+  "id": "02944f34-fdab-49a1-bf4c-0aa800131dff",
+  "name": "Help and first steps",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/02944f34-fdab-49a1-bf4c-0aa800131dff",
+  "app_name": "Attio",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "b2361cb1-96cd-4806-88a4-6ebc8bfb8f64",
+      "image_url": "https://mobbin.com/api/mcp/short/PX1gER7k",
+      "position": 1
+    },
+    {
+      "screen_id": "e092e672-5ff0-44e6-b2c4-3ddeba3f91fa",
+      "image_url": "https://mobbin.com/api/mcp/short/FhHzbXHY",
+      "position": 2
+    }
+  ]
+}

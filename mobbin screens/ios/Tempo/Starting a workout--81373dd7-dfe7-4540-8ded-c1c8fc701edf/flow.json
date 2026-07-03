@@ -1,0 +1,68 @@
+{
+  "id": "81373dd7-dfe7-4540-8ded-c1c8fc701edf",
+  "name": "Starting a workout",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/81373dd7-dfe7-4540-8ded-c1c8fc701edf",
+  "app_name": "Tempo",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "9da55f53-95ff-4a7e-bf83-d1053f9d1732",
+      "image_url": "https://mobbin.com/api/mcp/short/N3ZbmZ1A",
+      "position": 1
+    },
+    {
+      "screen_id": "50557f87-348b-4e36-93bd-3050f3bdd94c",
+      "image_url": "https://mobbin.com/api/mcp/short/lyFnX5we",
+      "position": 2
+    },
+    {
+      "screen_id": "d6333040-60bd-4ca9-b8e0-33e08c0a5c01",
+      "image_url": "https://mobbin.com/api/mcp/short/rNmbAWPJ",
+      "position": 3
+    },
+    {
+      "screen_id": "e77b4ca9-5160-46df-a605-b35e43dead6e",
+      "image_url": "https://mobbin.com/api/mcp/short/UuHkRZAx",
+      "position": 4
+    },
+    {
+      "screen_id": "023230f2-62c0-4444-bee7-dacf9c004bfe",
+      "image_url": "https://mobbin.com/api/mcp/short/w68bZLIu",
+      "position": 5
+    },
+    {
+      "screen_id": "093aa324-b0f3-4041-a959-3e89c3e92068",
+      "image_url": "https://mobbin.com/api/mcp/short/xZHI11yQ",
+      "position": 6
+    },
+    {
+      "screen_id": "72dff5f9-1aeb-40ef-b72e-3e8c02d0450a",
+      "image_url": "https://mobbin.com/api/mcp/short/HSqObT2B",
+      "position": 7
+    },
+    {
+      "screen_id": "f4ab5422-4121-4cc8-a40d-c761e1d45ca9",
+      "image_url": "https://mobbin.com/api/mcp/short/4FLzvveV",
+      "position": 8
+    },
+    {
+      "screen_id": "22bcfb37-858c-446b-aa24-c8a708229e0c",
+      "image_url": "https://mobbin.com/api/mcp/short/yV4QdI4G",
+      "position": 9
+    },
+    {
+      "screen_id": "332bd7b7-3fac-4e2e-b5c6-eb00ecc4c0a6",
+      "image_url": "https://mobbin.com/api/mcp/short/LX2wjEoR",
+      "position": 10
+    },
+    {
+      "screen_id": "5a66145a-6ce9-4a66-914f-a16d40ba1ebf",
+      "image_url": "https://mobbin.com/api/mcp/short/IogO9Neg",
+      "position": 11
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "1e1713bb-ed73-4270-a0e1-e20863fb3838",
+  "name": "Notion AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1e1713bb-ed73-4270-a0e1-e20863fb3838",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3a5fce3e-978c-4cbe-82d8-e6f0c375bd30",
+      "image_url": "https://mobbin.com/api/mcp/short/9xXmBlDj",
+      "position": 1
+    },
+    {
+      "screen_id": "02985367-b9d8-4892-b322-1c0ee9406f0b",
+      "image_url": "https://mobbin.com/api/mcp/short/lMk22ZPu",
+      "position": 2
+    },
+    {
+      "screen_id": "1a9a8b69-8779-4b5c-a882-e4a9c6c7b5ea",
+      "image_url": "https://mobbin.com/api/mcp/short/jTC7RV2S",
+      "position": 3
+    },
+    {
+      "screen_id": "445696a8-052f-401a-8106-81eefa1bd411",
+      "image_url": "https://mobbin.com/api/mcp/short/b8RloSC4",
+      "position": 4
+    }
+  ]
+}

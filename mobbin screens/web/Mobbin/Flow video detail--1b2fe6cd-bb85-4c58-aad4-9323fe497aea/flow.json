@@ -1,0 +1,26 @@
+{
+  "id": "1b2fe6cd-bb85-4c58-aad4-9323fe497aea",
+  "name": "Flow video detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1b2fe6cd-bb85-4c58-aad4-9323fe497aea",
+  "app_name": "Mobbin",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b24c5963-ba0d-4135-b388-eea8f3aaab28",
+      "image_url": "https://mobbin.com/api/mcp/short/JqVUkzdt",
+      "position": 1
+    },
+    {
+      "screen_id": "170928ff-d9c9-4e23-81e0-b38a071c4cdf",
+      "image_url": "https://mobbin.com/api/mcp/short/yNSDQP1N",
+      "position": 2
+    },
+    {
+      "screen_id": "075dc7ac-d96a-4465-b5ee-004048e619cc",
+      "image_url": "https://mobbin.com/api/mcp/short/zWlNnXTw",
+      "position": 3
+    }
+  ]
+}

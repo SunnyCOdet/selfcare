@@ -1,0 +1,21 @@
+{
+  "id": "6a7eba9f-c3c6-4ba3-b443-5a98234f39e5",
+  "name": "Health monitor",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6a7eba9f-c3c6-4ba3-b443-5a98234f39e5",
+  "app_name": "WHOOP",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "13f61703-ee24-4062-b70b-e0dae30d3a0f",
+      "image_url": "https://mobbin.com/api/mcp/short/U5K03XDA",
+      "position": 1
+    },
+    {
+      "screen_id": "54393ff0-edf9-4cfa-81da-b1ef9577234a",
+      "image_url": "https://mobbin.com/api/mcp/short/TZJy6hU1",
+      "position": 2
+    }
+  ]
+}

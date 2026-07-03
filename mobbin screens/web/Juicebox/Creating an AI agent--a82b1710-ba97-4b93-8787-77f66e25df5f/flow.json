@@ -1,0 +1,33 @@
+{
+  "id": "a82b1710-ba97-4b93-8787-77f66e25df5f",
+  "name": "Creating an AI agent",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a82b1710-ba97-4b93-8787-77f66e25df5f",
+  "app_name": "Juicebox",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "6091ee41-c0c5-4261-98c6-b96f5dd88219",
+      "image_url": "https://mobbin.com/api/mcp/short/0LSYybVG",
+      "position": 1
+    },
+    {
+      "screen_id": "da041f55-4a04-4dda-9cb1-0ad29b11faa3",
+      "image_url": "https://mobbin.com/api/mcp/short/co2NkWj8",
+      "position": 2
+    },
+    {
+      "screen_id": "0d9a900d-2d42-48e2-91f4-02ddc3635ca2",
+      "image_url": "https://mobbin.com/api/mcp/short/hlUhHU4g",
+      "position": 3
+    },
+    {
+      "screen_id": "6d5cd061-5ee8-4c32-a081-cd9362e0514a",
+      "image_url": "https://mobbin.com/api/mcp/short/18YDKNDW",
+      "position": 4
+    }
+  ]
+}

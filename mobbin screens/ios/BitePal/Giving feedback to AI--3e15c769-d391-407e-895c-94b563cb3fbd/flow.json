@@ -1,0 +1,28 @@
+{
+  "id": "3e15c769-d391-407e-895c-94b563cb3fbd",
+  "name": "Giving feedback to AI",
+  "actions": [
+    "Giving Feedback"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3e15c769-d391-407e-895c-94b563cb3fbd",
+  "app_name": "BitePal",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "3ee597a3-166f-4c92-8cda-6c9d66dd4c6d",
+      "image_url": "https://mobbin.com/api/mcp/short/to6svMEk",
+      "position": 1
+    },
+    {
+      "screen_id": "58e2bf5a-708c-4f03-806a-8ee61a824f1b",
+      "image_url": "https://mobbin.com/api/mcp/short/1aSYqBdA",
+      "position": 2
+    },
+    {
+      "screen_id": "1ac5fda3-e96e-45c7-aa0c-b2df907e3fd7",
+      "image_url": "https://mobbin.com/api/mcp/short/M38MInb6",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "a2d4953a-1b60-46ad-969a-8ce13a2e8347",
+  "name": "Rephrasing text with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a2d4953a-1b60-46ad-969a-8ce13a2e8347",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "dfe61098-d36c-41d0-b0fa-73c7a47d573e",
+      "image_url": "https://mobbin.com/api/mcp/short/p8ssuGjm",
+      "position": 1
+    },
+    {
+      "screen_id": "bcc8ee7c-da06-4b09-995d-088cecc6e622",
+      "image_url": "https://mobbin.com/api/mcp/short/H7cEUU1y",
+      "position": 2
+    },
+    {
+      "screen_id": "95ea9203-94e6-40de-8408-54cdacfe1721",
+      "image_url": "https://mobbin.com/api/mcp/short/O0oQaFmz",
+      "position": 3
+    },
+    {
+      "screen_id": "9fd59ce3-0852-42a8-b1ce-6fb67b9dfcdf",
+      "image_url": "https://mobbin.com/api/mcp/short/7FvGwB4n",
+      "position": 4
+    },
+    {
+      "screen_id": "67875c9e-a736-4bf6-95cc-df1da5d6fd29",
+      "image_url": "https://mobbin.com/api/mcp/short/0sIMl05W",
+      "position": 5
+    },
+    {
+      "screen_id": "4b3c52bd-fa60-49cf-ab9c-71e305d96f55",
+      "image_url": "https://mobbin.com/api/mcp/short/gPgvgc4S",
+      "position": 6
+    }
+  ]
+}

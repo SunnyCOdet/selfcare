@@ -1,0 +1,33 @@
+{
+  "id": "85baaa2d-82d3-45a3-8cc3-220d3e7b0e35",
+  "name": "Switching health category",
+  "actions": [
+    "Filtering & Sorting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/85baaa2d-82d3-45a3-8cc3-220d3e7b0e35",
+  "app_name": "Superpower",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3b5742ef-dbb2-44fd-8269-143ffb131797",
+      "image_url": "https://mobbin.com/api/mcp/short/A5ihisKD",
+      "position": 1
+    },
+    {
+      "screen_id": "e0abf867-3161-4008-be8e-1229e68cb175",
+      "image_url": "https://mobbin.com/api/mcp/short/Ruy5E8J6",
+      "position": 2
+    },
+    {
+      "screen_id": "ed6614f1-f1c5-4018-97b3-cbca7e18f13f",
+      "image_url": "https://mobbin.com/api/mcp/short/oNa1JSRd",
+      "position": 3
+    },
+    {
+      "screen_id": "6d394f87-bb0a-4742-9564-1c7ca66ef30d",
+      "image_url": "https://mobbin.com/api/mcp/short/ObjqzVlf",
+      "position": 4
+    }
+  ]
+}

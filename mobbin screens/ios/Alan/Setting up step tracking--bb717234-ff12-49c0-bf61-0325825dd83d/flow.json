@@ -1,0 +1,53 @@
+{
+  "id": "bb717234-ff12-49c0-bf61-0325825dd83d",
+  "name": "Setting up step tracking",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bb717234-ff12-49c0-bf61-0325825dd83d",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "8d166d39-1e49-44bd-b950-a032477b7997",
+      "image_url": "https://mobbin.com/api/mcp/short/RncxfWPJ",
+      "position": 1
+    },
+    {
+      "screen_id": "c25bfb6c-afae-4a7d-99a4-81e04b66c9f0",
+      "image_url": "https://mobbin.com/api/mcp/short/mdThO7xF",
+      "position": 2
+    },
+    {
+      "screen_id": "3fe73379-69ac-4b30-aa44-56de6cc73a3c",
+      "image_url": "https://mobbin.com/api/mcp/short/VguaE9IZ",
+      "position": 3
+    },
+    {
+      "screen_id": "9f30f6a1-5ce0-4675-bdc5-b345a8baf371",
+      "image_url": "https://mobbin.com/api/mcp/short/dJQZv4Pv",
+      "position": 4
+    },
+    {
+      "screen_id": "3f69f61e-70a9-4351-a932-733c790b3b29",
+      "image_url": "https://mobbin.com/api/mcp/short/el4M2lWb",
+      "position": 5
+    },
+    {
+      "screen_id": "73902e6e-e116-4eba-8d5c-28d98df8e18b",
+      "image_url": "https://mobbin.com/api/mcp/short/8XZr0cEm",
+      "position": 6
+    },
+    {
+      "screen_id": "71e53214-cb50-4566-aa9e-de155a561011",
+      "image_url": "https://mobbin.com/api/mcp/short/rUYnjV6Q",
+      "position": 7
+    },
+    {
+      "screen_id": "fc70fe25-5fdc-4ab8-8c99-416546c33a23",
+      "image_url": "https://mobbin.com/api/mcp/short/PxLScEVI",
+      "position": 8
+    }
+  ]
+}

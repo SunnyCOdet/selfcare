@@ -1,0 +1,53 @@
+{
+  "id": "d15cb836-baad-4312-b0ad-39041611f5d2",
+  "name": "Taking a mental health questionnaire",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d15cb836-baad-4312-b0ad-39041611f5d2",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "dfd44c09-ab90-489f-92ee-91162eccc880",
+      "image_url": "https://mobbin.com/api/mcp/short/oOEx0veH",
+      "position": 1
+    },
+    {
+      "screen_id": "ea35b60a-c5c3-4ddd-b07d-1e6690856090",
+      "image_url": "https://mobbin.com/api/mcp/short/prvq4fWE",
+      "position": 2
+    },
+    {
+      "screen_id": "fe2d3354-f626-4674-9aa2-716e1b16370b",
+      "image_url": "https://mobbin.com/api/mcp/short/ldQvKMNd",
+      "position": 3
+    },
+    {
+      "screen_id": "b4358c20-9dda-4d34-9ba4-56cd715f9d3a",
+      "image_url": "https://mobbin.com/api/mcp/short/5FWkatoE",
+      "position": 4
+    },
+    {
+      "screen_id": "5b9141e0-798a-428c-8f05-7f915bd0d36c",
+      "image_url": "https://mobbin.com/api/mcp/short/cE9QQswv",
+      "position": 5
+    },
+    {
+      "screen_id": "8a8962d3-7aba-4541-9609-9da559feb039",
+      "image_url": "https://mobbin.com/api/mcp/short/x4mOcFx8",
+      "position": 6
+    },
+    {
+      "screen_id": "3c8ad2b2-26b9-4931-b8ab-d08688e05b31",
+      "image_url": "https://mobbin.com/api/mcp/short/lHDYW0dA",
+      "position": 7
+    },
+    {
+      "screen_id": "2e871aac-d888-4701-af59-a159d08174cf",
+      "image_url": "https://mobbin.com/api/mcp/short/R6XjFPKf",
+      "position": 8
+    }
+  ]
+}

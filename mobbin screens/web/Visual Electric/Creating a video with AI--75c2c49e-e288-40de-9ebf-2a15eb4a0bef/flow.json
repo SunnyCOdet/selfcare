@@ -1,0 +1,49 @@
+{
+  "id": "75c2c49e-e288-40de-9ebf-2a15eb4a0bef",
+  "name": "Creating a video with AI",
+  "actions": [
+    "Adding & Creating",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/75c2c49e-e288-40de-9ebf-2a15eb4a0bef",
+  "app_name": "Visual Electric",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "20685a57-1eb1-421c-a9a5-024712a482c9",
+      "image_url": "https://mobbin.com/api/mcp/short/aZhYs7aR",
+      "position": 1
+    },
+    {
+      "screen_id": "2ef15df3-cd79-41f4-99f8-27100a0ec523",
+      "image_url": "https://mobbin.com/api/mcp/short/v8fwFVE1",
+      "position": 2
+    },
+    {
+      "screen_id": "c93c648e-a9ea-46ff-8bcd-9d11f0ff7706",
+      "image_url": "https://mobbin.com/api/mcp/short/0ATVUFMS",
+      "position": 3
+    },
+    {
+      "screen_id": "a6939894-e199-4039-970b-012b18504033",
+      "image_url": "https://mobbin.com/api/mcp/short/6veOiaOY",
+      "position": 4
+    },
+    {
+      "screen_id": "919f797a-eda2-4db5-816e-54b07c4f5c67",
+      "image_url": "https://mobbin.com/api/mcp/short/WKye9LsI",
+      "position": 5
+    },
+    {
+      "screen_id": "4fa72dcb-f5a7-4bc2-98df-464439eb197b",
+      "image_url": "https://mobbin.com/api/mcp/short/1UXplmdm",
+      "position": 6
+    },
+    {
+      "screen_id": "f2e6d00f-3518-4f80-b58b-0e5366a60e14",
+      "image_url": "https://mobbin.com/api/mcp/short/2a2ThGQY",
+      "position": 7
+    }
+  ]
+}

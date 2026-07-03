@@ -1,0 +1,38 @@
+{
+  "id": "79f4f9fb-12ca-4ffe-abe6-8b4d8b795a51",
+  "name": "Writing an email with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/79f4f9fb-12ca-4ffe-abe6-8b4d8b795a51",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "3a7ab387-7170-425c-9790-fcdc1775b39e",
+      "image_url": "https://mobbin.com/api/mcp/short/g6daD64B",
+      "position": 1
+    },
+    {
+      "screen_id": "879f52b1-5246-421c-9229-7d8e9f93e866",
+      "image_url": "https://mobbin.com/api/mcp/short/IbWg5hBV",
+      "position": 2
+    },
+    {
+      "screen_id": "64e850f3-5070-44bf-8883-11fccd6b242c",
+      "image_url": "https://mobbin.com/api/mcp/short/ns53RurV",
+      "position": 3
+    },
+    {
+      "screen_id": "b5baec3a-d198-46fd-8b21-1d0b123334dd",
+      "image_url": "https://mobbin.com/api/mcp/short/odU1Qss3",
+      "position": 4
+    },
+    {
+      "screen_id": "62778017-bbd8-415f-a511-0f44723bfe1e",
+      "image_url": "https://mobbin.com/api/mcp/short/Av7nib22",
+      "position": 5
+    }
+  ]
+}

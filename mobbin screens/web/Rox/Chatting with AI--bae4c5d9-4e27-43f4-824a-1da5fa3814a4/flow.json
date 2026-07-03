@@ -1,0 +1,43 @@
+{
+  "id": "bae4c5d9-4e27-43f4-824a-1da5fa3814a4",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bae4c5d9-4e27-43f4-824a-1da5fa3814a4",
+  "app_name": "Rox",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "014349fd-f9a0-47f8-b677-0955dc1828c1",
+      "image_url": "https://mobbin.com/api/mcp/short/HkFCCq63",
+      "position": 1
+    },
+    {
+      "screen_id": "29003266-87b9-4289-a472-e2c5d6a2de8f",
+      "image_url": "https://mobbin.com/api/mcp/short/KlHrG00k",
+      "position": 2
+    },
+    {
+      "screen_id": "107c729c-a68d-48e3-8ece-51d43eff4215",
+      "image_url": "https://mobbin.com/api/mcp/short/H9H2nuVV",
+      "position": 3
+    },
+    {
+      "screen_id": "566ffe14-0c2b-4866-97f4-a6f3722a8fb0",
+      "image_url": "https://mobbin.com/api/mcp/short/GpLIq7Jk",
+      "position": 4
+    },
+    {
+      "screen_id": "8683dff7-9b37-417b-be34-49806d4ce014",
+      "image_url": "https://mobbin.com/api/mcp/short/SKUM8ZBB",
+      "position": 5
+    },
+    {
+      "screen_id": "e9730257-e8de-4dad-9701-bc82757a2ece",
+      "image_url": "https://mobbin.com/api/mcp/short/sHiSemS2",
+      "position": 6
+    }
+  ]
+}

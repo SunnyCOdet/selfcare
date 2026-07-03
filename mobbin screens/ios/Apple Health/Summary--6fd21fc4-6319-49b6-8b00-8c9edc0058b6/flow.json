@@ -1,0 +1,41 @@
+{
+  "id": "6fd21fc4-6319-49b6-8b00-8c9edc0058b6",
+  "name": "Summary",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6fd21fc4-6319-49b6-8b00-8c9edc0058b6",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "97104df5-f817-4e56-80a0-0c46eee67e06",
+      "image_url": "https://mobbin.com/api/mcp/short/YjXeKWdR",
+      "position": 1
+    },
+    {
+      "screen_id": "1a54ec87-6f51-416b-977b-663a1e7a2684",
+      "image_url": "https://mobbin.com/api/mcp/short/4ZB3zIhB",
+      "position": 2
+    },
+    {
+      "screen_id": "ba374894-0af8-4e6d-a7df-29bcb18abc6c",
+      "image_url": "https://mobbin.com/api/mcp/short/BdMYUi8X",
+      "position": 3
+    },
+    {
+      "screen_id": "a6813bc6-525f-44cd-b815-5c8e23e8cd58",
+      "image_url": "https://mobbin.com/api/mcp/short/CQ4kZ5Ft",
+      "position": 4
+    },
+    {
+      "screen_id": "f0eab1e1-765e-449c-82c5-8071c57d65cf",
+      "image_url": "https://mobbin.com/api/mcp/short/rifY3eWO",
+      "position": 5
+    },
+    {
+      "screen_id": "16e17227-3b07-4434-80ef-29b5f0215d1a",
+      "image_url": "https://mobbin.com/api/mcp/short/1oUpH93k",
+      "position": 6
+    }
+  ]
+}

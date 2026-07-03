@@ -1,0 +1,31 @@
+{
+  "id": "c3010ee5-657f-4f65-bfc5-9867174b30a3",
+  "name": "Program detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c3010ee5-657f-4f65-bfc5-9867174b30a3",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "61d81820-bafe-41b9-bd4a-1a5827c903c6",
+      "image_url": "https://mobbin.com/api/mcp/short/VfBciCtq",
+      "position": 1
+    },
+    {
+      "screen_id": "204ada61-4a05-4802-8692-4041ea2ed669",
+      "image_url": "https://mobbin.com/api/mcp/short/q7rweazG",
+      "position": 2
+    },
+    {
+      "screen_id": "6e4afcbb-5743-4c78-af55-4dfd1b39f2c6",
+      "image_url": "https://mobbin.com/api/mcp/short/snNTId8I",
+      "position": 3
+    },
+    {
+      "screen_id": "43492609-8b8e-460b-b0c4-e655825054e3",
+      "image_url": "https://mobbin.com/api/mcp/short/9CRa0THw",
+      "position": 4
+    }
+  ]
+}

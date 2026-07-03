@@ -1,0 +1,48 @@
+{
+  "id": "43df4d6b-29ef-484e-98bc-2164e5c193b7",
+  "name": "Completing a questionnaire",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/43df4d6b-29ef-484e-98bc-2164e5c193b7",
+  "app_name": "Wanderlog",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "60d96e4a-5cd4-4cdb-908b-6887efc2ddc1",
+      "image_url": "https://mobbin.com/api/mcp/short/EiepAhFO",
+      "position": 1
+    },
+    {
+      "screen_id": "a19d5736-d3a5-4dca-bb81-f77afdf92589",
+      "image_url": "https://mobbin.com/api/mcp/short/l8CXHMf4",
+      "position": 2
+    },
+    {
+      "screen_id": "2bde7a89-3349-4538-ba6d-0e717c5b166c",
+      "image_url": "https://mobbin.com/api/mcp/short/IKLbfMlt",
+      "position": 3
+    },
+    {
+      "screen_id": "e1e7039e-2908-47b6-91f0-1139d7f960ea",
+      "image_url": "https://mobbin.com/api/mcp/short/4EG9HoMb",
+      "position": 4
+    },
+    {
+      "screen_id": "620cd21f-1dda-4bec-9167-f0aa37f2778a",
+      "image_url": "https://mobbin.com/api/mcp/short/irpjNolL",
+      "position": 5
+    },
+    {
+      "screen_id": "e752202e-e30d-4377-ad09-f7396888ce3e",
+      "image_url": "https://mobbin.com/api/mcp/short/x6I7qEXp",
+      "position": 6
+    },
+    {
+      "screen_id": "8939c4d2-d0ff-4dbc-a360-98e400688aa9",
+      "image_url": "https://mobbin.com/api/mcp/short/griBvBJk",
+      "position": 7
+    }
+  ]
+}

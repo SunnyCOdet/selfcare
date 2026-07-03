@@ -1,0 +1,59 @@
+{
+  "id": "f3e2af39-d227-4112-b84c-b564cb1a6484",
+  "name": "Completing a tutorial",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f3e2af39-d227-4112-b84c-b564cb1a6484",
+  "app_name": "Amie",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "feaedb71-bb4f-47c1-8a36-900fa298924f",
+      "image_url": "https://mobbin.com/api/mcp/short/F0mc6oRe",
+      "position": 1
+    },
+    {
+      "screen_id": "17538e12-8ecb-489b-bf2f-275e9aa72be9",
+      "image_url": "https://mobbin.com/api/mcp/short/WYhrHFWY",
+      "position": 2
+    },
+    {
+      "screen_id": "735e6e51-c4cd-416a-8de7-6a39bde3101a",
+      "image_url": "https://mobbin.com/api/mcp/short/kjSsulFt",
+      "position": 3
+    },
+    {
+      "screen_id": "685188c7-49f9-49fe-89cf-0e044eca11c5",
+      "image_url": "https://mobbin.com/api/mcp/short/b8OPWQSt",
+      "position": 4
+    },
+    {
+      "screen_id": "cad556bd-b155-43a6-9aad-aabfcb8ffd8a",
+      "image_url": "https://mobbin.com/api/mcp/short/9tzGpBNf",
+      "position": 5
+    },
+    {
+      "screen_id": "f31dbc2f-7119-443d-9699-771424dc8eaa",
+      "image_url": "https://mobbin.com/api/mcp/short/DDIs1X53",
+      "position": 6
+    },
+    {
+      "screen_id": "6de71009-58ce-4db4-83ba-ac04de434ec7",
+      "image_url": "https://mobbin.com/api/mcp/short/DRIO2XBV",
+      "position": 7
+    },
+    {
+      "screen_id": "24d4b067-ee20-47c6-ad19-bde16c711e4a",
+      "image_url": "https://mobbin.com/api/mcp/short/rZkKmJTQ",
+      "position": 8
+    },
+    {
+      "screen_id": "28acf827-49f9-4c65-8650-e99d85bbf22e",
+      "image_url": "https://mobbin.com/api/mcp/short/9y1MoXW1",
+      "position": 9
+    }
+  ]
+}

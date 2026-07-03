@@ -1,0 +1,48 @@
+{
+  "id": "64fe3e4c-f66e-4ac4-b7a2-1e89be9b1ab5",
+  "name": "Chatting with Shop AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/64fe3e4c-f66e-4ac4-b7a2-1e89be9b1ab5",
+  "app_name": "Shop",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "830e5996-5b1e-4e1d-a750-c6f8b6c8b8ec",
+      "image_url": "https://mobbin.com/api/mcp/short/LgoxFfhJ",
+      "position": 1
+    },
+    {
+      "screen_id": "d3e53a19-0ad4-426e-9c05-62bc2c474e2e",
+      "image_url": "https://mobbin.com/api/mcp/short/slrKfbvx",
+      "position": 2
+    },
+    {
+      "screen_id": "e840b11c-1a93-471d-94b3-91c0f7453720",
+      "image_url": "https://mobbin.com/api/mcp/short/2zrrDjjD",
+      "position": 3
+    },
+    {
+      "screen_id": "974c2be0-9803-4c51-8efa-1088bfa6dd04",
+      "image_url": "https://mobbin.com/api/mcp/short/PlNTL01a",
+      "position": 4
+    },
+    {
+      "screen_id": "76a52a02-a7b4-46ce-a1d8-db79021dd4f0",
+      "image_url": "https://mobbin.com/api/mcp/short/xZp7gRha",
+      "position": 5
+    },
+    {
+      "screen_id": "4614d6a6-0a58-4995-859b-d9e9d309e117",
+      "image_url": "https://mobbin.com/api/mcp/short/nf5XgY5e",
+      "position": 6
+    },
+    {
+      "screen_id": "9abf42a2-7bb3-4792-a893-e3b789cab63c",
+      "image_url": "https://mobbin.com/api/mcp/short/Ca7Blf2V",
+      "position": 7
+    }
+  ]
+}

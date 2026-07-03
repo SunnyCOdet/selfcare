@@ -1,0 +1,39 @@
+{
+  "id": "504ade79-5f8f-4646-a1f4-76b697a4828b",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/504ade79-5f8f-4646-a1f4-76b697a4828b",
+  "app_name": "Saily",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "9617b845-19aa-49dd-ba8c-ca09dd253a3b",
+      "image_url": "https://mobbin.com/api/mcp/short/9u7CNrBN",
+      "position": 1
+    },
+    {
+      "screen_id": "811ff3bd-6ff4-4352-818c-89f437af2744",
+      "image_url": "https://mobbin.com/api/mcp/short/BACawaAw",
+      "position": 2
+    },
+    {
+      "screen_id": "c311826f-3415-4e3f-99ac-d53f0793799c",
+      "image_url": "https://mobbin.com/api/mcp/short/1mQTfOG6",
+      "position": 3
+    },
+    {
+      "screen_id": "314cad03-f133-49bf-b63a-e2a8f53b68de",
+      "image_url": "https://mobbin.com/api/mcp/short/065IVvOU",
+      "position": 4
+    },
+    {
+      "screen_id": "446fc96e-fd41-44ab-89b1-c8518c3a2198",
+      "image_url": "https://mobbin.com/api/mcp/short/HTQ2sk7x",
+      "position": 5
+    }
+  ]
+}

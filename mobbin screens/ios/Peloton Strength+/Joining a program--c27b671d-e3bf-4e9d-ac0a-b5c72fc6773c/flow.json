@@ -1,0 +1,23 @@
+{
+  "id": "c27b671d-e3bf-4e9d-ac0a-b5c72fc6773c",
+  "name": "Joining a program",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c27b671d-e3bf-4e9d-ac0a-b5c72fc6773c",
+  "app_name": "Peloton Strength+",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "a63920cd-7ee9-498c-9eec-acbab3a95e1d",
+      "image_url": "https://mobbin.com/api/mcp/short/hT985s6Y",
+      "position": 1
+    },
+    {
+      "screen_id": "06b862b8-292a-4cef-a170-59a3324ee3bb",
+      "image_url": "https://mobbin.com/api/mcp/short/ofNvr0xk",
+      "position": 2
+    }
+  ]
+}

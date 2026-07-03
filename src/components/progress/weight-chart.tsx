@@ -52,7 +52,7 @@ export function WeightChart({
 
       {data.length < 2 ? (
         <p className="text-sm text-muted py-8 text-center">
-          Log your weight in the daily check-in — the chart appears after 2+ entries.
+          Log your weight in the daily check-in - the chart appears after 2+ entries.
         </p>
       ) : (
         <div className="h-56">

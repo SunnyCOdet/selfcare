@@ -1,0 +1,54 @@
+{
+  "id": "439d3c66-1fb6-4c1b-9bb2-d9a3478d66ed",
+  "name": "Creating a website with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/439d3c66-1fb6-4c1b-9bb2-d9a3478d66ed",
+  "app_name": "Lovable",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "26bdc006-3936-46e8-8cda-b5bd2ff95ddb",
+      "image_url": "https://mobbin.com/api/mcp/short/zGWaO3yO",
+      "position": 1
+    },
+    {
+      "screen_id": "25ee5b48-0560-426c-bffd-dfcc43230cfa",
+      "image_url": "https://mobbin.com/api/mcp/short/D6DLgno0",
+      "position": 2
+    },
+    {
+      "screen_id": "8d7af57e-0fe5-4562-b708-3559fdcf5300",
+      "image_url": "https://mobbin.com/api/mcp/short/ktnEieCK",
+      "position": 3
+    },
+    {
+      "screen_id": "fd059794-bf3c-4adf-987a-968d28affb27",
+      "image_url": "https://mobbin.com/api/mcp/short/lyKCmvPS",
+      "position": 4
+    },
+    {
+      "screen_id": "7f4056ed-2844-49ab-90eb-86089bebcb6a",
+      "image_url": "https://mobbin.com/api/mcp/short/mjFWIpwI",
+      "position": 5
+    },
+    {
+      "screen_id": "7514eba9-dcb3-4e33-8700-4b817241f2d3",
+      "image_url": "https://mobbin.com/api/mcp/short/v8ZnzP0W",
+      "position": 6
+    },
+    {
+      "screen_id": "bdc810ee-d9f2-44f3-8f55-6c46eb6c34c0",
+      "image_url": "https://mobbin.com/api/mcp/short/7TTu1VEJ",
+      "position": 7
+    },
+    {
+      "screen_id": "d89c3ecb-fd8c-472a-93f5-433ff311c08d",
+      "image_url": "https://mobbin.com/api/mcp/short/XppbLpNL",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "eafb17b4-c283-4751-9ec4-7df483b31d85",
+  "name": "Joining leaderboard (Home)",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/eafb17b4-c283-4751-9ec4-7df483b31d85",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "f3981d20-9a81-4970-a728-32a24f6b79c3",
+      "image_url": "https://mobbin.com/api/mcp/short/KTKtww8B",
+      "position": 1
+    },
+    {
+      "screen_id": "b797b14b-4e58-4152-8900-e03d45b69492",
+      "image_url": "https://mobbin.com/api/mcp/short/uK9i68OS",
+      "position": 2
+    }
+  ]
+}

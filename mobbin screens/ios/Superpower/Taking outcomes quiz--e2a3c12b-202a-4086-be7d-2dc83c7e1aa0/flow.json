@@ -1,0 +1,58 @@
+{
+  "id": "e2a3c12b-202a-4086-be7d-2dc83c7e1aa0",
+  "name": "Taking outcomes quiz",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e2a3c12b-202a-4086-be7d-2dc83c7e1aa0",
+  "app_name": "Superpower",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "84437ec5-417a-45b1-ad3f-9b0373045b66",
+      "image_url": "https://mobbin.com/api/mcp/short/PnUZ8Qzr",
+      "position": 1
+    },
+    {
+      "screen_id": "e7b0aa4b-a92a-4051-b553-b263ef6b84dc",
+      "image_url": "https://mobbin.com/api/mcp/short/rLbMswU4",
+      "position": 2
+    },
+    {
+      "screen_id": "831b4b54-f845-41ff-bcc3-e9eea3a52afd",
+      "image_url": "https://mobbin.com/api/mcp/short/fGISPpgc",
+      "position": 3
+    },
+    {
+      "screen_id": "30cdad16-8ce9-4662-ac92-d93a09b10cdd",
+      "image_url": "https://mobbin.com/api/mcp/short/taQTmXM2",
+      "position": 4
+    },
+    {
+      "screen_id": "02b49bc3-e4af-4a3c-a352-362274026575",
+      "image_url": "https://mobbin.com/api/mcp/short/HsDMllYR",
+      "position": 5
+    },
+    {
+      "screen_id": "c31e2ae7-498b-4255-95dc-a1fa8b375b83",
+      "image_url": "https://mobbin.com/api/mcp/short/0ohQrXoM",
+      "position": 6
+    },
+    {
+      "screen_id": "b0e471f8-e777-4895-a0a5-3af338e7eba1",
+      "image_url": "https://mobbin.com/api/mcp/short/a5XqlG90",
+      "position": 7
+    },
+    {
+      "screen_id": "7b9efdc7-e1fd-4f28-9665-4a9761bd3db8",
+      "image_url": "https://mobbin.com/api/mcp/short/ijx7F5yq",
+      "position": 8
+    },
+    {
+      "screen_id": "15984142-47a9-4ed0-a067-5781de1116b3",
+      "image_url": "https://mobbin.com/api/mcp/short/jAFbA05W",
+      "position": 9
+    }
+  ]
+}

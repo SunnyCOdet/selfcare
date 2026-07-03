@@ -1,0 +1,49 @@
+{
+  "id": "306cd07a-00ca-489c-9d7b-61c5eab480ac",
+  "name": "Setting up an account",
+  "actions": [
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/306cd07a-00ca-489c-9d7b-61c5eab480ac",
+  "app_name": "Evernote",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "cea6cae9-9dec-47d3-8b55-8dca82f15ff7",
+      "image_url": "https://mobbin.com/api/mcp/short/cmIUIvLg",
+      "position": 1
+    },
+    {
+      "screen_id": "cd61a078-295c-4dab-b1b4-17cb639e3f95",
+      "image_url": "https://mobbin.com/api/mcp/short/xUS9BgtI",
+      "position": 2
+    },
+    {
+      "screen_id": "a04336c3-2385-4008-b519-9bb435596783",
+      "image_url": "https://mobbin.com/api/mcp/short/0umw1Giz",
+      "position": 3
+    },
+    {
+      "screen_id": "9b600bb7-a32c-4d37-92de-3e15ddf20368",
+      "image_url": "https://mobbin.com/api/mcp/short/gWmNYUxo",
+      "position": 4
+    },
+    {
+      "screen_id": "91efee66-a727-4c11-9953-f561ee6c7ba3",
+      "image_url": "https://mobbin.com/api/mcp/short/T3K2o1wZ",
+      "position": 5
+    },
+    {
+      "screen_id": "b7cdba27-7451-429f-8ec7-b133e6a39c01",
+      "image_url": "https://mobbin.com/api/mcp/short/uR8GPdj0",
+      "position": 6
+    },
+    {
+      "screen_id": "b3616b17-584e-4c5c-a6b3-047e16ed31ea",
+      "image_url": "https://mobbin.com/api/mcp/short/D1QB6DvS",
+      "position": 7
+    }
+  ]
+}

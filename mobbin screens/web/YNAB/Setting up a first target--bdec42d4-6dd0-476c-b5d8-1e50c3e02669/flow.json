@@ -1,0 +1,34 @@
+{
+  "id": "bdec42d4-6dd0-476c-b5d8-1e50c3e02669",
+  "name": "Setting up a first target",
+  "actions": [
+    "Browsing Tutorial",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bdec42d4-6dd0-476c-b5d8-1e50c3e02669",
+  "app_name": "YNAB",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "e4ed1348-0e37-4366-88df-554af97b0b73",
+      "image_url": "https://mobbin.com/api/mcp/short/4M1tWk3s",
+      "position": 1
+    },
+    {
+      "screen_id": "13b26d7f-3f5e-43fe-bf9c-83f3ce7e6dc8",
+      "image_url": "https://mobbin.com/api/mcp/short/YCooqSdH",
+      "position": 2
+    },
+    {
+      "screen_id": "86e3220b-b195-49ec-a657-21d4b68cd28d",
+      "image_url": "https://mobbin.com/api/mcp/short/mK3KKECy",
+      "position": 3
+    },
+    {
+      "screen_id": "5c2e6bc4-e5c4-40ed-be79-fc9f721a9306",
+      "image_url": "https://mobbin.com/api/mcp/short/zcJB653S",
+      "position": 4
+    }
+  ]
+}

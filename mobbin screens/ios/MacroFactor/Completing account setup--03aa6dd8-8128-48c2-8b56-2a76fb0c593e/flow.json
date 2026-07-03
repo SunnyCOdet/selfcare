@@ -1,0 +1,130 @@
+{
+  "id": "03aa6dd8-8128-48c2-8b56-2a76fb0c593e",
+  "name": "Completing account setup",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing",
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/03aa6dd8-8128-48c2-8b56-2a76fb0c593e",
+  "app_name": "MacroFactor",
+  "platform": "ios",
+  "screen_count": 23,
+  "screens": [
+    {
+      "screen_id": "21150e00-1a3a-43e9-8995-5f48249cbe7c",
+      "image_url": "https://mobbin.com/api/mcp/short/zMs1aZ1T",
+      "position": 1
+    },
+    {
+      "screen_id": "62146c4c-cfdd-45a2-b399-33e5f7b6430a",
+      "image_url": "https://mobbin.com/api/mcp/short/zPn0j8Uk",
+      "position": 2
+    },
+    {
+      "screen_id": "ebf9d979-6015-4855-b16d-c0b988b052ac",
+      "image_url": "https://mobbin.com/api/mcp/short/GvPXr3ah",
+      "position": 3
+    },
+    {
+      "screen_id": "14ee24a9-8750-46d0-9e68-121e18426a9d",
+      "image_url": "https://mobbin.com/api/mcp/short/Nvpq4FBj",
+      "position": 4
+    },
+    {
+      "screen_id": "c45a4cd9-33e5-4b80-a443-cfb3ef453446",
+      "image_url": "https://mobbin.com/api/mcp/short/6yCEu1yF",
+      "position": 5
+    },
+    {
+      "screen_id": "4213af5f-e5ba-4f02-bc88-a565599c3b0d",
+      "image_url": "https://mobbin.com/api/mcp/short/rHAND2nk",
+      "position": 6
+    },
+    {
+      "screen_id": "ef77f934-9e61-43c6-bb08-319f63455734",
+      "image_url": "https://mobbin.com/api/mcp/short/OLtdEinP",
+      "position": 7
+    },
+    {
+      "screen_id": "038915ed-58fc-497b-8228-ab0bccfa6174",
+      "image_url": "https://mobbin.com/api/mcp/short/SPJg9oiD",
+      "position": 8
+    },
+    {
+      "screen_id": "0a0f4765-657f-449c-9cbb-6bba38758372",
+      "image_url": "https://mobbin.com/api/mcp/short/rUececbF",
+      "position": 9
+    },
+    {
+      "screen_id": "4192c6ff-1776-4813-93f8-e81d173ec55b",
+      "image_url": "https://mobbin.com/api/mcp/short/mQA2LCsp",
+      "position": 10
+    },
+    {
+      "screen_id": "25615c93-b552-4eb4-a73b-fe311e6f1af8",
+      "image_url": "https://mobbin.com/api/mcp/short/6CMpR8u9",
+      "position": 11
+    },
+    {
+      "screen_id": "361807eb-aa87-4bf8-8362-6a09d6d70c08",
+      "image_url": "https://mobbin.com/api/mcp/short/FkLSR264",
+      "position": 12
+    },
+    {
+      "screen_id": "e9832b3d-7f5f-49e0-bf47-6be1f5a40a7f",
+      "image_url": "https://mobbin.com/api/mcp/short/WF5SeLCU",
+      "position": 13
+    },
+    {
+      "screen_id": "7516334f-e2c8-4b96-a9cd-3ed054c30249",
+      "image_url": "https://mobbin.com/api/mcp/short/OZKsDRu0",
+      "position": 14
+    },
+    {
+      "screen_id": "c931ce48-f08a-4b00-8f1f-0496b630fc82",
+      "image_url": "https://mobbin.com/api/mcp/short/XdTiF9qx",
+      "position": 15
+    },
+    {
+      "screen_id": "e8581ffb-59f8-41bd-b5be-7af3178dfeee",
+      "image_url": "https://mobbin.com/api/mcp/short/KUrKiL1r",
+      "position": 16
+    },
+    {
+      "screen_id": "4cd316a6-e47e-43ba-98f0-e15c81198d52",
+      "image_url": "https://mobbin.com/api/mcp/short/zLjgxokX",
+      "position": 17
+    },
+    {
+      "screen_id": "5f7463ed-ec3f-4599-98d0-187734c1625d",
+      "image_url": "https://mobbin.com/api/mcp/short/RW1oxtiD",
+      "position": 18
+    },
+    {
+      "screen_id": "eff70d77-e24c-4679-afe1-8eb1e9273250",
+      "image_url": "https://mobbin.com/api/mcp/short/4MARTWlX",
+      "position": 19
+    },
+    {
+      "screen_id": "7e43a8ee-8acc-44f0-84d0-aab6637d0d4d",
+      "image_url": "https://mobbin.com/api/mcp/short/pzjZJVeU",
+      "position": 20
+    },
+    {
+      "screen_id": "e1157c4d-c4a5-4c90-a023-d82ecac409be",
+      "image_url": "https://mobbin.com/api/mcp/short/3h91Kre5",
+      "position": 21
+    },
+    {
+      "screen_id": "aa1abcd7-eb41-4207-a43b-563d4db97011",
+      "image_url": "https://mobbin.com/api/mcp/short/UkkLdoYa",
+      "position": 22
+    },
+    {
+      "screen_id": "d13d32ed-1f89-42a2-a2fb-1fb682c54bc9",
+      "image_url": "https://mobbin.com/api/mcp/short/XLsndBvT",
+      "position": 23
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "b5b0244e-cd7f-4777-bc0f-4ca3205f0787",
+  "name": "Customizing AI instructions",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b5b0244e-cd7f-4777-bc0f-4ca3205f0787",
+  "app_name": "ChatGPT",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "1dea2b3a-9e0a-4484-9858-939ad2e0f037",
+      "image_url": "https://mobbin.com/api/mcp/short/KlVP2GEc",
+      "position": 1
+    },
+    {
+      "screen_id": "24089ec4-83a5-4e11-b558-66835d4e51d9",
+      "image_url": "https://mobbin.com/api/mcp/short/nzOvnvVK",
+      "position": 2
+    },
+    {
+      "screen_id": "f0a1cfb9-0b91-4eb5-ace0-4ca7b9abb7f3",
+      "image_url": "https://mobbin.com/api/mcp/short/3YYrEDBR",
+      "position": 3
+    },
+    {
+      "screen_id": "98be7040-655a-4a85-98fa-72a5eb15b314",
+      "image_url": "https://mobbin.com/api/mcp/short/RnisRu6L",
+      "position": 4
+    }
+  ]
+}

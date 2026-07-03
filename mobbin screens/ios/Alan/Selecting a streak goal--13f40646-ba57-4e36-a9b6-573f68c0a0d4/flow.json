@@ -1,0 +1,38 @@
+{
+  "id": "13f40646-ba57-4e36-a9b6-573f68c0a0d4",
+  "name": "Selecting a streak goal",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/13f40646-ba57-4e36-a9b6-573f68c0a0d4",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "2e0aeaab-ed6e-4061-81c9-6d9f62d56a17",
+      "image_url": "https://mobbin.com/api/mcp/short/bLm9iez8",
+      "position": 1
+    },
+    {
+      "screen_id": "e68cf229-ca9d-4d77-8a6a-929c2dd51d78",
+      "image_url": "https://mobbin.com/api/mcp/short/pQqkt7aT",
+      "position": 2
+    },
+    {
+      "screen_id": "8079af92-86f1-43bc-b67b-20e4a23bbca6",
+      "image_url": "https://mobbin.com/api/mcp/short/ltucyL5V",
+      "position": 3
+    },
+    {
+      "screen_id": "67e6b635-10df-4127-8ada-75283ec00f89",
+      "image_url": "https://mobbin.com/api/mcp/short/Pn2FfQL9",
+      "position": 4
+    },
+    {
+      "screen_id": "57126b1e-8644-4377-8e09-c268aa8a27ba",
+      "image_url": "https://mobbin.com/api/mcp/short/hMkpNhZT",
+      "position": 5
+    }
+  ]
+}

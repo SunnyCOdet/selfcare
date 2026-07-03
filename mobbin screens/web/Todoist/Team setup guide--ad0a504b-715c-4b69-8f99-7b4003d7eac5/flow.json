@@ -1,0 +1,26 @@
+{
+  "id": "ad0a504b-715c-4b69-8f99-7b4003d7eac5",
+  "name": "Team setup guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ad0a504b-715c-4b69-8f99-7b4003d7eac5",
+  "app_name": "Todoist",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "4f1cd4a3-1475-485c-8df6-329f6589c29a",
+      "image_url": "https://mobbin.com/api/mcp/short/MQwx8kVe",
+      "position": 1
+    },
+    {
+      "screen_id": "0fd6e7f0-37f6-4837-9d39-43c0d124f07a",
+      "image_url": "https://mobbin.com/api/mcp/short/q8jo6pJP",
+      "position": 2
+    },
+    {
+      "screen_id": "3f80988f-fce8-4883-bd69-726f88146835",
+      "image_url": "https://mobbin.com/api/mcp/short/63Z4omeh",
+      "position": 3
+    }
+  ]
+}

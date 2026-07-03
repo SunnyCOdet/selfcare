@@ -1,0 +1,26 @@
+{
+  "id": "db023f91-887f-451d-8052-b85946d8ec95",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/db023f91-887f-451d-8052-b85946d8ec95",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "eee53f2f-34ac-4711-b9f7-d094ea5838d2",
+      "image_url": "https://mobbin.com/api/mcp/short/OXPeP3nx",
+      "position": 1
+    },
+    {
+      "screen_id": "79db0231-de7a-410e-9e04-f37eeb32479f",
+      "image_url": "https://mobbin.com/api/mcp/short/Jim5pLRl",
+      "position": 2
+    },
+    {
+      "screen_id": "7549fe6c-f52c-4b81-9905-5e9026c1d094",
+      "image_url": "https://mobbin.com/api/mcp/short/jU5S9qYF",
+      "position": 3
+    }
+  ]
+}

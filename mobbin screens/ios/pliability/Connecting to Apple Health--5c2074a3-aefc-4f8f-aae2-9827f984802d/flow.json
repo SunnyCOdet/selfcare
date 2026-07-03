@@ -1,0 +1,28 @@
+{
+  "id": "5c2074a3-aefc-4f8f-aae2-9827f984802d",
+  "name": "Connecting to Apple Health",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5c2074a3-aefc-4f8f-aae2-9827f984802d",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "ca7eb352-4b65-4ae5-adbe-089058847a62",
+      "image_url": "https://mobbin.com/api/mcp/short/dzek7aBe",
+      "position": 1
+    },
+    {
+      "screen_id": "9c3325aa-d1ce-463d-ba8d-cb890d8575bd",
+      "image_url": "https://mobbin.com/api/mcp/short/QGQIpm0M",
+      "position": 2
+    },
+    {
+      "screen_id": "3a9b0161-ce2e-4731-b7a8-d3ddc1f1dce6",
+      "image_url": "https://mobbin.com/api/mcp/short/iwpGreyh",
+      "position": 3
+    }
+  ]
+}

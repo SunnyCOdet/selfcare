@@ -1,0 +1,33 @@
+{
+  "id": "4e092c1b-264a-45da-a41c-69c9393ce2ce",
+  "name": "Regenerating text with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4e092c1b-264a-45da-a41c-69c9393ce2ce",
+  "app_name": "Ferndesk",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "9665f46f-174a-4d99-b427-9ad6f75db576",
+      "image_url": "https://mobbin.com/api/mcp/short/uxuto3RM",
+      "position": 1
+    },
+    {
+      "screen_id": "290b8c4c-38b2-41e1-8df8-ab300e206d83",
+      "image_url": "https://mobbin.com/api/mcp/short/ELKuca3D",
+      "position": 2
+    },
+    {
+      "screen_id": "9826c10a-519c-4ba6-9068-67c410db2dc2",
+      "image_url": "https://mobbin.com/api/mcp/short/pCsD2Q6S",
+      "position": 3
+    },
+    {
+      "screen_id": "c6a371be-bb1a-4018-9475-071051acd803",
+      "image_url": "https://mobbin.com/api/mcp/short/R5EsWQPU",
+      "position": 4
+    }
+  ]
+}

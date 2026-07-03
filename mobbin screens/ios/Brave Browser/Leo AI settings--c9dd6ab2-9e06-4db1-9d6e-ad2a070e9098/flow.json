@@ -1,0 +1,21 @@
+{
+  "id": "c9dd6ab2-9e06-4db1-9d6e-ad2a070e9098",
+  "name": "Leo AI settings",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c9dd6ab2-9e06-4db1-9d6e-ad2a070e9098",
+  "app_name": "Brave Browser",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "16381e71-b75e-4514-9b10-9fabf1ec598d",
+      "image_url": "https://mobbin.com/api/mcp/short/b0xPWM4r",
+      "position": 1
+    },
+    {
+      "screen_id": "3336cb07-8c15-4552-93b9-7f6398832d0a",
+      "image_url": "https://mobbin.com/api/mcp/short/Z1sJQcFP",
+      "position": 2
+    }
+  ]
+}

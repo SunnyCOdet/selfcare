@@ -1,0 +1,28 @@
+{
+  "id": "dab6b754-8d09-44c3-85ac-e62774347a4c",
+  "name": "Watching video",
+  "actions": [
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dab6b754-8d09-44c3-85ac-e62774347a4c",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0f25edb6-5ac0-4747-9bad-44eeec746a2f",
+      "image_url": "https://mobbin.com/api/mcp/short/YHpGm3jR",
+      "position": 1
+    },
+    {
+      "screen_id": "3fa08031-17c0-4dbb-ab05-ddafce5c98d0",
+      "image_url": "https://mobbin.com/api/mcp/short/XgFBmyDL",
+      "position": 2
+    },
+    {
+      "screen_id": "c16517eb-28ec-42a9-84cf-716dd183a839",
+      "image_url": "https://mobbin.com/api/mcp/short/SfVPjQfu",
+      "position": 3
+    }
+  ]
+}

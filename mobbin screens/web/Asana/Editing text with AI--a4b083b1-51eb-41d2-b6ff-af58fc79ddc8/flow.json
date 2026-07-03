@@ -1,0 +1,53 @@
+{
+  "id": "a4b083b1-51eb-41d2-b6ff-af58fc79ddc8",
+  "name": "Editing text with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a4b083b1-51eb-41d2-b6ff-af58fc79ddc8",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "4f6301d3-1dcc-4afc-828c-43c210ee183d",
+      "image_url": "https://mobbin.com/api/mcp/short/U6oX9F1l",
+      "position": 1
+    },
+    {
+      "screen_id": "aa9904ab-f4a4-45c9-96cc-9dfe60458e29",
+      "image_url": "https://mobbin.com/api/mcp/short/ZnxcR2A9",
+      "position": 2
+    },
+    {
+      "screen_id": "2bcd4095-e8a8-4020-895d-544cc46c0b0a",
+      "image_url": "https://mobbin.com/api/mcp/short/zj0M4keK",
+      "position": 3
+    },
+    {
+      "screen_id": "663d1e57-c2a5-4fcc-af40-f68a4b3d83b7",
+      "image_url": "https://mobbin.com/api/mcp/short/TujdGMvu",
+      "position": 4
+    },
+    {
+      "screen_id": "e5f5ee39-9ec8-469d-8fb8-465b3b5b4d0e",
+      "image_url": "https://mobbin.com/api/mcp/short/78gKS9iN",
+      "position": 5
+    },
+    {
+      "screen_id": "e44512f0-824b-49e2-8d02-daac7f262bf5",
+      "image_url": "https://mobbin.com/api/mcp/short/uR2CyOIU",
+      "position": 6
+    },
+    {
+      "screen_id": "8506db0f-8e17-47db-92fb-c8eba0213026",
+      "image_url": "https://mobbin.com/api/mcp/short/vjzLUfW7",
+      "position": 7
+    },
+    {
+      "screen_id": "e643e6cd-3862-4228-b405-b07de11fe5c1",
+      "image_url": "https://mobbin.com/api/mcp/short/545nGzYW",
+      "position": 8
+    }
+  ]
+}

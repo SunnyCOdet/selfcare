@@ -1,0 +1,28 @@
+{
+  "id": "c5d087ad-7dd4-482e-9d53-7ffeabbbdb2f",
+  "name": "Accepting an invitation",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c5d087ad-7dd4-482e-9d53-7ffeabbbdb2f",
+  "app_name": "Dub",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "65145b83-cbdc-4a4c-966e-edfb95a39536",
+      "image_url": "https://mobbin.com/api/mcp/short/PWprqvMr",
+      "position": 1
+    },
+    {
+      "screen_id": "acda4b70-c912-41a1-b3c1-d68b4337a4ad",
+      "image_url": "https://mobbin.com/api/mcp/short/SA7BAjOD",
+      "position": 2
+    },
+    {
+      "screen_id": "49e7ef1e-f89a-4d9d-94bf-c5b49d4cd799",
+      "image_url": "https://mobbin.com/api/mcp/short/r2ASC9YM",
+      "position": 3
+    }
+  ]
+}

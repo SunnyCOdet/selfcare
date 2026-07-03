@@ -1,0 +1,21 @@
+{
+  "id": "e83add53-d5b2-40a0-bf8f-d4883d6ceb3b",
+  "name": "Fitness profile",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e83add53-d5b2-40a0-bf8f-d4883d6ceb3b",
+  "app_name": "Equinox+",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "da2bc7da-c2e0-4fb6-bb48-fa59b1c34773",
+      "image_url": "https://mobbin.com/api/mcp/short/X7CiipFj",
+      "position": 1
+    },
+    {
+      "screen_id": "0a07bcf1-2dd6-4552-a873-eec039177cca",
+      "image_url": "https://mobbin.com/api/mcp/short/xgVzLrpa",
+      "position": 2
+    }
+  ]
+}

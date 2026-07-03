@@ -1,0 +1,33 @@
+{
+  "id": "3759ed72-b60a-4c83-aa41-34e57e0079bf",
+  "name": "Starting a chat with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3759ed72-b60a-4c83-aa41-34e57e0079bf",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f4d2031b-c64e-4af2-9284-bd9e13ce97a9",
+      "image_url": "https://mobbin.com/api/mcp/short/49J2oabv",
+      "position": 1
+    },
+    {
+      "screen_id": "57e0db57-492e-4057-8867-66335e29568f",
+      "image_url": "https://mobbin.com/api/mcp/short/o8C7kEdh",
+      "position": 2
+    },
+    {
+      "screen_id": "268c4b0e-5c49-4610-bc8f-a37ce19de7b5",
+      "image_url": "https://mobbin.com/api/mcp/short/KMDNm8uv",
+      "position": 3
+    },
+    {
+      "screen_id": "5b4da92e-3328-4435-854f-799504934c55",
+      "image_url": "https://mobbin.com/api/mcp/short/F0032uWb",
+      "position": 4
+    }
+  ]
+}

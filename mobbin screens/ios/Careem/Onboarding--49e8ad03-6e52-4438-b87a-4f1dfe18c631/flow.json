@@ -1,0 +1,38 @@
+{
+  "id": "49e8ad03-6e52-4438-b87a-4f1dfe18c631",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/49e8ad03-6e52-4438-b87a-4f1dfe18c631",
+  "app_name": "Careem",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "a10655b5-addb-47e1-a33f-3babb24c3c20",
+      "image_url": "https://mobbin.com/api/mcp/short/icLyLT1K",
+      "position": 1
+    },
+    {
+      "screen_id": "7d9bd3be-1ec5-4509-b014-13878623a804",
+      "image_url": "https://mobbin.com/api/mcp/short/1uHO7KGk",
+      "position": 2
+    },
+    {
+      "screen_id": "e97a237b-feb0-4539-8e14-5a9e34aa000a",
+      "image_url": "https://mobbin.com/api/mcp/short/ETK0nqxU",
+      "position": 3
+    },
+    {
+      "screen_id": "9efed28e-6a50-40b8-a8a6-e504c351c151",
+      "image_url": "https://mobbin.com/api/mcp/short/UcexxYcm",
+      "position": 4
+    },
+    {
+      "screen_id": "3100b88d-b8d5-4d51-9e88-b700581cc9cc",
+      "image_url": "https://mobbin.com/api/mcp/short/MxAAj7gV",
+      "position": 5
+    }
+  ]
+}

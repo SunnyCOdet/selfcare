@@ -1,0 +1,38 @@
+{
+  "id": "84f14e5b-2cf7-4f38-8ab9-37f5f43a44ea",
+  "name": "Generating a sticker with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/84f14e5b-2cf7-4f38-8ab9-37f5f43a44ea",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "51fa572d-3c3e-4b17-9942-b96f6f68e823",
+      "image_url": "https://mobbin.com/api/mcp/short/UFw0vYOG",
+      "position": 1
+    },
+    {
+      "screen_id": "ba7af8f8-2345-4a2e-89bc-658955a10553",
+      "image_url": "https://mobbin.com/api/mcp/short/KNsk8tX1",
+      "position": 2
+    },
+    {
+      "screen_id": "ca6c8a65-70c6-49ce-be1a-222a3449c782",
+      "image_url": "https://mobbin.com/api/mcp/short/CLo3M2te",
+      "position": 3
+    },
+    {
+      "screen_id": "721aebcf-7933-41b9-ade6-cea148e1c176",
+      "image_url": "https://mobbin.com/api/mcp/short/CcAP4Pwp",
+      "position": 4
+    },
+    {
+      "screen_id": "425f75ef-6b78-45ca-9b75-daa47dac4b3e",
+      "image_url": "https://mobbin.com/api/mcp/short/E9UtJguV",
+      "position": 5
+    }
+  ]
+}

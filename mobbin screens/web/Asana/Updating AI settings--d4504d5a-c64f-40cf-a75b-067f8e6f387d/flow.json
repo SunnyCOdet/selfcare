@@ -1,0 +1,38 @@
+{
+  "id": "d4504d5a-c64f-40cf-a75b-067f8e6f387d",
+  "name": "Updating AI settings",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d4504d5a-c64f-40cf-a75b-067f8e6f387d",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "18c3e62e-d89a-4849-90fd-c5c528bf4667",
+      "image_url": "https://mobbin.com/api/mcp/short/5LCE3xnv",
+      "position": 1
+    },
+    {
+      "screen_id": "cc713bfb-9a47-4499-9b86-33dfcd0782d3",
+      "image_url": "https://mobbin.com/api/mcp/short/fiZ92dao",
+      "position": 2
+    },
+    {
+      "screen_id": "6ead06c6-cca2-4d4f-ad5d-1b2e01cc12f2",
+      "image_url": "https://mobbin.com/api/mcp/short/mb44fOJM",
+      "position": 3
+    },
+    {
+      "screen_id": "2716cecb-5766-479f-aa8a-e6400eef02d3",
+      "image_url": "https://mobbin.com/api/mcp/short/mEItRqws",
+      "position": 4
+    },
+    {
+      "screen_id": "1902567e-9adf-4f33-be5c-54b54c97137a",
+      "image_url": "https://mobbin.com/api/mcp/short/yL38U4le",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "9342e299-80c6-4b22-b7a8-4895964b1c62",
+  "name": "AI receptionist",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9342e299-80c6-4b22-b7a8-4895964b1c62",
+  "app_name": "Beside",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "1623fcd9-01f0-49bf-8f0b-0470049fcf4e",
+      "image_url": "https://mobbin.com/api/mcp/short/m32cWP3b",
+      "position": 1
+    },
+    {
+      "screen_id": "582c587b-53d7-445a-baae-7d8aaaab482a",
+      "image_url": "https://mobbin.com/api/mcp/short/raEO4PLi",
+      "position": 2
+    },
+    {
+      "screen_id": "93dd7ab9-897e-4ff5-9ff9-8307f0d96fe6",
+      "image_url": "https://mobbin.com/api/mcp/short/f4Xp6yrx",
+      "position": 3
+    },
+    {
+      "screen_id": "232c16f0-8b98-49d7-9d55-ca67854d7182",
+      "image_url": "https://mobbin.com/api/mcp/short/EbMxfPtx",
+      "position": 4
+    },
+    {
+      "screen_id": "8a9bd1f2-50e7-4c26-b3c2-7274910725ee",
+      "image_url": "https://mobbin.com/api/mcp/short/VfGD0oLe",
+      "position": 5
+    },
+    {
+      "screen_id": "415e8237-4bbe-483a-9517-7965776794c4",
+      "image_url": "https://mobbin.com/api/mcp/short/3qUqICFh",
+      "position": 6
+    },
+    {
+      "screen_id": "8c5bfb88-34ae-4540-9ea9-ca3d909cdf4c",
+      "image_url": "https://mobbin.com/api/mcp/short/qCg8NBH8",
+      "position": 7
+    },
+    {
+      "screen_id": "e06f9f30-ce89-4909-a8eb-d14a64e21180",
+      "image_url": "https://mobbin.com/api/mcp/short/5ALpbiGy",
+      "position": 8
+    },
+    {
+      "screen_id": "6abead99-3bb8-4178-84a1-67148ed37ff1",
+      "image_url": "https://mobbin.com/api/mcp/short/c8Y21caC",
+      "position": 9
+    },
+    {
+      "screen_id": "782df6ab-6453-4bf9-8960-492962924630",
+      "image_url": "https://mobbin.com/api/mcp/short/Dq1UrJ9y",
+      "position": 10
+    }
+  ]
+}

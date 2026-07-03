@@ -1,0 +1,44 @@
+{
+  "id": "bdef6929-55c6-4592-a10a-3d9bf7d0eec4",
+  "name": "Completing profile",
+  "actions": [
+    "Editing Profile",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bdef6929-55c6-4592-a10a-3d9bf7d0eec4",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "802d3ae9-4ac7-445b-95b8-a48eb82f907f",
+      "image_url": "https://mobbin.com/api/mcp/short/8QrmjjVv",
+      "position": 1
+    },
+    {
+      "screen_id": "64f8c7af-2036-4632-8b33-5ad396f7250e",
+      "image_url": "https://mobbin.com/api/mcp/short/evPpHvMO",
+      "position": 2
+    },
+    {
+      "screen_id": "aed44ae2-05fc-458c-b6f0-ca9dc06fb59a",
+      "image_url": "https://mobbin.com/api/mcp/short/3zAl7xnB",
+      "position": 3
+    },
+    {
+      "screen_id": "d332b916-8bb3-4451-b917-53605fbcabec",
+      "image_url": "https://mobbin.com/api/mcp/short/zBOIqr8O",
+      "position": 4
+    },
+    {
+      "screen_id": "a6c9ce8c-c83a-4129-abd9-a956f61f4159",
+      "image_url": "https://mobbin.com/api/mcp/short/Gywp3ZIP",
+      "position": 5
+    },
+    {
+      "screen_id": "ed029642-30a8-4ed1-bc8d-f0bc07a96e00",
+      "image_url": "https://mobbin.com/api/mcp/short/FhnQ9gXb",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "60f9707a-b0ad-4785-a7a8-17d0fef22c79",
+  "name": "Chatting with AI Assistant",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/60f9707a-b0ad-4785-a7a8-17d0fef22c79",
+  "app_name": "Wanderlog",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "b4ff7906-0320-429e-8983-339a10c7700a",
+      "image_url": "https://mobbin.com/api/mcp/short/XiGTXM5P",
+      "position": 1
+    },
+    {
+      "screen_id": "256b13ca-0dd7-4875-93ab-c05d1a115b14",
+      "image_url": "https://mobbin.com/api/mcp/short/ZaodjxaA",
+      "position": 2
+    },
+    {
+      "screen_id": "68c8eb0d-d089-4f90-a427-f6daf12aa384",
+      "image_url": "https://mobbin.com/api/mcp/short/PgCqI6Bj",
+      "position": 3
+    },
+    {
+      "screen_id": "ccd19e09-937b-4683-b36b-6cf68bb4161c",
+      "image_url": "https://mobbin.com/api/mcp/short/otC6kk1Y",
+      "position": 4
+    },
+    {
+      "screen_id": "af2775b7-141d-4ea5-91c6-c02dc30d7eb7",
+      "image_url": "https://mobbin.com/api/mcp/short/sdC8YLgF",
+      "position": 5
+    },
+    {
+      "screen_id": "31185421-8179-45e2-987d-4a4cf5979d06",
+      "image_url": "https://mobbin.com/api/mcp/short/T5DUJdgb",
+      "position": 6
+    }
+  ]
+}

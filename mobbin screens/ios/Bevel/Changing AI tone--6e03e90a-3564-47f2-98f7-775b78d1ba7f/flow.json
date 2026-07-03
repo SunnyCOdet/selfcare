@@ -1,0 +1,38 @@
+{
+  "id": "6e03e90a-3564-47f2-98f7-775b78d1ba7f",
+  "name": "Changing AI tone",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6e03e90a-3564-47f2-98f7-775b78d1ba7f",
+  "app_name": "Bevel",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7e75ff2e-9ff1-4831-b8cb-fbc093d62946",
+      "image_url": "https://mobbin.com/api/mcp/short/AcWYMqsu",
+      "position": 1
+    },
+    {
+      "screen_id": "be44a8fa-94cb-49ef-8366-b96bef22b66c",
+      "image_url": "https://mobbin.com/api/mcp/short/iPVJirUi",
+      "position": 2
+    },
+    {
+      "screen_id": "f17d64ec-431c-46bf-81a1-ea5a0acbe9c3",
+      "image_url": "https://mobbin.com/api/mcp/short/F8TAgc23",
+      "position": 3
+    },
+    {
+      "screen_id": "140245a4-1b15-4a8f-aed7-dfd0d9ecafd0",
+      "image_url": "https://mobbin.com/api/mcp/short/D8hrmHtC",
+      "position": 4
+    },
+    {
+      "screen_id": "9fd59745-64da-4f7c-bd5b-da691b2e19e3",
+      "image_url": "https://mobbin.com/api/mcp/short/Y7reksw8",
+      "position": 5
+    }
+  ]
+}

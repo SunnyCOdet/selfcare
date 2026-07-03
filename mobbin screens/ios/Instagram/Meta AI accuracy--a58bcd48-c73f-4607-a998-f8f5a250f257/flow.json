@@ -1,0 +1,21 @@
+{
+  "id": "a58bcd48-c73f-4607-a998-f8f5a250f257",
+  "name": "Meta AI accuracy",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a58bcd48-c73f-4607-a998-f8f5a250f257",
+  "app_name": "Instagram",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "cae5feb0-1986-441e-b8b2-704694476653",
+      "image_url": "https://mobbin.com/api/mcp/short/PjxBIyUf",
+      "position": 1
+    },
+    {
+      "screen_id": "1a4df417-b191-4e2d-ab98-ff02d0f65b30",
+      "image_url": "https://mobbin.com/api/mcp/short/RrIabu27",
+      "position": 2
+    }
+  ]
+}

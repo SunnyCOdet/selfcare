@@ -1,0 +1,49 @@
+{
+  "id": "c1903681-84d4-4c6d-94b5-f43caa651936",
+  "name": "Creating a headlines with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c1903681-84d4-4c6d-94b5-f43caa651936",
+  "app_name": "Reddit",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "78d471da-f281-4bbe-8fdd-c11e0e204898",
+      "image_url": "https://mobbin.com/api/mcp/short/n0BJpbxv",
+      "position": 1
+    },
+    {
+      "screen_id": "cc576bee-09cf-4c87-9b1b-a1a964f67171",
+      "image_url": "https://mobbin.com/api/mcp/short/BXzn5K72",
+      "position": 2
+    },
+    {
+      "screen_id": "ae1b17a7-a1af-4c1e-8da0-8a4ead6d812e",
+      "image_url": "https://mobbin.com/api/mcp/short/K8k8VNYZ",
+      "position": 3
+    },
+    {
+      "screen_id": "bb7eb98b-c457-4852-97eb-45f0c008b68c",
+      "image_url": "https://mobbin.com/api/mcp/short/zknEeEYb",
+      "position": 4
+    },
+    {
+      "screen_id": "26f100ca-98b2-4577-bc9e-544fc3964756",
+      "image_url": "https://mobbin.com/api/mcp/short/ebsI83mr",
+      "position": 5
+    },
+    {
+      "screen_id": "65386889-7f6c-4aaa-94e5-2faced000d4c",
+      "image_url": "https://mobbin.com/api/mcp/short/1EfFm7Iw",
+      "position": 6
+    },
+    {
+      "screen_id": "f87a23f2-3128-446e-8ccb-7fec7ef4f994",
+      "image_url": "https://mobbin.com/api/mcp/short/uqYmlEA1",
+      "position": 7
+    }
+  ]
+}

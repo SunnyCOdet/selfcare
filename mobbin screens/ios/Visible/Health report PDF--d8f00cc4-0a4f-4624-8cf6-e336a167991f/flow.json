@@ -1,0 +1,21 @@
+{
+  "id": "d8f00cc4-0a4f-4624-8cf6-e336a167991f",
+  "name": "Health report PDF",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d8f00cc4-0a4f-4624-8cf6-e336a167991f",
+  "app_name": "Visible",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "a92f1da1-9411-493b-9a37-59ce57b56821",
+      "image_url": "https://mobbin.com/api/mcp/short/uPi8dPLf",
+      "position": 1
+    },
+    {
+      "screen_id": "ce214cc3-6a6b-4850-8085-6da95ff9f293",
+      "image_url": "https://mobbin.com/api/mcp/short/H63kzIOg",
+      "position": 2
+    }
+  ]
+}

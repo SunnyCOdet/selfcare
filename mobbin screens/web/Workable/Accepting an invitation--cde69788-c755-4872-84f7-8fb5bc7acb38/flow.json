@@ -1,0 +1,50 @@
+{
+  "id": "cde69788-c755-4872-84f7-8fb5bc7acb38",
+  "name": "Accepting an invitation",
+  "actions": [
+    "Editing & Updating",
+    "Joining & Accepting",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cde69788-c755-4872-84f7-8fb5bc7acb38",
+  "app_name": "Workable",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "306b9920-6253-4241-841b-15f845fd00cd",
+      "image_url": "https://mobbin.com/api/mcp/short/oGJQmJ5q",
+      "position": 1
+    },
+    {
+      "screen_id": "1a65ca27-510e-40f7-b20e-0c9b3ea84079",
+      "image_url": "https://mobbin.com/api/mcp/short/sHLgfKJp",
+      "position": 2
+    },
+    {
+      "screen_id": "291f1589-99fb-41c1-8228-ea172b6055f1",
+      "image_url": "https://mobbin.com/api/mcp/short/i58EAytW",
+      "position": 3
+    },
+    {
+      "screen_id": "5f32d0a9-f092-4ee9-839a-f8cdd2a3f8ea",
+      "image_url": "https://mobbin.com/api/mcp/short/lOzZKD1N",
+      "position": 4
+    },
+    {
+      "screen_id": "8ef76799-73c0-42a9-9c0d-0e50ebc9d574",
+      "image_url": "https://mobbin.com/api/mcp/short/vMUgmbKX",
+      "position": 5
+    },
+    {
+      "screen_id": "77730588-6cae-47b5-b646-01a0d08fafdd",
+      "image_url": "https://mobbin.com/api/mcp/short/he7o3Qmi",
+      "position": 6
+    },
+    {
+      "screen_id": "625fa0dd-f39f-4b82-8fa7-09b3a78ed1b4",
+      "image_url": "https://mobbin.com/api/mcp/short/1oILC2x7",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "928e2b0a-460c-4b42-9bf4-b3ed24f9e8bd",
+  "name": "Filtering health",
+  "actions": [
+    "Filtering & Sorting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/928e2b0a-460c-4b42-9bf4-b3ed24f9e8bd",
+  "app_name": "Fi",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "cda34d5e-ab30-4739-a3ad-2bf959660a27",
+      "image_url": "https://mobbin.com/api/mcp/short/HGQOlkMb",
+      "position": 1
+    },
+    {
+      "screen_id": "d818c586-78dd-47fe-be57-83833f829d47",
+      "image_url": "https://mobbin.com/api/mcp/short/BTZCMtM3",
+      "position": 2
+    },
+    {
+      "screen_id": "f3d86e16-5dd7-4a7d-9fae-637cdb612f76",
+      "image_url": "https://mobbin.com/api/mcp/short/xOTDqSeV",
+      "position": 3
+    },
+    {
+      "screen_id": "89958f60-b292-4cd5-8bca-69b2370f22f8",
+      "image_url": "https://mobbin.com/api/mcp/short/XMX1pVO2",
+      "position": 4
+    }
+  ]
+}

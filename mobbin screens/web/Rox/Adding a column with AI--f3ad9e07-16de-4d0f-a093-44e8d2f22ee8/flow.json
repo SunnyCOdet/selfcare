@@ -1,0 +1,38 @@
+{
+  "id": "f3ad9e07-16de-4d0f-a093-44e8d2f22ee8",
+  "name": "Adding a column with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f3ad9e07-16de-4d0f-a093-44e8d2f22ee8",
+  "app_name": "Rox",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c03395eb-adc5-49c7-b07e-82b5f298475a",
+      "image_url": "https://mobbin.com/api/mcp/short/smgrZatW",
+      "position": 1
+    },
+    {
+      "screen_id": "cdb8c8a6-fc5d-4bf2-8bbd-a34740ebedfc",
+      "image_url": "https://mobbin.com/api/mcp/short/SJ2jQisV",
+      "position": 2
+    },
+    {
+      "screen_id": "1e1e3f5c-1c8b-42eb-9e12-8a7702ed61b9",
+      "image_url": "https://mobbin.com/api/mcp/short/fVaMQbLa",
+      "position": 3
+    },
+    {
+      "screen_id": "aee227a8-6d84-4d40-90ae-857588160d1b",
+      "image_url": "https://mobbin.com/api/mcp/short/llftjCfj",
+      "position": 4
+    },
+    {
+      "screen_id": "55dc1a5f-809c-4afc-a029-708fb6c03b98",
+      "image_url": "https://mobbin.com/api/mcp/short/pPtTxX82",
+      "position": 5
+    }
+  ]
+}

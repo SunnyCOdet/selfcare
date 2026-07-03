@@ -1,0 +1,54 @@
+{
+  "id": "db912d09-4554-4eca-9e4f-2fd046e14ab7",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/db912d09-4554-4eca-9e4f-2fd046e14ab7",
+  "app_name": "Gymshark Training and Fitness",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "115162ee-fc2b-4de6-9e33-1066e2ac5282",
+      "image_url": "https://mobbin.com/api/mcp/short/peMlJJJ1",
+      "position": 1
+    },
+    {
+      "screen_id": "2acf1228-b7b4-4f60-a5d7-f75447220e9d",
+      "image_url": "https://mobbin.com/api/mcp/short/Q6rKfaZC",
+      "position": 2
+    },
+    {
+      "screen_id": "cce700d8-53f5-4b78-8a12-1f6dcfc1638a",
+      "image_url": "https://mobbin.com/api/mcp/short/qBtaavWq",
+      "position": 3
+    },
+    {
+      "screen_id": "034ddb4d-a10c-4b0e-b3ce-287545f9fea2",
+      "image_url": "https://mobbin.com/api/mcp/short/2K8a9Jov",
+      "position": 4
+    },
+    {
+      "screen_id": "d979ab06-b51b-4c4b-8dbc-c77807c3623f",
+      "image_url": "https://mobbin.com/api/mcp/short/9SLvD6A5",
+      "position": 5
+    },
+    {
+      "screen_id": "e7c3c9d8-5c67-4c30-99a1-02e5cf88d2ac",
+      "image_url": "https://mobbin.com/api/mcp/short/MjFqC7qm",
+      "position": 6
+    },
+    {
+      "screen_id": "889f1cb4-538b-4700-8265-1221f846fd6f",
+      "image_url": "https://mobbin.com/api/mcp/short/4MFcp625",
+      "position": 7
+    },
+    {
+      "screen_id": "221c7e62-7c22-4843-99c7-e5e365a492a6",
+      "image_url": "https://mobbin.com/api/mcp/short/YkfheLkL",
+      "position": 8
+    }
+  ]
+}

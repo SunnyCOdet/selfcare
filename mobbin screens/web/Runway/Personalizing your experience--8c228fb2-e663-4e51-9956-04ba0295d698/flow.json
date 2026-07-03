@@ -1,0 +1,43 @@
+{
+  "id": "8c228fb2-e663-4e51-9956-04ba0295d698",
+  "name": "Personalizing your experience",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8c228fb2-e663-4e51-9956-04ba0295d698",
+  "app_name": "Runway",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "b7284f78-ccb0-446d-ab37-d6ad61f5c888",
+      "image_url": "https://mobbin.com/api/mcp/short/m2Y6O3u5",
+      "position": 1
+    },
+    {
+      "screen_id": "96573bc6-0493-43c7-85da-6ac9f19e0d37",
+      "image_url": "https://mobbin.com/api/mcp/short/O8TqqxXV",
+      "position": 2
+    },
+    {
+      "screen_id": "b5a2b2f7-f91c-4e95-bf7a-6ce9ed74a879",
+      "image_url": "https://mobbin.com/api/mcp/short/JTKge3hP",
+      "position": 3
+    },
+    {
+      "screen_id": "ac53ce5b-91db-47bd-8ccf-113d15e8f87e",
+      "image_url": "https://mobbin.com/api/mcp/short/KpjMFEKN",
+      "position": 4
+    },
+    {
+      "screen_id": "16fcef41-b40a-491e-93ca-39d45782e4bf",
+      "image_url": "https://mobbin.com/api/mcp/short/7Eg96e5B",
+      "position": 5
+    },
+    {
+      "screen_id": "84d84223-4bc6-4bf5-b0e9-60e339c23ada",
+      "image_url": "https://mobbin.com/api/mcp/short/T8idmKOA",
+      "position": 6
+    }
+  ]
+}

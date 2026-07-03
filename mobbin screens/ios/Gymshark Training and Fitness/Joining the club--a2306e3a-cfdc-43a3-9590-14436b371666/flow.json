@@ -1,0 +1,38 @@
+{
+  "id": "a2306e3a-cfdc-43a3-9590-14436b371666",
+  "name": "Joining the club",
+  "actions": [
+    "Registering"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a2306e3a-cfdc-43a3-9590-14436b371666",
+  "app_name": "Gymshark Training and Fitness",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "52e699fc-6a2f-4f85-8fd2-66384f2fa7c9",
+      "image_url": "https://mobbin.com/api/mcp/short/4j8wt7PK",
+      "position": 1
+    },
+    {
+      "screen_id": "02b63add-24cd-4f43-acf8-a4889bc13b1a",
+      "image_url": "https://mobbin.com/api/mcp/short/rmva8LmX",
+      "position": 2
+    },
+    {
+      "screen_id": "160bd471-b516-43cf-9274-42dbc2c31210",
+      "image_url": "https://mobbin.com/api/mcp/short/GNHUvxkG",
+      "position": 3
+    },
+    {
+      "screen_id": "d95c9a29-4cc0-4ae9-8549-296ecdcca8fd",
+      "image_url": "https://mobbin.com/api/mcp/short/LQ9mEO8X",
+      "position": 4
+    },
+    {
+      "screen_id": "f4c57cdb-1662-45cb-b56c-54795e8edfec",
+      "image_url": "https://mobbin.com/api/mcp/short/tmPjPEja",
+      "position": 5
+    }
+  ]
+}

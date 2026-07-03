@@ -1,0 +1,21 @@
+{
+  "id": "6e433227-1f49-464f-9305-1ed9a3bd8bbe",
+  "name": "Health contract",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6e433227-1f49-464f-9305-1ed9a3bd8bbe",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "d248e92b-6737-4e01-bb1c-62a044a1e4c2",
+      "image_url": "https://mobbin.com/api/mcp/short/WjTxVpYi",
+      "position": 1
+    },
+    {
+      "screen_id": "4bc98bc2-d304-47c0-8c51-0adc0a0a2340",
+      "image_url": "https://mobbin.com/api/mcp/short/pUUpi3tW",
+      "position": 2
+    }
+  ]
+}

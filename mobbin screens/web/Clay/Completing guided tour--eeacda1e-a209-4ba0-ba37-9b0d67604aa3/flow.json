@@ -1,0 +1,39 @@
+{
+  "id": "eeacda1e-a209-4ba0-ba37-9b0d67604aa3",
+  "name": "Completing guided tour",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/eeacda1e-a209-4ba0-ba37-9b0d67604aa3",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "5e382eed-7509-4481-bfb8-accc312cfa9d",
+      "image_url": "https://mobbin.com/api/mcp/short/bXmpGiZg",
+      "position": 1
+    },
+    {
+      "screen_id": "c7a8a53a-e54b-4269-828e-91936a70caa6",
+      "image_url": "https://mobbin.com/api/mcp/short/vp2XUQGk",
+      "position": 2
+    },
+    {
+      "screen_id": "9427656a-41f0-47fa-8abf-058c53c68784",
+      "image_url": "https://mobbin.com/api/mcp/short/RO967fe3",
+      "position": 3
+    },
+    {
+      "screen_id": "34195b59-190f-460f-9f7f-32f4a1eb24a1",
+      "image_url": "https://mobbin.com/api/mcp/short/qSBCEjeE",
+      "position": 4
+    },
+    {
+      "screen_id": "78d2b2e6-510a-4c96-ade2-e8dcb9144876",
+      "image_url": "https://mobbin.com/api/mcp/short/jOJfioYC",
+      "position": 5
+    }
+  ]
+}

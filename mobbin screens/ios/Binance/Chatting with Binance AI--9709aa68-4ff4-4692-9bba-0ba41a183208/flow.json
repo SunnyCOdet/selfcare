@@ -1,0 +1,38 @@
+{
+  "id": "9709aa68-4ff4-4692-9bba-0ba41a183208",
+  "name": "Chatting with Binance AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9709aa68-4ff4-4692-9bba-0ba41a183208",
+  "app_name": "Binance",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "bcf52043-da44-4e5f-8e5c-8a9ffdffbcb5",
+      "image_url": "https://mobbin.com/api/mcp/short/Zi6m4Ehd",
+      "position": 1
+    },
+    {
+      "screen_id": "1435d512-4f66-41a8-b5fe-862b6bef93b8",
+      "image_url": "https://mobbin.com/api/mcp/short/CBFJzW0y",
+      "position": 2
+    },
+    {
+      "screen_id": "88614960-77c0-4e16-a597-6e817deaab62",
+      "image_url": "https://mobbin.com/api/mcp/short/mKdJ2jLS",
+      "position": 3
+    },
+    {
+      "screen_id": "72cd3d23-1486-43f6-8883-1c84581a14be",
+      "image_url": "https://mobbin.com/api/mcp/short/6BgiXPxS",
+      "position": 4
+    },
+    {
+      "screen_id": "328de467-6852-4d42-b971-16e3b5b8f69c",
+      "image_url": "https://mobbin.com/api/mcp/short/drwgbnAR",
+      "position": 5
+    }
+  ]
+}

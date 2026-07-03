@@ -1,0 +1,28 @@
+{
+  "id": "a2b862f6-04f8-4cd4-b0bc-0f52440296aa",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a2b862f6-04f8-4cd4-b0bc-0f52440296aa",
+  "app_name": "Fibery",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "6b610910-2be1-4a05-a24d-5c055ca152eb",
+      "image_url": "https://mobbin.com/api/mcp/short/yxyvi6SS",
+      "position": 1
+    },
+    {
+      "screen_id": "d9bfc14d-e2a6-429e-8791-ed3d35173d3c",
+      "image_url": "https://mobbin.com/api/mcp/short/3xDjrJTQ",
+      "position": 2
+    },
+    {
+      "screen_id": "a0fe139c-6bb2-4750-93c5-0c88c2e19061",
+      "image_url": "https://mobbin.com/api/mcp/short/DZjNkrgA",
+      "position": 3
+    }
+  ]
+}

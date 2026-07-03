@@ -1,0 +1,21 @@
+{
+  "id": "ebe31ef3-daac-47b9-ad86-f6f7def2bbc3",
+  "name": "Preview an automation (AI)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ebe31ef3-daac-47b9-ad86-f6f7def2bbc3",
+  "app_name": "ManyChat",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "03294c5a-baee-4c87-a733-c48e1caff58b",
+      "image_url": "https://mobbin.com/api/mcp/short/Rk8vf4m1",
+      "position": 1
+    },
+    {
+      "screen_id": "a051a000-edd7-4007-b3e3-88ba46a91f10",
+      "image_url": "https://mobbin.com/api/mcp/short/pqdsy2CG",
+      "position": 2
+    }
+  ]
+}

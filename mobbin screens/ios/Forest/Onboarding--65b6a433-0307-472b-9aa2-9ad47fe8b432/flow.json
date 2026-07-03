@@ -1,0 +1,53 @@
+{
+  "id": "65b6a433-0307-472b-9aa2-9ad47fe8b432",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/65b6a433-0307-472b-9aa2-9ad47fe8b432",
+  "app_name": "Forest",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "1a983956-87aa-4e25-99d4-130d2567f418",
+      "image_url": "https://mobbin.com/api/mcp/short/mn09jsD5",
+      "position": 1
+    },
+    {
+      "screen_id": "69a2ccf1-2c5f-4fed-b172-00a20ad88214",
+      "image_url": "https://mobbin.com/api/mcp/short/l0n3E3a2",
+      "position": 2
+    },
+    {
+      "screen_id": "7615ef1d-40a2-41d3-a338-c39d594311bc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZSuRDkf1",
+      "position": 3
+    },
+    {
+      "screen_id": "9928d6b6-13ab-4987-9435-ebad995dd168",
+      "image_url": "https://mobbin.com/api/mcp/short/AOkX4zUT",
+      "position": 4
+    },
+    {
+      "screen_id": "b49cb9d9-67a4-40d4-ac72-558c662ccb8f",
+      "image_url": "https://mobbin.com/api/mcp/short/ZzoSfDAj",
+      "position": 5
+    },
+    {
+      "screen_id": "fc7243a9-bf2c-4456-8c16-1902b0988bf8",
+      "image_url": "https://mobbin.com/api/mcp/short/bpptJhD7",
+      "position": 6
+    },
+    {
+      "screen_id": "a6b19b04-9250-4d98-bfb8-2dea44fc2b07",
+      "image_url": "https://mobbin.com/api/mcp/short/MgfL3301",
+      "position": 7
+    },
+    {
+      "screen_id": "fd394396-6fef-4ea0-a7e2-166eb3ceb0ba",
+      "image_url": "https://mobbin.com/api/mcp/short/hXzHyL8F",
+      "position": 8
+    }
+  ]
+}

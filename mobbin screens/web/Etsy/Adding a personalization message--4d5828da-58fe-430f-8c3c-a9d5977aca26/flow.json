@@ -1,0 +1,34 @@
+{
+  "id": "4d5828da-58fe-430f-8c3c-a9d5977aca26",
+  "name": "Adding a personalization message",
+  "actions": [
+    "Adding & Creating",
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4d5828da-58fe-430f-8c3c-a9d5977aca26",
+  "app_name": "Etsy",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "e3a58123-d60e-4543-9053-30b45ab82204",
+      "image_url": "https://mobbin.com/api/mcp/short/ZBkzAWZ1",
+      "position": 1
+    },
+    {
+      "screen_id": "a2ea624c-e278-44fb-b5e9-a54ee430ec35",
+      "image_url": "https://mobbin.com/api/mcp/short/CJ7faZsZ",
+      "position": 2
+    },
+    {
+      "screen_id": "b51ed30b-116b-4320-ae05-af4ad20cf3b6",
+      "image_url": "https://mobbin.com/api/mcp/short/bciIbXPG",
+      "position": 3
+    },
+    {
+      "screen_id": "736788d8-dc2a-4bef-8763-38a66fea89c4",
+      "image_url": "https://mobbin.com/api/mcp/short/pvt90xu4",
+      "position": 4
+    }
+  ]
+}

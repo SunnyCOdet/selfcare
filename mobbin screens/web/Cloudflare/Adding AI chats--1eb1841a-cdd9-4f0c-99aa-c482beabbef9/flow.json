@@ -1,0 +1,28 @@
+{
+  "id": "1eb1841a-cdd9-4f0c-99aa-c482beabbef9",
+  "name": "Adding AI chats",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1eb1841a-cdd9-4f0c-99aa-c482beabbef9",
+  "app_name": "Cloudflare",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "4fa5dd4d-3195-4123-977a-90dbb419ea82",
+      "image_url": "https://mobbin.com/api/mcp/short/WXOFdyxK",
+      "position": 1
+    },
+    {
+      "screen_id": "86ab07d1-f952-4e74-a179-94d644e1ddbd",
+      "image_url": "https://mobbin.com/api/mcp/short/V362H3iJ",
+      "position": 2
+    },
+    {
+      "screen_id": "7f00be02-2c7c-4b74-b3d2-f15fd334fe55",
+      "image_url": "https://mobbin.com/api/mcp/short/uw9esQ5j",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "075ee979-02de-4bc5-91a1-6cf331e9fdff",
+  "name": "Completing guided tutorial",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/075ee979-02de-4bc5-91a1-6cf331e9fdff",
+  "app_name": "Oyster",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "5e4cb6fa-3f99-43cd-8c1e-6d0c9af2923b",
+      "image_url": "https://mobbin.com/api/mcp/short/F8uHAILp",
+      "position": 1
+    },
+    {
+      "screen_id": "e31422ed-416c-42cf-8a58-ad156b165d96",
+      "image_url": "https://mobbin.com/api/mcp/short/d2KnzrrT",
+      "position": 2
+    },
+    {
+      "screen_id": "0a9e24f1-8cc2-4fdc-9c4e-9c6d2105bebb",
+      "image_url": "https://mobbin.com/api/mcp/short/4vg2qi4q",
+      "position": 3
+    },
+    {
+      "screen_id": "eadbc6d1-5fab-4259-bc9d-e80177dfbb5d",
+      "image_url": "https://mobbin.com/api/mcp/short/bIJRLSt5",
+      "position": 4
+    },
+    {
+      "screen_id": "8d437810-7270-4e13-8c7e-2780cffa1fa3",
+      "image_url": "https://mobbin.com/api/mcp/short/leOyqTYj",
+      "position": 5
+    },
+    {
+      "screen_id": "108bfb9e-4b4e-4d46-b91c-62d7610630c7",
+      "image_url": "https://mobbin.com/api/mcp/short/trHJLGq2",
+      "position": 6
+    }
+  ]
+}

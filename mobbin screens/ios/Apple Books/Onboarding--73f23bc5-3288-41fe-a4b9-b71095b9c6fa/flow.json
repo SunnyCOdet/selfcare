@@ -1,0 +1,33 @@
+{
+  "id": "73f23bc5-3288-41fe-a4b9-b71095b9c6fa",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/73f23bc5-3288-41fe-a4b9-b71095b9c6fa",
+  "app_name": "Apple Books",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "909d872c-73c6-4945-9315-ee4b88778549",
+      "image_url": "https://mobbin.com/api/mcp/short/2kKL6wju",
+      "position": 1
+    },
+    {
+      "screen_id": "f85502b2-4f8f-4e32-bf0c-0b9fde22c439",
+      "image_url": "https://mobbin.com/api/mcp/short/V273NEc8",
+      "position": 2
+    },
+    {
+      "screen_id": "033c9a66-a80c-4f28-897f-542f0a81af00",
+      "image_url": "https://mobbin.com/api/mcp/short/qvbrfaGa",
+      "position": 3
+    },
+    {
+      "screen_id": "f4688b5b-bbd4-43aa-9da7-edd780d338fb",
+      "image_url": "https://mobbin.com/api/mcp/short/ervdMdiU",
+      "position": 4
+    }
+  ]
+}

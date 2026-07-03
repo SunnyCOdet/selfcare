@@ -1,0 +1,26 @@
+{
+  "id": "c7bfc75a-ea29-4cea-abec-beda4975177c",
+  "name": "History (Binance AI)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c7bfc75a-ea29-4cea-abec-beda4975177c",
+  "app_name": "Binance",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "72cd3d23-1486-43f6-8883-1c84581a14be",
+      "image_url": "https://mobbin.com/api/mcp/short/Gjsl8yFQ",
+      "position": 1
+    },
+    {
+      "screen_id": "cbccf341-dcf8-4f6d-8fa0-ee7e7dc5fc9b",
+      "image_url": "https://mobbin.com/api/mcp/short/SbGsNzIi",
+      "position": 2
+    },
+    {
+      "screen_id": "00f0466a-ef31-4215-8a42-06841f928fb0",
+      "image_url": "https://mobbin.com/api/mcp/short/n3p1WCBo",
+      "position": 3
+    }
+  ]
+}

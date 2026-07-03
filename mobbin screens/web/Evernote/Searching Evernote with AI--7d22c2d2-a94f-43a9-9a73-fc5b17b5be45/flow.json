@@ -1,0 +1,43 @@
+{
+  "id": "7d22c2d2-a94f-43a9-9a73-fc5b17b5be45",
+  "name": "Searching Evernote with AI",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7d22c2d2-a94f-43a9-9a73-fc5b17b5be45",
+  "app_name": "Evernote",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3120a6eb-313c-492d-96f2-63b5656c80be",
+      "image_url": "https://mobbin.com/api/mcp/short/k13OfEir",
+      "position": 1
+    },
+    {
+      "screen_id": "6de321ed-17a7-4e32-ac7e-d80709bdbf7b",
+      "image_url": "https://mobbin.com/api/mcp/short/ezlqwRmg",
+      "position": 2
+    },
+    {
+      "screen_id": "184ad205-a4eb-4a99-9969-793caeacb460",
+      "image_url": "https://mobbin.com/api/mcp/short/qkquShBL",
+      "position": 3
+    },
+    {
+      "screen_id": "e8cbbd7c-6efe-4478-8393-55a52b392a05",
+      "image_url": "https://mobbin.com/api/mcp/short/GgRKq1T1",
+      "position": 4
+    },
+    {
+      "screen_id": "dd21ef3a-fd15-4f5b-aedd-82e36bd8f304",
+      "image_url": "https://mobbin.com/api/mcp/short/DzGch6jL",
+      "position": 5
+    },
+    {
+      "screen_id": "6b79f5c3-4931-4f7f-b035-43c4aed271ef",
+      "image_url": "https://mobbin.com/api/mcp/short/wWg10gSI",
+      "position": 6
+    }
+  ]
+}

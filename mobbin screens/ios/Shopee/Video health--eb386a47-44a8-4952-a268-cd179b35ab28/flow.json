@@ -1,0 +1,21 @@
+{
+  "id": "eb386a47-44a8-4952-a268-cd179b35ab28",
+  "name": "Video health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/eb386a47-44a8-4952-a268-cd179b35ab28",
+  "app_name": "Shopee",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "0f765c46-937a-4ae0-abeb-58d21db9e2d5",
+      "image_url": "https://mobbin.com/api/mcp/short/DGKmJE1d",
+      "position": 1
+    },
+    {
+      "screen_id": "6ac9153b-b3ce-4f78-be3c-5d76629b7e7d",
+      "image_url": "https://mobbin.com/api/mcp/short/GXNF0VV1",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "6057bb13-1765-48cc-8cfa-09b0ef8e7107",
+  "name": "Completing a quiz",
+  "actions": [
+    "Scheduling",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6057bb13-1765-48cc-8cfa-09b0ef8e7107",
+  "app_name": "Calm Sleep",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "10795668-3734-4fca-a7bb-8add92671d08",
+      "image_url": "https://mobbin.com/api/mcp/short/aS40A7b0",
+      "position": 1
+    },
+    {
+      "screen_id": "f487367e-995e-4508-9009-907773c0d1ce",
+      "image_url": "https://mobbin.com/api/mcp/short/gUHLjA49",
+      "position": 2
+    },
+    {
+      "screen_id": "b9d2aed0-363f-48f3-8cc4-bcbb5e99e2d9",
+      "image_url": "https://mobbin.com/api/mcp/short/5pR48K11",
+      "position": 3
+    },
+    {
+      "screen_id": "54b48274-453e-4f41-af46-17445bf27172",
+      "image_url": "https://mobbin.com/api/mcp/short/I2L1blD5",
+      "position": 4
+    },
+    {
+      "screen_id": "5a818805-f17c-4d66-97a4-f372fb050e7a",
+      "image_url": "https://mobbin.com/api/mcp/short/1joCeb6e",
+      "position": 5
+    },
+    {
+      "screen_id": "251dfe23-3d4c-4013-8eaf-6ae79be086a5",
+      "image_url": "https://mobbin.com/api/mcp/short/QSzg7wW2",
+      "position": 6
+    },
+    {
+      "screen_id": "6dfb3d50-0697-4362-9678-483b74456d34",
+      "image_url": "https://mobbin.com/api/mcp/short/HDiIA5uM",
+      "position": 7
+    },
+    {
+      "screen_id": "29b16116-6164-45aa-9d24-077805f32feb",
+      "image_url": "https://mobbin.com/api/mcp/short/79Mxx244",
+      "position": 8
+    },
+    {
+      "screen_id": "1bea0f68-e4d4-4d86-b0e8-2ccc4503b28a",
+      "image_url": "https://mobbin.com/api/mcp/short/lSnEDZnl",
+      "position": 9
+    }
+  ]
+}

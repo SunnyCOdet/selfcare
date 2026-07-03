@@ -1,0 +1,41 @@
+{
+  "id": "36e9d3df-c927-4dc4-81ba-114733d9e064",
+  "name": "Appointments",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/36e9d3df-c927-4dc4-81ba-114733d9e064",
+  "app_name": "Square",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "1239afca-ba8a-49fa-bab9-1e98817223d6",
+      "image_url": "https://mobbin.com/api/mcp/short/jmNTGBuV",
+      "position": 1
+    },
+    {
+      "screen_id": "f0498f93-107b-4ef2-a1a9-f41892d46abe",
+      "image_url": "https://mobbin.com/api/mcp/short/3E6bgikW",
+      "position": 2
+    },
+    {
+      "screen_id": "9eb69bca-2fe2-48ab-b89a-14e3ab01a861",
+      "image_url": "https://mobbin.com/api/mcp/short/b99oMEtM",
+      "position": 3
+    },
+    {
+      "screen_id": "ddb9ab11-28da-4817-841a-c03f09425397",
+      "image_url": "https://mobbin.com/api/mcp/short/ONUmaIjJ",
+      "position": 4
+    },
+    {
+      "screen_id": "4dd7b136-827b-484b-bd74-c282e17c1808",
+      "image_url": "https://mobbin.com/api/mcp/short/1e5r2gob",
+      "position": 5
+    },
+    {
+      "screen_id": "1f0debc6-8d43-48b9-b966-0591a4f7365e",
+      "image_url": "https://mobbin.com/api/mcp/short/Ra3DtBvH",
+      "position": 6
+    }
+  ]
+}

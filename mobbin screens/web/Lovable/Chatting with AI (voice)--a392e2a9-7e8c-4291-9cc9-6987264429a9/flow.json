@@ -1,0 +1,49 @@
+{
+  "id": "a392e2a9-7e8c-4291-9cc9-6987264429a9",
+  "name": "Chatting with AI (voice)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a392e2a9-7e8c-4291-9cc9-6987264429a9",
+  "app_name": "Lovable",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "55bbefde-3892-424f-a917-1db06cbd55aa",
+      "image_url": "https://mobbin.com/api/mcp/short/uib9G8D5",
+      "position": 1
+    },
+    {
+      "screen_id": "ab8cab03-0389-46b8-b5f2-387627967aa6",
+      "image_url": "https://mobbin.com/api/mcp/short/OExqTIob",
+      "position": 2
+    },
+    {
+      "screen_id": "41630b26-9156-4c6d-a2d8-e78f7e2c8252",
+      "image_url": "https://mobbin.com/api/mcp/short/aDQgNPp2",
+      "position": 3
+    },
+    {
+      "screen_id": "ab422528-90e2-41b0-b8bf-8521fc6a5b42",
+      "image_url": "https://mobbin.com/api/mcp/short/d6XCSpAl",
+      "position": 4
+    },
+    {
+      "screen_id": "1d6fbfa2-5ea9-4dd7-95d8-b0b59affd4ef",
+      "image_url": "https://mobbin.com/api/mcp/short/cfDPS5YZ",
+      "position": 5
+    },
+    {
+      "screen_id": "d71a9d19-f4d0-4f6e-8a73-bd9bff44142b",
+      "image_url": "https://mobbin.com/api/mcp/short/YO37JegQ",
+      "position": 6
+    },
+    {
+      "screen_id": "e885c2d1-6d5f-4f3c-8fea-2a0c1cad20e6",
+      "image_url": "https://mobbin.com/api/mcp/short/doyKiC1j",
+      "position": 7
+    }
+  ]
+}

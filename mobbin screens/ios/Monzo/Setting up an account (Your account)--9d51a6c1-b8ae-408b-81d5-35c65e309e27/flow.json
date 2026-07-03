@@ -1,0 +1,59 @@
+{
+  "id": "9d51a6c1-b8ae-408b-81d5-35c65e309e27",
+  "name": "Setting up an account (Your account)",
+  "actions": [
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9d51a6c1-b8ae-408b-81d5-35c65e309e27",
+  "app_name": "Monzo",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "858f6b4b-d550-46c5-9134-95e3c9a34f61",
+      "image_url": "https://mobbin.com/api/mcp/short/Jki1adVo",
+      "position": 1
+    },
+    {
+      "screen_id": "33305150-f810-4bcb-a0e1-72fdd93c492d",
+      "image_url": "https://mobbin.com/api/mcp/short/bsEtowiW",
+      "position": 2
+    },
+    {
+      "screen_id": "88752a0e-814e-4a37-9d25-2358c9b788dd",
+      "image_url": "https://mobbin.com/api/mcp/short/RLkYiYtC",
+      "position": 3
+    },
+    {
+      "screen_id": "68ba081c-5ca7-45ce-9719-f4e4ed659fc3",
+      "image_url": "https://mobbin.com/api/mcp/short/ZDOyOyfm",
+      "position": 4
+    },
+    {
+      "screen_id": "9e4538ff-7bca-4d1b-8dd2-eb13d4e06d7c",
+      "image_url": "https://mobbin.com/api/mcp/short/P6x3ywiS",
+      "position": 5
+    },
+    {
+      "screen_id": "0f34837f-f42a-4642-be68-54335eee1622",
+      "image_url": "https://mobbin.com/api/mcp/short/2cw6Z09Q",
+      "position": 6
+    },
+    {
+      "screen_id": "67cbb486-c545-46ac-a744-3a2db1ea8fb2",
+      "image_url": "https://mobbin.com/api/mcp/short/0dYaej4S",
+      "position": 7
+    },
+    {
+      "screen_id": "7649beee-c329-485b-885a-e0528118dbe0",
+      "image_url": "https://mobbin.com/api/mcp/short/2CAqmPhR",
+      "position": 8
+    },
+    {
+      "screen_id": "dbe707e0-3f3f-498a-a6fd-59e9f55c47d6",
+      "image_url": "https://mobbin.com/api/mcp/short/jjCNY7bS",
+      "position": 9
+    }
+  ]
+}

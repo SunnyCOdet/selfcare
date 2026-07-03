@@ -1,0 +1,43 @@
+{
+  "id": "76f470da-8b29-4473-aaf8-a3710a1ff3c6",
+  "name": "Starting a daily walking mission",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/76f470da-8b29-4473-aaf8-a3710a1ff3c6",
+  "app_name": "KakaoBank",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "1af3ee26-9dbc-4648-b220-ef77f3c78941",
+      "image_url": "https://mobbin.com/api/mcp/short/s0cQBmnj",
+      "position": 1
+    },
+    {
+      "screen_id": "189f26a5-644c-41bb-99f7-7268176effcc",
+      "image_url": "https://mobbin.com/api/mcp/short/5T1iHkg7",
+      "position": 2
+    },
+    {
+      "screen_id": "0e493e92-4d7d-4663-9a7c-edc93bfd0e22",
+      "image_url": "https://mobbin.com/api/mcp/short/dutIkuTl",
+      "position": 3
+    },
+    {
+      "screen_id": "70138979-6390-4232-b472-8fdf6600519d",
+      "image_url": "https://mobbin.com/api/mcp/short/fJo7NC0h",
+      "position": 4
+    },
+    {
+      "screen_id": "07568b55-5873-4f75-8f02-882030b39258",
+      "image_url": "https://mobbin.com/api/mcp/short/Zeh43LqU",
+      "position": 5
+    },
+    {
+      "screen_id": "792a4414-01a2-4dbd-8772-080be18775bb",
+      "image_url": "https://mobbin.com/api/mcp/short/OhmQ4btq",
+      "position": 6
+    }
+  ]
+}

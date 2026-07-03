@@ -1,0 +1,26 @@
+{
+  "id": "92ae8886-8ce3-4397-af20-fc895810acbe",
+  "name": "Add a widget",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/92ae8886-8ce3-4397-af20-fc895810acbe",
+  "app_name": "Liven",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0dea0bc7-d875-469c-aae1-aa0216855133",
+      "image_url": "https://mobbin.com/api/mcp/short/TObRiQnj",
+      "position": 1
+    },
+    {
+      "screen_id": "8e910653-1c8a-4f74-870a-2d78c27bdd91",
+      "image_url": "https://mobbin.com/api/mcp/short/HpNkLM9R",
+      "position": 2
+    },
+    {
+      "screen_id": "5af2d30d-7127-4dd7-b050-6e4087128328",
+      "image_url": "https://mobbin.com/api/mcp/short/M27HmY9x",
+      "position": 3
+    }
+  ]
+}

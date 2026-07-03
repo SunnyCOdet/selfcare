@@ -1,0 +1,33 @@
+{
+  "id": "6d3aca22-72c6-471f-9570-c74d190f2649",
+  "name": "Generating job description with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6d3aca22-72c6-471f-9570-c74d190f2649",
+  "app_name": "Workable",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "e2e01f4a-4eb0-41a8-9707-a01c7a723188",
+      "image_url": "https://mobbin.com/api/mcp/short/3WFItS2J",
+      "position": 1
+    },
+    {
+      "screen_id": "996ce9a8-d016-46d1-9584-8da75de2a46d",
+      "image_url": "https://mobbin.com/api/mcp/short/EWiYlDX9",
+      "position": 2
+    },
+    {
+      "screen_id": "c0aa93b9-b5b9-4d23-99fb-69bd573f19f8",
+      "image_url": "https://mobbin.com/api/mcp/short/KNqfqNl6",
+      "position": 3
+    },
+    {
+      "screen_id": "71728a21-27c0-4992-a4f7-084c3b61bfa7",
+      "image_url": "https://mobbin.com/api/mcp/short/ZWJpHJRt",
+      "position": 4
+    }
+  ]
+}

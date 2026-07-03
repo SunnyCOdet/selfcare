@@ -1,0 +1,33 @@
+{
+  "id": "b3aa211c-780c-4148-aee8-f316b1fad8fa",
+  "name": "Importing a file (AI Chat)",
+  "actions": [
+    "Importing & Exporting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b3aa211c-780c-4148-aee8-f316b1fad8fa",
+  "app_name": "Otter AI",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "68c225f0-2913-4f8f-95d4-dbef11dd3978",
+      "image_url": "https://mobbin.com/api/mcp/short/o5YuSHiH",
+      "position": 1
+    },
+    {
+      "screen_id": "9dbe1640-6fc9-41be-8538-42070139ebea",
+      "image_url": "https://mobbin.com/api/mcp/short/vldrHkPi",
+      "position": 2
+    },
+    {
+      "screen_id": "a9dd713b-e297-402b-a956-8a05f1633a64",
+      "image_url": "https://mobbin.com/api/mcp/short/ch2Y44uL",
+      "position": 3
+    },
+    {
+      "screen_id": "3afc8bb0-3618-4de8-966a-9dc57d87b82a",
+      "image_url": "https://mobbin.com/api/mcp/short/lKng00Ye",
+      "position": 4
+    }
+  ]
+}

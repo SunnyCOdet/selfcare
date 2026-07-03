@@ -1,0 +1,53 @@
+{
+  "id": "45887c47-fde8-4af6-aa98-9bf992a51669",
+  "name": "Setting up commitment",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/45887c47-fde8-4af6-aa98-9bf992a51669",
+  "app_name": "Rocket Money",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "50e77f4b-a1c3-4bcc-a5e8-115ef193c596",
+      "image_url": "https://mobbin.com/api/mcp/short/U9HrivMV",
+      "position": 1
+    },
+    {
+      "screen_id": "5241b8a8-ce86-4a50-819e-aeb7b31c628c",
+      "image_url": "https://mobbin.com/api/mcp/short/n9prQaoS",
+      "position": 2
+    },
+    {
+      "screen_id": "4fdafb54-c39d-4b7f-8234-202a31e4fe90",
+      "image_url": "https://mobbin.com/api/mcp/short/e6rzusQH",
+      "position": 3
+    },
+    {
+      "screen_id": "5120a80b-1409-4c31-a403-d9feba9592e1",
+      "image_url": "https://mobbin.com/api/mcp/short/QRrs0Smo",
+      "position": 4
+    },
+    {
+      "screen_id": "75b90058-a557-4fad-87b5-cf7788e375e5",
+      "image_url": "https://mobbin.com/api/mcp/short/xUI9aPXl",
+      "position": 5
+    },
+    {
+      "screen_id": "da08a12d-7485-4319-aa2c-579422bd1482",
+      "image_url": "https://mobbin.com/api/mcp/short/JyZGJD28",
+      "position": 6
+    },
+    {
+      "screen_id": "5bf39228-0b72-4a75-b3a7-1419e05ae536",
+      "image_url": "https://mobbin.com/api/mcp/short/21ojYXcj",
+      "position": 7
+    },
+    {
+      "screen_id": "94e3c7a6-fac7-4f42-a73b-b54d3e8fe2a4",
+      "image_url": "https://mobbin.com/api/mcp/short/95diDRwB",
+      "position": 8
+    }
+  ]
+}

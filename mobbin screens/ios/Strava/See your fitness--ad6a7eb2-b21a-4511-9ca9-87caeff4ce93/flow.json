@@ -1,0 +1,21 @@
+{
+  "id": "ad6a7eb2-b21a-4511-9ca9-87caeff4ce93",
+  "name": "See your fitness",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ad6a7eb2-b21a-4511-9ca9-87caeff4ce93",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "d4fb3306-cf3b-4c08-9e40-4442d0df32b3",
+      "image_url": "https://mobbin.com/api/mcp/short/IdjpKl0r",
+      "position": 1
+    },
+    {
+      "screen_id": "43d62ae1-4295-4b0a-8481-516a107b7389",
+      "image_url": "https://mobbin.com/api/mcp/short/oaSLOby3",
+      "position": 2
+    }
+  ]
+}

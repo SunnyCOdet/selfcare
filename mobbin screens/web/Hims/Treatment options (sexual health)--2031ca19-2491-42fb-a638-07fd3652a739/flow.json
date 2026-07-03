@@ -1,0 +1,26 @@
+{
+  "id": "2031ca19-2491-42fb-a638-07fd3652a739",
+  "name": "Treatment options (sexual health)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2031ca19-2491-42fb-a638-07fd3652a739",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b4e719e8-1f36-4c72-aaca-ba03dde0ccf1",
+      "image_url": "https://mobbin.com/api/mcp/short/hRafp3gG",
+      "position": 1
+    },
+    {
+      "screen_id": "f98b19de-f4df-4b4e-9dfa-b1fe7183ac81",
+      "image_url": "https://mobbin.com/api/mcp/short/hykH2PS0",
+      "position": 2
+    },
+    {
+      "screen_id": "70b53173-4594-429f-9fbb-1e0d4c83378d",
+      "image_url": "https://mobbin.com/api/mcp/short/0LB3P6yd",
+      "position": 3
+    }
+  ]
+}

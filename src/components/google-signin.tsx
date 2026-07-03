@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { createClient } from "@/lib/supabase/client";
+import { Button } from "@/components/ui/button";
 
 export function GoogleSignIn() {
   const [loading, setLoading] = useState(false);
@@ -25,7 +26,7 @@ export function GoogleSignIn() {
 
   return (
     <div className="flex flex-col items-center gap-3">
-      <button onClick={signIn} disabled={loading} className="btn-primary text-base px-8 py-3.5">
+      <Button onClick={signIn} disabled={loading} size="lg" className="w-full max-w-xs rounded-full">
         <svg className="w-5 h-5" viewBox="0 0 24 24">
           <path
             fill="currentColor"
@@ -45,7 +46,7 @@ export function GoogleSignIn() {
           />
         </svg>
         {loading ? "Redirecting..." : "Continue with Google"}
-      </button>
+      </Button>
       {error && <p className="text-sm text-red-400">{error}</p>}
     </div>
   );

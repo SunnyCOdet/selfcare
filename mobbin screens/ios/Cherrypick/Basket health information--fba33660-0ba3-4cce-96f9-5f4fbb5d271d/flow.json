@@ -1,0 +1,26 @@
+{
+  "id": "fba33660-0ba3-4cce-96f9-5f4fbb5d271d",
+  "name": "Basket health information",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/fba33660-0ba3-4cce-96f9-5f4fbb5d271d",
+  "app_name": "Cherrypick",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "468ece2f-23c0-4ea7-8b03-c6f84def59fc",
+      "image_url": "https://mobbin.com/api/mcp/short/5fezwFqT",
+      "position": 1
+    },
+    {
+      "screen_id": "0b599f95-9f69-4d23-9e08-061ad48e54de",
+      "image_url": "https://mobbin.com/api/mcp/short/sqEI3duE",
+      "position": 2
+    },
+    {
+      "screen_id": "474f7694-3e7f-4353-bc7d-e077acb42236",
+      "image_url": "https://mobbin.com/api/mcp/short/wmMpdIbv",
+      "position": 3
+    }
+  ]
+}

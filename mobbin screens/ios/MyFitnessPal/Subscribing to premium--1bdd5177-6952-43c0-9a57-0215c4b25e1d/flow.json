@@ -1,0 +1,38 @@
+{
+  "id": "1bdd5177-6952-43c0-9a57-0215c4b25e1d",
+  "name": "Subscribing to premium",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1bdd5177-6952-43c0-9a57-0215c4b25e1d",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "63be12d5-fd13-4725-81c3-688a82d87e33",
+      "image_url": "https://mobbin.com/api/mcp/short/5spxp9sK",
+      "position": 1
+    },
+    {
+      "screen_id": "b8d6bc4a-af3d-4150-bec5-9d2030731cba",
+      "image_url": "https://mobbin.com/api/mcp/short/y3YjIKUY",
+      "position": 2
+    },
+    {
+      "screen_id": "dee918d9-03cf-446d-b043-3d7eb79a9304",
+      "image_url": "https://mobbin.com/api/mcp/short/tkKqCLEr",
+      "position": 3
+    },
+    {
+      "screen_id": "701e5419-808a-45a4-ad44-d58b73e556d8",
+      "image_url": "https://mobbin.com/api/mcp/short/JjWKpO8x",
+      "position": 4
+    },
+    {
+      "screen_id": "d9843aeb-9335-41fc-8520-ce9f102d5d98",
+      "image_url": "https://mobbin.com/api/mcp/short/P98aMbpG",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "dce47208-c91e-4fc5-af30-2f2a33fb2dcd",
+  "name": "Creating an AI model",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dce47208-c91e-4fc5-af30-2f2a33fb2dcd",
+  "app_name": "CapCut",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "58984ebf-3e01-469c-ae98-a8e1caec2fdd",
+      "image_url": "https://mobbin.com/api/mcp/short/2BZ2w6t8",
+      "position": 1
+    },
+    {
+      "screen_id": "e1a4e787-0ac0-4859-8227-e4d10d9cdef9",
+      "image_url": "https://mobbin.com/api/mcp/short/VLBw9PPK",
+      "position": 2
+    },
+    {
+      "screen_id": "91449f05-2cdf-4909-8a19-816da5540c66",
+      "image_url": "https://mobbin.com/api/mcp/short/wBOoBpVN",
+      "position": 3
+    },
+    {
+      "screen_id": "1e0440af-b7e0-4bf0-9596-2a9723a807d8",
+      "image_url": "https://mobbin.com/api/mcp/short/o0r68Uvc",
+      "position": 4
+    },
+    {
+      "screen_id": "3dd7d178-a6ac-4997-8c12-39812bb0af7c",
+      "image_url": "https://mobbin.com/api/mcp/short/VRRXSYft",
+      "position": 5
+    },
+    {
+      "screen_id": "350613bb-b936-46e6-af38-8c3e359b5806",
+      "image_url": "https://mobbin.com/api/mcp/short/TtN0iPbl",
+      "position": 6
+    },
+    {
+      "screen_id": "5385316e-78a1-4249-8810-98c339670da9",
+      "image_url": "https://mobbin.com/api/mcp/short/CiGiFEoJ",
+      "position": 7
+    }
+  ]
+}

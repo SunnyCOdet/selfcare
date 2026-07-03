@@ -1,0 +1,41 @@
+{
+  "id": "590091de-bcaa-4aec-9d2f-6a62b7ba46a3",
+  "name": "Eve AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/590091de-bcaa-4aec-9d2f-6a62b7ba46a3",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3dd40330-234b-4cf3-b26a-a32c117427a4",
+      "image_url": "https://mobbin.com/api/mcp/short/43RYjsha",
+      "position": 1
+    },
+    {
+      "screen_id": "ad862fc5-2155-4c48-bb8d-6d70f894196b",
+      "image_url": "https://mobbin.com/api/mcp/short/S8iEJdOT",
+      "position": 2
+    },
+    {
+      "screen_id": "c0fae051-a7a1-4848-9686-2c771b2556d6",
+      "image_url": "https://mobbin.com/api/mcp/short/o1ooj8Tt",
+      "position": 3
+    },
+    {
+      "screen_id": "8868a4a7-814d-4efe-82a9-bc8dfd0757e4",
+      "image_url": "https://mobbin.com/api/mcp/short/FdMS1geX",
+      "position": 4
+    },
+    {
+      "screen_id": "a126a129-e943-43a9-a5d4-1274751a6214",
+      "image_url": "https://mobbin.com/api/mcp/short/9LEtDglL",
+      "position": 5
+    },
+    {
+      "screen_id": "1086af93-5300-41b7-8339-90c8aab9d1cc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZsWLnFXR",
+      "position": 6
+    }
+  ]
+}

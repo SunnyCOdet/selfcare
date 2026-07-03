@@ -1,0 +1,55 @@
+{
+  "id": "d2d155b4-cc57-4346-9f94-c8b5c5f6af72",
+  "name": "Onboarding (Teams)",
+  "actions": [
+    "Creating Account",
+    "Inviting Teammates & Friends",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d2d155b4-cc57-4346-9f94-c8b5c5f6af72",
+  "app_name": "Uxcel",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "26ff5c86-5d4e-496e-a684-4d02b11fbb70",
+      "image_url": "https://mobbin.com/api/mcp/short/m9LQxa7C",
+      "position": 1
+    },
+    {
+      "screen_id": "24d28ef4-20ce-4ac1-b240-88297088b225",
+      "image_url": "https://mobbin.com/api/mcp/short/GwkgnJ9m",
+      "position": 2
+    },
+    {
+      "screen_id": "10c2bcd2-8cac-4a17-ad5d-08af598f0255",
+      "image_url": "https://mobbin.com/api/mcp/short/KQv2X1cy",
+      "position": 3
+    },
+    {
+      "screen_id": "c454e7d6-c1ec-4964-8df3-b1d1b7e32c47",
+      "image_url": "https://mobbin.com/api/mcp/short/n1KvtpAz",
+      "position": 4
+    },
+    {
+      "screen_id": "550da42f-fd28-4947-83d2-8e0ffe6aea50",
+      "image_url": "https://mobbin.com/api/mcp/short/ArxWciyK",
+      "position": 5
+    },
+    {
+      "screen_id": "71213f8b-55c9-4e30-a763-43fa035a3637",
+      "image_url": "https://mobbin.com/api/mcp/short/u0KYwNdH",
+      "position": 6
+    },
+    {
+      "screen_id": "4fa8ef09-212d-4792-a67e-265e05c50afa",
+      "image_url": "https://mobbin.com/api/mcp/short/g95j2Y9r",
+      "position": 7
+    },
+    {
+      "screen_id": "46cbd39c-fa50-4357-8707-f3b0c747b0ed",
+      "image_url": "https://mobbin.com/api/mcp/short/U4vbyYP1",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "96585906-d69a-4abd-bb35-955ccb1fc8b1",
+  "name": "Contacting AI support",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/96585906-d69a-4abd-bb35-955ccb1fc8b1",
+  "app_name": "Opal",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "7967b4e0-8992-4f22-8a47-7fec374f3922",
+      "image_url": "https://mobbin.com/api/mcp/short/tDBQon4W",
+      "position": 1
+    },
+    {
+      "screen_id": "d3c7cb93-9cef-47ef-b278-d69914e9cc91",
+      "image_url": "https://mobbin.com/api/mcp/short/qvDowp1m",
+      "position": 2
+    },
+    {
+      "screen_id": "4ba0456f-6f51-4dba-b440-3e1c8e65fa6a",
+      "image_url": "https://mobbin.com/api/mcp/short/abcgCBy9",
+      "position": 3
+    },
+    {
+      "screen_id": "9ae827d6-1736-4ac1-a757-422decd0ded8",
+      "image_url": "https://mobbin.com/api/mcp/short/6KdRPn9U",
+      "position": 4
+    },
+    {
+      "screen_id": "34de5fcc-59fb-4f58-ba9e-077d1e7cfae4",
+      "image_url": "https://mobbin.com/api/mcp/short/o2bc0cpF",
+      "position": 5
+    },
+    {
+      "screen_id": "828a6938-508e-40b5-9617-d13819a61c5e",
+      "image_url": "https://mobbin.com/api/mcp/short/mDIRH1uX",
+      "position": 6
+    }
+  ]
+}

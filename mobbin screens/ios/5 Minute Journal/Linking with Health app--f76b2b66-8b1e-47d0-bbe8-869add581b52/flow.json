@@ -1,0 +1,33 @@
+{
+  "id": "f76b2b66-8b1e-47d0-bbe8-869add581b52",
+  "name": "Linking with Health app",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f76b2b66-8b1e-47d0-bbe8-869add581b52",
+  "app_name": "5 Minute Journal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f0bf1130-b291-4d3c-a6b5-a4480ad40612",
+      "image_url": "https://mobbin.com/api/mcp/short/t2vLkq5h",
+      "position": 1
+    },
+    {
+      "screen_id": "15e4dc4a-4608-42a5-bad1-48cf82c4b8a8",
+      "image_url": "https://mobbin.com/api/mcp/short/p5qu9YDa",
+      "position": 2
+    },
+    {
+      "screen_id": "05f68832-d613-4cf0-afde-267fcf0dcd3a",
+      "image_url": "https://mobbin.com/api/mcp/short/oO2PGqEL",
+      "position": 3
+    },
+    {
+      "screen_id": "ad5d0b64-ca89-4421-a06f-88b2e96cd084",
+      "image_url": "https://mobbin.com/api/mcp/short/DK8D0fPR",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "3afd5e80-566c-4c10-b466-ad3a24c4076f",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3afd5e80-566c-4c10-b466-ad3a24c4076f",
+  "app_name": "Apple Music",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "610540a9-3294-4826-be51-40381ec5b64f",
+      "image_url": "https://mobbin.com/api/mcp/short/AxRWaeB6",
+      "position": 1
+    },
+    {
+      "screen_id": "a89cc223-29e0-4d63-a9b4-bab0991c8f86",
+      "image_url": "https://mobbin.com/api/mcp/short/A3oFJmIC",
+      "position": 2
+    },
+    {
+      "screen_id": "60a50d31-9f20-4d26-90fe-7294bc701a11",
+      "image_url": "https://mobbin.com/api/mcp/short/umm9QwTU",
+      "position": 3
+    },
+    {
+      "screen_id": "0f72693a-c2f6-4128-ab2d-4cf62b29b21d",
+      "image_url": "https://mobbin.com/api/mcp/short/8FHL4a6e",
+      "position": 4
+    },
+    {
+      "screen_id": "aab232d0-a5fb-4b6a-96fe-a1dd5b9fd420",
+      "image_url": "https://mobbin.com/api/mcp/short/uHJ9QGJt",
+      "position": 5
+    },
+    {
+      "screen_id": "45aaf7b7-791f-4ef1-b8c2-59760997cf62",
+      "image_url": "https://mobbin.com/api/mcp/short/UYReNY30",
+      "position": 6
+    },
+    {
+      "screen_id": "534c8a8d-41d1-44c7-ba3d-6f370bef57f3",
+      "image_url": "https://mobbin.com/api/mcp/short/dSZ3jj5O",
+      "position": 7
+    },
+    {
+      "screen_id": "5899ff76-1018-4405-8298-4ffa1ab72e16",
+      "image_url": "https://mobbin.com/api/mcp/short/YStsmeW0",
+      "position": 8
+    },
+    {
+      "screen_id": "9290ae13-674b-455e-beda-ac34ca81425f",
+      "image_url": "https://mobbin.com/api/mcp/short/XPWsh2vH",
+      "position": 9
+    }
+  ]
+}

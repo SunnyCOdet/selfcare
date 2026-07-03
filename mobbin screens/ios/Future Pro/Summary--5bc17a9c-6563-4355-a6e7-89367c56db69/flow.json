@@ -1,0 +1,41 @@
+{
+  "id": "5bc17a9c-6563-4355-a6e7-89367c56db69",
+  "name": "Summary",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5bc17a9c-6563-4355-a6e7-89367c56db69",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "d2b5d75c-9a3e-4e3c-9969-b18bfd456200",
+      "image_url": "https://mobbin.com/api/mcp/short/RU6nYJbf",
+      "position": 1
+    },
+    {
+      "screen_id": "b1287e25-67a4-43e4-b75c-0eeaf4aa1ec2",
+      "image_url": "https://mobbin.com/api/mcp/short/7W1Po4CP",
+      "position": 2
+    },
+    {
+      "screen_id": "81dcb921-cdb3-4ec3-bd06-b73385032e85",
+      "image_url": "https://mobbin.com/api/mcp/short/XrtDBCx1",
+      "position": 3
+    },
+    {
+      "screen_id": "32c14316-b708-4cbf-89a0-7dca321875aa",
+      "image_url": "https://mobbin.com/api/mcp/short/baVlcezf",
+      "position": 4
+    },
+    {
+      "screen_id": "f22efaca-1a9f-4368-861d-ebf5dd448485",
+      "image_url": "https://mobbin.com/api/mcp/short/0mFnmZLU",
+      "position": 5
+    },
+    {
+      "screen_id": "7a7d0256-2454-4e34-88da-fce5571d6686",
+      "image_url": "https://mobbin.com/api/mcp/short/u0VDT8fn",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "fe014316-afc1-44d4-8d81-0d36ae4a24a7",
+  "name": "Importing activities",
+  "actions": [
+    "Importing & Exporting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fe014316-afc1-44d4-8d81-0d36ae4a24a7",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "79e06348-ea2e-4666-85c2-5e1cc92a9f44",
+      "image_url": "https://mobbin.com/api/mcp/short/wOGVfwzM",
+      "position": 1
+    },
+    {
+      "screen_id": "715f31eb-e85c-4eda-8118-be5e3ec7d25b",
+      "image_url": "https://mobbin.com/api/mcp/short/8CexH01j",
+      "position": 2
+    },
+    {
+      "screen_id": "df70bc3f-a231-4cf2-8f21-df427b0f58f6",
+      "image_url": "https://mobbin.com/api/mcp/short/UmGfTI00",
+      "position": 3
+    }
+  ]
+}

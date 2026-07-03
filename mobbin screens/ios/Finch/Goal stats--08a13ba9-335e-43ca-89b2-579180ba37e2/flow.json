@@ -1,0 +1,31 @@
+{
+  "id": "08a13ba9-335e-43ca-89b2-579180ba37e2",
+  "name": "Goal stats",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/08a13ba9-335e-43ca-89b2-579180ba37e2",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d1f1a30d-6d33-4701-a2e4-4a09bfbd4bfc",
+      "image_url": "https://mobbin.com/api/mcp/short/hhyKPHAK",
+      "position": 1
+    },
+    {
+      "screen_id": "4dbd8a6a-307f-41e5-9ebd-8613cf76d3f7",
+      "image_url": "https://mobbin.com/api/mcp/short/ff1oGGW4",
+      "position": 2
+    },
+    {
+      "screen_id": "ff1ae685-a0d9-45aa-b83e-b1314013c675",
+      "image_url": "https://mobbin.com/api/mcp/short/sUyFS3Km",
+      "position": 3
+    },
+    {
+      "screen_id": "94bb45e2-0bbf-4a8b-a2ac-06422f87e7db",
+      "image_url": "https://mobbin.com/api/mcp/short/aAXEGLHF",
+      "position": 4
+    }
+  ]
+}

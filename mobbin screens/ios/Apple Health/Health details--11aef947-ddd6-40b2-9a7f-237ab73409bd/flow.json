@@ -1,0 +1,26 @@
+{
+  "id": "11aef947-ddd6-40b2-9a7f-237ab73409bd",
+  "name": "Health details",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/11aef947-ddd6-40b2-9a7f-237ab73409bd",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "52e6962d-c119-4faa-9c01-d8f673e27c89",
+      "image_url": "https://mobbin.com/api/mcp/short/4yraiKpQ",
+      "position": 1
+    },
+    {
+      "screen_id": "62991cea-fe42-41ec-b441-754a961c87cc",
+      "image_url": "https://mobbin.com/api/mcp/short/OrBT2FAo",
+      "position": 2
+    },
+    {
+      "screen_id": "367b9e36-f234-4f43-8f8b-471d8529d4b6",
+      "image_url": "https://mobbin.com/api/mcp/short/saHCQ45g",
+      "position": 3
+    }
+  ]
+}

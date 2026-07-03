@@ -1,0 +1,31 @@
+{
+  "id": "73f0311e-36fc-498a-8fb5-00bfdb5b795e",
+  "name": "Apple Health diagnostic",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/73f0311e-36fc-498a-8fb5-00bfdb5b795e",
+  "app_name": "Pillow",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "817cb6e8-b283-42ff-8a8f-0f30d17b62f2",
+      "image_url": "https://mobbin.com/api/mcp/short/43TtluCc",
+      "position": 1
+    },
+    {
+      "screen_id": "433f446f-53ec-4744-b9c0-1445fdc7054f",
+      "image_url": "https://mobbin.com/api/mcp/short/Iofkaxb1",
+      "position": 2
+    },
+    {
+      "screen_id": "9078f451-7c8c-495b-8ce8-96116582a630",
+      "image_url": "https://mobbin.com/api/mcp/short/MT6btszx",
+      "position": 3
+    },
+    {
+      "screen_id": "554588f6-4a1c-42df-8bdc-b53a71311f2d",
+      "image_url": "https://mobbin.com/api/mcp/short/0qD9j0DV",
+      "position": 4
+    }
+  ]
+}

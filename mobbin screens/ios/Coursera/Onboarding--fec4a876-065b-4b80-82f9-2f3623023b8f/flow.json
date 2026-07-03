@@ -1,0 +1,38 @@
+{
+  "id": "fec4a876-065b-4b80-82f9-2f3623023b8f",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fec4a876-065b-4b80-82f9-2f3623023b8f",
+  "app_name": "Coursera",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c3897b87-952d-4221-a7f1-dec19b11587f",
+      "image_url": "https://mobbin.com/api/mcp/short/56h4NWc7",
+      "position": 1
+    },
+    {
+      "screen_id": "d74dbdd9-6c26-4d7c-bf08-764c08ed01e8",
+      "image_url": "https://mobbin.com/api/mcp/short/364XRPBj",
+      "position": 2
+    },
+    {
+      "screen_id": "8ae863a6-4321-48e7-a6c1-42dae4cdb16b",
+      "image_url": "https://mobbin.com/api/mcp/short/l87h8ijV",
+      "position": 3
+    },
+    {
+      "screen_id": "c29258dd-21e3-497e-a1ad-b2cb8eae3f7e",
+      "image_url": "https://mobbin.com/api/mcp/short/zO60OXEd",
+      "position": 4
+    },
+    {
+      "screen_id": "94e96a0b-050f-4afd-8110-881ad77e61a1",
+      "image_url": "https://mobbin.com/api/mcp/short/5Ts3R8CY",
+      "position": 5
+    }
+  ]
+}

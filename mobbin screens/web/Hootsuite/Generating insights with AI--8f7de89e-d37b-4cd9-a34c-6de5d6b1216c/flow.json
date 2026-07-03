@@ -1,0 +1,44 @@
+{
+  "id": "8f7de89e-d37b-4cd9-a34c-6de5d6b1216c",
+  "name": "Generating insights with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8f7de89e-d37b-4cd9-a34c-6de5d6b1216c",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "fc6dbe35-318b-40fb-bb28-3d51ecefe214",
+      "image_url": "https://mobbin.com/api/mcp/short/bgqvt29g",
+      "position": 1
+    },
+    {
+      "screen_id": "bc76a974-517e-4877-abde-37f7947f0e8d",
+      "image_url": "https://mobbin.com/api/mcp/short/6pz6R7Ue",
+      "position": 2
+    },
+    {
+      "screen_id": "79f7c189-9f5a-4bb2-87d9-6a6ce58fef21",
+      "image_url": "https://mobbin.com/api/mcp/short/k3aGqgOu",
+      "position": 3
+    },
+    {
+      "screen_id": "8942dd08-d5cb-43b6-8a1d-795803e69653",
+      "image_url": "https://mobbin.com/api/mcp/short/Wy0a04oU",
+      "position": 4
+    },
+    {
+      "screen_id": "205df039-5306-4713-b491-933fc0401d8a",
+      "image_url": "https://mobbin.com/api/mcp/short/sgj4gy0V",
+      "position": 5
+    },
+    {
+      "screen_id": "910698d4-4e0d-4c1f-b271-b0c25e194860",
+      "image_url": "https://mobbin.com/api/mcp/short/1PUmUt3u",
+      "position": 6
+    }
+  ]
+}

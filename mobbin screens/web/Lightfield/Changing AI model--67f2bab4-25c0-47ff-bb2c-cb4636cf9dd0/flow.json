@@ -1,0 +1,33 @@
+{
+  "id": "67f2bab4-25c0-47ff-bb2c-cb4636cf9dd0",
+  "name": "Changing AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/67f2bab4-25c0-47ff-bb2c-cb4636cf9dd0",
+  "app_name": "Lightfield",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "6fcd23da-34c0-4578-aab6-13c6dc55050f",
+      "image_url": "https://mobbin.com/api/mcp/short/ibUfRxsG",
+      "position": 1
+    },
+    {
+      "screen_id": "77ae18ee-a8b5-45d4-af1d-56360a02d63b",
+      "image_url": "https://mobbin.com/api/mcp/short/D3MBtoFH",
+      "position": 2
+    },
+    {
+      "screen_id": "5c0dbeb4-807a-4a7a-8be8-2ca9d251356b",
+      "image_url": "https://mobbin.com/api/mcp/short/JdMl2bfY",
+      "position": 3
+    },
+    {
+      "screen_id": "a77b052b-5612-4588-895a-6cc553d5b18d",
+      "image_url": "https://mobbin.com/api/mcp/short/SufuNSJ4",
+      "position": 4
+    }
+  ]
+}

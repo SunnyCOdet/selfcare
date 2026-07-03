@@ -1,0 +1,64 @@
+{
+  "id": "c88c35e5-278c-47ba-8d76-a91e359d6cf3",
+  "name": "Generating cover with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c88c35e5-278c-47ba-8d76-a91e359d6cf3",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "cf5c2543-9ace-4b28-8a6a-80eea1d04d43",
+      "image_url": "https://mobbin.com/api/mcp/short/idGWAUks",
+      "position": 1
+    },
+    {
+      "screen_id": "d2b6da49-6ec2-49b9-abfe-d82adfb280af",
+      "image_url": "https://mobbin.com/api/mcp/short/OdR5JvbY",
+      "position": 2
+    },
+    {
+      "screen_id": "d393578a-02ea-4548-81e7-85b112499af5",
+      "image_url": "https://mobbin.com/api/mcp/short/4FbeENEF",
+      "position": 3
+    },
+    {
+      "screen_id": "c562f7e8-d22a-45ac-b255-b73d72b34d34",
+      "image_url": "https://mobbin.com/api/mcp/short/yDuEjWxv",
+      "position": 4
+    },
+    {
+      "screen_id": "c21465fc-28fd-4c7e-992d-0a7d02c6466d",
+      "image_url": "https://mobbin.com/api/mcp/short/wK41wX9E",
+      "position": 5
+    },
+    {
+      "screen_id": "f2dcf700-2fe5-4633-a706-e0391c025432",
+      "image_url": "https://mobbin.com/api/mcp/short/23HmkTT5",
+      "position": 6
+    },
+    {
+      "screen_id": "476ee6f7-704c-47f8-bb08-50ba4e7438d2",
+      "image_url": "https://mobbin.com/api/mcp/short/9BrYES2q",
+      "position": 7
+    },
+    {
+      "screen_id": "03c9e00d-9d01-4f50-90e4-04f969e0442e",
+      "image_url": "https://mobbin.com/api/mcp/short/4TmdZTvr",
+      "position": 8
+    },
+    {
+      "screen_id": "bfddb457-f6ba-4160-811a-dbc93713e20e",
+      "image_url": "https://mobbin.com/api/mcp/short/J28aZ15U",
+      "position": 9
+    },
+    {
+      "screen_id": "f13ba85e-b673-4583-a5a6-164a0b7228ab",
+      "image_url": "https://mobbin.com/api/mcp/short/98dsXrvd",
+      "position": 10
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "9b9e8643-b3f7-4539-9452-aad80fa8cc68",
+  "name": "Credits & AI usage",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9b9e8643-b3f7-4539-9452-aad80fa8cc68",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "d1ae3793-af0f-42d8-a004-dcc69bbbd9ab",
+      "image_url": "https://mobbin.com/api/mcp/short/dHe9Y5I9",
+      "position": 1
+    },
+    {
+      "screen_id": "9b83c458-f0a3-447b-bd7d-c4763b6ae358",
+      "image_url": "https://mobbin.com/api/mcp/short/bBnf8FBO",
+      "position": 2
+    }
+  ]
+}

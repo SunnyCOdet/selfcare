@@ -1,0 +1,55 @@
+{
+  "id": "cf9de144-548d-4bcb-beab-4ab730808dc5",
+  "name": "Updating an article with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating",
+    "Publishing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cf9de144-548d-4bcb-beab-4ab730808dc5",
+  "app_name": "Ferndesk",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "4b19359a-b799-461e-bed8-76ea206036d3",
+      "image_url": "https://mobbin.com/api/mcp/short/Qbn6Qc2B",
+      "position": 1
+    },
+    {
+      "screen_id": "4a21372c-f255-4f27-a0ed-73c2e251bc3d",
+      "image_url": "https://mobbin.com/api/mcp/short/G4rPTlpE",
+      "position": 2
+    },
+    {
+      "screen_id": "5eb452b6-b4f1-4594-ad7e-9a9ca9abd734",
+      "image_url": "https://mobbin.com/api/mcp/short/14hmqthf",
+      "position": 3
+    },
+    {
+      "screen_id": "4b16bfaa-e7d3-473e-9d33-ac26d0d71eb1",
+      "image_url": "https://mobbin.com/api/mcp/short/6PVbIeNi",
+      "position": 4
+    },
+    {
+      "screen_id": "94bb4818-b277-4f64-b6f8-876fda03e673",
+      "image_url": "https://mobbin.com/api/mcp/short/hb8hjXRC",
+      "position": 5
+    },
+    {
+      "screen_id": "5a0a9d00-4005-41b2-93e7-59ed3bc6a2ab",
+      "image_url": "https://mobbin.com/api/mcp/short/zglrIhoc",
+      "position": 6
+    },
+    {
+      "screen_id": "00fd1378-211a-4249-aeee-bdcb2c19c6f1",
+      "image_url": "https://mobbin.com/api/mcp/short/8n1dJauT",
+      "position": 7
+    },
+    {
+      "screen_id": "b57e302a-3d01-45c8-a68c-31694d3c3cf0",
+      "image_url": "https://mobbin.com/api/mcp/short/JGkCjElW",
+      "position": 8
+    }
+  ]
+}

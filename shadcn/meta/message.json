@@ -1,0 +1,14 @@
+{
+  "name": "message",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/message.tsx",
+      "extractedTo": "ui/message.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

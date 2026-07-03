@@ -1,0 +1,54 @@
+{
+  "id": "577ac76e-8781-4e0a-8d83-9e847a2c145d",
+  "name": "Creating an itinerary with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/577ac76e-8781-4e0a-8d83-9e847a2c145d",
+  "app_name": "Vrbo",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "c3e819bb-8ddd-4676-a4e1-c26bff4048db",
+      "image_url": "https://mobbin.com/api/mcp/short/0QTrXSW5",
+      "position": 1
+    },
+    {
+      "screen_id": "a39f2996-ed71-4e31-a81a-7af3d8f946ac",
+      "image_url": "https://mobbin.com/api/mcp/short/cV6JbP31",
+      "position": 2
+    },
+    {
+      "screen_id": "3a9f7723-28a2-4a57-a891-b0f10826bb15",
+      "image_url": "https://mobbin.com/api/mcp/short/afrLX4nZ",
+      "position": 3
+    },
+    {
+      "screen_id": "85fdac07-871a-4580-b675-ff8090d0b796",
+      "image_url": "https://mobbin.com/api/mcp/short/Y2tWzICz",
+      "position": 4
+    },
+    {
+      "screen_id": "bd439366-7d4f-4488-a62b-7299e240a91e",
+      "image_url": "https://mobbin.com/api/mcp/short/zU3TEI6q",
+      "position": 5
+    },
+    {
+      "screen_id": "3a94aebd-1a98-4a61-8004-464bd58152fc",
+      "image_url": "https://mobbin.com/api/mcp/short/TlXvKS23",
+      "position": 6
+    },
+    {
+      "screen_id": "96302d51-071e-4786-acb6-a457a1192ac5",
+      "image_url": "https://mobbin.com/api/mcp/short/s7IrK8dK",
+      "position": 7
+    },
+    {
+      "screen_id": "d19f0e9e-d860-4ad8-adb8-887570eceef0",
+      "image_url": "https://mobbin.com/api/mcp/short/ttCb9J6o",
+      "position": 8
+    }
+  ]
+}

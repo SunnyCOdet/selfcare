@@ -1,0 +1,14 @@
+{
+  "name": "empty",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/empty.tsx",
+      "extractedTo": "ui/empty.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

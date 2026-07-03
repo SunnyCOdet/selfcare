@@ -1,0 +1,31 @@
+{
+  "id": "e6711e11-51f5-400c-b271-05bc01de4f92",
+  "name": "Programs",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e6711e11-51f5-400c-b271-05bc01de4f92",
+  "app_name": "Tempo",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "20034c2d-8a1d-4a1d-a8cd-8376815176ae",
+      "image_url": "https://mobbin.com/api/mcp/short/06M1OHOY",
+      "position": 1
+    },
+    {
+      "screen_id": "0c543d09-96c0-4bcd-904d-db427e3a7c7d",
+      "image_url": "https://mobbin.com/api/mcp/short/vEq2BnN6",
+      "position": 2
+    },
+    {
+      "screen_id": "46dea3ea-15e0-4946-968d-e30fac3d10be",
+      "image_url": "https://mobbin.com/api/mcp/short/rAfKfh4V",
+      "position": 3
+    },
+    {
+      "screen_id": "7591a425-d532-4c05-847e-ccab778fc530",
+      "image_url": "https://mobbin.com/api/mcp/short/xMfOTdNp",
+      "position": 4
+    }
+  ]
+}

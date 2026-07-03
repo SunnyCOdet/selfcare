@@ -1,0 +1,53 @@
+{
+  "id": "a8684fe2-badf-4a36-8d81-6c5659eeb6ca",
+  "name": "Chatting with an AI agent",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a8684fe2-badf-4a36-8d81-6c5659eeb6ca",
+  "app_name": "Base",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "a3fd65a5-dbe5-4033-9fd8-a69ea8e40b5e",
+      "image_url": "https://mobbin.com/api/mcp/short/N0Q3PQiN",
+      "position": 1
+    },
+    {
+      "screen_id": "60e97ff1-3fdf-4a1a-a426-691383939102",
+      "image_url": "https://mobbin.com/api/mcp/short/zC90Lhte",
+      "position": 2
+    },
+    {
+      "screen_id": "01e02b2b-70ba-48e6-ba18-a676a0884927",
+      "image_url": "https://mobbin.com/api/mcp/short/yn8CklIE",
+      "position": 3
+    },
+    {
+      "screen_id": "45891c8d-5f3f-4118-9295-a53732d448ad",
+      "image_url": "https://mobbin.com/api/mcp/short/ujn9YOzU",
+      "position": 4
+    },
+    {
+      "screen_id": "793b342f-9215-4908-9121-780a3f844963",
+      "image_url": "https://mobbin.com/api/mcp/short/o4McsQwU",
+      "position": 5
+    },
+    {
+      "screen_id": "8acde6b7-d286-48db-aa0e-4d9d02d0fc3c",
+      "image_url": "https://mobbin.com/api/mcp/short/F5fphpna",
+      "position": 6
+    },
+    {
+      "screen_id": "7882c6cf-b251-45a4-bf82-4ee70a6b8011",
+      "image_url": "https://mobbin.com/api/mcp/short/fPYjUuYH",
+      "position": 7
+    },
+    {
+      "screen_id": "1f76450b-9d02-4f8b-8623-fd6715d75079",
+      "image_url": "https://mobbin.com/api/mcp/short/qRguS0aL",
+      "position": 8
+    }
+  ]
+}

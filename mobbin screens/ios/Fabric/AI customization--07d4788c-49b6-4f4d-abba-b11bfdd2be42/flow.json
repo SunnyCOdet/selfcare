@@ -1,0 +1,31 @@
+{
+  "id": "07d4788c-49b6-4f4d-abba-b11bfdd2be42",
+  "name": "AI customization",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/07d4788c-49b6-4f4d-abba-b11bfdd2be42",
+  "app_name": "Fabric",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "76f62987-c321-4832-b062-6fd1583bf2fc",
+      "image_url": "https://mobbin.com/api/mcp/short/HViPLLlW",
+      "position": 1
+    },
+    {
+      "screen_id": "baaea41e-fb55-4985-a6d1-6d56cfe636c1",
+      "image_url": "https://mobbin.com/api/mcp/short/T4A64fpZ",
+      "position": 2
+    },
+    {
+      "screen_id": "d85278a7-5078-4f91-9c47-34c1710c46d9",
+      "image_url": "https://mobbin.com/api/mcp/short/ErC0qEWa",
+      "position": 3
+    },
+    {
+      "screen_id": "2b91f9e7-520d-48fc-b604-c3cc1628d270",
+      "image_url": "https://mobbin.com/api/mcp/short/ksfjxHyx",
+      "position": 4
+    }
+  ]
+}

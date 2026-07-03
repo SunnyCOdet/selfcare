@@ -1,0 +1,28 @@
+{
+  "id": "4ebb7597-042d-4a8c-bd47-2c5d92f2f6bf",
+  "name": "Changing AI model",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4ebb7597-042d-4a8c-bd47-2c5d92f2f6bf",
+  "app_name": "Perplexity",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "00191aff-7e4f-4975-bb3b-5c6eb6877143",
+      "image_url": "https://mobbin.com/api/mcp/short/TDuevi4Z",
+      "position": 1
+    },
+    {
+      "screen_id": "88c91d46-1f58-4863-b56a-73e629b2aec5",
+      "image_url": "https://mobbin.com/api/mcp/short/PehaB98q",
+      "position": 2
+    },
+    {
+      "screen_id": "6491b21b-6c78-47de-a369-812636de7dba",
+      "image_url": "https://mobbin.com/api/mcp/short/jnH83sJA",
+      "position": 3
+    }
+  ]
+}

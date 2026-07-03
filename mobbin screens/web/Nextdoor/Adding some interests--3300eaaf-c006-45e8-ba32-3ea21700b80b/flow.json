@@ -1,0 +1,34 @@
+{
+  "id": "3300eaaf-c006-45e8-ba32-3ea21700b80b",
+  "name": "Adding some interests",
+  "actions": [
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3300eaaf-c006-45e8-ba32-3ea21700b80b",
+  "app_name": "Nextdoor",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "10c96bc9-eb70-4bcb-8203-4aa801a13954",
+      "image_url": "https://mobbin.com/api/mcp/short/Vf94hBOX",
+      "position": 1
+    },
+    {
+      "screen_id": "c6931ee0-9d21-4fc3-8c93-a95c13d7f08e",
+      "image_url": "https://mobbin.com/api/mcp/short/Qr5ZXD1s",
+      "position": 2
+    },
+    {
+      "screen_id": "a23d992a-9c1b-4877-804c-7138a046362b",
+      "image_url": "https://mobbin.com/api/mcp/short/xQmMx4WS",
+      "position": 3
+    },
+    {
+      "screen_id": "52380d73-5cf9-4dda-bd67-835e7b675847",
+      "image_url": "https://mobbin.com/api/mcp/short/01ggIz9B",
+      "position": 4
+    }
+  ]
+}

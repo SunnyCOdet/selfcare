@@ -1,0 +1,26 @@
+{
+  "id": "ff946b68-0af4-4de8-ab3b-7ea63e5b30d6",
+  "name": "Service detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ff946b68-0af4-4de8-ab3b-7ea63e5b30d6",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "a729b0c4-3975-4deb-9448-77cd1605a53c",
+      "image_url": "https://mobbin.com/api/mcp/short/gsMKCXpD",
+      "position": 1
+    },
+    {
+      "screen_id": "0f3cbc08-208f-4e29-98eb-f4aeb26175c1",
+      "image_url": "https://mobbin.com/api/mcp/short/kDNJ4Njm",
+      "position": 2
+    },
+    {
+      "screen_id": "d01baa08-477f-4e80-aa6b-8bd93e04df9f",
+      "image_url": "https://mobbin.com/api/mcp/short/xwpfILnS",
+      "position": 3
+    }
+  ]
+}

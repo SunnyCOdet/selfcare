@@ -1,0 +1,43 @@
+{
+  "id": "efec3eeb-8499-406f-abca-e91db15fe9df",
+  "name": "Completing a tutorial",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/efec3eeb-8499-406f-abca-e91db15fe9df",
+  "app_name": "Heidi",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "00186d8a-6560-4312-a689-4f2f59dc7ea6",
+      "image_url": "https://mobbin.com/api/mcp/short/U06sZoES",
+      "position": 1
+    },
+    {
+      "screen_id": "f4a93e92-e225-4595-9d33-a54ee545eab7",
+      "image_url": "https://mobbin.com/api/mcp/short/srx3BeCZ",
+      "position": 2
+    },
+    {
+      "screen_id": "fc9e48d1-cc8e-4d52-9144-ec44d5aefaae",
+      "image_url": "https://mobbin.com/api/mcp/short/3LKwg0Tm",
+      "position": 3
+    },
+    {
+      "screen_id": "4a834c34-615e-45d5-a2f7-864d30fcc83a",
+      "image_url": "https://mobbin.com/api/mcp/short/yL3Vu9Em",
+      "position": 4
+    },
+    {
+      "screen_id": "3b82ff82-7cf1-4eec-9f8e-c60655991f5e",
+      "image_url": "https://mobbin.com/api/mcp/short/W4qN5cvj",
+      "position": 5
+    },
+    {
+      "screen_id": "47da7641-47f9-40cd-90a6-bd6570cc5d08",
+      "image_url": "https://mobbin.com/api/mcp/short/IzxmOqTS",
+      "position": 6
+    }
+  ]
+}

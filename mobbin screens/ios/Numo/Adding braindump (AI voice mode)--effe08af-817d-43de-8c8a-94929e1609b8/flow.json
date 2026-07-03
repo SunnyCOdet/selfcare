@@ -1,0 +1,69 @@
+{
+  "id": "effe08af-817d-43de-8c8a-94929e1609b8",
+  "name": "Adding braindump (AI voice mode)",
+  "actions": [
+    "Adding & Creating",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/effe08af-817d-43de-8c8a-94929e1609b8",
+  "app_name": "Numo",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "2199ddab-60aa-48bf-acd2-65f6f1758c18",
+      "image_url": "https://mobbin.com/api/mcp/short/lchiaIY5",
+      "position": 1
+    },
+    {
+      "screen_id": "c9170f09-2585-4715-8e0d-1f800a0400c2",
+      "image_url": "https://mobbin.com/api/mcp/short/VJr5KZJ1",
+      "position": 2
+    },
+    {
+      "screen_id": "f0875fff-7e65-4391-9113-2aa05a09525c",
+      "image_url": "https://mobbin.com/api/mcp/short/r6ZszRVq",
+      "position": 3
+    },
+    {
+      "screen_id": "ddaea3b8-2101-403f-83ce-70453789ed4f",
+      "image_url": "https://mobbin.com/api/mcp/short/tRY9n3QW",
+      "position": 4
+    },
+    {
+      "screen_id": "de120eca-152f-4cac-8222-53c8648f3e6e",
+      "image_url": "https://mobbin.com/api/mcp/short/7lbf7rl4",
+      "position": 5
+    },
+    {
+      "screen_id": "89ea9e83-3211-404e-a3b1-ebac8ed0935a",
+      "image_url": "https://mobbin.com/api/mcp/short/mwDUSRrm",
+      "position": 6
+    },
+    {
+      "screen_id": "95582ff5-a3fc-456b-9064-a3f31a5255eb",
+      "image_url": "https://mobbin.com/api/mcp/short/ZcTAVh7i",
+      "position": 7
+    },
+    {
+      "screen_id": "9b0106fd-22bf-4bce-995c-530b16b9ef18",
+      "image_url": "https://mobbin.com/api/mcp/short/addfT6uk",
+      "position": 8
+    },
+    {
+      "screen_id": "eab3d052-97fb-422c-a8f7-5a7c4304514f",
+      "image_url": "https://mobbin.com/api/mcp/short/APzvtrjR",
+      "position": 9
+    },
+    {
+      "screen_id": "f24a2856-28d6-4dbc-a093-dea5ef8e1fa7",
+      "image_url": "https://mobbin.com/api/mcp/short/F3xkyZY3",
+      "position": 10
+    },
+    {
+      "screen_id": "151251cd-b32d-46dd-ae76-929a11e89921",
+      "image_url": "https://mobbin.com/api/mcp/short/Gl2HyoUS",
+      "position": 11
+    }
+  ]
+}

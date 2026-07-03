@@ -1,0 +1,59 @@
+{
+  "id": "389a1218-d8e3-4543-9cff-98e3166ea496",
+  "name": "Creating an AI meeting note",
+  "actions": [
+    "Adding & Creating",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/389a1218-d8e3-4543-9cff-98e3166ea496",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "0d0a0279-39dc-44c9-bae7-f4cd616336d0",
+      "image_url": "https://mobbin.com/api/mcp/short/2QxI31E3",
+      "position": 1
+    },
+    {
+      "screen_id": "4bea74b8-6734-4303-895e-cb98770d280f",
+      "image_url": "https://mobbin.com/api/mcp/short/SZYWnKra",
+      "position": 2
+    },
+    {
+      "screen_id": "de0a5768-86d1-4daa-ab66-b79e82776fcc",
+      "image_url": "https://mobbin.com/api/mcp/short/9nSw0Ht0",
+      "position": 3
+    },
+    {
+      "screen_id": "959f1824-ebfd-4660-a603-1980f3af990a",
+      "image_url": "https://mobbin.com/api/mcp/short/a37OUQoJ",
+      "position": 4
+    },
+    {
+      "screen_id": "fa0f3ae6-c4cc-432f-87ba-77e66f63146e",
+      "image_url": "https://mobbin.com/api/mcp/short/ZEmUJsQd",
+      "position": 5
+    },
+    {
+      "screen_id": "816adf8d-e17f-43d3-bb42-e0a2442cfafe",
+      "image_url": "https://mobbin.com/api/mcp/short/jpuHFZa2",
+      "position": 6
+    },
+    {
+      "screen_id": "f893ebcb-9ca5-46c1-90fd-8941a21602af",
+      "image_url": "https://mobbin.com/api/mcp/short/JGJaXSuY",
+      "position": 7
+    },
+    {
+      "screen_id": "d845db8f-ec76-45c7-a98f-37835280bf37",
+      "image_url": "https://mobbin.com/api/mcp/short/4J7Buexa",
+      "position": 8
+    },
+    {
+      "screen_id": "4891ce58-19b2-4484-be91-6ae675b6b1c3",
+      "image_url": "https://mobbin.com/api/mcp/short/v9azxSr2",
+      "position": 9
+    }
+  ]
+}

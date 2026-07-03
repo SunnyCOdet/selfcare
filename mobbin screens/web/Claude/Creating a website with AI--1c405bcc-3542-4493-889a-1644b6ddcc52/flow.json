@@ -1,0 +1,44 @@
+{
+  "id": "1c405bcc-3542-4493-889a-1644b6ddcc52",
+  "name": "Creating a website with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1c405bcc-3542-4493-889a-1644b6ddcc52",
+  "app_name": "Claude",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "4ba51de5-d1f7-4102-af6a-2da18e34cc0d",
+      "image_url": "https://mobbin.com/api/mcp/short/DSi3xf8i",
+      "position": 1
+    },
+    {
+      "screen_id": "49bc709a-3319-4473-b1ee-7a17a7876a07",
+      "image_url": "https://mobbin.com/api/mcp/short/AYnASt5q",
+      "position": 2
+    },
+    {
+      "screen_id": "61930781-5c1f-4906-8053-4cfd0121e188",
+      "image_url": "https://mobbin.com/api/mcp/short/L2vj6jHO",
+      "position": 3
+    },
+    {
+      "screen_id": "248a44e1-c6b8-4763-8202-9bbece77af1d",
+      "image_url": "https://mobbin.com/api/mcp/short/AGsMJXNX",
+      "position": 4
+    },
+    {
+      "screen_id": "93c81a12-7fed-46c9-9d63-27629c3d2270",
+      "image_url": "https://mobbin.com/api/mcp/short/Djc7VwNA",
+      "position": 5
+    },
+    {
+      "screen_id": "230f8052-46f2-46e3-af5e-fe3075cab4a8",
+      "image_url": "https://mobbin.com/api/mcp/short/Cuk3GHp3",
+      "position": 6
+    }
+  ]
+}

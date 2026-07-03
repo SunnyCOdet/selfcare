@@ -1,0 +1,48 @@
+{
+  "id": "c37583fe-008c-40c5-9725-903353923361",
+  "name": "Linking to Apple Health",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c37583fe-008c-40c5-9725-903353923361",
+  "app_name": "Toggl Track",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "2f37930e-3d51-458a-bf98-3a3ab1fbbb82",
+      "image_url": "https://mobbin.com/api/mcp/short/0SLUXGJW",
+      "position": 1
+    },
+    {
+      "screen_id": "40fd3a66-061f-48d4-8366-0312507915a8",
+      "image_url": "https://mobbin.com/api/mcp/short/bnsPRjvT",
+      "position": 2
+    },
+    {
+      "screen_id": "b7e45847-f4a1-4fcd-92e4-098739a6e925",
+      "image_url": "https://mobbin.com/api/mcp/short/a2O1X5a7",
+      "position": 3
+    },
+    {
+      "screen_id": "51f4f786-c088-4a0c-a87e-1dbd9cf0aae7",
+      "image_url": "https://mobbin.com/api/mcp/short/qux9wiiU",
+      "position": 4
+    },
+    {
+      "screen_id": "01bad365-b49d-4229-8253-f6689ef89c06",
+      "image_url": "https://mobbin.com/api/mcp/short/PC3bgCua",
+      "position": 5
+    },
+    {
+      "screen_id": "9b87104e-bd9c-47c2-b6cd-33a4ac78922c",
+      "image_url": "https://mobbin.com/api/mcp/short/EqhwqVzF",
+      "position": 6
+    },
+    {
+      "screen_id": "31d1cfde-3264-4c9c-9d2a-d1225c4b054e",
+      "image_url": "https://mobbin.com/api/mcp/short/5wK9orhx",
+      "position": 7
+    }
+  ]
+}

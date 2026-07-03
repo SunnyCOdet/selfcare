@@ -1,0 +1,31 @@
+{
+  "id": "d0dcbc0b-7699-487a-a33c-9cb43e168155",
+  "name": "Access health records",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d0dcbc0b-7699-487a-a33c-9cb43e168155",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "ba374894-0af8-4e6d-a7df-29bcb18abc6c",
+      "image_url": "https://mobbin.com/api/mcp/short/iYQXDQUo",
+      "position": 1
+    },
+    {
+      "screen_id": "05d971f7-8367-4474-b4c5-6dde2c819d31",
+      "image_url": "https://mobbin.com/api/mcp/short/nakz0eAU",
+      "position": 2
+    },
+    {
+      "screen_id": "23fe4549-3f01-4821-a670-7a88c3fd899a",
+      "image_url": "https://mobbin.com/api/mcp/short/9kUb5rvG",
+      "position": 3
+    },
+    {
+      "screen_id": "4e9ba466-1bb7-442d-adaa-ce7052ddb12f",
+      "image_url": "https://mobbin.com/api/mcp/short/zkbceRJJ",
+      "position": 4
+    }
+  ]
+}

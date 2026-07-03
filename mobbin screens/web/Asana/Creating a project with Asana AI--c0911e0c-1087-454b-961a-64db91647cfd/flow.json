@@ -1,0 +1,65 @@
+{
+  "id": "c0911e0c-1087-454b-961a-64db91647cfd",
+  "name": "Creating a project with Asana AI",
+  "actions": [
+    "Adding & Creating",
+    "Reordering",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c0911e0c-1087-454b-961a-64db91647cfd",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "bb5ff441-ea01-4c50-80d5-a5539e2200ca",
+      "image_url": "https://mobbin.com/api/mcp/short/GsHiZxYi",
+      "position": 1
+    },
+    {
+      "screen_id": "ef791d09-0018-4fa9-94e4-dce0b6e49942",
+      "image_url": "https://mobbin.com/api/mcp/short/XPNGEzwR",
+      "position": 2
+    },
+    {
+      "screen_id": "88d83ffa-e66f-4a09-af09-db98f0e13e73",
+      "image_url": "https://mobbin.com/api/mcp/short/zhVvpcdA",
+      "position": 3
+    },
+    {
+      "screen_id": "bcfe6055-27c8-4695-9bcc-f0cbe0968479",
+      "image_url": "https://mobbin.com/api/mcp/short/rDpzngBQ",
+      "position": 4
+    },
+    {
+      "screen_id": "2a3cf902-134f-4597-8397-38ff216b0fb2",
+      "image_url": "https://mobbin.com/api/mcp/short/JLnGZ5zY",
+      "position": 5
+    },
+    {
+      "screen_id": "80b4ab6b-3a74-4585-94f4-5c836db8e5cb",
+      "image_url": "https://mobbin.com/api/mcp/short/9kZmDz7d",
+      "position": 6
+    },
+    {
+      "screen_id": "f63e21e2-d07e-4752-a856-ae5e6163f013",
+      "image_url": "https://mobbin.com/api/mcp/short/y5SqWXFK",
+      "position": 7
+    },
+    {
+      "screen_id": "38201f14-c2f5-4dd3-9156-0d2e3bab7a03",
+      "image_url": "https://mobbin.com/api/mcp/short/mgdSOouq",
+      "position": 8
+    },
+    {
+      "screen_id": "8aea8124-c462-42ea-b2c5-fd76fb26bc0c",
+      "image_url": "https://mobbin.com/api/mcp/short/Rl3VqnM6",
+      "position": 9
+    },
+    {
+      "screen_id": "5a363690-0eee-49c0-ae1a-46d3e38ef054",
+      "image_url": "https://mobbin.com/api/mcp/short/yImIXTWo",
+      "position": 10
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "aa287556-9a70-4fc1-9f1f-be14f0b8b33d",
+  "name": "Testing an agent (AI studio)",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aa287556-9a70-4fc1-9f1f-be14f0b8b33d",
+  "app_name": "WRITER",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ebdd361f-3d9c-4ecb-8a89-713624fdff11",
+      "image_url": "https://mobbin.com/api/mcp/short/zcKzk28a",
+      "position": 1
+    },
+    {
+      "screen_id": "4bb54bb0-be1b-497e-94da-33406b98f679",
+      "image_url": "https://mobbin.com/api/mcp/short/BbP49Gbp",
+      "position": 2
+    },
+    {
+      "screen_id": "3ea650e8-0b3d-4bf8-bf34-bcbb2f38db1f",
+      "image_url": "https://mobbin.com/api/mcp/short/QyekiFnT",
+      "position": 3
+    },
+    {
+      "screen_id": "dc0c0245-cc08-4eea-9a27-fe41b9ac8bef",
+      "image_url": "https://mobbin.com/api/mcp/short/U3F24GXG",
+      "position": 4
+    },
+    {
+      "screen_id": "b9c51876-5020-4f94-a203-5aa84835cb46",
+      "image_url": "https://mobbin.com/api/mcp/short/LJt3DPxk",
+      "position": 5
+    }
+  ]
+}

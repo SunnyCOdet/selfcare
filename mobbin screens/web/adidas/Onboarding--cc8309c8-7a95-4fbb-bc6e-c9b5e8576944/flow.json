@@ -1,0 +1,49 @@
+{
+  "id": "cc8309c8-7a95-4fbb-bc6e-c9b5e8576944",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cc8309c8-7a95-4fbb-bc6e-c9b5e8576944",
+  "app_name": "adidas",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "4e1e3859-915e-4f14-818b-9acdbcd40adc",
+      "image_url": "https://mobbin.com/api/mcp/short/53cJAZM8",
+      "position": 1
+    },
+    {
+      "screen_id": "d04fed7a-0019-44b4-9a74-0bb22f1ae87d",
+      "image_url": "https://mobbin.com/api/mcp/short/KZwyFDh8",
+      "position": 2
+    },
+    {
+      "screen_id": "1ee1415e-cab1-4793-8b2b-cef87eb24b89",
+      "image_url": "https://mobbin.com/api/mcp/short/pRvsMCiX",
+      "position": 3
+    },
+    {
+      "screen_id": "6d211f2e-22f6-44f9-9780-8b9fca76fcf1",
+      "image_url": "https://mobbin.com/api/mcp/short/DDnvp9gr",
+      "position": 4
+    },
+    {
+      "screen_id": "35b90abd-8839-4876-9c9a-429dc91d0793",
+      "image_url": "https://mobbin.com/api/mcp/short/GtjlAMak",
+      "position": 5
+    },
+    {
+      "screen_id": "ced11293-f7ac-4f58-947a-1e5dba7772c6",
+      "image_url": "https://mobbin.com/api/mcp/short/aPeCNDeE",
+      "position": 6
+    },
+    {
+      "screen_id": "e3a4181b-90f7-400b-a6d2-4d4eedc7f0a3",
+      "image_url": "https://mobbin.com/api/mcp/short/6x8aCqhU",
+      "position": 7
+    }
+  ]
+}

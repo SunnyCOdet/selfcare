@@ -1,0 +1,16 @@
+{
+  "name": "pagination",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/pagination.tsx",
+      "extractedTo": "ui/pagination.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "ce2aca97-4bbc-4c9b-a5fb-e6a1ddc7935b",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ce2aca97-4bbc-4c9b-a5fb-e6a1ddc7935b",
+  "app_name": "Gentler Streak",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "377afa33-0c4c-4160-a255-17df91ec48a8",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHNCHvjM",
+      "position": 1
+    },
+    {
+      "screen_id": "597f67c9-a016-40a8-b3fd-2e0c6cd70bf9",
+      "image_url": "https://mobbin.com/api/mcp/short/yokp50t4",
+      "position": 2
+    },
+    {
+      "screen_id": "89addee0-a199-4220-bf7c-5fc6b916e1da",
+      "image_url": "https://mobbin.com/api/mcp/short/hW0iquM7",
+      "position": 3
+    },
+    {
+      "screen_id": "48b8ee77-469e-4900-9479-8d419e72775a",
+      "image_url": "https://mobbin.com/api/mcp/short/HcKnyrG7",
+      "position": 4
+    }
+  ]
+}

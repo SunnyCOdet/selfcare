@@ -1,0 +1,33 @@
+{
+  "id": "8fa684ff-698c-4d57-9c4f-89cb7a3761df",
+  "name": "Connecting to a third party app",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8fa684ff-698c-4d57-9c4f-89cb7a3761df",
+  "app_name": "Amie",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "66b0a167-c173-4842-b066-cfbf7d85cf70",
+      "image_url": "https://mobbin.com/api/mcp/short/0AdTdSEc",
+      "position": 1
+    },
+    {
+      "screen_id": "40412c10-f288-42df-94a5-3944eaedf048",
+      "image_url": "https://mobbin.com/api/mcp/short/lkXpWXfl",
+      "position": 2
+    },
+    {
+      "screen_id": "2581b514-1d11-4e9f-92d0-435667216733",
+      "image_url": "https://mobbin.com/api/mcp/short/jQ61YkgW",
+      "position": 3
+    },
+    {
+      "screen_id": "d208e7b6-274a-4a03-82f7-b920f7d3ffba",
+      "image_url": "https://mobbin.com/api/mcp/short/5jFVfSKd",
+      "position": 4
+    }
+  ]
+}

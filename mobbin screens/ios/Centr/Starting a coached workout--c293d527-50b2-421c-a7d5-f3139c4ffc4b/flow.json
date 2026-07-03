@@ -1,0 +1,34 @@
+{
+  "id": "c293d527-50b2-421c-a7d5-f3139c4ffc4b",
+  "name": "Starting a coached workout",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c293d527-50b2-421c-a7d5-f3139c4ffc4b",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "4b0f249a-e9a5-4cf5-8776-093604b1553f",
+      "image_url": "https://mobbin.com/api/mcp/short/8nfzgCin",
+      "position": 1
+    },
+    {
+      "screen_id": "81066364-08aa-4ed7-b30d-a0b8f97bd772",
+      "image_url": "https://mobbin.com/api/mcp/short/4k8jwuzg",
+      "position": 2
+    },
+    {
+      "screen_id": "16a718ce-40a9-452f-8827-63fee21313b9",
+      "image_url": "https://mobbin.com/api/mcp/short/a3FNDKmi",
+      "position": 3
+    },
+    {
+      "screen_id": "04ab67a0-08ab-4b46-89f0-08a8a610cd10",
+      "image_url": "https://mobbin.com/api/mcp/short/HexL7rod",
+      "position": 4
+    }
+  ]
+}

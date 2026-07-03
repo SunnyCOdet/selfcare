@@ -1,0 +1,43 @@
+{
+  "id": "6e0649bc-6f82-447b-a55e-0290f38d2179",
+  "name": "Joining a challenge",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6e0649bc-6f82-447b-a55e-0290f38d2179",
+  "app_name": "Peloton",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "301f5285-2aa7-473b-b26e-1c01370f4d01",
+      "image_url": "https://mobbin.com/api/mcp/short/Ggd2TG68",
+      "position": 1
+    },
+    {
+      "screen_id": "efe6d1db-40fe-4097-9571-d525cad33656",
+      "image_url": "https://mobbin.com/api/mcp/short/XS2SJzfb",
+      "position": 2
+    },
+    {
+      "screen_id": "5a14f4b0-9de7-46e8-b60f-0be90ed4ee8c",
+      "image_url": "https://mobbin.com/api/mcp/short/sD6nQbqi",
+      "position": 3
+    },
+    {
+      "screen_id": "39583236-9d09-4671-bc3c-3839bb513ca8",
+      "image_url": "https://mobbin.com/api/mcp/short/VH2hFRLE",
+      "position": 4
+    },
+    {
+      "screen_id": "ebd6c4c7-547c-4dd0-ae28-1a7a5baaebc7",
+      "image_url": "https://mobbin.com/api/mcp/short/JCeVppXC",
+      "position": 5
+    },
+    {
+      "screen_id": "8a0a621e-8674-4280-b92a-8806e2666cd8",
+      "image_url": "https://mobbin.com/api/mcp/short/ab5oqFeL",
+      "position": 6
+    }
+  ]
+}

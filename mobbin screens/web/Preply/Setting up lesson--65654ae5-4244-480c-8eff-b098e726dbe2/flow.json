@@ -1,0 +1,38 @@
+{
+  "id": "65654ae5-4244-480c-8eff-b098e726dbe2",
+  "name": "Setting up lesson",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/65654ae5-4244-480c-8eff-b098e726dbe2",
+  "app_name": "Preply",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "beb2a157-4ca9-452b-95f3-9ce6ae8b8544",
+      "image_url": "https://mobbin.com/api/mcp/short/wHE4ZeWM",
+      "position": 1
+    },
+    {
+      "screen_id": "92393ddf-143a-42e0-aac5-694274b2e463",
+      "image_url": "https://mobbin.com/api/mcp/short/RFMmeh9R",
+      "position": 2
+    },
+    {
+      "screen_id": "17e64efe-573c-4152-b18c-29c90bb0d47c",
+      "image_url": "https://mobbin.com/api/mcp/short/yvbFCS5i",
+      "position": 3
+    },
+    {
+      "screen_id": "fcf146ad-ac5f-4d19-b905-5a4952125b10",
+      "image_url": "https://mobbin.com/api/mcp/short/R0KqzbqN",
+      "position": 4
+    },
+    {
+      "screen_id": "486b3fd6-e347-4000-97f0-95a7bfaaf870",
+      "image_url": "https://mobbin.com/api/mcp/short/2dPoOxWU",
+      "position": 5
+    }
+  ]
+}

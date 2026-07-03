@@ -1,0 +1,48 @@
+{
+  "id": "96c4f619-f8e8-41f2-8789-c255a52c61fa",
+  "name": "Creating a first task",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/96c4f619-f8e8-41f2-8789-c255a52c61fa",
+  "app_name": "Numo",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "2c1e4a97-2ec1-4213-bfe3-9cf62244fb94",
+      "image_url": "https://mobbin.com/api/mcp/short/ZdoadCj4",
+      "position": 1
+    },
+    {
+      "screen_id": "1313146e-e2a3-4025-bad4-d7befae57838",
+      "image_url": "https://mobbin.com/api/mcp/short/N5eYJKf6",
+      "position": 2
+    },
+    {
+      "screen_id": "f1ccab8f-87cd-4835-b65d-0499700c5261",
+      "image_url": "https://mobbin.com/api/mcp/short/XobhFJLN",
+      "position": 3
+    },
+    {
+      "screen_id": "0ae7dfd7-e99a-463d-be2e-80613e247688",
+      "image_url": "https://mobbin.com/api/mcp/short/E9Z1AaiF",
+      "position": 4
+    },
+    {
+      "screen_id": "cd3149ab-90ff-4358-bc61-16bc8dfb26b6",
+      "image_url": "https://mobbin.com/api/mcp/short/T4jVlrFI",
+      "position": 5
+    },
+    {
+      "screen_id": "39283fa1-015a-43e3-a116-5ff3e3c7c9ba",
+      "image_url": "https://mobbin.com/api/mcp/short/FZBlP4xT",
+      "position": 6
+    },
+    {
+      "screen_id": "c8ebfc11-0868-41e7-bf19-68ceb58afc3b",
+      "image_url": "https://mobbin.com/api/mcp/short/86qtXKKx",
+      "position": 7
+    }
+  ]
+}

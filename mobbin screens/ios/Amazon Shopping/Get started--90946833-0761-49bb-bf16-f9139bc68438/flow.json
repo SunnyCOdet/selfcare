@@ -1,0 +1,26 @@
+{
+  "id": "90946833-0761-49bb-bf16-f9139bc68438",
+  "name": "Get started",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/90946833-0761-49bb-bf16-f9139bc68438",
+  "app_name": "Amazon Shopping",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0123182d-55ec-46f4-919c-83754bdaf9e1",
+      "image_url": "https://mobbin.com/api/mcp/short/lmXoKkha",
+      "position": 1
+    },
+    {
+      "screen_id": "e465960f-f9ee-4591-98fd-6cf468468818",
+      "image_url": "https://mobbin.com/api/mcp/short/VAUqaOuf",
+      "position": 2
+    },
+    {
+      "screen_id": "b0da1c19-45b5-4371-823c-4718354bafc1",
+      "image_url": "https://mobbin.com/api/mcp/short/T2GXGXKN",
+      "position": 3
+    }
+  ]
+}

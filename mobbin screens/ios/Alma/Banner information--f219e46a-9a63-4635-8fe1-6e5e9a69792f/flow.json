@@ -1,0 +1,21 @@
+{
+  "id": "f219e46a-9a63-4635-8fe1-6e5e9a69792f",
+  "name": "Banner information",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f219e46a-9a63-4635-8fe1-6e5e9a69792f",
+  "app_name": "Alma",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "7c06e06e-c2d4-477f-8508-7eef1cd01371",
+      "image_url": "https://mobbin.com/api/mcp/short/Fj8fN3ob",
+      "position": 1
+    },
+    {
+      "screen_id": "d82bdf26-31fc-4beb-aa6e-90705300386b",
+      "image_url": "https://mobbin.com/api/mcp/short/wtbVKYD0",
+      "position": 2
+    }
+  ]
+}

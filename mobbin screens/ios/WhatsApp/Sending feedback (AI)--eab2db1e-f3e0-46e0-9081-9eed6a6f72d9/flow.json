@@ -1,0 +1,38 @@
+{
+  "id": "eab2db1e-f3e0-46e0-9081-9eed6a6f72d9",
+  "name": "Sending feedback (AI)",
+  "actions": [
+    "Giving Feedback"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/eab2db1e-f3e0-46e0-9081-9eed6a6f72d9",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0d54d60e-3203-4611-936a-0fc22444f7df",
+      "image_url": "https://mobbin.com/api/mcp/short/AOgpZiQJ",
+      "position": 1
+    },
+    {
+      "screen_id": "cc3dcd3f-9da3-4a31-b78c-c66d22e32779",
+      "image_url": "https://mobbin.com/api/mcp/short/03NMvBv5",
+      "position": 2
+    },
+    {
+      "screen_id": "6ce3ec0e-55f6-461a-9bb7-403a69b22c62",
+      "image_url": "https://mobbin.com/api/mcp/short/M8ycAgfU",
+      "position": 3
+    },
+    {
+      "screen_id": "bb0de6d3-2358-4149-ae9e-29bbf8293f9b",
+      "image_url": "https://mobbin.com/api/mcp/short/90olAMZm",
+      "position": 4
+    },
+    {
+      "screen_id": "1570a472-4ede-4695-89b7-4a2e8263fb5d",
+      "image_url": "https://mobbin.com/api/mcp/short/VzK2E4vW",
+      "position": 5
+    }
+  ]
+}

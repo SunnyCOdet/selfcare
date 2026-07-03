@@ -1,0 +1,26 @@
+{
+  "id": "f0bf41bc-0f83-4bad-afb1-074754ba32c9",
+  "name": "Programs",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f0bf41bc-0f83-4bad-afb1-074754ba32c9",
+  "app_name": "Peloton",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "a1bc7144-15a3-4515-a088-1f71fb3dd995",
+      "image_url": "https://mobbin.com/api/mcp/short/fFxwIEFm",
+      "position": 1
+    },
+    {
+      "screen_id": "5af5327e-fd91-4696-b458-0a531734cac2",
+      "image_url": "https://mobbin.com/api/mcp/short/Kh7ksiy0",
+      "position": 2
+    },
+    {
+      "screen_id": "cba23e01-b216-4afa-a2f6-438edb26254c",
+      "image_url": "https://mobbin.com/api/mcp/short/zCo8tqyF",
+      "position": 3
+    }
+  ]
+}

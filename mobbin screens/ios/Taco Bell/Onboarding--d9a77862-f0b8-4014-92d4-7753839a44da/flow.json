@@ -1,0 +1,38 @@
+{
+  "id": "d9a77862-f0b8-4014-92d4-7753839a44da",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d9a77862-f0b8-4014-92d4-7753839a44da",
+  "app_name": "Taco Bell",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "09e3fcc6-17f1-497c-b4aa-abf291eb0205",
+      "image_url": "https://mobbin.com/api/mcp/short/nXhajSGb",
+      "position": 1
+    },
+    {
+      "screen_id": "90f0876e-976a-4ebc-b1ac-bb6b058d2446",
+      "image_url": "https://mobbin.com/api/mcp/short/cKWfrqYa",
+      "position": 2
+    },
+    {
+      "screen_id": "3eb5132d-4ac8-47e8-aca8-ebf858ca403c",
+      "image_url": "https://mobbin.com/api/mcp/short/TCXWFm8g",
+      "position": 3
+    },
+    {
+      "screen_id": "b50a990f-6af0-44f4-ab2f-ac3ec18908d8",
+      "image_url": "https://mobbin.com/api/mcp/short/XMBEdOLP",
+      "position": 4
+    },
+    {
+      "screen_id": "f3ee4d85-997d-4ffb-b5e4-19bf5c9cc24a",
+      "image_url": "https://mobbin.com/api/mcp/short/K7N3cnm1",
+      "position": 5
+    }
+  ]
+}

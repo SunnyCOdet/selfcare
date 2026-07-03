@@ -1,0 +1,29 @@
+{
+  "id": "69f5a3a8-00f6-4f1a-b463-1105281f4ffe",
+  "name": "Starting a class",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/69f5a3a8-00f6-4f1a-b463-1105281f4ffe",
+  "app_name": "lululemon",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "33504f98-785f-4b10-a4bd-a661dd7fc8a8",
+      "image_url": "https://mobbin.com/api/mcp/short/n1ScGizf",
+      "position": 1
+    },
+    {
+      "screen_id": "02d9f84c-f489-4d42-9d06-9b512655e5d1",
+      "image_url": "https://mobbin.com/api/mcp/short/nvj6Pvng",
+      "position": 2
+    },
+    {
+      "screen_id": "4d1bd09c-634c-4068-acb6-1dde6b97d895",
+      "image_url": "https://mobbin.com/api/mcp/short/yrkl7aUU",
+      "position": 3
+    }
+  ]
+}

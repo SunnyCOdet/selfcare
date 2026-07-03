@@ -1,0 +1,38 @@
+{
+  "id": "a5e08dbb-133e-44ad-b242-7bbc62710d51",
+  "name": "Buddying up",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a5e08dbb-133e-44ad-b242-7bbc62710d51",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "40ae292d-c1a1-4bd2-bf64-6878df84d658",
+      "image_url": "https://mobbin.com/api/mcp/short/7bIUgFIv",
+      "position": 1
+    },
+    {
+      "screen_id": "69d18cb5-eac7-4b46-81b1-687ee0500d72",
+      "image_url": "https://mobbin.com/api/mcp/short/TdDj5osQ",
+      "position": 2
+    },
+    {
+      "screen_id": "aa319c50-d702-4cd1-91cf-c35e4389fca9",
+      "image_url": "https://mobbin.com/api/mcp/short/kLSfEUna",
+      "position": 3
+    },
+    {
+      "screen_id": "c2349dd7-4b6f-4c09-ad5c-b5ed95b397c7",
+      "image_url": "https://mobbin.com/api/mcp/short/Ns3ve3P5",
+      "position": 4
+    },
+    {
+      "screen_id": "978a5333-71dc-4c54-98e2-453bc041c5b8",
+      "image_url": "https://mobbin.com/api/mcp/short/6r8JRz0r",
+      "position": 5
+    }
+  ]
+}

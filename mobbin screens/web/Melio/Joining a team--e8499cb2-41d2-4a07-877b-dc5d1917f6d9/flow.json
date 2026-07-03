@@ -1,0 +1,54 @@
+{
+  "id": "e8499cb2-41d2-4a07-877b-dc5d1917f6d9",
+  "name": "Joining a team",
+  "actions": [
+    "Creating Account",
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e8499cb2-41d2-4a07-877b-dc5d1917f6d9",
+  "app_name": "Melio",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "226e4f3f-f5d7-4526-9810-70c49615136d",
+      "image_url": "https://mobbin.com/api/mcp/short/dIXf7LgA",
+      "position": 1
+    },
+    {
+      "screen_id": "34648a0e-67ef-4df0-a847-269c08fa8648",
+      "image_url": "https://mobbin.com/api/mcp/short/GCx1dL4o",
+      "position": 2
+    },
+    {
+      "screen_id": "c40cd163-7a2f-4db3-9c26-3fabd1a293d6",
+      "image_url": "https://mobbin.com/api/mcp/short/rL36W2f3",
+      "position": 3
+    },
+    {
+      "screen_id": "fc2a7650-802f-4a5b-bd88-4c84c612b2c6",
+      "image_url": "https://mobbin.com/api/mcp/short/SacasmD0",
+      "position": 4
+    },
+    {
+      "screen_id": "0b434499-1a06-4277-9202-768c99ab53c9",
+      "image_url": "https://mobbin.com/api/mcp/short/OWEBBgfB",
+      "position": 5
+    },
+    {
+      "screen_id": "f625d000-fab7-46e7-9e7c-a85add0a7d90",
+      "image_url": "https://mobbin.com/api/mcp/short/DPcMVq8b",
+      "position": 6
+    },
+    {
+      "screen_id": "2816ecc5-d199-4103-afd4-e6b9b7f85a97",
+      "image_url": "https://mobbin.com/api/mcp/short/5fs65ZDg",
+      "position": 7
+    },
+    {
+      "screen_id": "c3a30c6e-0b9f-4021-b487-6e8d8de23f68",
+      "image_url": "https://mobbin.com/api/mcp/short/qGM2a3P2",
+      "position": 8
+    }
+  ]
+}

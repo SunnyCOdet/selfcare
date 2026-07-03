@@ -1,0 +1,36 @@
+{
+  "id": "97540af2-ca58-43bf-baa4-717679024e84",
+  "name": "Data and habits",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/97540af2-ca58-43bf-baa4-717679024e84",
+  "app_name": "MacroFactor",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "6da40b24-2de7-431e-8527-4c102a9330a6",
+      "image_url": "https://mobbin.com/api/mcp/short/Gx4q5ZRq",
+      "position": 1
+    },
+    {
+      "screen_id": "0270b233-6d5e-4678-9339-75a1e367358f",
+      "image_url": "https://mobbin.com/api/mcp/short/raME95QP",
+      "position": 2
+    },
+    {
+      "screen_id": "9c643e52-e83b-4738-8a6e-ce4eaf4311e1",
+      "image_url": "https://mobbin.com/api/mcp/short/T1XbcAmq",
+      "position": 3
+    },
+    {
+      "screen_id": "2006ba2c-6bf9-4dd6-aa15-94a4b96793fa",
+      "image_url": "https://mobbin.com/api/mcp/short/5yVepKKv",
+      "position": 4
+    },
+    {
+      "screen_id": "041c19d7-9361-4900-a9ae-148867c875f0",
+      "image_url": "https://mobbin.com/api/mcp/short/QE5KRD3l",
+      "position": 5
+    }
+  ]
+}

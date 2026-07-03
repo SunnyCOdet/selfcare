@@ -1,0 +1,21 @@
+{
+  "id": "296a4857-d0be-438d-897a-3c466e2595f1",
+  "name": "More with Eve AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/296a4857-d0be-438d-897a-3c466e2595f1",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "6d776072-04fa-4bbf-86aa-b2df23ebc79d",
+      "image_url": "https://mobbin.com/api/mcp/short/GCHmauns",
+      "position": 1
+    },
+    {
+      "screen_id": "02b554c5-83d1-48ce-adb8-4c76d0c3f1eb",
+      "image_url": "https://mobbin.com/api/mcp/short/N7DS06gj",
+      "position": 2
+    }
+  ]
+}

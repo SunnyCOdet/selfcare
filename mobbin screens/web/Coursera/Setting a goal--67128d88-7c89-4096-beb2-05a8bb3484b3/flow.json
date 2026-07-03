@@ -1,0 +1,44 @@
+{
+  "id": "67128d88-7c89-4096-beb2-05a8bb3484b3",
+  "name": "Setting a goal",
+  "actions": [
+    "Scheduling",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/67128d88-7c89-4096-beb2-05a8bb3484b3",
+  "app_name": "Coursera",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "6c0ad75c-7831-4707-a825-8bbe73f5a5cd",
+      "image_url": "https://mobbin.com/api/mcp/short/auXI2Z4g",
+      "position": 1
+    },
+    {
+      "screen_id": "96545996-aa0a-4e87-8993-7164c45c86dd",
+      "image_url": "https://mobbin.com/api/mcp/short/rQahrzHR",
+      "position": 2
+    },
+    {
+      "screen_id": "269d74bb-e3b3-4adf-a9a1-d7a3fc958a87",
+      "image_url": "https://mobbin.com/api/mcp/short/iHh7MnhL",
+      "position": 3
+    },
+    {
+      "screen_id": "9b3d6ef3-bb26-42ca-808d-1343e27f01a4",
+      "image_url": "https://mobbin.com/api/mcp/short/o3jRzHmd",
+      "position": 4
+    },
+    {
+      "screen_id": "558911ab-f326-4158-ab38-8e27a21ca639",
+      "image_url": "https://mobbin.com/api/mcp/short/SCgFq1yU",
+      "position": 5
+    },
+    {
+      "screen_id": "93beef1d-a7ba-4f6c-9efb-4d13aee3eb76",
+      "image_url": "https://mobbin.com/api/mcp/short/2M8yQJDL",
+      "position": 6
+    }
+  ]
+}

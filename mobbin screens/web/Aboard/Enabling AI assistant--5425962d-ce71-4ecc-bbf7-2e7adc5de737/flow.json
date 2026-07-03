@@ -1,0 +1,33 @@
+{
+  "id": "5425962d-ce71-4ecc-bbf7-2e7adc5de737",
+  "name": "Enabling AI assistant",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5425962d-ce71-4ecc-bbf7-2e7adc5de737",
+  "app_name": "Aboard",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d537830b-ae47-4fca-9185-62d97e6aa82c",
+      "image_url": "https://mobbin.com/api/mcp/short/mTE6MBGU",
+      "position": 1
+    },
+    {
+      "screen_id": "be144365-5fc2-4d18-b237-e2cb55bb3da8",
+      "image_url": "https://mobbin.com/api/mcp/short/aXPVCyoz",
+      "position": 2
+    },
+    {
+      "screen_id": "97084594-34b0-4583-8c96-8584c87aab43",
+      "image_url": "https://mobbin.com/api/mcp/short/yZ0Tlfpd",
+      "position": 3
+    },
+    {
+      "screen_id": "19001b31-9a12-4eff-916e-a26f44eddc24",
+      "image_url": "https://mobbin.com/api/mcp/short/vogkzylQ",
+      "position": 4
+    }
+  ]
+}

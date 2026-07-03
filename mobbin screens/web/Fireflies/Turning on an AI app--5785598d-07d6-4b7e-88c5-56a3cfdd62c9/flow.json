@@ -1,0 +1,28 @@
+{
+  "id": "5785598d-07d6-4b7e-88c5-56a3cfdd62c9",
+  "name": "Turning on an AI app",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5785598d-07d6-4b7e-88c5-56a3cfdd62c9",
+  "app_name": "Fireflies",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "2e49066c-c248-443c-9a41-84a14565c4e1",
+      "image_url": "https://mobbin.com/api/mcp/short/0n0jJJ15",
+      "position": 1
+    },
+    {
+      "screen_id": "2dfad65f-dd09-4950-8202-7d557f71701e",
+      "image_url": "https://mobbin.com/api/mcp/short/7UtGeTr3",
+      "position": 2
+    },
+    {
+      "screen_id": "c8131669-5bd3-40c0-ac01-e7258b92ffec",
+      "image_url": "https://mobbin.com/api/mcp/short/a82BF1uo",
+      "position": 3
+    }
+  ]
+}

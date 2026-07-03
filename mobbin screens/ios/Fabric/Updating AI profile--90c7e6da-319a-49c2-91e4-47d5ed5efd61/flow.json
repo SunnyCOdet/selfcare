@@ -1,0 +1,34 @@
+{
+  "id": "90c7e6da-319a-49c2-91e4-47d5ed5efd61",
+  "name": "Updating AI profile",
+  "actions": [
+    "Searching & Finding",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/90c7e6da-319a-49c2-91e4-47d5ed5efd61",
+  "app_name": "Fabric",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d85278a7-5078-4f91-9c47-34c1710c46d9",
+      "image_url": "https://mobbin.com/api/mcp/short/IV0Y3OnV",
+      "position": 1
+    },
+    {
+      "screen_id": "bfd07f6d-78b7-42c2-b698-605b8fbb36c0",
+      "image_url": "https://mobbin.com/api/mcp/short/AjSOgkKh",
+      "position": 2
+    },
+    {
+      "screen_id": "d8455343-7aae-4288-a679-3732b23ac172",
+      "image_url": "https://mobbin.com/api/mcp/short/eLMT66D9",
+      "position": 3
+    },
+    {
+      "screen_id": "d47a7910-c272-450a-9bf6-0333f3d45637",
+      "image_url": "https://mobbin.com/api/mcp/short/2tHmSDFG",
+      "position": 4
+    }
+  ]
+}

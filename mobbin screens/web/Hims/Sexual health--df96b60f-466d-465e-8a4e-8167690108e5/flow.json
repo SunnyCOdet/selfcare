@@ -1,0 +1,36 @@
+{
+  "id": "df96b60f-466d-465e-8a4e-8167690108e5",
+  "name": "Sexual health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/df96b60f-466d-465e-8a4e-8167690108e5",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "3b2970bd-6fbd-44a6-bd5d-9a8bde3bf02d",
+      "image_url": "https://mobbin.com/api/mcp/short/kDY5aZiy",
+      "position": 1
+    },
+    {
+      "screen_id": "f4cafa89-d292-481f-86cc-3525085cf716",
+      "image_url": "https://mobbin.com/api/mcp/short/U5wGJqL7",
+      "position": 2
+    },
+    {
+      "screen_id": "d1418b89-a762-44b5-bb47-f2f5aae4209b",
+      "image_url": "https://mobbin.com/api/mcp/short/lg0Iae5i",
+      "position": 3
+    },
+    {
+      "screen_id": "2c86e47b-b770-4761-8505-8209640bd88d",
+      "image_url": "https://mobbin.com/api/mcp/short/T3CBnkjm",
+      "position": 4
+    },
+    {
+      "screen_id": "b4e719e8-1f36-4c72-aaca-ba03dde0ccf1",
+      "image_url": "https://mobbin.com/api/mcp/short/6hVmaoXY",
+      "position": 5
+    }
+  ]
+}

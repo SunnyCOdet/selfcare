@@ -1,0 +1,44 @@
+{
+  "id": "2656580b-9ec3-477c-b555-b802f06d8cf5",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2656580b-9ec3-477c-b555-b802f06d8cf5",
+  "app_name": "Perplexity",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "e10bf3ea-0cd9-47c2-8805-5cfdec0f5f97",
+      "image_url": "https://mobbin.com/api/mcp/short/pUVpPZBX",
+      "position": 1
+    },
+    {
+      "screen_id": "253d93e3-ec44-4273-998c-5281c863e323",
+      "image_url": "https://mobbin.com/api/mcp/short/xeLaZTMW",
+      "position": 2
+    },
+    {
+      "screen_id": "9f69c97d-1001-4740-8876-cdd432ccf646",
+      "image_url": "https://mobbin.com/api/mcp/short/KTWHTOLY",
+      "position": 3
+    },
+    {
+      "screen_id": "a9c219b2-476d-40bd-959e-1d777ef78110",
+      "image_url": "https://mobbin.com/api/mcp/short/dpEyX8Qi",
+      "position": 4
+    },
+    {
+      "screen_id": "256e128a-adfe-4c02-a348-22c5b0d66a9e",
+      "image_url": "https://mobbin.com/api/mcp/short/LfE9nwPi",
+      "position": 5
+    },
+    {
+      "screen_id": "3fa5b609-9965-4faa-a918-8a4774cde32b",
+      "image_url": "https://mobbin.com/api/mcp/short/X7VDX8aJ",
+      "position": 6
+    }
+  ]
+}

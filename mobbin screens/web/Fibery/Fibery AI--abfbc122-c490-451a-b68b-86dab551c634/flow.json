@@ -1,0 +1,26 @@
+{
+  "id": "abfbc122-c490-451a-b68b-86dab551c634",
+  "name": "Fibery AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/abfbc122-c490-451a-b68b-86dab551c634",
+  "app_name": "Fibery",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "20f8c308-5b05-440f-b60b-ea8d2961e4b8",
+      "image_url": "https://mobbin.com/api/mcp/short/xXxWCQaS",
+      "position": 1
+    },
+    {
+      "screen_id": "b055ccb8-1b35-45c5-94f2-fe466a7ec28d",
+      "image_url": "https://mobbin.com/api/mcp/short/5ouUXWpp",
+      "position": 2
+    },
+    {
+      "screen_id": "6b610910-2be1-4a05-a24d-5c055ca152eb",
+      "image_url": "https://mobbin.com/api/mcp/short/8XB9dIbW",
+      "position": 3
+    }
+  ]
+}

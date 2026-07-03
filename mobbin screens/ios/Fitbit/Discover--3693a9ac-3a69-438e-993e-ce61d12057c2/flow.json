@@ -1,0 +1,36 @@
+{
+  "id": "3693a9ac-3a69-438e-993e-ce61d12057c2",
+  "name": "Discover",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3693a9ac-3a69-438e-993e-ce61d12057c2",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "4afed209-c846-4cee-81ce-31c957abbd90",
+      "image_url": "https://mobbin.com/api/mcp/short/i8vHq6qZ",
+      "position": 1
+    },
+    {
+      "screen_id": "405dc156-2612-4385-a4d1-3d69f033666d",
+      "image_url": "https://mobbin.com/api/mcp/short/srTfDrPN",
+      "position": 2
+    },
+    {
+      "screen_id": "0e436af4-e56e-4069-b18b-2e0e24c58f77",
+      "image_url": "https://mobbin.com/api/mcp/short/xImHFgsF",
+      "position": 3
+    },
+    {
+      "screen_id": "e8f90b1f-0830-4903-aa15-7130aacb6b52",
+      "image_url": "https://mobbin.com/api/mcp/short/UN8TDm4B",
+      "position": 4
+    },
+    {
+      "screen_id": "b537bc15-b688-42ab-80bb-aba7c83cb9b5",
+      "image_url": "https://mobbin.com/api/mcp/short/yeOgswWk",
+      "position": 5
+    }
+  ]
+}

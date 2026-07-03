@@ -1,0 +1,65 @@
+{
+  "id": "fa55f7ef-838e-45b6-b3cf-e033cb250bfa",
+  "name": "Creating a space with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fa55f7ef-838e-45b6-b3cf-e033cb250bfa",
+  "app_name": "GitBook",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "165c8aa0-013a-44df-9479-a5fb4b505235",
+      "image_url": "https://mobbin.com/api/mcp/short/3SilH2G4",
+      "position": 1
+    },
+    {
+      "screen_id": "eeb3da9a-3f9c-4c85-9c38-5e1fcb05d37e",
+      "image_url": "https://mobbin.com/api/mcp/short/bwsqLscH",
+      "position": 2
+    },
+    {
+      "screen_id": "3b2d9254-7a65-49f7-b574-f1e94ce6355c",
+      "image_url": "https://mobbin.com/api/mcp/short/alPFiyhd",
+      "position": 3
+    },
+    {
+      "screen_id": "f31f80a8-4505-4dff-87ec-1c621cc246c1",
+      "image_url": "https://mobbin.com/api/mcp/short/lwk0yPrs",
+      "position": 4
+    },
+    {
+      "screen_id": "ec2880c9-48d4-434b-b602-79d3576c5735",
+      "image_url": "https://mobbin.com/api/mcp/short/SrAWqGIv",
+      "position": 5
+    },
+    {
+      "screen_id": "bba3b3d5-4a82-451a-bde3-4948398d32d2",
+      "image_url": "https://mobbin.com/api/mcp/short/qTJfUAt3",
+      "position": 6
+    },
+    {
+      "screen_id": "179d4497-f4bb-485d-9ac7-ec25221086d0",
+      "image_url": "https://mobbin.com/api/mcp/short/0nKVwcIB",
+      "position": 7
+    },
+    {
+      "screen_id": "b894da19-36ef-4f60-a2c8-6d599b77a75c",
+      "image_url": "https://mobbin.com/api/mcp/short/plbILVzL",
+      "position": 8
+    },
+    {
+      "screen_id": "46727730-5567-47bb-839e-d66c13100215",
+      "image_url": "https://mobbin.com/api/mcp/short/M4jf2lgJ",
+      "position": 9
+    },
+    {
+      "screen_id": "59f9423a-fe96-4cd9-929b-20bdd64aa023",
+      "image_url": "https://mobbin.com/api/mcp/short/y2HiMXsh",
+      "position": 10
+    }
+  ]
+}

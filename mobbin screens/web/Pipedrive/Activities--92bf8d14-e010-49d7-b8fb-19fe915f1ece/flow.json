@@ -1,0 +1,21 @@
+{
+  "id": "92bf8d14-e010-49d7-b8fb-19fe915f1ece",
+  "name": "Activities",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/92bf8d14-e010-49d7-b8fb-19fe915f1ece",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "cee9b8a3-32ed-4cc3-8c4b-94bdb1afc849",
+      "image_url": "https://mobbin.com/api/mcp/short/8SexyPdW",
+      "position": 1
+    },
+    {
+      "screen_id": "84afb82c-6f3e-4cfd-a5b2-45c5b32a87d0",
+      "image_url": "https://mobbin.com/api/mcp/short/Ugvqclf3",
+      "position": 2
+    }
+  ]
+}

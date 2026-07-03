@@ -1,0 +1,58 @@
+{
+  "id": "ee78a613-f047-48ce-9429-9ebadd0de642",
+  "name": "Customizing daily recommendations",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ee78a613-f047-48ce-9429-9ebadd0de642",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "b8c01a5e-ee92-4b5e-aebd-c7f124e5bcfe",
+      "image_url": "https://mobbin.com/api/mcp/short/ZCXVkf2R",
+      "position": 1
+    },
+    {
+      "screen_id": "748074a0-e81c-433b-b8e5-e40c7bfec5f8",
+      "image_url": "https://mobbin.com/api/mcp/short/5qxiVobl",
+      "position": 2
+    },
+    {
+      "screen_id": "c9d024c6-209c-400e-b96a-87ffe5caf4d6",
+      "image_url": "https://mobbin.com/api/mcp/short/SpoVS92o",
+      "position": 3
+    },
+    {
+      "screen_id": "034aba32-4121-48e1-a81c-1b55e32086f3",
+      "image_url": "https://mobbin.com/api/mcp/short/75EpEkU9",
+      "position": 4
+    },
+    {
+      "screen_id": "121ce093-714b-4f58-b691-3588bf8499fa",
+      "image_url": "https://mobbin.com/api/mcp/short/RhytfbnC",
+      "position": 5
+    },
+    {
+      "screen_id": "ad0d69b2-0a6c-4a0f-8631-d40b021d4360",
+      "image_url": "https://mobbin.com/api/mcp/short/NGb78vMz",
+      "position": 6
+    },
+    {
+      "screen_id": "a1d177fc-682b-4d46-aeb0-699f40174ec3",
+      "image_url": "https://mobbin.com/api/mcp/short/KCihdZZN",
+      "position": 7
+    },
+    {
+      "screen_id": "fca1a32b-ad7a-4b82-a58d-a7270213989a",
+      "image_url": "https://mobbin.com/api/mcp/short/OXib1s61",
+      "position": 8
+    },
+    {
+      "screen_id": "4d15a829-090b-4801-aa7a-c71d97de9228",
+      "image_url": "https://mobbin.com/api/mcp/short/52wt52Mc",
+      "position": 9
+    }
+  ]
+}

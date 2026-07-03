@@ -1,0 +1,54 @@
+{
+  "id": "53f2e3a7-8949-45c3-8574-8a90ad99f70f",
+  "name": "Setting up walking steadiness notifications",
+  "actions": [
+    "Setting Up",
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/53f2e3a7-8949-45c3-8574-8a90ad99f70f",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "f66b5333-abee-485e-9945-d09f75fc84e8",
+      "image_url": "https://mobbin.com/api/mcp/short/gSoCMvpo",
+      "position": 1
+    },
+    {
+      "screen_id": "eed95bc8-17cc-4853-858c-092623d93e0b",
+      "image_url": "https://mobbin.com/api/mcp/short/KYfY9oE7",
+      "position": 2
+    },
+    {
+      "screen_id": "617e3330-fa2d-4bfd-bff2-0a65dc3fd5a1",
+      "image_url": "https://mobbin.com/api/mcp/short/kBm99zEP",
+      "position": 3
+    },
+    {
+      "screen_id": "3926d3e9-9528-41fd-908c-cf44345bbdc9",
+      "image_url": "https://mobbin.com/api/mcp/short/GvrLTCfr",
+      "position": 4
+    },
+    {
+      "screen_id": "5ab21fde-8f0b-48ff-a688-98ec270680c2",
+      "image_url": "https://mobbin.com/api/mcp/short/v4tEUYLm",
+      "position": 5
+    },
+    {
+      "screen_id": "1f6cbdd2-b844-4020-b1ac-e0ae08004d61",
+      "image_url": "https://mobbin.com/api/mcp/short/VLhVcgYu",
+      "position": 6
+    },
+    {
+      "screen_id": "d74fa8db-6732-4c21-899f-cb2d5c328c01",
+      "image_url": "https://mobbin.com/api/mcp/short/WmGRegwq",
+      "position": 7
+    },
+    {
+      "screen_id": "b4a7b727-30aa-4d67-97b5-4a210ecee805",
+      "image_url": "https://mobbin.com/api/mcp/short/KYQ964MD",
+      "position": 8
+    }
+  ]
+}

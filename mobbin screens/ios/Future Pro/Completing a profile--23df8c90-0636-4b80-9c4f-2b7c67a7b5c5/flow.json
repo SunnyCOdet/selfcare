@@ -1,0 +1,33 @@
+{
+  "id": "23df8c90-0636-4b80-9c4f-2b7c67a7b5c5",
+  "name": "Completing a profile",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/23df8c90-0636-4b80-9c4f-2b7c67a7b5c5",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "4a2d8fba-9a7b-461a-86a6-009c690def08",
+      "image_url": "https://mobbin.com/api/mcp/short/NnYD957L",
+      "position": 1
+    },
+    {
+      "screen_id": "9cf0c614-a606-4b9a-a80b-0bc84ee29f54",
+      "image_url": "https://mobbin.com/api/mcp/short/rhNefYdH",
+      "position": 2
+    },
+    {
+      "screen_id": "110758f4-90f1-4a4b-bc11-746943b5c356",
+      "image_url": "https://mobbin.com/api/mcp/short/Jfr55nJb",
+      "position": 3
+    },
+    {
+      "screen_id": "ae4d680e-d289-41c3-b405-f21467088bf0",
+      "image_url": "https://mobbin.com/api/mcp/short/cllPz98v",
+      "position": 4
+    }
+  ]
+}

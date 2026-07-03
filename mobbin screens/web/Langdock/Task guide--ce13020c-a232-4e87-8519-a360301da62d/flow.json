@@ -1,0 +1,31 @@
+{
+  "id": "ce13020c-a232-4e87-8519-a360301da62d",
+  "name": "Task guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ce13020c-a232-4e87-8519-a360301da62d",
+  "app_name": "Langdock",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "9cf4dc5f-e4d5-4270-bb9a-34f143ee2056",
+      "image_url": "https://mobbin.com/api/mcp/short/TUAniaAf",
+      "position": 1
+    },
+    {
+      "screen_id": "f6d28109-22bc-4e67-9d17-a88baa68b6cb",
+      "image_url": "https://mobbin.com/api/mcp/short/dFmUQZNA",
+      "position": 2
+    },
+    {
+      "screen_id": "c69db9e3-a938-4c5f-9c86-652c6efc28a7",
+      "image_url": "https://mobbin.com/api/mcp/short/Clq69k30",
+      "position": 3
+    },
+    {
+      "screen_id": "79f9a652-a8b4-4e7a-afcc-f9a22153b2de",
+      "image_url": "https://mobbin.com/api/mcp/short/ynzV99Qc",
+      "position": 4
+    }
+  ]
+}

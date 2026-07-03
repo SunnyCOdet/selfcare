@@ -1,0 +1,33 @@
+{
+  "id": "8f11da5f-1c80-425b-8d9f-38037599693a",
+  "name": "Changing AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8f11da5f-1c80-425b-8d9f-38037599693a",
+  "app_name": "WRITER",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "94aebedb-2331-49f2-83b0-006ad2049fac",
+      "image_url": "https://mobbin.com/api/mcp/short/roZhGJbj",
+      "position": 1
+    },
+    {
+      "screen_id": "ae60ed2e-6ae1-4451-859a-a02f3ad38113",
+      "image_url": "https://mobbin.com/api/mcp/short/954C5URT",
+      "position": 2
+    },
+    {
+      "screen_id": "5db11eb9-2c9d-48e6-b79d-ea648ab7cfbf",
+      "image_url": "https://mobbin.com/api/mcp/short/ffplBJs1",
+      "position": 3
+    },
+    {
+      "screen_id": "f6592f2b-9d0d-4d61-bf72-f13df55bc7e0",
+      "image_url": "https://mobbin.com/api/mcp/short/PHgn8qns",
+      "position": 4
+    }
+  ]
+}

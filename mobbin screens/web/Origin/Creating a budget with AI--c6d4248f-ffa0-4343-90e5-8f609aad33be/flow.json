@@ -1,0 +1,78 @@
+{
+  "id": "c6d4248f-ffa0-4343-90e5-8f609aad33be",
+  "name": "Creating a budget with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c6d4248f-ffa0-4343-90e5-8f609aad33be",
+  "app_name": "Origin",
+  "platform": "web",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "12c214da-1690-4359-ac83-9fe4a9ce3563",
+      "image_url": "https://mobbin.com/api/mcp/short/DZafcp4Y",
+      "position": 1
+    },
+    {
+      "screen_id": "92e8e72b-f34b-4f3b-a77d-2003725a16bc",
+      "image_url": "https://mobbin.com/api/mcp/short/uvcBDiBr",
+      "position": 2
+    },
+    {
+      "screen_id": "7e476858-15b4-49b9-9997-fcee84f80fc2",
+      "image_url": "https://mobbin.com/api/mcp/short/esaywZDj",
+      "position": 3
+    },
+    {
+      "screen_id": "9143ce27-139b-42b8-85b3-830e519a228d",
+      "image_url": "https://mobbin.com/api/mcp/short/qrhdrXHW",
+      "position": 4
+    },
+    {
+      "screen_id": "82b04b0f-2ec7-4591-9bcc-520204a6d76f",
+      "image_url": "https://mobbin.com/api/mcp/short/CXs0dQkS",
+      "position": 5
+    },
+    {
+      "screen_id": "bed7d0fb-8552-46b4-b21d-c930160b72a3",
+      "image_url": "https://mobbin.com/api/mcp/short/duWDC945",
+      "position": 6
+    },
+    {
+      "screen_id": "87c2cda9-8940-49ae-bd5d-cf6bd0b8ead0",
+      "image_url": "https://mobbin.com/api/mcp/short/e2BAEBPj",
+      "position": 7
+    },
+    {
+      "screen_id": "ebc2fb1d-62ee-4f0d-a26e-e4e18e6c880b",
+      "image_url": "https://mobbin.com/api/mcp/short/FexBA6QA",
+      "position": 8
+    },
+    {
+      "screen_id": "e57992c4-bf48-4720-b2f1-242391a7834e",
+      "image_url": "https://mobbin.com/api/mcp/short/E2BUCxpN",
+      "position": 9
+    },
+    {
+      "screen_id": "af129774-cb8a-43b0-a90c-77b1d1b2e5c7",
+      "image_url": "https://mobbin.com/api/mcp/short/4fkDkSBI",
+      "position": 10
+    },
+    {
+      "screen_id": "abf7ad0b-0ed5-4ef0-bb1b-cbe8e6b247cb",
+      "image_url": "https://mobbin.com/api/mcp/short/bgIsadbe",
+      "position": 11
+    },
+    {
+      "screen_id": "37eb6feb-9349-4925-80af-d17cbcee0945",
+      "image_url": "https://mobbin.com/api/mcp/short/FjCd7RhL",
+      "position": 12
+    },
+    {
+      "screen_id": "c525c795-0aa9-4ebc-ad22-feef0eea410a",
+      "image_url": "https://mobbin.com/api/mcp/short/1xZroVw1",
+      "position": 13
+    }
+  ]
+}

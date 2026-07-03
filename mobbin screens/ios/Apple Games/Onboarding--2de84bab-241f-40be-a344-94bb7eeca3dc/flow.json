@@ -1,0 +1,38 @@
+{
+  "id": "2de84bab-241f-40be-a344-94bb7eeca3dc",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2de84bab-241f-40be-a344-94bb7eeca3dc",
+  "app_name": "Apple Games",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "b15589a5-5ead-4f23-9f81-41bc44dab8f4",
+      "image_url": "https://mobbin.com/api/mcp/short/MSpPaCty",
+      "position": 1
+    },
+    {
+      "screen_id": "0fb0a406-1351-458d-945f-e0fa3feddfd6",
+      "image_url": "https://mobbin.com/api/mcp/short/k5Sz8wEo",
+      "position": 2
+    },
+    {
+      "screen_id": "c91cdbbd-7ca5-4f95-9741-0039cf1ef4ff",
+      "image_url": "https://mobbin.com/api/mcp/short/h4bga541",
+      "position": 3
+    },
+    {
+      "screen_id": "980cec28-0c81-4b35-b030-33951249db30",
+      "image_url": "https://mobbin.com/api/mcp/short/gwMXwMtp",
+      "position": 4
+    },
+    {
+      "screen_id": "eafaea80-e930-4245-8c48-e12fc3eb52eb",
+      "image_url": "https://mobbin.com/api/mcp/short/lniNbNxv",
+      "position": 5
+    }
+  ]
+}

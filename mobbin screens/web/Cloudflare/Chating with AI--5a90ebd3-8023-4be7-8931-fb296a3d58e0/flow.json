@@ -1,0 +1,38 @@
+{
+  "id": "5a90ebd3-8023-4be7-8931-fb296a3d58e0",
+  "name": "Chating with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5a90ebd3-8023-4be7-8931-fb296a3d58e0",
+  "app_name": "Cloudflare",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "812b242e-51dc-4137-8452-76387b0375fa",
+      "image_url": "https://mobbin.com/api/mcp/short/SUe5l9TB",
+      "position": 1
+    },
+    {
+      "screen_id": "69f2f399-d4b3-4d81-bbe6-44a1822288f7",
+      "image_url": "https://mobbin.com/api/mcp/short/ggQ0HvVD",
+      "position": 2
+    },
+    {
+      "screen_id": "3d6d77bf-627a-4ddf-912f-6f38f73539fa",
+      "image_url": "https://mobbin.com/api/mcp/short/aJ1XOJ9n",
+      "position": 3
+    },
+    {
+      "screen_id": "26e17ee1-b1cf-4c16-8fdf-d385b5045c2f",
+      "image_url": "https://mobbin.com/api/mcp/short/RNQbph77",
+      "position": 4
+    },
+    {
+      "screen_id": "630464bd-5118-4208-874d-8ce4971ee95b",
+      "image_url": "https://mobbin.com/api/mcp/short/3ewRnBd2",
+      "position": 5
+    }
+  ]
+}

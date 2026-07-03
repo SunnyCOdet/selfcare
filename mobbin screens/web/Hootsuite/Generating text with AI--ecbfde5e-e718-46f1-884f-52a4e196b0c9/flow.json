@@ -1,0 +1,39 @@
+{
+  "id": "ecbfde5e-e718-46f1-884f-52a4e196b0c9",
+  "name": "Generating text with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ecbfde5e-e718-46f1-884f-52a4e196b0c9",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "72e6fc49-8623-4f8f-825e-779cb5313331",
+      "image_url": "https://mobbin.com/api/mcp/short/zjhfc0G6",
+      "position": 1
+    },
+    {
+      "screen_id": "ff33328f-d66c-4748-b3b6-3e0229c16e9b",
+      "image_url": "https://mobbin.com/api/mcp/short/xFg8G1zA",
+      "position": 2
+    },
+    {
+      "screen_id": "27235d11-404c-4d74-a515-9c30400721a0",
+      "image_url": "https://mobbin.com/api/mcp/short/dEv7iuL8",
+      "position": 3
+    },
+    {
+      "screen_id": "c708888b-148a-49d8-a324-71fc70143881",
+      "image_url": "https://mobbin.com/api/mcp/short/T3tR51RT",
+      "position": 4
+    },
+    {
+      "screen_id": "e9e39c4c-981d-493e-98d8-3c02ff6ca7a0",
+      "image_url": "https://mobbin.com/api/mcp/short/7JAdtqJb",
+      "position": 5
+    }
+  ]
+}

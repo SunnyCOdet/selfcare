@@ -1,0 +1,31 @@
+{
+  "id": "dc95ea39-c07c-4c27-a41d-7a96ffd20396",
+  "name": "Learn more about Peloton Gym",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/dc95ea39-c07c-4c27-a41d-7a96ffd20396",
+  "app_name": "Peloton",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d5b77e39-36e5-4471-97d7-7d7aaff98edb",
+      "image_url": "https://mobbin.com/api/mcp/short/7G3F4xHc",
+      "position": 1
+    },
+    {
+      "screen_id": "eef4b561-78f6-4c10-baa5-3db270657624",
+      "image_url": "https://mobbin.com/api/mcp/short/cUAzBDBq",
+      "position": 2
+    },
+    {
+      "screen_id": "506e4659-7d89-4edc-bd6a-490db222e0e6",
+      "image_url": "https://mobbin.com/api/mcp/short/0m0dMtJW",
+      "position": 3
+    },
+    {
+      "screen_id": "91958842-7a0d-48be-b3c8-f527065ddcbc",
+      "image_url": "https://mobbin.com/api/mcp/short/eyVXdntb",
+      "position": 4
+    }
+  ]
+}

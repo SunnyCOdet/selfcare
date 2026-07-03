@@ -1,0 +1,26 @@
+{
+  "id": "19618b18-6f5b-473b-98c6-88482759acbf",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/19618b18-6f5b-473b-98c6-88482759acbf",
+  "app_name": "Monarch",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "a2852c69-d3f2-45cb-b3fd-c6fadfc47977",
+      "image_url": "https://mobbin.com/api/mcp/short/p9PCa9Uh",
+      "position": 1
+    },
+    {
+      "screen_id": "dabd8e80-3ada-43fa-b8d9-24c0a1c962e7",
+      "image_url": "https://mobbin.com/api/mcp/short/sLgtH5JJ",
+      "position": 2
+    },
+    {
+      "screen_id": "730fd649-f246-4ade-9584-e48cb16590a9",
+      "image_url": "https://mobbin.com/api/mcp/short/GOUk7rSJ",
+      "position": 3
+    }
+  ]
+}

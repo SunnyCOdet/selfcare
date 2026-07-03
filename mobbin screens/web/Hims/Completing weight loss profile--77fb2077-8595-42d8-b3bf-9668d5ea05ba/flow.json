@@ -1,0 +1,49 @@
+{
+  "id": "77fb2077-8595-42d8-b3bf-9668d5ea05ba",
+  "name": "Completing weight loss profile",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/77fb2077-8595-42d8-b3bf-9668d5ea05ba",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "210a1ebb-9208-4428-8e5c-c36c2b8c50a8",
+      "image_url": "https://mobbin.com/api/mcp/short/KsoNsMnv",
+      "position": 1
+    },
+    {
+      "screen_id": "8b004279-6ae0-4879-a7c1-3ff402f4ec96",
+      "image_url": "https://mobbin.com/api/mcp/short/vvZdoP2Q",
+      "position": 2
+    },
+    {
+      "screen_id": "bd6e07d6-a47e-4b7e-8526-6efd1b2a7e4c",
+      "image_url": "https://mobbin.com/api/mcp/short/34zuAddQ",
+      "position": 3
+    },
+    {
+      "screen_id": "ad33e24f-4257-4427-8707-a1e72b5109d7",
+      "image_url": "https://mobbin.com/api/mcp/short/lj7mQZJE",
+      "position": 4
+    },
+    {
+      "screen_id": "f42a5297-e9c2-4a05-bdd8-75d19eaf8b25",
+      "image_url": "https://mobbin.com/api/mcp/short/iIret0LD",
+      "position": 5
+    },
+    {
+      "screen_id": "d3426f7b-fb8f-42e3-8dac-03b0cf260bae",
+      "image_url": "https://mobbin.com/api/mcp/short/Ktf6uWYg",
+      "position": 6
+    },
+    {
+      "screen_id": "64922afc-905a-4f11-afa3-a2e86d925d55",
+      "image_url": "https://mobbin.com/api/mcp/short/NjqvA28t",
+      "position": 7
+    }
+  ]
+}

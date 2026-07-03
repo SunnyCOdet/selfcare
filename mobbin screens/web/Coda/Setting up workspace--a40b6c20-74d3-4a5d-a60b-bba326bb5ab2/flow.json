@@ -1,0 +1,50 @@
+{
+  "id": "a40b6c20-74d3-4a5d-a60b-bba326bb5ab2",
+  "name": "Setting up workspace",
+  "actions": [
+    "Adding & Creating",
+    "Inviting Teammates & Friends",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a40b6c20-74d3-4a5d-a60b-bba326bb5ab2",
+  "app_name": "Coda",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "d228d9ef-9657-4397-ae87-ab33e0cce0b6",
+      "image_url": "https://mobbin.com/api/mcp/short/Y8EHeQBx",
+      "position": 1
+    },
+    {
+      "screen_id": "ba50742f-a743-4df5-acae-2d5fbd61cf6a",
+      "image_url": "https://mobbin.com/api/mcp/short/2MruCxZi",
+      "position": 2
+    },
+    {
+      "screen_id": "c9341849-f241-4830-8470-85b8fbf07a76",
+      "image_url": "https://mobbin.com/api/mcp/short/1qPHhY2P",
+      "position": 3
+    },
+    {
+      "screen_id": "8e8bee67-e0b7-4187-a626-ae2e3bdbb9eb",
+      "image_url": "https://mobbin.com/api/mcp/short/1877ZKpA",
+      "position": 4
+    },
+    {
+      "screen_id": "55171e3f-c462-477b-b92c-843a8fd8c9b2",
+      "image_url": "https://mobbin.com/api/mcp/short/9GivsxkF",
+      "position": 5
+    },
+    {
+      "screen_id": "e6c43687-8de1-4038-927f-ab3d606878cb",
+      "image_url": "https://mobbin.com/api/mcp/short/dL1h36CU",
+      "position": 6
+    },
+    {
+      "screen_id": "54b13b6f-9ddb-40e3-a833-b4bc0433dc0a",
+      "image_url": "https://mobbin.com/api/mcp/short/Xn0Qe7Ga",
+      "position": 7
+    }
+  ]
+}

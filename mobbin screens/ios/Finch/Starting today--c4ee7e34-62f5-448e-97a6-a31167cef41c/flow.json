@@ -1,0 +1,43 @@
+{
+  "id": "c4ee7e34-62f5-448e-97a6-a31167cef41c",
+  "name": "Starting today",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c4ee7e34-62f5-448e-97a6-a31167cef41c",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "69d2434c-2a20-4e29-a62f-3fcd46801368",
+      "image_url": "https://mobbin.com/api/mcp/short/dztIVig4",
+      "position": 1
+    },
+    {
+      "screen_id": "ce3547bb-aec7-4cea-8a74-2997563f2a1d",
+      "image_url": "https://mobbin.com/api/mcp/short/QW68nNWR",
+      "position": 2
+    },
+    {
+      "screen_id": "cbc5f617-cd08-4739-a56d-63525d619ff3",
+      "image_url": "https://mobbin.com/api/mcp/short/aVNvRAST",
+      "position": 3
+    },
+    {
+      "screen_id": "a9313448-4abd-422c-a068-f22b15d8d62f",
+      "image_url": "https://mobbin.com/api/mcp/short/ANv00AKz",
+      "position": 4
+    },
+    {
+      "screen_id": "9c5434c3-6fa3-43bd-bcc2-c46c2e077e25",
+      "image_url": "https://mobbin.com/api/mcp/short/e0TUVVsa",
+      "position": 5
+    },
+    {
+      "screen_id": "18d270f7-7eb4-448f-a928-174b4a7a7aa3",
+      "image_url": "https://mobbin.com/api/mcp/short/0V42229N",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "c75a74fa-801a-44b8-a6ef-67d4e0d3446b",
+  "name": "Password health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c75a74fa-801a-44b8-a6ef-67d4e0d3446b",
+  "app_name": "NordVPN",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "c4df10a9-c231-432e-8c66-c38a88acb9ab",
+      "image_url": "https://mobbin.com/api/mcp/short/dvVYUIVG",
+      "position": 1
+    },
+    {
+      "screen_id": "364fe488-0bb0-4698-ae78-2dd77e7acfa7",
+      "image_url": "https://mobbin.com/api/mcp/short/uaGSMlFA",
+      "position": 2
+    },
+    {
+      "screen_id": "8483f135-df5a-4481-ad2d-30892858953b",
+      "image_url": "https://mobbin.com/api/mcp/short/hoF31jaR",
+      "position": 3
+    }
+  ]
+}

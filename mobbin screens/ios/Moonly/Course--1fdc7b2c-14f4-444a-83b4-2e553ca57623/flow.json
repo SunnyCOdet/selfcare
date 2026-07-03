@@ -1,0 +1,26 @@
+{
+  "id": "1fdc7b2c-14f4-444a-83b4-2e553ca57623",
+  "name": "Course",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1fdc7b2c-14f4-444a-83b4-2e553ca57623",
+  "app_name": "Moonly",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "47c4df26-93b6-40d0-b381-dd1699756bed",
+      "image_url": "https://mobbin.com/api/mcp/short/kXAhaLM1",
+      "position": 1
+    },
+    {
+      "screen_id": "cb8f9584-dac4-4736-8907-c1a084f9287b",
+      "image_url": "https://mobbin.com/api/mcp/short/ikYCxJYe",
+      "position": 2
+    },
+    {
+      "screen_id": "fdd6a4f4-0f6f-4ea9-8230-8145735dfb36",
+      "image_url": "https://mobbin.com/api/mcp/short/LngjGg3d",
+      "position": 3
+    }
+  ]
+}

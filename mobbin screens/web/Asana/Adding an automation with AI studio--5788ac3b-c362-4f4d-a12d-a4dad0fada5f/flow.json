@@ -1,0 +1,91 @@
+{
+  "id": "5788ac3b-c362-4f4d-a12d-a4dad0fada5f",
+  "name": "Adding an automation with AI studio",
+  "actions": [
+    "Adding & Creating",
+    "Browsing Tutorial",
+    "Chatting & Sending Messages",
+    "Showing & Hiding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5788ac3b-c362-4f4d-a12d-a4dad0fada5f",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 15,
+  "screens": [
+    {
+      "screen_id": "327e6aae-77eb-44f8-9132-a060246e483a",
+      "image_url": "https://mobbin.com/api/mcp/short/ZXVq1b9k",
+      "position": 1
+    },
+    {
+      "screen_id": "88e4049f-a2c9-4015-9ebd-0a91410ca522",
+      "image_url": "https://mobbin.com/api/mcp/short/PTAnKn3x",
+      "position": 2
+    },
+    {
+      "screen_id": "1d266e31-57bf-48a2-ae7b-e502977bea4d",
+      "image_url": "https://mobbin.com/api/mcp/short/wOCZaRXt",
+      "position": 3
+    },
+    {
+      "screen_id": "00535874-ce9f-43bc-ba26-2d406cc929b0",
+      "image_url": "https://mobbin.com/api/mcp/short/9Bg9qK6J",
+      "position": 4
+    },
+    {
+      "screen_id": "d2c9effd-2bb4-4507-8810-9835b059c7b8",
+      "image_url": "https://mobbin.com/api/mcp/short/At5sQKvs",
+      "position": 5
+    },
+    {
+      "screen_id": "7a2cdceb-dd37-4cb2-9999-5c57fdd6d48b",
+      "image_url": "https://mobbin.com/api/mcp/short/tm5FW5YP",
+      "position": 6
+    },
+    {
+      "screen_id": "1a5c573c-b196-453d-8477-297034cf86be",
+      "image_url": "https://mobbin.com/api/mcp/short/SkxrjBEL",
+      "position": 7
+    },
+    {
+      "screen_id": "c28147f8-6cac-45d9-9164-f4e87541f03b",
+      "image_url": "https://mobbin.com/api/mcp/short/O0yjCNlm",
+      "position": 8
+    },
+    {
+      "screen_id": "d735c2b2-e566-40c5-a847-c465bdbd3065",
+      "image_url": "https://mobbin.com/api/mcp/short/6vWRxgif",
+      "position": 9
+    },
+    {
+      "screen_id": "82aed9bb-0982-4113-a696-08e55daef0d4",
+      "image_url": "https://mobbin.com/api/mcp/short/HN5YBVXi",
+      "position": 10
+    },
+    {
+      "screen_id": "5765ce77-c10b-4726-8f84-31d261f8e70d",
+      "image_url": "https://mobbin.com/api/mcp/short/DAqBYhZq",
+      "position": 11
+    },
+    {
+      "screen_id": "bcf20b41-d213-4668-ae7c-bd66eaf994da",
+      "image_url": "https://mobbin.com/api/mcp/short/7OSGp5OU",
+      "position": 12
+    },
+    {
+      "screen_id": "18c46eb2-f1bb-4db5-9d3d-0b8677a0a9ab",
+      "image_url": "https://mobbin.com/api/mcp/short/sb3tTEOE",
+      "position": 13
+    },
+    {
+      "screen_id": "b2406480-dd75-423e-9236-c3f71f118944",
+      "image_url": "https://mobbin.com/api/mcp/short/KU7VLYoJ",
+      "position": 14
+    },
+    {
+      "screen_id": "be9a99dd-da9c-46d4-9143-7d8676d41b97",
+      "image_url": "https://mobbin.com/api/mcp/short/ItbY73RR",
+      "position": 15
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3e122bde-8c3a-417e-80d3-6e36e71bd5a3",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3e122bde-8c3a-417e-80d3-6e36e71bd5a3",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "6d776072-04fa-4bbf-86aa-b2df23ebc79d",
+      "image_url": "https://mobbin.com/api/mcp/short/0WGpibAW",
+      "position": 1
+    },
+    {
+      "screen_id": "f4569f22-30e8-4912-ba14-cf168a29cc22",
+      "image_url": "https://mobbin.com/api/mcp/short/4qOROAif",
+      "position": 2
+    }
+  ]
+}

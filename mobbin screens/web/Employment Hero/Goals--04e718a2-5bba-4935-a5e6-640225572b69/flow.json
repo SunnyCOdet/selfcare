@@ -1,0 +1,41 @@
+{
+  "id": "04e718a2-5bba-4935-a5e6-640225572b69",
+  "name": "Goals",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/04e718a2-5bba-4935-a5e6-640225572b69",
+  "app_name": "Employment Hero",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "0ad486a7-4bdc-4cdb-b60f-b38220e6a66d",
+      "image_url": "https://mobbin.com/api/mcp/short/UusQBKpu",
+      "position": 1
+    },
+    {
+      "screen_id": "3af3d4f8-69fe-4f5a-8400-5dbee87940ec",
+      "image_url": "https://mobbin.com/api/mcp/short/vxzaTGyC",
+      "position": 2
+    },
+    {
+      "screen_id": "70708189-3284-45c7-840a-b4b7d0a81f55",
+      "image_url": "https://mobbin.com/api/mcp/short/SLen4sns",
+      "position": 3
+    },
+    {
+      "screen_id": "6401c2df-7527-40bc-8111-77413ac593fa",
+      "image_url": "https://mobbin.com/api/mcp/short/HsK83VxT",
+      "position": 4
+    },
+    {
+      "screen_id": "a5f0a5ab-6d0f-48f3-9965-a9a41ee4644a",
+      "image_url": "https://mobbin.com/api/mcp/short/K1S5t5O3",
+      "position": 5
+    },
+    {
+      "screen_id": "e00c8456-99d3-47d6-a3f4-0dad958d5c98",
+      "image_url": "https://mobbin.com/api/mcp/short/Fwn9VS8W",
+      "position": 6
+    }
+  ]
+}

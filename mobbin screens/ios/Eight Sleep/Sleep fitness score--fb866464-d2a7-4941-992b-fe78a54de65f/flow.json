@@ -1,0 +1,26 @@
+{
+  "id": "fb866464-d2a7-4941-992b-fe78a54de65f",
+  "name": "Sleep fitness score",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/fb866464-d2a7-4941-992b-fe78a54de65f",
+  "app_name": "Eight Sleep",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "ba56a4c8-589a-40e5-80b8-f731d661edc3",
+      "image_url": "https://mobbin.com/api/mcp/short/pGF4Vtxx",
+      "position": 1
+    },
+    {
+      "screen_id": "b8eb07d1-75b4-4f9c-b16a-718d7a43f300",
+      "image_url": "https://mobbin.com/api/mcp/short/b38HlYg3",
+      "position": 2
+    },
+    {
+      "screen_id": "e15194ed-ac3e-474d-a42c-e7105b179c59",
+      "image_url": "https://mobbin.com/api/mcp/short/31LrRcAe",
+      "position": 3
+    }
+  ]
+}

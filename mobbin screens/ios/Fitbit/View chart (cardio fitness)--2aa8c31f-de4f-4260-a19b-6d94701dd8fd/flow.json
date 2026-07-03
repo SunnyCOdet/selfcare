@@ -1,0 +1,31 @@
+{
+  "id": "2aa8c31f-de4f-4260-a19b-6d94701dd8fd",
+  "name": "View chart (cardio fitness) ",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2aa8c31f-de4f-4260-a19b-6d94701dd8fd",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "1dfccc40-55c3-4eca-a25e-45a33be05314",
+      "image_url": "https://mobbin.com/api/mcp/short/CHAhTQaX",
+      "position": 1
+    },
+    {
+      "screen_id": "03647a62-a614-4c46-a8df-bfdc2574af7f",
+      "image_url": "https://mobbin.com/api/mcp/short/hqKS7L2e",
+      "position": 2
+    },
+    {
+      "screen_id": "f6d074cb-280f-4721-9a46-cfa42f484756",
+      "image_url": "https://mobbin.com/api/mcp/short/jXNijlJk",
+      "position": 3
+    },
+    {
+      "screen_id": "0d798096-29ff-476a-96a1-e0bd259a235e",
+      "image_url": "https://mobbin.com/api/mcp/short/qm725ACW",
+      "position": 4
+    }
+  ]
+}

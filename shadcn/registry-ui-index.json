@@ -1,0 +1,376 @@
+{
+  "pagination": {
+    "total": 61,
+    "offset": 0,
+    "limit": 500,
+    "hasMore": false
+  },
+  "items": [
+    {
+      "name": "accordion",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/accordion"
+    },
+    {
+      "name": "alert",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/alert"
+    },
+    {
+      "name": "alert-dialog",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/alert-dialog"
+    },
+    {
+      "name": "aspect-ratio",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/aspect-ratio"
+    },
+    {
+      "name": "avatar",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/avatar"
+    },
+    {
+      "name": "badge",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/badge"
+    },
+    {
+      "name": "breadcrumb",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/breadcrumb"
+    },
+    {
+      "name": "button",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/button"
+    },
+    {
+      "name": "button-group",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/button-group"
+    },
+    {
+      "name": "calendar",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/calendar"
+    },
+    {
+      "name": "card",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/card"
+    },
+    {
+      "name": "carousel",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/carousel"
+    },
+    {
+      "name": "chart",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/chart"
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/checkbox"
+    },
+    {
+      "name": "collapsible",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/collapsible"
+    },
+    {
+      "name": "combobox",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/combobox"
+    },
+    {
+      "name": "command",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/command"
+    },
+    {
+      "name": "context-menu",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/context-menu"
+    },
+    {
+      "name": "dialog",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/dialog"
+    },
+    {
+      "name": "drawer",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/drawer"
+    },
+    {
+      "name": "dropdown-menu",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/dropdown-menu"
+    },
+    {
+      "name": "empty",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/empty"
+    },
+    {
+      "name": "field",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/field"
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/form"
+    },
+    {
+      "name": "hover-card",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/hover-card"
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/input"
+    },
+    {
+      "name": "input-group",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/input-group"
+    },
+    {
+      "name": "input-otp",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/input-otp"
+    },
+    {
+      "name": "item",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/item"
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/label"
+    },
+    {
+      "name": "menubar",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/menubar"
+    },
+    {
+      "name": "navigation-menu",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/navigation-menu"
+    },
+    {
+      "name": "pagination",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/pagination"
+    },
+    {
+      "name": "popover",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/popover"
+    },
+    {
+      "name": "progress",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/progress"
+    },
+    {
+      "name": "radio-group",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/radio-group"
+    },
+    {
+      "name": "resizable",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/resizable"
+    },
+    {
+      "name": "scroll-area",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/scroll-area"
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/select"
+    },
+    {
+      "name": "separator",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/separator"
+    },
+    {
+      "name": "sheet",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/sheet"
+    },
+    {
+      "name": "sidebar",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/sidebar"
+    },
+    {
+      "name": "skeleton",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/skeleton"
+    },
+    {
+      "name": "slider",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/slider"
+    },
+    {
+      "name": "sonner",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/sonner"
+    },
+    {
+      "name": "spinner",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/spinner"
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/switch"
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/table"
+    },
+    {
+      "name": "tabs",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/tabs"
+    },
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/textarea"
+    },
+    {
+      "name": "toggle",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/toggle"
+    },
+    {
+      "name": "toggle-group",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/toggle-group"
+    },
+    {
+      "name": "tooltip",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/tooltip"
+    },
+    {
+      "name": "kbd",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/kbd"
+    },
+    {
+      "name": "native-select",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/native-select"
+    },
+    {
+      "name": "direction",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/direction"
+    },
+    {
+      "name": "attachment",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/attachment"
+    },
+    {
+      "name": "bubble",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/bubble"
+    },
+    {
+      "name": "marker",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/marker"
+    },
+    {
+      "name": "message",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/message"
+    },
+    {
+      "name": "message-scroller",
+      "type": "registry:ui",
+      "registry": "@shadcn",
+      "addCommandArgument": "@shadcn/message-scroller"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cc0d7abe-bdca-4619-8d7f-f20a547a9eee",
+  "name": "Plans",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/cc0d7abe-bdca-4619-8d7f-f20a547a9eee",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d5384da7-036e-4ed6-94d6-36e5a35a2f8a",
+      "image_url": "https://mobbin.com/api/mcp/short/MlJo7Y7z",
+      "position": 1
+    },
+    {
+      "screen_id": "b0545b97-0f7d-4cb8-bb37-5333b20b0ba8",
+      "image_url": "https://mobbin.com/api/mcp/short/chJqlPFy",
+      "position": 2
+    },
+    {
+      "screen_id": "28e6c74a-8015-4c3d-a057-e445307fadcb",
+      "image_url": "https://mobbin.com/api/mcp/short/T0lTr9iS",
+      "position": 3
+    },
+    {
+      "screen_id": "85eb9b76-4e02-4cb0-9915-e2d7c64bf17d",
+      "image_url": "https://mobbin.com/api/mcp/short/g7LX3SFC",
+      "position": 4
+    }
+  ]
+}

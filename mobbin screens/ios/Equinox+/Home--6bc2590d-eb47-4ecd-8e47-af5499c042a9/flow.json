@@ -1,0 +1,36 @@
+{
+  "id": "6bc2590d-eb47-4ecd-8e47-af5499c042a9",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6bc2590d-eb47-4ecd-8e47-af5499c042a9",
+  "app_name": "Equinox+",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "62f1b6ae-54a1-456c-b825-74eaa50d1651",
+      "image_url": "https://mobbin.com/api/mcp/short/Il9J8wEN",
+      "position": 1
+    },
+    {
+      "screen_id": "a11854df-7179-446b-9270-5a1522914279",
+      "image_url": "https://mobbin.com/api/mcp/short/OSLy9iuB",
+      "position": 2
+    },
+    {
+      "screen_id": "d02f6689-84a9-4dbf-9c07-25627d6a816b",
+      "image_url": "https://mobbin.com/api/mcp/short/m4SK479B",
+      "position": 3
+    },
+    {
+      "screen_id": "30c5322b-8cbe-4ba9-9dc0-8537b0e605a2",
+      "image_url": "https://mobbin.com/api/mcp/short/VV4zmW0A",
+      "position": 4
+    },
+    {
+      "screen_id": "fee9311a-eeed-43cc-844e-16f767fc4adc",
+      "image_url": "https://mobbin.com/api/mcp/short/P8Eb1YjD",
+      "position": 5
+    }
+  ]
+}

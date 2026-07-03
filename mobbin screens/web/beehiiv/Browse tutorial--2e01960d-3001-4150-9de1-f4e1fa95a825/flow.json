@@ -1,0 +1,36 @@
+{
+  "id": "2e01960d-3001-4150-9de1-f4e1fa95a825",
+  "name": "Browse tutorial",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2e01960d-3001-4150-9de1-f4e1fa95a825",
+  "app_name": "beehiiv",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "f4a9c9c6-4b50-4586-9c66-41c477d055c3",
+      "image_url": "https://mobbin.com/api/mcp/short/Kn43hqzy",
+      "position": 1
+    },
+    {
+      "screen_id": "d09d08c7-3985-4874-9fb6-dcdc7c3ba8ab",
+      "image_url": "https://mobbin.com/api/mcp/short/HCQPLU3F",
+      "position": 2
+    },
+    {
+      "screen_id": "9c376c4a-b56f-4b42-9044-e9a7b8274cc4",
+      "image_url": "https://mobbin.com/api/mcp/short/OSEQvlmZ",
+      "position": 3
+    },
+    {
+      "screen_id": "694bf01e-b1ce-4aaf-ba2b-8e851592adf0",
+      "image_url": "https://mobbin.com/api/mcp/short/pKwWLdPm",
+      "position": 4
+    },
+    {
+      "screen_id": "09ca6292-ce2b-40ee-8844-d579b6a67ccd",
+      "image_url": "https://mobbin.com/api/mcp/short/VHwBArc4",
+      "position": 5
+    }
+  ]
+}

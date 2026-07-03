@@ -1,0 +1,31 @@
+{
+  "id": "df6be665-41af-423a-a82e-ebec4d209c39",
+  "name": "Menstrual health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/df6be665-41af-423a-a82e-ebec4d209c39",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f3dc86ea-ddb8-4129-9f86-01b1af6a6d30",
+      "image_url": "https://mobbin.com/api/mcp/short/ldlIrCE9",
+      "position": 1
+    },
+    {
+      "screen_id": "3a28a825-c933-4cb6-b0d3-e5188111b8e4",
+      "image_url": "https://mobbin.com/api/mcp/short/yfTfV7Pd",
+      "position": 2
+    },
+    {
+      "screen_id": "d4ad087c-ce97-43c1-aab1-54ec720b50be",
+      "image_url": "https://mobbin.com/api/mcp/short/7O9chwMh",
+      "position": 3
+    },
+    {
+      "screen_id": "eb2d9436-e512-4f55-80f5-f6f3d9670534",
+      "image_url": "https://mobbin.com/api/mcp/short/XKMOVcn2",
+      "position": 4
+    }
+  ]
+}

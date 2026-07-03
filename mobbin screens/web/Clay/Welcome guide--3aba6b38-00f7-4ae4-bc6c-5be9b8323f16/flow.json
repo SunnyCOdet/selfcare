@@ -1,0 +1,36 @@
+{
+  "id": "3aba6b38-00f7-4ae4-bc6c-5be9b8323f16",
+  "name": "Welcome guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3aba6b38-00f7-4ae4-bc6c-5be9b8323f16",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "6d10618c-7bcb-4849-b580-db0367a20ef7",
+      "image_url": "https://mobbin.com/api/mcp/short/wcVPTTkk",
+      "position": 1
+    },
+    {
+      "screen_id": "0322e9f9-4154-4903-b790-86f3012d44b3",
+      "image_url": "https://mobbin.com/api/mcp/short/0IsFqU29",
+      "position": 2
+    },
+    {
+      "screen_id": "0b24de44-593d-48cc-b5cb-5f12b5bcc064",
+      "image_url": "https://mobbin.com/api/mcp/short/sO52VwS8",
+      "position": 3
+    },
+    {
+      "screen_id": "9a073040-d58c-4bd4-be56-fe2951d1d196",
+      "image_url": "https://mobbin.com/api/mcp/short/VSAMKTEc",
+      "position": 4
+    },
+    {
+      "screen_id": "7d479215-f428-4c08-b864-7d0f5bce731b",
+      "image_url": "https://mobbin.com/api/mcp/short/q3JdNVVq",
+      "position": 5
+    }
+  ]
+}

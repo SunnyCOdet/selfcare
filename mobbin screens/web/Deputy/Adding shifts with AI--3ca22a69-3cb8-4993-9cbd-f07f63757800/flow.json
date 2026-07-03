@@ -1,0 +1,38 @@
+{
+  "id": "3ca22a69-3cb8-4993-9cbd-f07f63757800",
+  "name": "Adding shifts with AI",
+  "actions": [
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3ca22a69-3cb8-4993-9cbd-f07f63757800",
+  "app_name": "Deputy",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "d653e9fc-79e5-4a3f-90e6-1e2b6a22adf5",
+      "image_url": "https://mobbin.com/api/mcp/short/oKHmwH3p",
+      "position": 1
+    },
+    {
+      "screen_id": "eb818006-595c-42a4-8ddc-679cc9bf4966",
+      "image_url": "https://mobbin.com/api/mcp/short/kGTNHaiU",
+      "position": 2
+    },
+    {
+      "screen_id": "9a0517eb-1c2f-44b5-a6ef-748061edca55",
+      "image_url": "https://mobbin.com/api/mcp/short/6j3k5pmx",
+      "position": 3
+    },
+    {
+      "screen_id": "f543d122-0a2a-442e-9f9f-f5a3654499d9",
+      "image_url": "https://mobbin.com/api/mcp/short/XguqTOsL",
+      "position": 4
+    },
+    {
+      "screen_id": "dd847f00-ecbc-4214-87cf-d4ff32a346c4",
+      "image_url": "https://mobbin.com/api/mcp/short/GIjJ0mkz",
+      "position": 5
+    }
+  ]
+}

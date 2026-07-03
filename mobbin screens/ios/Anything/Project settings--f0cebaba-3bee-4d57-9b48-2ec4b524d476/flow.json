@@ -1,0 +1,26 @@
+{
+  "id": "f0cebaba-3bee-4d57-9b48-2ec4b524d476",
+  "name": "Project settings",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f0cebaba-3bee-4d57-9b48-2ec4b524d476",
+  "app_name": "Anything",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5d0e3b4b-a4a5-4e4d-b969-7577157db613",
+      "image_url": "https://mobbin.com/api/mcp/short/w6fIb2V1",
+      "position": 1
+    },
+    {
+      "screen_id": "d7336f0d-6715-4091-b758-e34ff5f09da4",
+      "image_url": "https://mobbin.com/api/mcp/short/71EcWiBZ",
+      "position": 2
+    },
+    {
+      "screen_id": "62831f19-2adf-4c44-894b-5d41db76ff6c",
+      "image_url": "https://mobbin.com/api/mcp/short/RAB6jhOm",
+      "position": 3
+    }
+  ]
+}

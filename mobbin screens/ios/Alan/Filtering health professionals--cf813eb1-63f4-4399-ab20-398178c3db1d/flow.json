@@ -1,0 +1,33 @@
+{
+  "id": "cf813eb1-63f4-4399-ab20-398178c3db1d",
+  "name": "Filtering health professionals",
+  "actions": [
+    "Filtering & Sorting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cf813eb1-63f4-4399-ab20-398178c3db1d",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0663b536-de45-4cef-921c-a5f350346a1e",
+      "image_url": "https://mobbin.com/api/mcp/short/b61MooU5",
+      "position": 1
+    },
+    {
+      "screen_id": "529a1fee-673a-4d9c-871d-528b1822fd13",
+      "image_url": "https://mobbin.com/api/mcp/short/bE5wTRiU",
+      "position": 2
+    },
+    {
+      "screen_id": "956aa17b-04f1-4729-b3f2-5c210ad1ba6d",
+      "image_url": "https://mobbin.com/api/mcp/short/SZlzZbMy",
+      "position": 3
+    },
+    {
+      "screen_id": "9de1f7b0-f09c-4963-8b09-b8659fa6383d",
+      "image_url": "https://mobbin.com/api/mcp/short/m24vpoAB",
+      "position": 4
+    }
+  ]
+}

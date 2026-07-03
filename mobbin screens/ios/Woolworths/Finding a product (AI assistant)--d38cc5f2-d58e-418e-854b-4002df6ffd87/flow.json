@@ -1,0 +1,39 @@
+{
+  "id": "d38cc5f2-d58e-418e-854b-4002df6ffd87",
+  "name": "Finding a product (AI assistant)",
+  "actions": [
+    "Recording Audio & Video",
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d38cc5f2-d58e-418e-854b-4002df6ffd87",
+  "app_name": "Woolworths",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "e770f9cf-9785-415b-9e58-374391845c0f",
+      "image_url": "https://mobbin.com/api/mcp/short/ZWMPJ1XP",
+      "position": 1
+    },
+    {
+      "screen_id": "e5659508-0151-4ad1-8e86-4507841dedf8",
+      "image_url": "https://mobbin.com/api/mcp/short/LVQuOUnn",
+      "position": 2
+    },
+    {
+      "screen_id": "c4c4bfda-004c-4c07-a0ff-70847638caac",
+      "image_url": "https://mobbin.com/api/mcp/short/W8huDibT",
+      "position": 3
+    },
+    {
+      "screen_id": "8c560883-49ac-4f7e-842d-874876e7e7e7",
+      "image_url": "https://mobbin.com/api/mcp/short/oXMbKKG2",
+      "position": 4
+    },
+    {
+      "screen_id": "7d59d3e7-e511-4171-839d-ec3119218093",
+      "image_url": "https://mobbin.com/api/mcp/short/1aile5xw",
+      "position": 5
+    }
+  ]
+}

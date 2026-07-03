@@ -1,0 +1,21 @@
+{
+  "id": "f7b6036f-6105-4bf8-a40a-ab1858e3e2d2",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f7b6036f-6105-4bf8-a40a-ab1858e3e2d2",
+  "app_name": "Brilliant",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "d7b78a30-c1b5-4024-9fc3-e84228de7244",
+      "image_url": "https://mobbin.com/api/mcp/short/m9RsgaPe",
+      "position": 1
+    },
+    {
+      "screen_id": "69ca0993-5784-44b6-b0c2-de41614a91fb",
+      "image_url": "https://mobbin.com/api/mcp/short/SD0F7neY",
+      "position": 2
+    }
+  ]
+}

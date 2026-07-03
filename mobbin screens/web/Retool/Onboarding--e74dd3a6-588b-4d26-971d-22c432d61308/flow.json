@@ -1,0 +1,59 @@
+{
+  "id": "e74dd3a6-588b-4d26-971d-22c432d61308",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e74dd3a6-588b-4d26-971d-22c432d61308",
+  "app_name": "Retool",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "8762e5b6-29fe-4430-bd10-8aa2a09467d2",
+      "image_url": "https://mobbin.com/api/mcp/short/k9mxrqpn",
+      "position": 1
+    },
+    {
+      "screen_id": "d55b1ffa-fdde-406f-8f65-580f6b3cbd47",
+      "image_url": "https://mobbin.com/api/mcp/short/hS4oLhiy",
+      "position": 2
+    },
+    {
+      "screen_id": "e409eb6f-64ae-4504-bb81-01cadd434ef5",
+      "image_url": "https://mobbin.com/api/mcp/short/APIzWaYj",
+      "position": 3
+    },
+    {
+      "screen_id": "1ca8a686-0b22-4632-afee-601f6b479e28",
+      "image_url": "https://mobbin.com/api/mcp/short/zHR8U2oz",
+      "position": 4
+    },
+    {
+      "screen_id": "8034a0e4-ff6e-461d-9986-e747a5f86ebb",
+      "image_url": "https://mobbin.com/api/mcp/short/oxdCYX71",
+      "position": 5
+    },
+    {
+      "screen_id": "3276ff57-0dbb-40e6-8d0f-610175dedbca",
+      "image_url": "https://mobbin.com/api/mcp/short/6Ju5pEUh",
+      "position": 6
+    },
+    {
+      "screen_id": "ce67bce9-7ba9-40a2-a232-91b4837f1d47",
+      "image_url": "https://mobbin.com/api/mcp/short/ldtJDfqh",
+      "position": 7
+    },
+    {
+      "screen_id": "9720856c-ac81-4e32-8615-bdefe1e77a4c",
+      "image_url": "https://mobbin.com/api/mcp/short/3MyjzWe1",
+      "position": 8
+    },
+    {
+      "screen_id": "7df78b22-1e1b-4ab6-91c4-5fe651adfb74",
+      "image_url": "https://mobbin.com/api/mcp/short/PiAMULSh",
+      "position": 9
+    }
+  ]
+}

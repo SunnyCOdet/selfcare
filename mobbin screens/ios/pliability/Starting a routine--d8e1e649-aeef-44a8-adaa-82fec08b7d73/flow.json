@@ -1,0 +1,34 @@
+{
+  "id": "d8e1e649-aeef-44a8-adaa-82fec08b7d73",
+  "name": "Starting a routine",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d8e1e649-aeef-44a8-adaa-82fec08b7d73",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f4f639f6-6068-4d4c-94c5-f08f9271053b",
+      "image_url": "https://mobbin.com/api/mcp/short/ACfoa0hL",
+      "position": 1
+    },
+    {
+      "screen_id": "d89105cc-f508-420a-8d5d-dff13f1e85f2",
+      "image_url": "https://mobbin.com/api/mcp/short/6pm1jKbO",
+      "position": 2
+    },
+    {
+      "screen_id": "3a930faa-fcc6-4ac9-883f-46899d1d5e23",
+      "image_url": "https://mobbin.com/api/mcp/short/2wpfpf4G",
+      "position": 3
+    },
+    {
+      "screen_id": "9c0ec725-6d52-4df7-9e3d-9b0eaad6a7fa",
+      "image_url": "https://mobbin.com/api/mcp/short/zWefc071",
+      "position": 4
+    }
+  ]
+}

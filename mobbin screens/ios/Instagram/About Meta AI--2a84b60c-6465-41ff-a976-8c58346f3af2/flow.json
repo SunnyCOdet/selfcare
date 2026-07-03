@@ -1,0 +1,21 @@
+{
+  "id": "2a84b60c-6465-41ff-a976-8c58346f3af2",
+  "name": "About Meta AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2a84b60c-6465-41ff-a976-8c58346f3af2",
+  "app_name": "Instagram",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "a0459f93-6147-46a4-a130-fe10380f1752",
+      "image_url": "https://mobbin.com/api/mcp/short/cLSxTf9w",
+      "position": 1
+    },
+    {
+      "screen_id": "cae5feb0-1986-441e-b8b2-704694476653",
+      "image_url": "https://mobbin.com/api/mcp/short/sZlModfZ",
+      "position": 2
+    }
+  ]
+}

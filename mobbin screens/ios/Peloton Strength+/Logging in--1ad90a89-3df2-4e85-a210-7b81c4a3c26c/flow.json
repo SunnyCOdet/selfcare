@@ -1,0 +1,33 @@
+{
+  "id": "1ad90a89-3df2-4e85-a210-7b81c4a3c26c",
+  "name": "Logging in",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1ad90a89-3df2-4e85-a210-7b81c4a3c26c",
+  "app_name": "Peloton Strength+",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "a1d3c9fc-cebd-4d24-a949-6ea64872729d",
+      "image_url": "https://mobbin.com/api/mcp/short/zY5BbucO",
+      "position": 1
+    },
+    {
+      "screen_id": "3fc66f91-e8bc-421e-8a6a-fc2c4745f7bb",
+      "image_url": "https://mobbin.com/api/mcp/short/fpzBiDmK",
+      "position": 2
+    },
+    {
+      "screen_id": "101f3dfc-d586-4679-8ef4-c30394ff6d64",
+      "image_url": "https://mobbin.com/api/mcp/short/TQlfW0KZ",
+      "position": 3
+    },
+    {
+      "screen_id": "e6d580a0-9844-40fc-89c0-d7026da92cf9",
+      "image_url": "https://mobbin.com/api/mcp/short/SPM1ZAaF",
+      "position": 4
+    }
+  ]
+}

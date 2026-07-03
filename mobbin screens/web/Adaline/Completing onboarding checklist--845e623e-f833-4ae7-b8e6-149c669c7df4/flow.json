@@ -1,0 +1,28 @@
+{
+  "id": "845e623e-f833-4ae7-b8e6-149c669c7df4",
+  "name": "Completing onboarding checklist",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/845e623e-f833-4ae7-b8e6-149c669c7df4",
+  "app_name": "Adaline",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "8ad4a415-bff7-4350-91af-75519784b729",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHom7scY",
+      "position": 1
+    },
+    {
+      "screen_id": "3ca5830c-fb17-4f03-a509-14674a3b6792",
+      "image_url": "https://mobbin.com/api/mcp/short/2ohFH3np",
+      "position": 2
+    },
+    {
+      "screen_id": "bb39ed29-a03c-4516-9951-420e326da441",
+      "image_url": "https://mobbin.com/api/mcp/short/8XsM3A5T",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "a5b8735b-03b9-4a65-ae19-72fc4dc0185b",
+  "name": "Learn & explore",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a5b8735b-03b9-4a65-ae19-72fc4dc0185b",
+  "app_name": "Meta AI",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "087c1f1e-7589-4a87-8221-28571a86fbea",
+      "image_url": "https://mobbin.com/api/mcp/short/0kYRhbGd",
+      "position": 1
+    },
+    {
+      "screen_id": "7927dbe3-c985-4530-9d1b-92f6992a455f",
+      "image_url": "https://mobbin.com/api/mcp/short/XoNcYzvS",
+      "position": 2
+    },
+    {
+      "screen_id": "777459e4-b0a0-4a53-9c84-375984174cea",
+      "image_url": "https://mobbin.com/api/mcp/short/Eel8snYp",
+      "position": 3
+    },
+    {
+      "screen_id": "6e40e5e2-89b1-4e61-8c08-05bfd9abfb08",
+      "image_url": "https://mobbin.com/api/mcp/short/2IbAJ6iJ",
+      "position": 4
+    },
+    {
+      "screen_id": "f737e423-ef14-42bb-88f0-eebcd8420adc",
+      "image_url": "https://mobbin.com/api/mcp/short/4VhBf4gn",
+      "position": 5
+    }
+  ]
+}

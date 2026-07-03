@@ -1,0 +1,33 @@
+{
+  "id": "5ea38664-0a6d-4782-86bf-94f3bbed21b8",
+  "name": "Starting a workout",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5ea38664-0a6d-4782-86bf-94f3bbed21b8",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "256c0697-483c-4092-b874-341f81df67a6",
+      "image_url": "https://mobbin.com/api/mcp/short/cpZyBNij",
+      "position": 1
+    },
+    {
+      "screen_id": "a30cfb57-673d-456e-949f-b961f860a28e",
+      "image_url": "https://mobbin.com/api/mcp/short/dUNDF7mC",
+      "position": 2
+    },
+    {
+      "screen_id": "98825f05-8bf1-43d9-b95d-c76064b624c4",
+      "image_url": "https://mobbin.com/api/mcp/short/tpif36q3",
+      "position": 3
+    },
+    {
+      "screen_id": "2b3881c8-4aef-45b2-998f-3e3930f84a85",
+      "image_url": "https://mobbin.com/api/mcp/short/VFJ8Kvyq",
+      "position": 4
+    }
+  ]
+}

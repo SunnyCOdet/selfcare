@@ -1,0 +1,26 @@
+{
+  "id": "23062543-d992-4fc8-a63c-c77453dc5b3b",
+  "name": "Personalization",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/23062543-d992-4fc8-a63c-c77453dc5b3b",
+  "app_name": "Bump",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0556fb3a-2723-4cf4-b64a-b3899c316d2d",
+      "image_url": "https://mobbin.com/api/mcp/short/pVYIJyWV",
+      "position": 1
+    },
+    {
+      "screen_id": "f5c63a81-970b-458d-8cca-78cb4b8ff044",
+      "image_url": "https://mobbin.com/api/mcp/short/5ITNtAo6",
+      "position": 2
+    },
+    {
+      "screen_id": "49fd5e64-6a44-45d9-9454-489860c2f68c",
+      "image_url": "https://mobbin.com/api/mcp/short/R2xle6WS",
+      "position": 3
+    }
+  ]
+}

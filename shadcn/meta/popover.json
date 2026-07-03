@@ -1,0 +1,16 @@
+{
+  "name": "popover",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/popover.tsx",
+      "extractedTo": "ui/popover.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

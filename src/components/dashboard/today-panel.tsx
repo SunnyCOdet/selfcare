@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState, useSyncExternalStore } from "react";
 import { createClient } from "@/lib/supabase/client";
 import { updateStreak } from "@/lib/streak";
 import type { DailyCheckin, TransformationPlan } from "@/lib/types";
@@ -9,11 +9,11 @@ import { Footprints, Check, Droplets, Moon, Scale, Loader2, RefreshCw, ChevronDo
 /** Name your iOS Shortcut exactly this for the one-tap sync button. */
 const SHORTCUT_NAME = "Ascend Sync";
 
-const MOODS = ["🔥 Unstoppable", "😊 Good", "😐 Okay", "😮‍💨 Tired", "😞 Rough"];
+const MOODS = ["Unstoppable", "Good", "Okay", "Tired", "Rough"];
 
 /**
  * Apple Health-style hourly breakdown. Snapshots are cumulative day totals
- * keyed by IST hour ("06" → 3500), so per-hour steps are the diffs between
+ * keyed by IST hour ("06" -> 3500), so per-hour steps are the diffs between
  * consecutive snapshots.
  */
 function HourlyBars({ hourly }: { hourly: Record<string, number> }) {
@@ -103,20 +103,13 @@ export function TodayPanel({
   const [saving, setSaving] = useState(false);
   const [savedAt, setSavedAt] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [isIos, setIsIos] = useState(false);
-
-  useEffect(() => {
-    setIsIos(/iPhone|iPad|iPod/i.test(navigator.userAgent));
-  }, []);
-
-  // When a phone sync lands and the page refreshes, adopt the fresher server
-  // value (unless the user typed a bigger number locally).
-  useEffect(() => {
-    const serverSteps = initialCheckin?.steps ?? 0;
-    if (serverSteps > 0) {
-      setSteps((cur) => Math.max(cur, serverSteps));
-    }
-  }, [initialCheckin?.steps]);
+  const isIos = useSyncExternalStore(
+    () => () => {},
+    () => /iPhone|iPad|iPod/i.test(navigator.userAgent),
+    () => false
+  );
+  const serverSteps = initialCheckin?.steps ?? 0;
+  const effectiveSteps = Math.max(steps, serverSteps);
 
   function runSyncShortcut() {
     const back = encodeURIComponent(window.location.href);
@@ -128,7 +121,7 @@ export function TodayPanel({
   const hourlySteps = initialCheckin?.health?.hourly_steps ?? null;
 
   function isTaskDone(task: string, i: number): boolean {
-    if (i === stepsTaskIndex) return steps >= stepsTarget;
+    if (i === stepsTaskIndex) return effectiveSteps >= stepsTarget;
     return !!tasks[task];
   }
 
@@ -139,7 +132,7 @@ export function TodayPanel({
   async function save(overrides?: Partial<{ steps: number; tasks: Record<string, boolean> }>) {
     setSaving(true);
     setError(null);
-    const effSteps = overrides?.steps ?? steps;
+    const effSteps = overrides?.steps ?? effectiveSteps;
     const effTasks = overrides?.tasks ?? tasks;
     const effDone = nonNegotiables.filter((t, i) =>
       i === stepsTaskIndex ? effSteps >= stepsTarget : !!effTasks[t]
@@ -190,7 +183,7 @@ export function TodayPanel({
 
   return (
     <div className="space-y-6">
-      {/* Activity hero — Apple Fitness style ring */}
+      {/* Activity hero - Apple Fitness style ring */}
       <div className="glass p-5 md:p-6 fade-up flex items-center gap-5 md:gap-7">
         <div className="relative w-32 h-32 md:w-36 md:h-36 shrink-0">
           <svg viewBox="0 0 100 100" className="w-full h-full -rotate-90">
@@ -204,7 +197,7 @@ export function TodayPanel({
               strokeWidth="9"
               strokeLinecap="round"
               strokeDasharray={ring}
-              strokeDashoffset={ring - (ring * Math.min(100, (steps / stepsTarget) * 100)) / 100}
+              strokeDashoffset={ring - (ring * Math.min(100, (effectiveSteps / stepsTarget) * 100)) / 100}
               className="transition-all duration-700"
               style={{ filter: "drop-shadow(0 0 6px rgba(250,45,108,0.5))" }}
             />
@@ -218,7 +211,7 @@ export function TodayPanel({
           <div className="absolute inset-0 flex flex-col items-center justify-center">
             <Footprints className="w-4 h-4 text-move mb-0.5" />
             <span className="text-xl md:text-2xl font-extrabold tracking-tight leading-none">
-              {Math.round((steps / stepsTarget) * 100)}%
+              {Math.round((effectiveSteps / stepsTarget) * 100)}%
             </span>
             <span className="text-[9px] text-muted uppercase tracking-widest mt-0.5">steps</span>
           </div>
@@ -226,10 +219,10 @@ export function TodayPanel({
 
         <div className="flex-1 min-w-0">
           <h2 className="text-[11px] font-semibold uppercase tracking-widest text-muted mb-1">
-            Move — non-negotiable
+            Move - non-negotiable
           </h2>
           <p className="text-3xl md:text-4xl font-extrabold tracking-tight text-move leading-none">
-            {steps.toLocaleString()}
+            {effectiveSteps.toLocaleString()}
           </p>
           <p className="text-sm text-muted mt-1">/ {stepsTarget.toLocaleString()} steps</p>
           <p className="text-xs mt-1.5">
@@ -297,7 +290,7 @@ export function TodayPanel({
                 </span>
                 <span className={`text-sm ${done ? "line-through text-muted" : ""}`}>{task}</span>
                 {isSteps && !done && (
-                  <span className="ml-auto text-xs text-muted shrink-0">auto — hit {stepsTarget.toLocaleString()}</span>
+                  <span className="ml-auto text-xs text-muted shrink-0">auto - hit {stepsTarget.toLocaleString()}</span>
                 )}
               </button>
             );
@@ -347,11 +340,11 @@ export function TodayPanel({
         )}
       </div>
 
-      {/* Metrics — collapsed by default to keep the screen calm */}
+      {/* Metrics - collapsed by default to keep the screen calm */}
       <details className="glass fade-up group" style={{ animationDelay: "0.1s" }}>
         <summary className="list-none cursor-pointer p-5 md:p-6 flex items-center justify-between">
           <h3 className="text-[11px] font-semibold uppercase tracking-widest text-muted">
-            Log water · sleep · weight · mood
+            Log water / sleep / weight / mood
           </h3>
           <ChevronDown className="w-4 h-4 text-muted transition-transform group-open:rotate-180" />
         </summary>
@@ -363,7 +356,7 @@ export function TodayPanel({
             </label>
             <div className="flex items-center gap-2">
               <button onClick={() => setWater((w) => Math.max(0, Math.round((w - 0.5) * 10) / 10))} className="btn-ghost !p-2 !px-3.5 text-sm">
-                −
+                -
               </button>
               <span className="font-semibold min-w-12 text-center">{water}L</span>
               <button onClick={() => setWater((w) => Math.round((w + 0.5) * 10) / 10)} className="btn-ghost !p-2 !px-3.5 text-sm">
@@ -401,7 +394,7 @@ export function TodayPanel({
             {saving ? <Loader2 className="w-4 h-4 animate-spin" /> : <Check className="w-4 h-4" />}
             Save check-in
           </button>
-          {savedAt && !saving && <span className="text-xs text-success">Saved at {savedAt} ✓</span>}
+          {savedAt && !saving && <span className="text-xs text-success">Saved at {savedAt}</span>}
           {error && <span className="text-xs text-red-400">{error}</span>}
         </div>
         </div>

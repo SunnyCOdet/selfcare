@@ -1,0 +1,26 @@
+{
+  "id": "3ca09d01-90e6-4903-9a72-cb16b7d61d4c",
+  "name": "Health checklist",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3ca09d01-90e6-4903-9a72-cb16b7d61d4c",
+  "app_name": "Apple Health",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "97104df5-f817-4e56-80a0-0c46eee67e06",
+      "image_url": "https://mobbin.com/api/mcp/short/VwamtxTM",
+      "position": 1
+    },
+    {
+      "screen_id": "0420e040-cdba-419e-a764-21d85beffdd5",
+      "image_url": "https://mobbin.com/api/mcp/short/g6TfdHAR",
+      "position": 2
+    },
+    {
+      "screen_id": "f66b5333-abee-485e-9945-d09f75fc84e8",
+      "image_url": "https://mobbin.com/api/mcp/short/aB9rGLMe",
+      "position": 3
+    }
+  ]
+}

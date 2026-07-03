@@ -1,0 +1,38 @@
+{
+  "id": "938a3741-4b1e-403d-9872-30b4b6a40ac8",
+  "name": "Chatting with AI (page)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/938a3741-4b1e-403d-9872-30b4b6a40ac8",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "042e5a4e-5020-4d8a-9881-2cf392a725cd",
+      "image_url": "https://mobbin.com/api/mcp/short/3qOFTrsK",
+      "position": 1
+    },
+    {
+      "screen_id": "a2f2432c-3e0f-4c82-a191-b24b3cfb88cb",
+      "image_url": "https://mobbin.com/api/mcp/short/jDtQslTQ",
+      "position": 2
+    },
+    {
+      "screen_id": "fa353249-a50d-499c-9c72-ffc28f1bd0f0",
+      "image_url": "https://mobbin.com/api/mcp/short/NPdghWkY",
+      "position": 3
+    },
+    {
+      "screen_id": "7e25606f-869e-4867-8400-cfac83d7e1b1",
+      "image_url": "https://mobbin.com/api/mcp/short/QG6XcyR5",
+      "position": 4
+    },
+    {
+      "screen_id": "2d0fd0b0-b97a-40ec-ae1d-ec8d9141b49c",
+      "image_url": "https://mobbin.com/api/mcp/short/FEBoZclF",
+      "position": 5
+    }
+  ]
+}

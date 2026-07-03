@@ -1,0 +1,38 @@
+{
+  "id": "254e60f3-a41c-4997-a814-180dceba2977",
+  "name": "Adding a quitting reason",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/254e60f3-a41c-4997-a814-180dceba2977",
+  "app_name": "QUITTR",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ef5c4c0a-c143-444b-900b-ff23d07b3e50",
+      "image_url": "https://mobbin.com/api/mcp/short/68hH8Bzp",
+      "position": 1
+    },
+    {
+      "screen_id": "d0d324f9-7b74-4774-9df8-b245b8e841e3",
+      "image_url": "https://mobbin.com/api/mcp/short/YehgUu6F",
+      "position": 2
+    },
+    {
+      "screen_id": "ebc17b32-f613-43d1-9b84-7d622ba585a3",
+      "image_url": "https://mobbin.com/api/mcp/short/4fUyzUH1",
+      "position": 3
+    },
+    {
+      "screen_id": "f3798ddb-b34e-470a-8056-9d6269066c73",
+      "image_url": "https://mobbin.com/api/mcp/short/Hys6boHh",
+      "position": 4
+    },
+    {
+      "screen_id": "8fd668b4-0c8f-431a-88ff-17d897c49616",
+      "image_url": "https://mobbin.com/api/mcp/short/f7gD2Z0L",
+      "position": 5
+    }
+  ]
+}

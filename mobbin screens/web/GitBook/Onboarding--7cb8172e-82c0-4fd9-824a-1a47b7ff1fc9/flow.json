@@ -1,0 +1,54 @@
+{
+  "id": "7cb8172e-82c0-4fd9-824a-1a47b7ff1fc9",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7cb8172e-82c0-4fd9-824a-1a47b7ff1fc9",
+  "app_name": "GitBook",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "67765a57-fa20-461d-aa20-65ad9cdcb25d",
+      "image_url": "https://mobbin.com/api/mcp/short/WjphDW4U",
+      "position": 1
+    },
+    {
+      "screen_id": "41a80fc2-a24e-4840-9fcb-5c7f8e5f8b13",
+      "image_url": "https://mobbin.com/api/mcp/short/7q6aPVtB",
+      "position": 2
+    },
+    {
+      "screen_id": "5482ea34-02a0-41d9-9049-7a15beb82d9c",
+      "image_url": "https://mobbin.com/api/mcp/short/BZOr5gjG",
+      "position": 3
+    },
+    {
+      "screen_id": "6f1be885-3489-4642-953d-5f8b8b88f002",
+      "image_url": "https://mobbin.com/api/mcp/short/MrGq2w8n",
+      "position": 4
+    },
+    {
+      "screen_id": "bca9e12b-4d9a-4d9d-a0dc-1261a78e2631",
+      "image_url": "https://mobbin.com/api/mcp/short/WOdO1W2r",
+      "position": 5
+    },
+    {
+      "screen_id": "1e0fc6a3-7811-4cfc-909e-e4108c4d6f14",
+      "image_url": "https://mobbin.com/api/mcp/short/CexaDYiv",
+      "position": 6
+    },
+    {
+      "screen_id": "5271f11a-38fb-44bb-93e6-31c6cb3e4afe",
+      "image_url": "https://mobbin.com/api/mcp/short/bQhbjGgl",
+      "position": 7
+    },
+    {
+      "screen_id": "ff46c4ca-7d77-413c-9f0a-92ca4f72c6fa",
+      "image_url": "https://mobbin.com/api/mcp/short/AIL9VE0i",
+      "position": 8
+    }
+  ]
+}

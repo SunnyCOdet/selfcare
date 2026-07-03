@@ -1,0 +1,36 @@
+{
+  "id": "af8db5c7-42ea-41c0-8cb2-3ec4accafdd6",
+  "name": "Interest detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/af8db5c7-42ea-41c0-8cb2-3ec4accafdd6",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0c9ac598-1946-4395-9e47-2b2cde1c1c2a",
+      "image_url": "https://mobbin.com/api/mcp/short/DGLlffvd",
+      "position": 1
+    },
+    {
+      "screen_id": "47ef1606-1e25-4653-a533-2f5f7e9ed31f",
+      "image_url": "https://mobbin.com/api/mcp/short/hG7vnPIy",
+      "position": 2
+    },
+    {
+      "screen_id": "0b559e9e-7ce4-4e5e-802b-616ba950d2c2",
+      "image_url": "https://mobbin.com/api/mcp/short/Vki3Jbdj",
+      "position": 3
+    },
+    {
+      "screen_id": "11876bdc-f587-40a7-af06-dd3470b83319",
+      "image_url": "https://mobbin.com/api/mcp/short/88pRrsLh",
+      "position": 4
+    },
+    {
+      "screen_id": "30de2a6c-f4bb-4f4f-afce-5f279fa63ee7",
+      "image_url": "https://mobbin.com/api/mcp/short/nnCkvjY6",
+      "position": 5
+    }
+  ]
+}

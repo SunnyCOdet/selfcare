@@ -1,0 +1,19 @@
+{
+  "name": "chart",
+  "type": "registry:ui",
+  "dependencies": [
+    "recharts@3.8.0",
+    "lucide-react"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [
+    "card"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/chart.tsx",
+      "extractedTo": "ui/chart.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

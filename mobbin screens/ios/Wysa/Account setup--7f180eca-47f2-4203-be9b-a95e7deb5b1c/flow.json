@@ -1,0 +1,51 @@
+{
+  "id": "7f180eca-47f2-4203-be9b-a95e7deb5b1c",
+  "name": "Account setup",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/7f180eca-47f2-4203-be9b-a95e7deb5b1c",
+  "app_name": "Wysa",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "d01b5847-36ec-454c-b8d9-4777f88a0c65",
+      "image_url": "https://mobbin.com/api/mcp/short/d3BKjAvh",
+      "position": 1
+    },
+    {
+      "screen_id": "6eb03ca6-a5da-44e8-a2d0-fe3a33db7dca",
+      "image_url": "https://mobbin.com/api/mcp/short/lUlDscyb",
+      "position": 2
+    },
+    {
+      "screen_id": "c717cd1d-8fda-473f-b03c-1ed482d1b364",
+      "image_url": "https://mobbin.com/api/mcp/short/jAjlO2qW",
+      "position": 3
+    },
+    {
+      "screen_id": "0bcbbf35-feb2-4a36-a785-b08987a019b1",
+      "image_url": "https://mobbin.com/api/mcp/short/AwDsN1Js",
+      "position": 4
+    },
+    {
+      "screen_id": "66356824-131f-49f6-b3de-42510b7c7979",
+      "image_url": "https://mobbin.com/api/mcp/short/n7zVj0s6",
+      "position": 5
+    },
+    {
+      "screen_id": "03dbf2f5-69c8-422b-a86c-a9fe054a8065",
+      "image_url": "https://mobbin.com/api/mcp/short/FkrAxQcp",
+      "position": 6
+    },
+    {
+      "screen_id": "21820dd3-96f7-4659-839d-184a3164e48c",
+      "image_url": "https://mobbin.com/api/mcp/short/5ZTWLqm5",
+      "position": 7
+    },
+    {
+      "screen_id": "db3d8301-491d-4e4c-8c95-a4a260a1a3ce",
+      "image_url": "https://mobbin.com/api/mcp/short/mGP775SX",
+      "position": 8
+    }
+  ]
+}

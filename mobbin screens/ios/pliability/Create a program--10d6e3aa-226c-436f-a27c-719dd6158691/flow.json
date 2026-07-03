@@ -1,0 +1,21 @@
+{
+  "id": "10d6e3aa-226c-436f-a27c-719dd6158691",
+  "name": "Create a program",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/10d6e3aa-226c-436f-a27c-719dd6158691",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "29847973-7ada-4e85-97da-57515f7ec02b",
+      "image_url": "https://mobbin.com/api/mcp/short/pIJ2LGnO",
+      "position": 1
+    },
+    {
+      "screen_id": "703e65c2-9b9e-471f-b8be-ae9d11ecd996",
+      "image_url": "https://mobbin.com/api/mcp/short/QZg13Kze",
+      "position": 2
+    }
+  ]
+}

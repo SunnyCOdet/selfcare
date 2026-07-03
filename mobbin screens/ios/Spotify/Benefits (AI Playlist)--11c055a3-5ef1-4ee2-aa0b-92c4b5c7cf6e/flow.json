@@ -1,0 +1,21 @@
+{
+  "id": "11c055a3-5ef1-4ee2-aa0b-92c4b5c7cf6e",
+  "name": "Benefits (AI Playlist)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/11c055a3-5ef1-4ee2-aa0b-92c4b5c7cf6e",
+  "app_name": "Spotify",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "853e9f95-b1e1-4ec7-8dec-8724c766fbd0",
+      "image_url": "https://mobbin.com/api/mcp/short/xXOVaqbV",
+      "position": 1
+    },
+    {
+      "screen_id": "18c2c89c-b3a9-495c-89fd-6dc97b36aa7e",
+      "image_url": "https://mobbin.com/api/mcp/short/O2opZzbc",
+      "position": 2
+    }
+  ]
+}

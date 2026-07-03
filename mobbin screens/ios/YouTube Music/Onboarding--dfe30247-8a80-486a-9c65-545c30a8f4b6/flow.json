@@ -1,0 +1,50 @@
+{
+  "id": "dfe30247-8a80-486a-9c65-545c30a8f4b6",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dfe30247-8a80-486a-9c65-545c30a8f4b6",
+  "app_name": "YouTube Music",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "d139aa60-5884-46c2-a278-b033cf77f9be",
+      "image_url": "https://mobbin.com/api/mcp/short/PpbRolvM",
+      "position": 1
+    },
+    {
+      "screen_id": "d73bf4bc-5f0d-465e-a058-932537a65775",
+      "image_url": "https://mobbin.com/api/mcp/short/iV8saIZX",
+      "position": 2
+    },
+    {
+      "screen_id": "ddfe0224-c937-4d73-9998-e729e213bf0a",
+      "image_url": "https://mobbin.com/api/mcp/short/jr7IxM7E",
+      "position": 3
+    },
+    {
+      "screen_id": "bd12af53-8e9a-4ad7-8ba8-ac569053dc71",
+      "image_url": "https://mobbin.com/api/mcp/short/tRGvjtpK",
+      "position": 4
+    },
+    {
+      "screen_id": "40783159-8ae1-4d77-aa7c-e9a6ca921839",
+      "image_url": "https://mobbin.com/api/mcp/short/ZY61Q2JV",
+      "position": 5
+    },
+    {
+      "screen_id": "4527bb2a-58d3-46e2-bcc1-e4e08a4b7890",
+      "image_url": "https://mobbin.com/api/mcp/short/cqVi4JKB",
+      "position": 6
+    },
+    {
+      "screen_id": "6bd60afe-37f0-4fa3-8a59-7a3cd7b0fecc",
+      "image_url": "https://mobbin.com/api/mcp/short/1n6ICycl",
+      "position": 7
+    }
+  ]
+}

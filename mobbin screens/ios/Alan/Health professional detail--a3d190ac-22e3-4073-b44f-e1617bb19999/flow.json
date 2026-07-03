@@ -1,0 +1,26 @@
+{
+  "id": "a3d190ac-22e3-4073-b44f-e1617bb19999",
+  "name": "Health professional detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a3d190ac-22e3-4073-b44f-e1617bb19999",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0663b536-de45-4cef-921c-a5f350346a1e",
+      "image_url": "https://mobbin.com/api/mcp/short/uponcHBV",
+      "position": 1
+    },
+    {
+      "screen_id": "620dce23-bd38-4d28-8f33-6209974d8094",
+      "image_url": "https://mobbin.com/api/mcp/short/VrGSDeFN",
+      "position": 2
+    },
+    {
+      "screen_id": "173dd189-fddb-4c73-9689-309b24a63698",
+      "image_url": "https://mobbin.com/api/mcp/short/ba4vp9xA",
+      "position": 3
+    }
+  ]
+}

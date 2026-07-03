@@ -1,0 +1,58 @@
+{
+  "id": "7ebf1f4f-6b89-4d52-805f-7d201d4a8e8e",
+  "name": "Connecting an AI connector",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7ebf1f4f-6b89-4d52-805f-7d201d4a8e8e",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "cfe886d9-1f11-46b6-8bef-01bc1d1e1901",
+      "image_url": "https://mobbin.com/api/mcp/short/vrBlgB0N",
+      "position": 1
+    },
+    {
+      "screen_id": "370d5a2a-4a94-4dcc-8d6b-dc8f13ffdd1b",
+      "image_url": "https://mobbin.com/api/mcp/short/YDPVNz39",
+      "position": 2
+    },
+    {
+      "screen_id": "47bffc95-700e-43d4-bc86-2d42d53b2ac6",
+      "image_url": "https://mobbin.com/api/mcp/short/FM0j7bWO",
+      "position": 3
+    },
+    {
+      "screen_id": "e91c0e04-d5b9-474b-90f7-ecab1caf8200",
+      "image_url": "https://mobbin.com/api/mcp/short/muWmoHp8",
+      "position": 4
+    },
+    {
+      "screen_id": "91532c16-c4c5-44e9-84d3-42a06ce34f47",
+      "image_url": "https://mobbin.com/api/mcp/short/xQe9a3cK",
+      "position": 5
+    },
+    {
+      "screen_id": "2f4d60f9-478c-40aa-a0d8-94e2608929a1",
+      "image_url": "https://mobbin.com/api/mcp/short/pxELPI4t",
+      "position": 6
+    },
+    {
+      "screen_id": "8e527687-f4b3-4f7a-b4e6-b91d3629d290",
+      "image_url": "https://mobbin.com/api/mcp/short/t9gUtMS1",
+      "position": 7
+    },
+    {
+      "screen_id": "87b3b927-3e49-4732-9837-1520b902cbc8",
+      "image_url": "https://mobbin.com/api/mcp/short/FK8qfglr",
+      "position": 8
+    },
+    {
+      "screen_id": "e173b891-b6af-4af8-9a64-532d1fbfec29",
+      "image_url": "https://mobbin.com/api/mcp/short/aqWlTzIE",
+      "position": 9
+    }
+  ]
+}

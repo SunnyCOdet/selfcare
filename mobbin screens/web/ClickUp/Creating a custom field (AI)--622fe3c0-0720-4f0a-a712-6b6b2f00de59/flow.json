@@ -1,0 +1,64 @@
+{
+  "id": "622fe3c0-0720-4f0a-a712-6b6b2f00de59",
+  "name": "Creating a custom field (AI)",
+  "actions": [
+    "Adding & Creating",
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/622fe3c0-0720-4f0a-a712-6b6b2f00de59",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "49ff12a3-3f94-49e7-ba2c-935e1b49fbae",
+      "image_url": "https://mobbin.com/api/mcp/short/tdb3qF9b",
+      "position": 1
+    },
+    {
+      "screen_id": "6558be2d-ec76-43c5-8ea2-0186fded33b1",
+      "image_url": "https://mobbin.com/api/mcp/short/7By72Shm",
+      "position": 2
+    },
+    {
+      "screen_id": "239434a4-0aab-47b6-9b30-b7c84e504b36",
+      "image_url": "https://mobbin.com/api/mcp/short/745G8RaV",
+      "position": 3
+    },
+    {
+      "screen_id": "1c9d05ff-c4fd-4ae1-a2c3-7b4225b3f68b",
+      "image_url": "https://mobbin.com/api/mcp/short/cJ3lN88I",
+      "position": 4
+    },
+    {
+      "screen_id": "fb338c7a-2e9c-412b-bcdb-99f26c2073d2",
+      "image_url": "https://mobbin.com/api/mcp/short/WgLSxxln",
+      "position": 5
+    },
+    {
+      "screen_id": "b31fa6a1-4ddd-49ba-8b8b-8a2ee9aecaab",
+      "image_url": "https://mobbin.com/api/mcp/short/VcBS2shm",
+      "position": 6
+    },
+    {
+      "screen_id": "a7237953-e177-4969-8e58-c3e7d91379cd",
+      "image_url": "https://mobbin.com/api/mcp/short/9rCsht5p",
+      "position": 7
+    },
+    {
+      "screen_id": "c523e9bc-0eca-41d1-96e3-f0af66f2db3f",
+      "image_url": "https://mobbin.com/api/mcp/short/7RTqGNir",
+      "position": 8
+    },
+    {
+      "screen_id": "4201d956-b01e-410e-89db-145cddfd3114",
+      "image_url": "https://mobbin.com/api/mcp/short/0XYV155C",
+      "position": 9
+    },
+    {
+      "screen_id": "c37ed67d-1543-4d77-b20c-20fd716ec13a",
+      "image_url": "https://mobbin.com/api/mcp/short/9o4711Qu",
+      "position": 10
+    }
+  ]
+}

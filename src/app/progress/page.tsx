@@ -55,7 +55,7 @@ export default async function ProgressPage() {
     <div className="flex-1">
       <Nav avatarUrl={profile?.avatar_url ?? null} name={profile?.full_name ?? null} active="progress" theme={profile?.theme} />
 
-      <main className="max-w-5xl mx-auto px-4 pt-5 pb-28 md:py-8 space-y-5 md:space-y-6">
+      <main className="page-shell space-y-5 md:space-y-6">
         <header className="fade-up">
           <h1 className="text-3xl font-bold">Progress</h1>
           <p className="text-muted mt-1">The camera and the scale don&apos;t lie. Neither does consistency.</p>
@@ -76,13 +76,13 @@ export default async function ProgressPage() {
 
         {(workouts ?? []).length > 0 && (
           <div className="glass p-6 fade-up" style={{ animationDelay: "0.12s" }}>
-            <h2 className="font-semibold mb-1">🏋️ Strength log</h2>
+            <h2 className="font-semibold mb-1">Strength log</h2>
             <p className="text-xs text-muted mb-4">
-              Tell the coach your lifts in chat — &quot;bench 60kg 4x8&quot; — and they land here.
+              Tell the coach your lifts in chat - &quot;bench 60kg 4x8&quot; - and they land here.
             </p>
             <div className="space-y-2">
               {(workouts ?? []).map((w, i) => (
-                <div key={i} className="flex items-center justify-between gap-3 bg-surface-2 rounded-xl px-4 py-3">
+                <div key={i} className="metric-tile flex items-center justify-between gap-3 px-4 py-3">
                   <div className="min-w-0">
                     <p className="text-sm font-semibold truncate">
                       {w.exercise}
@@ -96,7 +96,7 @@ export default async function ProgressPage() {
                   </div>
                   <div className="text-right shrink-0">
                     <p className="text-sm font-bold font-mono">
-                      {w.weight_kg != null ? `${w.weight_kg}kg` : "—"} × {w.sets ?? "?"}×{w.reps ?? "?"}
+                      {w.weight_kg != null ? `${w.weight_kg}kg` : "-"} x {w.sets ?? "?"}x{w.reps ?? "?"}
                     </p>
                     {w.est_1rm != null && (
                       <p className="text-[11px] text-muted">e1RM {Math.round(Number(w.est_1rm))}kg</p>

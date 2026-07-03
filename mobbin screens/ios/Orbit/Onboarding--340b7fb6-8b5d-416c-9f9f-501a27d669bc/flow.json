@@ -1,0 +1,53 @@
+{
+  "id": "340b7fb6-8b5d-416c-9f9f-501a27d669bc",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/340b7fb6-8b5d-416c-9f9f-501a27d669bc",
+  "app_name": "Orbit",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "0ad95c82-1dd1-4c8e-9100-4615486bf514",
+      "image_url": "https://mobbin.com/api/mcp/short/0QVa2hWh",
+      "position": 1
+    },
+    {
+      "screen_id": "0aefbc5b-663c-4384-9fae-7378badec476",
+      "image_url": "https://mobbin.com/api/mcp/short/rL74tDAB",
+      "position": 2
+    },
+    {
+      "screen_id": "592b68fc-549e-4df6-9d80-bc55b9914e1a",
+      "image_url": "https://mobbin.com/api/mcp/short/Sw7wJ3aZ",
+      "position": 3
+    },
+    {
+      "screen_id": "a759f7af-d765-4ebd-acaa-43018378b1c9",
+      "image_url": "https://mobbin.com/api/mcp/short/Jm57Axdk",
+      "position": 4
+    },
+    {
+      "screen_id": "deac87fe-f7ef-4452-8deb-f233aada237f",
+      "image_url": "https://mobbin.com/api/mcp/short/ehh8eVHZ",
+      "position": 5
+    },
+    {
+      "screen_id": "c49f7e84-d043-49a6-9b03-404e98ee6426",
+      "image_url": "https://mobbin.com/api/mcp/short/l31wOkSi",
+      "position": 6
+    },
+    {
+      "screen_id": "40d3a02c-2503-4cc1-b940-518ebc20f189",
+      "image_url": "https://mobbin.com/api/mcp/short/OqbCSpGZ",
+      "position": 7
+    },
+    {
+      "screen_id": "ccee144c-65ce-4813-8876-2b4f67017a63",
+      "image_url": "https://mobbin.com/api/mcp/short/Y8b4tbAz",
+      "position": 8
+    }
+  ]
+}

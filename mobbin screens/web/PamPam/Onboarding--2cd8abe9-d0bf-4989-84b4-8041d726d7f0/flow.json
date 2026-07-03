@@ -1,0 +1,29 @@
+{
+  "id": "2cd8abe9-d0bf-4989-84b4-8041d726d7f0",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2cd8abe9-d0bf-4989-84b4-8041d726d7f0",
+  "app_name": "PamPam",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "42b72188-8449-482a-a9f0-dc64b6c5aa6d",
+      "image_url": "https://mobbin.com/api/mcp/short/NKQr6F1y",
+      "position": 1
+    },
+    {
+      "screen_id": "79914dec-6bab-4991-a4a8-a1b2833812dc",
+      "image_url": "https://mobbin.com/api/mcp/short/0YyFriTB",
+      "position": 2
+    },
+    {
+      "screen_id": "b37e1a0b-0363-4b2c-8516-11673adec292",
+      "image_url": "https://mobbin.com/api/mcp/short/cfxaCfj8",
+      "position": 3
+    }
+  ]
+}

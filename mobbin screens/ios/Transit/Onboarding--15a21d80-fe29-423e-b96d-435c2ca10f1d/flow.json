@@ -1,0 +1,33 @@
+{
+  "id": "15a21d80-fe29-423e-b96d-435c2ca10f1d",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/15a21d80-fe29-423e-b96d-435c2ca10f1d",
+  "app_name": "Transit",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2f5183e7-79f5-480a-8325-a8f36ad14fdf",
+      "image_url": "https://mobbin.com/api/mcp/short/DsAKJzMu",
+      "position": 1
+    },
+    {
+      "screen_id": "acddb7cb-4825-4d53-988c-b43b48e26838",
+      "image_url": "https://mobbin.com/api/mcp/short/wPcTXFyy",
+      "position": 2
+    },
+    {
+      "screen_id": "9b599136-f6c6-47c1-9b51-79405a0d60ca",
+      "image_url": "https://mobbin.com/api/mcp/short/3TuN9xJd",
+      "position": 3
+    },
+    {
+      "screen_id": "402d07b4-9d87-45d7-9d87-bd8a9c084a72",
+      "image_url": "https://mobbin.com/api/mcp/short/7bfdJnlg",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ca297aa1-965a-4dd7-ab0c-617575abb519",
+  "name": "Get started",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ca297aa1-965a-4dd7-ab0c-617575abb519",
+  "app_name": "Cloaked",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "808f03f2-6fb7-4525-b918-4cece3449015",
+      "image_url": "https://mobbin.com/api/mcp/short/cGGC7FRb",
+      "position": 1
+    },
+    {
+      "screen_id": "7169c9aa-b4c9-464f-9f8a-432cb2aee786",
+      "image_url": "https://mobbin.com/api/mcp/short/kQeuuanW",
+      "position": 2
+    },
+    {
+      "screen_id": "07a5c537-fbba-411d-92dd-df09817b2c52",
+      "image_url": "https://mobbin.com/api/mcp/short/AXaRu0E0",
+      "position": 3
+    },
+    {
+      "screen_id": "b9ff03dd-62c2-43cf-bf6a-39870d859fcb",
+      "image_url": "https://mobbin.com/api/mcp/short/Et09tt5o",
+      "position": 4
+    },
+    {
+      "screen_id": "4dbe9a68-6470-4217-8df6-6a0557266d20",
+      "image_url": "https://mobbin.com/api/mcp/short/F9cwKUHd",
+      "position": 5
+    }
+  ]
+}

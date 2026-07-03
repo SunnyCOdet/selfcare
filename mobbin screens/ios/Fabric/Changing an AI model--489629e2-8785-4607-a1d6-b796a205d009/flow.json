@@ -1,0 +1,28 @@
+{
+  "id": "489629e2-8785-4607-a1d6-b796a205d009",
+  "name": "Changing an AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/489629e2-8785-4607-a1d6-b796a205d009",
+  "app_name": "Fabric",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "396b5f79-6844-40b1-9ffe-0bf62ddf1096",
+      "image_url": "https://mobbin.com/api/mcp/short/dpGnbKGp",
+      "position": 1
+    },
+    {
+      "screen_id": "14efd075-e797-44ea-9698-610847dcca3a",
+      "image_url": "https://mobbin.com/api/mcp/short/qkQOXgXN",
+      "position": 2
+    },
+    {
+      "screen_id": "88c57d4f-443e-4528-952c-fb6a1e604739",
+      "image_url": "https://mobbin.com/api/mcp/short/f0xMfDuN",
+      "position": 3
+    }
+  ]
+}

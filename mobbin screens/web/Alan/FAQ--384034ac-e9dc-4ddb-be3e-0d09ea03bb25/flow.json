@@ -1,0 +1,21 @@
+{
+  "id": "384034ac-e9dc-4ddb-be3e-0d09ea03bb25",
+  "name": "FAQ",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/384034ac-e9dc-4ddb-be3e-0d09ea03bb25",
+  "app_name": "Alan",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "55d5d828-9e67-4df3-95cf-c1c380a210fe",
+      "image_url": "https://mobbin.com/api/mcp/short/Nk0WHmf3",
+      "position": 1
+    },
+    {
+      "screen_id": "b69aaea4-8780-4c26-b6ad-69338656d66d",
+      "image_url": "https://mobbin.com/api/mcp/short/GHnIcHm8",
+      "position": 2
+    }
+  ]
+}

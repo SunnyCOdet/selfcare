@@ -1,0 +1,43 @@
+{
+  "id": "88940c17-47db-4279-97a4-b76aa649646e",
+  "name": "Personalizing trial",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/88940c17-47db-4279-97a4-b76aa649646e",
+  "app_name": "Zendesk",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "0c343574-3910-4e5c-8b6a-ae6d2d899cf7",
+      "image_url": "https://mobbin.com/api/mcp/short/tryYsCUv",
+      "position": 1
+    },
+    {
+      "screen_id": "91a6d93a-f11c-4807-8587-3bae46724bad",
+      "image_url": "https://mobbin.com/api/mcp/short/m8o69tx3",
+      "position": 2
+    },
+    {
+      "screen_id": "7e64dfd9-294e-48bd-b316-92dac850a7bd",
+      "image_url": "https://mobbin.com/api/mcp/short/Acuabu42",
+      "position": 3
+    },
+    {
+      "screen_id": "c1f232b1-8153-4de2-9f8d-5e54fc937099",
+      "image_url": "https://mobbin.com/api/mcp/short/BQ9p9wUc",
+      "position": 4
+    },
+    {
+      "screen_id": "5e0a3161-f446-4066-a86b-67838279d9e9",
+      "image_url": "https://mobbin.com/api/mcp/short/0DOAWojw",
+      "position": 5
+    },
+    {
+      "screen_id": "9b70184d-7996-4ea9-b35b-60bcfc734ec7",
+      "image_url": "https://mobbin.com/api/mcp/short/7h0LMeoc",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "53fd9bdd-fd52-4678-b6ef-ed28e07ad6fb",
+  "name": "Explore",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/53fd9bdd-fd52-4678-b6ef-ed28e07ad6fb",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "781957fc-8d0b-4687-82b7-ec9b92c97e21",
+      "image_url": "https://mobbin.com/api/mcp/short/eiQvbNMJ",
+      "position": 1
+    },
+    {
+      "screen_id": "48575b8c-1ceb-46ed-bca0-4e0121e55480",
+      "image_url": "https://mobbin.com/api/mcp/short/LgQ2XGvM",
+      "position": 2
+    },
+    {
+      "screen_id": "4de5483e-d06d-4452-9d0e-4502b6ff0386",
+      "image_url": "https://mobbin.com/api/mcp/short/MVSWdH0X",
+      "position": 3
+    }
+  ]
+}

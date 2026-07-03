@@ -1,0 +1,21 @@
+{
+  "id": "fcafc4fa-9ffc-470a-9d2b-b121ea2db90a",
+  "name": "Pillow A.I.",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/fcafc4fa-9ffc-470a-9d2b-b121ea2db90a",
+  "app_name": "Pillow",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "d21f045f-164e-497a-8229-a51851cf33d8",
+      "image_url": "https://mobbin.com/api/mcp/short/hIMs5RvQ",
+      "position": 1
+    },
+    {
+      "screen_id": "63b39bfa-24ab-401d-b671-79237f6105b2",
+      "image_url": "https://mobbin.com/api/mcp/short/gI2eu9iD",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "f854d89a-1e1b-4048-b0ea-e6cf3e1765a1",
+  "name": "Asking AI about voice note",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f854d89a-1e1b-4048-b0ea-e6cf3e1765a1",
+  "app_name": "Fabric",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "933ed9f8-1a68-4746-8649-579b8018ee87",
+      "image_url": "https://mobbin.com/api/mcp/short/QurZYOmW",
+      "position": 1
+    },
+    {
+      "screen_id": "9ad502b3-5325-43d9-9e58-0c9ab3dd4f96",
+      "image_url": "https://mobbin.com/api/mcp/short/aCws6AOR",
+      "position": 2
+    },
+    {
+      "screen_id": "87b48bf9-b58e-4b25-83fe-9c7bbb3f7d56",
+      "image_url": "https://mobbin.com/api/mcp/short/4BkZyyLt",
+      "position": 3
+    },
+    {
+      "screen_id": "0a0b3cc0-cb1a-4da5-90f8-372515b7e9dc",
+      "image_url": "https://mobbin.com/api/mcp/short/5pKt1EZd",
+      "position": 4
+    },
+    {
+      "screen_id": "a2bfb928-8466-4f5b-99f2-8137d3e84179",
+      "image_url": "https://mobbin.com/api/mcp/short/LqTNx9Cb",
+      "position": 5
+    },
+    {
+      "screen_id": "aaa92119-b399-4197-baff-48a8d9119316",
+      "image_url": "https://mobbin.com/api/mcp/short/ZBMoQhrX",
+      "position": 6
+    }
+  ]
+}

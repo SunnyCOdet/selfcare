@@ -1,0 +1,38 @@
+{
+  "id": "a3347e04-496d-446b-8d5d-ac8885a24322",
+  "name": "Changing Meta AI voice",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a3347e04-496d-446b-8d5d-ac8885a24322",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "b034786a-fd92-4c64-adc1-e1b51a8cd845",
+      "image_url": "https://mobbin.com/api/mcp/short/TqERIUVJ",
+      "position": 1
+    },
+    {
+      "screen_id": "c1449b7a-423e-4a53-8731-38bb34559627",
+      "image_url": "https://mobbin.com/api/mcp/short/V8rGvg43",
+      "position": 2
+    },
+    {
+      "screen_id": "e81190bb-837b-40c9-9eec-de52d8a3904f",
+      "image_url": "https://mobbin.com/api/mcp/short/nsAmJUMe",
+      "position": 3
+    },
+    {
+      "screen_id": "82b2d2c1-b4e8-4731-bdd3-d64b9273c3c2",
+      "image_url": "https://mobbin.com/api/mcp/short/BCKRzJsm",
+      "position": 4
+    },
+    {
+      "screen_id": "b580bda5-5d8a-4bb5-ade6-bea577bfe9a6",
+      "image_url": "https://mobbin.com/api/mcp/short/TKEyKPEx",
+      "position": 5
+    }
+  ]
+}

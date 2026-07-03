@@ -1,0 +1,59 @@
+{
+  "id": "ea92c4f4-b800-43aa-8ffd-c7002619a90e",
+  "name": "Setting a goal",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ea92c4f4-b800-43aa-8ffd-c7002619a90e",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "7c96f7e2-36b5-4e59-9201-ce714eb529f7",
+      "image_url": "https://mobbin.com/api/mcp/short/VQ9qv5he",
+      "position": 1
+    },
+    {
+      "screen_id": "95047d15-173c-4bde-97f2-f5b40894b58c",
+      "image_url": "https://mobbin.com/api/mcp/short/NU2nIUMu",
+      "position": 2
+    },
+    {
+      "screen_id": "696cc54d-1fe1-4f98-8c91-cb587967b00d",
+      "image_url": "https://mobbin.com/api/mcp/short/yj4BYdzv",
+      "position": 3
+    },
+    {
+      "screen_id": "06e2a16f-028e-4659-8455-3458b0299539",
+      "image_url": "https://mobbin.com/api/mcp/short/fAi1tJep",
+      "position": 4
+    },
+    {
+      "screen_id": "f3afd8ee-6121-489d-870f-68fe2d6a300c",
+      "image_url": "https://mobbin.com/api/mcp/short/pLcSoNc7",
+      "position": 5
+    },
+    {
+      "screen_id": "1ac11372-8405-48ed-9f03-54fd31c95585",
+      "image_url": "https://mobbin.com/api/mcp/short/8dawusnk",
+      "position": 6
+    },
+    {
+      "screen_id": "82cf6412-a896-473c-88dc-a7f534000070",
+      "image_url": "https://mobbin.com/api/mcp/short/W6Mxg1jv",
+      "position": 7
+    },
+    {
+      "screen_id": "e8f34ea7-996c-46d8-881b-94fcb2f75539",
+      "image_url": "https://mobbin.com/api/mcp/short/iG1Iqz06",
+      "position": 8
+    },
+    {
+      "screen_id": "5b16e84c-1a6e-4e85-bb27-c4a98bc7f86e",
+      "image_url": "https://mobbin.com/api/mcp/short/q48t8mBY",
+      "position": 9
+    }
+  ]
+}

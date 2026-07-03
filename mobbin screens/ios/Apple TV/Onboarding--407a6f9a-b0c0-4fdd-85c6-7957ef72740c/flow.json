@@ -1,0 +1,28 @@
+{
+  "id": "407a6f9a-b0c0-4fdd-85c6-7957ef72740c",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/407a6f9a-b0c0-4fdd-85c6-7957ef72740c",
+  "app_name": "Apple TV",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "ad1924b6-e13f-48a3-a998-1bfa2ab9acdd",
+      "image_url": "https://mobbin.com/api/mcp/short/vJ87Mrd7",
+      "position": 1
+    },
+    {
+      "screen_id": "dfb35f09-5705-4d68-be2f-6bae3e1927fa",
+      "image_url": "https://mobbin.com/api/mcp/short/OJAWYg1Z",
+      "position": 2
+    },
+    {
+      "screen_id": "86a087bd-f055-4a56-91fa-aa0803ea4f1f",
+      "image_url": "https://mobbin.com/api/mcp/short/yFoiugj8",
+      "position": 3
+    }
+  ]
+}

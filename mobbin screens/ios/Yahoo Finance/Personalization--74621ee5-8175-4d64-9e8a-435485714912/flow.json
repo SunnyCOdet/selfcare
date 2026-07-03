@@ -1,0 +1,21 @@
+{
+  "id": "74621ee5-8175-4d64-9e8a-435485714912",
+  "name": "Personalization",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/74621ee5-8175-4d64-9e8a-435485714912",
+  "app_name": "Yahoo Finance",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "e5a8c4ec-1d86-497d-a444-a19d5dab1d3c",
+      "image_url": "https://mobbin.com/api/mcp/short/TPgqPKVm",
+      "position": 1
+    },
+    {
+      "screen_id": "ba765af7-d69a-4ad6-bd3c-04f5024086b9",
+      "image_url": "https://mobbin.com/api/mcp/short/BWk1O5bZ",
+      "position": 2
+    }
+  ]
+}

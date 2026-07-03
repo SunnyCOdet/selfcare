@@ -1,0 +1,64 @@
+{
+  "id": "88984417-f1fb-4868-a1f4-83ad99f24962",
+  "name": "Chatting with AI (from space)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/88984417-f1fb-4868-a1f4-83ad99f24962",
+  "app_name": "Perplexity",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "80d5890b-0f65-4fac-8b7b-b1a15b9850f6",
+      "image_url": "https://mobbin.com/api/mcp/short/Gjb8ru6P",
+      "position": 1
+    },
+    {
+      "screen_id": "ae6e9f2e-e35c-4ad4-a1e5-98deb9d339c4",
+      "image_url": "https://mobbin.com/api/mcp/short/atYqNcNI",
+      "position": 2
+    },
+    {
+      "screen_id": "230b281f-2bc7-493b-ac01-97b7ae1c086a",
+      "image_url": "https://mobbin.com/api/mcp/short/dPgi3DwE",
+      "position": 3
+    },
+    {
+      "screen_id": "0cf8e3d8-784f-4958-bfb8-6267f576b1dd",
+      "image_url": "https://mobbin.com/api/mcp/short/vx3GcKRw",
+      "position": 4
+    },
+    {
+      "screen_id": "0fec9ada-7762-4ce5-b85f-ee9171404fc1",
+      "image_url": "https://mobbin.com/api/mcp/short/dZkq6XeD",
+      "position": 5
+    },
+    {
+      "screen_id": "50170c44-5088-4d2e-ba07-626269cea0a3",
+      "image_url": "https://mobbin.com/api/mcp/short/YqtWXD6n",
+      "position": 6
+    },
+    {
+      "screen_id": "0ba2c9ff-f8c2-4099-87e7-f9f4949fd112",
+      "image_url": "https://mobbin.com/api/mcp/short/QfRmUeBx",
+      "position": 7
+    },
+    {
+      "screen_id": "c5e5d93e-3594-4332-bcd0-d5c9a5d792c8",
+      "image_url": "https://mobbin.com/api/mcp/short/bSRpqKGb",
+      "position": 8
+    },
+    {
+      "screen_id": "321367fa-aceb-4196-a8c3-56a24c8c556c",
+      "image_url": "https://mobbin.com/api/mcp/short/24PEid4S",
+      "position": 9
+    },
+    {
+      "screen_id": "569785f4-adc3-4481-8a42-fab4ffa2771d",
+      "image_url": "https://mobbin.com/api/mcp/short/JMQLuq37",
+      "position": 10
+    }
+  ]
+}

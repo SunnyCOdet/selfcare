@@ -1,0 +1,28 @@
+{
+  "id": "1f3f5507-7875-4313-a1ef-83d77e71c791",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1f3f5507-7875-4313-a1ef-83d77e71c791",
+  "app_name": "Stocks",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "73ff7611-5a76-42b8-b1b4-bbb8050d9bc5",
+      "image_url": "https://mobbin.com/api/mcp/short/vcIlF3PM",
+      "position": 1
+    },
+    {
+      "screen_id": "0a2206aa-3dcc-40fe-a466-2f0b7814aaf6",
+      "image_url": "https://mobbin.com/api/mcp/short/UtVLM5fM",
+      "position": 2
+    },
+    {
+      "screen_id": "7fbf7916-fc55-4f4a-8ea7-364166433783",
+      "image_url": "https://mobbin.com/api/mcp/short/SCVXANC4",
+      "position": 3
+    }
+  ]
+}

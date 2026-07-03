@@ -1,0 +1,38 @@
+{
+  "id": "cc51a0cb-f2c5-4a71-88b1-b5e899cc7a14",
+  "name": "Creating an insight with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cc51a0cb-f2c5-4a71-88b1-b5e899cc7a14",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "8299dc89-8d0d-42c5-ba2b-7b309041cfc6",
+      "image_url": "https://mobbin.com/api/mcp/short/2tV6Gm3L",
+      "position": 1
+    },
+    {
+      "screen_id": "956d2bad-6193-4fb4-a62c-aba6cd3e85ef",
+      "image_url": "https://mobbin.com/api/mcp/short/JJZm5lpU",
+      "position": 2
+    },
+    {
+      "screen_id": "31866b9b-2ad0-4baf-aef4-cd4398fcbd99",
+      "image_url": "https://mobbin.com/api/mcp/short/dakB6Zuc",
+      "position": 3
+    },
+    {
+      "screen_id": "8d3038d7-b8ac-4d32-849b-5a64d64921f8",
+      "image_url": "https://mobbin.com/api/mcp/short/U7QmVHEC",
+      "position": 4
+    },
+    {
+      "screen_id": "e78364da-59f7-421b-8a57-868d58daad99",
+      "image_url": "https://mobbin.com/api/mcp/short/jHM5vNMO",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "efc0fb93-ea1f-4eb4-a153-0553fb50bfc4",
+  "name": "Listening to Wrapped AI podcast",
+  "actions": [
+    "Listening to Audio"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/efc0fb93-ea1f-4eb4-a153-0553fb50bfc4",
+  "app_name": "Spotify",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "dd483c75-f884-46c3-898b-5172874cec54",
+      "image_url": "https://mobbin.com/api/mcp/short/eEntsT9b",
+      "position": 1
+    },
+    {
+      "screen_id": "beea1be6-7178-462f-b785-dd9744121578",
+      "image_url": "https://mobbin.com/api/mcp/short/0hSGZx0a",
+      "position": 2
+    },
+    {
+      "screen_id": "c0dff794-f443-4294-b1ae-f34e52eb8d7c",
+      "image_url": "https://mobbin.com/api/mcp/short/tIkHE9JI",
+      "position": 3
+    }
+  ]
+}

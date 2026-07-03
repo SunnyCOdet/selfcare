@@ -1,0 +1,64 @@
+{
+  "id": "3ca72f4f-ff98-4cd2-82eb-7ba8240a1cc6",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3ca72f4f-ff98-4cd2-82eb-7ba8240a1cc6",
+  "app_name": "Google Arts & Culture",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "2f42a1a1-4267-4ebc-bdc0-8a83b15e5e6a",
+      "image_url": "https://mobbin.com/api/mcp/short/9yOiWIfc",
+      "position": 1
+    },
+    {
+      "screen_id": "216b9ff4-1d5f-4b4e-a2ee-20a8171146e1",
+      "image_url": "https://mobbin.com/api/mcp/short/QDtaxgGC",
+      "position": 2
+    },
+    {
+      "screen_id": "87c5d3d4-bef8-4fc8-b54a-67ca8df3bf75",
+      "image_url": "https://mobbin.com/api/mcp/short/p6rN0o5s",
+      "position": 3
+    },
+    {
+      "screen_id": "0b8af448-b63f-4b45-86c9-340f6d7db763",
+      "image_url": "https://mobbin.com/api/mcp/short/0kWH7syg",
+      "position": 4
+    },
+    {
+      "screen_id": "6712a7fc-f950-4ad7-b242-a30530f5a03b",
+      "image_url": "https://mobbin.com/api/mcp/short/DcRweVai",
+      "position": 5
+    },
+    {
+      "screen_id": "1d383414-4bb7-4f5f-b5fd-95027dc300cf",
+      "image_url": "https://mobbin.com/api/mcp/short/hZkDNDo4",
+      "position": 6
+    },
+    {
+      "screen_id": "7578681b-7df5-4700-97bd-b3d13df62328",
+      "image_url": "https://mobbin.com/api/mcp/short/9iwN8XlE",
+      "position": 7
+    },
+    {
+      "screen_id": "4a5219e5-1fad-491c-8c38-42d369c3ad34",
+      "image_url": "https://mobbin.com/api/mcp/short/Ypbzr11l",
+      "position": 8
+    },
+    {
+      "screen_id": "0e75786e-b167-480c-902e-9cdb295dfcdf",
+      "image_url": "https://mobbin.com/api/mcp/short/trQ6RHBH",
+      "position": 9
+    },
+    {
+      "screen_id": "b17ceaa6-22f2-4b6a-81dc-fc82f57c3100",
+      "image_url": "https://mobbin.com/api/mcp/short/ROABaUez",
+      "position": 10
+    }
+  ]
+}

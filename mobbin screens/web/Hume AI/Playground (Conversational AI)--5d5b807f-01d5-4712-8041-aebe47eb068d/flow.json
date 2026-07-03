@@ -1,0 +1,26 @@
+{
+  "id": "5d5b807f-01d5-4712-8041-aebe47eb068d",
+  "name": "Playground (Conversational AI)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5d5b807f-01d5-4712-8041-aebe47eb068d",
+  "app_name": "Hume AI",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "20c12a1f-debd-40b4-bb1c-1ef8dd045941",
+      "image_url": "https://mobbin.com/api/mcp/short/XA2xVuLi",
+      "position": 1
+    },
+    {
+      "screen_id": "bc155ede-07de-437a-a7c1-602855e8a843",
+      "image_url": "https://mobbin.com/api/mcp/short/GFx1m1ze",
+      "position": 2
+    },
+    {
+      "screen_id": "64b41e00-ee38-4c65-b264-e0b3bea97120",
+      "image_url": "https://mobbin.com/api/mcp/short/7QRGE0p9",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "25b7b891-4e05-48de-8f71-5ef8fdc6b737",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding",
+    "Verifying"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/25b7b891-4e05-48de-8f71-5ef8fdc6b737",
+  "app_name": "Sana AI",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "cf5d8749-6c54-463f-9df8-f262815330cf",
+      "image_url": "https://mobbin.com/api/mcp/short/NqtuqmCX",
+      "position": 1
+    },
+    {
+      "screen_id": "1fb1be71-c59a-4d24-9ce7-7089baaad263",
+      "image_url": "https://mobbin.com/api/mcp/short/J7VP7nlF",
+      "position": 2
+    },
+    {
+      "screen_id": "2ce26614-3f10-4361-8796-fd78ee295f2e",
+      "image_url": "https://mobbin.com/api/mcp/short/d9BhWh4V",
+      "position": 3
+    },
+    {
+      "screen_id": "449b3701-ee1b-4e7c-bb1a-53f84da5f8e6",
+      "image_url": "https://mobbin.com/api/mcp/short/p35DwGdV",
+      "position": 4
+    },
+    {
+      "screen_id": "bebd4a25-91fe-435e-a1a8-8add90f6aae4",
+      "image_url": "https://mobbin.com/api/mcp/short/4RPjvxLe",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "bb2fe145-e820-4041-a697-66592fa6e80c",
+  "name": "AI apps",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/bb2fe145-e820-4041-a697-66592fa6e80c",
+  "app_name": "Fireflies",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ee520b7c-0961-4b6d-94df-70ac9edfca54",
+      "image_url": "https://mobbin.com/api/mcp/short/kQWvEx0F",
+      "position": 1
+    },
+    {
+      "screen_id": "884858fe-1f8b-4d2c-84df-8046ae4d36e5",
+      "image_url": "https://mobbin.com/api/mcp/short/MJoB1mCP",
+      "position": 2
+    },
+    {
+      "screen_id": "2e49066c-c248-443c-9a41-84a14565c4e1",
+      "image_url": "https://mobbin.com/api/mcp/short/Jz89J7J3",
+      "position": 3
+    },
+    {
+      "screen_id": "79f1873f-c915-4a86-9169-9d410c86cdd5",
+      "image_url": "https://mobbin.com/api/mcp/short/sf1OMUOs",
+      "position": 4
+    },
+    {
+      "screen_id": "73e611e1-4330-4135-9d22-eb642852fa73",
+      "image_url": "https://mobbin.com/api/mcp/short/zQnb9e82",
+      "position": 5
+    }
+  ]
+}

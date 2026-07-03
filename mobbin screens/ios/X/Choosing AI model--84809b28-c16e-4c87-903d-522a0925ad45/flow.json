@@ -1,0 +1,28 @@
+{
+  "id": "84809b28-c16e-4c87-903d-522a0925ad45",
+  "name": "Choosing AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/84809b28-c16e-4c87-903d-522a0925ad45",
+  "app_name": "X",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b3ce8fb3-b5a2-4a13-9d65-5feb1656f4cd",
+      "image_url": "https://mobbin.com/api/mcp/short/NExuljnC",
+      "position": 1
+    },
+    {
+      "screen_id": "24c4e466-0f66-48af-abfc-ccdcad0c04d1",
+      "image_url": "https://mobbin.com/api/mcp/short/4HrMb2HD",
+      "position": 2
+    },
+    {
+      "screen_id": "83b5941f-b92c-4b23-b633-970a862f2731",
+      "image_url": "https://mobbin.com/api/mcp/short/QPUwUWnA",
+      "position": 3
+    }
+  ]
+}

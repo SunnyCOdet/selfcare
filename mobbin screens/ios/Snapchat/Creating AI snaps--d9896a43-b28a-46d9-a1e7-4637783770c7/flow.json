@@ -1,0 +1,48 @@
+{
+  "id": "d9896a43-b28a-46d9-a1e7-4637783770c7",
+  "name": "Creating AI snaps",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d9896a43-b28a-46d9-a1e7-4637783770c7",
+  "app_name": "Snapchat",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "f8ccef90-9267-4e01-9563-03265cca3f9c",
+      "image_url": "https://mobbin.com/api/mcp/short/ubqR0AU9",
+      "position": 1
+    },
+    {
+      "screen_id": "2e0646eb-d053-4518-a4f5-1fc4e3bd81b3",
+      "image_url": "https://mobbin.com/api/mcp/short/o8fQjBpC",
+      "position": 2
+    },
+    {
+      "screen_id": "7572dbb5-9749-48a8-a832-ee2f2229b491",
+      "image_url": "https://mobbin.com/api/mcp/short/G3FXEEof",
+      "position": 3
+    },
+    {
+      "screen_id": "6bee7f2f-3512-4730-8cde-be9b03ccdc96",
+      "image_url": "https://mobbin.com/api/mcp/short/ioSHbMpA",
+      "position": 4
+    },
+    {
+      "screen_id": "d447691b-00da-41eb-8654-1ddfd362353a",
+      "image_url": "https://mobbin.com/api/mcp/short/RQNPce2Z",
+      "position": 5
+    },
+    {
+      "screen_id": "16d03217-1556-46b2-9fc8-5a930d32f289",
+      "image_url": "https://mobbin.com/api/mcp/short/BegFNce8",
+      "position": 6
+    },
+    {
+      "screen_id": "ca255800-eddb-4ace-9458-1ab9634d0884",
+      "image_url": "https://mobbin.com/api/mcp/short/QedrD13W",
+      "position": 7
+    }
+  ]
+}

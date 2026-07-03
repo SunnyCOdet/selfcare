@@ -1,0 +1,28 @@
+{
+  "id": "2a5715b3-d4f4-4e41-9a5e-add547b998ce",
+  "name": "Connecting a health tracker",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2a5715b3-d4f4-4e41-9a5e-add547b998ce",
+  "app_name": "Superpower",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d574d3a9-f45e-497a-af52-31cfbba6c1ad",
+      "image_url": "https://mobbin.com/api/mcp/short/cpMlJnWO",
+      "position": 1
+    },
+    {
+      "screen_id": "4a9ddf72-cb16-49c9-98be-6b05401e038d",
+      "image_url": "https://mobbin.com/api/mcp/short/GTtArlQ0",
+      "position": 2
+    },
+    {
+      "screen_id": "3b5742ef-dbb2-44fd-8269-143ffb131797",
+      "image_url": "https://mobbin.com/api/mcp/short/WIm7r47I",
+      "position": 3
+    }
+  ]
+}

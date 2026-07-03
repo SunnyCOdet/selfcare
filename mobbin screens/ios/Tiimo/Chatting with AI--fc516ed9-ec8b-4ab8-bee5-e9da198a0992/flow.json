@@ -1,0 +1,54 @@
+{
+  "id": "fc516ed9-ec8b-4ab8-bee5-e9da198a0992",
+  "name": "Chatting with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fc516ed9-ec8b-4ab8-bee5-e9da198a0992",
+  "app_name": "Tiimo",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "82a74fbd-c1f2-4734-8c99-9c0f17b15d65",
+      "image_url": "https://mobbin.com/api/mcp/short/Gw7AojuQ",
+      "position": 1
+    },
+    {
+      "screen_id": "4e81e386-1b0f-46a4-a668-6f3ed721a78a",
+      "image_url": "https://mobbin.com/api/mcp/short/sS37474b",
+      "position": 2
+    },
+    {
+      "screen_id": "ed164b6c-6952-48e5-b56b-32a747e08c73",
+      "image_url": "https://mobbin.com/api/mcp/short/TiHJrNR3",
+      "position": 3
+    },
+    {
+      "screen_id": "0d95d89a-ebdd-4a3b-9f29-9b781325cd7f",
+      "image_url": "https://mobbin.com/api/mcp/short/DVmR3WOc",
+      "position": 4
+    },
+    {
+      "screen_id": "35794012-ff8c-4998-8b76-56a7e28d6d72",
+      "image_url": "https://mobbin.com/api/mcp/short/WCBZtlOh",
+      "position": 5
+    },
+    {
+      "screen_id": "b4b839d3-906c-49c6-a81b-bcf3008470a5",
+      "image_url": "https://mobbin.com/api/mcp/short/AijdPUC4",
+      "position": 6
+    },
+    {
+      "screen_id": "45a7dc11-a595-41d0-8069-dc06f3326e5a",
+      "image_url": "https://mobbin.com/api/mcp/short/noSJpIPz",
+      "position": 7
+    },
+    {
+      "screen_id": "e0a60bfe-a3b8-4f24-91b9-7a498e53b5f5",
+      "image_url": "https://mobbin.com/api/mcp/short/RWgtQeVB",
+      "position": 8
+    }
+  ]
+}

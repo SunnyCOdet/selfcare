@@ -1,0 +1,33 @@
+{
+  "id": "e120cae3-60fa-4c2c-ba23-8e766103e242",
+  "name": "Subscribing to premium",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e120cae3-60fa-4c2c-ba23-8e766103e242",
+  "app_name": "The Outsiders",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "9917344e-3eeb-48b4-9756-b87f3aec3da9",
+      "image_url": "https://mobbin.com/api/mcp/short/p61trm86",
+      "position": 1
+    },
+    {
+      "screen_id": "65112b07-4e73-4a48-a3f5-0a83e895108e",
+      "image_url": "https://mobbin.com/api/mcp/short/wV8gmbWt",
+      "position": 2
+    },
+    {
+      "screen_id": "2bd8918c-f2f0-4d61-9ee3-7663ac4057d0",
+      "image_url": "https://mobbin.com/api/mcp/short/8ov2RGyN",
+      "position": 3
+    },
+    {
+      "screen_id": "a2db1179-056d-4d98-9bfd-848339905051",
+      "image_url": "https://mobbin.com/api/mcp/short/CmyIUSPi",
+      "position": 4
+    }
+  ]
+}

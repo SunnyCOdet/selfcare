@@ -1,0 +1,23 @@
+{
+  "id": "f7d16aaf-cc2a-4a9c-a33a-beb0bda3ac84",
+  "name": "Connecting to Apple Health",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f7d16aaf-cc2a-4a9c-a33a-beb0bda3ac84",
+  "app_name": "Alma",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "438f2506-8e60-4f6b-b51f-c29642564ada",
+      "image_url": "https://mobbin.com/api/mcp/short/Hj9YD0nW",
+      "position": 1
+    },
+    {
+      "screen_id": "40f8c670-fe49-4eb6-8d26-1f3d7774faee",
+      "image_url": "https://mobbin.com/api/mcp/short/zbYbEQwo",
+      "position": 2
+    }
+  ]
+}

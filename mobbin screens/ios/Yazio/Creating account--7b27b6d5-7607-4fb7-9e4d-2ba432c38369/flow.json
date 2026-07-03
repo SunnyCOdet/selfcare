@@ -1,0 +1,43 @@
+{
+  "id": "7b27b6d5-7607-4fb7-9e4d-2ba432c38369",
+  "name": "Creating account",
+  "actions": [
+    "Creating Account"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7b27b6d5-7607-4fb7-9e4d-2ba432c38369",
+  "app_name": "Yazio",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "883ffd83-73d7-4365-8f83-e9e9b8ddb2ca",
+      "image_url": "https://mobbin.com/api/mcp/short/3XqHRmc2",
+      "position": 1
+    },
+    {
+      "screen_id": "557d32c2-7aa4-46b1-9a4d-d194bae43030",
+      "image_url": "https://mobbin.com/api/mcp/short/QLBFFl87",
+      "position": 2
+    },
+    {
+      "screen_id": "0b44a6d4-67d4-4e9c-b7f8-8d1af0fb07a3",
+      "image_url": "https://mobbin.com/api/mcp/short/R5gQfJ9e",
+      "position": 3
+    },
+    {
+      "screen_id": "279ce547-24e4-4e06-bdb6-94c1eedca43f",
+      "image_url": "https://mobbin.com/api/mcp/short/oevNiNZC",
+      "position": 4
+    },
+    {
+      "screen_id": "da9dc22b-6aea-49c8-9acf-0127c55d1dad",
+      "image_url": "https://mobbin.com/api/mcp/short/mZsUqxGE",
+      "position": 5
+    },
+    {
+      "screen_id": "a4df7c22-4bd8-4fdf-b23e-6494423e0c9f",
+      "image_url": "https://mobbin.com/api/mcp/short/RhtiEhJO",
+      "position": 6
+    }
+  ]
+}

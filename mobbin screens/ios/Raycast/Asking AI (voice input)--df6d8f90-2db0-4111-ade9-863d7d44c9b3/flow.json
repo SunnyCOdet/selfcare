@@ -1,0 +1,33 @@
+{
+  "id": "df6d8f90-2db0-4111-ade9-863d7d44c9b3",
+  "name": "Asking AI (voice input)",
+  "actions": [
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/df6d8f90-2db0-4111-ade9-863d7d44c9b3",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "48e1ef83-8ffe-4e82-8346-37c50817bb91",
+      "image_url": "https://mobbin.com/api/mcp/short/1fZKM7FO",
+      "position": 1
+    },
+    {
+      "screen_id": "2868efc6-a916-4462-8934-e3b976ab806e",
+      "image_url": "https://mobbin.com/api/mcp/short/LHMEEXd0",
+      "position": 2
+    },
+    {
+      "screen_id": "f9d0cc14-a1f5-45bb-9c04-f8feb8e1e683",
+      "image_url": "https://mobbin.com/api/mcp/short/kT8iJ9dz",
+      "position": 3
+    },
+    {
+      "screen_id": "e51e0201-c1c7-4d2d-9efb-2b6abb694cb7",
+      "image_url": "https://mobbin.com/api/mcp/short/WPdw9pk4",
+      "position": 4
+    }
+  ]
+}

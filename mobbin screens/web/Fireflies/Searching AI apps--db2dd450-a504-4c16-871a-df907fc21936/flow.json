@@ -1,0 +1,28 @@
+{
+  "id": "db2dd450-a504-4c16-871a-df907fc21936",
+  "name": "Searching AI apps",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/db2dd450-a504-4c16-871a-df907fc21936",
+  "app_name": "Fireflies",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "2e49066c-c248-443c-9a41-84a14565c4e1",
+      "image_url": "https://mobbin.com/api/mcp/short/umsLG6BH",
+      "position": 1
+    },
+    {
+      "screen_id": "269d9d24-b6c5-4cb6-9674-62afd0885267",
+      "image_url": "https://mobbin.com/api/mcp/short/yeFVHkGu",
+      "position": 2
+    },
+    {
+      "screen_id": "ff7397a0-eff7-4bc8-8c14-1a2991075c4b",
+      "image_url": "https://mobbin.com/api/mcp/short/ChEfmuTs",
+      "position": 3
+    }
+  ]
+}

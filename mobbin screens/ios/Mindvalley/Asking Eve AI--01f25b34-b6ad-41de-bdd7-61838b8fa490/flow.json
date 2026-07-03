@@ -1,0 +1,28 @@
+{
+  "id": "01f25b34-b6ad-41de-bdd7-61838b8fa490",
+  "name": "Asking Eve AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/01f25b34-b6ad-41de-bdd7-61838b8fa490",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "1086af93-5300-41b7-8339-90c8aab9d1cc",
+      "image_url": "https://mobbin.com/api/mcp/short/ndo8ZDmi",
+      "position": 1
+    },
+    {
+      "screen_id": "dce73aca-d8ce-4a1d-94a0-6b62616ca156",
+      "image_url": "https://mobbin.com/api/mcp/short/sj1mUebu",
+      "position": 2
+    },
+    {
+      "screen_id": "eea6ceb8-afb1-4998-8d68-cbc7205fa32f",
+      "image_url": "https://mobbin.com/api/mcp/short/sP22YihV",
+      "position": 3
+    }
+  ]
+}

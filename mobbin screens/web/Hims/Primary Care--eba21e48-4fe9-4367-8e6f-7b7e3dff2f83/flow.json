@@ -1,0 +1,21 @@
+{
+  "id": "eba21e48-4fe9-4367-8e6f-7b7e3dff2f83",
+  "name": "Primary Care",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/eba21e48-4fe9-4367-8e6f-7b7e3dff2f83",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "cf61120e-8f21-4120-9f9c-4df5b9d012e6",
+      "image_url": "https://mobbin.com/api/mcp/short/U5tga7qy",
+      "position": 1
+    },
+    {
+      "screen_id": "7f425477-5144-4cfd-9c1f-1225846ae21d",
+      "image_url": "https://mobbin.com/api/mcp/short/7CEiE2MN",
+      "position": 2
+    }
+  ]
+}

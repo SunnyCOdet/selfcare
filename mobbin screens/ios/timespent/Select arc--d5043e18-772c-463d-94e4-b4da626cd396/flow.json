@@ -1,0 +1,31 @@
+{
+  "id": "d5043e18-772c-463d-94e4-b4da626cd396",
+  "name": "Select arc",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d5043e18-772c-463d-94e4-b4da626cd396",
+  "app_name": "timespent",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "c79fd54d-610f-4a37-87c8-5dcd3a5e390c",
+      "image_url": "https://mobbin.com/api/mcp/short/pkGJfnQI",
+      "position": 1
+    },
+    {
+      "screen_id": "ddd9423a-70da-4958-a5e3-41695bb3d299",
+      "image_url": "https://mobbin.com/api/mcp/short/uNtM3vz7",
+      "position": 2
+    },
+    {
+      "screen_id": "cf955e9f-5571-4741-880d-f81d51074772",
+      "image_url": "https://mobbin.com/api/mcp/short/VNnbZ39E",
+      "position": 3
+    },
+    {
+      "screen_id": "25d71759-8444-4e55-b074-32f89f20435a",
+      "image_url": "https://mobbin.com/api/mcp/short/56oVch0G",
+      "position": 4
+    }
+  ]
+}

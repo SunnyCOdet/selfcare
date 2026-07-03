@@ -1,0 +1,33 @@
+{
+  "id": "8a8b3f6c-6c34-40cb-a895-3882d7a71a50",
+  "name": "Completing a tutorial",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8a8b3f6c-6c34-40cb-a895-3882d7a71a50",
+  "app_name": "Turo",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "86d71c0a-6cd6-4b9d-94bd-0ca659d57277",
+      "image_url": "https://mobbin.com/api/mcp/short/bNoAUF12",
+      "position": 1
+    },
+    {
+      "screen_id": "45c5e872-ae1e-4dba-af56-302bf19e5617",
+      "image_url": "https://mobbin.com/api/mcp/short/pdkX3oFS",
+      "position": 2
+    },
+    {
+      "screen_id": "4483b743-8fcd-49e3-8d3a-30061d25989a",
+      "image_url": "https://mobbin.com/api/mcp/short/RtenDtye",
+      "position": 3
+    },
+    {
+      "screen_id": "593e0c01-82e2-4dd3-92a4-132ea2799f58",
+      "image_url": "https://mobbin.com/api/mcp/short/o53x6Wll",
+      "position": 4
+    }
+  ]
+}

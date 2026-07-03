@@ -1,0 +1,33 @@
+{
+  "id": "f9b81b62-b6e4-40f0-9e32-b62d1de5bf74",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f9b81b62-b6e4-40f0-9e32-b62d1de5bf74",
+  "app_name": "SHEIN",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "40d4c050-5e90-4f0f-8628-6682f7541fdd",
+      "image_url": "https://mobbin.com/api/mcp/short/Mv8htQ9S",
+      "position": 1
+    },
+    {
+      "screen_id": "786004f1-1a3d-4cd1-b284-855fb7dc9e40",
+      "image_url": "https://mobbin.com/api/mcp/short/EZ3WNmB2",
+      "position": 2
+    },
+    {
+      "screen_id": "f0b893a4-2437-47ea-bfc9-c30350e60261",
+      "image_url": "https://mobbin.com/api/mcp/short/lV79324S",
+      "position": 3
+    },
+    {
+      "screen_id": "5b661acc-0597-4e25-9fe7-818e8eab943c",
+      "image_url": "https://mobbin.com/api/mcp/short/wLTtmFf3",
+      "position": 4
+    }
+  ]
+}

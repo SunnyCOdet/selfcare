@@ -1,0 +1,36 @@
+{
+  "id": "1f0fb1fa-8e07-42c0-96ea-45db53974656",
+  "name": "Goals (Home)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1f0fb1fa-8e07-42c0-96ea-45db53974656",
+  "app_name": "Alma",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "decbd1d7-a973-4d84-821d-a7dc1e83d85f",
+      "image_url": "https://mobbin.com/api/mcp/short/4QvUiH2Z",
+      "position": 1
+    },
+    {
+      "screen_id": "24fed3a5-9718-4222-8192-48c09184712b",
+      "image_url": "https://mobbin.com/api/mcp/short/OmoqvSHh",
+      "position": 2
+    },
+    {
+      "screen_id": "ccdb858f-6c75-4c24-bc68-44e6e029e34f",
+      "image_url": "https://mobbin.com/api/mcp/short/KQvLQYPX",
+      "position": 3
+    },
+    {
+      "screen_id": "2189fc34-4121-493e-a12e-9f1059e9f49c",
+      "image_url": "https://mobbin.com/api/mcp/short/uSHIJgke",
+      "position": 4
+    },
+    {
+      "screen_id": "aa92b8c3-2039-4685-bc61-cab99a6be221",
+      "image_url": "https://mobbin.com/api/mcp/short/wrsayRNG",
+      "position": 5
+    }
+  ]
+}

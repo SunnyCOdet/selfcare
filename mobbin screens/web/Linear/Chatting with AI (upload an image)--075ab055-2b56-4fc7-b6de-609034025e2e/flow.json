@@ -1,0 +1,44 @@
+{
+  "id": "075ab055-2b56-4fc7-b6de-609034025e2e",
+  "name": "Chatting with AI (upload an image)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/075ab055-2b56-4fc7-b6de-609034025e2e",
+  "app_name": "Linear",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "a0193431-e1b3-44c4-b1a2-1d1f4a017ccc",
+      "image_url": "https://mobbin.com/api/mcp/short/F3yOoABE",
+      "position": 1
+    },
+    {
+      "screen_id": "c6414c5c-fbbf-41e7-8b10-053383cd0896",
+      "image_url": "https://mobbin.com/api/mcp/short/CcbvkCh2",
+      "position": 2
+    },
+    {
+      "screen_id": "3f44061e-7cb1-4458-a097-80eaccdd9915",
+      "image_url": "https://mobbin.com/api/mcp/short/TQX9cjUg",
+      "position": 3
+    },
+    {
+      "screen_id": "258c9dee-119e-4db9-a94e-4c36349ae0c8",
+      "image_url": "https://mobbin.com/api/mcp/short/WI0TqJ5V",
+      "position": 4
+    },
+    {
+      "screen_id": "afa62cbe-083b-4234-ad90-8a689d8e28cd",
+      "image_url": "https://mobbin.com/api/mcp/short/t65Nea8n",
+      "position": 5
+    },
+    {
+      "screen_id": "136da279-adbd-4b9f-9f50-4034c458a851",
+      "image_url": "https://mobbin.com/api/mcp/short/qZzcvWrN",
+      "position": 6
+    }
+  ]
+}

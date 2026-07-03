@@ -1,0 +1,23 @@
+{
+  "id": "2e904085-a748-4fc4-9f81-b71cfdf02754",
+  "name": "Syncing with Apple Fitness",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2e904085-a748-4fc4-9f81-b71cfdf02754",
+  "app_name": "Runna",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "38ac1561-2d47-46ab-bff7-067d79f59a8a",
+      "image_url": "https://mobbin.com/api/mcp/short/pl8QQEMC",
+      "position": 1
+    },
+    {
+      "screen_id": "d61085a4-ef26-4b9c-8276-3292e7dbfa49",
+      "image_url": "https://mobbin.com/api/mcp/short/j0poetOC",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "56e193d6-9518-4ef8-93de-0fbe3872d4d4",
+  "name": "Fitness",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/56e193d6-9518-4ef8-93de-0fbe3872d4d4",
+  "app_name": "Bevel",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "25b9fe4f-75e9-4341-b9cd-4905f17fda56",
+      "image_url": "https://mobbin.com/api/mcp/short/q2yZiBp9",
+      "position": 1
+    },
+    {
+      "screen_id": "74df253c-88c5-4c18-91b3-fb9102ee54c1",
+      "image_url": "https://mobbin.com/api/mcp/short/VJRZEgMy",
+      "position": 2
+    },
+    {
+      "screen_id": "70391296-e949-458c-aa02-d4d0dd63df76",
+      "image_url": "https://mobbin.com/api/mcp/short/dAZUc4i2",
+      "position": 3
+    },
+    {
+      "screen_id": "5e9f39ef-11f4-4dac-a75d-1106b70e9f5f",
+      "image_url": "https://mobbin.com/api/mcp/short/WcEJOV3H",
+      "position": 4
+    },
+    {
+      "screen_id": "1c5ee0d5-ab6a-4753-9dc4-4cd92241a4e8",
+      "image_url": "https://mobbin.com/api/mcp/short/O45FSQUG",
+      "position": 5
+    },
+    {
+      "screen_id": "8afe35f5-23d2-4fb4-873a-74f68efceb86",
+      "image_url": "https://mobbin.com/api/mcp/short/9ZWxPia4",
+      "position": 6
+    },
+    {
+      "screen_id": "46de69b2-0e18-4cfd-aa58-2ed105de769b",
+      "image_url": "https://mobbin.com/api/mcp/short/n5MFUclO",
+      "position": 7
+    }
+  ]
+}

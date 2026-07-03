@@ -1,0 +1,43 @@
+{
+  "id": "3241a0f9-1ac4-47ec-87b0-3d319263210d",
+  "name": "Setting a streak goal",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3241a0f9-1ac4-47ec-87b0-3d319263210d",
+  "app_name": "Liven",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "85f59a4b-98e0-462e-aa63-2e6fcac06911",
+      "image_url": "https://mobbin.com/api/mcp/short/Ry4sanNx",
+      "position": 1
+    },
+    {
+      "screen_id": "92b03f22-7a06-49d3-8833-69ad40444247",
+      "image_url": "https://mobbin.com/api/mcp/short/fKedftDd",
+      "position": 2
+    },
+    {
+      "screen_id": "a317faa2-f405-4ae9-b928-c60ae8d32f11",
+      "image_url": "https://mobbin.com/api/mcp/short/KGRWEF4U",
+      "position": 3
+    },
+    {
+      "screen_id": "0f4b7ca0-cfd3-49e0-bcda-5572c6da5c68",
+      "image_url": "https://mobbin.com/api/mcp/short/wXQfmw34",
+      "position": 4
+    },
+    {
+      "screen_id": "d662ae7c-84c7-41f4-a9b4-780ad1d8e218",
+      "image_url": "https://mobbin.com/api/mcp/short/J0DsxQzN",
+      "position": 5
+    },
+    {
+      "screen_id": "0dea0bc7-d875-469c-aae1-aa0216855133",
+      "image_url": "https://mobbin.com/api/mcp/short/R9BbmdLz",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "719c6d84-fc18-473d-836d-34d06a2e5aed",
+  "name": "Downloading an AI model",
+  "actions": [
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/719c6d84-fc18-473d-836d-34d06a2e5aed",
+  "app_name": "Craft",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "879c335a-1efb-433d-ac25-743af837b5f3",
+      "image_url": "https://mobbin.com/api/mcp/short/xzJl7DEF",
+      "position": 1
+    },
+    {
+      "screen_id": "71dce468-b40e-4617-a163-a85690899813",
+      "image_url": "https://mobbin.com/api/mcp/short/wh9tExsh",
+      "position": 2
+    },
+    {
+      "screen_id": "ffbffbea-fea3-4599-922c-e448cc506545",
+      "image_url": "https://mobbin.com/api/mcp/short/3CpjXTVk",
+      "position": 3
+    },
+    {
+      "screen_id": "aeb2bfa4-3157-45a4-8751-b77e7cd14a22",
+      "image_url": "https://mobbin.com/api/mcp/short/9X0ppSpy",
+      "position": 4
+    }
+  ]
+}

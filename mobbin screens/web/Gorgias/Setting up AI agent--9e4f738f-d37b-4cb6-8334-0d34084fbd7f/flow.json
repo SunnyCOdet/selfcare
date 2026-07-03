@@ -1,0 +1,73 @@
+{
+  "id": "9e4f738f-d37b-4cb6-8334-0d34084fbd7f",
+  "name": "Setting up AI agent",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9e4f738f-d37b-4cb6-8334-0d34084fbd7f",
+  "app_name": "Gorgias",
+  "platform": "web",
+  "screen_count": 12,
+  "screens": [
+    {
+      "screen_id": "824675b8-e473-47a7-803c-ebf7aec7a170",
+      "image_url": "https://mobbin.com/api/mcp/short/8wcAW20a",
+      "position": 1
+    },
+    {
+      "screen_id": "53130063-9fd3-4299-8810-bd83830ae15a",
+      "image_url": "https://mobbin.com/api/mcp/short/exDaHSE5",
+      "position": 2
+    },
+    {
+      "screen_id": "6018dd21-9c3a-4680-aa69-e46176d821db",
+      "image_url": "https://mobbin.com/api/mcp/short/QBBp029l",
+      "position": 3
+    },
+    {
+      "screen_id": "f653e62f-7f28-4882-b975-cfbdfc0ec55d",
+      "image_url": "https://mobbin.com/api/mcp/short/TVOxKESn",
+      "position": 4
+    },
+    {
+      "screen_id": "2b115d31-248e-481b-9571-020657c13904",
+      "image_url": "https://mobbin.com/api/mcp/short/BOaZjya5",
+      "position": 5
+    },
+    {
+      "screen_id": "ec609aac-402a-4b48-ad48-e63dfce50b8a",
+      "image_url": "https://mobbin.com/api/mcp/short/DRI4JMvk",
+      "position": 6
+    },
+    {
+      "screen_id": "81d9bfcf-251d-49fe-a0f3-4f360ca3d515",
+      "image_url": "https://mobbin.com/api/mcp/short/Q3qGdE3y",
+      "position": 7
+    },
+    {
+      "screen_id": "2f8f10a1-0886-4e2b-a978-65150b784bdb",
+      "image_url": "https://mobbin.com/api/mcp/short/cmjNEQVX",
+      "position": 8
+    },
+    {
+      "screen_id": "30949071-182f-4b67-92b0-73ae063d4f11",
+      "image_url": "https://mobbin.com/api/mcp/short/JfKgahpF",
+      "position": 9
+    },
+    {
+      "screen_id": "a68782b3-efaa-4aa5-9212-0d5761efda3a",
+      "image_url": "https://mobbin.com/api/mcp/short/gyULYViS",
+      "position": 10
+    },
+    {
+      "screen_id": "3a90d4a0-2743-4a0f-8648-da2c6658399a",
+      "image_url": "https://mobbin.com/api/mcp/short/2eghMXyK",
+      "position": 11
+    },
+    {
+      "screen_id": "a145aa5f-d5c1-4b8f-b17b-f0b87d29bbea",
+      "image_url": "https://mobbin.com/api/mcp/short/ytqx7BaR",
+      "position": 12
+    }
+  ]
+}

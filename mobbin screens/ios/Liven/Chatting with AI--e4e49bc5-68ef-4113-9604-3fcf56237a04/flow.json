@@ -1,0 +1,43 @@
+{
+  "id": "e4e49bc5-68ef-4113-9604-3fcf56237a04",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e4e49bc5-68ef-4113-9604-3fcf56237a04",
+  "app_name": "Liven",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "8addf4a5-2cdd-4ca3-90dd-a6d8987f753b",
+      "image_url": "https://mobbin.com/api/mcp/short/3XFS10S7",
+      "position": 1
+    },
+    {
+      "screen_id": "1c5f2f40-25aa-4c41-8ed3-da7b3ad759c8",
+      "image_url": "https://mobbin.com/api/mcp/short/XeBxcXms",
+      "position": 2
+    },
+    {
+      "screen_id": "90ac5259-095b-4b6c-95d4-24db15c9099b",
+      "image_url": "https://mobbin.com/api/mcp/short/oNRWyHkN",
+      "position": 3
+    },
+    {
+      "screen_id": "ac942ee5-90f5-4f87-80c6-a775d94dbf00",
+      "image_url": "https://mobbin.com/api/mcp/short/G5ALZ6dR",
+      "position": 4
+    },
+    {
+      "screen_id": "07a16a41-4050-4178-977e-fec5d1405f2e",
+      "image_url": "https://mobbin.com/api/mcp/short/5B5KhY6G",
+      "position": 5
+    },
+    {
+      "screen_id": "432d47e4-e609-4aa9-8dc5-236455ff8291",
+      "image_url": "https://mobbin.com/api/mcp/short/uqQ7ZJfA",
+      "position": 6
+    }
+  ]
+}

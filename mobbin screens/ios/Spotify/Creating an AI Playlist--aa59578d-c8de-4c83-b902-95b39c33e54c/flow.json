@@ -1,0 +1,43 @@
+{
+  "id": "aa59578d-c8de-4c83-b902-95b39c33e54c",
+  "name": "Creating an AI Playlist",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aa59578d-c8de-4c83-b902-95b39c33e54c",
+  "app_name": "Spotify",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "817d6761-615b-4c16-a9f8-59e457e58f20",
+      "image_url": "https://mobbin.com/api/mcp/short/YVwASquP",
+      "position": 1
+    },
+    {
+      "screen_id": "5b77f60c-13ef-4ffd-979e-88d70fd3e67c",
+      "image_url": "https://mobbin.com/api/mcp/short/Fb6iEFaq",
+      "position": 2
+    },
+    {
+      "screen_id": "213c738b-ffcb-4f72-926f-63c7c4bf636e",
+      "image_url": "https://mobbin.com/api/mcp/short/iY4hYGln",
+      "position": 3
+    },
+    {
+      "screen_id": "6cde7c1e-5d64-466f-9ab1-052e23a55307",
+      "image_url": "https://mobbin.com/api/mcp/short/OFc0b4e5",
+      "position": 4
+    },
+    {
+      "screen_id": "7d5ee76a-23ec-431b-9d36-8ec25da67494",
+      "image_url": "https://mobbin.com/api/mcp/short/7vbW02p3",
+      "position": 5
+    },
+    {
+      "screen_id": "e0e5c85e-1854-4ba0-bd09-c1c80a7b4d95",
+      "image_url": "https://mobbin.com/api/mcp/short/HD5E1DQm",
+      "position": 6
+    }
+  ]
+}

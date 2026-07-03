@@ -1,0 +1,43 @@
+{
+  "id": "65f1c24d-d431-4589-921a-b1d19dfad99f",
+  "name": "Inviting an accountability partner",
+  "actions": [
+    "Inviting Teammates & Friends"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/65f1c24d-d431-4589-921a-b1d19dfad99f",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "a05f82c4-492a-4caf-bfd7-91abdb3ae32d",
+      "image_url": "https://mobbin.com/api/mcp/short/d1w1arSG",
+      "position": 1
+    },
+    {
+      "screen_id": "78ff192f-a947-4b39-9203-cdcf013a98da",
+      "image_url": "https://mobbin.com/api/mcp/short/iy4WHta6",
+      "position": 2
+    },
+    {
+      "screen_id": "8dbdbe24-0aff-4f1a-88d3-7577d66fb956",
+      "image_url": "https://mobbin.com/api/mcp/short/fhzyEk2s",
+      "position": 3
+    },
+    {
+      "screen_id": "a1123c5f-86ea-4515-acba-a931f3488065",
+      "image_url": "https://mobbin.com/api/mcp/short/7ERo4Jwg",
+      "position": 4
+    },
+    {
+      "screen_id": "be5c0fc0-c4a2-497a-a152-a8774c9ab9f1",
+      "image_url": "https://mobbin.com/api/mcp/short/8q51SSM6",
+      "position": 5
+    },
+    {
+      "screen_id": "dc3a1779-4e76-4012-bc36-b06b4585bf64",
+      "image_url": "https://mobbin.com/api/mcp/short/MlhouL1C",
+      "position": 6
+    }
+  ]
+}

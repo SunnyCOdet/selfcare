@@ -1,0 +1,44 @@
+{
+  "id": "e9426e78-93bc-4634-8a83-1093733f845b",
+  "name": "Creating a slide with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e9426e78-93bc-4634-8a83-1093733f845b",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "4cb25201-e4e1-4446-a1f8-813eba8c43af",
+      "image_url": "https://mobbin.com/api/mcp/short/5zwUAptX",
+      "position": 1
+    },
+    {
+      "screen_id": "c9388934-7f88-4b5c-a22f-bfad8ac38942",
+      "image_url": "https://mobbin.com/api/mcp/short/2jxodJKu",
+      "position": 2
+    },
+    {
+      "screen_id": "6089ea12-478b-4a9a-bcd7-ee7e92f65ba4",
+      "image_url": "https://mobbin.com/api/mcp/short/SHxKnhWR",
+      "position": 3
+    },
+    {
+      "screen_id": "88f5836e-3788-4707-9da3-7fcbb0d0e7bb",
+      "image_url": "https://mobbin.com/api/mcp/short/aMtRjGaX",
+      "position": 4
+    },
+    {
+      "screen_id": "e5546d96-31cf-47fe-984f-cdacb55a01fd",
+      "image_url": "https://mobbin.com/api/mcp/short/VApiVlj2",
+      "position": 5
+    },
+    {
+      "screen_id": "7d3d94ee-af8b-40a4-b3cc-9b8388e258c4",
+      "image_url": "https://mobbin.com/api/mcp/short/hvHULGuJ",
+      "position": 6
+    }
+  ]
+}

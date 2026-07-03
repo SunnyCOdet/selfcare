@@ -1,0 +1,38 @@
+{
+  "id": "d61cb3d7-4208-46a1-a0fc-a7e7626b5b55",
+  "name": "Chatting with Meta AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d61cb3d7-4208-46a1-a0fc-a7e7626b5b55",
+  "app_name": "Meta AI",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "66d46b60-2981-4ef0-94d8-47b666468e04",
+      "image_url": "https://mobbin.com/api/mcp/short/t17SymT3",
+      "position": 1
+    },
+    {
+      "screen_id": "689f27d1-f469-4105-854a-1fec0490e7a4",
+      "image_url": "https://mobbin.com/api/mcp/short/YdNiF3bd",
+      "position": 2
+    },
+    {
+      "screen_id": "e0dad73b-93f8-4760-b265-ca5f3e17fa0c",
+      "image_url": "https://mobbin.com/api/mcp/short/0FUgoFR1",
+      "position": 3
+    },
+    {
+      "screen_id": "87770f07-d7e4-4b3d-a837-d72859df7521",
+      "image_url": "https://mobbin.com/api/mcp/short/qn1RmPJ5",
+      "position": 4
+    },
+    {
+      "screen_id": "43d92f2e-afa7-409e-9802-040085b54a1c",
+      "image_url": "https://mobbin.com/api/mcp/short/mDXaCaxu",
+      "position": 5
+    }
+  ]
+}

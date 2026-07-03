@@ -1,0 +1,34 @@
+{
+  "id": "fb40bfed-4468-4ef4-8a3d-d34a7d0f6a33",
+  "name": "Generating a workflow with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fb40bfed-4468-4ef4-8a3d-d34a7d0f6a33",
+  "app_name": "Copy.ai",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "592e1c9a-b99e-4f33-b49a-0d6eb49d87d3",
+      "image_url": "https://mobbin.com/api/mcp/short/Uv0qDVfB",
+      "position": 1
+    },
+    {
+      "screen_id": "c60fba37-462b-4b4f-b658-715ebe19b471",
+      "image_url": "https://mobbin.com/api/mcp/short/Kh8evKaR",
+      "position": 2
+    },
+    {
+      "screen_id": "71b615ec-6c32-425a-b5d5-9d46878977c5",
+      "image_url": "https://mobbin.com/api/mcp/short/bbu6HJ9O",
+      "position": 3
+    },
+    {
+      "screen_id": "641d65d9-4fec-444a-9eec-dffb52d993c7",
+      "image_url": "https://mobbin.com/api/mcp/short/qIRe6RGb",
+      "position": 4
+    }
+  ]
+}

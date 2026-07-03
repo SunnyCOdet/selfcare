@@ -1,0 +1,43 @@
+{
+  "id": "dcb43f1e-d11d-4b46-9f46-afd9f528db18",
+  "name": "Chatting with Bevel AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dcb43f1e-d11d-4b46-9f46-afd9f528db18",
+  "app_name": "Bevel",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "ea69060b-36e5-454b-adc9-f87c153e7b17",
+      "image_url": "https://mobbin.com/api/mcp/short/OMxbNPLL",
+      "position": 1
+    },
+    {
+      "screen_id": "1849592b-cc3f-4ead-845b-1b0ce6627f27",
+      "image_url": "https://mobbin.com/api/mcp/short/qDy7lGGR",
+      "position": 2
+    },
+    {
+      "screen_id": "dbac4c58-0aa9-453e-ad48-d7ec66edd385",
+      "image_url": "https://mobbin.com/api/mcp/short/1a3yXDfZ",
+      "position": 3
+    },
+    {
+      "screen_id": "aa995e52-f36b-415d-a054-1ea590da5752",
+      "image_url": "https://mobbin.com/api/mcp/short/5MXNVRSo",
+      "position": 4
+    },
+    {
+      "screen_id": "fc6d4510-4d40-424b-9ee4-52b4f0e0e1a5",
+      "image_url": "https://mobbin.com/api/mcp/short/mQz7pJ09",
+      "position": 5
+    },
+    {
+      "screen_id": "adaa1131-21f2-4250-96e4-4ba69b799acf",
+      "image_url": "https://mobbin.com/api/mcp/short/gdfGmHg8",
+      "position": 6
+    }
+  ]
+}

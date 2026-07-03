@@ -1,0 +1,26 @@
+{
+  "id": "24008106-068d-4871-b191-6b273c32a304",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/24008106-068d-4871-b191-6b273c32a304",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "fd9c125a-6145-46f2-9260-ab76e3a5c603",
+      "image_url": "https://mobbin.com/api/mcp/short/EAQdx3O2",
+      "position": 1
+    },
+    {
+      "screen_id": "5c3eb1f6-8fed-4d66-a7d3-5d9379c61361",
+      "image_url": "https://mobbin.com/api/mcp/short/GNJ0NDKO",
+      "position": 2
+    },
+    {
+      "screen_id": "1dc11d19-505d-4259-81a5-a55cc4948e89",
+      "image_url": "https://mobbin.com/api/mcp/short/FyXggrpW",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "1fa7c20d-6d4c-4c74-bd88-83aa8eee833b",
+  "name": "Onboarding",
+  "actions": [
+    "Requesting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1fa7c20d-6d4c-4c74-bd88-83aa8eee833b",
+  "app_name": "incident.io",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "1a2f60e2-10d1-4fc3-82a6-875096ff78ac",
+      "image_url": "https://mobbin.com/api/mcp/short/qzAsW3uK",
+      "position": 1
+    },
+    {
+      "screen_id": "a5eb85b5-bc47-4f9c-a0bf-1babf66aaa08",
+      "image_url": "https://mobbin.com/api/mcp/short/4dgFOpWs",
+      "position": 2
+    },
+    {
+      "screen_id": "8ecc5d65-4367-4d8f-a189-3b5f747670c2",
+      "image_url": "https://mobbin.com/api/mcp/short/oRey7xom",
+      "position": 3
+    },
+    {
+      "screen_id": "87e00ac1-e7dc-4b07-922e-d0fc43fe90d1",
+      "image_url": "https://mobbin.com/api/mcp/short/1yOJWuj2",
+      "position": 4
+    },
+    {
+      "screen_id": "add94852-118f-40d3-92d4-9758721efe99",
+      "image_url": "https://mobbin.com/api/mcp/short/bjunEYlt",
+      "position": 5
+    },
+    {
+      "screen_id": "c1cb2ed5-dfc5-433a-a15b-e2786e71eeaa",
+      "image_url": "https://mobbin.com/api/mcp/short/bXm9tuAe",
+      "position": 6
+    },
+    {
+      "screen_id": "e637f80b-cf6c-4aa7-865c-598c3514b25d",
+      "image_url": "https://mobbin.com/api/mcp/short/Jf17RTuv",
+      "position": 7
+    },
+    {
+      "screen_id": "d38c61e2-912d-4c2f-adeb-fb0ae14d49da",
+      "image_url": "https://mobbin.com/api/mcp/short/61P2eCnB",
+      "position": 8
+    },
+    {
+      "screen_id": "8c2d772c-0f84-4c51-bcae-2e8840a51271",
+      "image_url": "https://mobbin.com/api/mcp/short/E9Zm7meW",
+      "position": 9
+    },
+    {
+      "screen_id": "4c305f3a-f029-40e0-b199-1ca920c99b24",
+      "image_url": "https://mobbin.com/api/mcp/short/MCOuZaBh",
+      "position": 10
+    },
+    {
+      "screen_id": "8343b547-4a7a-42a1-b0a4-ab60afd617e4",
+      "image_url": "https://mobbin.com/api/mcp/short/kwK5xyHI",
+      "position": 11
+    }
+  ]
+}

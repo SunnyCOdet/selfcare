@@ -1,0 +1,33 @@
+{
+  "id": "b7936653-2b13-4720-91f0-84a43d82046a",
+  "name": "Chatting with Shila AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b7936653-2b13-4720-91f0-84a43d82046a",
+  "app_name": "Shopee",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2b527a49-a554-44d6-b70c-f909027a9cbe",
+      "image_url": "https://mobbin.com/api/mcp/short/qR8a3Q8l",
+      "position": 1
+    },
+    {
+      "screen_id": "212525ed-cce8-47fe-8c4d-091f4261d55f",
+      "image_url": "https://mobbin.com/api/mcp/short/1FsF8Z1e",
+      "position": 2
+    },
+    {
+      "screen_id": "1e153ae9-4e1a-4404-8d9e-9e5f49bb222c",
+      "image_url": "https://mobbin.com/api/mcp/short/tMDppcDK",
+      "position": 3
+    },
+    {
+      "screen_id": "c01eab7e-c4a4-4730-8f09-ce4e766e2816",
+      "image_url": "https://mobbin.com/api/mcp/short/obOIv1oC",
+      "position": 4
+    }
+  ]
+}

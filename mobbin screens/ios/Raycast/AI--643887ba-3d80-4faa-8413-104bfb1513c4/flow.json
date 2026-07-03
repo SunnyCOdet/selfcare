@@ -1,0 +1,31 @@
+{
+  "id": "643887ba-3d80-4faa-8413-104bfb1513c4",
+  "name": "AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/643887ba-3d80-4faa-8413-104bfb1513c4",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "50723328-b69f-440b-acc6-8db836973379",
+      "image_url": "https://mobbin.com/api/mcp/short/ReIlMgfN",
+      "position": 1
+    },
+    {
+      "screen_id": "8be9b529-838c-4f14-ab03-77d0c3dee245",
+      "image_url": "https://mobbin.com/api/mcp/short/wfYLi1Hx",
+      "position": 2
+    },
+    {
+      "screen_id": "8940e495-0924-4b49-9027-7d2e621b4cc8",
+      "image_url": "https://mobbin.com/api/mcp/short/aOjjS22E",
+      "position": 3
+    },
+    {
+      "screen_id": "560c3889-d2d0-4430-8b29-d37807b73ffb",
+      "image_url": "https://mobbin.com/api/mcp/short/k7mpQ4qS",
+      "position": 4
+    }
+  ]
+}

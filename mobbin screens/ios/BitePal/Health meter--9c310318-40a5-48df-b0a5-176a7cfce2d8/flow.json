@@ -1,0 +1,21 @@
+{
+  "id": "9c310318-40a5-48df-b0a5-176a7cfce2d8",
+  "name": "Health meter",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9c310318-40a5-48df-b0a5-176a7cfce2d8",
+  "app_name": "BitePal",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "ba0e7ba6-b351-4a94-8143-aa628aa0999c",
+      "image_url": "https://mobbin.com/api/mcp/short/3qHrWuQM",
+      "position": 1
+    },
+    {
+      "screen_id": "904bb160-7998-47a0-acd8-f0ea3b401004",
+      "image_url": "https://mobbin.com/api/mcp/short/bvwNvpfW",
+      "position": 2
+    }
+  ]
+}

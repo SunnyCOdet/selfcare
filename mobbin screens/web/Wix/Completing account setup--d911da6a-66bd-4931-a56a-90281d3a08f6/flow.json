@@ -1,0 +1,44 @@
+{
+  "id": "d911da6a-66bd-4931-a56a-90281d3a08f6",
+  "name": "Completing account setup",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d911da6a-66bd-4931-a56a-90281d3a08f6",
+  "app_name": "Wix",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "f3450558-7366-4e04-9b52-5a5a8249ba28",
+      "image_url": "https://mobbin.com/api/mcp/short/QbjTtshB",
+      "position": 1
+    },
+    {
+      "screen_id": "983379e0-a013-4e3a-a5ff-130d4d9be6a1",
+      "image_url": "https://mobbin.com/api/mcp/short/qpV7HAaU",
+      "position": 2
+    },
+    {
+      "screen_id": "3e4f7d11-8659-4d41-8235-d5495c0fa6ef",
+      "image_url": "https://mobbin.com/api/mcp/short/BSipLrDt",
+      "position": 3
+    },
+    {
+      "screen_id": "c0592ccc-cc33-41fa-851b-7dcdc6b724fb",
+      "image_url": "https://mobbin.com/api/mcp/short/DSIKU0dD",
+      "position": 4
+    },
+    {
+      "screen_id": "d5dd6472-20f0-49e4-966b-83afde993e37",
+      "image_url": "https://mobbin.com/api/mcp/short/2suSwClr",
+      "position": 5
+    },
+    {
+      "screen_id": "83b93b75-6a50-4a82-9e20-3200adb25559",
+      "image_url": "https://mobbin.com/api/mcp/short/a42XTT0n",
+      "position": 6
+    }
+  ]
+}

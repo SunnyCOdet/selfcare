@@ -1,0 +1,43 @@
+{
+  "id": "34655d93-3325-44cd-8848-3ddda2b16c61",
+  "name": "Chatting Sidekick AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/34655d93-3325-44cd-8848-3ddda2b16c61",
+  "app_name": "monday.com",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "8b8954ab-16d1-44a3-8997-3f3f448b77a8",
+      "image_url": "https://mobbin.com/api/mcp/short/vGa1knIk",
+      "position": 1
+    },
+    {
+      "screen_id": "0f30deb9-3c78-4565-913a-92249e1702bb",
+      "image_url": "https://mobbin.com/api/mcp/short/2bbN49BX",
+      "position": 2
+    },
+    {
+      "screen_id": "f4d1b608-8e44-437c-bd94-ee6371c564e7",
+      "image_url": "https://mobbin.com/api/mcp/short/5julfd7T",
+      "position": 3
+    },
+    {
+      "screen_id": "c7012004-4711-4642-9c14-7ceea9aba852",
+      "image_url": "https://mobbin.com/api/mcp/short/lI2cTOw9",
+      "position": 4
+    },
+    {
+      "screen_id": "3f59f80e-9f42-45b3-9e0c-bd1c8aeef49f",
+      "image_url": "https://mobbin.com/api/mcp/short/fQt1PCZa",
+      "position": 5
+    },
+    {
+      "screen_id": "1e6376c8-fc60-45f1-a2b1-0b86d80c08c4",
+      "image_url": "https://mobbin.com/api/mcp/short/qPVjJTU8",
+      "position": 6
+    }
+  ]
+}

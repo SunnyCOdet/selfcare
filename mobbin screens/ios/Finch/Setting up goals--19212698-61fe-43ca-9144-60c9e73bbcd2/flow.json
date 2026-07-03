@@ -1,0 +1,44 @@
+{
+  "id": "19212698-61fe-43ca-9144-60c9e73bbcd2",
+  "name": "Setting up goals",
+  "actions": [
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/19212698-61fe-43ca-9144-60c9e73bbcd2",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "cff8f15a-488e-455b-973a-e1ce9e35193f",
+      "image_url": "https://mobbin.com/api/mcp/short/115MJ2JE",
+      "position": 1
+    },
+    {
+      "screen_id": "440380e1-c53a-4479-bc1a-4f777185dba2",
+      "image_url": "https://mobbin.com/api/mcp/short/NWpLBEUm",
+      "position": 2
+    },
+    {
+      "screen_id": "ebe5353b-e179-4171-a570-bde8d6bcd24b",
+      "image_url": "https://mobbin.com/api/mcp/short/mgWMsDSC",
+      "position": 3
+    },
+    {
+      "screen_id": "a06ac851-6e51-427f-bdb8-1ddce6f0e64a",
+      "image_url": "https://mobbin.com/api/mcp/short/Eh0nHrhl",
+      "position": 4
+    },
+    {
+      "screen_id": "7719c649-c2b1-4ad7-aca6-1a232ba78c7d",
+      "image_url": "https://mobbin.com/api/mcp/short/FViUfFVS",
+      "position": 5
+    },
+    {
+      "screen_id": "c229ad54-ed26-4dec-80d1-399d54964f31",
+      "image_url": "https://mobbin.com/api/mcp/short/D6ZxTDQ1",
+      "position": 6
+    }
+  ]
+}

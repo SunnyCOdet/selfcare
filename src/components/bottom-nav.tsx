@@ -10,22 +10,28 @@ const TABS = [
 
 export function BottomNav({ active }: { active: string }) {
   return (
-    <nav className="md:hidden fixed bottom-0 inset-x-0 z-50 border-t border-white/[0.06] bg-background/85 backdrop-blur-2xl pb-[env(safe-area-inset-bottom)]">
-      <div className="grid grid-cols-4 h-[4.25rem]">
+    <nav className="fixed inset-x-0 bottom-0 z-50 border-t border-border bg-background/88 pb-[env(safe-area-inset-bottom)] backdrop-blur-2xl md:hidden">
+      <div className="grid h-[4.35rem] grid-cols-4">
         {TABS.map((t) => {
           const isActive = active === t.key;
           return (
             <Link
               key={t.key}
               href={t.href}
-              className={`relative flex flex-col items-center justify-center gap-1 transition-transform active:scale-90 ${
-                isActive ? "text-accent" : "text-muted/70"
+              className={`relative flex flex-col items-center justify-center gap-1 transition-all active:scale-95 ${
+                isActive ? "text-accent" : "text-muted/70 hover:text-foreground"
               }`}
             >
               {isActive && (
-                <span className="absolute top-0 h-0.5 w-10 rounded-full bg-gradient-to-r from-violet-500 to-fuchsia-500" />
+                <span className="absolute top-2 h-1 w-1 rounded-full bg-accent shadow-[0_0_18px_rgba(200,255,61,0.8)]" />
               )}
-              <t.icon className="w-[22px] h-[22px]" strokeWidth={isActive ? 2.4 : 1.9} />
+              <span
+                className={`flex size-9 items-center justify-center rounded-full transition-colors ${
+                  isActive ? "bg-accent/10" : "bg-transparent"
+                }`}
+              >
+                <t.icon className="size-[21px]" strokeWidth={isActive ? 2.4 : 1.9} />
+              </span>
               <span className={`text-[10px] tracking-wide ${isActive ? "font-semibold" : "font-medium"}`}>
                 {t.label}
               </span>

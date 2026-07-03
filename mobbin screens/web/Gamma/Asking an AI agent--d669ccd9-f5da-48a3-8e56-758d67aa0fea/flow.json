@@ -1,0 +1,34 @@
+{
+  "id": "d669ccd9-f5da-48a3-8e56-758d67aa0fea",
+  "name": "Asking an AI agent",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d669ccd9-f5da-48a3-8e56-758d67aa0fea",
+  "app_name": "Gamma",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3b56a0fb-6471-4072-8075-98ceebc3ea00",
+      "image_url": "https://mobbin.com/api/mcp/short/Am9QveYZ",
+      "position": 1
+    },
+    {
+      "screen_id": "88dff657-1c74-4d1e-8f32-5637704bdbde",
+      "image_url": "https://mobbin.com/api/mcp/short/UO5HGIuN",
+      "position": 2
+    },
+    {
+      "screen_id": "11154921-54a8-414a-b0ec-209b3ee2fbdc",
+      "image_url": "https://mobbin.com/api/mcp/short/C7qVVb1w",
+      "position": 3
+    },
+    {
+      "screen_id": "3abbe473-9f4d-48f4-9ecc-10afbca10e0a",
+      "image_url": "https://mobbin.com/api/mcp/short/6uFFOkZg",
+      "position": 4
+    }
+  ]
+}

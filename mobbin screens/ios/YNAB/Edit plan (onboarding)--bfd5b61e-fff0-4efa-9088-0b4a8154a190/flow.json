@@ -1,0 +1,41 @@
+{
+  "id": "bfd5b61e-fff0-4efa-9088-0b4a8154a190",
+  "name": "Edit plan (onboarding)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/bfd5b61e-fff0-4efa-9088-0b4a8154a190",
+  "app_name": "YNAB",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "0edeeee7-f4f0-4b93-b561-73c0b3336419",
+      "image_url": "https://mobbin.com/api/mcp/short/3MjdB7MA",
+      "position": 1
+    },
+    {
+      "screen_id": "7fa8ece8-2720-42d1-be96-129b913c26b1",
+      "image_url": "https://mobbin.com/api/mcp/short/vmrhYAcj",
+      "position": 2
+    },
+    {
+      "screen_id": "8b51bd26-80e2-44bb-843d-184f98915d29",
+      "image_url": "https://mobbin.com/api/mcp/short/FWO8hMSB",
+      "position": 3
+    },
+    {
+      "screen_id": "37e1e201-c658-41c6-b1cd-1b3d89fbdad4",
+      "image_url": "https://mobbin.com/api/mcp/short/4mFe7BJR",
+      "position": 4
+    },
+    {
+      "screen_id": "7562ad79-afe5-4eb1-a226-7297ccbc228d",
+      "image_url": "https://mobbin.com/api/mcp/short/sAOd7Ndz",
+      "position": 5
+    },
+    {
+      "screen_id": "2b57664f-1b6d-4c22-9c8d-c159e0827c0b",
+      "image_url": "https://mobbin.com/api/mcp/short/h1fVcOku",
+      "position": 6
+    }
+  ]
+}

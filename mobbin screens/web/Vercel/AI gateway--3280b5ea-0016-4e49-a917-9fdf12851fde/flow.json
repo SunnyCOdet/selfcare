@@ -1,0 +1,41 @@
+{
+  "id": "3280b5ea-0016-4e49-a917-9fdf12851fde",
+  "name": "AI gateway",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3280b5ea-0016-4e49-a917-9fdf12851fde",
+  "app_name": "Vercel",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "c54df5c8-f72c-406e-bb92-a9a6b116f0a5",
+      "image_url": "https://mobbin.com/api/mcp/short/jkmoZr9V",
+      "position": 1
+    },
+    {
+      "screen_id": "49f9fd7c-f3c3-44f6-b4e9-c49e188fd279",
+      "image_url": "https://mobbin.com/api/mcp/short/cf6Aev2K",
+      "position": 2
+    },
+    {
+      "screen_id": "43b56b19-c2f2-4adf-acdc-445c98112c87",
+      "image_url": "https://mobbin.com/api/mcp/short/pUxvuDi9",
+      "position": 3
+    },
+    {
+      "screen_id": "6cf10946-059f-4b49-b0b6-392d4b8e9863",
+      "image_url": "https://mobbin.com/api/mcp/short/GaCmD7Gs",
+      "position": 4
+    },
+    {
+      "screen_id": "684fc9a5-8990-4f93-8fc3-28e1e0750078",
+      "image_url": "https://mobbin.com/api/mcp/short/v4ihwaHu",
+      "position": 5
+    },
+    {
+      "screen_id": "abbadfbe-0db6-453b-b9bc-ccb7ce2d60ed",
+      "image_url": "https://mobbin.com/api/mcp/short/Y2RPQF9z",
+      "position": 6
+    }
+  ]
+}

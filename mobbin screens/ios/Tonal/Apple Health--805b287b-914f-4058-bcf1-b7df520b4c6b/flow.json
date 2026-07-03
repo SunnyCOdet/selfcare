@@ -1,0 +1,31 @@
+{
+  "id": "805b287b-914f-4058-bcf1-b7df520b4c6b",
+  "name": "Apple Health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/805b287b-914f-4058-bcf1-b7df520b4c6b",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "4d6bde90-cad3-460d-b3fa-f14f0bc71daa",
+      "image_url": "https://mobbin.com/api/mcp/short/29tI2iIx",
+      "position": 1
+    },
+    {
+      "screen_id": "dea4498d-49dd-4103-897a-e437ee4ebd37",
+      "image_url": "https://mobbin.com/api/mcp/short/JQcZP5QF",
+      "position": 2
+    },
+    {
+      "screen_id": "7f04dd4d-e61a-4f6d-8992-e5d5edc452ce",
+      "image_url": "https://mobbin.com/api/mcp/short/lcdNuXnB",
+      "position": 3
+    },
+    {
+      "screen_id": "b6bde927-e8be-4693-ab11-0e22e0ad8396",
+      "image_url": "https://mobbin.com/api/mcp/short/CAemnYl9",
+      "position": 4
+    }
+  ]
+}

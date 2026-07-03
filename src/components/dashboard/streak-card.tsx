@@ -32,19 +32,19 @@ export function StreakCard({ streak }: { streak: Streak | null }) {
       </p>
       <p className="text-sm text-muted mt-1.5">
         {isRecord
-          ? "It's your longest streak — don't stop!"
+          ? "It's your longest streak - don't stop."
           : lit
             ? `Record is ${longest}. Go take it.`
             : "Complete 70%+ of today to light the flame."}
       </p>
 
       <div className="grid grid-cols-2 gap-3 mt-5">
-        <div className="bg-surface-2 rounded-2xl py-3.5">
+        <div className="metric-tile py-3.5">
           <Trophy className="w-4 h-4 text-warning mx-auto mb-1" />
           <p className="text-xl font-extrabold leading-none">{longest}</p>
           <p className="text-[10px] text-muted uppercase tracking-widest mt-1.5">Best</p>
         </div>
-        <div className="bg-surface-2 rounded-2xl py-3.5">
+        <div className="metric-tile py-3.5">
           <CalendarCheck className="w-4 h-4 text-success mx-auto mb-1" />
           <p className="text-xl font-extrabold leading-none">{total}</p>
           <p className="text-[10px] text-muted uppercase tracking-widest mt-1.5">Days done</p>

@@ -1,0 +1,46 @@
+{
+  "id": "8c8d8057-8c32-493c-abde-3d5a5cbdf5f7",
+  "name": "Health metrics trends",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8c8d8057-8c32-493c-abde-3d5a5cbdf5f7",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "adee5fb5-13af-43c8-bd36-69b4f37c00b9",
+      "image_url": "https://mobbin.com/api/mcp/short/OqEFqsy3",
+      "position": 1
+    },
+    {
+      "screen_id": "591f5bfa-cc70-491f-9dac-1fb54b1e29f6",
+      "image_url": "https://mobbin.com/api/mcp/short/HOmIHuBj",
+      "position": 2
+    },
+    {
+      "screen_id": "4c9f87f3-0c59-44db-95d9-4e3399812e9c",
+      "image_url": "https://mobbin.com/api/mcp/short/s7gGNUS5",
+      "position": 3
+    },
+    {
+      "screen_id": "f25bf312-f698-46d4-9a8d-d59c14b73172",
+      "image_url": "https://mobbin.com/api/mcp/short/MQ2myIk6",
+      "position": 4
+    },
+    {
+      "screen_id": "21890303-2c55-4e1b-aa9b-1dc3c414926d",
+      "image_url": "https://mobbin.com/api/mcp/short/VzHhfu5D",
+      "position": 5
+    },
+    {
+      "screen_id": "d14e73c4-630e-41c2-ae54-786a23738221",
+      "image_url": "https://mobbin.com/api/mcp/short/n2SpGvv1",
+      "position": 6
+    },
+    {
+      "screen_id": "ed7b3534-b986-4ee4-a903-1bcb6e8ad525",
+      "image_url": "https://mobbin.com/api/mcp/short/FKv5OJTD",
+      "position": 7
+    }
+  ]
+}

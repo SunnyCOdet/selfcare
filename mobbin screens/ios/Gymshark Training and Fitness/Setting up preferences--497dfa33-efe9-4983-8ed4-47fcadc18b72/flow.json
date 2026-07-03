@@ -1,0 +1,68 @@
+{
+  "id": "497dfa33-efe9-4983-8ed4-47fcadc18b72",
+  "name": "Setting up preferences",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/497dfa33-efe9-4983-8ed4-47fcadc18b72",
+  "app_name": "Gymshark Training and Fitness",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "221c7e62-7c22-4843-99c7-e5e365a492a6",
+      "image_url": "https://mobbin.com/api/mcp/short/dJ3oNuYm",
+      "position": 1
+    },
+    {
+      "screen_id": "95799c9c-f77e-4b46-8b07-8bcf1a15263d",
+      "image_url": "https://mobbin.com/api/mcp/short/DhZW68tS",
+      "position": 2
+    },
+    {
+      "screen_id": "a0fbf329-553b-47cf-889a-4dfe3dbecad8",
+      "image_url": "https://mobbin.com/api/mcp/short/e7C4Ukdd",
+      "position": 3
+    },
+    {
+      "screen_id": "a68e8fca-42ce-4b4d-824c-805b116aba03",
+      "image_url": "https://mobbin.com/api/mcp/short/xSuSQnw3",
+      "position": 4
+    },
+    {
+      "screen_id": "14c9d80b-603a-448f-a04f-40baabc4edba",
+      "image_url": "https://mobbin.com/api/mcp/short/dG4a70Sx",
+      "position": 5
+    },
+    {
+      "screen_id": "eda2069d-2ed4-4cf8-8032-3ea1bf995f5f",
+      "image_url": "https://mobbin.com/api/mcp/short/N30HAQZZ",
+      "position": 6
+    },
+    {
+      "screen_id": "628f262c-1109-42e5-aec2-7b26fbf953ba",
+      "image_url": "https://mobbin.com/api/mcp/short/tLiapqqu",
+      "position": 7
+    },
+    {
+      "screen_id": "672a45c3-4bf9-4803-9ffe-9e172bacfb7a",
+      "image_url": "https://mobbin.com/api/mcp/short/NxicGZV5",
+      "position": 8
+    },
+    {
+      "screen_id": "06c18f66-6af2-41c3-bbb4-a5b2ebefb029",
+      "image_url": "https://mobbin.com/api/mcp/short/EMBxHPIe",
+      "position": 9
+    },
+    {
+      "screen_id": "cdaec103-f25d-4ac5-819e-e21c86c1aa37",
+      "image_url": "https://mobbin.com/api/mcp/short/QFACDoOR",
+      "position": 10
+    },
+    {
+      "screen_id": "92c8c5c5-2563-468d-bb46-0dfc07319bf9",
+      "image_url": "https://mobbin.com/api/mcp/short/XcsqPUz0",
+      "position": 11
+    }
+  ]
+}

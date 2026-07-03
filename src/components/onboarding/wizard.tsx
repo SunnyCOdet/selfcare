@@ -2,7 +2,7 @@
 
 /**
  * Lovi-style onboarding (one question per screen, mascot speech bubbles,
- * big option cards, auto-advance) rebuilt on shadcn/ui — for an all-in-one
+ * big option cards, auto-advance) rebuilt on shadcn/ui for an all-in-one
  * life transformation app, not just fitness.
  */
 
@@ -44,73 +44,73 @@ export type WizardData = {
 };
 
 const GOAL_AREAS = [
-  { key: "Body & fitness", emoji: "💪", desc: "Physique, strength, 20k steps" },
-  { key: "Income & career", emoji: "💰", desc: "Earn more, build the thing" },
-  { key: "Skills & learning", emoji: "🧠", desc: "Master new abilities" },
-  { key: "Style & grooming", emoji: "✨", desc: "Skin, hair, presence" },
-  { key: "Discipline & mind", emoji: "🧘", desc: "Routine, focus, sleep" },
+  { key: "Body & fitness", emoji: "01", desc: "Physique, strength, 20k steps" },
+  { key: "Income & career", emoji: "02", desc: "Earn more, build the thing" },
+  { key: "Skills & learning", emoji: "03", desc: "Master new abilities" },
+  { key: "Style & grooming", emoji: "04", desc: "Skin, hair, presence" },
+  { key: "Discipline & mind", emoji: "05", desc: "Routine, focus, sleep" },
 ];
 
 const ACTIVITIES = ["Swimming", "Running", "Cycling", "Boxing", "Yoga", "Dance", "Football", "Basketball", "Badminton", "Trekking", "Skipping", "Martial arts"];
 const PROFICIENCY = ["Complete beginner", "Know the basics", "Intermediate", "Advanced"];
 
 const PROTEINS = [
-  { key: "Eggs", emoji: "🥚" },
-  { key: "Chicken", emoji: "🍗" },
-  { key: "Fish", emoji: "🐟" },
-  { key: "Paneer", emoji: "🧀" },
-  { key: "Dal & legumes", emoji: "🍲" },
-  { key: "Whey protein", emoji: "🥤" },
-  { key: "Soya / tofu", emoji: "🫘" },
-  { key: "Curd / yogurt", emoji: "🥛" },
-  { key: "Red meat", emoji: "🥩" },
+  { key: "Eggs", emoji: "EG" },
+  { key: "Chicken", emoji: "CH" },
+  { key: "Fish", emoji: "FS" },
+  { key: "Paneer", emoji: "PN" },
+  { key: "Dal & legumes", emoji: "DL" },
+  { key: "Whey protein", emoji: "WH" },
+  { key: "Soya / tofu", emoji: "TF" },
+  { key: "Curd / yogurt", emoji: "YG" },
+  { key: "Red meat", emoji: "RM" },
 ];
 
 const CARBS = [
-  { key: "Rice", emoji: "🍚" },
-  { key: "Roti / chapati", emoji: "🫓" },
-  { key: "Oats", emoji: "🥣" },
-  { key: "Potato / sweet potato", emoji: "🥔" },
-  { key: "Bread", emoji: "🍞" },
-  { key: "Poha / upma", emoji: "🍛" },
-  { key: "Fruits", emoji: "🍎" },
-  { key: "Millets", emoji: "🌾" },
-  { key: "Pasta / noodles", emoji: "🍝" },
+  { key: "Rice", emoji: "RI" },
+  { key: "Roti / chapati", emoji: "RO" },
+  { key: "Oats", emoji: "OA" },
+  { key: "Potato / sweet potato", emoji: "PT" },
+  { key: "Bread", emoji: "BR" },
+  { key: "Poha / upma", emoji: "PU" },
+  { key: "Fruits", emoji: "FR" },
+  { key: "Millets", emoji: "MI" },
+  { key: "Pasta / noodles", emoji: "PA" },
 ];
 
-const AVOIDS = ["No beef", "No pork", "No seafood", "No dairy", "No gluten", "Jain food only", "Nothing — I eat everything"];
+const AVOIDS = ["No beef", "No pork", "No seafood", "No dairy", "No gluten", "Jain food only", "Nothing - I eat everything"];
 
 const COOKING = [
-  { key: "I cook myself", emoji: "👨‍🍳", desc: "Full control of the kitchen" },
-  { key: "Family cooks", emoji: "🍛", desc: "I eat what's made at home" },
-  { key: "Mess / tiffin", emoji: "🍱", desc: "Fixed menu, limited choice" },
-  { key: "Mostly order in", emoji: "🛵", desc: "Swiggy/Zomato life" },
+  { key: "I cook myself", emoji: "CK", desc: "Full control of the kitchen" },
+  { key: "Family cooks", emoji: "HM", desc: "I eat what's made at home" },
+  { key: "Mess / tiffin", emoji: "TF", desc: "Fixed menu, limited choice" },
+  { key: "Mostly order in", emoji: "OD", desc: "Swiggy/Zomato life" },
 ];
 
-const EATING_OUT = ["Rarely (0–1x/week)", "Sometimes (2–3x/week)", "Often (4–6x/week)", "Almost daily"];
+const EATING_OUT = ["Rarely (0-1x/week)", "Sometimes (2-3x/week)", "Often (4-6x/week)", "Almost daily"];
 
 const DIETS = [
-  { key: "Non-veg", emoji: "🍗", desc: "Everything on the table" },
-  { key: "Eggetarian", emoji: "🥚", desc: "Veg + eggs" },
-  { key: "Vegetarian", emoji: "🥦", desc: "No meat, no eggs" },
-  { key: "Vegan", emoji: "🌱", desc: "No animal products" },
+  { key: "Non-veg", emoji: "NV", desc: "Everything on the table" },
+  { key: "Eggetarian", emoji: "EG", desc: "Veg + eggs" },
+  { key: "Vegetarian", emoji: "VG", desc: "No meat, no eggs" },
+  { key: "Vegan", emoji: "VN", desc: "No animal products" },
 ];
 
 const SKIN_TYPES = [
-  { key: "Oily", emoji: "💧", desc: "Shiny by midday" },
-  { key: "Dry", emoji: "🏜️", desc: "Tight, flaky patches" },
-  { key: "Combination", emoji: "🌗", desc: "Oily T-zone, dry cheeks" },
-  { key: "Normal", emoji: "😌", desc: "Rarely complains" },
-  { key: "Not sure", emoji: "🤷", desc: "Jarvis will figure it out" },
+  { key: "Oily", emoji: "OL", desc: "Shiny by midday" },
+  { key: "Dry", emoji: "DR", desc: "Tight, flaky patches" },
+  { key: "Combination", emoji: "CB", desc: "Oily T-zone, dry cheeks" },
+  { key: "Normal", emoji: "NR", desc: "Rarely complains" },
+  { key: "Not sure", emoji: "NS", desc: "Jarvis will figure it out" },
 ];
 
-/** Jarvis orb — the mascot. */
+/** Jarvis mark used in the interview header. */
 function Orb({ size = "md" }: { size?: "md" | "lg" }) {
   return (
     <div
-      className={`${size === "lg" ? "w-20 h-20" : "w-11 h-11"} rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center shrink-0 shadow-[0_8px_32px_-8px_rgba(139,92,246,0.6)]`}
+      className={`${size === "lg" ? "w-20 h-20" : "w-11 h-11"} flex shrink-0 items-center justify-center rounded-md bg-accent text-background shadow-[0_18px_42px_-30px_rgba(200,255,61,0.9)]`}
     >
-      <Sparkles className={size === "lg" ? "w-9 h-9 text-white" : "w-5 h-5 text-white"} />
+      <Sparkles className={size === "lg" ? "w-9 h-9" : "w-5 h-5"} />
     </div>
   );
 }
@@ -120,7 +120,7 @@ function Bubble({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex items-start gap-3 mb-6 fade-up">
       <Orb />
-      <div className="bg-surface-2 border border-white/8 rounded-2xl rounded-tl-md px-4 py-3">
+      <div className="rounded-lg border border-border bg-surface-2 px-4 py-3">
         <p className="text-lg font-bold leading-snug">{children}</p>
       </div>
     </div>
@@ -145,13 +145,15 @@ function OptionCard({
     <button
       type="button"
       onClick={onSelect}
-      className={`w-full flex items-center gap-4 rounded-2xl border px-5 py-4 text-left transition-all active:scale-[0.98] ${
+      className={`w-full flex items-center gap-4 rounded-lg border px-5 py-4 text-left transition-all active:scale-[0.98] ${
         selected
-          ? "border-accent/60 bg-accent/10 shadow-[0_0_24px_-8px_rgba(139,92,246,0.5)]"
-          : "border-white/8 bg-surface-2 hover:border-white/20"
+          ? "border-accent/60 bg-accent/10 shadow-[0_18px_42px_-34px_rgba(200,255,61,0.8)]"
+          : "border-border bg-surface-2 hover:border-white/20"
       }`}
     >
-      <span className="text-2xl">{emoji}</span>
+      <span className="flex size-9 shrink-0 items-center justify-center rounded-md border border-border bg-white/[0.045] text-xs font-black text-muted-foreground">
+        {emoji}
+      </span>
       <span className="flex-1 min-w-0">
         <span className="block font-semibold">{title}</span>
         {desc && <span className="block text-sm text-muted-foreground mt-0.5">{desc}</span>}
@@ -319,13 +321,13 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
               Hi, I&apos;m <span className="gradient-text">Jarvis</span>.
             </h1>
             <p className="text-muted-foreground mt-3 max-w-sm">
-              Body, money, skills, discipline — one plan, engineered around your real life. A few questions and I&apos;ll build yours.
+              Body, money, skills, discipline - one plan, engineered around your real life. A few questions and I&apos;ll build yours.
             </p>
             <Button size="lg" className="mt-10 w-full max-w-xs" onClick={next}>
               Let&apos;s go
             </Button>
             <p className="text-[11px] text-muted-foreground/60 mt-6 max-w-xs">
-              Personalized plans beat generic ones on adherence — that&apos;s the whole game.
+              Personalized plans beat generic ones on adherence - that&apos;s the whole game.
             </p>
           </div>
         )}
@@ -360,8 +362,8 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
                         key={g}
                         type="button"
                         onClick={() => set("gender", g)}
-                        className={`flex-1 h-12 rounded-xl border text-sm font-medium transition-all active:scale-95 ${
-                          d.gender === g ? "border-accent/60 bg-accent/10 text-accent" : "border-white/10 bg-surface-2 text-muted-foreground"
+                        className={`flex-1 h-12 rounded-md border text-sm font-medium transition-all active:scale-95 ${
+                          d.gender === g ? "border-accent/60 bg-accent/10 text-accent" : "border-border bg-surface-2 text-muted-foreground"
                         }`}
                       >
                         {g}
@@ -413,7 +415,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
               <Textarea
                 value={d.body_goal}
                 onChange={(e) => set("body_goal", e.target.value)}
-                placeholder="Lean, sharp jawline, visible abs, broad shoulders — model-ready..."
+                placeholder="Lean, sharp jawline, visible abs, broad shoulders - model-ready..."
                 className="min-h-28"
               />
               <div className="space-y-1.5">
@@ -431,7 +433,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
               {["3", "4", "5", "6"].map((n) => (
                 <OptionCard
                   key={n}
-                  emoji="🏋️"
+                  emoji="GY"
                   title={`${n} days / week`}
                   selected={d.gym_days_per_week === n}
                   onSelect={() => pick("gym_days_per_week", n)}
@@ -449,7 +451,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
                 const sel = d.activities.find((x) => x.name === a);
                 return (
                   <div key={a}>
-                    <OptionCard emoji="⚡" title={a} selected={!!sel} onSelect={() => toggleActivity(a)} />
+                    <OptionCard emoji="AC" title={a} selected={!!sel} onSelect={() => toggleActivity(a)} />
                     {sel && (
                       <div className="flex gap-2 mt-2 mb-1 pl-2 flex-wrap">
                         {PROFICIENCY.map((p) => (
@@ -520,7 +522,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
                 {AVOIDS.map((a) => (
                   <OptionCard
                     key={a}
-                    emoji={a.startsWith("Nothing") ? "🙌" : "🚫"}
+                    emoji={a.startsWith("Nothing") ? "OK" : "NO"}
                     title={a}
                     selected={d.avoid_foods.includes(a)}
                     onSelect={() => toggle("avoid_foods", a)}
@@ -538,7 +540,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
 
         {step === 10 && (
           <>
-            <Bubble>Who makes your food? Be honest — the plan has to survive reality.</Bubble>
+            <Bubble>Who makes your food? Be honest - the plan has to survive reality.</Bubble>
             <div className="space-y-3">
               {COOKING.map((c) => (
                 <OptionCard
@@ -561,7 +563,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
               {EATING_OUT.map((e) => (
                 <OptionCard
                   key={e}
-                  emoji="🍽️"
+                  emoji="EO"
                   title={e}
                   selected={d.eating_out === e}
                   onSelect={() => pick("eating_out", e)}
@@ -591,7 +593,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
 
         {step === 13 && (
           <>
-            <Bubble>Your day&apos;s shape — when do you wake, sleep, and work?</Bubble>
+            <Bubble>Your day&apos;s shape - when do you wake, sleep, and work?</Bubble>
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-3">
                 <div className="space-y-1.5">
@@ -608,7 +610,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
                 <Input
                   value={d.occupation_schedule}
                   onChange={(e) => set("occupation_schedule", e.target.value)}
-                  placeholder="College 9–4, evenings free / remote job, flexible..."
+                  placeholder="College 9-4, evenings free / remote job, flexible..."
                 />
               </div>
             </div>
@@ -617,7 +619,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
 
         {step === 14 && (
           <>
-            <Bubble>Your skin — what am I working with?</Bubble>
+            <Bubble>Your skin - what am I working with?</Bubble>
             <div className="space-y-3">
               {SKIN_TYPES.map((s) => (
                 <OptionCard
@@ -640,12 +642,12 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
 
         {step === 15 && (
           <>
-            <Bubble>Day-1 photos. Private — future you will thank you.</Bubble>
+            <Bubble>Day-1 photos. Private - future you will thank you.</Bubble>
             <div className="grid grid-cols-2 gap-3">
               <PhotoDrop label="Face" file={facePhoto} onFile={setFacePhoto} />
               <PhotoDrop label="Body" file={bodyPhoto} onFile={setBodyPhoto} />
             </div>
-            <p className="text-xs text-muted-foreground/60 mt-3">Skippable — you can add them later from Progress.</p>
+            <p className="text-xs text-muted-foreground/60 mt-3">Skippable - you can add them later from Progress.</p>
           </>
         )}
 
@@ -673,7 +675,7 @@ export function OnboardingWizard({ userId, initialName }: { userId: string; init
 
 function PhotoDrop({ label, file, onFile }: { label: string; file: File | null; onFile: (f: File | null) => void }) {
   return (
-    <label className="flex flex-col items-center justify-center gap-2 py-10 text-center rounded-2xl border border-dashed border-white/15 bg-surface-2 cursor-pointer hover:border-accent/40 transition-colors active:scale-[0.98]">
+    <label className="flex cursor-pointer flex-col items-center justify-center gap-2 rounded-lg border border-dashed border-border bg-surface-2 py-10 text-center transition-colors hover:border-accent/40 active:scale-[0.98]">
       <Upload className="w-6 h-6 text-accent" />
       <span className="text-sm font-medium">{file ? file.name.slice(0, 18) : label}</span>
       <span className="text-xs text-muted-foreground">{file ? "Tap to change" : "Tap to upload"}</span>

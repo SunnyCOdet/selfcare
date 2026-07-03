@@ -1,0 +1,64 @@
+{
+  "id": "646ce2a0-f99c-4e1a-8dc0-445f8bc443c8",
+  "name": "Setting up first tasks",
+  "actions": [
+    "Scheduling",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/646ce2a0-f99c-4e1a-8dc0-445f8bc443c8",
+  "app_name": "Motion",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "1e001fb4-6cab-4280-b531-378fb60fecc6",
+      "image_url": "https://mobbin.com/api/mcp/short/GqLXXSCY",
+      "position": 1
+    },
+    {
+      "screen_id": "49861b8d-7018-4dd5-9a39-fc74ab3b77d5",
+      "image_url": "https://mobbin.com/api/mcp/short/l0IMvN7g",
+      "position": 2
+    },
+    {
+      "screen_id": "d947ec03-f12c-49e6-ad04-16c9f56d8509",
+      "image_url": "https://mobbin.com/api/mcp/short/9XjwUM9n",
+      "position": 3
+    },
+    {
+      "screen_id": "71fce228-1af6-4f34-9cd1-dbff5623bc64",
+      "image_url": "https://mobbin.com/api/mcp/short/6mVc3cDy",
+      "position": 4
+    },
+    {
+      "screen_id": "0303d154-1fb4-4aa0-b17c-32fcd012f9f9",
+      "image_url": "https://mobbin.com/api/mcp/short/1Tr1vAuw",
+      "position": 5
+    },
+    {
+      "screen_id": "f0347f2c-652c-4680-baf9-0d9342a41a4f",
+      "image_url": "https://mobbin.com/api/mcp/short/8QedE8om",
+      "position": 6
+    },
+    {
+      "screen_id": "24214b3f-f26f-477a-b891-f9c03c2c23c2",
+      "image_url": "https://mobbin.com/api/mcp/short/t8YeI9wd",
+      "position": 7
+    },
+    {
+      "screen_id": "16726ec0-266c-48fa-8f8c-8740e16de97e",
+      "image_url": "https://mobbin.com/api/mcp/short/cupSeBg7",
+      "position": 8
+    },
+    {
+      "screen_id": "7c8599bf-93cc-4c9d-a05d-27dfab741bfb",
+      "image_url": "https://mobbin.com/api/mcp/short/b40FknDf",
+      "position": 9
+    },
+    {
+      "screen_id": "088ff8e3-d5f7-4e4b-bab2-0eebf85e96f8",
+      "image_url": "https://mobbin.com/api/mcp/short/royqlOiE",
+      "position": 10
+    }
+  ]
+}

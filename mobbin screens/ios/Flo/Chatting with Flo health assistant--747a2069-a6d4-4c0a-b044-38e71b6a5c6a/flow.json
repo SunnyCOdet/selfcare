@@ -1,0 +1,78 @@
+{
+  "id": "747a2069-a6d4-4c0a-b044-38e71b6a5c6a",
+  "name": "Chatting with Flo health assistant",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/747a2069-a6d4-4c0a-b044-38e71b6a5c6a",
+  "app_name": "Flo",
+  "platform": "ios",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "a66f535c-0d6e-472f-90a2-daf56e71fd17",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHC5FzYp",
+      "position": 1
+    },
+    {
+      "screen_id": "68f6f935-4ff9-4063-a485-0f1487b6600f",
+      "image_url": "https://mobbin.com/api/mcp/short/QItMfNMM",
+      "position": 2
+    },
+    {
+      "screen_id": "21bc0d9c-02ec-4054-b532-1ac16a5ac47c",
+      "image_url": "https://mobbin.com/api/mcp/short/YUq4UuzH",
+      "position": 3
+    },
+    {
+      "screen_id": "c8e40575-e835-4b76-b94f-5eccd2060c7c",
+      "image_url": "https://mobbin.com/api/mcp/short/PIHkP8Oa",
+      "position": 4
+    },
+    {
+      "screen_id": "b609bf92-ce43-4ff2-8c36-3657694a7ad3",
+      "image_url": "https://mobbin.com/api/mcp/short/h0JIs1ay",
+      "position": 5
+    },
+    {
+      "screen_id": "ba68aee4-032b-4f71-add4-6d26f160b2ea",
+      "image_url": "https://mobbin.com/api/mcp/short/SU6FeB60",
+      "position": 6
+    },
+    {
+      "screen_id": "0482506d-3f84-42f3-8c1c-f9ec3d6b48ea",
+      "image_url": "https://mobbin.com/api/mcp/short/y2oZAJ3u",
+      "position": 7
+    },
+    {
+      "screen_id": "b5c73333-d632-4436-8051-4cf130fe6651",
+      "image_url": "https://mobbin.com/api/mcp/short/6rsphNxe",
+      "position": 8
+    },
+    {
+      "screen_id": "4a36a2d3-e6ef-4027-9d71-0c9bac827218",
+      "image_url": "https://mobbin.com/api/mcp/short/yOpH8YTW",
+      "position": 9
+    },
+    {
+      "screen_id": "ed0558ae-4f28-4cf8-8fac-0f34c0ac83bc",
+      "image_url": "https://mobbin.com/api/mcp/short/eGupH2iP",
+      "position": 10
+    },
+    {
+      "screen_id": "3849126d-2a95-4ffd-bc0f-bf2384c6fc1c",
+      "image_url": "https://mobbin.com/api/mcp/short/7kqKZxPl",
+      "position": 11
+    },
+    {
+      "screen_id": "60d10634-cdbe-4746-823b-040780111c58",
+      "image_url": "https://mobbin.com/api/mcp/short/K88ntDcM",
+      "position": 12
+    },
+    {
+      "screen_id": "ce2b3ee0-142c-48d4-9e2b-5c702c0556c9",
+      "image_url": "https://mobbin.com/api/mcp/short/DFqMyR37",
+      "position": 13
+    }
+  ]
+}

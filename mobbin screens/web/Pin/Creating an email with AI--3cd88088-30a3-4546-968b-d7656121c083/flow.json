@@ -1,0 +1,33 @@
+{
+  "id": "3cd88088-30a3-4546-968b-d7656121c083",
+  "name": "Creating an email with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3cd88088-30a3-4546-968b-d7656121c083",
+  "app_name": "Pin",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5a6b0410-a8df-414a-b158-09999ab399fd",
+      "image_url": "https://mobbin.com/api/mcp/short/MnoFdVOR",
+      "position": 1
+    },
+    {
+      "screen_id": "429b766c-f2b5-4dba-8844-8550df80d195",
+      "image_url": "https://mobbin.com/api/mcp/short/nKPeGFsx",
+      "position": 2
+    },
+    {
+      "screen_id": "ade9a574-b999-4ecf-9739-feabc7db203a",
+      "image_url": "https://mobbin.com/api/mcp/short/L02iecD6",
+      "position": 3
+    },
+    {
+      "screen_id": "a46a0583-5c43-4f3c-96b8-4586e29ce3ad",
+      "image_url": "https://mobbin.com/api/mcp/short/wRQwlUFF",
+      "position": 4
+    }
+  ]
+}

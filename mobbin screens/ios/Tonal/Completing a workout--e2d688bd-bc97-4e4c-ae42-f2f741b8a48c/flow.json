@@ -1,0 +1,54 @@
+{
+  "id": "e2d688bd-bc97-4e4c-ae42-f2f741b8a48c",
+  "name": "Completing a workout",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e2d688bd-bc97-4e4c-ae42-f2f741b8a48c",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "2a81a821-75dc-4e73-8926-f71d3877efe0",
+      "image_url": "https://mobbin.com/api/mcp/short/7tJvPAjt",
+      "position": 1
+    },
+    {
+      "screen_id": "e9e34f5f-666d-4508-8e85-5bd1814f6787",
+      "image_url": "https://mobbin.com/api/mcp/short/YmDNeAsX",
+      "position": 2
+    },
+    {
+      "screen_id": "dfaa0086-f0af-4a11-bbdf-f4dcb653cd80",
+      "image_url": "https://mobbin.com/api/mcp/short/YvUNeAXm",
+      "position": 3
+    },
+    {
+      "screen_id": "e186dda2-b208-4984-9b65-1be92a9bd0e0",
+      "image_url": "https://mobbin.com/api/mcp/short/BqAIcfpS",
+      "position": 4
+    },
+    {
+      "screen_id": "b5a3d423-5752-4a22-9398-964650d5de57",
+      "image_url": "https://mobbin.com/api/mcp/short/b3KJM1BW",
+      "position": 5
+    },
+    {
+      "screen_id": "50541d0f-6dd5-4652-946c-0d3b655e616f",
+      "image_url": "https://mobbin.com/api/mcp/short/erajoYif",
+      "position": 6
+    },
+    {
+      "screen_id": "68c11cbd-4111-4e33-8b4a-caa57a08b545",
+      "image_url": "https://mobbin.com/api/mcp/short/k1t9TstJ",
+      "position": 7
+    },
+    {
+      "screen_id": "22d5ab5a-540b-4b05-b121-4113fb9bf2e3",
+      "image_url": "https://mobbin.com/api/mcp/short/uU2J6im0",
+      "position": 8
+    }
+  ]
+}

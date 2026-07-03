@@ -1,0 +1,64 @@
+{
+  "id": "c7461e71-6158-43bc-8419-7a877100e9fc",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c7461e71-6158-43bc-8419-7a877100e9fc",
+  "app_name": "ZARA",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "cabe8fdc-9690-4a3c-a0b8-6788329fbb2f",
+      "image_url": "https://mobbin.com/api/mcp/short/cVMB7M0D",
+      "position": 1
+    },
+    {
+      "screen_id": "ae0a608e-d6c8-44ef-9988-deca0736b2b3",
+      "image_url": "https://mobbin.com/api/mcp/short/rpiPUG7C",
+      "position": 2
+    },
+    {
+      "screen_id": "b56627b0-e81f-446e-9885-13c69009aaa3",
+      "image_url": "https://mobbin.com/api/mcp/short/yRfzCsZO",
+      "position": 3
+    },
+    {
+      "screen_id": "f19ab39e-d94a-41fd-af74-6840a1f31cae",
+      "image_url": "https://mobbin.com/api/mcp/short/IERlRyV1",
+      "position": 4
+    },
+    {
+      "screen_id": "4c899c74-0fd1-4ce5-9168-897ee3d1c2b7",
+      "image_url": "https://mobbin.com/api/mcp/short/BiZ9gEXY",
+      "position": 5
+    },
+    {
+      "screen_id": "2f4b0115-b6de-4d8f-954f-3e1f15c4662c",
+      "image_url": "https://mobbin.com/api/mcp/short/kOFsjETU",
+      "position": 6
+    },
+    {
+      "screen_id": "12bbd15a-8239-454c-8f9a-ea961b821f2b",
+      "image_url": "https://mobbin.com/api/mcp/short/r1HM1yUi",
+      "position": 7
+    },
+    {
+      "screen_id": "1b6c6233-bf89-4ed4-b4a1-63642d85b4de",
+      "image_url": "https://mobbin.com/api/mcp/short/OpZaGIF2",
+      "position": 8
+    },
+    {
+      "screen_id": "ed65f8b5-4626-451d-8309-823e25700c30",
+      "image_url": "https://mobbin.com/api/mcp/short/hRfE46UJ",
+      "position": 9
+    },
+    {
+      "screen_id": "cf465e79-089d-4894-9490-de5da69963f3",
+      "image_url": "https://mobbin.com/api/mcp/short/KeqrY00w",
+      "position": 10
+    }
+  ]
+}

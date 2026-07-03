@@ -1,0 +1,26 @@
+{
+  "id": "3c8992cd-7d1e-47fd-8c8e-6761f5cd6afc",
+  "name": "Health (Dog)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3c8992cd-7d1e-47fd-8c8e-6761f5cd6afc",
+  "app_name": "Fi",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "be8a4e9b-74bf-4e7b-a6f1-62af2168e6b4",
+      "image_url": "https://mobbin.com/api/mcp/short/nVs9S5OO",
+      "position": 1
+    },
+    {
+      "screen_id": "cda34d5e-ab30-4739-a3ad-2bf959660a27",
+      "image_url": "https://mobbin.com/api/mcp/short/5AM1gaE5",
+      "position": 2
+    },
+    {
+      "screen_id": "bc8e9958-2fad-40a6-a27a-a9524a2e8670",
+      "image_url": "https://mobbin.com/api/mcp/short/uafqrrKc",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "6ebf5884-66b6-4877-b521-c8a8356c7036",
+  "name": "Creating a trip (using AI)",
+  "actions": [
+    "Adding & Creating",
+    "Saving to Collection",
+    "Searching & Finding",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6ebf5884-66b6-4877-b521-c8a8356c7036",
+  "app_name": "Tripadvisor",
+  "platform": "ios",
+  "screen_count": 16,
+  "screens": [
+    {
+      "screen_id": "c20ea1ed-3863-46b3-ba0d-ec190d26922b",
+      "image_url": "https://mobbin.com/api/mcp/short/CEk4ZMW2",
+      "position": 1
+    },
+    {
+      "screen_id": "2b25ebda-a700-4d16-8a03-de713626c6ea",
+      "image_url": "https://mobbin.com/api/mcp/short/eyUIbqjh",
+      "position": 2
+    },
+    {
+      "screen_id": "18e0dd8e-f511-41e9-9741-1b7866b65e35",
+      "image_url": "https://mobbin.com/api/mcp/short/46CAEPxK",
+      "position": 3
+    },
+    {
+      "screen_id": "387ea7b4-2433-4509-8ec2-49f047057993",
+      "image_url": "https://mobbin.com/api/mcp/short/5tn9DWBT",
+      "position": 4
+    },
+    {
+      "screen_id": "545694db-a07e-402a-b645-f243f0d18dbe",
+      "image_url": "https://mobbin.com/api/mcp/short/nq92H97C",
+      "position": 5
+    },
+    {
+      "screen_id": "57e4bfe1-5871-46b0-9f9e-d343b327c1b0",
+      "image_url": "https://mobbin.com/api/mcp/short/RNgXL672",
+      "position": 6
+    },
+    {
+      "screen_id": "26d78050-fedd-4f36-a142-6ef4e56bae74",
+      "image_url": "https://mobbin.com/api/mcp/short/soeDAh4d",
+      "position": 7
+    },
+    {
+      "screen_id": "44aca9f2-0e1b-47c2-b1b2-9c8061382f56",
+      "image_url": "https://mobbin.com/api/mcp/short/dUBmxLzS",
+      "position": 8
+    },
+    {
+      "screen_id": "2a130aaa-d50e-4495-b220-6aaa27988039",
+      "image_url": "https://mobbin.com/api/mcp/short/wn8ap7Cy",
+      "position": 9
+    },
+    {
+      "screen_id": "f6ab923c-9c25-41ac-8c2e-b5e6f733ce21",
+      "image_url": "https://mobbin.com/api/mcp/short/HTmGpeUU",
+      "position": 10
+    },
+    {
+      "screen_id": "e752cf7e-3caa-4300-8447-00eabc2b3d66",
+      "image_url": "https://mobbin.com/api/mcp/short/Je5fOSax",
+      "position": 11
+    },
+    {
+      "screen_id": "f36b45bd-80f5-4fd4-874a-ee6de4ad8536",
+      "image_url": "https://mobbin.com/api/mcp/short/3lqglNLp",
+      "position": 12
+    },
+    {
+      "screen_id": "5173f723-ad93-40b3-8e95-8290489a7ff6",
+      "image_url": "https://mobbin.com/api/mcp/short/66DmTfIM",
+      "position": 13
+    },
+    {
+      "screen_id": "6cce56a6-0737-46fe-b370-05f631b2e113",
+      "image_url": "https://mobbin.com/api/mcp/short/Y2SffxhB",
+      "position": 14
+    },
+    {
+      "screen_id": "795ccb5d-9024-4369-8868-a1778d220e97",
+      "image_url": "https://mobbin.com/api/mcp/short/pCRQYpO4",
+      "position": 15
+    },
+    {
+      "screen_id": "5289615b-257b-4f19-a8bb-de98dd1ef2fd",
+      "image_url": "https://mobbin.com/api/mcp/short/MHFhMwKP",
+      "position": 16
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ced13ef4-424a-4608-9fbb-32a28ef518e3",
+  "name": "Updating Apple Health settings",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ced13ef4-424a-4608-9fbb-32a28ef518e3",
+  "app_name": "Google Fit",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "23975ad3-b1a6-4abb-abe3-10445d680c56",
+      "image_url": "https://mobbin.com/api/mcp/short/ICQHrSeC",
+      "position": 1
+    },
+    {
+      "screen_id": "8425bab2-fdb4-43aa-9725-4ddec9ed26f8",
+      "image_url": "https://mobbin.com/api/mcp/short/QZoYUNnH",
+      "position": 2
+    },
+    {
+      "screen_id": "7ae6efa8-8881-47e5-84e0-a5ddf40f9e5d",
+      "image_url": "https://mobbin.com/api/mcp/short/M6UsHTYn",
+      "position": 3
+    }
+  ]
+}

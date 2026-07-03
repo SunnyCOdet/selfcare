@@ -1,0 +1,39 @@
+{
+  "id": "4140bd0b-9447-4070-9824-6231f74c3e7b",
+  "name": "Asking Eve AI (voice)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4140bd0b-9447-4070-9824-6231f74c3e7b",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "1086af93-5300-41b7-8339-90c8aab9d1cc",
+      "image_url": "https://mobbin.com/api/mcp/short/WTqxAyBz",
+      "position": 1
+    },
+    {
+      "screen_id": "caab2e6b-9ab3-42a6-a7cd-c3201c264498",
+      "image_url": "https://mobbin.com/api/mcp/short/GrcDtYGU",
+      "position": 2
+    },
+    {
+      "screen_id": "3f47020a-6e3b-4a49-8cd8-5224e7deb828",
+      "image_url": "https://mobbin.com/api/mcp/short/Kh5ZpwSq",
+      "position": 3
+    },
+    {
+      "screen_id": "7b402cd4-022f-4d35-b72d-032e8ad6a765",
+      "image_url": "https://mobbin.com/api/mcp/short/DrcT0Qm2",
+      "position": 4
+    },
+    {
+      "screen_id": "9d0010dc-0b64-4abb-b525-e99901fbdb26",
+      "image_url": "https://mobbin.com/api/mcp/short/bE8UFft1",
+      "position": 5
+    }
+  ]
+}

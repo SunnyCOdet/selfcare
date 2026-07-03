@@ -1,0 +1,43 @@
+{
+  "id": "bb1cc08a-a8f7-4ba8-82ac-01bb6ef9018c",
+  "name": "Chatting with Saturn AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bb1cc08a-a8f7-4ba8-82ac-01bb6ef9018c",
+  "app_name": "Saturn Calendar",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "44be22d3-2483-435f-9c83-cc07588726b6",
+      "image_url": "https://mobbin.com/api/mcp/short/hECkW4kM",
+      "position": 1
+    },
+    {
+      "screen_id": "aec72bc4-83f8-4868-9f63-144e97ee8c94",
+      "image_url": "https://mobbin.com/api/mcp/short/prHPxu8W",
+      "position": 2
+    },
+    {
+      "screen_id": "414b6299-b46f-4c7b-bd02-55f3301d92dc",
+      "image_url": "https://mobbin.com/api/mcp/short/FZarhKa9",
+      "position": 3
+    },
+    {
+      "screen_id": "ee212df0-308d-4308-b930-45f9ae0317ed",
+      "image_url": "https://mobbin.com/api/mcp/short/8Zb1zRBm",
+      "position": 4
+    },
+    {
+      "screen_id": "c6a953ef-e1f5-41ab-8ac8-3e30206e6a42",
+      "image_url": "https://mobbin.com/api/mcp/short/ixOvDPcA",
+      "position": 5
+    },
+    {
+      "screen_id": "5f4b8daa-1b85-4238-89fc-d618f66cc7c5",
+      "image_url": "https://mobbin.com/api/mcp/short/fzMbgiPb",
+      "position": 6
+    }
+  ]
+}

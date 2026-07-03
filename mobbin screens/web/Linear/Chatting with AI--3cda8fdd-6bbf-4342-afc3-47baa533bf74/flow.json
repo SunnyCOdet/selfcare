@@ -1,0 +1,33 @@
+{
+  "id": "3cda8fdd-6bbf-4342-afc3-47baa533bf74",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3cda8fdd-6bbf-4342-afc3-47baa533bf74",
+  "app_name": "Linear",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "a0193431-e1b3-44c4-b1a2-1d1f4a017ccc",
+      "image_url": "https://mobbin.com/api/mcp/short/nNfymrLT",
+      "position": 1
+    },
+    {
+      "screen_id": "d53cf5b8-48f8-4e02-a278-ca45b2d9124a",
+      "image_url": "https://mobbin.com/api/mcp/short/oF3EeTXg",
+      "position": 2
+    },
+    {
+      "screen_id": "b56b197d-7ef0-41b7-9e56-cc23460ffdc8",
+      "image_url": "https://mobbin.com/api/mcp/short/YWdeqciA",
+      "position": 3
+    },
+    {
+      "screen_id": "692145d1-6e38-4386-9a5a-e597c4c120b4",
+      "image_url": "https://mobbin.com/api/mcp/short/Rqn7uPlb",
+      "position": 4
+    }
+  ]
+}

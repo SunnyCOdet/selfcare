@@ -1,0 +1,16 @@
+{
+  "name": "slider",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/slider.tsx",
+      "extractedTo": "ui/slider.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "59274919-8588-4c31-968d-59256c1381c4",
+  "name": "Onboarding (agent)",
+  "actions": [
+    "Adding & Creating",
+    "Onboarding",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/59274919-8588-4c31-968d-59256c1381c4",
+  "app_name": "Zendesk",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "4098e8c3-60d7-4b46-ae8c-3c96714a3742",
+      "image_url": "https://mobbin.com/api/mcp/short/GQtIVePb",
+      "position": 1
+    },
+    {
+      "screen_id": "1ca258eb-7a9a-4a56-bc5f-685f360d0ce6",
+      "image_url": "https://mobbin.com/api/mcp/short/8L6oVHsS",
+      "position": 2
+    },
+    {
+      "screen_id": "f271538c-b232-4b56-a076-b1225dd19a51",
+      "image_url": "https://mobbin.com/api/mcp/short/urxBdsdG",
+      "position": 3
+    },
+    {
+      "screen_id": "4c6e3e0f-bb32-43c6-a59e-84d03d6826b5",
+      "image_url": "https://mobbin.com/api/mcp/short/eV5PGZ8m",
+      "position": 4
+    },
+    {
+      "screen_id": "9e0e0623-a7cd-48c4-832a-26ea66dab9a9",
+      "image_url": "https://mobbin.com/api/mcp/short/micbgBBn",
+      "position": 5
+    },
+    {
+      "screen_id": "efeeb5a8-bd2f-4b91-8d64-0bf6971a965a",
+      "image_url": "https://mobbin.com/api/mcp/short/fd5PkW2q",
+      "position": 6
+    },
+    {
+      "screen_id": "d4c68530-f092-49bb-94ce-82aa4abe36ac",
+      "image_url": "https://mobbin.com/api/mcp/short/EWsx9Kls",
+      "position": 7
+    },
+    {
+      "screen_id": "0c8894cc-ecde-45cc-94cb-eee4b387c79b",
+      "image_url": "https://mobbin.com/api/mcp/short/A2D4PKYO",
+      "position": 8
+    }
+  ]
+}

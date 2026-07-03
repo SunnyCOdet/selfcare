@@ -1,0 +1,31 @@
+{
+  "id": "e07fc5f7-4f0b-41a6-8bb3-3d52e11f76ba",
+  "name": "Endurance fitness",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e07fc5f7-4f0b-41a6-8bb3-3d52e11f76ba",
+  "app_name": "The Outsiders",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "8e1a1c96-7069-4ccc-b5aa-88ee1cf05784",
+      "image_url": "https://mobbin.com/api/mcp/short/B8IHV7UT",
+      "position": 1
+    },
+    {
+      "screen_id": "81a19adc-6846-459a-afbe-213d58275c23",
+      "image_url": "https://mobbin.com/api/mcp/short/pvNTcOv8",
+      "position": 2
+    },
+    {
+      "screen_id": "63fbd860-c86d-4c1b-9112-4158b1f2d10e",
+      "image_url": "https://mobbin.com/api/mcp/short/JEgxQR7Q",
+      "position": 3
+    },
+    {
+      "screen_id": "5926fda8-4804-479d-a2c7-297084627a4c",
+      "image_url": "https://mobbin.com/api/mcp/short/jry0Z07N",
+      "position": 4
+    }
+  ]
+}

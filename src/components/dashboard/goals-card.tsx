@@ -27,12 +27,12 @@ export function nextMilestone(g: Goal): Milestone | null {
   return (g.milestones ?? []).find((m) => m.status !== "done") ?? null;
 }
 
-const CATEGORY_EMOJI: Record<string, string> = {
-  income: "💰",
-  career: "🚀",
-  skill: "🧠",
-  body: "💪",
-  life: "🌱",
+const CATEGORY_LABEL: Record<string, string> = {
+  income: "Income",
+  career: "Career",
+  skill: "Skill",
+  body: "Body",
+  life: "Life",
 };
 
 export function GoalsCard({ goals }: { goals: Goal[] }) {
@@ -49,7 +49,7 @@ export function GoalsCard({ goals }: { goals: Goal[] }) {
           </div>
           <div>
             <p className="font-semibold text-sm">Set your first life goal</p>
-            <p className="text-xs text-muted">Income, career, skills — the coach builds the roadmap.</p>
+            <p className="text-xs text-muted">Income, career, skills - the coach builds the roadmap.</p>
           </div>
         </div>
         <ChevronRight className="w-5 h-5 text-muted" />
@@ -75,7 +75,10 @@ export function GoalsCard({ goals }: { goals: Goal[] }) {
             <div key={g.id}>
               <div className="flex items-center justify-between gap-2 mb-1">
                 <p className="text-sm font-semibold truncate">
-                  {CATEGORY_EMOJI[g.category] ?? "🎯"} {g.title}
+                  <span className="mr-1.5 rounded-full border border-white/10 px-2 py-0.5 text-[10px] uppercase text-muted">
+                    {CATEGORY_LABEL[g.category] ?? "Goal"}
+                  </span>
+                  {g.title}
                 </p>
                 <span className="text-xs font-bold text-warning shrink-0">{pct}%</span>
               </div>
@@ -88,7 +91,7 @@ export function GoalsCard({ goals }: { goals: Goal[] }) {
               {next && (
                 <p className="text-xs text-muted mt-1 truncate">
                   Next: {next.title}
-                  {next.deadline ? ` · by ${next.deadline}` : ""}
+                  {next.deadline ? ` / by ${next.deadline}` : ""}
                 </p>
               )}
             </div>

@@ -1,0 +1,38 @@
+{
+  "id": "ed6a3e2b-f598-47cf-a596-0a2c966474ad",
+  "name": "Syncing data (time guard)",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ed6a3e2b-f598-47cf-a596-0a2c966474ad",
+  "app_name": "Forest",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7be15071-b96e-402f-8118-75956a55aeb3",
+      "image_url": "https://mobbin.com/api/mcp/short/ZQA5TUIB",
+      "position": 1
+    },
+    {
+      "screen_id": "6b9fd023-d725-4e5a-b7ee-a92cd1a5dc80",
+      "image_url": "https://mobbin.com/api/mcp/short/JHXeXPTa",
+      "position": 2
+    },
+    {
+      "screen_id": "a3a3c391-145a-43e3-abf4-2ff97c1aad0e",
+      "image_url": "https://mobbin.com/api/mcp/short/pzDO3zqu",
+      "position": 3
+    },
+    {
+      "screen_id": "6f212b06-1783-4db5-bf3d-84fe28c3cf5c",
+      "image_url": "https://mobbin.com/api/mcp/short/Q7rBnmj1",
+      "position": 4
+    },
+    {
+      "screen_id": "6d134c19-06f5-40ff-9e26-7e0ce82fd36e",
+      "image_url": "https://mobbin.com/api/mcp/short/iTgz4e9C",
+      "position": 5
+    }
+  ]
+}

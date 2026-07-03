@@ -1,0 +1,43 @@
+{
+  "id": "50791f3a-dade-4b97-b4d9-2967bcb43c85",
+  "name": "Completing account setup",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/50791f3a-dade-4b97-b4d9-2967bcb43c85",
+  "app_name": "Relume",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "94fb69d7-627a-43df-ba06-d75c2f58d66b",
+      "image_url": "https://mobbin.com/api/mcp/short/TAmFkSPW",
+      "position": 1
+    },
+    {
+      "screen_id": "379ad3fe-24f9-4c93-bd36-127fbf34f33c",
+      "image_url": "https://mobbin.com/api/mcp/short/pcndwXpH",
+      "position": 2
+    },
+    {
+      "screen_id": "ec27a301-f3a6-4efa-815e-20d2351132f4",
+      "image_url": "https://mobbin.com/api/mcp/short/zm7otVAV",
+      "position": 3
+    },
+    {
+      "screen_id": "c232da70-62b0-4b60-9ebf-12c5aa8c9232",
+      "image_url": "https://mobbin.com/api/mcp/short/WFeyboRU",
+      "position": 4
+    },
+    {
+      "screen_id": "179de976-20ba-44d6-81cb-539da4880e2c",
+      "image_url": "https://mobbin.com/api/mcp/short/wmUkxnx7",
+      "position": 5
+    },
+    {
+      "screen_id": "cbe95afd-f726-4b6f-a9e5-ee3c130d80b7",
+      "image_url": "https://mobbin.com/api/mcp/short/nMqDhJam",
+      "position": 6
+    }
+  ]
+}

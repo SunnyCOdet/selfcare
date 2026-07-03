@@ -1,0 +1,36 @@
+{
+  "id": "91f936e3-bdc9-4b3e-bb1a-e5aa240b5925",
+  "name": "My health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/91f936e3-bdc9-4b3e-bb1a-e5aa240b5925",
+  "app_name": "Zocdoc",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "e1966110-421c-4c5e-8890-e659c128635e",
+      "image_url": "https://mobbin.com/api/mcp/short/hGo3GXKB",
+      "position": 1
+    },
+    {
+      "screen_id": "69dd6f42-3764-4309-90f8-10699ee1d624",
+      "image_url": "https://mobbin.com/api/mcp/short/mDmbVYop",
+      "position": 2
+    },
+    {
+      "screen_id": "01d4889f-4689-4aba-b150-33847a54d38b",
+      "image_url": "https://mobbin.com/api/mcp/short/zEYB0AAk",
+      "position": 3
+    },
+    {
+      "screen_id": "6c27446a-63b4-4a90-9633-4ff747f583dc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZyG1be8A",
+      "position": 4
+    },
+    {
+      "screen_id": "d676ea60-0175-4bff-9170-222529846e55",
+      "image_url": "https://mobbin.com/api/mcp/short/qyfrf996",
+      "position": 5
+    }
+  ]
+}

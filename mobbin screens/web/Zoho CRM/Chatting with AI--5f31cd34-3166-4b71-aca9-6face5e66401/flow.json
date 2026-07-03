@@ -1,0 +1,53 @@
+{
+  "id": "5f31cd34-3166-4b71-aca9-6face5e66401",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5f31cd34-3166-4b71-aca9-6face5e66401",
+  "app_name": "Zoho CRM",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "63591d2e-710e-4e2e-b5ff-7b3fb5774e69",
+      "image_url": "https://mobbin.com/api/mcp/short/XJXqiDNX",
+      "position": 1
+    },
+    {
+      "screen_id": "4907f544-9a33-4ed9-9b00-19e19a9b4795",
+      "image_url": "https://mobbin.com/api/mcp/short/qLW2MIhn",
+      "position": 2
+    },
+    {
+      "screen_id": "ef409f88-f06a-463e-bf8d-645d8a7ad09b",
+      "image_url": "https://mobbin.com/api/mcp/short/G4xztcFv",
+      "position": 3
+    },
+    {
+      "screen_id": "2a9cf99d-6b97-4937-8a6a-93ae0629dbe0",
+      "image_url": "https://mobbin.com/api/mcp/short/0Alo4Sn1",
+      "position": 4
+    },
+    {
+      "screen_id": "5fe77cf3-905b-4698-a8b5-ec030018d1d2",
+      "image_url": "https://mobbin.com/api/mcp/short/xXla3ZIp",
+      "position": 5
+    },
+    {
+      "screen_id": "e35d3450-b33e-4a26-8274-d859854688f3",
+      "image_url": "https://mobbin.com/api/mcp/short/4Sg1kBtg",
+      "position": 6
+    },
+    {
+      "screen_id": "c02c9b4e-cc60-4529-a534-6441b1d77a8a",
+      "image_url": "https://mobbin.com/api/mcp/short/NZMF40r5",
+      "position": 7
+    },
+    {
+      "screen_id": "a14af107-a391-4ad4-b84c-c0b55b0adf9d",
+      "image_url": "https://mobbin.com/api/mcp/short/qJXBfuqC",
+      "position": 8
+    }
+  ]
+}

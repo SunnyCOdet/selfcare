@@ -1,0 +1,84 @@
+{
+  "id": "2400b4a4-33a7-4fed-b865-249983fda759",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2400b4a4-33a7-4fed-b865-249983fda759",
+  "app_name": "Clay",
+  "platform": "web",
+  "screen_count": 14,
+  "screens": [
+    {
+      "screen_id": "79c045f9-13c0-48d5-aa0a-d67575cb1d48",
+      "image_url": "https://mobbin.com/api/mcp/short/uXabJ2mP",
+      "position": 1
+    },
+    {
+      "screen_id": "c5a33720-14ec-4e9d-b365-abaee081e766",
+      "image_url": "https://mobbin.com/api/mcp/short/U4K7mw7E",
+      "position": 2
+    },
+    {
+      "screen_id": "e4b4ff1e-8a6f-45e6-ae4e-cdd792e8e063",
+      "image_url": "https://mobbin.com/api/mcp/short/NWpXPGEb",
+      "position": 3
+    },
+    {
+      "screen_id": "2a0c231a-3784-4c1a-b791-36920fcb3e88",
+      "image_url": "https://mobbin.com/api/mcp/short/p0TAcxGr",
+      "position": 4
+    },
+    {
+      "screen_id": "c74f8be5-7efd-412a-bf54-6e6b0bb79c4d",
+      "image_url": "https://mobbin.com/api/mcp/short/Jq9GOqBU",
+      "position": 5
+    },
+    {
+      "screen_id": "b999a882-d16b-4d48-bbb2-7bf205be997d",
+      "image_url": "https://mobbin.com/api/mcp/short/aFq1rMuf",
+      "position": 6
+    },
+    {
+      "screen_id": "03cdf639-0472-4fa7-96f9-74855a7a759a",
+      "image_url": "https://mobbin.com/api/mcp/short/OdX2F8oi",
+      "position": 7
+    },
+    {
+      "screen_id": "1a950daf-2a67-458c-b073-76225db87b7c",
+      "image_url": "https://mobbin.com/api/mcp/short/7MNbFlgo",
+      "position": 8
+    },
+    {
+      "screen_id": "f0a718bc-440b-4034-80f3-af43b614b524",
+      "image_url": "https://mobbin.com/api/mcp/short/1IURzdDL",
+      "position": 9
+    },
+    {
+      "screen_id": "8ff77576-7eae-4d73-a8e3-b666ee1b7719",
+      "image_url": "https://mobbin.com/api/mcp/short/wXMuCpJt",
+      "position": 10
+    },
+    {
+      "screen_id": "56e6f67e-f00f-4116-9ec9-1cfb9729ad0b",
+      "image_url": "https://mobbin.com/api/mcp/short/P6wuEIcY",
+      "position": 11
+    },
+    {
+      "screen_id": "479d3b66-a20e-4de8-b98d-1a63b28f7442",
+      "image_url": "https://mobbin.com/api/mcp/short/OZNEnyt5",
+      "position": 12
+    },
+    {
+      "screen_id": "4e08fe50-56d1-43ea-a4fc-beed4e9cf5b1",
+      "image_url": "https://mobbin.com/api/mcp/short/6z3Z22VF",
+      "position": 13
+    },
+    {
+      "screen_id": "5e382eed-7509-4481-bfb8-accc312cfa9d",
+      "image_url": "https://mobbin.com/api/mcp/short/qQXKxlt1",
+      "position": 14
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "036bcd26-7c39-4692-9e7b-97dbfea8d827",
+  "name": "Enabling personalisation content",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/036bcd26-7c39-4692-9e7b-97dbfea8d827",
+  "app_name": "Whering",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "eac8a7f4-eef6-4c1f-a772-449efe1e113d",
+      "image_url": "https://mobbin.com/api/mcp/short/8aV93eAs",
+      "position": 1
+    },
+    {
+      "screen_id": "bade5702-bf21-42b7-89a8-62cef2fe9c8c",
+      "image_url": "https://mobbin.com/api/mcp/short/T9GezM1l",
+      "position": 2
+    },
+    {
+      "screen_id": "47908f15-4367-4f68-92a2-d46baf4d2517",
+      "image_url": "https://mobbin.com/api/mcp/short/IN3rg2n0",
+      "position": 3
+    },
+    {
+      "screen_id": "4bbac7d2-470a-4644-b121-42b69d29e1bc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHGzxtDi",
+      "position": 4
+    }
+  ]
+}

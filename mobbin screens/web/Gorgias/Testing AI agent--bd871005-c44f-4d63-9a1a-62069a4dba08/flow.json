@@ -1,0 +1,53 @@
+{
+  "id": "bd871005-c44f-4d63-9a1a-62069a4dba08",
+  "name": "Testing AI agent",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bd871005-c44f-4d63-9a1a-62069a4dba08",
+  "app_name": "Gorgias",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "ee514e5b-3cdc-42f4-9a7a-ec8d001f8b02",
+      "image_url": "https://mobbin.com/api/mcp/short/gLzQilC7",
+      "position": 1
+    },
+    {
+      "screen_id": "df1d9fa9-d9bd-4bac-98df-ce3a8718e2d8",
+      "image_url": "https://mobbin.com/api/mcp/short/MJ2puk0F",
+      "position": 2
+    },
+    {
+      "screen_id": "a0e71331-3d04-47d6-8b69-ca0dd5b9eca7",
+      "image_url": "https://mobbin.com/api/mcp/short/xDloI2rW",
+      "position": 3
+    },
+    {
+      "screen_id": "43840ff4-022d-44ea-84bb-611b5b603cd1",
+      "image_url": "https://mobbin.com/api/mcp/short/sryiMP4E",
+      "position": 4
+    },
+    {
+      "screen_id": "5fa0c23e-b2c7-40bb-93c2-a94d0527672c",
+      "image_url": "https://mobbin.com/api/mcp/short/HudnyHPA",
+      "position": 5
+    },
+    {
+      "screen_id": "b039e1c5-ba04-40a8-8dd2-70df35bc959e",
+      "image_url": "https://mobbin.com/api/mcp/short/7dLjnwTC",
+      "position": 6
+    },
+    {
+      "screen_id": "1945ca45-520a-4d75-87aa-ea1934232f33",
+      "image_url": "https://mobbin.com/api/mcp/short/JNo6bWBF",
+      "position": 7
+    },
+    {
+      "screen_id": "e077aad0-3aaa-4244-8c91-452d0f9e7b5f",
+      "image_url": "https://mobbin.com/api/mcp/short/tzCtEpFu",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "e4dd8d6b-7669-4b55-87d9-07716603bd45",
+  "name": "Joining a challenge",
+  "actions": [
+    "Registering"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e4dd8d6b-7669-4b55-87d9-07716603bd45",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "dbb009be-6899-4cdc-8083-779e18215a0c",
+      "image_url": "https://mobbin.com/api/mcp/short/YHYJOKq0",
+      "position": 1
+    },
+    {
+      "screen_id": "fc9ce1e3-ee8e-4cf7-995b-f23b89c7733e",
+      "image_url": "https://mobbin.com/api/mcp/short/7sylKGDL",
+      "position": 2
+    },
+    {
+      "screen_id": "d3e02dd9-47f4-455a-b94e-f50094daf549",
+      "image_url": "https://mobbin.com/api/mcp/short/tau0MF0W",
+      "position": 3
+    },
+    {
+      "screen_id": "cd9cb0ab-c1c3-447f-b528-7a9894e16d62",
+      "image_url": "https://mobbin.com/api/mcp/short/zu0gzeLH",
+      "position": 4
+    }
+  ]
+}

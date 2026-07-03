@@ -1,0 +1,28 @@
+{
+  "id": "f4835c60-5058-46b4-9bf7-af7c7e8ab629",
+  "name": "Enabling health score",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f4835c60-5058-46b4-9bf7-af7c7e8ab629",
+  "app_name": "Cherrypick",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "4497b45f-b22a-4c6a-b626-ff45682f0947",
+      "image_url": "https://mobbin.com/api/mcp/short/YfKbm3Sk",
+      "position": 1
+    },
+    {
+      "screen_id": "e582fb39-5822-4799-a103-e6e9e2799ca6",
+      "image_url": "https://mobbin.com/api/mcp/short/XWUHsgHA",
+      "position": 2
+    },
+    {
+      "screen_id": "0ffe63de-95bb-43f1-ab0c-5ce274cfdca6",
+      "image_url": "https://mobbin.com/api/mcp/short/OS2JFw1x",
+      "position": 3
+    }
+  ]
+}

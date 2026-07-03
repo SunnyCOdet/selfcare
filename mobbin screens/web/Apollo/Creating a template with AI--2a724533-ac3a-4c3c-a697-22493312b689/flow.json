@@ -1,0 +1,43 @@
+{
+  "id": "2a724533-ac3a-4c3c-a697-22493312b689",
+  "name": "Creating a template with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2a724533-ac3a-4c3c-a697-22493312b689",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "eed2bc44-ab7c-45d5-af1e-4c05fdcfabfc",
+      "image_url": "https://mobbin.com/api/mcp/short/uhHceYae",
+      "position": 1
+    },
+    {
+      "screen_id": "c3ce7777-cc07-4f66-a371-dea63ea80fe7",
+      "image_url": "https://mobbin.com/api/mcp/short/v58PNbtc",
+      "position": 2
+    },
+    {
+      "screen_id": "5bca5b0f-43dc-4fe3-a5ab-9f5959ec8d5b",
+      "image_url": "https://mobbin.com/api/mcp/short/qh34rivn",
+      "position": 3
+    },
+    {
+      "screen_id": "bb814250-639b-40a9-beb5-099e27681986",
+      "image_url": "https://mobbin.com/api/mcp/short/eROL6l7h",
+      "position": 4
+    },
+    {
+      "screen_id": "c3d390ca-8d87-45e5-979d-192eed09f4fe",
+      "image_url": "https://mobbin.com/api/mcp/short/Mc9UfXrh",
+      "position": 5
+    },
+    {
+      "screen_id": "a581d511-21c3-416d-8b87-6ae76cacad4f",
+      "image_url": "https://mobbin.com/api/mcp/short/5OaRPPvJ",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "7ae1aea3-daab-4f17-8fc6-c476b3b5a088",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7ae1aea3-daab-4f17-8fc6-c476b3b5a088",
+  "app_name": "State Farm",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "bed3c2b0-36ca-4140-a08e-e8ceaafd292f",
+      "image_url": "https://mobbin.com/api/mcp/short/I27hoGwr",
+      "position": 1
+    },
+    {
+      "screen_id": "6abd5b91-96bb-480f-9b39-dd114f5c6281",
+      "image_url": "https://mobbin.com/api/mcp/short/GcO6sSX9",
+      "position": 2
+    },
+    {
+      "screen_id": "8384282d-5356-4d6b-bb48-39471e5e6d10",
+      "image_url": "https://mobbin.com/api/mcp/short/GiXjASCd",
+      "position": 3
+    },
+    {
+      "screen_id": "3e8b2984-6fde-4460-bf86-db56404224c7",
+      "image_url": "https://mobbin.com/api/mcp/short/WXp5JK7G",
+      "position": 4
+    },
+    {
+      "screen_id": "f41a2150-948a-4400-87c8-796deff67c2a",
+      "image_url": "https://mobbin.com/api/mcp/short/XOacsk42",
+      "position": 5
+    },
+    {
+      "screen_id": "08b689b1-e7c5-44c2-b5f9-3321d008cce7",
+      "image_url": "https://mobbin.com/api/mcp/short/4zx8CyBD",
+      "position": 6
+    },
+    {
+      "screen_id": "ca5d06e3-1561-4d5a-971a-b36fd86fae85",
+      "image_url": "https://mobbin.com/api/mcp/short/l538fXZK",
+      "position": 7
+    },
+    {
+      "screen_id": "bd7464aa-bb14-4d6e-84ce-034f6964fd4c",
+      "image_url": "https://mobbin.com/api/mcp/short/uP9L43uk",
+      "position": 8
+    },
+    {
+      "screen_id": "4ca7812d-1cf3-4663-beeb-1e85182e1616",
+      "image_url": "https://mobbin.com/api/mcp/short/vJP0jv2G",
+      "position": 9
+    },
+    {
+      "screen_id": "c4e4e411-96f5-44ee-92a1-0398e96fb178",
+      "image_url": "https://mobbin.com/api/mcp/short/TiZrOKmy",
+      "position": 10
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "256edd82-2dc8-485e-adfa-68e3c826b96d",
+  "name": "Onboarding",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/256edd82-2dc8-485e-adfa-68e3c826b96d",
+  "app_name": "Kitchen Stories",
+  "platform": "ios",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "0d0cba6d-8f43-4631-ad67-bf0a253d85b3",
+      "image_url": "https://mobbin.com/api/mcp/short/SniBuSlA",
+      "position": 1
+    },
+    {
+      "screen_id": "03e31db9-1ceb-48d1-b9d2-44a65ccd85bb",
+      "image_url": "https://mobbin.com/api/mcp/short/tHcdx1Uf",
+      "position": 2
+    },
+    {
+      "screen_id": "8f9cdee1-dbd2-4000-9376-1f8922e4b63b",
+      "image_url": "https://mobbin.com/api/mcp/short/rW7yvRd7",
+      "position": 3
+    },
+    {
+      "screen_id": "a1e215f2-39c2-460d-9155-d1cad4993235",
+      "image_url": "https://mobbin.com/api/mcp/short/alGJJXie",
+      "position": 4
+    },
+    {
+      "screen_id": "1ddd5b5a-9be8-4c85-a3c3-339642f93dfb",
+      "image_url": "https://mobbin.com/api/mcp/short/oUFuLzYs",
+      "position": 5
+    },
+    {
+      "screen_id": "7585575d-8186-44ba-be64-0dfa8a2aa986",
+      "image_url": "https://mobbin.com/api/mcp/short/eV9hUwMx",
+      "position": 6
+    },
+    {
+      "screen_id": "4c650f91-a881-48c5-b597-d569266bd0f8",
+      "image_url": "https://mobbin.com/api/mcp/short/QquQLGds",
+      "position": 7
+    },
+    {
+      "screen_id": "669e1164-32ce-40ef-a167-a565280395a6",
+      "image_url": "https://mobbin.com/api/mcp/short/7ghIxeoT",
+      "position": 8
+    },
+    {
+      "screen_id": "ccd61450-d1d3-4769-b2e3-d524538f4d36",
+      "image_url": "https://mobbin.com/api/mcp/short/he58tuTS",
+      "position": 9
+    },
+    {
+      "screen_id": "0956ebfd-d2d6-40bf-a38d-24f180a7cf0d",
+      "image_url": "https://mobbin.com/api/mcp/short/DcCHlXc9",
+      "position": 10
+    },
+    {
+      "screen_id": "3d4096ba-3c08-440d-ab0c-f9936ff5a44a",
+      "image_url": "https://mobbin.com/api/mcp/short/TyjLdK56",
+      "position": 11
+    },
+    {
+      "screen_id": "5c75e2ce-7142-404f-8237-e4200b6abe4e",
+      "image_url": "https://mobbin.com/api/mcp/short/ZRvhJpE5",
+      "position": 12
+    },
+    {
+      "screen_id": "5087a531-de5e-405d-aff9-28a05fc5a0f2",
+      "image_url": "https://mobbin.com/api/mcp/short/Dpg4AXTY",
+      "position": 13
+    }
+  ]
+}

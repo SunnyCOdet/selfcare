@@ -1,0 +1,36 @@
+{
+  "id": "277f17bc-e78c-4e5c-a1d3-7d1c84def2a5",
+  "name": "Fitness trend summary",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/277f17bc-e78c-4e5c-a1d3-7d1c84def2a5",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "eb900840-6d16-4504-aa0f-ec1f57ca4a21",
+      "image_url": "https://mobbin.com/api/mcp/short/9X3r5BG1",
+      "position": 1
+    },
+    {
+      "screen_id": "6c099b07-f52f-4f84-8a47-22124d032a57",
+      "image_url": "https://mobbin.com/api/mcp/short/1SqU57Bk",
+      "position": 2
+    },
+    {
+      "screen_id": "83d9f4e4-3e80-4c8c-a446-98934730fa0f",
+      "image_url": "https://mobbin.com/api/mcp/short/Xbr5Rb18",
+      "position": 3
+    },
+    {
+      "screen_id": "a4454f22-f415-4b12-82de-7cfd19aad2ee",
+      "image_url": "https://mobbin.com/api/mcp/short/g9La5TVa",
+      "position": 4
+    },
+    {
+      "screen_id": "ec1bd82d-d25d-4b07-beb4-ca358923b2a7",
+      "image_url": "https://mobbin.com/api/mcp/short/9GvV1EOZ",
+      "position": 5
+    }
+  ]
+}

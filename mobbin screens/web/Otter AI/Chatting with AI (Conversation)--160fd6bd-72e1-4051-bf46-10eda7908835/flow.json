@@ -1,0 +1,23 @@
+{
+  "id": "160fd6bd-72e1-4051-bf46-10eda7908835",
+  "name": "Chatting with AI (Conversation)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/160fd6bd-72e1-4051-bf46-10eda7908835",
+  "app_name": "Otter AI",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "2cf5dce6-468f-4abf-9359-8f0ebd862ec7",
+      "image_url": "https://mobbin.com/api/mcp/short/14a5Boiu",
+      "position": 1
+    },
+    {
+      "screen_id": "ab80a748-2a8c-4356-b47b-85675e558344",
+      "image_url": "https://mobbin.com/api/mcp/short/sZDnCC0K",
+      "position": 2
+    }
+  ]
+}

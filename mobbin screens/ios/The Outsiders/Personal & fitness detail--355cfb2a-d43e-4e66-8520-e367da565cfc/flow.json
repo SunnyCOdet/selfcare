@@ -1,0 +1,26 @@
+{
+  "id": "355cfb2a-d43e-4e66-8520-e367da565cfc",
+  "name": "Personal & fitness detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/355cfb2a-d43e-4e66-8520-e367da565cfc",
+  "app_name": "The Outsiders",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d827d3fc-c12c-474e-aa11-3691fd01b44e",
+      "image_url": "https://mobbin.com/api/mcp/short/w6qtAubG",
+      "position": 1
+    },
+    {
+      "screen_id": "2c65b76b-441d-4734-ab27-e0436583ad0f",
+      "image_url": "https://mobbin.com/api/mcp/short/SQxYRd5X",
+      "position": 2
+    },
+    {
+      "screen_id": "895b4df4-2996-49a5-9023-8a54e17d21b6",
+      "image_url": "https://mobbin.com/api/mcp/short/HQnvL1mk",
+      "position": 3
+    }
+  ]
+}

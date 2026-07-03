@@ -1,0 +1,33 @@
+{
+  "id": "289d1517-f988-468a-9f84-47385445f836",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/289d1517-f988-468a-9f84-47385445f836",
+  "app_name": "Ulta Beauty",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "734b4f07-7871-4c06-8af3-8b168e6c87fa",
+      "image_url": "https://mobbin.com/api/mcp/short/puw5xABs",
+      "position": 1
+    },
+    {
+      "screen_id": "5e87d260-3375-4090-8fee-d9398b3af6dc",
+      "image_url": "https://mobbin.com/api/mcp/short/JEHWVB01",
+      "position": 2
+    },
+    {
+      "screen_id": "4b937c62-da33-4930-b23e-08c1f5834a4c",
+      "image_url": "https://mobbin.com/api/mcp/short/OYeMIkjH",
+      "position": 3
+    },
+    {
+      "screen_id": "f54d04e8-f10b-454c-85f8-c7ec4f61d502",
+      "image_url": "https://mobbin.com/api/mcp/short/h1okYrIU",
+      "position": 4
+    }
+  ]
+}

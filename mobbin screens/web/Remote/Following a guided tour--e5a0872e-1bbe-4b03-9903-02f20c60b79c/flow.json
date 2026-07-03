@@ -1,0 +1,38 @@
+{
+  "id": "e5a0872e-1bbe-4b03-9903-02f20c60b79c",
+  "name": "Following a guided tour",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e5a0872e-1bbe-4b03-9903-02f20c60b79c",
+  "app_name": "Remote",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "6980c269-3f0d-4c48-978b-160ebc42fdcb",
+      "image_url": "https://mobbin.com/api/mcp/short/C9Vp1pOv",
+      "position": 1
+    },
+    {
+      "screen_id": "3b535956-0b18-4ac1-a895-24228c3b10b8",
+      "image_url": "https://mobbin.com/api/mcp/short/Dxas6tYZ",
+      "position": 2
+    },
+    {
+      "screen_id": "b8f7ffc5-714d-4156-8cf8-2bc52deaa889",
+      "image_url": "https://mobbin.com/api/mcp/short/4hBhXMtO",
+      "position": 3
+    },
+    {
+      "screen_id": "db96e1ff-8f1f-4c6e-a33a-bf2a1380fd4a",
+      "image_url": "https://mobbin.com/api/mcp/short/j3jDkH0R",
+      "position": 4
+    },
+    {
+      "screen_id": "a193b5e1-cace-4f2c-84c1-6b46fabd928e",
+      "image_url": "https://mobbin.com/api/mcp/short/r2Y8Tp5C",
+      "position": 5
+    }
+  ]
+}

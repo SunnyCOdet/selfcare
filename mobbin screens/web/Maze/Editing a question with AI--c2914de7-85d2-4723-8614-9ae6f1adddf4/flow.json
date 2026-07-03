@@ -1,0 +1,44 @@
+{
+  "id": "c2914de7-85d2-4723-8614-9ae6f1adddf4",
+  "name": "Editing a question with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c2914de7-85d2-4723-8614-9ae6f1adddf4",
+  "app_name": "Maze",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "246e7c2c-4402-4168-aebb-4d2b5b8ccbbc",
+      "image_url": "https://mobbin.com/api/mcp/short/LKYGjsz4",
+      "position": 1
+    },
+    {
+      "screen_id": "43596365-445e-4231-b020-fce1d1e201b7",
+      "image_url": "https://mobbin.com/api/mcp/short/Vvz8Nx7B",
+      "position": 2
+    },
+    {
+      "screen_id": "8280defe-d947-4af7-91f1-3c2f227177ea",
+      "image_url": "https://mobbin.com/api/mcp/short/6WYcydED",
+      "position": 3
+    },
+    {
+      "screen_id": "1f60ba9a-2951-49db-b437-212ebb2e60ec",
+      "image_url": "https://mobbin.com/api/mcp/short/XqYGLeAk",
+      "position": 4
+    },
+    {
+      "screen_id": "898bfeb9-c565-4192-bc93-93a623e5ef04",
+      "image_url": "https://mobbin.com/api/mcp/short/DezoPQW4",
+      "position": 5
+    },
+    {
+      "screen_id": "b2c96752-6452-4577-b3d0-65e5bdf02735",
+      "image_url": "https://mobbin.com/api/mcp/short/Kxp6agoj",
+      "position": 6
+    }
+  ]
+}

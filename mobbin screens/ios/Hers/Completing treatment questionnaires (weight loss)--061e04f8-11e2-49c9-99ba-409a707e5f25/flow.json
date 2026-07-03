@@ -1,0 +1,104 @@
+{
+  "id": "061e04f8-11e2-49c9-99ba-409a707e5f25",
+  "name": "Completing treatment questionnaires (weight loss)",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/061e04f8-11e2-49c9-99ba-409a707e5f25",
+  "app_name": "Hers",
+  "platform": "ios",
+  "screen_count": 18,
+  "screens": [
+    {
+      "screen_id": "50a1deb7-7d4a-4b92-a51b-ed9c4a2624c5",
+      "image_url": "https://mobbin.com/api/mcp/short/DTVlkmEX",
+      "position": 1
+    },
+    {
+      "screen_id": "2cf8b13c-c973-4c7d-b02c-4eb7cab71017",
+      "image_url": "https://mobbin.com/api/mcp/short/FpOpTpXm",
+      "position": 2
+    },
+    {
+      "screen_id": "b849503c-c6c8-4dfe-bd36-c5fb31b2bae4",
+      "image_url": "https://mobbin.com/api/mcp/short/C3r15y3T",
+      "position": 3
+    },
+    {
+      "screen_id": "0f4f7f51-07d4-4a3c-b768-0c5689da5389",
+      "image_url": "https://mobbin.com/api/mcp/short/ApvccOcu",
+      "position": 4
+    },
+    {
+      "screen_id": "7c008b0f-60bc-427a-b146-0630fbcdacc6",
+      "image_url": "https://mobbin.com/api/mcp/short/EjswUjqB",
+      "position": 5
+    },
+    {
+      "screen_id": "c5d35999-99dd-4583-be65-93db284351a7",
+      "image_url": "https://mobbin.com/api/mcp/short/VKp8kQWi",
+      "position": 6
+    },
+    {
+      "screen_id": "f0a88993-c1f5-4e45-9945-c1e4c1b4da16",
+      "image_url": "https://mobbin.com/api/mcp/short/Jzz3pXjV",
+      "position": 7
+    },
+    {
+      "screen_id": "713e6313-02f4-4ef2-90b4-507a2e2cd93c",
+      "image_url": "https://mobbin.com/api/mcp/short/LZFLIzvU",
+      "position": 8
+    },
+    {
+      "screen_id": "69522a76-6b44-45a3-8c66-c71eeae97cb7",
+      "image_url": "https://mobbin.com/api/mcp/short/9iUR4YMh",
+      "position": 9
+    },
+    {
+      "screen_id": "f323d072-7c2c-4514-aafe-9bdb2e1b59e5",
+      "image_url": "https://mobbin.com/api/mcp/short/xstrhssf",
+      "position": 10
+    },
+    {
+      "screen_id": "9f679962-e78b-4571-bc08-525f78842506",
+      "image_url": "https://mobbin.com/api/mcp/short/HR5rcqI8",
+      "position": 11
+    },
+    {
+      "screen_id": "fcdc8f72-600a-4c38-876a-ec0befcaa095",
+      "image_url": "https://mobbin.com/api/mcp/short/nU1DAW9k",
+      "position": 12
+    },
+    {
+      "screen_id": "c5bebdfd-dc78-4474-b2d8-e6da6653fae7",
+      "image_url": "https://mobbin.com/api/mcp/short/9rMjymBe",
+      "position": 13
+    },
+    {
+      "screen_id": "afd1f322-724d-4273-a73d-18d8bb7a6feb",
+      "image_url": "https://mobbin.com/api/mcp/short/T1V1IrCB",
+      "position": 14
+    },
+    {
+      "screen_id": "1e966f34-e223-4ed6-a63d-54c774ef2c04",
+      "image_url": "https://mobbin.com/api/mcp/short/ZGVqhJki",
+      "position": 15
+    },
+    {
+      "screen_id": "b65f38de-2ad0-4c49-912e-7c41022ed0f9",
+      "image_url": "https://mobbin.com/api/mcp/short/ANFMf08r",
+      "position": 16
+    },
+    {
+      "screen_id": "14738f62-6cae-4123-be92-4a57f5b4bda6",
+      "image_url": "https://mobbin.com/api/mcp/short/c0gl6AkL",
+      "position": 17
+    },
+    {
+      "screen_id": "ee0ce48d-c1c3-42a0-a94d-74cbe1cf4654",
+      "image_url": "https://mobbin.com/api/mcp/short/FHZXBA6i",
+      "position": 18
+    }
+  ]
+}

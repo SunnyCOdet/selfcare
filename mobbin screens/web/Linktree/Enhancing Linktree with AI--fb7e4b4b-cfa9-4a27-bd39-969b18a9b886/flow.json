@@ -1,0 +1,43 @@
+{
+  "id": "fb7e4b4b-cfa9-4a27-bd39-969b18a9b886",
+  "name": "Enhancing Linktree with AI",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fb7e4b4b-cfa9-4a27-bd39-969b18a9b886",
+  "app_name": "Linktree",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "6fef318d-2e31-4994-9721-ae091c6a12e7",
+      "image_url": "https://mobbin.com/api/mcp/short/GjhFlMpE",
+      "position": 1
+    },
+    {
+      "screen_id": "d38548f0-7074-4e18-97fb-cbf30124bfb0",
+      "image_url": "https://mobbin.com/api/mcp/short/a6gCd9mT",
+      "position": 2
+    },
+    {
+      "screen_id": "1bac971c-4dff-497f-a3ec-4c9678d7e308",
+      "image_url": "https://mobbin.com/api/mcp/short/61Rr2xaM",
+      "position": 3
+    },
+    {
+      "screen_id": "e4c6f23e-2160-45c3-ac57-66813bc6359d",
+      "image_url": "https://mobbin.com/api/mcp/short/hKpkrfjA",
+      "position": 4
+    },
+    {
+      "screen_id": "c81077fe-f3e7-4c4e-a41e-1374ecd6f644",
+      "image_url": "https://mobbin.com/api/mcp/short/GjaKStLh",
+      "position": 5
+    },
+    {
+      "screen_id": "eb2b536d-5c5a-4f65-9faa-95efd1e9aa82",
+      "image_url": "https://mobbin.com/api/mcp/short/JGyURZBO",
+      "position": 6
+    }
+  ]
+}

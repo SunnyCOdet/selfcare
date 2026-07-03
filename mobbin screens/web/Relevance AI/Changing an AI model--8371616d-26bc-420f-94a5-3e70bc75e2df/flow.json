@@ -1,0 +1,34 @@
+{
+  "id": "8371616d-26bc-420f-94a5-3e70bc75e2df",
+  "name": "Changing an AI model",
+  "actions": [
+    "Editing & Updating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8371616d-26bc-420f-94a5-3e70bc75e2df",
+  "app_name": "Relevance AI",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2ec68741-6d63-4ec9-be03-d85bae16a1e0",
+      "image_url": "https://mobbin.com/api/mcp/short/PPWZ8Xsg",
+      "position": 1
+    },
+    {
+      "screen_id": "94a61b0c-d8b5-4254-8147-426391e60452",
+      "image_url": "https://mobbin.com/api/mcp/short/Tvv3oIeD",
+      "position": 2
+    },
+    {
+      "screen_id": "71f23948-9300-4b1a-bbda-e68b27778ee2",
+      "image_url": "https://mobbin.com/api/mcp/short/tcSSppe3",
+      "position": 3
+    },
+    {
+      "screen_id": "748dafc7-32e3-4ebf-8422-c34763d27013",
+      "image_url": "https://mobbin.com/api/mcp/short/W89LImp5",
+      "position": 4
+    }
+  ]
+}

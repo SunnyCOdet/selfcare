@@ -1,0 +1,28 @@
+{
+  "id": "0b15e646-bac4-4ac3-9095-0b67d067a147",
+  "name": "Creating a project",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0b15e646-bac4-4ac3-9095-0b67d067a147",
+  "app_name": "Seline",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "87d36cf2-d7fa-4335-8284-3c9d2fa2fd03",
+      "image_url": "https://mobbin.com/api/mcp/short/SVbElcFJ",
+      "position": 1
+    },
+    {
+      "screen_id": "bf62e5af-dda9-40cb-84c4-107a0bc21559",
+      "image_url": "https://mobbin.com/api/mcp/short/athgFWNb",
+      "position": 2
+    },
+    {
+      "screen_id": "1cb82dfc-bd9c-4b12-bb95-0ebef5b6b49c",
+      "image_url": "https://mobbin.com/api/mcp/short/5tegQ8k1",
+      "position": 3
+    }
+  ]
+}

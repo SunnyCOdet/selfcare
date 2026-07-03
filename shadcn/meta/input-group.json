@@ -1,0 +1,18 @@
+{
+  "name": "input-group",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [
+    "button",
+    "input",
+    "textarea"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/input-group.tsx",
+      "extractedTo": "ui/input-group.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

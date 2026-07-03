@@ -1,0 +1,21 @@
+{
+  "id": "79784081-0be1-4eb1-b8ed-a9e9763486b5",
+  "name": "Health professionals list",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/79784081-0be1-4eb1-b8ed-a9e9763486b5",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "0663b536-de45-4cef-921c-a5f350346a1e",
+      "image_url": "https://mobbin.com/api/mcp/short/RqMcgFbg",
+      "position": 1
+    },
+    {
+      "screen_id": "72db71e1-c81c-4d2c-ab99-2d71b58bdf11",
+      "image_url": "https://mobbin.com/api/mcp/short/IVp63FjR",
+      "position": 2
+    }
+  ]
+}

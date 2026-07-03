@@ -1,0 +1,44 @@
+{
+  "id": "4368f6b8-ea34-4710-972c-e6c4e9acfa1c",
+  "name": "Generating a job with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4368f6b8-ea34-4710-972c-e6c4e9acfa1c",
+  "app_name": "Workable",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "c47a1c83-5427-4ca6-99cd-979f9867256c",
+      "image_url": "https://mobbin.com/api/mcp/short/nHqS3CaZ",
+      "position": 1
+    },
+    {
+      "screen_id": "48c53746-2609-4800-b629-a5219e6415f4",
+      "image_url": "https://mobbin.com/api/mcp/short/opiVxtxd",
+      "position": 2
+    },
+    {
+      "screen_id": "45c3cbe5-8e5e-459f-bd60-bfb7e35de838",
+      "image_url": "https://mobbin.com/api/mcp/short/ziABsKPK",
+      "position": 3
+    },
+    {
+      "screen_id": "467c1920-c85f-4708-b6e0-18ce56545eba",
+      "image_url": "https://mobbin.com/api/mcp/short/7fXAry4e",
+      "position": 4
+    },
+    {
+      "screen_id": "d60b8b9f-008c-4b0b-96da-12512ad8ee81",
+      "image_url": "https://mobbin.com/api/mcp/short/Sl9JHKfR",
+      "position": 5
+    },
+    {
+      "screen_id": "ed07e3ae-4bf2-4f37-84a8-d3a6b2bc1c1c",
+      "image_url": "https://mobbin.com/api/mcp/short/BdKtrVef",
+      "position": 6
+    }
+  ]
+}

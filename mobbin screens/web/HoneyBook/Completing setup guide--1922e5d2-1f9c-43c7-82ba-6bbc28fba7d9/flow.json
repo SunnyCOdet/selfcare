@@ -1,0 +1,38 @@
+{
+  "id": "1922e5d2-1f9c-43c7-82ba-6bbc28fba7d9",
+  "name": "Completing setup guide",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1922e5d2-1f9c-43c7-82ba-6bbc28fba7d9",
+  "app_name": "HoneyBook",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0da1d3f0-1202-403e-8f48-8706d9c54c1f",
+      "image_url": "https://mobbin.com/api/mcp/short/GVMdgFJ1",
+      "position": 1
+    },
+    {
+      "screen_id": "c02e37c2-96e4-4177-a8ac-59bec0593db3",
+      "image_url": "https://mobbin.com/api/mcp/short/mslsHnlg",
+      "position": 2
+    },
+    {
+      "screen_id": "6c6c73df-b8fa-433a-a6b2-0073db53833d",
+      "image_url": "https://mobbin.com/api/mcp/short/g3Kh40iA",
+      "position": 3
+    },
+    {
+      "screen_id": "1c8bc1e8-b4f7-4bc2-991b-b64f42e43e5c",
+      "image_url": "https://mobbin.com/api/mcp/short/Qb6FCyUv",
+      "position": 4
+    },
+    {
+      "screen_id": "2fb4aa2e-a362-42fb-a019-8eb18de8cb6a",
+      "image_url": "https://mobbin.com/api/mcp/short/6ZxUbTCO",
+      "position": 5
+    }
+  ]
+}

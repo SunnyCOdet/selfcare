@@ -1,0 +1,28 @@
+{
+  "id": "6a29a49c-f08a-4231-9ce2-75f42a466b5c",
+  "name": "Completing guide list",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6a29a49c-f08a-4231-9ce2-75f42a466b5c",
+  "app_name": "Behance",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "854d02de-b597-4324-acd1-ab4e7ce96f06",
+      "image_url": "https://mobbin.com/api/mcp/short/ys5OuyYj",
+      "position": 1
+    },
+    {
+      "screen_id": "1396ef26-c3e8-4340-a24e-89112f4685d3",
+      "image_url": "https://mobbin.com/api/mcp/short/v0Lou1jC",
+      "position": 2
+    },
+    {
+      "screen_id": "822b6b28-de8c-4936-a3c6-b73425f290a3",
+      "image_url": "https://mobbin.com/api/mcp/short/wOtSBcHN",
+      "position": 3
+    }
+  ]
+}

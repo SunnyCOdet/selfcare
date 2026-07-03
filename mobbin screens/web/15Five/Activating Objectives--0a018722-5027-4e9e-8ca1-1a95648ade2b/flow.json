@@ -1,0 +1,48 @@
+{
+  "id": "0a018722-5027-4e9e-8ca1-1a95648ade2b",
+  "name": "Activating Objectives",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0a018722-5027-4e9e-8ca1-1a95648ade2b",
+  "app_name": "15Five",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "c87115b5-43b4-479f-bcbf-14d929b9bd8e",
+      "image_url": "https://mobbin.com/api/mcp/short/e0kHbJ8E",
+      "position": 1
+    },
+    {
+      "screen_id": "bc0d3955-efad-4b31-9f5e-58bc823b70f8",
+      "image_url": "https://mobbin.com/api/mcp/short/UJfLtuAJ",
+      "position": 2
+    },
+    {
+      "screen_id": "deb6b011-3e79-4cea-a1e4-e2abd383e342",
+      "image_url": "https://mobbin.com/api/mcp/short/y9NKLhnX",
+      "position": 3
+    },
+    {
+      "screen_id": "4289ab4d-efaf-48a2-9007-52e350e396ab",
+      "image_url": "https://mobbin.com/api/mcp/short/ivS0fORc",
+      "position": 4
+    },
+    {
+      "screen_id": "ec979a3c-5159-4191-8aab-bed21a1864e5",
+      "image_url": "https://mobbin.com/api/mcp/short/OKD3DwKN",
+      "position": 5
+    },
+    {
+      "screen_id": "33979077-9936-4241-b410-d668882ad032",
+      "image_url": "https://mobbin.com/api/mcp/short/AEB3kcEl",
+      "position": 6
+    },
+    {
+      "screen_id": "f9b60e88-0e75-4a6a-8a5f-9b00b3629c45",
+      "image_url": "https://mobbin.com/api/mcp/short/usQALDLH",
+      "position": 7
+    }
+  ]
+}

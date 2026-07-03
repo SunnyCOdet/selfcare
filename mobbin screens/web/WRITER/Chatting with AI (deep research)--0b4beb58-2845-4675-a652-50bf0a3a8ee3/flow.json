@@ -1,0 +1,63 @@
+{
+  "id": "0b4beb58-2845-4675-a652-50bf0a3a8ee3",
+  "name": "Chatting with AI (deep research)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0b4beb58-2845-4675-a652-50bf0a3a8ee3",
+  "app_name": "WRITER",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "f2b6ccd0-e81b-41b4-8f8d-fa9969f74a2d",
+      "image_url": "https://mobbin.com/api/mcp/short/6ZC60rzk",
+      "position": 1
+    },
+    {
+      "screen_id": "9652aa1a-2aeb-469c-8a84-12d4d01c788c",
+      "image_url": "https://mobbin.com/api/mcp/short/Wysd4PmX",
+      "position": 2
+    },
+    {
+      "screen_id": "9a333f8f-2a9e-4fd2-bea3-e941bb2eee68",
+      "image_url": "https://mobbin.com/api/mcp/short/iAwrRmPs",
+      "position": 3
+    },
+    {
+      "screen_id": "3ce04d5d-bd2f-4fe0-bf36-d493b7080857",
+      "image_url": "https://mobbin.com/api/mcp/short/mcaxXP1w",
+      "position": 4
+    },
+    {
+      "screen_id": "457724a4-6959-4268-819e-b1e29ff0b0bd",
+      "image_url": "https://mobbin.com/api/mcp/short/rQk4BdXI",
+      "position": 5
+    },
+    {
+      "screen_id": "695b1577-e70b-45ae-a47d-90fcc7fa29db",
+      "image_url": "https://mobbin.com/api/mcp/short/AuVkBNlR",
+      "position": 6
+    },
+    {
+      "screen_id": "a52a6b9f-0008-4276-937b-e14962f6a90d",
+      "image_url": "https://mobbin.com/api/mcp/short/Bba0U9wQ",
+      "position": 7
+    },
+    {
+      "screen_id": "e88f979a-1f33-4626-99aa-67f4700f3e29",
+      "image_url": "https://mobbin.com/api/mcp/short/VyFlY38m",
+      "position": 8
+    },
+    {
+      "screen_id": "747196a1-102f-4c11-9bf4-64be115c93a7",
+      "image_url": "https://mobbin.com/api/mcp/short/ytqabhuX",
+      "position": 9
+    },
+    {
+      "screen_id": "370532b6-b210-444f-96e6-b99a7d8251e1",
+      "image_url": "https://mobbin.com/api/mcp/short/HoCQW0gE",
+      "position": 10
+    }
+  ]
+}

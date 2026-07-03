@@ -1,0 +1,63 @@
+{
+  "id": "fed2772b-6edd-432f-b195-0691f2d84d04",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fed2772b-6edd-432f-b195-0691f2d84d04",
+  "app_name": "Rocket Money",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "c275829e-05ba-4952-afd0-a69e26694214",
+      "image_url": "https://mobbin.com/api/mcp/short/QTiFshvx",
+      "position": 1
+    },
+    {
+      "screen_id": "a2f5c460-e310-4cca-97bd-47a72317c4b5",
+      "image_url": "https://mobbin.com/api/mcp/short/7BoW1uHO",
+      "position": 2
+    },
+    {
+      "screen_id": "62299cd0-b742-46df-8e69-102e713914a1",
+      "image_url": "https://mobbin.com/api/mcp/short/okaB2J6a",
+      "position": 3
+    },
+    {
+      "screen_id": "0c61118c-7307-4598-a1d3-ae9088086aa8",
+      "image_url": "https://mobbin.com/api/mcp/short/VBGq8IjE",
+      "position": 4
+    },
+    {
+      "screen_id": "b456d406-2fd4-4a3f-97e4-891d8218fa71",
+      "image_url": "https://mobbin.com/api/mcp/short/QFB03aDi",
+      "position": 5
+    },
+    {
+      "screen_id": "5d87d8f7-262b-4b4e-b156-64a783b46444",
+      "image_url": "https://mobbin.com/api/mcp/short/WRucyB4b",
+      "position": 6
+    },
+    {
+      "screen_id": "9e7551d3-e5b5-40f1-9513-13eb8cd32f7a",
+      "image_url": "https://mobbin.com/api/mcp/short/EfWwQLyh",
+      "position": 7
+    },
+    {
+      "screen_id": "8ba7223d-ec65-4c2d-aa4a-00612b77f969",
+      "image_url": "https://mobbin.com/api/mcp/short/ykAW8z9R",
+      "position": 8
+    },
+    {
+      "screen_id": "5308d11b-7e5c-4577-a12b-86145e681d16",
+      "image_url": "https://mobbin.com/api/mcp/short/Nw4HJrSJ",
+      "position": 9
+    },
+    {
+      "screen_id": "ea751fc5-d701-46ba-aa93-272173b8ada0",
+      "image_url": "https://mobbin.com/api/mcp/short/KblemLKE",
+      "position": 10
+    }
+  ]
+}

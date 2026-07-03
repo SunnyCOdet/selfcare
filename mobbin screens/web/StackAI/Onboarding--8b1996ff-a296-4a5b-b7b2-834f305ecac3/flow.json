@@ -1,0 +1,49 @@
+{
+  "id": "8b1996ff-a296-4a5b-b7b2-834f305ecac3",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8b1996ff-a296-4a5b-b7b2-834f305ecac3",
+  "app_name": "StackAI",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "cab9149a-22ec-47e6-9779-76e1489ef118",
+      "image_url": "https://mobbin.com/api/mcp/short/FQZa9dM9",
+      "position": 1
+    },
+    {
+      "screen_id": "a5ad9741-75d5-4a22-bc0f-db8560c711ab",
+      "image_url": "https://mobbin.com/api/mcp/short/kWBPuez2",
+      "position": 2
+    },
+    {
+      "screen_id": "a96b585b-cb1a-4319-bab4-5658b9780d99",
+      "image_url": "https://mobbin.com/api/mcp/short/TzaGOAg0",
+      "position": 3
+    },
+    {
+      "screen_id": "d26cb214-b555-4a42-a3cb-e659e38489b2",
+      "image_url": "https://mobbin.com/api/mcp/short/BZOlLdaF",
+      "position": 4
+    },
+    {
+      "screen_id": "eb8ccc18-90d6-4842-9692-cb969a757427",
+      "image_url": "https://mobbin.com/api/mcp/short/lRS0VCtK",
+      "position": 5
+    },
+    {
+      "screen_id": "6823d0e6-3d75-4764-8151-cadca42415ce",
+      "image_url": "https://mobbin.com/api/mcp/short/U8KUOL8v",
+      "position": 6
+    },
+    {
+      "screen_id": "aca5191a-2769-4339-adff-6426c7234c80",
+      "image_url": "https://mobbin.com/api/mcp/short/L6AjOXrp",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "d201f73b-f7a5-4f4f-b6ab-609106417ecc",
+  "name": "Selecting a starting date",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d201f73b-f7a5-4f4f-b6ab-609106417ecc",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5d18aaa3-d89f-4c1e-9624-71a15409c32d",
+      "image_url": "https://mobbin.com/api/mcp/short/YTcloCVo",
+      "position": 1
+    },
+    {
+      "screen_id": "7c16bbbc-69a2-4420-848e-c6b398d47712",
+      "image_url": "https://mobbin.com/api/mcp/short/Ms2nAErE",
+      "position": 2
+    },
+    {
+      "screen_id": "0b73d511-0754-47af-a66b-760284734e8d",
+      "image_url": "https://mobbin.com/api/mcp/short/1zLUwMjH",
+      "position": 3
+    },
+    {
+      "screen_id": "1ea41a0b-55bc-4c11-b2e3-4152f4263684",
+      "image_url": "https://mobbin.com/api/mcp/short/vr0TE7ph",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "85886abe-6fd3-46ce-9b59-ffcc6bf49f8a",
+  "name": "Wellbeing journey",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/85886abe-6fd3-46ce-9b59-ffcc6bf49f8a",
+  "app_name": "Gentler Streak",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "48b8ee77-469e-4900-9479-8d419e72775a",
+      "image_url": "https://mobbin.com/api/mcp/short/0kijaZuk",
+      "position": 1
+    },
+    {
+      "screen_id": "05843fdc-b555-493e-87cd-77a77c88e818",
+      "image_url": "https://mobbin.com/api/mcp/short/8F2eculn",
+      "position": 2
+    },
+    {
+      "screen_id": "f1eb0470-11a0-499c-a78c-f8ba02c3d79b",
+      "image_url": "https://mobbin.com/api/mcp/short/pyHuyzMY",
+      "position": 3
+    },
+    {
+      "screen_id": "4482e824-c5c9-4d0f-b913-ddc7dc40309c",
+      "image_url": "https://mobbin.com/api/mcp/short/f0rrqTOz",
+      "position": 4
+    }
+  ]
+}

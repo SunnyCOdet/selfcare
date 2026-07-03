@@ -1,0 +1,26 @@
+{
+  "id": "1f135611-739e-424c-8592-87869d4f1632",
+  "name": "Pliability journey",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1f135611-739e-424c-8592-87869d4f1632",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "14f9ff2c-ac1a-47c4-a64f-67b6174c06bf",
+      "image_url": "https://mobbin.com/api/mcp/short/DcE10drG",
+      "position": 1
+    },
+    {
+      "screen_id": "ad53273f-35aa-480d-92df-216a1f5e9ccd",
+      "image_url": "https://mobbin.com/api/mcp/short/VRfQa5Ec",
+      "position": 2
+    },
+    {
+      "screen_id": "92c29d97-80f0-442c-97f6-f150fd07bd2a",
+      "image_url": "https://mobbin.com/api/mcp/short/SkIc5RSM",
+      "position": 3
+    }
+  ]
+}

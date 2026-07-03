@@ -1,0 +1,71 @@
+{
+  "id": "0abda07f-6e3b-4c92-8e20-a8561e9781e9",
+  "name": "Onboarding",
+  "actions": [
+    "Adding & Creating",
+    "Creating Account",
+    "Onboarding",
+    "Verifying"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0abda07f-6e3b-4c92-8e20-a8561e9781e9",
+  "app_name": "Mistral AI",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "2a238c83-d316-4f7f-b4d9-4110472b1d03",
+      "image_url": "https://mobbin.com/api/mcp/short/AFJtwqeM",
+      "position": 1
+    },
+    {
+      "screen_id": "4dda12b2-fd85-4e54-95d8-3a01d1e8feb7",
+      "image_url": "https://mobbin.com/api/mcp/short/BQ2HtEPK",
+      "position": 2
+    },
+    {
+      "screen_id": "c8dbabb5-dd8f-4f67-8e6b-df97d2ea9d64",
+      "image_url": "https://mobbin.com/api/mcp/short/Z0RYO7pl",
+      "position": 3
+    },
+    {
+      "screen_id": "315d4d4e-d803-4abe-8d14-b1c54027fd95",
+      "image_url": "https://mobbin.com/api/mcp/short/Fvok3zmo",
+      "position": 4
+    },
+    {
+      "screen_id": "46c1a7b7-5bd1-45e1-9113-b6bb31a12967",
+      "image_url": "https://mobbin.com/api/mcp/short/kmXtWLsr",
+      "position": 5
+    },
+    {
+      "screen_id": "5db6e2ac-3cae-47cc-b2cf-e827011f1321",
+      "image_url": "https://mobbin.com/api/mcp/short/sfWiz9s4",
+      "position": 6
+    },
+    {
+      "screen_id": "44d0a75b-6a07-4a16-ad38-ffb40f3a072a",
+      "image_url": "https://mobbin.com/api/mcp/short/y8TMFKc2",
+      "position": 7
+    },
+    {
+      "screen_id": "69c1dcb8-f67b-42c4-abfe-887bf5a10a62",
+      "image_url": "https://mobbin.com/api/mcp/short/gSO1klHM",
+      "position": 8
+    },
+    {
+      "screen_id": "f8e89082-f124-43ab-8a44-2f09d968d443",
+      "image_url": "https://mobbin.com/api/mcp/short/zE3CKd2z",
+      "position": 9
+    },
+    {
+      "screen_id": "ed454030-1b21-490b-9d0e-829c6679c4f5",
+      "image_url": "https://mobbin.com/api/mcp/short/wD1hVLiL",
+      "position": 10
+    },
+    {
+      "screen_id": "0174c534-6c38-422e-ba2b-9ba53dce5ea3",
+      "image_url": "https://mobbin.com/api/mcp/short/3FK3V5D5",
+      "position": 11
+    }
+  ]
+}

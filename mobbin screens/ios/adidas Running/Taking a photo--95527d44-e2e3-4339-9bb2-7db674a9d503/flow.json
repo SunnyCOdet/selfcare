@@ -1,0 +1,33 @@
+{
+  "id": "95527d44-e2e3-4339-9bb2-7db674a9d503",
+  "name": "Taking a photo",
+  "actions": [
+    "Taking Photos"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/95527d44-e2e3-4339-9bb2-7db674a9d503",
+  "app_name": "adidas Running",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "9c1de90a-9f83-451f-a904-7535b755802c",
+      "image_url": "https://mobbin.com/api/mcp/short/1oq4vCiK",
+      "position": 1
+    },
+    {
+      "screen_id": "dad86ca5-d6e4-4e19-9923-56ea0623a931",
+      "image_url": "https://mobbin.com/api/mcp/short/JOvwAh9k",
+      "position": 2
+    },
+    {
+      "screen_id": "745d548d-0809-45a6-a5a7-398b3e0ed774",
+      "image_url": "https://mobbin.com/api/mcp/short/omsuJmRX",
+      "position": 3
+    },
+    {
+      "screen_id": "622d9572-7d8c-4d1a-8fe0-66c068a62bf8",
+      "image_url": "https://mobbin.com/api/mcp/short/zXLEzavF",
+      "position": 4
+    }
+  ]
+}

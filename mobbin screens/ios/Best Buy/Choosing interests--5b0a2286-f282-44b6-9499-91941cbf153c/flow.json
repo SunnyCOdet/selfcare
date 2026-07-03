@@ -1,0 +1,43 @@
+{
+  "id": "5b0a2286-f282-44b6-9499-91941cbf153c",
+  "name": "Choosing interests",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5b0a2286-f282-44b6-9499-91941cbf153c",
+  "app_name": "Best Buy",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "70b48b9f-96d7-4fe9-9764-0faf7f67d653",
+      "image_url": "https://mobbin.com/api/mcp/short/VdYb49d3",
+      "position": 1
+    },
+    {
+      "screen_id": "39919575-cff1-4f46-92d7-6971c0b251e8",
+      "image_url": "https://mobbin.com/api/mcp/short/f2JP54M8",
+      "position": 2
+    },
+    {
+      "screen_id": "e89b2f94-f174-460e-a99b-b23795613967",
+      "image_url": "https://mobbin.com/api/mcp/short/n4G35lWM",
+      "position": 3
+    },
+    {
+      "screen_id": "500527fc-dd7e-408b-9845-acf195386595",
+      "image_url": "https://mobbin.com/api/mcp/short/LvANL0wu",
+      "position": 4
+    },
+    {
+      "screen_id": "4a64c5ab-b791-483a-9ba2-b9cfd1a46820",
+      "image_url": "https://mobbin.com/api/mcp/short/fenNi6e5",
+      "position": 5
+    },
+    {
+      "screen_id": "8ec18a0e-3056-4985-895c-35fababac79e",
+      "image_url": "https://mobbin.com/api/mcp/short/SAvBaxmB",
+      "position": 6
+    }
+  ]
+}

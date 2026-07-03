@@ -1,0 +1,26 @@
+{
+  "id": "d0844e61-43f4-4195-8183-4d886ddba7d0",
+  "name": "Challenges",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d0844e61-43f4-4195-8183-4d886ddba7d0",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d2b5d75c-9a3e-4e3c-9969-b18bfd456200",
+      "image_url": "https://mobbin.com/api/mcp/short/6WFp3iOB",
+      "position": 1
+    },
+    {
+      "screen_id": "c13eb976-0838-4477-b1f5-f55800fc9a94",
+      "image_url": "https://mobbin.com/api/mcp/short/R2KxRvpx",
+      "position": 2
+    },
+    {
+      "screen_id": "40d9f131-0ea9-428d-8475-39ed457e2135",
+      "image_url": "https://mobbin.com/api/mcp/short/2mXkvJxK",
+      "position": 3
+    }
+  ]
+}

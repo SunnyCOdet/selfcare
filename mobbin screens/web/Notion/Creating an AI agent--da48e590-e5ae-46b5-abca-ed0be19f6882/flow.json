@@ -1,0 +1,54 @@
+{
+  "id": "da48e590-e5ae-46b5-abca-ed0be19f6882",
+  "name": "Creating an AI agent",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/da48e590-e5ae-46b5-abca-ed0be19f6882",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "e26db240-0cba-4c1e-bab0-acb2faeb4b56",
+      "image_url": "https://mobbin.com/api/mcp/short/GubADVHj",
+      "position": 1
+    },
+    {
+      "screen_id": "7447d652-5d5f-4d9c-b65c-fb566116c362",
+      "image_url": "https://mobbin.com/api/mcp/short/UDji84Tj",
+      "position": 2
+    },
+    {
+      "screen_id": "7d42dbdc-202e-487f-b496-15a481e9c077",
+      "image_url": "https://mobbin.com/api/mcp/short/5L12FsHv",
+      "position": 3
+    },
+    {
+      "screen_id": "cd858178-8f6c-4e87-9d4f-a1d3b10aa36a",
+      "image_url": "https://mobbin.com/api/mcp/short/ZqVPlafz",
+      "position": 4
+    },
+    {
+      "screen_id": "cfe886d9-1f11-46b6-8bef-01bc1d1e1901",
+      "image_url": "https://mobbin.com/api/mcp/short/mqlcTbQG",
+      "position": 5
+    },
+    {
+      "screen_id": "b4cea329-857c-40e1-bb19-f45bcefdb443",
+      "image_url": "https://mobbin.com/api/mcp/short/JBcdnI2e",
+      "position": 6
+    },
+    {
+      "screen_id": "d5d67c31-6e01-45d1-b24f-e898e7463c12",
+      "image_url": "https://mobbin.com/api/mcp/short/evurIXOm",
+      "position": 7
+    },
+    {
+      "screen_id": "7203dca7-721a-45a6-89e3-06893fecbd5f",
+      "image_url": "https://mobbin.com/api/mcp/short/mMbiB7ze",
+      "position": 8
+    }
+  ]
+}

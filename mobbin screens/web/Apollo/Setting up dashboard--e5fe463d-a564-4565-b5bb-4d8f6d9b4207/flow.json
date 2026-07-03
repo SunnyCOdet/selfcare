@@ -1,0 +1,49 @@
+{
+  "id": "e5fe463d-a564-4565-b5bb-4d8f6d9b4207",
+  "name": "Setting up dashboard",
+  "actions": [
+    "Adding & Creating",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e5fe463d-a564-4565-b5bb-4d8f6d9b4207",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "7b2b01dd-0d13-43da-944e-3437cabd3511",
+      "image_url": "https://mobbin.com/api/mcp/short/J91kuEIW",
+      "position": 1
+    },
+    {
+      "screen_id": "af4ac202-d74a-4503-ba55-d8851ae5991c",
+      "image_url": "https://mobbin.com/api/mcp/short/W0fa77ht",
+      "position": 2
+    },
+    {
+      "screen_id": "912e68cc-eb57-4885-9a73-42462531211b",
+      "image_url": "https://mobbin.com/api/mcp/short/0VBTpOn9",
+      "position": 3
+    },
+    {
+      "screen_id": "1710f0aa-e3e6-405a-905b-030fd611a409",
+      "image_url": "https://mobbin.com/api/mcp/short/PD9jATf8",
+      "position": 4
+    },
+    {
+      "screen_id": "d65a8365-c6cd-46b1-9f02-c536c13193aa",
+      "image_url": "https://mobbin.com/api/mcp/short/QCBgB4yq",
+      "position": 5
+    },
+    {
+      "screen_id": "a39e7a44-ed2f-4b2e-8447-7f1b0169b6ef",
+      "image_url": "https://mobbin.com/api/mcp/short/oJAm4CmI",
+      "position": 6
+    },
+    {
+      "screen_id": "727f93f3-dcb7-4de4-89b1-45399ae60f81",
+      "image_url": "https://mobbin.com/api/mcp/short/gFsas27P",
+      "position": 7
+    }
+  ]
+}

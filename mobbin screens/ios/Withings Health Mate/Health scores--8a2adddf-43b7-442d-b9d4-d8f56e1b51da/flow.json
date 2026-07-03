@@ -1,0 +1,66 @@
+{
+  "id": "8a2adddf-43b7-442d-b9d4-d8f56e1b51da",
+  "name": "Health scores",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8a2adddf-43b7-442d-b9d4-d8f56e1b51da",
+  "app_name": "Withings Health Mate",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "a168eb87-20a4-420b-a134-f6d3208f996d",
+      "image_url": "https://mobbin.com/api/mcp/short/loNWfkOx",
+      "position": 1
+    },
+    {
+      "screen_id": "d7096b0a-5482-41c7-bc6d-bc3da75f0323",
+      "image_url": "https://mobbin.com/api/mcp/short/HlaROABh",
+      "position": 2
+    },
+    {
+      "screen_id": "1d196837-3d67-4b03-a1b4-52424684b244",
+      "image_url": "https://mobbin.com/api/mcp/short/w44a0V2W",
+      "position": 3
+    },
+    {
+      "screen_id": "161d32d3-8243-481f-8974-c0c163287c95",
+      "image_url": "https://mobbin.com/api/mcp/short/g587eKxT",
+      "position": 4
+    },
+    {
+      "screen_id": "b942b2ea-6f01-4105-a011-35670244dbc0",
+      "image_url": "https://mobbin.com/api/mcp/short/P4BC03hy",
+      "position": 5
+    },
+    {
+      "screen_id": "b52b7b86-83f2-4cdc-9a03-bd66585ea812",
+      "image_url": "https://mobbin.com/api/mcp/short/dGJCgeYS",
+      "position": 6
+    },
+    {
+      "screen_id": "b4ef5e26-77ce-4602-8c8f-deaca46442c1",
+      "image_url": "https://mobbin.com/api/mcp/short/k6Z872JS",
+      "position": 7
+    },
+    {
+      "screen_id": "18a9b106-3393-49ff-ae82-80a12a34bf26",
+      "image_url": "https://mobbin.com/api/mcp/short/VL1O0P3B",
+      "position": 8
+    },
+    {
+      "screen_id": "261e5aea-b4dc-43a0-b76d-a119e8d37bc5",
+      "image_url": "https://mobbin.com/api/mcp/short/biQYZipf",
+      "position": 9
+    },
+    {
+      "screen_id": "2f02e2bd-4a81-4f20-a097-390ac87a5cf8",
+      "image_url": "https://mobbin.com/api/mcp/short/GfxpQabj",
+      "position": 10
+    },
+    {
+      "screen_id": "c2bb840a-1bbc-4f6d-abbf-d62e8c2c9e43",
+      "image_url": "https://mobbin.com/api/mcp/short/M8EDTDce",
+      "position": 11
+    }
+  ]
+}

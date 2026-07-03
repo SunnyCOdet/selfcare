@@ -1,0 +1,31 @@
+{
+  "id": "e53e5c2c-a7a1-480f-87f3-aa88d839b261",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e53e5c2c-a7a1-480f-87f3-aa88d839b261",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "9a868011-a46e-4943-80a1-9426d8bc0c1f",
+      "image_url": "https://mobbin.com/api/mcp/short/ZNLx2Ql0",
+      "position": 1
+    },
+    {
+      "screen_id": "1b5b9312-fc6a-4b99-8bfb-95936149e3fd",
+      "image_url": "https://mobbin.com/api/mcp/short/2shd6LVR",
+      "position": 2
+    },
+    {
+      "screen_id": "04270dcc-b3c4-4dc3-adde-0d02ff7c9bc4",
+      "image_url": "https://mobbin.com/api/mcp/short/v5c8YNrJ",
+      "position": 3
+    },
+    {
+      "screen_id": "52e9a883-60d5-4070-87d9-8446ae07f574",
+      "image_url": "https://mobbin.com/api/mcp/short/MO4fiLTx",
+      "position": 4
+    }
+  ]
+}

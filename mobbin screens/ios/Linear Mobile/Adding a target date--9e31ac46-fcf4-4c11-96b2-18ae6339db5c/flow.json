@@ -1,0 +1,33 @@
+{
+  "id": "9e31ac46-fcf4-4c11-96b2-18ae6339db5c",
+  "name": "Adding a target date",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9e31ac46-fcf4-4c11-96b2-18ae6339db5c",
+  "app_name": "Linear Mobile",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "df5b7f5f-67e5-457c-b9bf-b09905951a63",
+      "image_url": "https://mobbin.com/api/mcp/short/H35x7DyA",
+      "position": 1
+    },
+    {
+      "screen_id": "f95db849-c60a-408a-8b93-b541eb20332c",
+      "image_url": "https://mobbin.com/api/mcp/short/xxcrZIyg",
+      "position": 2
+    },
+    {
+      "screen_id": "1626603a-2289-44dd-998e-c03c7a97cb3e",
+      "image_url": "https://mobbin.com/api/mcp/short/MnC2ulAM",
+      "position": 3
+    },
+    {
+      "screen_id": "5383b696-9106-46e4-be1a-8944dc701148",
+      "image_url": "https://mobbin.com/api/mcp/short/qjvswQkR",
+      "position": 4
+    }
+  ]
+}

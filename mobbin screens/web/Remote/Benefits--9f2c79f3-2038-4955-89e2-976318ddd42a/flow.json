@@ -1,0 +1,26 @@
+{
+  "id": "9f2c79f3-2038-4955-89e2-976318ddd42a",
+  "name": "Benefits",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9f2c79f3-2038-4955-89e2-976318ddd42a",
+  "app_name": "Remote",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b00fa394-00f6-48da-8464-a07c584fb26d",
+      "image_url": "https://mobbin.com/api/mcp/short/u52BhQLl",
+      "position": 1
+    },
+    {
+      "screen_id": "cc76c6e8-e5a5-4e8a-9b66-7d4569c59b79",
+      "image_url": "https://mobbin.com/api/mcp/short/7KfBAH0C",
+      "position": 2
+    },
+    {
+      "screen_id": "b55b84ce-bee1-4a99-a42d-c5d8755d7232",
+      "image_url": "https://mobbin.com/api/mcp/short/JveLzi9C",
+      "position": 3
+    }
+  ]
+}

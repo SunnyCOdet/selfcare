@@ -1,0 +1,59 @@
+{
+  "id": "ff7b8481-502d-4b24-a404-8afbd70dab2e",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ff7b8481-502d-4b24-a404-8afbd70dab2e",
+  "app_name": "Dovetail",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "3b8d2ee9-cd2f-4d18-9203-2f7e050aad63",
+      "image_url": "https://mobbin.com/api/mcp/short/a7SQ8eGj",
+      "position": 1
+    },
+    {
+      "screen_id": "f4f1c266-581f-48cc-af02-1aad0dee1754",
+      "image_url": "https://mobbin.com/api/mcp/short/L58Q1a5u",
+      "position": 2
+    },
+    {
+      "screen_id": "4ae3951f-9871-4615-a8f2-d384b081b272",
+      "image_url": "https://mobbin.com/api/mcp/short/ugp0uJp5",
+      "position": 3
+    },
+    {
+      "screen_id": "9c1e8cc9-0dcd-4559-a399-678d72e3e97f",
+      "image_url": "https://mobbin.com/api/mcp/short/vVT8n7VI",
+      "position": 4
+    },
+    {
+      "screen_id": "ea0e3e38-ae29-47de-bc5f-a7cfad7ef3c0",
+      "image_url": "https://mobbin.com/api/mcp/short/u2lqxrP5",
+      "position": 5
+    },
+    {
+      "screen_id": "d94cdb1b-753e-4ca6-a7b1-ce4bda4665fc",
+      "image_url": "https://mobbin.com/api/mcp/short/EHbBUkhr",
+      "position": 6
+    },
+    {
+      "screen_id": "66e345f8-1f3a-42c4-8695-00e4ca62c3ea",
+      "image_url": "https://mobbin.com/api/mcp/short/8wigpB9R",
+      "position": 7
+    },
+    {
+      "screen_id": "1e35c73e-3220-4247-a69f-ec221dbce037",
+      "image_url": "https://mobbin.com/api/mcp/short/5sFF3e4X",
+      "position": 8
+    },
+    {
+      "screen_id": "683a9626-c25a-444a-bba3-ec0cd48ad46c",
+      "image_url": "https://mobbin.com/api/mcp/short/cEsismsP",
+      "position": 9
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "f86b96d6-ad5f-4794-bfd8-e666cee95636",
+  "name": "Asking Raycast AI (voice input)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f86b96d6-ad5f-4794-bfd8-e666cee95636",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0d4b905a-3ac7-47ea-b565-b0f29b71b3b9",
+      "image_url": "https://mobbin.com/api/mcp/short/aE2EtWCr",
+      "position": 1
+    },
+    {
+      "screen_id": "78f987b4-c96e-4464-813b-cba72875cddb",
+      "image_url": "https://mobbin.com/api/mcp/short/Ig8s05Kp",
+      "position": 2
+    },
+    {
+      "screen_id": "777d15b7-b323-4617-b634-c8210b01970d",
+      "image_url": "https://mobbin.com/api/mcp/short/e4LDokT3",
+      "position": 3
+    },
+    {
+      "screen_id": "e584b6d8-b0e5-402d-939c-31c8069e7ec7",
+      "image_url": "https://mobbin.com/api/mcp/short/P5RlnZLJ",
+      "position": 4
+    },
+    {
+      "screen_id": "2686759f-67ea-4f53-97d6-d3c5415ed57e",
+      "image_url": "https://mobbin.com/api/mcp/short/TdOajqWY",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "e003662f-036b-4910-ad7e-df8a354c0b52",
+  "name": "Changing goals",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e003662f-036b-4910-ad7e-df8a354c0b52",
+  "app_name": "Breathwrk",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3e0fa76f-f6f5-40fd-aacb-f87b31722fd6",
+      "image_url": "https://mobbin.com/api/mcp/short/LfDwFH1t",
+      "position": 1
+    },
+    {
+      "screen_id": "c96e0127-ac51-4023-b1c6-ad936dc41ca9",
+      "image_url": "https://mobbin.com/api/mcp/short/ptlHSHDX",
+      "position": 2
+    },
+    {
+      "screen_id": "57bace68-5bb8-4704-9337-dca804322332",
+      "image_url": "https://mobbin.com/api/mcp/short/TwSI9M9Z",
+      "position": 3
+    },
+    {
+      "screen_id": "8960288a-dd0e-4d7f-a545-ac693a0d8189",
+      "image_url": "https://mobbin.com/api/mcp/short/wg4UT4m0",
+      "position": 4
+    }
+  ]
+}

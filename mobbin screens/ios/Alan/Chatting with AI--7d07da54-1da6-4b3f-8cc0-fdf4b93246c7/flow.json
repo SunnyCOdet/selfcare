@@ -1,0 +1,68 @@
+{
+  "id": "7d07da54-1da6-4b3f-8cc0-fdf4b93246c7",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7d07da54-1da6-4b3f-8cc0-fdf4b93246c7",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "fde621eb-94c5-4c7e-88c1-7a32ea845bd7",
+      "image_url": "https://mobbin.com/api/mcp/short/DsY13P2m",
+      "position": 1
+    },
+    {
+      "screen_id": "a1394da5-8445-4281-ada1-b01d26fe6fc9",
+      "image_url": "https://mobbin.com/api/mcp/short/PgUFdRYi",
+      "position": 2
+    },
+    {
+      "screen_id": "115ab1ba-1c98-4a82-94ec-ffc3093828ae",
+      "image_url": "https://mobbin.com/api/mcp/short/1HtFodHK",
+      "position": 3
+    },
+    {
+      "screen_id": "7f4dc1be-95b5-48e3-9935-6495806b55e4",
+      "image_url": "https://mobbin.com/api/mcp/short/dM5lFDz0",
+      "position": 4
+    },
+    {
+      "screen_id": "f3b30253-bcee-43d6-a2b4-18035a9e69d1",
+      "image_url": "https://mobbin.com/api/mcp/short/JUrm8E1s",
+      "position": 5
+    },
+    {
+      "screen_id": "bd62ce8f-3a38-4a33-ae64-4358621022be",
+      "image_url": "https://mobbin.com/api/mcp/short/arV03vqI",
+      "position": 6
+    },
+    {
+      "screen_id": "92cb048d-71c6-4a55-888b-a5a040573304",
+      "image_url": "https://mobbin.com/api/mcp/short/TQaY9ReE",
+      "position": 7
+    },
+    {
+      "screen_id": "da0147af-7a11-4f0d-ab0d-fd2405e0d6ff",
+      "image_url": "https://mobbin.com/api/mcp/short/VhvZZRUu",
+      "position": 8
+    },
+    {
+      "screen_id": "b53f401f-10e2-4f75-889b-a4a50c0bb5ad",
+      "image_url": "https://mobbin.com/api/mcp/short/h6OqPwot",
+      "position": 9
+    },
+    {
+      "screen_id": "bb35ae60-cfb8-4bf4-b323-4b08aaf8e57d",
+      "image_url": "https://mobbin.com/api/mcp/short/PMCjgZ1i",
+      "position": 10
+    },
+    {
+      "screen_id": "c827a5e4-3507-4bf7-a570-63bf1224752d",
+      "image_url": "https://mobbin.com/api/mcp/short/is3lhAFQ",
+      "position": 11
+    }
+  ]
+}

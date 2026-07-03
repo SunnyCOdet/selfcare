@@ -1,0 +1,38 @@
+{
+  "id": "edef6b76-47b9-45ca-a6c9-f17146453f2f",
+  "name": "Accepting a team invitation",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/edef6b76-47b9-45ca-a6c9-f17146453f2f",
+  "app_name": "Sprout Social",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "96145782-64e8-4fb3-b2a3-463eb809e472",
+      "image_url": "https://mobbin.com/api/mcp/short/YuRsT5OJ",
+      "position": 1
+    },
+    {
+      "screen_id": "3149380d-9241-4dd3-8e00-2c345d1a9231",
+      "image_url": "https://mobbin.com/api/mcp/short/w5hofEOs",
+      "position": 2
+    },
+    {
+      "screen_id": "6c87b5f1-898a-4626-912b-459493df6a12",
+      "image_url": "https://mobbin.com/api/mcp/short/fUIXqQwh",
+      "position": 3
+    },
+    {
+      "screen_id": "3e88711b-a9d7-41f7-a4ec-f2a2737072a9",
+      "image_url": "https://mobbin.com/api/mcp/short/rB6h6ukJ",
+      "position": 4
+    },
+    {
+      "screen_id": "1089553e-da28-428c-8521-05ba780f5159",
+      "image_url": "https://mobbin.com/api/mcp/short/xQ7zSofT",
+      "position": 5
+    }
+  ]
+}

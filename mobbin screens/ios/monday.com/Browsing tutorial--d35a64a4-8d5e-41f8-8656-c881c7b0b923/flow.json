@@ -1,0 +1,43 @@
+{
+  "id": "d35a64a4-8d5e-41f8-8656-c881c7b0b923",
+  "name": "Browsing tutorial",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d35a64a4-8d5e-41f8-8656-c881c7b0b923",
+  "app_name": "monday.com",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "17658b1b-2a5e-4f8e-a4e9-dfcf1523cd7f",
+      "image_url": "https://mobbin.com/api/mcp/short/5XaTJPtB",
+      "position": 1
+    },
+    {
+      "screen_id": "c89625c2-0e64-4cfb-b019-7e2e1ddcfdac",
+      "image_url": "https://mobbin.com/api/mcp/short/zoyXzc1z",
+      "position": 2
+    },
+    {
+      "screen_id": "5b3da201-28dd-4ed2-ada5-96af834e529c",
+      "image_url": "https://mobbin.com/api/mcp/short/vOupx4sm",
+      "position": 3
+    },
+    {
+      "screen_id": "2898ad94-4e21-40c5-b0df-9970d7626839",
+      "image_url": "https://mobbin.com/api/mcp/short/qsw3sOAC",
+      "position": 4
+    },
+    {
+      "screen_id": "8e52a60c-69ba-41b3-9828-3c9d44328ef6",
+      "image_url": "https://mobbin.com/api/mcp/short/So7UI236",
+      "position": 5
+    },
+    {
+      "screen_id": "da2427e0-c65a-4016-8ceb-6c4ba89fb6e4",
+      "image_url": "https://mobbin.com/api/mcp/short/vEJD9Bz5",
+      "position": 6
+    }
+  ]
+}

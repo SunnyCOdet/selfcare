@@ -1,0 +1,28 @@
+{
+  "id": "ad0e8c34-5bc1-4791-aa34-a7a109887467",
+  "name": "Creating a space using AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ad0e8c34-5bc1-4791-aa34-a7a109887467",
+  "app_name": "Airbuds Widget",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "f5873508-93a3-4b66-94e3-a7d1d5aa08e4",
+      "image_url": "https://mobbin.com/api/mcp/short/mfe8Fx18",
+      "position": 1
+    },
+    {
+      "screen_id": "02de7e68-414f-40a4-8989-d87e82eee713",
+      "image_url": "https://mobbin.com/api/mcp/short/1UThRHoG",
+      "position": 2
+    },
+    {
+      "screen_id": "d449694b-c9bd-4a99-82ea-e54f6ed0ff2a",
+      "image_url": "https://mobbin.com/api/mcp/short/vijgZhVw",
+      "position": 3
+    }
+  ]
+}

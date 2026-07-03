@@ -1,0 +1,43 @@
+{
+  "id": "9393bc59-33a3-44a0-b29e-f777aefff2ef",
+  "name": "Chatting with Superpower AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9393bc59-33a3-44a0-b29e-f777aefff2ef",
+  "app_name": "Superpower",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "94d097bb-1675-4afb-8e88-839c5866c938",
+      "image_url": "https://mobbin.com/api/mcp/short/YwfQD7nI",
+      "position": 1
+    },
+    {
+      "screen_id": "f0ca05a5-262c-40e3-91d9-bc979b59231e",
+      "image_url": "https://mobbin.com/api/mcp/short/4Nhtqo2I",
+      "position": 2
+    },
+    {
+      "screen_id": "dd057cca-f363-4c1e-add0-8980c2513999",
+      "image_url": "https://mobbin.com/api/mcp/short/OBPp01wp",
+      "position": 3
+    },
+    {
+      "screen_id": "8a2f269c-fa59-462d-908a-75277911b805",
+      "image_url": "https://mobbin.com/api/mcp/short/mWzqixcB",
+      "position": 4
+    },
+    {
+      "screen_id": "e95dfce5-6c0c-4146-8bbb-17eff35df24b",
+      "image_url": "https://mobbin.com/api/mcp/short/FdhrKPzI",
+      "position": 5
+    },
+    {
+      "screen_id": "2713edb7-3684-41e4-b23a-c149f1b4f5ed",
+      "image_url": "https://mobbin.com/api/mcp/short/mLXg6Qai",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "78e8a630-48c4-4477-99a9-afce3bcda1b4",
+  "name": "Editing with AI Note Cleanup",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/78e8a630-48c4-4477-99a9-afce3bcda1b4",
+  "app_name": "Evernote",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "13ab4561-2b0e-46cc-bf53-98abfecda8f3",
+      "image_url": "https://mobbin.com/api/mcp/short/Nunq0qBC",
+      "position": 1
+    },
+    {
+      "screen_id": "d18bf0a6-8e16-4889-9273-ee75681fa31f",
+      "image_url": "https://mobbin.com/api/mcp/short/m0QG6Fqg",
+      "position": 2
+    },
+    {
+      "screen_id": "b19b5725-c32b-4de9-a07c-2b537b855cd9",
+      "image_url": "https://mobbin.com/api/mcp/short/w4PczGjx",
+      "position": 3
+    },
+    {
+      "screen_id": "49a6a046-e3e5-4073-aa42-cb5ea5852af0",
+      "image_url": "https://mobbin.com/api/mcp/short/E3HisnSY",
+      "position": 4
+    }
+  ]
+}

@@ -2,7 +2,7 @@ import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
 import { CoachChat } from "@/components/coach/chat";
-import { todayStr, APP_TZ } from "@/lib/dates";
+import { todayStr } from "@/lib/dates";
 
 export default async function CoachPage() {
   const supabase = await createClient();
@@ -35,7 +35,7 @@ export default async function CoachPage() {
   const needsDailyCheckin = !todayCheckinMsg;
 
   // Open the most recent thread (like ChatGPT resuming) unless the day's
-  // check-in is pending — then start fresh so the coach opens the day.
+  // check-in is pending, then start fresh so the coach opens the day.
   const openConvId = needsDailyCheckin
     ? null
     : (todayCheckinMsg?.conversation_id ?? conversations?.[0]?.id ?? null);

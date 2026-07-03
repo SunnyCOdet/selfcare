@@ -1,0 +1,16 @@
+{
+  "name": "resizable",
+  "type": "registry:ui",
+  "dependencies": [
+    "react-resizable-panels@^4"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/resizable.tsx",
+      "extractedTo": "ui/resizable.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

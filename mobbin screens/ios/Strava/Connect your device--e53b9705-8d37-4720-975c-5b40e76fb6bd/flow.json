@@ -1,0 +1,26 @@
+{
+  "id": "e53b9705-8d37-4720-975c-5b40e76fb6bd",
+  "name": "Connect your device",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e53b9705-8d37-4720-975c-5b40e76fb6bd",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5f6acd29-0045-4636-bcf5-7b413edb2dcb",
+      "image_url": "https://mobbin.com/api/mcp/short/pzmifZIj",
+      "position": 1
+    },
+    {
+      "screen_id": "1f67d1e4-ae16-4b99-80b5-3e6829ccb5ba",
+      "image_url": "https://mobbin.com/api/mcp/short/uQhji3ny",
+      "position": 2
+    },
+    {
+      "screen_id": "e28ca46c-10f9-405f-8187-03ed8a717631",
+      "image_url": "https://mobbin.com/api/mcp/short/zPhU6Bbe",
+      "position": 3
+    }
+  ]
+}

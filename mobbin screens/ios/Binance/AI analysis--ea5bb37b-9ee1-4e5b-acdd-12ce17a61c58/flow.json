@@ -1,0 +1,21 @@
+{
+  "id": "ea5bb37b-9ee1-4e5b-acdd-12ce17a61c58",
+  "name": "AI analysis",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ea5bb37b-9ee1-4e5b-acdd-12ce17a61c58",
+  "app_name": "Binance",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "55442959-3968-4340-9c27-3efe6dfffeb5",
+      "image_url": "https://mobbin.com/api/mcp/short/0uypiPtZ",
+      "position": 1
+    },
+    {
+      "screen_id": "a4d80e3a-9bb9-41a1-9649-d9e112fc64df",
+      "image_url": "https://mobbin.com/api/mcp/short/UBALj7fX",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "0ee81147-3ddd-48bd-8bf0-cfa714a958dd",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0ee81147-3ddd-48bd-8bf0-cfa714a958dd",
+  "app_name": "MD Vinyl",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "6eb2f76f-d103-4104-ac23-8f8185f39538",
+      "image_url": "https://mobbin.com/api/mcp/short/IM4MVGoZ",
+      "position": 1
+    },
+    {
+      "screen_id": "1cbd7282-83e7-48cd-b46a-43d8839aa023",
+      "image_url": "https://mobbin.com/api/mcp/short/V8j3uawj",
+      "position": 2
+    },
+    {
+      "screen_id": "c2086952-bae7-4998-9f25-399726b8f761",
+      "image_url": "https://mobbin.com/api/mcp/short/qajpyDR2",
+      "position": 3
+    },
+    {
+      "screen_id": "d6607d41-83aa-4518-8a9a-f4e5b5522877",
+      "image_url": "https://mobbin.com/api/mcp/short/iijSrlCg",
+      "position": 4
+    },
+    {
+      "screen_id": "5584f262-432b-4ffa-a0e1-6252227863cb",
+      "image_url": "https://mobbin.com/api/mcp/short/haJZfh0m",
+      "position": 5
+    },
+    {
+      "screen_id": "a03dd6d8-46a4-4a50-89c7-b560ea624cef",
+      "image_url": "https://mobbin.com/api/mcp/short/0WnRRGbi",
+      "position": 6
+    },
+    {
+      "screen_id": "885e4814-ca23-4cf1-9789-e2519df3a527",
+      "image_url": "https://mobbin.com/api/mcp/short/7I4y157c",
+      "position": 7
+    },
+    {
+      "screen_id": "339bcb6d-dcc3-4368-8c1d-1b3e83cab980",
+      "image_url": "https://mobbin.com/api/mcp/short/weAg9XFa",
+      "position": 8
+    }
+  ]
+}

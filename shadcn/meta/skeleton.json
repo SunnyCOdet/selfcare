@@ -1,0 +1,14 @@
+{
+  "name": "skeleton",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/skeleton.tsx",
+      "extractedTo": "ui/skeleton.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "765a31b1-5b71-40a6-b452-57a247ddc981",
+  "name": "Creating an AI playlist",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/765a31b1-5b71-40a6-b452-57a247ddc981",
+  "app_name": "Spotify",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "36610be5-04c6-4391-9038-e335cb73afb5",
+      "image_url": "https://mobbin.com/api/mcp/short/ErHgxz8t",
+      "position": 1
+    },
+    {
+      "screen_id": "cff41954-1521-4234-9066-f210c7ca3ee0",
+      "image_url": "https://mobbin.com/api/mcp/short/AaK3DHgj",
+      "position": 2
+    },
+    {
+      "screen_id": "b2ba98e1-de72-40e3-8fef-9c75bd997f8e",
+      "image_url": "https://mobbin.com/api/mcp/short/AN7Z9rdv",
+      "position": 3
+    },
+    {
+      "screen_id": "0ff9f8c8-a0b3-46ab-aebc-eef526d67d1b",
+      "image_url": "https://mobbin.com/api/mcp/short/kouAZUaE",
+      "position": 4
+    },
+    {
+      "screen_id": "2261ae97-808a-438a-85f5-d37c8df9f6a7",
+      "image_url": "https://mobbin.com/api/mcp/short/ebssDWkc",
+      "position": 5
+    },
+    {
+      "screen_id": "dbf375f2-bfb7-4227-b965-d78161ec5d3e",
+      "image_url": "https://mobbin.com/api/mcp/short/3QfxBXxW",
+      "position": 6
+    },
+    {
+      "screen_id": "3c8673b4-f901-429c-be38-4b91f4c3d0f1",
+      "image_url": "https://mobbin.com/api/mcp/short/AAY4fVrp",
+      "position": 7
+    },
+    {
+      "screen_id": "09877aeb-2e12-4b1f-9a0d-d3296bef307a",
+      "image_url": "https://mobbin.com/api/mcp/short/H5sAazC9",
+      "position": 8
+    },
+    {
+      "screen_id": "7b22b9a5-18a4-4e3e-98ba-d281a15bffdb",
+      "image_url": "https://mobbin.com/api/mcp/short/VktqMUZY",
+      "position": 9
+    }
+  ]
+}

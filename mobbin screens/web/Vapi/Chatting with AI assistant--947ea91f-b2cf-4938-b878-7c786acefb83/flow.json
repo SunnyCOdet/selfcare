@@ -1,0 +1,33 @@
+{
+  "id": "947ea91f-b2cf-4938-b878-7c786acefb83",
+  "name": "Chatting with AI assistant",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/947ea91f-b2cf-4938-b878-7c786acefb83",
+  "app_name": "Vapi",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0e6e1bfa-efea-4a61-9069-be2a7d8869e3",
+      "image_url": "https://mobbin.com/api/mcp/short/TtISuezY",
+      "position": 1
+    },
+    {
+      "screen_id": "041eb946-4b20-4fa9-a3f4-77860a39705f",
+      "image_url": "https://mobbin.com/api/mcp/short/lnXOuNNV",
+      "position": 2
+    },
+    {
+      "screen_id": "d8bcab07-3ab1-4438-9f80-59588a0ea7a6",
+      "image_url": "https://mobbin.com/api/mcp/short/pwwVT2RJ",
+      "position": 3
+    },
+    {
+      "screen_id": "175b0ca2-92d3-428a-bd3a-1cc4d68d998a",
+      "image_url": "https://mobbin.com/api/mcp/short/PKETKxcX",
+      "position": 4
+    }
+  ]
+}

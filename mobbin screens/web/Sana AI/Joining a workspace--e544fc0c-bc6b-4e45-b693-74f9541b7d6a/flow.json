@@ -1,0 +1,23 @@
+{
+  "id": "e544fc0c-bc6b-4e45-b693-74f9541b7d6a",
+  "name": "Joining a workspace",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e544fc0c-bc6b-4e45-b693-74f9541b7d6a",
+  "app_name": "Sana AI",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "abc294a9-20fe-4821-adcc-391d86b86f06",
+      "image_url": "https://mobbin.com/api/mcp/short/I1Nfikhy",
+      "position": 1
+    },
+    {
+      "screen_id": "dfd795a4-3deb-4831-9a13-a280ac70dc18",
+      "image_url": "https://mobbin.com/api/mcp/short/LxMEkSed",
+      "position": 2
+    }
+  ]
+}

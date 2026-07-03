@@ -1,0 +1,79 @@
+{
+  "id": "e2e6ede6-f42b-48d3-ba4d-f7bca2579b45",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e2e6ede6-f42b-48d3-ba4d-f7bca2579b45",
+  "app_name": "DICK’S Sporting Goods",
+  "platform": "ios",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "60595806-2440-4e2a-bcb3-3c0b772d069c",
+      "image_url": "https://mobbin.com/api/mcp/short/wSnmVPgd",
+      "position": 1
+    },
+    {
+      "screen_id": "076cb9c6-daf5-4b8e-b3ca-58b3736c7df2",
+      "image_url": "https://mobbin.com/api/mcp/short/OdXT0qxq",
+      "position": 2
+    },
+    {
+      "screen_id": "22e78988-0029-481c-9998-8758c014e151",
+      "image_url": "https://mobbin.com/api/mcp/short/q9N6Gtkf",
+      "position": 3
+    },
+    {
+      "screen_id": "386dc8f4-ebd5-4c19-8ba6-7dd6346ab6b4",
+      "image_url": "https://mobbin.com/api/mcp/short/JnU5MGrd",
+      "position": 4
+    },
+    {
+      "screen_id": "2f42bb24-802f-4aa7-be56-a48b50325dd7",
+      "image_url": "https://mobbin.com/api/mcp/short/9C6yCWA0",
+      "position": 5
+    },
+    {
+      "screen_id": "f9baf320-ba0d-4006-a272-59d0b22b47b3",
+      "image_url": "https://mobbin.com/api/mcp/short/FhDTNh60",
+      "position": 6
+    },
+    {
+      "screen_id": "a46f75c7-b69f-43af-9d7a-edb8a924e95d",
+      "image_url": "https://mobbin.com/api/mcp/short/5wODwzkZ",
+      "position": 7
+    },
+    {
+      "screen_id": "a34233b8-ac55-47fb-ad94-5ccc79a7828e",
+      "image_url": "https://mobbin.com/api/mcp/short/rwynm513",
+      "position": 8
+    },
+    {
+      "screen_id": "d14811cb-57c1-41de-b83b-ead996739304",
+      "image_url": "https://mobbin.com/api/mcp/short/wziv90rz",
+      "position": 9
+    },
+    {
+      "screen_id": "f331cee0-0989-4309-a840-0e1055b1ce63",
+      "image_url": "https://mobbin.com/api/mcp/short/P5eoESUh",
+      "position": 10
+    },
+    {
+      "screen_id": "743fbde4-ac61-467d-a837-ffac57896cde",
+      "image_url": "https://mobbin.com/api/mcp/short/m2SxHzN3",
+      "position": 11
+    },
+    {
+      "screen_id": "9b556c34-d8cd-4126-98f1-d9ff47c0ff05",
+      "image_url": "https://mobbin.com/api/mcp/short/UuTtyLkm",
+      "position": 12
+    },
+    {
+      "screen_id": "f4a215fd-dd86-47a4-a5d4-46d5bb9c6a73",
+      "image_url": "https://mobbin.com/api/mcp/short/6hkAW54s",
+      "position": 13
+    }
+  ]
+}

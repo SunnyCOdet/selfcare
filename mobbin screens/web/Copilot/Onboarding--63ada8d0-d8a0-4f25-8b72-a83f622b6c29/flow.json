@@ -1,0 +1,63 @@
+{
+  "id": "63ada8d0-d8a0-4f25-8b72-a83f622b6c29",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/63ada8d0-d8a0-4f25-8b72-a83f622b6c29",
+  "app_name": "Copilot",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "fa590456-8218-482f-821f-07f02bffc6fc",
+      "image_url": "https://mobbin.com/api/mcp/short/cod1gqn6",
+      "position": 1
+    },
+    {
+      "screen_id": "f7dd16bc-b8ce-4b2a-9a1e-356546fd3778",
+      "image_url": "https://mobbin.com/api/mcp/short/WlZ8AxTO",
+      "position": 2
+    },
+    {
+      "screen_id": "be8fc9f7-d69a-429d-ab66-1c0dc0ae2203",
+      "image_url": "https://mobbin.com/api/mcp/short/RqrZ4uQK",
+      "position": 3
+    },
+    {
+      "screen_id": "ab4682df-9709-43cc-9933-f3bf82d80d24",
+      "image_url": "https://mobbin.com/api/mcp/short/YgOZWruE",
+      "position": 4
+    },
+    {
+      "screen_id": "921f86e1-b503-4814-a949-b9f30fd1d5ab",
+      "image_url": "https://mobbin.com/api/mcp/short/Vj2Wcukb",
+      "position": 5
+    },
+    {
+      "screen_id": "f053d8d9-6991-43c9-b7d1-688c554c3884",
+      "image_url": "https://mobbin.com/api/mcp/short/xYgxIz6t",
+      "position": 6
+    },
+    {
+      "screen_id": "afacfe12-85df-4686-a27c-8cd0cea53ff4",
+      "image_url": "https://mobbin.com/api/mcp/short/wZTa1frl",
+      "position": 7
+    },
+    {
+      "screen_id": "74740bf7-0b20-438a-9f29-3b8f373f14bd",
+      "image_url": "https://mobbin.com/api/mcp/short/44F5izJS",
+      "position": 8
+    },
+    {
+      "screen_id": "aa0a10a1-cda4-4603-8bf0-2e267d2b117d",
+      "image_url": "https://mobbin.com/api/mcp/short/yGjLgsGq",
+      "position": 9
+    },
+    {
+      "screen_id": "764ded0e-468e-431e-9c1a-366826bc4514",
+      "image_url": "https://mobbin.com/api/mcp/short/p2jWqClj",
+      "position": 10
+    }
+  ]
+}

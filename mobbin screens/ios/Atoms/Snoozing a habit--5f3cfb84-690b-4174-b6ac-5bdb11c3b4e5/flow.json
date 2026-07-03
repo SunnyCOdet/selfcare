@@ -1,0 +1,43 @@
+{
+  "id": "5f3cfb84-690b-4174-b6ac-5bdb11c3b4e5",
+  "name": "Snoozing a habit",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5f3cfb84-690b-4174-b6ac-5bdb11c3b4e5",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "96f3fa45-25e9-4eea-a304-650a2b8f461f",
+      "image_url": "https://mobbin.com/api/mcp/short/LA4t7UJ0",
+      "position": 1
+    },
+    {
+      "screen_id": "eba09521-d188-426b-9a33-704a69820c33",
+      "image_url": "https://mobbin.com/api/mcp/short/Yh4oGyr6",
+      "position": 2
+    },
+    {
+      "screen_id": "f51cb078-371c-42dd-9e78-fd5d656a47af",
+      "image_url": "https://mobbin.com/api/mcp/short/k8gxXobc",
+      "position": 3
+    },
+    {
+      "screen_id": "e5bb1a86-57e8-4d8a-8300-918f349c07a7",
+      "image_url": "https://mobbin.com/api/mcp/short/8BD6M6V7",
+      "position": 4
+    },
+    {
+      "screen_id": "e85fb8d9-1675-4d11-8b7b-1d34b9e763f0",
+      "image_url": "https://mobbin.com/api/mcp/short/I12nwbKp",
+      "position": 5
+    },
+    {
+      "screen_id": "e578192e-ab22-42f8-9531-5236b0cb8148",
+      "image_url": "https://mobbin.com/api/mcp/short/1iMYLl8e",
+      "position": 6
+    }
+  ]
+}

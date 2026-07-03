@@ -1,0 +1,26 @@
+{
+  "id": "0d3b10d6-436a-47f0-be35-0f5be70644cf",
+  "name": "Browse",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0d3b10d6-436a-47f0-be35-0f5be70644cf",
+  "app_name": "Google Fit",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d13b3a96-4ae0-4a38-9fd3-acacdba48c57",
+      "image_url": "https://mobbin.com/api/mcp/short/GuhrSmDs",
+      "position": 1
+    },
+    {
+      "screen_id": "1ef230ab-5573-4050-8058-0e6b61576f5a",
+      "image_url": "https://mobbin.com/api/mcp/short/pTr1FQYI",
+      "position": 2
+    },
+    {
+      "screen_id": "8d3c7c15-9a04-4492-869f-42291762936d",
+      "image_url": "https://mobbin.com/api/mcp/short/SZGfh8qh",
+      "position": 3
+    }
+  ]
+}

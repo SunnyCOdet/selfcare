@@ -1,0 +1,64 @@
+{
+  "id": "ecf7c1a3-1173-4207-99ee-572e02fa5262",
+  "name": "Generating a thumbnail with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ecf7c1a3-1173-4207-99ee-572e02fa5262",
+  "app_name": "Linktree",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "27d257e1-5f13-4173-a605-ba28d6eb670c",
+      "image_url": "https://mobbin.com/api/mcp/short/MEGUBXtm",
+      "position": 1
+    },
+    {
+      "screen_id": "101a409e-8beb-4a2d-8d1b-54710a6724ed",
+      "image_url": "https://mobbin.com/api/mcp/short/0l0RPTRF",
+      "position": 2
+    },
+    {
+      "screen_id": "26fd457b-290f-43c5-9499-6869d8263a1d",
+      "image_url": "https://mobbin.com/api/mcp/short/QPu1VlM4",
+      "position": 3
+    },
+    {
+      "screen_id": "2fe8116d-5bc4-4666-8ef7-a5104904a903",
+      "image_url": "https://mobbin.com/api/mcp/short/AdmD2BHI",
+      "position": 4
+    },
+    {
+      "screen_id": "7a1df5cd-fe38-4001-a254-35ce588ef793",
+      "image_url": "https://mobbin.com/api/mcp/short/8NlMIKn9",
+      "position": 5
+    },
+    {
+      "screen_id": "bf544832-a5aa-4753-97b3-82369e6e1c51",
+      "image_url": "https://mobbin.com/api/mcp/short/NCSiy8SD",
+      "position": 6
+    },
+    {
+      "screen_id": "3ff479d4-1cce-4738-a0d1-10791571398c",
+      "image_url": "https://mobbin.com/api/mcp/short/L4FqqOIS",
+      "position": 7
+    },
+    {
+      "screen_id": "ef721b90-7ba1-4250-816d-3bba458bad9c",
+      "image_url": "https://mobbin.com/api/mcp/short/h14H0QLH",
+      "position": 8
+    },
+    {
+      "screen_id": "30bedddd-d174-4448-917a-e0182133065b",
+      "image_url": "https://mobbin.com/api/mcp/short/x15dIuD5",
+      "position": 9
+    },
+    {
+      "screen_id": "49231a00-cb71-4dfe-a5ef-5121c41cd861",
+      "image_url": "https://mobbin.com/api/mcp/short/X1vSgvWf",
+      "position": 10
+    }
+  ]
+}

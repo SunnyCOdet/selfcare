@@ -1,0 +1,44 @@
+{
+  "id": "9dfe5bb4-1d31-44ed-bc03-e9414180b8df",
+  "name": "Creating a new task (AI)",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9dfe5bb4-1d31-44ed-bc03-e9414180b8df",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "b6261b36-44bc-4b38-a1db-a9d921ff1777",
+      "image_url": "https://mobbin.com/api/mcp/short/8v1gUISL",
+      "position": 1
+    },
+    {
+      "screen_id": "a7b81fe1-3bb4-42ff-ac61-9a528ca0dc76",
+      "image_url": "https://mobbin.com/api/mcp/short/5LiMWrHi",
+      "position": 2
+    },
+    {
+      "screen_id": "3652dcdd-0026-4ce5-b5ca-dae46a14e72e",
+      "image_url": "https://mobbin.com/api/mcp/short/A5PCGCZ4",
+      "position": 3
+    },
+    {
+      "screen_id": "e3d6a34a-b9a7-40c2-bee2-04ae1790d8d9",
+      "image_url": "https://mobbin.com/api/mcp/short/XdUVR13v",
+      "position": 4
+    },
+    {
+      "screen_id": "a7140369-d870-40e8-9469-d81db5cd2e9c",
+      "image_url": "https://mobbin.com/api/mcp/short/JscQ7XTq",
+      "position": 5
+    },
+    {
+      "screen_id": "2de4e96e-f03f-4f8b-bf6d-0cf391807374",
+      "image_url": "https://mobbin.com/api/mcp/short/MgpmRzwI",
+      "position": 6
+    }
+  ]
+}

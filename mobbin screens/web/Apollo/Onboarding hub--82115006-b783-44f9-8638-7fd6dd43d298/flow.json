@@ -1,0 +1,26 @@
+{
+  "id": "82115006-b783-44f9-8638-7fd6dd43d298",
+  "name": "Onboarding hub",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/82115006-b783-44f9-8638-7fd6dd43d298",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "3dce9d03-9aab-467e-848e-59ba44cf0736",
+      "image_url": "https://mobbin.com/api/mcp/short/xUOwJWan",
+      "position": 1
+    },
+    {
+      "screen_id": "21e3504e-a7e9-4938-ab71-8191b8ff2ec3",
+      "image_url": "https://mobbin.com/api/mcp/short/4N6RFQ4p",
+      "position": 2
+    },
+    {
+      "screen_id": "6153700a-d738-4b1b-ad1f-ebb9103deb2a",
+      "image_url": "https://mobbin.com/api/mcp/short/onTctD4x",
+      "position": 3
+    }
+  ]
+}

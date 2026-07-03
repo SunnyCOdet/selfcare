@@ -1,0 +1,49 @@
+{
+  "id": "9910ff65-57e3-4946-aad3-d032a01f5d71",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9910ff65-57e3-4946-aad3-d032a01f5d71",
+  "app_name": "Todoist",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "74ce39aa-af90-4223-9f23-879cda9e13e4",
+      "image_url": "https://mobbin.com/api/mcp/short/uQbjg57G",
+      "position": 1
+    },
+    {
+      "screen_id": "a6d2aa2e-48ad-46af-b4de-aab84dc1680c",
+      "image_url": "https://mobbin.com/api/mcp/short/00Lb30EO",
+      "position": 2
+    },
+    {
+      "screen_id": "5968b83d-56d1-4b4a-b585-ffb50e3d18d1",
+      "image_url": "https://mobbin.com/api/mcp/short/gWolrYdu",
+      "position": 3
+    },
+    {
+      "screen_id": "d701b2b7-f0bc-4d25-82ba-ead8754db7f8",
+      "image_url": "https://mobbin.com/api/mcp/short/bt1eb0c7",
+      "position": 4
+    },
+    {
+      "screen_id": "d70624f7-10a7-4390-8e1e-77869d98e6fb",
+      "image_url": "https://mobbin.com/api/mcp/short/7TXa33U0",
+      "position": 5
+    },
+    {
+      "screen_id": "1b24827d-a354-4dd1-816e-caa9e5824fd1",
+      "image_url": "https://mobbin.com/api/mcp/short/TVpsgjdd",
+      "position": 6
+    },
+    {
+      "screen_id": "5e8eb26e-ef34-4b96-b8d6-a42ca0f8d386",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHEaKhm5",
+      "position": 7
+    }
+  ]
+}

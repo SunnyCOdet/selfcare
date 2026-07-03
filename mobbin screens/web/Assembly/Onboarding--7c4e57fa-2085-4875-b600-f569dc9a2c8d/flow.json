@@ -1,0 +1,65 @@
+{
+  "id": "7c4e57fa-2085-4875-b600-f569dc9a2c8d",
+  "name": "Onboarding",
+  "actions": [
+    "Adding & Creating",
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7c4e57fa-2085-4875-b600-f569dc9a2c8d",
+  "app_name": "Assembly",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "e84fc589-bedb-4b16-b8c7-122ebf944820",
+      "image_url": "https://mobbin.com/api/mcp/short/jJTpn9vR",
+      "position": 1
+    },
+    {
+      "screen_id": "9be42a3d-3e55-4551-a062-aa538f319a69",
+      "image_url": "https://mobbin.com/api/mcp/short/wd1NQK06",
+      "position": 2
+    },
+    {
+      "screen_id": "462660cb-7549-43f2-92fb-1b1386c7ff05",
+      "image_url": "https://mobbin.com/api/mcp/short/qrB0sezF",
+      "position": 3
+    },
+    {
+      "screen_id": "5f6bde69-553a-4ee6-bcd0-623f8bac3bba",
+      "image_url": "https://mobbin.com/api/mcp/short/iKHsZguC",
+      "position": 4
+    },
+    {
+      "screen_id": "61e8d84f-cfab-4e6f-b708-d348135e8b10",
+      "image_url": "https://mobbin.com/api/mcp/short/kGrxe08p",
+      "position": 5
+    },
+    {
+      "screen_id": "36024b4b-d039-4d65-a2fd-f4e88fd3de68",
+      "image_url": "https://mobbin.com/api/mcp/short/j9R7Eclk",
+      "position": 6
+    },
+    {
+      "screen_id": "f65b3f0e-e249-44a3-a639-e59509d41348",
+      "image_url": "https://mobbin.com/api/mcp/short/EDGK8BCv",
+      "position": 7
+    },
+    {
+      "screen_id": "1b2791e8-8b91-435d-a0e2-6855b4aec9f7",
+      "image_url": "https://mobbin.com/api/mcp/short/kpHoZKk2",
+      "position": 8
+    },
+    {
+      "screen_id": "92465193-5577-4829-9378-259db230c326",
+      "image_url": "https://mobbin.com/api/mcp/short/RVjtp8rx",
+      "position": 9
+    },
+    {
+      "screen_id": "a8679e77-e298-4405-9af4-f63d418d3f02",
+      "image_url": "https://mobbin.com/api/mcp/short/CHm0pkbt",
+      "position": 10
+    }
+  ]
+}

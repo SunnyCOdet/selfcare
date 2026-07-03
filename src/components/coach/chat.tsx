@@ -70,11 +70,11 @@ function Md({ text }: { text: string }) {
             </p>
           );
         }
-        const li = line.match(/^\s*[-*•]\s+(.*)/);
+        const li = line.match(/^\s*[-*]\s+(.*)/);
         if (li) {
           return (
             <p key={i} className="pl-4 relative">
-              <span className="absolute left-0.5 text-muted">•</span>
+              <span className="absolute left-0.5 text-muted">-</span>
               {inline(li[1])}
             </p>
           );
@@ -95,33 +95,16 @@ function Md({ text }: { text: string }) {
   );
 }
 
-/** ChatGPT-style streaming feel: reveal the newest reply progressively. */
+/** Render streamed coach replies with the same markdown treatment as static replies. */
 function Typewriter({ text, animate }: { text: string; animate: boolean }) {
-  const [shown, setShown] = useState(animate ? 0 : text.length);
-  useEffect(() => {
-    if (!animate) {
-      setShown(text.length);
-      return;
-    }
-    setShown(0);
-    const iv = setInterval(() => {
-      setShown((s) => {
-        if (s >= text.length) {
-          clearInterval(iv);
-          return s;
-        }
-        return s + 3;
-      });
-    }, 16);
-    return () => clearInterval(iv);
-  }, [text, animate]);
-  return <Md text={text.slice(0, shown)} />;
+  const visibleText = animate ? text : text;
+  return <Md text={visibleText} />;
 }
 
 type Conversation = { id: string; title: string; updated_at: string };
 
 const QUICK_ACTIONS = [
-  { label: "Set a goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
+  { label: "Set a goal", message: "I want to set a new life goal. Interview me properly - one question at a time - then build me a milestone roadmap." },
   { label: "What should I eat?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
   { label: "Review my week", message: "", kind: "weekly_review" },
   { label: "Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
@@ -211,7 +194,10 @@ export function CoachChat({
   useEffect(() => {
     if (needsDailyCheckin && !checkinFired.current) {
       checkinFired.current = true;
-      send("", "daily_checkin");
+      const timeout = window.setTimeout(() => {
+        void send("", "daily_checkin");
+      }, 0);
+      return () => window.clearTimeout(timeout);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [needsDailyCheckin]);
@@ -233,7 +219,7 @@ export function CoachChat({
     setError(null);
     setLoading(true);
     setStatus(null);
-    setAnimateLast(false); // real streaming — no fake typewriter
+    setAnimateLast(false); // real streaming, no fake typewriter
     if (message.trim()) {
       setMessages((m) => [...m, { role: "user", content: message.trim() }]);
       setInput("");
@@ -384,27 +370,27 @@ export function CoachChat({
   }
 
   return (
-    <div className="flex flex-col max-w-3xl w-full mx-auto h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] md:h-[calc(100dvh-4rem)]">
-      {/* Chat sub-header — history menu · title · new chat */}
-      <div className="flex items-center justify-between px-2 py-1.5 border-b border-white/5">
+    <div className="mx-auto flex h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] w-full max-w-4xl flex-col md:h-[calc(100dvh-4rem)]">
+      {/* Chat sub-header - history menu / title / new chat */}
+      <div className="flex items-center justify-between border-b border-border px-2 py-1.5">
         <button
           onClick={() => setDrawerOpen(true)}
-          className="p-2.5 rounded-full text-muted hover:text-foreground hover:bg-white/5 transition-colors active:scale-90"
+          className="rounded-full p-2.5 text-muted hover:bg-white/[0.06] hover:text-foreground active:scale-95"
           aria-label="Chat history"
         >
           <Menu className="w-5 h-5" />
         </button>
-        <p className="text-sm font-semibold truncate px-2">{activeId ? activeTitle : "New chat"}</p>
+        <p className="truncate px-2 text-sm font-semibold">{activeId ? activeTitle : "New chat"}</p>
         <button
           onClick={newChat}
-          className="p-2.5 rounded-full text-muted hover:text-foreground hover:bg-white/5 transition-colors active:scale-90"
+          className="rounded-full p-2.5 text-muted hover:bg-white/[0.06] hover:text-foreground active:scale-95"
           aria-label="New chat"
         >
           <SquarePen className="w-5 h-5" />
         </button>
       </div>
 
-      {/* History drawer — ChatGPT-style slide-in */}
+      {/* History drawer - ChatGPT-style slide-in */}
       <div
         className={`fixed inset-0 z-50 transition-[visibility] ${drawerOpen ? "visible" : "invisible delay-300"}`}
         aria-hidden={!drawerOpen}
@@ -416,12 +402,12 @@ export function CoachChat({
           onClick={() => setDrawerOpen(false)}
         />
         <aside
-          className={`absolute left-0 top-0 h-full w-[85%] max-w-xs bg-surface border-r border-white/10 flex flex-col transition-transform duration-300 ease-out pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] ${
+          className={`absolute left-0 top-0 h-full w-[85%] max-w-xs bg-background border-r border-border flex flex-col transition-transform duration-300 ease-out pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)] ${
             drawerOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div className="flex items-center gap-2 p-3">
-            <div className="flex-1 flex items-center gap-2 bg-surface-2 border border-white/10 rounded-full px-3.5 py-2">
+            <div className="flex-1 flex items-center gap-2 rounded-full border border-border bg-white/[0.055] px-3.5 py-2">
               <Search className="w-4 h-4 text-muted shrink-0" />
               <input
                 className="flex-1 bg-transparent outline-none text-sm placeholder:text-muted/60 min-w-0"
@@ -446,7 +432,7 @@ export function CoachChat({
 
           <button
             onClick={newChat}
-            className="flex items-center gap-3 mx-3 px-3 py-2.5 rounded-xl hover:bg-white/5 transition-colors text-sm font-semibold"
+            className="mx-3 flex items-center gap-3 rounded-md px-3 py-2.5 text-sm font-semibold transition-colors hover:bg-white/[0.06]"
           >
             <SquarePen className="w-4.5 h-4.5" /> New chat
           </button>
@@ -464,8 +450,8 @@ export function CoachChat({
                   <div
                     key={c.id}
                     onClick={() => openConversation(c.id)}
-                    className={`group flex items-center gap-2.5 px-3 py-2.5 rounded-xl cursor-pointer transition-colors ${
-                      c.id === activeId ? "bg-white/8" : "hover:bg-white/5"
+                    className={`group flex cursor-pointer items-center gap-2.5 rounded-md px-3 py-2.5 transition-colors ${
+                      c.id === activeId ? "bg-white/[0.08]" : "hover:bg-white/[0.055]"
                     }`}
                   >
                     <MessageSquare className="w-4 h-4 text-muted/50 shrink-0" />
@@ -485,16 +471,16 @@ export function CoachChat({
         </aside>
       </div>
 
-      {/* Messages — user pills right, coach plain text */}
+      {/* Messages - user pills right, coach plain text */}
       <div className="flex-1 min-h-0 overflow-y-auto px-4 py-6 space-y-6">
         {messages.length === 0 && !loading && !switching && (
           <div className="h-full flex flex-col items-center justify-center text-center fade-up">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center mb-5">
-              <Sparkles className="w-6 h-6 text-white" />
+            <div className="mb-5 flex size-14 items-center justify-center rounded-md bg-accent text-background">
+              <Sparkles className="size-6" />
             </div>
             <h2 className="text-2xl font-bold tracking-tight">Ready when you are.</h2>
             <p className="text-muted text-sm mt-2 max-w-xs mx-auto">
-              Plans, food calls, goals, the app itself — just say it, I&apos;ll do it.
+              Plans, food calls, goals, the app itself - just say it, I&apos;ll do it.
             </p>
           </div>
         )}
@@ -510,7 +496,7 @@ export function CoachChat({
         {messages.map((m, i) =>
           m.role === "user" ? (
             <div key={i} className="flex justify-end fade-up">
-              <div className="bg-surface-2 border border-white/5 rounded-3xl rounded-br-lg px-4 py-2.5 text-[15px] max-w-[80%] whitespace-pre-wrap">
+              <div className="max-w-[80%] whitespace-pre-wrap rounded-lg border border-border bg-white/[0.075] px-4 py-2.5 text-[15px]">
                 {m.content}
               </div>
             </div>
@@ -535,7 +521,7 @@ export function CoachChat({
                     href="/plan"
                     className="flex items-center gap-1.5 text-xs font-semibold text-success bg-success/10 border border-success/25 rounded-full px-3 py-1.5"
                   >
-                    <Map className="w-3.5 h-3.5" /> Plan updated — view it
+                    <Map className="w-3.5 h-3.5" /> Plan updated - view it
                   </Link>
                 )}
                 {m.themeUpdated && (
@@ -595,7 +581,7 @@ export function CoachChat({
         <div ref={bottomRef} />
       </div>
 
-      {/* Composer — floating pill */}
+      {/* Composer - floating pill */}
       <div className="px-3 pb-[calc(4.75rem+env(safe-area-inset-bottom))] md:pb-4 pt-1">
         <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {QUICK_ACTIONS.map((a) => (
@@ -603,7 +589,7 @@ export function CoachChat({
               key={a.label}
               onClick={() => send(a.message, a.kind ?? "chat")}
               disabled={loading}
-              className="shrink-0 text-xs font-medium text-muted border border-white/10 rounded-full px-3.5 py-2 hover:border-accent/40 hover:text-foreground transition-colors whitespace-nowrap active:scale-95"
+              className="shrink-0 whitespace-nowrap rounded-full border border-border bg-white/[0.035] px-3.5 py-2 text-xs font-medium text-muted transition-colors hover:border-accent/40 hover:text-foreground active:scale-95"
             >
               {a.label}
             </button>
@@ -615,7 +601,7 @@ export function CoachChat({
             e.preventDefault();
             send(input);
           }}
-          className="flex items-end gap-2 bg-surface-2 border border-white/10 rounded-[26px] pl-5 pr-2 py-2 shadow-[0_8px_32px_-12px_rgba(0,0,0,0.8)]"
+          className="flex items-end gap-2 rounded-[26px] border border-border bg-surface/95 py-2 pl-5 pr-2 shadow-[0_18px_70px_-48px_rgba(0,0,0,0.95)] backdrop-blur-xl"
         >
           <input
             className="flex-1 bg-transparent outline-none text-[15px] py-1.5 placeholder:text-muted/60 min-w-0"
@@ -628,7 +614,7 @@ export function CoachChat({
             type="button"
             onClick={toggleMic}
             className={`w-9 h-9 rounded-full flex items-center justify-center shrink-0 transition-all active:scale-90 ${
-              listening ? "bg-red-500/20 text-red-400 animate-pulse" : "text-muted hover:text-foreground"
+              listening ? "bg-red-500/20 text-red-400 animate-pulse" : "text-muted hover:bg-white/[0.06] hover:text-foreground"
             }`}
             aria-label="Voice input"
           >
@@ -637,7 +623,7 @@ export function CoachChat({
           <button
             type="submit"
             disabled={loading || !input.trim()}
-            className="w-9 h-9 rounded-full bg-foreground text-background flex items-center justify-center shrink-0 transition-all disabled:opacity-25 active:scale-90"
+            className="flex size-9 shrink-0 items-center justify-center rounded-full bg-accent text-background transition-all disabled:opacity-25 active:scale-95"
             aria-label="Send"
           >
             <ArrowUp className="w-4.5 h-4.5" strokeWidth={2.5} />

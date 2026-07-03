@@ -1,0 +1,38 @@
+{
+  "id": "e74aa741-d81e-4228-b15a-2eed0d1d5821",
+  "name": "Checking a smishing message with AI",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e74aa741-d81e-4228-b15a-2eed0d1d5821",
+  "app_name": "KakaoBank",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "fdb0a7da-2be4-40d3-a41b-7a6f26a44a6a",
+      "image_url": "https://mobbin.com/api/mcp/short/VyuEw0Sp",
+      "position": 1
+    },
+    {
+      "screen_id": "4bfd0fcd-8d15-433e-990c-2274e6710d8a",
+      "image_url": "https://mobbin.com/api/mcp/short/XbR3QJNc",
+      "position": 2
+    },
+    {
+      "screen_id": "216bc4bf-6888-461e-9da5-7bdd5d21a39a",
+      "image_url": "https://mobbin.com/api/mcp/short/MK0hkupX",
+      "position": 3
+    },
+    {
+      "screen_id": "d9e22efe-25af-4409-a94a-028436f44ee8",
+      "image_url": "https://mobbin.com/api/mcp/short/frL2PpbO",
+      "position": 4
+    },
+    {
+      "screen_id": "4b94df52-2599-4d1f-a013-78a678634625",
+      "image_url": "https://mobbin.com/api/mcp/short/f8KNIlLA",
+      "position": 5
+    }
+  ]
+}

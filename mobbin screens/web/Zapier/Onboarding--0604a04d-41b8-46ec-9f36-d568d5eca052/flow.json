@@ -1,0 +1,69 @@
+{
+  "id": "0604a04d-41b8-46ec-9f36-d568d5eca052",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0604a04d-41b8-46ec-9f36-d568d5eca052",
+  "app_name": "Zapier",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "47b4a3ee-b9f0-4fc6-bdda-97bc536eabe1",
+      "image_url": "https://mobbin.com/api/mcp/short/pC7xfsQx",
+      "position": 1
+    },
+    {
+      "screen_id": "7c21cc56-0287-4316-8b62-e0254f38c719",
+      "image_url": "https://mobbin.com/api/mcp/short/uy28OdDg",
+      "position": 2
+    },
+    {
+      "screen_id": "95c0117d-74eb-4c3d-89d8-f98521a06878",
+      "image_url": "https://mobbin.com/api/mcp/short/pQ7PWewE",
+      "position": 3
+    },
+    {
+      "screen_id": "29a18698-1c4f-4afc-abc3-a17a06f2cb31",
+      "image_url": "https://mobbin.com/api/mcp/short/oHu5WLWT",
+      "position": 4
+    },
+    {
+      "screen_id": "01a5c528-b60d-485a-9ec6-d17609069d85",
+      "image_url": "https://mobbin.com/api/mcp/short/sfNIm5IJ",
+      "position": 5
+    },
+    {
+      "screen_id": "74957af1-7669-4fd1-8856-7c272662a4f8",
+      "image_url": "https://mobbin.com/api/mcp/short/MeT52eke",
+      "position": 6
+    },
+    {
+      "screen_id": "bd953e0c-0c21-4a34-91c6-33d502d4ba9c",
+      "image_url": "https://mobbin.com/api/mcp/short/VjombyAd",
+      "position": 7
+    },
+    {
+      "screen_id": "6196ed5c-9633-4ac8-b714-df26fc7ec9c5",
+      "image_url": "https://mobbin.com/api/mcp/short/2H8va1xi",
+      "position": 8
+    },
+    {
+      "screen_id": "368a0ca5-6803-48a7-8bb0-a0b6f85a1d5d",
+      "image_url": "https://mobbin.com/api/mcp/short/TNQTe1LT",
+      "position": 9
+    },
+    {
+      "screen_id": "11945a79-e36e-4fd5-ba88-262544f0ddf1",
+      "image_url": "https://mobbin.com/api/mcp/short/PsCYbEHe",
+      "position": 10
+    },
+    {
+      "screen_id": "d220e52b-53a7-49b1-a74b-38687571d2bc",
+      "image_url": "https://mobbin.com/api/mcp/short/ulNRhbCl",
+      "position": 11
+    }
+  ]
+}

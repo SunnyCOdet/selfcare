@@ -1,0 +1,39 @@
+{
+  "id": "f75cd0c5-4e30-4078-9fae-53462f1569d6",
+  "name": "Completing guides",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f75cd0c5-4e30-4078-9fae-53462f1569d6",
+  "app_name": "Zendesk",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ec231497-8b38-4560-b4db-3f600b439572",
+      "image_url": "https://mobbin.com/api/mcp/short/YOKILFXY",
+      "position": 1
+    },
+    {
+      "screen_id": "654f0225-7fee-4d59-8236-ba8dda9a0948",
+      "image_url": "https://mobbin.com/api/mcp/short/TEdvdn25",
+      "position": 2
+    },
+    {
+      "screen_id": "e6c0d553-5db6-43cb-adba-e3105706797a",
+      "image_url": "https://mobbin.com/api/mcp/short/DmV2o3g5",
+      "position": 3
+    },
+    {
+      "screen_id": "988cfcd3-18b8-4b08-9a62-e374b8ccf66a",
+      "image_url": "https://mobbin.com/api/mcp/short/odIqjt2n",
+      "position": 4
+    },
+    {
+      "screen_id": "0620aa5c-3cda-4b17-b20b-ef0368b8a930",
+      "image_url": "https://mobbin.com/api/mcp/short/it9xineo",
+      "position": 5
+    }
+  ]
+}

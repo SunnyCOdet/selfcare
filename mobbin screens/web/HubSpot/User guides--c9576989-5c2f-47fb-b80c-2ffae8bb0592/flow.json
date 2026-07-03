@@ -1,0 +1,36 @@
+{
+  "id": "c9576989-5c2f-47fb-b80c-2ffae8bb0592",
+  "name": "User guides",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c9576989-5c2f-47fb-b80c-2ffae8bb0592",
+  "app_name": "HubSpot",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "2c9c8d97-4bdf-4829-8247-439229eae1e8",
+      "image_url": "https://mobbin.com/api/mcp/short/G3i5vNDB",
+      "position": 1
+    },
+    {
+      "screen_id": "d56d9266-d924-4750-86b4-7c5e263187fb",
+      "image_url": "https://mobbin.com/api/mcp/short/iXEXE9ut",
+      "position": 2
+    },
+    {
+      "screen_id": "2ef9637e-a27b-4196-bd1e-153516c90ca4",
+      "image_url": "https://mobbin.com/api/mcp/short/fmr7sSiY",
+      "position": 3
+    },
+    {
+      "screen_id": "1225e343-efa0-471b-98da-e6355841a994",
+      "image_url": "https://mobbin.com/api/mcp/short/686IZvpc",
+      "position": 4
+    },
+    {
+      "screen_id": "599b481c-e169-435a-bd9b-6f8cde404943",
+      "image_url": "https://mobbin.com/api/mcp/short/ZKPuhdXr",
+      "position": 5
+    }
+  ]
+}

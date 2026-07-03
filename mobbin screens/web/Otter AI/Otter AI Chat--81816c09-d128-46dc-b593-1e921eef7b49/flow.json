@@ -1,0 +1,26 @@
+{
+  "id": "81816c09-d128-46dc-b593-1e921eef7b49",
+  "name": "Otter AI Chat",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/81816c09-d128-46dc-b593-1e921eef7b49",
+  "app_name": "Otter AI",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "aeb8b216-b50d-4520-a779-eb87a2c07a0e",
+      "image_url": "https://mobbin.com/api/mcp/short/8S8Pa8sK",
+      "position": 1
+    },
+    {
+      "screen_id": "f396ff97-b69b-49d1-9296-fe030edc6878",
+      "image_url": "https://mobbin.com/api/mcp/short/HkeHcoNl",
+      "position": 2
+    },
+    {
+      "screen_id": "aa248857-13e4-4106-ad47-da80950aa7e3",
+      "image_url": "https://mobbin.com/api/mcp/short/c74cDpqL",
+      "position": 3
+    }
+  ]
+}

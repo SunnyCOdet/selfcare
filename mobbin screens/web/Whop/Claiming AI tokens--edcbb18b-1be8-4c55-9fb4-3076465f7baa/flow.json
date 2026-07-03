@@ -1,0 +1,33 @@
+{
+  "id": "edcbb18b-1be8-4c55-9fb4-3076465f7baa",
+  "name": "Claiming AI tokens",
+  "actions": [
+    "Redeeming"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/edcbb18b-1be8-4c55-9fb4-3076465f7baa",
+  "app_name": "Whop",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "633da4cc-d25f-456a-ae1e-702b9384bc68",
+      "image_url": "https://mobbin.com/api/mcp/short/XUaI22tK",
+      "position": 1
+    },
+    {
+      "screen_id": "b3dc57d5-5d33-4784-9824-66c1fb115b6d",
+      "image_url": "https://mobbin.com/api/mcp/short/ll942aox",
+      "position": 2
+    },
+    {
+      "screen_id": "e0427b3e-f282-4261-b13a-bf0dcdd0c52e",
+      "image_url": "https://mobbin.com/api/mcp/short/5vFVLgq8",
+      "position": 3
+    },
+    {
+      "screen_id": "be8e7bf8-cc66-4c39-b0d2-6c598076bba9",
+      "image_url": "https://mobbin.com/api/mcp/short/b7Ngg9VU",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "4b9b22cf-3765-465a-9515-bf553ae30096",
+  "name": "Mental health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4b9b22cf-3765-465a-9515-bf553ae30096",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3b2970bd-6fbd-44a6-bd5d-9a8bde3bf02d",
+      "image_url": "https://mobbin.com/api/mcp/short/vcldm7Im",
+      "position": 1
+    },
+    {
+      "screen_id": "aa257edb-3a00-481d-bbf1-a9dfde8c5ad1",
+      "image_url": "https://mobbin.com/api/mcp/short/65Rk0C0d",
+      "position": 2
+    },
+    {
+      "screen_id": "8de4a6bd-0470-4f3b-83f0-3e62374757c7",
+      "image_url": "https://mobbin.com/api/mcp/short/cCMA21KT",
+      "position": 3
+    },
+    {
+      "screen_id": "f2e1dd18-895f-4626-b77e-82bc0aa789fe",
+      "image_url": "https://mobbin.com/api/mcp/short/MgV1Hmgu",
+      "position": 4
+    },
+    {
+      "screen_id": "7baef8d5-ada8-406c-b850-18533c22f8a2",
+      "image_url": "https://mobbin.com/api/mcp/short/4kSx7uED",
+      "position": 5
+    },
+    {
+      "screen_id": "3572d377-739e-4390-95c2-bd6e9d4b73f1",
+      "image_url": "https://mobbin.com/api/mcp/short/0SPFFohL",
+      "position": 6
+    }
+  ]
+}

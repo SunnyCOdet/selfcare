@@ -1,0 +1,26 @@
+{
+  "id": "f3bb7798-05ff-4d4e-a28e-472fce9e6a2a",
+  "name": "Streak",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f3bb7798-05ff-4d4e-a28e-472fce9e6a2a",
+  "app_name": "Liven",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "f619b32b-6cd8-4b5f-8acd-a7f3673a502e",
+      "image_url": "https://mobbin.com/api/mcp/short/rtA8ftrs",
+      "position": 1
+    },
+    {
+      "screen_id": "aa65235f-6b03-491f-bfda-8329766fb3a8",
+      "image_url": "https://mobbin.com/api/mcp/short/UyYzNruG",
+      "position": 2
+    },
+    {
+      "screen_id": "d3d3c2f9-4d8b-4ae7-9962-64d151dd7b0b",
+      "image_url": "https://mobbin.com/api/mcp/short/2R2GM3Mq",
+      "position": 3
+    }
+  ]
+}

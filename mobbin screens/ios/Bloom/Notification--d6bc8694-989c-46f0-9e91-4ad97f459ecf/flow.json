@@ -1,0 +1,41 @@
+{
+  "id": "d6bc8694-989c-46f0-9e91-4ad97f459ecf",
+  "name": "Notification",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d6bc8694-989c-46f0-9e91-4ad97f459ecf",
+  "app_name": "Bloom",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "f5dd019f-7955-4700-a9fe-120a50ce6d4c",
+      "image_url": "https://mobbin.com/api/mcp/short/0Uq3rZ52",
+      "position": 1
+    },
+    {
+      "screen_id": "7b44f6bd-4d70-4c92-b7d8-eaf38abfc14c",
+      "image_url": "https://mobbin.com/api/mcp/short/7s8NFl1h",
+      "position": 2
+    },
+    {
+      "screen_id": "f5dc44d1-f844-49eb-a00c-688bf4cc5f0f",
+      "image_url": "https://mobbin.com/api/mcp/short/zwhX99Wy",
+      "position": 3
+    },
+    {
+      "screen_id": "1e017c9a-9050-4e5a-b686-94ea357ae7bb",
+      "image_url": "https://mobbin.com/api/mcp/short/1VuBEhwy",
+      "position": 4
+    },
+    {
+      "screen_id": "5e5e443e-cb16-452d-83d2-24817b9c8bf3",
+      "image_url": "https://mobbin.com/api/mcp/short/SWdsmVb1",
+      "position": 5
+    },
+    {
+      "screen_id": "f02ca758-eab1-4ae8-b5cb-5b8c95c3e6f7",
+      "image_url": "https://mobbin.com/api/mcp/short/wI09OVXk",
+      "position": 6
+    }
+  ]
+}

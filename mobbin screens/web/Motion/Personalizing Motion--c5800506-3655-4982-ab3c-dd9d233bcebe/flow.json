@@ -1,0 +1,33 @@
+{
+  "id": "c5800506-3655-4982-ab3c-dd9d233bcebe",
+  "name": "Personalizing Motion",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c5800506-3655-4982-ab3c-dd9d233bcebe",
+  "app_name": "Motion",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "dea516c3-3376-4347-a6aa-497a83af2eaf",
+      "image_url": "https://mobbin.com/api/mcp/short/l77VdxBj",
+      "position": 1
+    },
+    {
+      "screen_id": "d306bfd8-3178-4a05-aefa-a0e403e9061e",
+      "image_url": "https://mobbin.com/api/mcp/short/b3pG1h2q",
+      "position": 2
+    },
+    {
+      "screen_id": "1c6499f8-803c-49e9-99f0-d8d54d47be88",
+      "image_url": "https://mobbin.com/api/mcp/short/fl3A6hMC",
+      "position": 3
+    },
+    {
+      "screen_id": "713278be-b8d2-4f30-bc4a-2e4396e1cf73",
+      "image_url": "https://mobbin.com/api/mcp/short/YJuQeaN8",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d72b8144-dc61-4eda-bb6f-9a3a747f257f",
+  "name": "Completing tasks",
+  "actions": [
+    "Marking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d72b8144-dc61-4eda-bb6f-9a3a747f257f",
+  "app_name": "Aboard",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "c59ae715-af91-440d-9741-fcc1ec6cc156",
+      "image_url": "https://mobbin.com/api/mcp/short/ffuqyTsG",
+      "position": 1
+    },
+    {
+      "screen_id": "87607833-3d4f-4d48-9f53-98c992da901d",
+      "image_url": "https://mobbin.com/api/mcp/short/t0VjDET7",
+      "position": 2
+    },
+    {
+      "screen_id": "2cec253c-9f48-4181-a901-9445d67a5b85",
+      "image_url": "https://mobbin.com/api/mcp/short/i9GsAFC4",
+      "position": 3
+    }
+  ]
+}

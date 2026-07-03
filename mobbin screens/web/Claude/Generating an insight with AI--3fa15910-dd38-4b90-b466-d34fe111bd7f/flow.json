@@ -1,0 +1,35 @@
+{
+  "id": "3fa15910-dd38-4b90-b466-d34fe111bd7f",
+  "name": "Generating an insight with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3fa15910-dd38-4b90-b466-d34fe111bd7f",
+  "app_name": "Claude",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "7f488e21-04bc-4523-8ac5-b2038e7977fd",
+      "image_url": "https://mobbin.com/api/mcp/short/ucbbc395",
+      "position": 1
+    },
+    {
+      "screen_id": "dc0671c0-a055-45bd-92dc-42cadf7c1934",
+      "image_url": "https://mobbin.com/api/mcp/short/13O57ku5",
+      "position": 2
+    },
+    {
+      "screen_id": "34aa9592-2138-4be6-95f6-4aa7410e9bb9",
+      "image_url": "https://mobbin.com/api/mcp/short/LP5DRoGD",
+      "position": 3
+    },
+    {
+      "screen_id": "d268695c-600e-4373-9e5e-d4eabad5daf6",
+      "image_url": "https://mobbin.com/api/mcp/short/XLNcuJeE",
+      "position": 4
+    }
+  ]
+}

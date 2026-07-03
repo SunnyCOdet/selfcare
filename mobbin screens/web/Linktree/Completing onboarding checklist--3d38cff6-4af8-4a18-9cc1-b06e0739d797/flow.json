@@ -1,0 +1,33 @@
+{
+  "id": "3d38cff6-4af8-4a18-9cc1-b06e0739d797",
+  "name": "Completing onboarding checklist",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3d38cff6-4af8-4a18-9cc1-b06e0739d797",
+  "app_name": "Linktree",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "cc0ba367-1b19-484d-bfe5-8d603fa4fe02",
+      "image_url": "https://mobbin.com/api/mcp/short/VTOfLhab",
+      "position": 1
+    },
+    {
+      "screen_id": "27eeaed0-ed98-4af5-b17c-20d299964d8c",
+      "image_url": "https://mobbin.com/api/mcp/short/do8M4Ylr",
+      "position": 2
+    },
+    {
+      "screen_id": "d995a295-efab-4263-9b96-8fe821cca411",
+      "image_url": "https://mobbin.com/api/mcp/short/wC49Yazr",
+      "position": 3
+    },
+    {
+      "screen_id": "6fef318d-2e31-4994-9721-ae091c6a12e7",
+      "image_url": "https://mobbin.com/api/mcp/short/z5LPZP1J",
+      "position": 4
+    }
+  ]
+}

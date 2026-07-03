@@ -1,0 +1,63 @@
+{
+  "id": "5a9cdf92-2cac-4019-bc6d-8914aa86505d",
+  "name": "Logging in",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5a9cdf92-2cac-4019-bc6d-8914aa86505d",
+  "app_name": "Withings Health Mate",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "f168637c-3d7d-4b07-9790-f94a3b7eb1f5",
+      "image_url": "https://mobbin.com/api/mcp/short/6a2ar6AE",
+      "position": 1
+    },
+    {
+      "screen_id": "ac8a2c06-98ae-4fec-9558-8ad3b1da79b7",
+      "image_url": "https://mobbin.com/api/mcp/short/Bf4jYfUo",
+      "position": 2
+    },
+    {
+      "screen_id": "0f2877b8-f3b1-43cc-a48d-2d8c90fc06bd",
+      "image_url": "https://mobbin.com/api/mcp/short/f6rgNnq7",
+      "position": 3
+    },
+    {
+      "screen_id": "17c17b8a-64bc-4ef0-9d04-b25541e54abd",
+      "image_url": "https://mobbin.com/api/mcp/short/7RTxxFlW",
+      "position": 4
+    },
+    {
+      "screen_id": "3a76b800-0a06-4561-906d-ac625c11d8d4",
+      "image_url": "https://mobbin.com/api/mcp/short/pMlMJmMo",
+      "position": 5
+    },
+    {
+      "screen_id": "7c227421-24df-41cb-8683-48551f8b16c8",
+      "image_url": "https://mobbin.com/api/mcp/short/w0qyHElg",
+      "position": 6
+    },
+    {
+      "screen_id": "e7d6535f-eba3-4cc5-8b7e-bfc73dd9f6b8",
+      "image_url": "https://mobbin.com/api/mcp/short/TnOp8ij0",
+      "position": 7
+    },
+    {
+      "screen_id": "a0727bdc-a1a7-4290-8d03-4cce04b8abab",
+      "image_url": "https://mobbin.com/api/mcp/short/rQtU3Wca",
+      "position": 8
+    },
+    {
+      "screen_id": "a4dce151-e38c-43d1-830d-fc8f8f3981ee",
+      "image_url": "https://mobbin.com/api/mcp/short/cD8EvbdV",
+      "position": 9
+    },
+    {
+      "screen_id": "c96f8daf-7231-46dd-a354-552e6009f1f1",
+      "image_url": "https://mobbin.com/api/mcp/short/OZrUfWCj",
+      "position": 10
+    }
+  ]
+}

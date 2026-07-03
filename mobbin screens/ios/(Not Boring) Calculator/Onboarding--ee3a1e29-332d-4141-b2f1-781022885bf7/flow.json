@@ -1,0 +1,53 @@
+{
+  "id": "ee3a1e29-332d-4141-b2f1-781022885bf7",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ee3a1e29-332d-4141-b2f1-781022885bf7",
+  "app_name": "(Not Boring) Calculator",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "b4959369-5a95-4420-a222-642f2518e32e",
+      "image_url": "https://mobbin.com/api/mcp/short/K3wm3RzB",
+      "position": 1
+    },
+    {
+      "screen_id": "7fbee764-8fa5-4e34-bb93-6ff63bbd1fc5",
+      "image_url": "https://mobbin.com/api/mcp/short/1yGeV8hL",
+      "position": 2
+    },
+    {
+      "screen_id": "b2e3c818-fed5-4054-9d2f-16d6fbadfe0f",
+      "image_url": "https://mobbin.com/api/mcp/short/0rxtT8gl",
+      "position": 3
+    },
+    {
+      "screen_id": "e45fac87-2e9a-490d-9c1b-43d8d4924b3d",
+      "image_url": "https://mobbin.com/api/mcp/short/F0InIptT",
+      "position": 4
+    },
+    {
+      "screen_id": "ee0364b1-ff85-4a4d-9d0d-920655e504e8",
+      "image_url": "https://mobbin.com/api/mcp/short/08YgoaYa",
+      "position": 5
+    },
+    {
+      "screen_id": "313f88f5-5314-428c-a817-bc151fdefba4",
+      "image_url": "https://mobbin.com/api/mcp/short/TTig6vQ9",
+      "position": 6
+    },
+    {
+      "screen_id": "f40e8872-c3e6-4cb1-b7e3-2c58357a9f98",
+      "image_url": "https://mobbin.com/api/mcp/short/nVfQEubi",
+      "position": 7
+    },
+    {
+      "screen_id": "aaf279af-929a-4e5a-81c6-a3ea86263a6a",
+      "image_url": "https://mobbin.com/api/mcp/short/Kp5PHn4m",
+      "position": 8
+    }
+  ]
+}

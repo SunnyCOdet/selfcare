@@ -1,0 +1,43 @@
+{
+  "id": "5e171fa0-680d-4112-b6fe-80b7db5e1a7f",
+  "name": "Updating settings (AI agent)",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5e171fa0-680d-4112-b6fe-80b7db5e1a7f",
+  "app_name": "Gorgias",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "1d9a5773-65d7-46d9-a7e4-19230b377141",
+      "image_url": "https://mobbin.com/api/mcp/short/HAztDpkB",
+      "position": 1
+    },
+    {
+      "screen_id": "ba2dd171-e6c8-435d-acc9-73aca87dd8a5",
+      "image_url": "https://mobbin.com/api/mcp/short/D494WWBe",
+      "position": 2
+    },
+    {
+      "screen_id": "202ebb25-7aed-4905-a9e8-fd868fc3e8c0",
+      "image_url": "https://mobbin.com/api/mcp/short/VPS5bDyC",
+      "position": 3
+    },
+    {
+      "screen_id": "aa92a3bf-d95f-4590-b0b4-848ec5d00da8",
+      "image_url": "https://mobbin.com/api/mcp/short/aKRe3pEd",
+      "position": 4
+    },
+    {
+      "screen_id": "7b8b3c22-3ff9-4aa0-82fb-d53c14138daf",
+      "image_url": "https://mobbin.com/api/mcp/short/cCzeBfdG",
+      "position": 5
+    },
+    {
+      "screen_id": "52fe784a-f03f-4b00-a6ca-1064cbeca1cc",
+      "image_url": "https://mobbin.com/api/mcp/short/QpthlH4s",
+      "position": 6
+    }
+  ]
+}

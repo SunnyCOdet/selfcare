@@ -1,0 +1,48 @@
+{
+  "id": "49a474ad-6396-40d7-988c-b8f8d2798128",
+  "name": "Creating a logo with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/49a474ad-6396-40d7-988c-b8f8d2798128",
+  "app_name": "Canva",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "ac73d136-e192-41be-b701-f6a70ab5b778",
+      "image_url": "https://mobbin.com/api/mcp/short/u22EVUzm",
+      "position": 1
+    },
+    {
+      "screen_id": "cfa6691b-30ae-4c2d-94bc-7c30f09131ea",
+      "image_url": "https://mobbin.com/api/mcp/short/HGPhEgsz",
+      "position": 2
+    },
+    {
+      "screen_id": "8a72e1c8-b92c-4e55-a027-92e8e9c46457",
+      "image_url": "https://mobbin.com/api/mcp/short/eubAcCDT",
+      "position": 3
+    },
+    {
+      "screen_id": "40b5e04c-6dfc-4a1c-bf1d-6bd8ad65c593",
+      "image_url": "https://mobbin.com/api/mcp/short/0IWxKUAf",
+      "position": 4
+    },
+    {
+      "screen_id": "defc04fa-bcbb-43f1-8218-6c18cd17533a",
+      "image_url": "https://mobbin.com/api/mcp/short/pMHW83lK",
+      "position": 5
+    },
+    {
+      "screen_id": "e6a96ee8-6e31-48d4-827d-c8984bc184a3",
+      "image_url": "https://mobbin.com/api/mcp/short/p27IyM7J",
+      "position": 6
+    },
+    {
+      "screen_id": "2ce3b4d1-808a-430a-b2a9-cb81c617dc34",
+      "image_url": "https://mobbin.com/api/mcp/short/afQFTafC",
+      "position": 7
+    }
+  ]
+}

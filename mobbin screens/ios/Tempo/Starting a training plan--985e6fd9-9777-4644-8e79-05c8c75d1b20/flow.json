@@ -1,0 +1,38 @@
+{
+  "id": "985e6fd9-9777-4644-8e79-05c8c75d1b20",
+  "name": "Starting a training plan",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/985e6fd9-9777-4644-8e79-05c8c75d1b20",
+  "app_name": "Tempo",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "3b6166f4-9ea0-46a3-b1c0-5c27047344d4",
+      "image_url": "https://mobbin.com/api/mcp/short/QWS6yPTs",
+      "position": 1
+    },
+    {
+      "screen_id": "36d8d72a-2499-4f20-8a79-ad2c1afa91c4",
+      "image_url": "https://mobbin.com/api/mcp/short/8JtUX4wB",
+      "position": 2
+    },
+    {
+      "screen_id": "e40a4121-4b46-495c-99ed-02c63d3d7575",
+      "image_url": "https://mobbin.com/api/mcp/short/lHv3p402",
+      "position": 3
+    },
+    {
+      "screen_id": "e8977f8a-ca2d-4546-8ca6-b7a8ecfb607e",
+      "image_url": "https://mobbin.com/api/mcp/short/QU6ggeaX",
+      "position": 4
+    },
+    {
+      "screen_id": "3442b6f8-27ba-4057-96dd-d5c69079ac4b",
+      "image_url": "https://mobbin.com/api/mcp/short/GfKf4IzR",
+      "position": 5
+    }
+  ]
+}

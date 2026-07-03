@@ -1,0 +1,46 @@
+{
+  "id": "6c327d44-2fb4-4cb2-94d6-9f3c12630ca0",
+  "name": "Explore",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6c327d44-2fb4-4cb2-94d6-9f3c12630ca0",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "a43cc23e-a3f9-452f-a5a5-fa1ba322a6ad",
+      "image_url": "https://mobbin.com/api/mcp/short/YlRT9Gzc",
+      "position": 1
+    },
+    {
+      "screen_id": "92e0f8b7-069a-460a-a2e7-6574d44a9b9e",
+      "image_url": "https://mobbin.com/api/mcp/short/73gQtR9x",
+      "position": 2
+    },
+    {
+      "screen_id": "86e38c7d-cd62-483f-9ea9-1d5b6b17cc70",
+      "image_url": "https://mobbin.com/api/mcp/short/nT4tw8zD",
+      "position": 3
+    },
+    {
+      "screen_id": "1c3820e2-d26c-41c5-8ca1-a26cb54c9910",
+      "image_url": "https://mobbin.com/api/mcp/short/5qmhWwxc",
+      "position": 4
+    },
+    {
+      "screen_id": "61d81820-bafe-41b9-bd4a-1a5827c903c6",
+      "image_url": "https://mobbin.com/api/mcp/short/QRi11PJt",
+      "position": 5
+    },
+    {
+      "screen_id": "d6bfb6c0-7b92-4289-95fe-b8dcb5ca6920",
+      "image_url": "https://mobbin.com/api/mcp/short/KB8QLK3G",
+      "position": 6
+    },
+    {
+      "screen_id": "65f95c5a-153d-41a8-9335-8c3755106045",
+      "image_url": "https://mobbin.com/api/mcp/short/NCvaPnYJ",
+      "position": 7
+    }
+  ]
+}

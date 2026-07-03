@@ -1,0 +1,59 @@
+{
+  "id": "3aae8ee2-0def-47a6-8375-e0598dd15106",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3aae8ee2-0def-47a6-8375-e0598dd15106",
+  "app_name": "Hatch Sleep",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "b1062576-c803-4f98-9e7d-24e8b48b4672",
+      "image_url": "https://mobbin.com/api/mcp/short/1Iuyzvet",
+      "position": 1
+    },
+    {
+      "screen_id": "7a1632b4-c40d-4908-bc22-5f813f1dedf1",
+      "image_url": "https://mobbin.com/api/mcp/short/7g1ER4Vr",
+      "position": 2
+    },
+    {
+      "screen_id": "a2e55074-16a0-48c8-bcfa-eb5f737b31b9",
+      "image_url": "https://mobbin.com/api/mcp/short/SAsgJYSz",
+      "position": 3
+    },
+    {
+      "screen_id": "43286e9d-7d0c-4353-baf2-51cae8adb8a3",
+      "image_url": "https://mobbin.com/api/mcp/short/Ajg8WUi4",
+      "position": 4
+    },
+    {
+      "screen_id": "6fc490c9-a966-4486-9d4c-ec43cfb46666",
+      "image_url": "https://mobbin.com/api/mcp/short/CAIQg1n5",
+      "position": 5
+    },
+    {
+      "screen_id": "37c3a218-90e0-4d01-bc6a-171d4adffcd9",
+      "image_url": "https://mobbin.com/api/mcp/short/fzhjhfvz",
+      "position": 6
+    },
+    {
+      "screen_id": "0da898a1-20d3-4932-b0b1-c78efa94d39f",
+      "image_url": "https://mobbin.com/api/mcp/short/3YQenwl5",
+      "position": 7
+    },
+    {
+      "screen_id": "0fcff647-12d8-487b-a862-9e1468d71619",
+      "image_url": "https://mobbin.com/api/mcp/short/Fgik8pJH",
+      "position": 8
+    },
+    {
+      "screen_id": "dc142517-b69a-4b86-b48e-889bfc2c6ec2",
+      "image_url": "https://mobbin.com/api/mcp/short/88xUmIJp",
+      "position": 9
+    }
+  ]
+}

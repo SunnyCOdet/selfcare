@@ -1,0 +1,68 @@
+{
+  "id": "4f5ea903-049d-4869-b7cf-e1fbd850d58a",
+  "name": "Starting an onboarding",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4f5ea903-049d-4869-b7cf-e1fbd850d58a",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "fd9c125a-6145-46f2-9260-ab76e3a5c603",
+      "image_url": "https://mobbin.com/api/mcp/short/cC3M0GZM",
+      "position": 1
+    },
+    {
+      "screen_id": "6c1f56f8-c756-4fa4-8d83-a2d8096304ed",
+      "image_url": "https://mobbin.com/api/mcp/short/TceW6Eir",
+      "position": 2
+    },
+    {
+      "screen_id": "0d48bdc2-1044-41f4-8d40-21635ed943aa",
+      "image_url": "https://mobbin.com/api/mcp/short/a0ldx5wH",
+      "position": 3
+    },
+    {
+      "screen_id": "99a38775-12b9-4612-aa7a-cb8130a6b934",
+      "image_url": "https://mobbin.com/api/mcp/short/1Nx3gp85",
+      "position": 4
+    },
+    {
+      "screen_id": "78c77f00-7150-4bfb-9996-619b87b2c041",
+      "image_url": "https://mobbin.com/api/mcp/short/4OiQDLls",
+      "position": 5
+    },
+    {
+      "screen_id": "2d8f28c1-58ff-497e-bc74-8df47f9e7bcb",
+      "image_url": "https://mobbin.com/api/mcp/short/ZZE0pzrO",
+      "position": 6
+    },
+    {
+      "screen_id": "124e2370-08f8-4ab0-9606-48d9a3a3e487",
+      "image_url": "https://mobbin.com/api/mcp/short/P2yrfU1U",
+      "position": 7
+    },
+    {
+      "screen_id": "e1efe496-ecb2-45da-8ef3-cf089d0f4f12",
+      "image_url": "https://mobbin.com/api/mcp/short/ZEiX4N3P",
+      "position": 8
+    },
+    {
+      "screen_id": "af355de9-56e5-4e2a-b390-1dd2465c563b",
+      "image_url": "https://mobbin.com/api/mcp/short/YAqWhDCw",
+      "position": 9
+    },
+    {
+      "screen_id": "f6dd98fa-591d-4307-8453-ed74603142a4",
+      "image_url": "https://mobbin.com/api/mcp/short/ouilaJcM",
+      "position": 10
+    },
+    {
+      "screen_id": "09da790a-fc80-4bd0-b0cf-0bc5fcedc394",
+      "image_url": "https://mobbin.com/api/mcp/short/uNEbsFTy",
+      "position": 11
+    }
+  ]
+}

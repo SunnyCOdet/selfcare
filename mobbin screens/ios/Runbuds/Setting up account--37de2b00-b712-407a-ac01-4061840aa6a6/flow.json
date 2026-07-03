@@ -1,0 +1,65 @@
+{
+  "id": "37de2b00-b712-407a-ac01-4061840aa6a6",
+  "name": "Setting up account",
+  "actions": [
+    "Starting & Completing",
+    "Turning On/Off",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/37de2b00-b712-407a-ac01-4061840aa6a6",
+  "app_name": "Runbuds",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "e2ae3a03-2328-4d4f-8659-674663cde922",
+      "image_url": "https://mobbin.com/api/mcp/short/B7JKRVwq",
+      "position": 1
+    },
+    {
+      "screen_id": "f33295f2-0641-428b-a1a0-acaabc375480",
+      "image_url": "https://mobbin.com/api/mcp/short/Uh23dR5N",
+      "position": 2
+    },
+    {
+      "screen_id": "24f6681d-7c26-4978-ae31-6ad11e70a062",
+      "image_url": "https://mobbin.com/api/mcp/short/satq9mg8",
+      "position": 3
+    },
+    {
+      "screen_id": "5140a921-0e47-4643-954a-60bbfc6dd956",
+      "image_url": "https://mobbin.com/api/mcp/short/qebEhlQl",
+      "position": 4
+    },
+    {
+      "screen_id": "936342f0-37ef-4820-b27c-8ad5a5f958cd",
+      "image_url": "https://mobbin.com/api/mcp/short/viUHgbjy",
+      "position": 5
+    },
+    {
+      "screen_id": "12b18d83-2db3-43b1-93f9-2fceaa77d148",
+      "image_url": "https://mobbin.com/api/mcp/short/wINegyvw",
+      "position": 6
+    },
+    {
+      "screen_id": "e449e625-2d71-44ff-9340-3e183078c817",
+      "image_url": "https://mobbin.com/api/mcp/short/e3QzZFA8",
+      "position": 7
+    },
+    {
+      "screen_id": "022c0e60-d35a-4bb2-ab4a-eec9c45d57a6",
+      "image_url": "https://mobbin.com/api/mcp/short/dUlTmvxL",
+      "position": 8
+    },
+    {
+      "screen_id": "5d282a10-97d6-4ec4-a91f-caad831444ae",
+      "image_url": "https://mobbin.com/api/mcp/short/acize3Jq",
+      "position": 9
+    },
+    {
+      "screen_id": "66d9f326-5472-4125-bc57-d9e6573c9854",
+      "image_url": "https://mobbin.com/api/mcp/short/vUEd2ggI",
+      "position": 10
+    }
+  ]
+}

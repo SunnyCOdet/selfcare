@@ -1,0 +1,33 @@
+{
+  "id": "066e6427-f5fe-4097-b8ec-3d3ce26154f3",
+  "name": "Uploading ID photo (mental health)",
+  "actions": [
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/066e6427-f5fe-4097-b8ec-3d3ce26154f3",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5f9712d2-2452-4407-86cd-fe342f784352",
+      "image_url": "https://mobbin.com/api/mcp/short/NHbPyAI3",
+      "position": 1
+    },
+    {
+      "screen_id": "f7f52189-b8b3-4019-85a1-cc8ce09e6eed",
+      "image_url": "https://mobbin.com/api/mcp/short/vxqBG5iG",
+      "position": 2
+    },
+    {
+      "screen_id": "52d97114-1c55-46a5-a773-4376312cdeaa",
+      "image_url": "https://mobbin.com/api/mcp/short/uKWfpdj6",
+      "position": 3
+    },
+    {
+      "screen_id": "2f9c0396-91e8-4688-b2c0-65bf4745a5ab",
+      "image_url": "https://mobbin.com/api/mcp/short/8yllzgUT",
+      "position": 4
+    }
+  ]
+}

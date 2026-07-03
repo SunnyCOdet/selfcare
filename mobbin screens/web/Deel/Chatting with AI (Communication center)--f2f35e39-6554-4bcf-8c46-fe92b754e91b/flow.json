@@ -1,0 +1,28 @@
+{
+  "id": "f2f35e39-6554-4bcf-8c46-fe92b754e91b",
+  "name": "Chatting with AI (Communication center)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f2f35e39-6554-4bcf-8c46-fe92b754e91b",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "db357932-0e83-43e7-89ff-5f47a06ef246",
+      "image_url": "https://mobbin.com/api/mcp/short/8FRkfQTP",
+      "position": 1
+    },
+    {
+      "screen_id": "bebf3d33-10c5-4d4c-983f-6d92eff7d976",
+      "image_url": "https://mobbin.com/api/mcp/short/zUUXV0HU",
+      "position": 2
+    },
+    {
+      "screen_id": "963c9ca3-2572-458a-9a93-0e209824c569",
+      "image_url": "https://mobbin.com/api/mcp/short/Krfs7L6x",
+      "position": 3
+    }
+  ]
+}

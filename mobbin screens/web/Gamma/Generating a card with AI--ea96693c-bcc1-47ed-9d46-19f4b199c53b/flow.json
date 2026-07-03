@@ -1,0 +1,48 @@
+{
+  "id": "ea96693c-bcc1-47ed-9d46-19f4b199c53b",
+  "name": "Generating a card with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ea96693c-bcc1-47ed-9d46-19f4b199c53b",
+  "app_name": "Gamma",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "e59cf68c-1c8d-4ef4-aa3f-a10748d36f11",
+      "image_url": "https://mobbin.com/api/mcp/short/E9JqFpfi",
+      "position": 1
+    },
+    {
+      "screen_id": "32755cd3-2147-4691-be27-d96e9a2e7856",
+      "image_url": "https://mobbin.com/api/mcp/short/U73hURy0",
+      "position": 2
+    },
+    {
+      "screen_id": "f97a83c1-0c6e-4248-baa8-f58b4d8edbcf",
+      "image_url": "https://mobbin.com/api/mcp/short/ptxbeQ6V",
+      "position": 3
+    },
+    {
+      "screen_id": "f5837ae0-b9f5-42ac-b3a3-63ce46c34425",
+      "image_url": "https://mobbin.com/api/mcp/short/GGUETAJa",
+      "position": 4
+    },
+    {
+      "screen_id": "c8eaa6a1-41c7-424d-92f6-260c0b78470b",
+      "image_url": "https://mobbin.com/api/mcp/short/Nx6kFmqS",
+      "position": 5
+    },
+    {
+      "screen_id": "4831783a-f758-41e5-ab3a-6118d1fa887e",
+      "image_url": "https://mobbin.com/api/mcp/short/EOTtends",
+      "position": 6
+    },
+    {
+      "screen_id": "2631f785-eff6-46ab-b232-445b67dc73ee",
+      "image_url": "https://mobbin.com/api/mcp/short/QGj0jzmu",
+      "position": 7
+    }
+  ]
+}

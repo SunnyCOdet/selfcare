@@ -1,0 +1,36 @@
+{
+  "id": "4a1821cf-9ef9-4ed8-8cac-ddca28d5afe5",
+  "name": "Milestones",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4a1821cf-9ef9-4ed8-8cac-ddca28d5afe5",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "fcde7b16-dae6-475c-86c2-03991036d70d",
+      "image_url": "https://mobbin.com/api/mcp/short/WV6Q4vFv",
+      "position": 1
+    },
+    {
+      "screen_id": "35c534be-70d1-4000-8ac6-65391a765881",
+      "image_url": "https://mobbin.com/api/mcp/short/31bINKaZ",
+      "position": 2
+    },
+    {
+      "screen_id": "77489794-3f0f-4d19-bb9f-41cadc6fdff3",
+      "image_url": "https://mobbin.com/api/mcp/short/KKt6qGfI",
+      "position": 3
+    },
+    {
+      "screen_id": "6c57ef77-c824-4bbd-aa7b-e71495a11ae1",
+      "image_url": "https://mobbin.com/api/mcp/short/QIFknhud",
+      "position": 4
+    },
+    {
+      "screen_id": "ead3a74d-1527-49aa-90ab-f916ee4f6be3",
+      "image_url": "https://mobbin.com/api/mcp/short/S9j0A6JE",
+      "position": 5
+    }
+  ]
+}

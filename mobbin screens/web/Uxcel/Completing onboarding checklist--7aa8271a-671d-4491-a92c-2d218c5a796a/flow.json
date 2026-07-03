@@ -1,0 +1,28 @@
+{
+  "id": "7aa8271a-671d-4491-a92c-2d218c5a796a",
+  "name": "Completing onboarding checklist",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7aa8271a-671d-4491-a92c-2d218c5a796a",
+  "app_name": "Uxcel",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "46cbd39c-fa50-4357-8707-f3b0c747b0ed",
+      "image_url": "https://mobbin.com/api/mcp/short/DOiwT5rP",
+      "position": 1
+    },
+    {
+      "screen_id": "e8e880da-3dc8-44b5-b05b-830fd1212f56",
+      "image_url": "https://mobbin.com/api/mcp/short/Zw2nzZe7",
+      "position": 2
+    },
+    {
+      "screen_id": "38804fe0-c387-4914-9294-9afbf9c87fca",
+      "image_url": "https://mobbin.com/api/mcp/short/WDUlP9oS",
+      "position": 3
+    }
+  ]
+}

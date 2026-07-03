@@ -1,0 +1,53 @@
+{
+  "id": "b8ca5005-812d-4954-9e30-a0db8f6a2695",
+  "name": "Sharing a marketing goal",
+  "actions": [
+    "Sharing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b8ca5005-812d-4954-9e30-a0db8f6a2695",
+  "app_name": "Mailchimp",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "98fef8e6-5eef-4aa3-b503-61a58e320c99",
+      "image_url": "https://mobbin.com/api/mcp/short/2OH5f04T",
+      "position": 1
+    },
+    {
+      "screen_id": "3f1c98ba-6ba2-4265-b1a2-b25868932ce5",
+      "image_url": "https://mobbin.com/api/mcp/short/o218n6G6",
+      "position": 2
+    },
+    {
+      "screen_id": "e19d3806-fc05-4fc0-9891-f1d07ba3934d",
+      "image_url": "https://mobbin.com/api/mcp/short/Doqtj18w",
+      "position": 3
+    },
+    {
+      "screen_id": "7502e428-ee5a-4f33-969b-3ba73ac2f647",
+      "image_url": "https://mobbin.com/api/mcp/short/BNo6baUd",
+      "position": 4
+    },
+    {
+      "screen_id": "f3451a72-c534-496d-8cf7-9d66902b7315",
+      "image_url": "https://mobbin.com/api/mcp/short/2mEkCvnS",
+      "position": 5
+    },
+    {
+      "screen_id": "87fd4497-1549-426d-af0b-20d04962e6ca",
+      "image_url": "https://mobbin.com/api/mcp/short/LEyLqNSb",
+      "position": 6
+    },
+    {
+      "screen_id": "d9679124-e048-4030-8ed2-a8d2de09cddb",
+      "image_url": "https://mobbin.com/api/mcp/short/JdAprsX2",
+      "position": 7
+    },
+    {
+      "screen_id": "72614145-2a9c-4dba-907a-fe9a28a7d7ec",
+      "image_url": "https://mobbin.com/api/mcp/short/VjPztmWS",
+      "position": 8
+    }
+  ]
+}

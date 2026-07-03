@@ -1,0 +1,49 @@
+{
+  "id": "727a8462-a160-4dfb-bddd-4ac673a5b65d",
+  "name": "Onboarding (Expensify classic)",
+  "actions": [
+    "Onboarding",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/727a8462-a160-4dfb-bddd-4ac673a5b65d",
+  "app_name": "Expensify",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "30299bfc-5ed2-409a-a376-7e5241c74faf",
+      "image_url": "https://mobbin.com/api/mcp/short/VRHcWoRP",
+      "position": 1
+    },
+    {
+      "screen_id": "075eefab-83d1-4ef9-aa12-a823eceb4696",
+      "image_url": "https://mobbin.com/api/mcp/short/tEcogAnr",
+      "position": 2
+    },
+    {
+      "screen_id": "ae80248d-6798-485e-a3a7-15bb9cb1b767",
+      "image_url": "https://mobbin.com/api/mcp/short/3kRLyfhP",
+      "position": 3
+    },
+    {
+      "screen_id": "f36171d1-af5c-4a87-8bd4-abb22b075298",
+      "image_url": "https://mobbin.com/api/mcp/short/QjBlzsq4",
+      "position": 4
+    },
+    {
+      "screen_id": "39f9fc62-fb42-41de-9cb4-b2b98c9d4546",
+      "image_url": "https://mobbin.com/api/mcp/short/j1wWmtJr",
+      "position": 5
+    },
+    {
+      "screen_id": "b8c28bd8-8470-49f2-b833-ccd083f1747f",
+      "image_url": "https://mobbin.com/api/mcp/short/2Uv2tPIi",
+      "position": 6
+    },
+    {
+      "screen_id": "4a7fac49-4d4f-47e4-9263-44feb86962b8",
+      "image_url": "https://mobbin.com/api/mcp/short/Y6ZX6BgP",
+      "position": 7
+    }
+  ]
+}

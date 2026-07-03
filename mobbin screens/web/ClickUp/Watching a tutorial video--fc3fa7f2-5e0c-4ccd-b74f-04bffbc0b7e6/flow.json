@@ -1,0 +1,29 @@
+{
+  "id": "fc3fa7f2-5e0c-4ccd-b74f-04bffbc0b7e6",
+  "name": "Watching a tutorial video",
+  "actions": [
+    "Browsing Tutorial",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fc3fa7f2-5e0c-4ccd-b74f-04bffbc0b7e6",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "bf7ca512-63cb-42b8-ad9a-2355c9665766",
+      "image_url": "https://mobbin.com/api/mcp/short/XnTL2NrX",
+      "position": 1
+    },
+    {
+      "screen_id": "889c3bb0-8b90-4045-be5e-4084325d7597",
+      "image_url": "https://mobbin.com/api/mcp/short/qGm1uvx4",
+      "position": 2
+    },
+    {
+      "screen_id": "e28e98d5-c32c-4b48-88f7-a59b03683754",
+      "image_url": "https://mobbin.com/api/mcp/short/ozMUNTdn",
+      "position": 3
+    }
+  ]
+}

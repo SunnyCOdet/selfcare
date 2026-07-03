@@ -1,0 +1,64 @@
+{
+  "id": "a4d492de-04ff-4d74-b2a4-c493f7161458",
+  "name": "Starting a plan",
+  "actions": [
+    "Listening to Audio",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a4d492de-04ff-4d74-b2a4-c493f7161458",
+  "app_name": "Nike Run Club",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "428135e1-0a9d-4978-9313-d37cc29ec351",
+      "image_url": "https://mobbin.com/api/mcp/short/f3Mgcdks",
+      "position": 1
+    },
+    {
+      "screen_id": "493c2c21-2358-4ea0-89db-a23b287191d8",
+      "image_url": "https://mobbin.com/api/mcp/short/jshSr8TJ",
+      "position": 2
+    },
+    {
+      "screen_id": "3456b097-69d9-4ded-8fb8-67cbbaf41209",
+      "image_url": "https://mobbin.com/api/mcp/short/CjQ8fGDP",
+      "position": 3
+    },
+    {
+      "screen_id": "336836aa-5180-4447-97aa-8edd145e720d",
+      "image_url": "https://mobbin.com/api/mcp/short/bCnAEPlE",
+      "position": 4
+    },
+    {
+      "screen_id": "c6dc33ea-f7b6-455d-bb25-bd8c66ce7fdb",
+      "image_url": "https://mobbin.com/api/mcp/short/4ONyC2Tk",
+      "position": 5
+    },
+    {
+      "screen_id": "e58f5aeb-8b10-423d-ab21-3cc44fb66538",
+      "image_url": "https://mobbin.com/api/mcp/short/lb3mxDVF",
+      "position": 6
+    },
+    {
+      "screen_id": "46bc8651-3696-456b-af8d-63ff218e4faf",
+      "image_url": "https://mobbin.com/api/mcp/short/MqDTh5Wh",
+      "position": 7
+    },
+    {
+      "screen_id": "f309d794-8c7a-465a-8d42-15da88552be4",
+      "image_url": "https://mobbin.com/api/mcp/short/MHxS9osd",
+      "position": 8
+    },
+    {
+      "screen_id": "e2e59f6d-cd96-480d-a252-013c858910d9",
+      "image_url": "https://mobbin.com/api/mcp/short/VCBAxH9u",
+      "position": 9
+    },
+    {
+      "screen_id": "6b053780-fa95-4de4-9dc9-b6f3e63b7494",
+      "image_url": "https://mobbin.com/api/mcp/short/pEpw9pzJ",
+      "position": 10
+    }
+  ]
+}

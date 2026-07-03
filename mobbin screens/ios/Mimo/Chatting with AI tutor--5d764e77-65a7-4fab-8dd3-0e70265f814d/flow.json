@@ -1,0 +1,43 @@
+{
+  "id": "5d764e77-65a7-4fab-8dd3-0e70265f814d",
+  "name": "Chatting with AI tutor",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5d764e77-65a7-4fab-8dd3-0e70265f814d",
+  "app_name": "Mimo",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "35024173-7274-494f-8968-6595202fdd91",
+      "image_url": "https://mobbin.com/api/mcp/short/L3AAQFFW",
+      "position": 1
+    },
+    {
+      "screen_id": "25bb8af2-197f-4685-bd14-72307c37121b",
+      "image_url": "https://mobbin.com/api/mcp/short/0beDao6B",
+      "position": 2
+    },
+    {
+      "screen_id": "eb925543-60b5-4dbd-8c6a-954146f8a1a4",
+      "image_url": "https://mobbin.com/api/mcp/short/zb3OORKw",
+      "position": 3
+    },
+    {
+      "screen_id": "e1cc0ccf-a7b5-4936-b08e-3abe2c702681",
+      "image_url": "https://mobbin.com/api/mcp/short/2XTMPmGA",
+      "position": 4
+    },
+    {
+      "screen_id": "aeeb43e7-afa8-4f60-942d-99b5144c610c",
+      "image_url": "https://mobbin.com/api/mcp/short/tdd3w1dt",
+      "position": 5
+    },
+    {
+      "screen_id": "7e186004-3e08-4599-8d7b-e04c19a84040",
+      "image_url": "https://mobbin.com/api/mcp/short/aeVNGmQN",
+      "position": 6
+    }
+  ]
+}

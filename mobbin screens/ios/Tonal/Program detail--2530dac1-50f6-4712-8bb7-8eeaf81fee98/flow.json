@@ -1,0 +1,51 @@
+{
+  "id": "2530dac1-50f6-4712-8bb7-8eeaf81fee98",
+  "name": "Program detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2530dac1-50f6-4712-8bb7-8eeaf81fee98",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "bd42776b-4ee9-4ee1-9963-fc328f2c889d",
+      "image_url": "https://mobbin.com/api/mcp/short/anMeoC7S",
+      "position": 1
+    },
+    {
+      "screen_id": "5324e86f-5cf1-4e9b-82a5-7180451ed22a",
+      "image_url": "https://mobbin.com/api/mcp/short/ZsWt15af",
+      "position": 2
+    },
+    {
+      "screen_id": "391d794f-9df2-4501-b188-2fecf8679bf5",
+      "image_url": "https://mobbin.com/api/mcp/short/Uq9CUR8U",
+      "position": 3
+    },
+    {
+      "screen_id": "1eb2531b-d5f2-435f-89ef-deb686ae3757",
+      "image_url": "https://mobbin.com/api/mcp/short/vXhdWaCB",
+      "position": 4
+    },
+    {
+      "screen_id": "5952504d-6885-4937-80c6-cecd4f9cba0d",
+      "image_url": "https://mobbin.com/api/mcp/short/6ws8Cwqw",
+      "position": 5
+    },
+    {
+      "screen_id": "5034671b-5704-4c63-a67c-7075179a6041",
+      "image_url": "https://mobbin.com/api/mcp/short/nFLkvNqe",
+      "position": 6
+    },
+    {
+      "screen_id": "402146f3-d818-4606-b6c7-41712c58f66e",
+      "image_url": "https://mobbin.com/api/mcp/short/LzSyn4d2",
+      "position": 7
+    },
+    {
+      "screen_id": "fa2aabd3-9fd4-4a5d-8dd4-919cadcbf2a4",
+      "image_url": "https://mobbin.com/api/mcp/short/946eyB9n",
+      "position": 8
+    }
+  ]
+}

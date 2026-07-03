@@ -1,0 +1,38 @@
+{
+  "id": "828cb66a-c992-4f42-ab6e-025b6d808c0f",
+  "name": "Adding goals as host",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/828cb66a-c992-4f42-ab6e-025b6d808c0f",
+  "app_name": "Turo",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "2e0631be-3d30-441f-a788-1f18655d3e91",
+      "image_url": "https://mobbin.com/api/mcp/short/yDu3SI33",
+      "position": 1
+    },
+    {
+      "screen_id": "15c2ed3b-9a03-482a-ab08-257d3a3cd373",
+      "image_url": "https://mobbin.com/api/mcp/short/S2cFAG9w",
+      "position": 2
+    },
+    {
+      "screen_id": "b69f4d95-37af-4092-9eef-a70e8911c300",
+      "image_url": "https://mobbin.com/api/mcp/short/xq8AOfDj",
+      "position": 3
+    },
+    {
+      "screen_id": "b75f3e07-e78f-4c7b-9571-575a12a7fff9",
+      "image_url": "https://mobbin.com/api/mcp/short/GHfGg5oI",
+      "position": 4
+    },
+    {
+      "screen_id": "53e9945c-6ee0-47e7-b492-f1ad3c2e12c7",
+      "image_url": "https://mobbin.com/api/mcp/short/HHOPnbTX",
+      "position": 5
+    }
+  ]
+}

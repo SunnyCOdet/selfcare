@@ -1,0 +1,38 @@
+{
+  "id": "5cee0704-a4ca-4273-aa73-d8f6d09fad52",
+  "name": "Chatting with a Health AI virtual assistant",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5cee0704-a4ca-4273-aa73-d8f6d09fad52",
+  "app_name": "Amazon Shopping",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "b0149b31-d35e-4f93-b514-c9afdce985bc",
+      "image_url": "https://mobbin.com/api/mcp/short/StQP9LVu",
+      "position": 1
+    },
+    {
+      "screen_id": "40f8e4ab-ed85-4e81-bc99-745e70cc0381",
+      "image_url": "https://mobbin.com/api/mcp/short/EZQpjVk8",
+      "position": 2
+    },
+    {
+      "screen_id": "ca1c14f1-cf34-4b27-b041-d8e30ebb332d",
+      "image_url": "https://mobbin.com/api/mcp/short/S25Avq04",
+      "position": 3
+    },
+    {
+      "screen_id": "03923f9c-d4ca-4f22-8f3d-330e9b2c3ed6",
+      "image_url": "https://mobbin.com/api/mcp/short/k0Otu8dA",
+      "position": 4
+    },
+    {
+      "screen_id": "10026bab-46c1-49d5-b791-b4ed3b30751a",
+      "image_url": "https://mobbin.com/api/mcp/short/gzCnVqpQ",
+      "position": 5
+    }
+  ]
+}

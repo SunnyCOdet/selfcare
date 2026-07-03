@@ -1,0 +1,41 @@
+{
+  "id": "ddec84b5-c315-45cb-8c35-9c6412d0e3ec",
+  "name": "Health benefits connector",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ddec84b5-c315-45cb-8c35-9c6412d0e3ec",
+  "app_name": "Amazon Shopping",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "b0149b31-d35e-4f93-b514-c9afdce985bc",
+      "image_url": "https://mobbin.com/api/mcp/short/ksAnutln",
+      "position": 1
+    },
+    {
+      "screen_id": "7ded957d-910a-44de-9e36-420ece204a6d",
+      "image_url": "https://mobbin.com/api/mcp/short/3GtDuVTl",
+      "position": 2
+    },
+    {
+      "screen_id": "ccba588c-c52d-4239-8efd-349ce4789dfa",
+      "image_url": "https://mobbin.com/api/mcp/short/eSB7WEMZ",
+      "position": 3
+    },
+    {
+      "screen_id": "2ed91aec-3419-455b-a5ba-99065af8a741",
+      "image_url": "https://mobbin.com/api/mcp/short/wob1uui7",
+      "position": 4
+    },
+    {
+      "screen_id": "2d8faf72-6b34-4023-8124-abb12b348a38",
+      "image_url": "https://mobbin.com/api/mcp/short/psgT0OnO",
+      "position": 5
+    },
+    {
+      "screen_id": "1e69dca1-39a3-4341-b3af-935107374d2c",
+      "image_url": "https://mobbin.com/api/mcp/short/vMDRJNgk",
+      "position": 6
+    }
+  ]
+}

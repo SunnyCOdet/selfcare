@@ -1,0 +1,46 @@
+{
+  "id": "bd5c1d06-b0c1-419b-b64c-65cae2292c72",
+  "name": "Generate an AI video",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/bd5c1d06-b0c1-419b-b64c-65cae2292c72",
+  "app_name": "Whop",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "cef3c9aa-f64b-41b8-b3d4-bb6ced267847",
+      "image_url": "https://mobbin.com/api/mcp/short/lQgOfLF9",
+      "position": 1
+    },
+    {
+      "screen_id": "17d50698-cf20-41d7-a091-88bb076f3e20",
+      "image_url": "https://mobbin.com/api/mcp/short/gZtxVO4b",
+      "position": 2
+    },
+    {
+      "screen_id": "1cb8932a-3bde-4b45-bc05-9f2a72d7f4f0",
+      "image_url": "https://mobbin.com/api/mcp/short/T9nYyskE",
+      "position": 3
+    },
+    {
+      "screen_id": "bc3f8c23-93bd-488f-bf5c-e05f6e7c3ee2",
+      "image_url": "https://mobbin.com/api/mcp/short/nMrgLukf",
+      "position": 4
+    },
+    {
+      "screen_id": "15ccc76e-2c92-49e6-99a1-466d2e732649",
+      "image_url": "https://mobbin.com/api/mcp/short/tgw5XStU",
+      "position": 5
+    },
+    {
+      "screen_id": "c5d383d3-2976-40f0-96b4-7158aabb69f6",
+      "image_url": "https://mobbin.com/api/mcp/short/55FG3rB5",
+      "position": 6
+    },
+    {
+      "screen_id": "ac3dce00-142b-489c-b654-346e64baac14",
+      "image_url": "https://mobbin.com/api/mcp/short/B8OSDfUA",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0f76be0f-c395-4f39-8c96-8bb1ea27b21d",
+  "name": "Connecting to Health",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0f76be0f-c395-4f39-8c96-8bb1ea27b21d",
+  "app_name": "Lumy",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "c3d2480d-b0ae-4625-bd95-0cf2ecd2c7d5",
+      "image_url": "https://mobbin.com/api/mcp/short/k694xWRl",
+      "position": 1
+    },
+    {
+      "screen_id": "fc50305c-dbea-4b63-b81e-61c56f1f5c9b",
+      "image_url": "https://mobbin.com/api/mcp/short/dxkuOfKM",
+      "position": 2
+    },
+    {
+      "screen_id": "29a3a384-d52a-438a-958d-c976de4b8094",
+      "image_url": "https://mobbin.com/api/mcp/short/DjQlBRc0",
+      "position": 3
+    }
+  ]
+}

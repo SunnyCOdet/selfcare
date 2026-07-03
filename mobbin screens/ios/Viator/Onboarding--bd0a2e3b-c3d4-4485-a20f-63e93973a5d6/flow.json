@@ -1,0 +1,38 @@
+{
+  "id": "bd0a2e3b-c3d4-4485-a20f-63e93973a5d6",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bd0a2e3b-c3d4-4485-a20f-63e93973a5d6",
+  "app_name": "Viator",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "1e403ced-b89e-4900-96ae-decafa8cc353",
+      "image_url": "https://mobbin.com/api/mcp/short/K9fY6sFV",
+      "position": 1
+    },
+    {
+      "screen_id": "00511e5e-b6ca-44af-acf2-0b9555fde1f6",
+      "image_url": "https://mobbin.com/api/mcp/short/OEllvg1N",
+      "position": 2
+    },
+    {
+      "screen_id": "8b5f7878-bc77-4f3e-abe8-95b6f68224c1",
+      "image_url": "https://mobbin.com/api/mcp/short/JwutJVa0",
+      "position": 3
+    },
+    {
+      "screen_id": "d179248b-a66b-44c0-be7d-70f2bb901873",
+      "image_url": "https://mobbin.com/api/mcp/short/wgK6GbVM",
+      "position": 4
+    },
+    {
+      "screen_id": "6a7056dc-3809-4c26-b182-ae96f5f502b2",
+      "image_url": "https://mobbin.com/api/mcp/short/5sZthHE7",
+      "position": 5
+    }
+  ]
+}

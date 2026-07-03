@@ -1,0 +1,59 @@
+{
+  "id": "6a605e50-2f18-4da3-b8f7-3f17c45515d0",
+  "name": "Adding a text block with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6a605e50-2f18-4da3-b8f7-3f17c45515d0",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "0a23cec5-a009-4847-bcef-33467e2e0b20",
+      "image_url": "https://mobbin.com/api/mcp/short/3Pi8SGYl",
+      "position": 1
+    },
+    {
+      "screen_id": "2a6fbffa-9e9d-45f2-a3ae-1a3fce26bd0d",
+      "image_url": "https://mobbin.com/api/mcp/short/rj6bKGuh",
+      "position": 2
+    },
+    {
+      "screen_id": "3359ad2c-cfdd-46a6-8586-e45b117b6cdf",
+      "image_url": "https://mobbin.com/api/mcp/short/QZA9JZRN",
+      "position": 3
+    },
+    {
+      "screen_id": "e179bd50-883b-4d9d-8018-e8fb1fbf43a3",
+      "image_url": "https://mobbin.com/api/mcp/short/N2xYC1n3",
+      "position": 4
+    },
+    {
+      "screen_id": "f9b9cd0f-383d-45c0-af2f-893c1b5e612d",
+      "image_url": "https://mobbin.com/api/mcp/short/6VEEGdmu",
+      "position": 5
+    },
+    {
+      "screen_id": "39d9860e-ef56-4eb5-8bcb-d06c0836d866",
+      "image_url": "https://mobbin.com/api/mcp/short/RS2Ne3wp",
+      "position": 6
+    },
+    {
+      "screen_id": "e7603296-81cf-4983-89c2-7bd849892786",
+      "image_url": "https://mobbin.com/api/mcp/short/VtX5ZMsC",
+      "position": 7
+    },
+    {
+      "screen_id": "91d50cb3-d231-4a5c-9502-575d4fec5eab",
+      "image_url": "https://mobbin.com/api/mcp/short/IzAiooHB",
+      "position": 8
+    },
+    {
+      "screen_id": "f0cb57d4-fee1-49e5-9028-0847c6a95bcd",
+      "image_url": "https://mobbin.com/api/mcp/short/2d0Vn5GK",
+      "position": 9
+    }
+  ]
+}

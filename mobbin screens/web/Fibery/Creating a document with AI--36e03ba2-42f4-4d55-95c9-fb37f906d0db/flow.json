@@ -1,0 +1,38 @@
+{
+  "id": "36e03ba2-42f4-4d55-95c9-fb37f906d0db",
+  "name": "Creating a document with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/36e03ba2-42f4-4d55-95c9-fb37f906d0db",
+  "app_name": "Fibery",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "49b104f6-6031-46c5-8023-483b2e878423",
+      "image_url": "https://mobbin.com/api/mcp/short/rLrMOLVE",
+      "position": 1
+    },
+    {
+      "screen_id": "e0df536e-c3be-4864-92b3-ecae82372639",
+      "image_url": "https://mobbin.com/api/mcp/short/AOIHrUJ9",
+      "position": 2
+    },
+    {
+      "screen_id": "d868ebec-3f34-4390-b8ae-73ed3d956de4",
+      "image_url": "https://mobbin.com/api/mcp/short/YbCSP1HI",
+      "position": 3
+    },
+    {
+      "screen_id": "56c6a3a0-6209-432a-a414-e1ee2705aa06",
+      "image_url": "https://mobbin.com/api/mcp/short/oO25v3lm",
+      "position": 4
+    },
+    {
+      "screen_id": "e1f475cd-9340-4b6d-98c3-9ad852993175",
+      "image_url": "https://mobbin.com/api/mcp/short/0LKkraVQ",
+      "position": 5
+    }
+  ]
+}

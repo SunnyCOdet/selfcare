@@ -1,0 +1,34 @@
+{
+  "id": "adad6a7d-3516-42c3-9959-70d63122e88f",
+  "name": "Choosing an AI style",
+  "actions": [
+    "Editing & Updating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/adad6a7d-3516-42c3-9959-70d63122e88f",
+  "app_name": "Claude",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "87d2299f-bc29-4da5-b83e-b129c5a980b3",
+      "image_url": "https://mobbin.com/api/mcp/short/MZkafhar",
+      "position": 1
+    },
+    {
+      "screen_id": "7e91d560-83b6-4619-8adb-4e86232c0d90",
+      "image_url": "https://mobbin.com/api/mcp/short/MsKn9TuQ",
+      "position": 2
+    },
+    {
+      "screen_id": "0261f8ce-a11d-4b16-a4af-c2f3b06065c4",
+      "image_url": "https://mobbin.com/api/mcp/short/TJmzeM6b",
+      "position": 3
+    },
+    {
+      "screen_id": "d5083442-9103-4ab3-9af8-8f71f480827f",
+      "image_url": "https://mobbin.com/api/mcp/short/vEV4nJdP",
+      "position": 4
+    }
+  ]
+}

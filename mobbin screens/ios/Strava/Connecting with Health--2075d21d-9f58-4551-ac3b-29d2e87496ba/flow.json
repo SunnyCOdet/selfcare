@@ -1,0 +1,38 @@
+{
+  "id": "2075d21d-9f58-4551-ac3b-29d2e87496ba",
+  "name": "Connecting with Health",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2075d21d-9f58-4551-ac3b-29d2e87496ba",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "5f6acd29-0045-4636-bcf5-7b413edb2dcb",
+      "image_url": "https://mobbin.com/api/mcp/short/zDgN3oLJ",
+      "position": 1
+    },
+    {
+      "screen_id": "87a69f93-72de-48b9-a510-806835a06967",
+      "image_url": "https://mobbin.com/api/mcp/short/0Lj6hUWP",
+      "position": 2
+    },
+    {
+      "screen_id": "dca86521-3e77-4417-9bbd-7e728ebae3ac",
+      "image_url": "https://mobbin.com/api/mcp/short/Rs29bz8U",
+      "position": 3
+    },
+    {
+      "screen_id": "cb34bb70-c60f-41b1-8302-688ef333fccb",
+      "image_url": "https://mobbin.com/api/mcp/short/1qWC5cQr",
+      "position": 4
+    },
+    {
+      "screen_id": "bb17a406-80eb-4945-8b28-f3e8e53d1160",
+      "image_url": "https://mobbin.com/api/mcp/short/QtCydFsh",
+      "position": 5
+    }
+  ]
+}

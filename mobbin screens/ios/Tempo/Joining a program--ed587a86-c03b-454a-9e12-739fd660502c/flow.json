@@ -1,0 +1,33 @@
+{
+  "id": "ed587a86-c03b-454a-9e12-739fd660502c",
+  "name": "Joining a program",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ed587a86-c03b-454a-9e12-739fd660502c",
+  "app_name": "Tempo",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0c543d09-96c0-4bcd-904d-db427e3a7c7d",
+      "image_url": "https://mobbin.com/api/mcp/short/5Tivyh97",
+      "position": 1
+    },
+    {
+      "screen_id": "54ecdf8e-ecab-4ac6-952f-6a37a43306f6",
+      "image_url": "https://mobbin.com/api/mcp/short/oB5QbslY",
+      "position": 2
+    },
+    {
+      "screen_id": "05e95ea7-7158-4822-88c3-4bd669026d64",
+      "image_url": "https://mobbin.com/api/mcp/short/0pMHCK8q",
+      "position": 3
+    },
+    {
+      "screen_id": "49b2b323-2bc1-4e89-8a0a-88faabdd6a58",
+      "image_url": "https://mobbin.com/api/mcp/short/4ey7111f",
+      "position": 4
+    }
+  ]
+}

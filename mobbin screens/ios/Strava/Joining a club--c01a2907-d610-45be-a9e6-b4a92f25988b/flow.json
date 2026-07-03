@@ -1,0 +1,28 @@
+{
+  "id": "c01a2907-d610-45be-a9e6-b4a92f25988b",
+  "name": "Joining a club",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c01a2907-d610-45be-a9e6-b4a92f25988b",
+  "app_name": "Strava",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "57b7f869-32d6-435f-ae2e-024203641237",
+      "image_url": "https://mobbin.com/api/mcp/short/OkbaVe4i",
+      "position": 1
+    },
+    {
+      "screen_id": "925383db-e3e7-4f1d-88d0-207442871bfe",
+      "image_url": "https://mobbin.com/api/mcp/short/kflgSVYU",
+      "position": 2
+    },
+    {
+      "screen_id": "3bd0ba3b-b8d2-4e03-ab31-7ab0d409ecbf",
+      "image_url": "https://mobbin.com/api/mcp/short/0Hb5Mxlr",
+      "position": 3
+    }
+  ]
+}

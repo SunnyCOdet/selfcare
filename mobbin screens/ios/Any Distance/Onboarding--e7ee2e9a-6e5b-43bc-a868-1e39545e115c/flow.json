@@ -1,0 +1,44 @@
+{
+  "id": "e7ee2e9a-6e5b-43bc-a868-1e39545e115c",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e7ee2e9a-6e5b-43bc-a868-1e39545e115c",
+  "app_name": "Any Distance",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "1915e45b-fe94-44a8-a066-7d882f2de016",
+      "image_url": "https://mobbin.com/api/mcp/short/EmSegFU2",
+      "position": 1
+    },
+    {
+      "screen_id": "f6fded19-1917-417e-b4d6-433169824db3",
+      "image_url": "https://mobbin.com/api/mcp/short/1uiPtkRQ",
+      "position": 2
+    },
+    {
+      "screen_id": "5ebb2a53-f34b-4f3b-abd5-3a5ee5c37c02",
+      "image_url": "https://mobbin.com/api/mcp/short/lGU0znr7",
+      "position": 3
+    },
+    {
+      "screen_id": "6df3617b-dddf-47cd-b4c1-9c28a7c10b9c",
+      "image_url": "https://mobbin.com/api/mcp/short/K5jmWm0w",
+      "position": 4
+    },
+    {
+      "screen_id": "f65bbcc6-31e6-4a6e-8ca0-8850dc85af01",
+      "image_url": "https://mobbin.com/api/mcp/short/Mt6ctjlV",
+      "position": 5
+    },
+    {
+      "screen_id": "1516b751-999b-413d-8188-823bb5198d20",
+      "image_url": "https://mobbin.com/api/mcp/short/jDFJzZfO",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "5bacf765-18a3-404a-b73b-a5eff8eea649",
+  "name": "Changing AI skills",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5bacf765-18a3-404a-b73b-a5eff8eea649",
+  "app_name": "Linear",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "a0193431-e1b3-44c4-b1a2-1d1f4a017ccc",
+      "image_url": "https://mobbin.com/api/mcp/short/vDxDecQR",
+      "position": 1
+    },
+    {
+      "screen_id": "735580ba-5334-4377-8dd8-4338533d99af",
+      "image_url": "https://mobbin.com/api/mcp/short/rlHknmbq",
+      "position": 2
+    },
+    {
+      "screen_id": "ab2cc3bd-63e2-4346-bc34-da80a40e8f3e",
+      "image_url": "https://mobbin.com/api/mcp/short/iYCil6tv",
+      "position": 3
+    }
+  ]
+}

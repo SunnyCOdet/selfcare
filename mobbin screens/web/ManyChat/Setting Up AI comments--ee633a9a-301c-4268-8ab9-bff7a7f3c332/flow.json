@@ -1,0 +1,48 @@
+{
+  "id": "ee633a9a-301c-4268-8ab9-bff7a7f3c332",
+  "name": "Setting Up AI comments",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ee633a9a-301c-4268-8ab9-bff7a7f3c332",
+  "app_name": "ManyChat",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "2d5fac97-be9e-4136-8538-1d3bd11644d8",
+      "image_url": "https://mobbin.com/api/mcp/short/sW49B1wK",
+      "position": 1
+    },
+    {
+      "screen_id": "04e2e147-5ff0-4a6f-8905-9580d7bda5de",
+      "image_url": "https://mobbin.com/api/mcp/short/s8Lf5sEO",
+      "position": 2
+    },
+    {
+      "screen_id": "77a17dcd-36c7-4c09-8eb8-22a0253ce0a1",
+      "image_url": "https://mobbin.com/api/mcp/short/Ko1hvUfq",
+      "position": 3
+    },
+    {
+      "screen_id": "d7752f59-fa54-4594-bc71-946cadd02f35",
+      "image_url": "https://mobbin.com/api/mcp/short/fmjV4PhR",
+      "position": 4
+    },
+    {
+      "screen_id": "adb77e93-f0de-40a0-8589-04958ace1fd0",
+      "image_url": "https://mobbin.com/api/mcp/short/yoJzOlb8",
+      "position": 5
+    },
+    {
+      "screen_id": "6f9bbbc2-3e3b-49b0-8b97-8a7311a3bd45",
+      "image_url": "https://mobbin.com/api/mcp/short/aI9oKGyG",
+      "position": 6
+    },
+    {
+      "screen_id": "18e99687-ef29-4311-b7a2-cdee183f7b67",
+      "image_url": "https://mobbin.com/api/mcp/short/DIyDcSWv",
+      "position": 7
+    }
+  ]
+}

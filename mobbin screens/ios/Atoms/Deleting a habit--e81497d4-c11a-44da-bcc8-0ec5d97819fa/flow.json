@@ -1,0 +1,28 @@
+{
+  "id": "e81497d4-c11a-44da-bcc8-0ec5d97819fa",
+  "name": "Deleting a habit",
+  "actions": [
+    "Deleting & Removing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e81497d4-c11a-44da-bcc8-0ec5d97819fa",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "517f1dab-cd52-425d-aa88-9da3c3c59a0d",
+      "image_url": "https://mobbin.com/api/mcp/short/C08CN9fK",
+      "position": 1
+    },
+    {
+      "screen_id": "4aa581dc-9f97-4925-afc1-c35870be2203",
+      "image_url": "https://mobbin.com/api/mcp/short/a24FLikW",
+      "position": 2
+    },
+    {
+      "screen_id": "39e2b864-3373-41be-a01c-79659031d366",
+      "image_url": "https://mobbin.com/api/mcp/short/1F7mHkIM",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "f75cd5dc-d7ea-46c0-9b30-5e411355b689",
+  "name": "Award detail (Fitness+)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f75cd5dc-d7ea-46c0-9b30-5e411355b689",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "fcd6e073-c5ca-45cc-8675-76df62ea711e",
+      "image_url": "https://mobbin.com/api/mcp/short/Y37OHkZh",
+      "position": 1
+    },
+    {
+      "screen_id": "e1e1cef8-0e53-405f-b4e1-2e77d5aef0ea",
+      "image_url": "https://mobbin.com/api/mcp/short/QR95dCOL",
+      "position": 2
+    },
+    {
+      "screen_id": "e6897254-9ca5-4e29-b4b2-19f92c125716",
+      "image_url": "https://mobbin.com/api/mcp/short/qEXAoqxA",
+      "position": 3
+    },
+    {
+      "screen_id": "ef801eab-0b55-4042-8763-0f980714b094",
+      "image_url": "https://mobbin.com/api/mcp/short/NLXH0rV1",
+      "position": 4
+    }
+  ]
+}

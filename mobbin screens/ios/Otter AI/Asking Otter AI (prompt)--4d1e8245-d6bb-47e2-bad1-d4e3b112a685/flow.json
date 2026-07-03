@@ -1,0 +1,33 @@
+{
+  "id": "4d1e8245-d6bb-47e2-bad1-d4e3b112a685",
+  "name": "Asking Otter AI (prompt)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4d1e8245-d6bb-47e2-bad1-d4e3b112a685",
+  "app_name": "Otter AI",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2c0297b6-4a0e-462e-8f7a-88f77b353667",
+      "image_url": "https://mobbin.com/api/mcp/short/va7TrQut",
+      "position": 1
+    },
+    {
+      "screen_id": "d75bf1eb-c144-49bf-be4b-a0e73d032ac0",
+      "image_url": "https://mobbin.com/api/mcp/short/1kAo6bq1",
+      "position": 2
+    },
+    {
+      "screen_id": "9690019a-4c09-4706-aad1-7af08e2df55a",
+      "image_url": "https://mobbin.com/api/mcp/short/X7fzRLGb",
+      "position": 3
+    },
+    {
+      "screen_id": "1fe06995-4c99-4a90-9917-3a833145a36e",
+      "image_url": "https://mobbin.com/api/mcp/short/CV58KELj",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "5d2b3a3c-6a77-41e5-9a3b-8dad455609ce",
+  "name": "Completing a guided tutorial",
+  "actions": [
+    "Browsing Tutorial",
+    "Copying & Duplicating",
+    "Recording Audio & Video",
+    "Showing & Hiding",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5d2b3a3c-6a77-41e5-9a3b-8dad455609ce",
+  "app_name": "Loom",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "2f59d9cd-1aee-43ac-ad4b-1e3e7275bdf5",
+      "image_url": "https://mobbin.com/api/mcp/short/vadQQG8g",
+      "position": 1
+    },
+    {
+      "screen_id": "3a7d0cf5-0b75-4d4e-b9e6-ffa21d21e627",
+      "image_url": "https://mobbin.com/api/mcp/short/CS7Y7jDN",
+      "position": 2
+    },
+    {
+      "screen_id": "f43ae609-ba0f-472e-8263-2d977a937eef",
+      "image_url": "https://mobbin.com/api/mcp/short/ZlmW2aqv",
+      "position": 3
+    },
+    {
+      "screen_id": "94b6fd64-4476-4e03-8300-bf06f6117bb9",
+      "image_url": "https://mobbin.com/api/mcp/short/i9VcNIbQ",
+      "position": 4
+    },
+    {
+      "screen_id": "aa5384a0-1c27-4483-8adc-7c93aa3688a2",
+      "image_url": "https://mobbin.com/api/mcp/short/5qAtBnwj",
+      "position": 5
+    },
+    {
+      "screen_id": "fb139a2f-cd7f-4864-aa54-2e57e7dc2b0e",
+      "image_url": "https://mobbin.com/api/mcp/short/5SEjLTO4",
+      "position": 6
+    },
+    {
+      "screen_id": "6c8160b6-5313-4c50-ac0d-11bb210ea294",
+      "image_url": "https://mobbin.com/api/mcp/short/EPx5XWVL",
+      "position": 7
+    },
+    {
+      "screen_id": "7b883716-bfd2-448b-8bf1-66e34164fb67",
+      "image_url": "https://mobbin.com/api/mcp/short/0Bt5Vh0c",
+      "position": 8
+    },
+    {
+      "screen_id": "23dbff17-3ac5-4cbc-ba38-05e886cc6e24",
+      "image_url": "https://mobbin.com/api/mcp/short/8FW6xJOd",
+      "position": 9
+    },
+    {
+      "screen_id": "9eeb1728-2ff3-4054-b4a5-fa6b7c7ad61f",
+      "image_url": "https://mobbin.com/api/mcp/short/G8LI1S4d",
+      "position": 10
+    }
+  ]
+}

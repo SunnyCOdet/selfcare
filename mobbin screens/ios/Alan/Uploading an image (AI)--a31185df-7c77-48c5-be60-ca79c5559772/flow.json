@@ -1,0 +1,39 @@
+{
+  "id": "a31185df-7c77-48c5-be60-ca79c5559772",
+  "name": "Uploading an image (AI)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a31185df-7c77-48c5-be60-ca79c5559772",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "bb35ae60-cfb8-4bf4-b323-4b08aaf8e57d",
+      "image_url": "https://mobbin.com/api/mcp/short/rCdiZWai",
+      "position": 1
+    },
+    {
+      "screen_id": "a6f4f756-8589-487c-a039-91cce23b53fa",
+      "image_url": "https://mobbin.com/api/mcp/short/syJOYN0m",
+      "position": 2
+    },
+    {
+      "screen_id": "b76a83c5-f090-4883-8d3c-753cdbc4f5a9",
+      "image_url": "https://mobbin.com/api/mcp/short/LNSYDfAf",
+      "position": 3
+    },
+    {
+      "screen_id": "d8ed8926-ea09-4b81-82e7-3aff0139e402",
+      "image_url": "https://mobbin.com/api/mcp/short/rHFjRxLN",
+      "position": 4
+    },
+    {
+      "screen_id": "aa11e8aa-0a29-40d4-9c74-85415527464a",
+      "image_url": "https://mobbin.com/api/mcp/short/r8YEABlG",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "b584ec58-b480-4c98-9f54-fe498e2bb5be",
+  "name": "Browsing tutorial",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b584ec58-b480-4c98-9f54-fe498e2bb5be",
+  "app_name": "Coda",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "54b13b6f-9ddb-40e3-a833-b4bc0433dc0a",
+      "image_url": "https://mobbin.com/api/mcp/short/ZH3l0rUb",
+      "position": 1
+    },
+    {
+      "screen_id": "54cd0262-c3cc-4d27-b273-e2d4f5713205",
+      "image_url": "https://mobbin.com/api/mcp/short/XDXmNrIF",
+      "position": 2
+    },
+    {
+      "screen_id": "ae18dabc-7644-4c5c-8f7e-fe84e4aa1a0d",
+      "image_url": "https://mobbin.com/api/mcp/short/iDPWhNqJ",
+      "position": 3
+    },
+    {
+      "screen_id": "eb1600f4-7494-49ca-bcee-7c3c875c6939",
+      "image_url": "https://mobbin.com/api/mcp/short/JXQN7dCK",
+      "position": 4
+    },
+    {
+      "screen_id": "e705fcea-eac7-421e-a492-5cae3fe15e13",
+      "image_url": "https://mobbin.com/api/mcp/short/zm5LUb0o",
+      "position": 5
+    }
+  ]
+}

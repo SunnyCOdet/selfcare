@@ -1,0 +1,38 @@
+{
+  "id": "0754aca9-0341-43c7-a05f-4bc51105c598",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0754aca9-0341-43c7-a05f-4bc51105c598",
+  "app_name": "Google Gemini",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "74320b08-9ec7-44bd-bc57-1242a5242d75",
+      "image_url": "https://mobbin.com/api/mcp/short/kwkBo7c3",
+      "position": 1
+    },
+    {
+      "screen_id": "7dfc68d0-68e5-4c51-a246-e20ed67c8f47",
+      "image_url": "https://mobbin.com/api/mcp/short/ulL5AkG7",
+      "position": 2
+    },
+    {
+      "screen_id": "b7b2b83c-5e02-4535-9290-2dff2ea7b6d7",
+      "image_url": "https://mobbin.com/api/mcp/short/aInV1U4Y",
+      "position": 3
+    },
+    {
+      "screen_id": "de338498-a653-4836-ab8b-c9d0172dc677",
+      "image_url": "https://mobbin.com/api/mcp/short/ppFM5qqY",
+      "position": 4
+    },
+    {
+      "screen_id": "e26aa019-fb49-4aaf-8d2c-10586a07d4cb",
+      "image_url": "https://mobbin.com/api/mcp/short/PK7iFnya",
+      "position": 5
+    }
+  ]
+}

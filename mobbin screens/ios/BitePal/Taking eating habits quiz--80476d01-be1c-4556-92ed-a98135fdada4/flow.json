@@ -1,0 +1,84 @@
+{
+  "id": "80476d01-be1c-4556-92ed-a98135fdada4",
+  "name": "Taking eating habits quiz",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/80476d01-be1c-4556-92ed-a98135fdada4",
+  "app_name": "BitePal",
+  "platform": "ios",
+  "screen_count": 14,
+  "screens": [
+    {
+      "screen_id": "b4f31e6f-e773-42b3-a554-45a0d70e6d89",
+      "image_url": "https://mobbin.com/api/mcp/short/rtHeAGyh",
+      "position": 1
+    },
+    {
+      "screen_id": "9acfecea-4754-461e-966a-d17ee1274ec3",
+      "image_url": "https://mobbin.com/api/mcp/short/Nw586kqe",
+      "position": 2
+    },
+    {
+      "screen_id": "6fb78ea5-6496-4d1a-97b0-81ba070ecfa8",
+      "image_url": "https://mobbin.com/api/mcp/short/N35JQeNu",
+      "position": 3
+    },
+    {
+      "screen_id": "fea6cc40-71ad-455a-952f-4d957ea9411f",
+      "image_url": "https://mobbin.com/api/mcp/short/ctWz1TqA",
+      "position": 4
+    },
+    {
+      "screen_id": "7bf4eb66-5700-41a6-8ff3-53c2f192e2eb",
+      "image_url": "https://mobbin.com/api/mcp/short/LFnE0Uwi",
+      "position": 5
+    },
+    {
+      "screen_id": "bbba1ce5-346e-4b79-ab87-086f85209364",
+      "image_url": "https://mobbin.com/api/mcp/short/BMYeU1by",
+      "position": 6
+    },
+    {
+      "screen_id": "0b5b8db7-4ce7-4fe3-9ff7-a181acc105be",
+      "image_url": "https://mobbin.com/api/mcp/short/sbDvGJnG",
+      "position": 7
+    },
+    {
+      "screen_id": "e08b5961-1b81-4e26-9027-3906ebe33738",
+      "image_url": "https://mobbin.com/api/mcp/short/a4HdnDJT",
+      "position": 8
+    },
+    {
+      "screen_id": "6cbf11d5-cdc6-434e-b436-7d805b539305",
+      "image_url": "https://mobbin.com/api/mcp/short/pQlmBJQo",
+      "position": 9
+    },
+    {
+      "screen_id": "eb1190b0-b2ba-4b2e-bd45-cdfe496aff73",
+      "image_url": "https://mobbin.com/api/mcp/short/5YqY8mp5",
+      "position": 10
+    },
+    {
+      "screen_id": "f6afce0a-cb9c-43d7-8125-7932362def78",
+      "image_url": "https://mobbin.com/api/mcp/short/DEZtVmKo",
+      "position": 11
+    },
+    {
+      "screen_id": "d30e140e-3768-4116-9871-c1a62506b714",
+      "image_url": "https://mobbin.com/api/mcp/short/sO8EiKIB",
+      "position": 12
+    },
+    {
+      "screen_id": "63c2bcab-bd00-4ae8-a670-aaa3382d4342",
+      "image_url": "https://mobbin.com/api/mcp/short/rllJiRzl",
+      "position": 13
+    },
+    {
+      "screen_id": "8277cb35-898e-41fc-9385-63507eebae8a",
+      "image_url": "https://mobbin.com/api/mcp/short/k3kHY0xk",
+      "position": 14
+    }
+  ]
+}

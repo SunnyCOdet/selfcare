@@ -1,0 +1,49 @@
+{
+  "id": "c5d4bd5d-c198-4aff-a27d-8d97f6d76ba8",
+  "name": "Enabling health data",
+  "actions": [
+    "Connecting & Linking",
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c5d4bd5d-c198-4aff-a27d-8d97f6d76ba8",
+  "app_name": "How We Feel",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "6dcc8253-eb89-4ba3-a24c-0666affa8736",
+      "image_url": "https://mobbin.com/api/mcp/short/vHgnuqxP",
+      "position": 1
+    },
+    {
+      "screen_id": "92b124d0-bfcc-4311-8e14-f2c417bd4713",
+      "image_url": "https://mobbin.com/api/mcp/short/dxzOp4mW",
+      "position": 2
+    },
+    {
+      "screen_id": "f0f403c6-9cd8-43e1-b478-7e52452d9083",
+      "image_url": "https://mobbin.com/api/mcp/short/xaBE8rf8",
+      "position": 3
+    },
+    {
+      "screen_id": "73d5c0b8-a07e-444f-b893-e278425aa0e1",
+      "image_url": "https://mobbin.com/api/mcp/short/PstHwuQE",
+      "position": 4
+    },
+    {
+      "screen_id": "562f8c8e-5ae8-4245-88ca-9c39cec7c405",
+      "image_url": "https://mobbin.com/api/mcp/short/uEKculdU",
+      "position": 5
+    },
+    {
+      "screen_id": "bb34325a-063a-4dc3-b141-d0a9f80af479",
+      "image_url": "https://mobbin.com/api/mcp/short/C1W5wbC7",
+      "position": 6
+    },
+    {
+      "screen_id": "e3cb83ae-6b63-4de8-a9cc-f62852f7a9fb",
+      "image_url": "https://mobbin.com/api/mcp/short/yvn9cLeI",
+      "position": 7
+    }
+  ]
+}

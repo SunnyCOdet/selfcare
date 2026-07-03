@@ -1,0 +1,49 @@
+{
+  "id": "5828c846-6fff-4f29-8f75-b7048b7105b0",
+  "name": "Searching gifts with AI",
+  "actions": [
+    "Browsing Tutorial",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5828c846-6fff-4f29-8f75-b7048b7105b0",
+  "app_name": "Best Buy",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "4e194436-4943-4267-875d-3aa6ee5d8b3a",
+      "image_url": "https://mobbin.com/api/mcp/short/cTvF930F",
+      "position": 1
+    },
+    {
+      "screen_id": "9da2f8f4-779d-4b85-89db-8557455ef92f",
+      "image_url": "https://mobbin.com/api/mcp/short/sBGE99dC",
+      "position": 2
+    },
+    {
+      "screen_id": "7ce20d41-d0ca-4145-aa44-6faae3d794a5",
+      "image_url": "https://mobbin.com/api/mcp/short/GdDOEnpl",
+      "position": 3
+    },
+    {
+      "screen_id": "d6589f60-747b-4b5c-a6ee-685d6e11b786",
+      "image_url": "https://mobbin.com/api/mcp/short/W6FrQ3YD",
+      "position": 4
+    },
+    {
+      "screen_id": "16493254-eb02-4b37-b131-c0e40eddc86c",
+      "image_url": "https://mobbin.com/api/mcp/short/qESFZGQm",
+      "position": 5
+    },
+    {
+      "screen_id": "291f00be-d75e-4165-ae46-37bfb856256c",
+      "image_url": "https://mobbin.com/api/mcp/short/xV9A5ziF",
+      "position": 6
+    },
+    {
+      "screen_id": "315a2485-829b-45a2-ab77-fb6a93320d05",
+      "image_url": "https://mobbin.com/api/mcp/short/raCMAT2K",
+      "position": 7
+    }
+  ]
+}

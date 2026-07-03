@@ -1,0 +1,28 @@
+{
+  "id": "ac1332d9-1d95-43db-8bf3-44bc1c9c96d7",
+  "name": "Logging in",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ac1332d9-1d95-43db-8bf3-44bc1c9c96d7",
+  "app_name": "GO Club",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "016fc6d1-baee-4791-8719-2d43bbcf4298",
+      "image_url": "https://mobbin.com/api/mcp/short/wVpqh1Di",
+      "position": 1
+    },
+    {
+      "screen_id": "c52f58fb-a5b4-4701-9d8b-8b4a788a75d2",
+      "image_url": "https://mobbin.com/api/mcp/short/fY4QiXZK",
+      "position": 2
+    },
+    {
+      "screen_id": "a45a0b6d-e5f9-48e9-a2fc-ee9d765a1421",
+      "image_url": "https://mobbin.com/api/mcp/short/Ztg4dGJ5",
+      "position": 3
+    }
+  ]
+}

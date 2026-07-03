@@ -1,0 +1,16 @@
+{
+  "name": "bubble",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/bubble.tsx",
+      "extractedTo": "ui/bubble.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "2d9479a7-7055-4792-aff9-5a2b8b90a397",
+  "name": "Getting started guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2d9479a7-7055-4792-aff9-5a2b8b90a397",
+  "app_name": "Intercom",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "49fed469-ff2c-4d87-abf4-83f5107bcfc0",
+      "image_url": "https://mobbin.com/api/mcp/short/1lhokuCH",
+      "position": 1
+    },
+    {
+      "screen_id": "ded5dc1d-3991-4001-9970-30bb01aafeb0",
+      "image_url": "https://mobbin.com/api/mcp/short/pw7fQVaZ",
+      "position": 2
+    },
+    {
+      "screen_id": "bc4dd600-58ad-49e6-a2de-813481f365c9",
+      "image_url": "https://mobbin.com/api/mcp/short/AoFyWnZ8",
+      "position": 3
+    },
+    {
+      "screen_id": "dd5ed0b4-1cc9-46fa-810e-aa56a182cdbb",
+      "image_url": "https://mobbin.com/api/mcp/short/MxqlGWpk",
+      "position": 4
+    }
+  ]
+}

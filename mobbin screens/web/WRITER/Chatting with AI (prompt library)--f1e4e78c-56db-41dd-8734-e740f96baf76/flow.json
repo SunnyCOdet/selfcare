@@ -1,0 +1,44 @@
+{
+  "id": "f1e4e78c-56db-41dd-8734-e740f96baf76",
+  "name": "Chatting with AI (prompt library)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f1e4e78c-56db-41dd-8734-e740f96baf76",
+  "app_name": "WRITER",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "f2b6ccd0-e81b-41b4-8f8d-fa9969f74a2d",
+      "image_url": "https://mobbin.com/api/mcp/short/XstHBaoX",
+      "position": 1
+    },
+    {
+      "screen_id": "d1e4f5e5-67be-477e-88a9-aeddeb5bc9be",
+      "image_url": "https://mobbin.com/api/mcp/short/MTn4PUXT",
+      "position": 2
+    },
+    {
+      "screen_id": "d578541a-ee45-454e-8be8-fed36ba392af",
+      "image_url": "https://mobbin.com/api/mcp/short/3dHzNoxF",
+      "position": 3
+    },
+    {
+      "screen_id": "f6a57093-caac-4a5b-bb0d-b070de736b45",
+      "image_url": "https://mobbin.com/api/mcp/short/0HzCyj9u",
+      "position": 4
+    },
+    {
+      "screen_id": "7350cb39-b86a-4a18-8c75-86367e890783",
+      "image_url": "https://mobbin.com/api/mcp/short/ywk5RelZ",
+      "position": 5
+    },
+    {
+      "screen_id": "0bbcccb1-3e94-4221-86a2-4f9cc485c860",
+      "image_url": "https://mobbin.com/api/mcp/short/Mhqhj6le",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "046c512e-c02d-47eb-abaf-ac57e2f6f239",
+  "name": "Enabling Sentry AI agent",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/046c512e-c02d-47eb-abaf-ac57e2f6f239",
+  "app_name": "Sentry",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "8d9a5891-bd48-44c4-8c42-868382670165",
+      "image_url": "https://mobbin.com/api/mcp/short/bjs2RED9",
+      "position": 1
+    },
+    {
+      "screen_id": "997faf9c-6896-4bc5-a324-acc579a7dff9",
+      "image_url": "https://mobbin.com/api/mcp/short/SzDJCuNI",
+      "position": 2
+    }
+  ]
+}

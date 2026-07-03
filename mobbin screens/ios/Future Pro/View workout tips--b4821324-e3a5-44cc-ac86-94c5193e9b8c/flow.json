@@ -1,0 +1,26 @@
+{
+  "id": "b4821324-e3a5-44cc-ac86-94c5193e9b8c",
+  "name": "View workout tips",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b4821324-e3a5-44cc-ac86-94c5193e9b8c",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "1cef4ef3-3927-49f6-88a4-c0ec63d140ca",
+      "image_url": "https://mobbin.com/api/mcp/short/b1i6JB6I",
+      "position": 1
+    },
+    {
+      "screen_id": "31036d01-1c5d-497f-a97a-c5e15c17c567",
+      "image_url": "https://mobbin.com/api/mcp/short/fYMG1VmM",
+      "position": 2
+    },
+    {
+      "screen_id": "7e86cbab-dfc4-4fe2-85bd-3c775effb93a",
+      "image_url": "https://mobbin.com/api/mcp/short/Viow3yiS",
+      "position": 3
+    }
+  ]
+}

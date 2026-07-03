@@ -1,0 +1,49 @@
+{
+  "id": "05ce3c9c-e966-49ba-8976-d1b8e30ee976",
+  "name": "Creating a workflow (AI chat)",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/05ce3c9c-e966-49ba-8976-d1b8e30ee976",
+  "app_name": "Langdock",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "da0d5367-4be8-41ae-a059-0d856a551066",
+      "image_url": "https://mobbin.com/api/mcp/short/PHwexG2I",
+      "position": 1
+    },
+    {
+      "screen_id": "f93e395d-bae8-4f61-982b-5a71147541d9",
+      "image_url": "https://mobbin.com/api/mcp/short/vgZCe8wv",
+      "position": 2
+    },
+    {
+      "screen_id": "d4af1549-a606-46fa-9512-e9eb8e0f0d76",
+      "image_url": "https://mobbin.com/api/mcp/short/xnLYz5Cz",
+      "position": 3
+    },
+    {
+      "screen_id": "4f424df1-f766-42f9-9d9c-fa50fd5c2795",
+      "image_url": "https://mobbin.com/api/mcp/short/Dq9FwjJC",
+      "position": 4
+    },
+    {
+      "screen_id": "5373fbff-b907-4c21-bb8d-af336fa01eaf",
+      "image_url": "https://mobbin.com/api/mcp/short/Q7li0wXq",
+      "position": 5
+    },
+    {
+      "screen_id": "22c2f177-c211-4768-8e5f-dcaf542251db",
+      "image_url": "https://mobbin.com/api/mcp/short/bZQMSwqS",
+      "position": 6
+    },
+    {
+      "screen_id": "ddd06742-3123-4780-ad01-f8c2d8b5735c",
+      "image_url": "https://mobbin.com/api/mcp/short/Om1MHvMp",
+      "position": 7
+    }
+  ]
+}

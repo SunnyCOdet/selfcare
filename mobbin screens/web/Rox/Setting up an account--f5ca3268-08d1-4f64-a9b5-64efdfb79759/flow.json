@@ -1,0 +1,64 @@
+{
+  "id": "f5ca3268-08d1-4f64-a9b5-64efdfb79759",
+  "name": "Setting up an account",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f5ca3268-08d1-4f64-a9b5-64efdfb79759",
+  "app_name": "Rox",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "f36fd12b-11f5-48aa-8bfb-1f094e8aa064",
+      "image_url": "https://mobbin.com/api/mcp/short/dtFxo6yp",
+      "position": 1
+    },
+    {
+      "screen_id": "7cefb4b4-798a-433a-8ac0-3f4df94bf3d3",
+      "image_url": "https://mobbin.com/api/mcp/short/WtB2oKtH",
+      "position": 2
+    },
+    {
+      "screen_id": "4c7ff6ca-ffd4-4707-9d9a-cfe708c84684",
+      "image_url": "https://mobbin.com/api/mcp/short/d8WdbYwM",
+      "position": 3
+    },
+    {
+      "screen_id": "79cba24b-187b-4a48-99d0-d330942410c0",
+      "image_url": "https://mobbin.com/api/mcp/short/s2Uk3Niw",
+      "position": 4
+    },
+    {
+      "screen_id": "b24824b9-36d1-4b58-b9d1-b8694567e6c2",
+      "image_url": "https://mobbin.com/api/mcp/short/oanHZReN",
+      "position": 5
+    },
+    {
+      "screen_id": "9a1867ab-81aa-4983-82a6-b0f988bd3ed6",
+      "image_url": "https://mobbin.com/api/mcp/short/04ttEF9S",
+      "position": 6
+    },
+    {
+      "screen_id": "d1c5838c-f18f-41f1-b608-a35d56a9f949",
+      "image_url": "https://mobbin.com/api/mcp/short/OFlDBGPZ",
+      "position": 7
+    },
+    {
+      "screen_id": "9d59ef92-7e86-4a73-9152-c0d1e97b1062",
+      "image_url": "https://mobbin.com/api/mcp/short/orRZfFMW",
+      "position": 8
+    },
+    {
+      "screen_id": "c05306de-ff8e-46ed-bef7-ea404b389e29",
+      "image_url": "https://mobbin.com/api/mcp/short/kqzJqPMP",
+      "position": 9
+    },
+    {
+      "screen_id": "b352f022-e416-4a9d-af25-09ada9e5a884",
+      "image_url": "https://mobbin.com/api/mcp/short/ml3aoWnj",
+      "position": 10
+    }
+  ]
+}

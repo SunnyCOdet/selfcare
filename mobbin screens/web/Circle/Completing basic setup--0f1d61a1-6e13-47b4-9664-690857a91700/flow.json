@@ -1,0 +1,38 @@
+{
+  "id": "0f1d61a1-6e13-47b4-9664-690857a91700",
+  "name": "Completing basic setup",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0f1d61a1-6e13-47b4-9664-690857a91700",
+  "app_name": "Circle",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "e769eb90-4594-4ff0-b034-6961b399a84a",
+      "image_url": "https://mobbin.com/api/mcp/short/fF0kNq2J",
+      "position": 1
+    },
+    {
+      "screen_id": "513b203e-d78e-4c0a-8797-3f93e397b72b",
+      "image_url": "https://mobbin.com/api/mcp/short/CdJovikX",
+      "position": 2
+    },
+    {
+      "screen_id": "696e8495-874a-42fc-b5e9-5f1669fd5fc1",
+      "image_url": "https://mobbin.com/api/mcp/short/dIOf9YF4",
+      "position": 3
+    },
+    {
+      "screen_id": "b6520d1e-891e-49ea-8873-81ebd1a360a2",
+      "image_url": "https://mobbin.com/api/mcp/short/eZB5DV9o",
+      "position": 4
+    },
+    {
+      "screen_id": "509ed183-a8b9-4613-a2a4-0164192e5aba",
+      "image_url": "https://mobbin.com/api/mcp/short/uPCP2LVR",
+      "position": 5
+    }
+  ]
+}

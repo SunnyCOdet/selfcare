@@ -1,0 +1,68 @@
+{
+  "id": "7aafd5ca-582e-4ad7-a75b-2d28cb0fe523",
+  "name": "Adding a sleep habit reminder",
+  "actions": [
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7aafd5ca-582e-4ad7-a75b-2d28cb0fe523",
+  "app_name": "Rise",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "6f3c4dda-2d04-453d-8122-334b365699cf",
+      "image_url": "https://mobbin.com/api/mcp/short/5Y27IqOC",
+      "position": 1
+    },
+    {
+      "screen_id": "d17be5aa-cb3d-4e6f-9202-7e956c8f6dae",
+      "image_url": "https://mobbin.com/api/mcp/short/j7mAxIDL",
+      "position": 2
+    },
+    {
+      "screen_id": "b6f3f15f-f232-41b6-af2d-f3bb00cdf327",
+      "image_url": "https://mobbin.com/api/mcp/short/GMix1NUW",
+      "position": 3
+    },
+    {
+      "screen_id": "cfafec9e-358c-4282-965b-7ef50b7955fb",
+      "image_url": "https://mobbin.com/api/mcp/short/B81b6p9w",
+      "position": 4
+    },
+    {
+      "screen_id": "28547995-f004-4184-92e1-4348d2dfda83",
+      "image_url": "https://mobbin.com/api/mcp/short/YuMrbmSA",
+      "position": 5
+    },
+    {
+      "screen_id": "bc100c1f-9ccc-4c6a-8b84-91d37ecad159",
+      "image_url": "https://mobbin.com/api/mcp/short/pBH9pSWd",
+      "position": 6
+    },
+    {
+      "screen_id": "58470524-bdd2-4838-986e-01448d35ba22",
+      "image_url": "https://mobbin.com/api/mcp/short/mgARah3T",
+      "position": 7
+    },
+    {
+      "screen_id": "0d41462b-af4a-425f-a326-c7ca57a1f771",
+      "image_url": "https://mobbin.com/api/mcp/short/vYlTj1el",
+      "position": 8
+    },
+    {
+      "screen_id": "cd4e3b6e-0058-4b7d-9aa0-02b6d5756914",
+      "image_url": "https://mobbin.com/api/mcp/short/ZWXZAgyE",
+      "position": 9
+    },
+    {
+      "screen_id": "96f2505f-bb05-4cfe-9567-f31840aba5da",
+      "image_url": "https://mobbin.com/api/mcp/short/V4kJgeKy",
+      "position": 10
+    },
+    {
+      "screen_id": "b1601085-f294-4bc2-9f3a-000ccf611c4f",
+      "image_url": "https://mobbin.com/api/mcp/short/FAZ5iw4z",
+      "position": 11
+    }
+  ]
+}

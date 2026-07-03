@@ -1,0 +1,33 @@
+{
+  "id": "a85efc96-548f-4172-beee-3bf0c8465bdb",
+  "name": "Setting goals",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a85efc96-548f-4172-beee-3bf0c8465bdb",
+  "app_name": "Grammarly",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "12b275fc-36df-4fb3-80af-f34dd11879d9",
+      "image_url": "https://mobbin.com/api/mcp/short/b1ykCIsl",
+      "position": 1
+    },
+    {
+      "screen_id": "ee48ae45-58e7-4c76-b004-05401f81c426",
+      "image_url": "https://mobbin.com/api/mcp/short/ilkjgT9o",
+      "position": 2
+    },
+    {
+      "screen_id": "bf73d0e8-743f-4b23-ad69-cbe80b08652e",
+      "image_url": "https://mobbin.com/api/mcp/short/yraxp1G5",
+      "position": 3
+    },
+    {
+      "screen_id": "352b524f-4bb8-44a4-84a7-b58f5556cf1b",
+      "image_url": "https://mobbin.com/api/mcp/short/dFXd0ctj",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "1fab20ae-86d9-4c7e-b064-c5b9f0ad2438",
+  "name": "Switching AI view",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1fab20ae-86d9-4c7e-b064-c5b9f0ad2438",
+  "app_name": "ClickUp",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "49401711-7a49-4522-8edf-c9474b14b097",
+      "image_url": "https://mobbin.com/api/mcp/short/q6MkMjtf",
+      "position": 1
+    },
+    {
+      "screen_id": "08ad7070-0f70-4188-af80-bfb3ea205dd8",
+      "image_url": "https://mobbin.com/api/mcp/short/ibW9650r",
+      "position": 2
+    }
+  ]
+}

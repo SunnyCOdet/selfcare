@@ -1,0 +1,34 @@
+{
+  "id": "1065674a-c481-4ca9-8f66-785dc2a33559",
+  "name": "Generating an email draft with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1065674a-c481-4ca9-8f66-785dc2a33559",
+  "app_name": "Rox",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "56ad311c-73ee-47d5-9c5a-7e1719bda12c",
+      "image_url": "https://mobbin.com/api/mcp/short/kfL4Po9d",
+      "position": 1
+    },
+    {
+      "screen_id": "f18bc2dd-c827-4494-bc06-a4741c0e4eea",
+      "image_url": "https://mobbin.com/api/mcp/short/YRefMetI",
+      "position": 2
+    },
+    {
+      "screen_id": "bf316ee5-f7ca-4f09-856a-9ff9c595b987",
+      "image_url": "https://mobbin.com/api/mcp/short/OP7CEcbH",
+      "position": 3
+    },
+    {
+      "screen_id": "b7e4d64c-60cd-4c3a-b5fa-464f75bc1f29",
+      "image_url": "https://mobbin.com/api/mcp/short/PAuGwaAy",
+      "position": 4
+    }
+  ]
+}

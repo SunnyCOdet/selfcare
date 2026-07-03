@@ -1,0 +1,38 @@
+{
+  "id": "cf8f1120-1475-4839-abd2-184368227f8a",
+  "name": "Chatting with AI (Pipedrive)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cf8f1120-1475-4839-abd2-184368227f8a",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "cee9b8a3-32ed-4cc3-8c4b-94bdb1afc849",
+      "image_url": "https://mobbin.com/api/mcp/short/RDe8rC4k",
+      "position": 1
+    },
+    {
+      "screen_id": "6b5c99cb-3273-4e13-879e-f845af78e750",
+      "image_url": "https://mobbin.com/api/mcp/short/0AQCmbz5",
+      "position": 2
+    },
+    {
+      "screen_id": "3f1489e6-275b-4319-be43-e90050428f73",
+      "image_url": "https://mobbin.com/api/mcp/short/fVEp0EfZ",
+      "position": 3
+    },
+    {
+      "screen_id": "1849d2f7-6fb2-429a-b2af-6e746f887f34",
+      "image_url": "https://mobbin.com/api/mcp/short/A54VlEOO",
+      "position": 4
+    },
+    {
+      "screen_id": "cc87d722-d219-43f1-b384-53f5ea2ee573",
+      "image_url": "https://mobbin.com/api/mcp/short/DpW0dmL3",
+      "position": 5
+    }
+  ]
+}

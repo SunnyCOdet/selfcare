@@ -1,0 +1,33 @@
+{
+  "id": "f66c75b3-e4c6-4af1-9606-adf87dbcbc7b",
+  "name": "Creating account",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f66c75b3-e4c6-4af1-9606-adf87dbcbc7b",
+  "app_name": "BitePal",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "30e8159f-dbe6-4f75-8c77-34f8be796c04",
+      "image_url": "https://mobbin.com/api/mcp/short/iRYkSK6m",
+      "position": 1
+    },
+    {
+      "screen_id": "c8ad2426-877a-40dd-90bf-9a3c73b0129e",
+      "image_url": "https://mobbin.com/api/mcp/short/kyE1Bd5I",
+      "position": 2
+    },
+    {
+      "screen_id": "2368d7cf-6268-4011-86d8-5c013b11686e",
+      "image_url": "https://mobbin.com/api/mcp/short/QOxx86fp",
+      "position": 3
+    },
+    {
+      "screen_id": "a2fab3a4-fe0a-486d-9211-358206b15b41",
+      "image_url": "https://mobbin.com/api/mcp/short/lTR0KeA4",
+      "position": 4
+    }
+  ]
+}

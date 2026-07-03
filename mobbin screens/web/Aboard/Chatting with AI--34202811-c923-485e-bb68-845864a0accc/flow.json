@@ -1,0 +1,33 @@
+{
+  "id": "34202811-c923-485e-bb68-845864a0accc",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/34202811-c923-485e-bb68-845864a0accc",
+  "app_name": "Aboard",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "4ce77d9b-7744-40a3-9686-55c673aab37d",
+      "image_url": "https://mobbin.com/api/mcp/short/IvvqCui9",
+      "position": 1
+    },
+    {
+      "screen_id": "5213a486-dd79-4c04-a769-e72674c736a4",
+      "image_url": "https://mobbin.com/api/mcp/short/JiEUkVRn",
+      "position": 2
+    },
+    {
+      "screen_id": "5baf7c3f-4108-4d33-abaa-0ef20cc9adeb",
+      "image_url": "https://mobbin.com/api/mcp/short/OsfhgU8t",
+      "position": 3
+    },
+    {
+      "screen_id": "c3ab8080-0134-4dcf-9268-7f2b7d33def3",
+      "image_url": "https://mobbin.com/api/mcp/short/oDab27z6",
+      "position": 4
+    }
+  ]
+}

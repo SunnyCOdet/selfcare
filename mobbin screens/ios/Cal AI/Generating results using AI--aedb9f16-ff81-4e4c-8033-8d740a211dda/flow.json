@@ -1,0 +1,23 @@
+{
+  "id": "aedb9f16-ff81-4e4c-8033-8d740a211dda",
+  "name": "Generating results using AI",
+  "actions": [
+    "Logging & Tracking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aedb9f16-ff81-4e4c-8033-8d740a211dda",
+  "app_name": "Cal AI",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "938ce500-4796-42c3-9251-f8c3f7fb27c2",
+      "image_url": "https://mobbin.com/api/mcp/short/lef57R1Q",
+      "position": 1
+    },
+    {
+      "screen_id": "f559b04d-5205-4da7-b7b6-511b9f51b1f9",
+      "image_url": "https://mobbin.com/api/mcp/short/xqU6rBrJ",
+      "position": 2
+    }
+  ]
+}

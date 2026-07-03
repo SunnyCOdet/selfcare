@@ -1,0 +1,23 @@
+{
+  "id": "79e46642-b115-4903-9d30-2514dbd1eaca",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/79e46642-b115-4903-9d30-2514dbd1eaca",
+  "app_name": "eBay",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "296aa8c1-5c9d-4a08-9ebd-9bc5cc262de6",
+      "image_url": "https://mobbin.com/api/mcp/short/IIciXF7S",
+      "position": 1
+    },
+    {
+      "screen_id": "a222a8e4-e18c-4217-9f54-881c1e955fdb",
+      "image_url": "https://mobbin.com/api/mcp/short/cRf0xQZi",
+      "position": 2
+    }
+  ]
+}

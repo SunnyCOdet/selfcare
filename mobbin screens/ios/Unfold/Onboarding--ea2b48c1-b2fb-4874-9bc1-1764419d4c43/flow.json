@@ -1,0 +1,28 @@
+{
+  "id": "ea2b48c1-b2fb-4874-9bc1-1764419d4c43",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ea2b48c1-b2fb-4874-9bc1-1764419d4c43",
+  "app_name": "Unfold",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "25a88d2c-4cf7-44cf-be56-9166a33da1b7",
+      "image_url": "https://mobbin.com/api/mcp/short/s7c3TPsZ",
+      "position": 1
+    },
+    {
+      "screen_id": "602eb74c-e29c-4236-8451-06ce393b6a1f",
+      "image_url": "https://mobbin.com/api/mcp/short/v8U5ci2Y",
+      "position": 2
+    },
+    {
+      "screen_id": "6a30e520-7ab5-4d5f-92ee-447bf500ab9a",
+      "image_url": "https://mobbin.com/api/mcp/short/XAYJtZoy",
+      "position": 3
+    }
+  ]
+}

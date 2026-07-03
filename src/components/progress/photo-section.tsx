@@ -90,7 +90,7 @@ export function PhotoSection({ userId, photos }: { userId: string; photos: Photo
 
       {photos.length === 0 ? (
         <p className="text-sm text-muted py-10 text-center">
-          No photos yet. Day 1 photos are the ones you&apos;ll treasure most — take them today.
+          No photos yet. Day 1 photos are the ones you&apos;ll treasure most - take them today.
         </p>
       ) : (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">

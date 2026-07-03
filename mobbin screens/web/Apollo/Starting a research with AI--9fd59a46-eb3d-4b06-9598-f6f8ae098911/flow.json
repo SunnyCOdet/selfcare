@@ -1,0 +1,59 @@
+{
+  "id": "9fd59a46-eb3d-4b06-9598-f6f8ae098911",
+  "name": "Starting a research with AI",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9fd59a46-eb3d-4b06-9598-f6f8ae098911",
+  "app_name": "Apollo",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "c5c73d38-ec5f-4b01-a57d-91690b689a97",
+      "image_url": "https://mobbin.com/api/mcp/short/5jFRyj4i",
+      "position": 1
+    },
+    {
+      "screen_id": "7f5cbcf3-5e3c-44af-b904-541b6dcb0c47",
+      "image_url": "https://mobbin.com/api/mcp/short/P581h0RK",
+      "position": 2
+    },
+    {
+      "screen_id": "6da0e9e8-df8d-4420-9cde-4f5883dd1e72",
+      "image_url": "https://mobbin.com/api/mcp/short/k59VlvUP",
+      "position": 3
+    },
+    {
+      "screen_id": "4ff9e289-58d0-43fe-8b73-15fa6e1d2661",
+      "image_url": "https://mobbin.com/api/mcp/short/uqqVSWxa",
+      "position": 4
+    },
+    {
+      "screen_id": "c517f7ba-5a11-464f-a831-de1699707a7e",
+      "image_url": "https://mobbin.com/api/mcp/short/Pz74IDZw",
+      "position": 5
+    },
+    {
+      "screen_id": "9ee8c2b8-f040-47dd-9987-aa360aee458a",
+      "image_url": "https://mobbin.com/api/mcp/short/VpfM6CcL",
+      "position": 6
+    },
+    {
+      "screen_id": "614b0e8b-c6c3-4a51-b0fd-85f97779de5f",
+      "image_url": "https://mobbin.com/api/mcp/short/xMLX2ZDP",
+      "position": 7
+    },
+    {
+      "screen_id": "104af54e-2d5e-4f6f-9b67-ff1b8d7fabc7",
+      "image_url": "https://mobbin.com/api/mcp/short/0N9xrfWc",
+      "position": 8
+    },
+    {
+      "screen_id": "fe1589d1-7b72-4ff9-b1d1-0f0d7dde5a45",
+      "image_url": "https://mobbin.com/api/mcp/short/0NlLU4B9",
+      "position": 9
+    }
+  ]
+}

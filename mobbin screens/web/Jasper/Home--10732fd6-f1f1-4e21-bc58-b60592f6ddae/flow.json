@@ -1,0 +1,26 @@
+{
+  "id": "10732fd6-f1f1-4e21-bc58-b60592f6ddae",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/10732fd6-f1f1-4e21-bc58-b60592f6ddae",
+  "app_name": "Jasper",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5c61518b-f03f-4c26-8ec1-6215c153ecd3",
+      "image_url": "https://mobbin.com/api/mcp/short/jFcpcRaw",
+      "position": 1
+    },
+    {
+      "screen_id": "da5430b2-0d91-4923-a9ad-84c34370d199",
+      "image_url": "https://mobbin.com/api/mcp/short/KaGeVnz0",
+      "position": 2
+    },
+    {
+      "screen_id": "60399231-6b97-4a2a-96c6-9402f8191f1d",
+      "image_url": "https://mobbin.com/api/mcp/short/B5llVQH4",
+      "position": 3
+    }
+  ]
+}

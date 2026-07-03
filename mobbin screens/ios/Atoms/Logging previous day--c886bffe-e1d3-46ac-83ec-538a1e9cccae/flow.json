@@ -1,0 +1,28 @@
+{
+  "id": "c886bffe-e1d3-46ac-83ec-538a1e9cccae",
+  "name": "Logging previous day",
+  "actions": [
+    "Logging & Tracking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c886bffe-e1d3-46ac-83ec-538a1e9cccae",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "b7ea6975-5e88-4826-9edc-83fdce796d25",
+      "image_url": "https://mobbin.com/api/mcp/short/FixRgw0T",
+      "position": 1
+    },
+    {
+      "screen_id": "2239218b-c2c0-46ef-91a3-e96eb236ff22",
+      "image_url": "https://mobbin.com/api/mcp/short/HzV6KnRp",
+      "position": 2
+    },
+    {
+      "screen_id": "b8a7a43c-a879-4c08-8a26-2e6959d5f2ea",
+      "image_url": "https://mobbin.com/api/mcp/short/uDgHxfS4",
+      "position": 3
+    }
+  ]
+}

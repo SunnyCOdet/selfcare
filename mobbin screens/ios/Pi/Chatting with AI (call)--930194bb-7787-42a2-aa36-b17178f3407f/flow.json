@@ -1,0 +1,49 @@
+{
+  "id": "930194bb-7787-42a2-aa36-b17178f3407f",
+  "name": "Chatting with AI (call)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/930194bb-7787-42a2-aa36-b17178f3407f",
+  "app_name": "Pi",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "09e5ea1d-e7e4-4d4b-9a68-110294d5c9b3",
+      "image_url": "https://mobbin.com/api/mcp/short/I5cpxxZL",
+      "position": 1
+    },
+    {
+      "screen_id": "4a569b80-e001-47c2-b9cc-81c7d12a6487",
+      "image_url": "https://mobbin.com/api/mcp/short/NS2QpgOU",
+      "position": 2
+    },
+    {
+      "screen_id": "7197af1b-63fb-4191-9f1c-5585235b0f9e",
+      "image_url": "https://mobbin.com/api/mcp/short/eVnk3NaG",
+      "position": 3
+    },
+    {
+      "screen_id": "f48e6b80-8691-4783-91a0-c308408bba6c",
+      "image_url": "https://mobbin.com/api/mcp/short/6vfRoXlm",
+      "position": 4
+    },
+    {
+      "screen_id": "aa1c3adb-d71b-4305-8f0a-1b8d055cf0f0",
+      "image_url": "https://mobbin.com/api/mcp/short/p70xcGNJ",
+      "position": 5
+    },
+    {
+      "screen_id": "f98ed11f-3f9f-4df1-b2fd-402633fb8839",
+      "image_url": "https://mobbin.com/api/mcp/short/jy9x0NeG",
+      "position": 6
+    },
+    {
+      "screen_id": "767cc2d1-f6c2-4147-b769-9df54ad1c65b",
+      "image_url": "https://mobbin.com/api/mcp/short/GRkp7zZf",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "e9f998a7-862a-46e3-b4df-fa3bb6ae5ce6",
+  "name": "Updating an AI model",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e9f998a7-862a-46e3-b4df-fa3bb6ae5ce6",
+  "app_name": "Claude",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "160dd19d-0632-49a6-8cff-a00cf361e426",
+      "image_url": "https://mobbin.com/api/mcp/short/lWTPt42B",
+      "position": 1
+    },
+    {
+      "screen_id": "27b5cf23-302b-437a-b356-71166e3972de",
+      "image_url": "https://mobbin.com/api/mcp/short/ToK5kWe1",
+      "position": 2
+    },
+    {
+      "screen_id": "77c006d8-03c2-4c18-a5a7-4e44a3bf5a32",
+      "image_url": "https://mobbin.com/api/mcp/short/YNc52DFh",
+      "position": 3
+    }
+  ]
+}

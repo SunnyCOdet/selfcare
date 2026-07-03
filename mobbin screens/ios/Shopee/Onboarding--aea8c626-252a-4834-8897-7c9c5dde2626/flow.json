@@ -1,0 +1,28 @@
+{
+  "id": "aea8c626-252a-4834-8897-7c9c5dde2626",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aea8c626-252a-4834-8897-7c9c5dde2626",
+  "app_name": "Shopee",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "009c9e65-c309-438c-b221-b87dae4024ba",
+      "image_url": "https://mobbin.com/api/mcp/short/z5wMipmy",
+      "position": 1
+    },
+    {
+      "screen_id": "aa8bf993-50cc-4d03-8a1b-7fbe01a5ba13",
+      "image_url": "https://mobbin.com/api/mcp/short/2KtCamUI",
+      "position": 2
+    },
+    {
+      "screen_id": "bcbcf6c1-d962-46fb-82a7-9192ae2bbcaf",
+      "image_url": "https://mobbin.com/api/mcp/short/0hJH5bzX",
+      "position": 3
+    }
+  ]
+}

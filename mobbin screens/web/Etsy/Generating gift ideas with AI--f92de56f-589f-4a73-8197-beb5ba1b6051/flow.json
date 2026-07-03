@@ -1,0 +1,44 @@
+{
+  "id": "f92de56f-589f-4a73-8197-beb5ba1b6051",
+  "name": "Generating gift ideas with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f92de56f-589f-4a73-8197-beb5ba1b6051",
+  "app_name": "Etsy",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "232c05a3-014b-4a0c-a2b9-560d02b1c733",
+      "image_url": "https://mobbin.com/api/mcp/short/toouo320",
+      "position": 1
+    },
+    {
+      "screen_id": "c9de2594-10d9-498c-a491-a7f3823312c6",
+      "image_url": "https://mobbin.com/api/mcp/short/HEKduYC7",
+      "position": 2
+    },
+    {
+      "screen_id": "695138fa-80d3-4bf4-b9ac-739dbc190fce",
+      "image_url": "https://mobbin.com/api/mcp/short/zu7j78Le",
+      "position": 3
+    },
+    {
+      "screen_id": "498d192e-a455-42ae-b32c-f19796359370",
+      "image_url": "https://mobbin.com/api/mcp/short/tUV1xvgw",
+      "position": 4
+    },
+    {
+      "screen_id": "281ad39b-0242-4272-9dc9-b8f722d2ee9e",
+      "image_url": "https://mobbin.com/api/mcp/short/pXv97uq8",
+      "position": 5
+    },
+    {
+      "screen_id": "ec21bbef-f1a9-49d0-889d-9cea484a1b96",
+      "image_url": "https://mobbin.com/api/mcp/short/txR29ggY",
+      "position": 6
+    }
+  ]
+}

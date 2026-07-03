@@ -1,0 +1,23 @@
+{
+  "id": "78910aea-0efa-4a46-ad01-99426770a9eb",
+  "name": "Applying an AI result",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/78910aea-0efa-4a46-ad01-99426770a9eb",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "fd29793c-1d51-4b84-ba7c-de5728d66d13",
+      "image_url": "https://mobbin.com/api/mcp/short/JYPiTKTe",
+      "position": 1
+    },
+    {
+      "screen_id": "c3250c31-3eb4-4114-ad3e-b3323792c7ca",
+      "image_url": "https://mobbin.com/api/mcp/short/Gf2hb1pN",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "9589355a-7154-4414-84ca-0228270aa40e",
+  "name": "Updating a recap with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9589355a-7154-4414-84ca-0228270aa40e",
+  "app_name": "Dialpad",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "cfd033ef-c7b7-484a-aad4-1dbef75a8a69",
+      "image_url": "https://mobbin.com/api/mcp/short/M81jkqNE",
+      "position": 1
+    },
+    {
+      "screen_id": "0dfe932f-a01e-465f-beee-295516be72b2",
+      "image_url": "https://mobbin.com/api/mcp/short/xnabRrlX",
+      "position": 2
+    },
+    {
+      "screen_id": "644706af-d74a-4e6a-ac9e-3f060cad5875",
+      "image_url": "https://mobbin.com/api/mcp/short/8fOJlZLy",
+      "position": 3
+    },
+    {
+      "screen_id": "5db5b8be-16ee-4619-afd4-f649f628497b",
+      "image_url": "https://mobbin.com/api/mcp/short/4blAH8wP",
+      "position": 4
+    },
+    {
+      "screen_id": "d272ee25-ebf8-4ce0-916c-1dd6969a548d",
+      "image_url": "https://mobbin.com/api/mcp/short/D3hVE9dz",
+      "position": 5
+    }
+  ]
+}

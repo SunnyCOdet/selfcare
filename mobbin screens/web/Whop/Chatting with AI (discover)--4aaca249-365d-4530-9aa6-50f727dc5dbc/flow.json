@@ -1,0 +1,28 @@
+{
+  "id": "4aaca249-365d-4530-9aa6-50f727dc5dbc",
+  "name": "Chatting with AI (discover)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4aaca249-365d-4530-9aa6-50f727dc5dbc",
+  "app_name": "Whop",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "deaed83f-d875-458b-86d0-14dd8c0c71f2",
+      "image_url": "https://mobbin.com/api/mcp/short/RsRUaKt5",
+      "position": 1
+    },
+    {
+      "screen_id": "80401dec-16c8-4471-ab29-a891c6c437b0",
+      "image_url": "https://mobbin.com/api/mcp/short/U2EyWplq",
+      "position": 2
+    },
+    {
+      "screen_id": "633da4cc-d25f-456a-ae1e-702b9384bc68",
+      "image_url": "https://mobbin.com/api/mcp/short/XclLtDxk",
+      "position": 3
+    }
+  ]
+}

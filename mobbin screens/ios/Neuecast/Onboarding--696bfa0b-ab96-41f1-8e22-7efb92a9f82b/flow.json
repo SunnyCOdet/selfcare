@@ -1,0 +1,38 @@
+{
+  "id": "696bfa0b-ab96-41f1-8e22-7efb92a9f82b",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/696bfa0b-ab96-41f1-8e22-7efb92a9f82b",
+  "app_name": "Neuecast",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "91e37ea6-0d11-433d-98d2-0f7b95da5796",
+      "image_url": "https://mobbin.com/api/mcp/short/rQQaHVvz",
+      "position": 1
+    },
+    {
+      "screen_id": "ba1f1f9a-c360-429d-a9c7-6b9be6da776c",
+      "image_url": "https://mobbin.com/api/mcp/short/chl79WwW",
+      "position": 2
+    },
+    {
+      "screen_id": "f5cd6d71-1ae8-48c8-82c2-b85b698a9857",
+      "image_url": "https://mobbin.com/api/mcp/short/OqAYYDlb",
+      "position": 3
+    },
+    {
+      "screen_id": "47a9dd7e-f967-486f-af76-ed6844aca5fc",
+      "image_url": "https://mobbin.com/api/mcp/short/cDXop5wN",
+      "position": 4
+    },
+    {
+      "screen_id": "7f5db9bf-f6fc-4f52-a869-03031b7e0114",
+      "image_url": "https://mobbin.com/api/mcp/short/ivMOGKhn",
+      "position": 5
+    }
+  ]
+}

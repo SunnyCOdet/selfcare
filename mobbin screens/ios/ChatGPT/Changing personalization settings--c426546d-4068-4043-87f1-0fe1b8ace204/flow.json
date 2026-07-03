@@ -1,0 +1,64 @@
+{
+  "id": "c426546d-4068-4043-87f1-0fe1b8ace204",
+  "name": "Changing personalization settings",
+  "actions": [
+    "Editing & Updating",
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c426546d-4068-4043-87f1-0fe1b8ace204",
+  "app_name": "ChatGPT",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "df564d7e-36f1-4961-b0a6-a6652f5c4c06",
+      "image_url": "https://mobbin.com/api/mcp/short/NKjnKEus",
+      "position": 1
+    },
+    {
+      "screen_id": "27ad34a5-662f-4ba4-9cae-0de0506c539d",
+      "image_url": "https://mobbin.com/api/mcp/short/hGCgMuYv",
+      "position": 2
+    },
+    {
+      "screen_id": "535d0f43-f4d6-45ba-a1c2-2ae97af3d492",
+      "image_url": "https://mobbin.com/api/mcp/short/Heo3TgGR",
+      "position": 3
+    },
+    {
+      "screen_id": "2dfd4d54-5dbc-4da1-bd95-7889703df62d",
+      "image_url": "https://mobbin.com/api/mcp/short/ddTs3Bg7",
+      "position": 4
+    },
+    {
+      "screen_id": "6f293d18-efdd-4e3d-94fb-378e86368040",
+      "image_url": "https://mobbin.com/api/mcp/short/UtXI5iXt",
+      "position": 5
+    },
+    {
+      "screen_id": "ddc2aa27-61d4-404f-9712-9ecea7faf7a3",
+      "image_url": "https://mobbin.com/api/mcp/short/TRWJKN5a",
+      "position": 6
+    },
+    {
+      "screen_id": "55ab546f-8685-4dc5-9aa3-5a9013ebf1ed",
+      "image_url": "https://mobbin.com/api/mcp/short/KRsMxZ1f",
+      "position": 7
+    },
+    {
+      "screen_id": "9bee62d6-3c8d-45be-aad7-553b59ed8df5",
+      "image_url": "https://mobbin.com/api/mcp/short/RD1z60OQ",
+      "position": 8
+    },
+    {
+      "screen_id": "de9619f9-b49a-4586-9737-4b507cad3c6b",
+      "image_url": "https://mobbin.com/api/mcp/short/TFBt8kuK",
+      "position": 9
+    },
+    {
+      "screen_id": "0a103c09-43ce-4260-bf1f-c471e7c64ac8",
+      "image_url": "https://mobbin.com/api/mcp/short/YQY4ahIT",
+      "position": 10
+    }
+  ]
+}

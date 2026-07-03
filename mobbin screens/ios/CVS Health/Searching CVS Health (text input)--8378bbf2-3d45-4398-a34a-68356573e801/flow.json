@@ -1,0 +1,48 @@
+{
+  "id": "8378bbf2-3d45-4398-a34a-68356573e801",
+  "name": "Searching CVS Health (text input)",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8378bbf2-3d45-4398-a34a-68356573e801",
+  "app_name": "CVS Health",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "62f15c9e-8629-4f6b-97fa-06ef3d894c15",
+      "image_url": "https://mobbin.com/api/mcp/short/gIpfSYOP",
+      "position": 1
+    },
+    {
+      "screen_id": "a058dde7-9feb-4329-bff8-938e24716f82",
+      "image_url": "https://mobbin.com/api/mcp/short/fruB7W95",
+      "position": 2
+    },
+    {
+      "screen_id": "e20c7f85-ada3-4be7-8742-4f7ab6cf05f2",
+      "image_url": "https://mobbin.com/api/mcp/short/b9iI3C8u",
+      "position": 3
+    },
+    {
+      "screen_id": "59a45905-aaf7-4c18-8120-3d95cc68546f",
+      "image_url": "https://mobbin.com/api/mcp/short/XHOeJYwy",
+      "position": 4
+    },
+    {
+      "screen_id": "94d8388e-f6fa-4956-a0c8-91dfebab074a",
+      "image_url": "https://mobbin.com/api/mcp/short/nVR8a2IK",
+      "position": 5
+    },
+    {
+      "screen_id": "72314cc6-9881-465c-8225-961422218c4f",
+      "image_url": "https://mobbin.com/api/mcp/short/d6TGx0xq",
+      "position": 6
+    },
+    {
+      "screen_id": "393673b6-4100-430c-9c3e-ed2949d5f6ef",
+      "image_url": "https://mobbin.com/api/mcp/short/zw17dVdJ",
+      "position": 7
+    }
+  ]
+}

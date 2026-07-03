@@ -1,0 +1,46 @@
+{
+  "id": "028cffa2-6720-45d5-b644-61bc70707932",
+  "name": "Starter challenge",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/028cffa2-6720-45d5-b644-61bc70707932",
+  "app_name": "Forest",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "6a3a5496-2dce-4ffd-90eb-ee7b818e4742",
+      "image_url": "https://mobbin.com/api/mcp/short/iO5vgJW5",
+      "position": 1
+    },
+    {
+      "screen_id": "f8440446-1f0e-472f-87fa-417b1add8bbc",
+      "image_url": "https://mobbin.com/api/mcp/short/KIDA6No9",
+      "position": 2
+    },
+    {
+      "screen_id": "a78db0f8-96c2-49a7-a3c8-91eca8d84dd0",
+      "image_url": "https://mobbin.com/api/mcp/short/Xlf7adjE",
+      "position": 3
+    },
+    {
+      "screen_id": "95a4fe15-7828-4aa3-9b19-0d1976213a58",
+      "image_url": "https://mobbin.com/api/mcp/short/nAwMVCT4",
+      "position": 4
+    },
+    {
+      "screen_id": "642d5432-392c-4c70-8794-64d45ea53661",
+      "image_url": "https://mobbin.com/api/mcp/short/h8tmyEsR",
+      "position": 5
+    },
+    {
+      "screen_id": "0baf88c4-b921-4a71-919f-04ea14c9c6a5",
+      "image_url": "https://mobbin.com/api/mcp/short/D34eWh6L",
+      "position": 6
+    },
+    {
+      "screen_id": "9c79865b-4525-45ad-a89c-f4de4128fa27",
+      "image_url": "https://mobbin.com/api/mcp/short/SCSL4WG6",
+      "position": 7
+    }
+  ]
+}

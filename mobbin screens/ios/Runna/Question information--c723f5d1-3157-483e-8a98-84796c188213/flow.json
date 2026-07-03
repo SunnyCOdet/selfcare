@@ -1,0 +1,21 @@
+{
+  "id": "c723f5d1-3157-483e-8a98-84796c188213",
+  "name": "Question information",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c723f5d1-3157-483e-8a98-84796c188213",
+  "app_name": "Runna",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "8933a34e-1c79-4651-bbcc-daba77add87c",
+      "image_url": "https://mobbin.com/api/mcp/short/SGvOyKqF",
+      "position": 1
+    },
+    {
+      "screen_id": "4a3fa099-79d8-4fb0-aaa8-df4e72dd1af6",
+      "image_url": "https://mobbin.com/api/mcp/short/QXdlV4pI",
+      "position": 2
+    }
+  ]
+}

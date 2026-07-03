@@ -1,0 +1,21 @@
+{
+  "id": "4ddde933-5550-4fea-86a0-3a8119d7f2d4",
+  "name": "View health report",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4ddde933-5550-4fea-86a0-3a8119d7f2d4",
+  "app_name": "Whop",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "5b74f717-ba79-4e77-96d3-e75967869c44",
+      "image_url": "https://mobbin.com/api/mcp/short/XuOzzRQ7",
+      "position": 1
+    },
+    {
+      "screen_id": "03413816-d3ca-4486-b76a-395028847517",
+      "image_url": "https://mobbin.com/api/mcp/short/iOIkEG2Y",
+      "position": 2
+    }
+  ]
+}

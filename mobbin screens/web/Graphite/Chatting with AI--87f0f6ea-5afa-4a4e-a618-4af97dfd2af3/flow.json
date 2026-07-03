@@ -1,0 +1,44 @@
+{
+  "id": "87f0f6ea-5afa-4a4e-a618-4af97dfd2af3",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/87f0f6ea-5afa-4a4e-a618-4af97dfd2af3",
+  "app_name": "Graphite",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3064b68f-c3bd-4e8b-8366-f6873c924051",
+      "image_url": "https://mobbin.com/api/mcp/short/NcY9xMp1",
+      "position": 1
+    },
+    {
+      "screen_id": "d1f160a7-0e35-443f-a46b-ebd08c88d42d",
+      "image_url": "https://mobbin.com/api/mcp/short/n3VzU8C5",
+      "position": 2
+    },
+    {
+      "screen_id": "7428883e-27b5-493f-9cf4-76dc85e9b24f",
+      "image_url": "https://mobbin.com/api/mcp/short/N8M9XrE4",
+      "position": 3
+    },
+    {
+      "screen_id": "d3f17fa4-6cf9-4192-8e28-b26198cb13a3",
+      "image_url": "https://mobbin.com/api/mcp/short/zXh2xdPn",
+      "position": 4
+    },
+    {
+      "screen_id": "e734fa28-a4d4-4677-889f-b2406e97d2d5",
+      "image_url": "https://mobbin.com/api/mcp/short/VPWYig0h",
+      "position": 5
+    },
+    {
+      "screen_id": "6cbb65ab-ed1a-4b3c-8762-736ebbf3056d",
+      "image_url": "https://mobbin.com/api/mcp/short/sfXbc71K",
+      "position": 6
+    }
+  ]
+}

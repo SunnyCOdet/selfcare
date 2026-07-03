@@ -1,0 +1,26 @@
+{
+  "id": "415b95de-6329-4b27-bc52-3b06dcc912a4",
+  "name": "Personalize",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/415b95de-6329-4b27-bc52-3b06dcc912a4",
+  "app_name": "Midjourney",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "5b639b3b-5efb-46af-b95f-09bc49952656",
+      "image_url": "https://mobbin.com/api/mcp/short/mglwp8AG",
+      "position": 1
+    },
+    {
+      "screen_id": "2f33ac0b-f0da-416a-888a-f6ec050dc805",
+      "image_url": "https://mobbin.com/api/mcp/short/Y7nBXueE",
+      "position": 2
+    },
+    {
+      "screen_id": "a1e7b1f4-b2ef-4ac9-a801-0543c3c82ae5",
+      "image_url": "https://mobbin.com/api/mcp/short/ih59HVyY",
+      "position": 3
+    }
+  ]
+}

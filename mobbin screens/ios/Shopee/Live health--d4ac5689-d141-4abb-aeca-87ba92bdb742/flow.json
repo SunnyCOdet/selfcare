@@ -1,0 +1,26 @@
+{
+  "id": "d4ac5689-d141-4abb-aeca-87ba92bdb742",
+  "name": "Live health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d4ac5689-d141-4abb-aeca-87ba92bdb742",
+  "app_name": "Shopee",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "6c3fee0c-3551-42f5-a240-8087c0a6f658",
+      "image_url": "https://mobbin.com/api/mcp/short/vMZVUlvs",
+      "position": 1
+    },
+    {
+      "screen_id": "5dd4a15c-0ded-401f-8fc4-9321688d747d",
+      "image_url": "https://mobbin.com/api/mcp/short/Wr1HbQLS",
+      "position": 2
+    },
+    {
+      "screen_id": "88ceb477-b6b1-4470-ba84-1e02e28d5d3c",
+      "image_url": "https://mobbin.com/api/mcp/short/6NHTzjr3",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "radio-group",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/radio-group.tsx",
+      "extractedTo": "ui/radio-group.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

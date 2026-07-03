@@ -1,0 +1,43 @@
+{
+  "id": "15130eda-1e6a-438f-9503-5ed313d2cfcf",
+  "name": "Starting a plan",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/15130eda-1e6a-438f-9503-5ed313d2cfcf",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "5e868336-45c9-4962-9f84-d6dedd393c3f",
+      "image_url": "https://mobbin.com/api/mcp/short/WPB6u9KK",
+      "position": 1
+    },
+    {
+      "screen_id": "dc40e494-505c-4fa9-8771-1d62382218c8",
+      "image_url": "https://mobbin.com/api/mcp/short/dpKfmkuG",
+      "position": 2
+    },
+    {
+      "screen_id": "43a61508-0f70-438a-b2da-ae7742c15b68",
+      "image_url": "https://mobbin.com/api/mcp/short/t8UW2sET",
+      "position": 3
+    },
+    {
+      "screen_id": "9013b303-471c-470c-93f0-415a208d9077",
+      "image_url": "https://mobbin.com/api/mcp/short/UxJv728U",
+      "position": 4
+    },
+    {
+      "screen_id": "2b67cd72-42f3-48a1-8e3e-004f0528676c",
+      "image_url": "https://mobbin.com/api/mcp/short/9qcf7q9m",
+      "position": 5
+    },
+    {
+      "screen_id": "0f93b28b-8feb-4013-8883-f85c2f15f0e6",
+      "image_url": "https://mobbin.com/api/mcp/short/PNScVRtA",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "db6cfe92-164d-4d76-ad7f-b8c8879a2b96",
+  "name": "Changing AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/db6cfe92-164d-4d76-ad7f-b8c8879a2b96",
+  "app_name": "X",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d5da70e7-4e29-4e46-8ecf-6595fe019db3",
+      "image_url": "https://mobbin.com/api/mcp/short/JJCwjBhK",
+      "position": 1
+    },
+    {
+      "screen_id": "590ab081-32b2-42b8-92f5-f77179ffc8c9",
+      "image_url": "https://mobbin.com/api/mcp/short/qHHA7wk1",
+      "position": 2
+    },
+    {
+      "screen_id": "3b182f8b-f315-41c8-8c82-e80f7033c4cc",
+      "image_url": "https://mobbin.com/api/mcp/short/kx7Zi62z",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "4cd44d1d-5391-44f5-97ec-1edf4138e900",
+  "name": "Creating a note (Raycast AI result)",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4cd44d1d-5391-44f5-97ec-1edf4138e900",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "d20e2256-89a8-40c8-b42e-a80135ae1740",
+      "image_url": "https://mobbin.com/api/mcp/short/F52eFoHf",
+      "position": 1
+    },
+    {
+      "screen_id": "7310e43a-b8d9-46e2-bdf9-94206e8db841",
+      "image_url": "https://mobbin.com/api/mcp/short/Pma6yRNW",
+      "position": 2
+    },
+    {
+      "screen_id": "d622141c-9943-4f12-a51a-d9fd4a5355cc",
+      "image_url": "https://mobbin.com/api/mcp/short/mk6i4KXz",
+      "position": 3
+    },
+    {
+      "screen_id": "c1ab7fee-de1f-444f-8155-2728280f6e47",
+      "image_url": "https://mobbin.com/api/mcp/short/fO2egPdy",
+      "position": 4
+    },
+    {
+      "screen_id": "7eb9ed72-25f2-4a7d-961c-8296dd9b37ce",
+      "image_url": "https://mobbin.com/api/mcp/short/AOi9YgyE",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2b28bc6f-dab3-45fd-98b3-f3cabd7a10f8",
+  "name": "Connecting with Apple Health",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2b28bc6f-dab3-45fd-98b3-f3cabd7a10f8",
+  "app_name": "Bevel",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "a81c1c18-86cf-42fc-92f3-3c3c6fe1c11e",
+      "image_url": "https://mobbin.com/api/mcp/short/Rc893JIN",
+      "position": 1
+    },
+    {
+      "screen_id": "6777917e-7076-4010-85e7-8e6e7d4458de",
+      "image_url": "https://mobbin.com/api/mcp/short/d7EDkGAZ",
+      "position": 2
+    },
+    {
+      "screen_id": "324a885b-730e-447d-bbb4-12a13b2ea4ce",
+      "image_url": "https://mobbin.com/api/mcp/short/Sxu77hab",
+      "position": 3
+    }
+  ]
+}

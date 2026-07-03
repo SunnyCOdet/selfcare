@@ -1,0 +1,26 @@
+{
+  "id": "6bd33539-765b-49a5-bceb-341667af05de",
+  "name": "Onboarding checklist",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/6bd33539-765b-49a5-bceb-341667af05de",
+  "app_name": "Current",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "c1aee603-73d3-45c2-9315-64926d821918",
+      "image_url": "https://mobbin.com/api/mcp/short/fJlPC9fH",
+      "position": 1
+    },
+    {
+      "screen_id": "ea4aa8e1-4072-4562-89a3-a8417e26842d",
+      "image_url": "https://mobbin.com/api/mcp/short/4ZUIHvyk",
+      "position": 2
+    },
+    {
+      "screen_id": "620ff91b-bc5b-444a-abdf-8cdc803faa4c",
+      "image_url": "https://mobbin.com/api/mcp/short/6a6wwqlf",
+      "position": 3
+    }
+  ]
+}

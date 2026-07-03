@@ -1,0 +1,58 @@
+{
+  "id": "8ad54c81-7ef8-44af-acc6-bd10b15ff114",
+  "name": "Editing a habit",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8ad54c81-7ef8-44af-acc6-bd10b15ff114",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "b7ea6975-5e88-4826-9edc-83fdce796d25",
+      "image_url": "https://mobbin.com/api/mcp/short/bcMLfXwh",
+      "position": 1
+    },
+    {
+      "screen_id": "2658204d-d125-4eca-a3e4-1e660f34d290",
+      "image_url": "https://mobbin.com/api/mcp/short/IdF1rlwO",
+      "position": 2
+    },
+    {
+      "screen_id": "73272dd6-3531-4586-af6b-fe114e62a15b",
+      "image_url": "https://mobbin.com/api/mcp/short/KcwHbpJH",
+      "position": 3
+    },
+    {
+      "screen_id": "8555fc82-a00c-414f-9370-54cbcaf65558",
+      "image_url": "https://mobbin.com/api/mcp/short/EjB4mhaQ",
+      "position": 4
+    },
+    {
+      "screen_id": "78dfad6c-1103-4718-8b05-84fbd21f4e1d",
+      "image_url": "https://mobbin.com/api/mcp/short/UDTsu24J",
+      "position": 5
+    },
+    {
+      "screen_id": "f4b41862-6946-454e-8ab6-b2dee615e713",
+      "image_url": "https://mobbin.com/api/mcp/short/e7z02ou0",
+      "position": 6
+    },
+    {
+      "screen_id": "35a47158-5d2d-47d9-a573-0cef7553f4b5",
+      "image_url": "https://mobbin.com/api/mcp/short/P4K4znXI",
+      "position": 7
+    },
+    {
+      "screen_id": "d8ef7d60-54aa-4045-84da-17cea3a7b154",
+      "image_url": "https://mobbin.com/api/mcp/short/M6mxsKdo",
+      "position": 8
+    },
+    {
+      "screen_id": "d6408ddc-5084-4e1d-bd3b-69936b3463e6",
+      "image_url": "https://mobbin.com/api/mcp/short/1aC2nKK9",
+      "position": 9
+    }
+  ]
+}

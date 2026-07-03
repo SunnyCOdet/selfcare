@@ -1,0 +1,58 @@
+{
+  "id": "9e976f80-420c-4304-a742-ac31af025791",
+  "name": "Getting started",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9e976f80-420c-4304-a742-ac31af025791",
+  "app_name": "Upwork",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "620dab03-2f4d-4897-931c-3c36b8f1f98f",
+      "image_url": "https://mobbin.com/api/mcp/short/okyCuJTq",
+      "position": 1
+    },
+    {
+      "screen_id": "78ec6a8a-5091-4892-a675-11ff4e3e73c0",
+      "image_url": "https://mobbin.com/api/mcp/short/ZVgqFKvN",
+      "position": 2
+    },
+    {
+      "screen_id": "302f41d4-c197-4684-92fc-c9bb0c429ade",
+      "image_url": "https://mobbin.com/api/mcp/short/R9rd33Lw",
+      "position": 3
+    },
+    {
+      "screen_id": "e2ae0da6-243a-40b8-a1b3-613d04ff3a83",
+      "image_url": "https://mobbin.com/api/mcp/short/W7LOtxmF",
+      "position": 4
+    },
+    {
+      "screen_id": "d6bf76ea-b579-4c5f-95fc-f2549a97605b",
+      "image_url": "https://mobbin.com/api/mcp/short/vqR5rRQq",
+      "position": 5
+    },
+    {
+      "screen_id": "4f4d1cd5-2d2a-48ce-bbf9-5a50eafcc089",
+      "image_url": "https://mobbin.com/api/mcp/short/oOMzTKFJ",
+      "position": 6
+    },
+    {
+      "screen_id": "61de3c46-6f9a-44b7-8a67-d9cf5f85e8fa",
+      "image_url": "https://mobbin.com/api/mcp/short/djOv69sq",
+      "position": 7
+    },
+    {
+      "screen_id": "61830ac4-5e4f-4117-be8d-e2f40399db44",
+      "image_url": "https://mobbin.com/api/mcp/short/5EoBi05G",
+      "position": 8
+    },
+    {
+      "screen_id": "0b4f0c7e-8b31-4310-a8cd-7612ab5b0c80",
+      "image_url": "https://mobbin.com/api/mcp/short/l8KFWN2S",
+      "position": 9
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "5338d9ab-ff48-42ef-808e-a9c6e7ef22fd",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5338d9ab-ff48-42ef-808e-a9c6e7ef22fd",
+  "app_name": "ElevenLabs",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "35dd89da-92da-4f07-a96d-0299f177ca26",
+      "image_url": "https://mobbin.com/api/mcp/short/HRmXX3Ph",
+      "position": 1
+    },
+    {
+      "screen_id": "19d2243b-4a4c-4529-ae1b-b334f98379d0",
+      "image_url": "https://mobbin.com/api/mcp/short/iKPkQyeO",
+      "position": 2
+    },
+    {
+      "screen_id": "896309b1-e728-42c6-bfbe-43be2d1e0311",
+      "image_url": "https://mobbin.com/api/mcp/short/P6fIChpE",
+      "position": 3
+    },
+    {
+      "screen_id": "57a0a97e-532c-4268-87eb-594e7aea99a9",
+      "image_url": "https://mobbin.com/api/mcp/short/Nej2AJmp",
+      "position": 4
+    },
+    {
+      "screen_id": "023e381a-25fd-4d76-8731-e86dba73c006",
+      "image_url": "https://mobbin.com/api/mcp/short/eWCrFSuu",
+      "position": 5
+    }
+  ]
+}

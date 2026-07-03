@@ -1,0 +1,38 @@
+{
+  "id": "51841df2-c04c-46cb-b71e-851be8fec9f5",
+  "name": "Changing an AI model",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/51841df2-c04c-46cb-b71e-851be8fec9f5",
+  "app_name": "Vibecode",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7a804476-6403-43cf-b003-1af22a764d55",
+      "image_url": "https://mobbin.com/api/mcp/short/4KYfimbF",
+      "position": 1
+    },
+    {
+      "screen_id": "e4976e0b-5806-4b98-992f-0142e0911fc0",
+      "image_url": "https://mobbin.com/api/mcp/short/eBVz4Z5c",
+      "position": 2
+    },
+    {
+      "screen_id": "f86891f0-d05e-4944-bf1e-9aae93023d67",
+      "image_url": "https://mobbin.com/api/mcp/short/hanEubLz",
+      "position": 3
+    },
+    {
+      "screen_id": "638e0a9c-7482-4c37-b8d9-15a6509dd9b0",
+      "image_url": "https://mobbin.com/api/mcp/short/EXb0tTJR",
+      "position": 4
+    },
+    {
+      "screen_id": "c28b1b58-9306-4f06-860a-7f494e90c441",
+      "image_url": "https://mobbin.com/api/mcp/short/OsZOzV3f",
+      "position": 5
+    }
+  ]
+}

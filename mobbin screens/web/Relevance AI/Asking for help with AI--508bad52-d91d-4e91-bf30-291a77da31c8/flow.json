@@ -1,0 +1,38 @@
+{
+  "id": "508bad52-d91d-4e91-bf30-291a77da31c8",
+  "name": "Asking for help with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/508bad52-d91d-4e91-bf30-291a77da31c8",
+  "app_name": "Relevance AI",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c5f307d6-e7a2-4d56-b082-7def00e86a36",
+      "image_url": "https://mobbin.com/api/mcp/short/SH3fuEp2",
+      "position": 1
+    },
+    {
+      "screen_id": "fbe75833-feaa-4554-b7c3-69b5aec80175",
+      "image_url": "https://mobbin.com/api/mcp/short/wTTyBcGh",
+      "position": 2
+    },
+    {
+      "screen_id": "8f9ea0c2-3520-43ea-bc48-6b1b76425674",
+      "image_url": "https://mobbin.com/api/mcp/short/hz4Wta6m",
+      "position": 3
+    },
+    {
+      "screen_id": "a4ca23c6-ec31-48a1-b920-c3bcf5af5abc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZZz1LRk6",
+      "position": 4
+    },
+    {
+      "screen_id": "510dc9e5-3f47-4ba6-9edf-eaf7b7cbac3c",
+      "image_url": "https://mobbin.com/api/mcp/short/VXoL0tMU",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "sonner",
+  "type": "registry:ui",
+  "dependencies": [
+    "sonner",
+    "next-themes"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/sonner.tsx",
+      "extractedTo": "ui/sonner.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

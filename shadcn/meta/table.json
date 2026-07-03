@@ -1,0 +1,14 @@
+{
+  "name": "table",
+  "type": "registry:ui",
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/table.tsx",
+      "extractedTo": "ui/table.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

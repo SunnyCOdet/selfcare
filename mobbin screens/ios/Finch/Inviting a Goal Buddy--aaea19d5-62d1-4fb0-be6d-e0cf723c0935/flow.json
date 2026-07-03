@@ -1,0 +1,43 @@
+{
+  "id": "aaea19d5-62d1-4fb0-be6d-e0cf723c0935",
+  "name": "Inviting a Goal Buddy",
+  "actions": [
+    "Inviting Teammates & Friends"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aaea19d5-62d1-4fb0-be6d-e0cf723c0935",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "762030e8-375f-4458-a8f7-d2b1cfbc0af7",
+      "image_url": "https://mobbin.com/api/mcp/short/bzlxJeoo",
+      "position": 1
+    },
+    {
+      "screen_id": "a8194440-47cf-44fd-aef1-3626c5486fe7",
+      "image_url": "https://mobbin.com/api/mcp/short/dP5WA3qY",
+      "position": 2
+    },
+    {
+      "screen_id": "eca5fc08-982f-4112-8b89-be78b36ebb98",
+      "image_url": "https://mobbin.com/api/mcp/short/qSRbTdkc",
+      "position": 3
+    },
+    {
+      "screen_id": "28c58dc6-b23d-4ed8-b3c2-fc1d8c4f5ee5",
+      "image_url": "https://mobbin.com/api/mcp/short/aC4owmlO",
+      "position": 4
+    },
+    {
+      "screen_id": "daa35b01-c000-4cc8-bb4a-9f01a42e3e74",
+      "image_url": "https://mobbin.com/api/mcp/short/Q3X3e1HN",
+      "position": 5
+    },
+    {
+      "screen_id": "279538c8-16ba-4039-99ee-ac4fb1c86abc",
+      "image_url": "https://mobbin.com/api/mcp/short/kNhmnCcY",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "d3a47328-3a55-4659-a7ab-80cd09ec34be",
+  "name": "Setup guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d3a47328-3a55-4659-a7ab-80cd09ec34be",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "cee9b8a3-32ed-4cc3-8c4b-94bdb1afc849",
+      "image_url": "https://mobbin.com/api/mcp/short/ech0bU8O",
+      "position": 1
+    },
+    {
+      "screen_id": "c1795eb0-a714-4c8c-8108-b3f18c8faee1",
+      "image_url": "https://mobbin.com/api/mcp/short/9bVUw7CN",
+      "position": 2
+    },
+    {
+      "screen_id": "64e263d7-2c2e-47ab-ba0f-b0933ac161e7",
+      "image_url": "https://mobbin.com/api/mcp/short/HPSUiFIb",
+      "position": 3
+    }
+  ]
+}

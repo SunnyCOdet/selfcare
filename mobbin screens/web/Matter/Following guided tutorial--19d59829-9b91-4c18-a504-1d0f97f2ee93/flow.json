@@ -1,0 +1,43 @@
+{
+  "id": "19d59829-9b91-4c18-a504-1d0f97f2ee93",
+  "name": "Following guided tutorial",
+  "actions": [
+    "Browsing Tutorial"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/19d59829-9b91-4c18-a504-1d0f97f2ee93",
+  "app_name": "Matter",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "489aab37-ce31-49e3-ad2b-7658c306822d",
+      "image_url": "https://mobbin.com/api/mcp/short/82hUIMoM",
+      "position": 1
+    },
+    {
+      "screen_id": "ac2e780d-158a-4c3e-a96d-e9bb29b2d86f",
+      "image_url": "https://mobbin.com/api/mcp/short/5e0Er5cV",
+      "position": 2
+    },
+    {
+      "screen_id": "c059260f-c5a6-413c-b78a-33fa72fb809e",
+      "image_url": "https://mobbin.com/api/mcp/short/iCntiDrR",
+      "position": 3
+    },
+    {
+      "screen_id": "e775aaf9-d645-47a2-8dc2-2b3bf422dfa5",
+      "image_url": "https://mobbin.com/api/mcp/short/a9jkWk20",
+      "position": 4
+    },
+    {
+      "screen_id": "bf3a08cf-1659-4429-8d82-56f758e2670f",
+      "image_url": "https://mobbin.com/api/mcp/short/WTA3vxYE",
+      "position": 5
+    },
+    {
+      "screen_id": "d57b5a1c-f275-42bf-8a0c-4512b2226229",
+      "image_url": "https://mobbin.com/api/mcp/short/RvMHtPiH",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "b0bf3efc-2e4f-44f3-9971-073852c04b70",
+  "name": "Joining a membership",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b0bf3efc-2e4f-44f3-9971-073852c04b70",
+  "app_name": "Selfridges",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "9bd177d9-64fc-4e9f-aafb-7df6dadc0f36",
+      "image_url": "https://mobbin.com/api/mcp/short/0XqcGJuh",
+      "position": 1
+    },
+    {
+      "screen_id": "4917cd52-155e-4088-8e50-3a36c991bb33",
+      "image_url": "https://mobbin.com/api/mcp/short/IcumyU5g",
+      "position": 2
+    },
+    {
+      "screen_id": "7c8ff7ce-796a-4841-8a17-277d78d20397",
+      "image_url": "https://mobbin.com/api/mcp/short/tfI4YAx1",
+      "position": 3
+    },
+    {
+      "screen_id": "33a4575a-c652-4aed-b22d-ea581369c737",
+      "image_url": "https://mobbin.com/api/mcp/short/hX9NMneu",
+      "position": 4
+    },
+    {
+      "screen_id": "b80719c6-8dba-43c8-8321-b2cfaa00003c",
+      "image_url": "https://mobbin.com/api/mcp/short/yEF7zOzX",
+      "position": 5
+    },
+    {
+      "screen_id": "77e3fdff-010c-4c14-a12c-94b29f3667d6",
+      "image_url": "https://mobbin.com/api/mcp/short/156wFIcH",
+      "position": 6
+    },
+    {
+      "screen_id": "ec7baed5-e60f-422b-a632-d5877652c25f",
+      "image_url": "https://mobbin.com/api/mcp/short/P0pvrh2e",
+      "position": 7
+    }
+  ]
+}

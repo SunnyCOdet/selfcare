@@ -1,0 +1,51 @@
+{
+  "id": "32532c17-fccb-40d0-aa93-df23f759e9f7",
+  "name": "Health coverage detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/32532c17-fccb-40d0-aa93-df23f759e9f7",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "bd6f05b3-e753-41ee-8b5f-6834fcf1fe9d",
+      "image_url": "https://mobbin.com/api/mcp/short/ZI72iw4U",
+      "position": 1
+    },
+    {
+      "screen_id": "55c9fb0a-c4cc-4d2e-8620-ac7b3a7b4b8f",
+      "image_url": "https://mobbin.com/api/mcp/short/Wh4oc6Tp",
+      "position": 2
+    },
+    {
+      "screen_id": "6277ea09-d045-42e8-b277-c1c553ec7222",
+      "image_url": "https://mobbin.com/api/mcp/short/s72FMVkO",
+      "position": 3
+    },
+    {
+      "screen_id": "f261ec64-edd7-43f1-ad75-29f11c3c16d3",
+      "image_url": "https://mobbin.com/api/mcp/short/Pej3F716",
+      "position": 4
+    },
+    {
+      "screen_id": "c27e930c-9e7a-4835-bf57-45bbd1756e5a",
+      "image_url": "https://mobbin.com/api/mcp/short/nDrORaSb",
+      "position": 5
+    },
+    {
+      "screen_id": "a3fd5a41-421a-4510-bc4b-800f11763f4f",
+      "image_url": "https://mobbin.com/api/mcp/short/uvosgIOK",
+      "position": 6
+    },
+    {
+      "screen_id": "9c142f21-838e-4d0b-8ab9-8bd9b97449b3",
+      "image_url": "https://mobbin.com/api/mcp/short/nIkasx0F",
+      "position": 7
+    },
+    {
+      "screen_id": "76221c3d-540c-44eb-a2a5-ea9112e0a7a0",
+      "image_url": "https://mobbin.com/api/mcp/short/kufaSQL8",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "89fd04a9-ddd8-4723-97c1-aeebab5bfdf4",
+  "name": "Health metrics",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/89fd04a9-ddd8-4723-97c1-aeebab5bfdf4",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "f3dc86ea-ddb8-4129-9f86-01b1af6a6d30",
+      "image_url": "https://mobbin.com/api/mcp/short/N8p5Rqnx",
+      "position": 1
+    },
+    {
+      "screen_id": "2834b653-74c9-455a-a3c5-60e35b376b13",
+      "image_url": "https://mobbin.com/api/mcp/short/rJWBBHdG",
+      "position": 2
+    },
+    {
+      "screen_id": "a01dd116-18cd-411d-b9c7-ffcdd4693e4a",
+      "image_url": "https://mobbin.com/api/mcp/short/wlgWxpCP",
+      "position": 3
+    }
+  ]
+}

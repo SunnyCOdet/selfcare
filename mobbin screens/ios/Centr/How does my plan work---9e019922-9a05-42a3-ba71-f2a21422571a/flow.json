@@ -1,0 +1,26 @@
+{
+  "id": "9e019922-9a05-42a3-ba71-f2a21422571a",
+  "name": "How does my plan work?",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9e019922-9a05-42a3-ba71-f2a21422571a",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d45ad9cb-3818-4116-a156-46e34d5473d2",
+      "image_url": "https://mobbin.com/api/mcp/short/nAe6OGG2",
+      "position": 1
+    },
+    {
+      "screen_id": "b1782d2f-612f-4a84-ba52-ffa7ca5d2e5f",
+      "image_url": "https://mobbin.com/api/mcp/short/KLqxH32H",
+      "position": 2
+    },
+    {
+      "screen_id": "fcbbb91f-5227-4e34-99ee-98ea877f3820",
+      "image_url": "https://mobbin.com/api/mcp/short/aKp9ob4A",
+      "position": 3
+    }
+  ]
+}

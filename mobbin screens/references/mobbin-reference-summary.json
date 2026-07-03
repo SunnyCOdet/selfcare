@@ -1,0 +1,336 @@
+{
+  "chatgpt_ios": {
+    "query": "ChatGPT iOS chat screen composer history drawer",
+    "screens": [
+      {
+        "id": "82e8824a-c7cb-4636-ab1a-9e1386a7b631",
+        "image_url": "https://mobbin.com/api/mcp/short/JpgCfKvG",
+        "mobbin_url": "https://mobbin.com/screens/82e8824a-c7cb-4636-ab1a-9e1386a7b631",
+        "app_name": "ChatGPT",
+        "platform": "ios"
+      },
+      {
+        "id": "8cebeed2-fe06-43a2-b4c4-66b6d13a71fd",
+        "image_url": "https://mobbin.com/api/mcp/short/AlAiiMG3",
+        "mobbin_url": "https://mobbin.com/screens/8cebeed2-fe06-43a2-b4c4-66b6d13a71fd",
+        "app_name": "ChatGPT",
+        "platform": "ios"
+      },
+      {
+        "id": "b85cedcd-cfa4-4f48-87e2-ea433d869dd6",
+        "image_url": "https://mobbin.com/api/mcp/short/Ea3p5KMG",
+        "mobbin_url": "https://mobbin.com/screens/b85cedcd-cfa4-4f48-87e2-ea433d869dd6",
+        "app_name": "ChatGPT",
+        "platform": "ios"
+      },
+      {
+        "id": "a014510f-53c3-4e17-894b-7101db3f497b",
+        "image_url": "https://mobbin.com/api/mcp/short/ccC7mDEo",
+        "mobbin_url": "https://mobbin.com/screens/a014510f-53c3-4e17-894b-7101db3f497b",
+        "app_name": "ChatGPT",
+        "platform": "ios"
+      },
+      {
+        "id": "ef78ed4f-4dee-4428-a8f8-9b8b6c9dec7a",
+        "image_url": "https://mobbin.com/api/mcp/short/7qqpntyp",
+        "mobbin_url": "https://mobbin.com/screens/ef78ed4f-4dee-4428-a8f8-9b8b6c9dec7a",
+        "app_name": "ChatGPT",
+        "platform": "ios"
+      }
+    ]
+  },
+  "cal_ai_ios": {
+    "query": "Cal AI calorie tracker food logging macros photo scan",
+    "screens": [
+      {
+        "id": "cccf7c90-05cb-40d1-87a2-a1e976f2334e",
+        "image_url": "https://mobbin.com/api/mcp/short/fy3Hjk97",
+        "mobbin_url": "https://mobbin.com/screens/cccf7c90-05cb-40d1-87a2-a1e976f2334e",
+        "app_name": "Cal AI",
+        "platform": "ios"
+      },
+      {
+        "id": "384c2f84-ab20-437a-b149-82a9881328bf",
+        "image_url": "https://mobbin.com/api/mcp/short/0GeybSoh",
+        "mobbin_url": "https://mobbin.com/screens/384c2f84-ab20-437a-b149-82a9881328bf",
+        "app_name": "Cal AI",
+        "platform": "ios"
+      },
+      {
+        "id": "a4ec6f0f-5e5f-4290-a8a3-f8b76f3bf29d",
+        "image_url": "https://mobbin.com/api/mcp/short/6A0x5tIc",
+        "mobbin_url": "https://mobbin.com/screens/a4ec6f0f-5e5f-4290-a8a3-f8b76f3bf29d",
+        "app_name": "Cal AI",
+        "platform": "ios"
+      },
+      {
+        "id": "ac4da5ae-acfd-4c04-8038-4eca3bf980d9",
+        "image_url": "https://mobbin.com/api/mcp/short/uNGkXuzu",
+        "mobbin_url": "https://mobbin.com/screens/ac4da5ae-acfd-4c04-8038-4eca3bf980d9",
+        "app_name": "Cal AI",
+        "platform": "ios"
+      },
+      {
+        "id": "555300ed-a402-4461-9109-1aec57071293",
+        "image_url": "https://mobbin.com/api/mcp/short/M91l50kg",
+        "mobbin_url": "https://mobbin.com/screens/555300ed-a402-4461-9109-1aec57071293",
+        "app_name": "Cal AI",
+        "platform": "ios"
+      }
+    ]
+  },
+  "health_onboarding_ios": {
+    "query": "fitness health app onboarding goals personalization body metrics",
+    "page": 1,
+    "has_next_page": true,
+    "flows": [
+      {
+        "id": "9f597ed6-aea4-4ec7-b573-48ea7484b164",
+        "name": "Setting up a fitness profile",
+        "actions": [
+          "Starting & Completing"
+        ],
+        "mobbin_url": "https://mobbin.com/flows/9f597ed6-aea4-4ec7-b573-48ea7484b164",
+        "app_name": "Tonal",
+        "platform": "ios",
+        "screen_count": 13,
+        "screens": [
+          {
+            "screen_id": "f949a4e9-815f-4789-b147-752873bd58eb",
+            "image_url": "https://mobbin.com/api/mcp/short/l8QA2n4t",
+            "position": 1
+          },
+          {
+            "screen_id": "ee722d52-a544-4a60-80d0-44c07545d480",
+            "image_url": "https://mobbin.com/api/mcp/short/QT3M9UkJ",
+            "position": 2
+          },
+          {
+            "screen_id": "a0bb4e2e-0082-4b57-b943-0600d062256d",
+            "image_url": "https://mobbin.com/api/mcp/short/5zobGBE4",
+            "position": 3
+          },
+          {
+            "screen_id": "8c6b402a-aa58-476d-9221-5d0cd4ed162d",
+            "image_url": "https://mobbin.com/api/mcp/short/qrQlJICy",
+            "position": 4
+          },
+          {
+            "screen_id": "6ef5e1ef-5078-4260-9d07-5e2b7d502cf1",
+            "image_url": "https://mobbin.com/api/mcp/short/orZEANSF",
+            "position": 5
+          },
+          {
+            "screen_id": "cf378226-5e32-4f37-976f-35352ceebdc3",
+            "image_url": "https://mobbin.com/api/mcp/short/hWZouGiD",
+            "position": 6
+          },
+          {
+            "screen_id": "c627b5a2-4b3e-431b-998a-c8f4dd44651a",
+            "image_url": "https://mobbin.com/api/mcp/short/3GwMrBfA",
+            "position": 7
+          },
+          {
+            "screen_id": "295f67ac-33bd-42ed-ba2c-17fd52a7e677",
+            "image_url": "https://mobbin.com/api/mcp/short/4UZD4chq",
+            "position": 8
+          },
+          {
+            "screen_id": "71984ffb-f16b-46c6-9bb4-35cb7a0ec0af",
+            "image_url": "https://mobbin.com/api/mcp/short/mD6FGWYI",
+            "position": 9
+          },
+          {
+            "screen_id": "0dc5e059-e8a4-4e11-a0bd-bd6cd20d5814",
+            "image_url": "https://mobbin.com/api/mcp/short/K67hI0xr",
+            "position": 10
+          },
+          {
+            "screen_id": "6f0a7139-a0f8-4b46-abbc-f9448634e56f",
+            "image_url": "https://mobbin.com/api/mcp/short/luc3lYot",
+            "position": 11
+          },
+          {
+            "screen_id": "79ebd436-967a-4b67-a3cd-0a757c588721",
+            "image_url": "https://mobbin.com/api/mcp/short/QzvfZ1wP",
+            "position": 12
+          },
+          {
+            "screen_id": "8cec1b24-9f5d-440a-b6fb-bdd645d3dc2d",
+            "image_url": "https://mobbin.com/api/mcp/short/Vvno5Ot2",
+            "position": 13
+          }
+        ]
+      },
+      {
+        "id": "7ab69f0d-ea82-4ac1-bb08-1421102e7a4e",
+        "name": "Setting up profile",
+        "actions": [
+          "Setting Up"
+        ],
+        "mobbin_url": "https://mobbin.com/flows/7ab69f0d-ea82-4ac1-bb08-1421102e7a4e",
+        "app_name": "Equinox+",
+        "platform": "ios",
+        "screen_count": 16,
+        "screens": [
+          {
+            "screen_id": "01893f1c-196f-49b1-aab9-48e52220a262",
+            "image_url": "https://mobbin.com/api/mcp/short/zTFFDqry",
+            "position": 1
+          },
+          {
+            "screen_id": "0f1e7902-c527-45db-b01b-f020da340a17",
+            "image_url": "https://mobbin.com/api/mcp/short/T24s3Y1s",
+            "position": 2
+          },
+          {
+            "screen_id": "c5f5a01c-c31c-4db5-9443-e3284914beb0",
+            "image_url": "https://mobbin.com/api/mcp/short/uYS2eScW",
+            "position": 3
+          },
+          {
+            "screen_id": "760b44d5-58cb-4ed5-bfca-225e57f3361c",
+            "image_url": "https://mobbin.com/api/mcp/short/PRwMGbzX",
+            "position": 4
+          },
+          {
+            "screen_id": "0abc89e9-654e-433f-b679-fd151287dc00",
+            "image_url": "https://mobbin.com/api/mcp/short/KeAzDDbe",
+            "position": 5
+          },
+          {
+            "screen_id": "4906ddbe-9386-43e8-addf-a5b59165ee01",
+            "image_url": "https://mobbin.com/api/mcp/short/rdFqj1w5",
+            "position": 6
+          },
+          {
+            "screen_id": "2d03f664-2ea4-4af5-ab7b-521f2b534885",
+            "image_url": "https://mobbin.com/api/mcp/short/xmHNWRcT",
+            "position": 7
+          },
+          {
+            "screen_id": "f609c14a-44fa-48ea-a48d-90d931d9c1f6",
+            "image_url": "https://mobbin.com/api/mcp/short/9tjNDa31",
+            "position": 8
+          },
+          {
+            "screen_id": "983dddb9-5990-451b-bbe9-59ff1c1881ae",
+            "image_url": "https://mobbin.com/api/mcp/short/ML4N9QOX",
+            "position": 9
+          },
+          {
+            "screen_id": "2c08e91c-8c56-4c3f-bbc5-602637503c76",
+            "image_url": "https://mobbin.com/api/mcp/short/olWOTKFk",
+            "position": 10
+          },
+          {
+            "screen_id": "48ef922a-1566-4850-86fb-551e27dc6561",
+            "image_url": "https://mobbin.com/api/mcp/short/4mUK1mXG",
+            "position": 11
+          },
+          {
+            "screen_id": "6bf8f742-662f-4008-8951-f7b9138b03dc",
+            "image_url": "https://mobbin.com/api/mcp/short/wbdkEQZL",
+            "position": 12
+          },
+          {
+            "screen_id": "1e7f9653-bbdd-4a4c-9be8-5de2868fefcd",
+            "image_url": "https://mobbin.com/api/mcp/short/I6rdZu5P",
+            "position": 13
+          },
+          {
+            "screen_id": "42862683-279e-4133-8728-af264fd5c5ac",
+            "image_url": "https://mobbin.com/api/mcp/short/tgF6zby2",
+            "position": 14
+          },
+          {
+            "screen_id": "c8575678-f305-4a3b-88c2-cd666c9d87a6",
+            "image_url": "https://mobbin.com/api/mcp/short/q2mjsUQs",
+            "position": 15
+          },
+          {
+            "screen_id": "62f1b6ae-54a1-456c-b825-74eaa50d1651",
+            "image_url": "https://mobbin.com/api/mcp/short/EL2XmKyW",
+            "position": 16
+          }
+        ]
+      },
+      {
+        "id": "1eb9c8aa-8224-44ad-9b9c-f7656a310106",
+        "name": "Body & health",
+        "actions": [],
+        "mobbin_url": "https://mobbin.com/flows/1eb9c8aa-8224-44ad-9b9c-f7656a310106",
+        "app_name": "Tonal",
+        "platform": "ios",
+        "screen_count": 2,
+        "screens": [
+          {
+            "screen_id": "4d6bde90-cad3-460d-b3fa-f14f0bc71daa",
+            "image_url": "https://mobbin.com/api/mcp/short/7RVAxxXA",
+            "position": 1
+          },
+          {
+            "screen_id": "a210dc03-38d3-4c60-9e15-697df9eac1a6",
+            "image_url": "https://mobbin.com/api/mcp/short/vtjo6e5O",
+            "position": 2
+          }
+        ]
+      }
+    ]
+  },
+  "dashboard_web": {
+    "query": "health analytics dashboard progress nutrition cards",
+    "page": 1,
+    "has_next_page": true,
+    "sections": [
+      {
+        "id": "a79e89b2-2910-4b95-b8b2-046ae89fc7d2",
+        "image_url": "https://mobbin.com/api/mcp/short/NPcS3ccV",
+        "mobbin_url": "https://mobbin.com/sites/sections/a79e89b2-2910-4b95-b8b2-046ae89fc7d2",
+        "site_name": "Superpower"
+      },
+      {
+        "id": "036f5c7f-8df0-43d6-8ff3-079ca71edf08",
+        "image_url": "https://mobbin.com/api/mcp/short/qjFM18qn",
+        "mobbin_url": "https://mobbin.com/sites/sections/036f5c7f-8df0-43d6-8ff3-079ca71edf08",
+        "site_name": "Bevel"
+      },
+      {
+        "id": "138c9c1a-9d58-4d76-801b-f79bf12d833e",
+        "image_url": "https://mobbin.com/api/mcp/short/SDOIqwLR",
+        "mobbin_url": "https://mobbin.com/sites/sections/138c9c1a-9d58-4d76-801b-f79bf12d833e",
+        "site_name": "Superpower"
+      },
+      {
+        "id": "70f3a470-35a9-48cf-ada4-59a44df8cb5f",
+        "image_url": "https://mobbin.com/api/mcp/short/wiuHBhiS",
+        "mobbin_url": "https://mobbin.com/sites/sections/70f3a470-35a9-48cf-ada4-59a44df8cb5f",
+        "site_name": "Oura Ring"
+      },
+      {
+        "id": "42a8d25b-c144-4484-ba70-f3a086d365db",
+        "image_url": "https://mobbin.com/api/mcp/short/FnHB1AmQ",
+        "mobbin_url": "https://mobbin.com/sites/sections/42a8d25b-c144-4484-ba70-f3a086d365db",
+        "site_name": "SAP GOOD ENERGY"
+      },
+      {
+        "id": "a07ea762-9f49-4daf-883e-08a34119e53e",
+        "image_url": "https://mobbin.com/api/mcp/short/5J2qO7Ma",
+        "mobbin_url": "https://mobbin.com/sites/sections/a07ea762-9f49-4daf-883e-08a34119e53e",
+        "site_name": "Linear"
+      },
+      {
+        "id": "0767f6cf-cb58-4ea6-9039-a778f50aba8d",
+        "image_url": "https://mobbin.com/api/mcp/short/PnkBfvQM",
+        "mobbin_url": "https://mobbin.com/sites/sections/0767f6cf-cb58-4ea6-9039-a778f50aba8d",
+        "site_name": "Function"
+      },
+      {
+        "id": "1077a98a-ae3a-4045-b934-f81bbe58b088",
+        "image_url": "https://mobbin.com/api/mcp/short/k4YtzsbO",
+        "mobbin_url": "https://mobbin.com/sites/sections/1077a98a-ae3a-4045-b934-f81bbe58b088",
+        "site_name": "Oura Ring"
+      }
+    ]
+  }
+}

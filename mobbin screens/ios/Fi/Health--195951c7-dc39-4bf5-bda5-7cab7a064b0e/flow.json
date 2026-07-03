@@ -1,0 +1,36 @@
+{
+  "id": "195951c7-dc39-4bf5-bda5-7cab7a064b0e",
+  "name": "Health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/195951c7-dc39-4bf5-bda5-7cab7a064b0e",
+  "app_name": "Fi",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0664355c-9bc5-4a8a-8b06-ea31593f8601",
+      "image_url": "https://mobbin.com/api/mcp/short/m8bZpZdm",
+      "position": 1
+    },
+    {
+      "screen_id": "d4c9bfe2-4c6f-47e7-87d8-d85df3267818",
+      "image_url": "https://mobbin.com/api/mcp/short/U0zzN7Yv",
+      "position": 2
+    },
+    {
+      "screen_id": "30dc2ff0-d836-4b50-9465-3dee0ab07635",
+      "image_url": "https://mobbin.com/api/mcp/short/NoQjzgc1",
+      "position": 3
+    },
+    {
+      "screen_id": "023bcdb7-35b9-48de-a150-3e31df93f6f9",
+      "image_url": "https://mobbin.com/api/mcp/short/D13zbk8t",
+      "position": 4
+    },
+    {
+      "screen_id": "91f61f44-b310-478b-a122-e543cfd639d0",
+      "image_url": "https://mobbin.com/api/mcp/short/uPrQjCZw",
+      "position": 5
+    }
+  ]
+}

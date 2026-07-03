@@ -1,0 +1,33 @@
+{
+  "id": "9ca1b7f8-301b-4829-b8c8-3d6e64f00b63",
+  "name": "Enabling location access",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9ca1b7f8-301b-4829-b8c8-3d6e64f00b63",
+  "app_name": "GO Club",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d34d16cb-fa24-4f11-af43-752202f8066f",
+      "image_url": "https://mobbin.com/api/mcp/short/35yLmgCi",
+      "position": 1
+    },
+    {
+      "screen_id": "1317a614-2a90-418c-97eb-f2b9a96be357",
+      "image_url": "https://mobbin.com/api/mcp/short/wsEcPtLx",
+      "position": 2
+    },
+    {
+      "screen_id": "2b748504-86a3-4bb3-9ea8-770a91d56294",
+      "image_url": "https://mobbin.com/api/mcp/short/y3fc8AvG",
+      "position": 3
+    },
+    {
+      "screen_id": "cfebed39-4cfc-499b-80d7-327f24daae41",
+      "image_url": "https://mobbin.com/api/mcp/short/DmQnnHR9",
+      "position": 4
+    }
+  ]
+}

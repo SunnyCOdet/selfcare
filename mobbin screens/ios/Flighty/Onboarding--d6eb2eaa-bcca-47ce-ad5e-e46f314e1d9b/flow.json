@@ -1,0 +1,33 @@
+{
+  "id": "d6eb2eaa-bcca-47ce-ad5e-e46f314e1d9b",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d6eb2eaa-bcca-47ce-ad5e-e46f314e1d9b",
+  "app_name": "Flighty",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0626b031-6949-46d3-9db4-fb7f629d43f9",
+      "image_url": "https://mobbin.com/api/mcp/short/HQWxPLeM",
+      "position": 1
+    },
+    {
+      "screen_id": "d57a3bde-206e-4a0f-b78d-051bd2474baf",
+      "image_url": "https://mobbin.com/api/mcp/short/P5mbNfrl",
+      "position": 2
+    },
+    {
+      "screen_id": "fad2375f-65f3-4931-9d4f-4da5d38b1636",
+      "image_url": "https://mobbin.com/api/mcp/short/PRk2SdbL",
+      "position": 3
+    },
+    {
+      "screen_id": "42fbe2bd-4b72-401f-a056-67b5a0b6a006",
+      "image_url": "https://mobbin.com/api/mcp/short/EpkiMA4f",
+      "position": 4
+    }
+  ]
+}

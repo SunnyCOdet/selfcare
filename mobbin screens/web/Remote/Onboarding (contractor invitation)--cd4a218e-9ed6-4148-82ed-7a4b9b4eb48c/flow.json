@@ -1,0 +1,48 @@
+{
+  "id": "cd4a218e-9ed6-4148-82ed-7a4b9b4eb48c",
+  "name": "Onboarding (contractor invitation)",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cd4a218e-9ed6-4148-82ed-7a4b9b4eb48c",
+  "app_name": "Remote",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "b6b01c9c-08ab-4366-aac0-804f1d14a07d",
+      "image_url": "https://mobbin.com/api/mcp/short/6BjObh9q",
+      "position": 1
+    },
+    {
+      "screen_id": "b6389c7a-5c3c-4d40-a613-c81c5c5df1d8",
+      "image_url": "https://mobbin.com/api/mcp/short/l8QQRNWR",
+      "position": 2
+    },
+    {
+      "screen_id": "ccae60b5-a85f-4803-a8ee-7d21e645b1bd",
+      "image_url": "https://mobbin.com/api/mcp/short/NReWl7qk",
+      "position": 3
+    },
+    {
+      "screen_id": "156170a2-7331-438f-9a0a-e7eba294b489",
+      "image_url": "https://mobbin.com/api/mcp/short/SjD4AwUx",
+      "position": 4
+    },
+    {
+      "screen_id": "8054afb4-36e4-4e84-81e3-c4c6d30380fd",
+      "image_url": "https://mobbin.com/api/mcp/short/YmKqAwzm",
+      "position": 5
+    },
+    {
+      "screen_id": "404d79e7-de8c-45e4-8c9f-0deae9c090d4",
+      "image_url": "https://mobbin.com/api/mcp/short/GBEfAvvd",
+      "position": 6
+    },
+    {
+      "screen_id": "e5036bc0-b233-44ad-ba65-1794411f7a2f",
+      "image_url": "https://mobbin.com/api/mcp/short/sdvtSgC8",
+      "position": 7
+    }
+  ]
+}

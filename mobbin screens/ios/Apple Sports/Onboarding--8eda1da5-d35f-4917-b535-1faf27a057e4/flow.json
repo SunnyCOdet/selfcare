@@ -1,0 +1,43 @@
+{
+  "id": "8eda1da5-d35f-4917-b535-1faf27a057e4",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8eda1da5-d35f-4917-b535-1faf27a057e4",
+  "app_name": "Apple Sports",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "72f10207-f706-47ad-961e-1319a71ab76b",
+      "image_url": "https://mobbin.com/api/mcp/short/OwE8N0kM",
+      "position": 1
+    },
+    {
+      "screen_id": "8bcd65f3-b866-433c-be74-e201ac5ecb82",
+      "image_url": "https://mobbin.com/api/mcp/short/GANgsCtR",
+      "position": 2
+    },
+    {
+      "screen_id": "e93fc14b-d8cc-450d-8aaf-dfe10cc17b35",
+      "image_url": "https://mobbin.com/api/mcp/short/DuGY6JCD",
+      "position": 3
+    },
+    {
+      "screen_id": "7506726b-07ad-4da5-b8ab-a32828ab5df7",
+      "image_url": "https://mobbin.com/api/mcp/short/4dZwzPe3",
+      "position": 4
+    },
+    {
+      "screen_id": "c177f3b6-96fb-4039-b1cc-e7ece9586a81",
+      "image_url": "https://mobbin.com/api/mcp/short/JK2wsq3P",
+      "position": 5
+    },
+    {
+      "screen_id": "7fae6baf-f765-4362-8f49-bede9142b8da",
+      "image_url": "https://mobbin.com/api/mcp/short/EKbD5Syr",
+      "position": 6
+    }
+  ]
+}

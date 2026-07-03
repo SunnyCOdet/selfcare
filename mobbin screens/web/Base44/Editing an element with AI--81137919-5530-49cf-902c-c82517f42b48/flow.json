@@ -1,0 +1,54 @@
+{
+  "id": "81137919-5530-49cf-902c-c82517f42b48",
+  "name": "Editing an element with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/81137919-5530-49cf-902c-c82517f42b48",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "933bf64f-2313-47c2-9f0a-e491b596192d",
+      "image_url": "https://mobbin.com/api/mcp/short/hiSfhj3Q",
+      "position": 1
+    },
+    {
+      "screen_id": "0c2cad2e-d0ad-4cce-9326-302eaf315d79",
+      "image_url": "https://mobbin.com/api/mcp/short/vOD8dXqw",
+      "position": 2
+    },
+    {
+      "screen_id": "4cc19a64-3b75-4052-baad-1781bf90a913",
+      "image_url": "https://mobbin.com/api/mcp/short/46YWs8wL",
+      "position": 3
+    },
+    {
+      "screen_id": "6563d412-2e61-4e91-82d8-cb7f75428daf",
+      "image_url": "https://mobbin.com/api/mcp/short/WdXRCt40",
+      "position": 4
+    },
+    {
+      "screen_id": "f205d3dd-36c0-49ac-a5f4-7379f7baf712",
+      "image_url": "https://mobbin.com/api/mcp/short/1R29xnv7",
+      "position": 5
+    },
+    {
+      "screen_id": "859dffd9-22fb-467c-876c-ffe0b782ce35",
+      "image_url": "https://mobbin.com/api/mcp/short/nN52sTty",
+      "position": 6
+    },
+    {
+      "screen_id": "ae977dbd-d622-4dca-8126-b93ba6d6a3ce",
+      "image_url": "https://mobbin.com/api/mcp/short/flo43H9D",
+      "position": 7
+    },
+    {
+      "screen_id": "a59f1b0d-5ede-41c2-ba8a-46330bcd986e",
+      "image_url": "https://mobbin.com/api/mcp/short/nsK9Y1Vf",
+      "position": 8
+    }
+  ]
+}

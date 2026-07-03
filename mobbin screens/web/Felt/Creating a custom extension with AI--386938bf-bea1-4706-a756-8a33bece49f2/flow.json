@@ -1,0 +1,33 @@
+{
+  "id": "386938bf-bea1-4706-a756-8a33bece49f2",
+  "name": "Creating a custom extension with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/386938bf-bea1-4706-a756-8a33bece49f2",
+  "app_name": "Felt",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "bb06e3af-d7e0-414d-a65b-5afcdba280f4",
+      "image_url": "https://mobbin.com/api/mcp/short/UiUV7Q80",
+      "position": 1
+    },
+    {
+      "screen_id": "c879de13-0368-4569-b5bf-60422846350e",
+      "image_url": "https://mobbin.com/api/mcp/short/kmdyloj2",
+      "position": 2
+    },
+    {
+      "screen_id": "3330c734-138e-46a4-9193-889216d4357a",
+      "image_url": "https://mobbin.com/api/mcp/short/gWNLc7Mx",
+      "position": 3
+    },
+    {
+      "screen_id": "e56c44c1-10c9-4c98-800b-fcc5db0e4d17",
+      "image_url": "https://mobbin.com/api/mcp/short/Q5f5GEhi",
+      "position": 4
+    }
+  ]
+}

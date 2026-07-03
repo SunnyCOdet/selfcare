@@ -1,0 +1,33 @@
+{
+  "id": "2b0b7335-2c57-4142-933b-ca9e5d22bf50",
+  "name": "Updating fitness styles",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2b0b7335-2c57-4142-933b-ca9e5d22bf50",
+  "app_name": "Equinox+",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "0a07bcf1-2dd6-4552-a873-eec039177cca",
+      "image_url": "https://mobbin.com/api/mcp/short/C8dJLwrd",
+      "position": 1
+    },
+    {
+      "screen_id": "5f42c37f-5e84-45bb-b04f-8c396b3c2cbd",
+      "image_url": "https://mobbin.com/api/mcp/short/ywyyeih4",
+      "position": 2
+    },
+    {
+      "screen_id": "606238d7-aa63-45b5-b0a3-8e7f1809356a",
+      "image_url": "https://mobbin.com/api/mcp/short/sA8OMO6b",
+      "position": 3
+    },
+    {
+      "screen_id": "831774dc-4ea1-41b3-bada-fd8c717231f4",
+      "image_url": "https://mobbin.com/api/mcp/short/SfN1AmVk",
+      "position": 4
+    }
+  ]
+}

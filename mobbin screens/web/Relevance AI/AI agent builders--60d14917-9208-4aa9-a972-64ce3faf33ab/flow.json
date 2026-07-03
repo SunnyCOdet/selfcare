@@ -1,0 +1,21 @@
+{
+  "id": "60d14917-9208-4aa9-a972-64ce3faf33ab",
+  "name": "AI agent builders",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/60d14917-9208-4aa9-a972-64ce3faf33ab",
+  "app_name": "Relevance AI",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "11cec81b-b9ba-4ce5-a9c3-e09e92af959f",
+      "image_url": "https://mobbin.com/api/mcp/short/j2zvpv6D",
+      "position": 1
+    },
+    {
+      "screen_id": "583633c0-8408-4913-84de-ff2b6ff0f346",
+      "image_url": "https://mobbin.com/api/mcp/short/pP9JEws1",
+      "position": 2
+    }
+  ]
+}

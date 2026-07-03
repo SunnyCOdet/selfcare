@@ -1,0 +1,38 @@
+{
+  "id": "da69f7aa-0cec-4252-9a0d-882eb2fdb870",
+  "name": "Rephrasing with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/da69f7aa-0cec-4252-9a0d-882eb2fdb870",
+  "app_name": "Deepstash",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7def5b7b-a4ad-4507-94e5-3db4e91072b1",
+      "image_url": "https://mobbin.com/api/mcp/short/eb29P34T",
+      "position": 1
+    },
+    {
+      "screen_id": "1bfdcc29-3300-42a0-b7de-3b3ace0d876b",
+      "image_url": "https://mobbin.com/api/mcp/short/6tYuYFq9",
+      "position": 2
+    },
+    {
+      "screen_id": "d2c545ec-df6f-40ce-acf7-72b714502b78",
+      "image_url": "https://mobbin.com/api/mcp/short/v5SORXCn",
+      "position": 3
+    },
+    {
+      "screen_id": "c139797d-6ce8-4fc1-bf6d-3b38024f8f33",
+      "image_url": "https://mobbin.com/api/mcp/short/eFnxZ70m",
+      "position": 4
+    },
+    {
+      "screen_id": "182a2cf5-0b8d-455e-a95c-aefc2692c16c",
+      "image_url": "https://mobbin.com/api/mcp/short/NaJJ3p0V",
+      "position": 5
+    }
+  ]
+}

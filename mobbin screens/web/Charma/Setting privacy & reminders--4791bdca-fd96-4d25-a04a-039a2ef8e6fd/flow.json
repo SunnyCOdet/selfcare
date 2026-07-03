@@ -1,0 +1,33 @@
+{
+  "id": "4791bdca-fd96-4d25-a04a-039a2ef8e6fd",
+  "name": "Setting privacy & reminders",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4791bdca-fd96-4d25-a04a-039a2ef8e6fd",
+  "app_name": "Charma",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "acb62565-d065-481e-ac57-167149c820a0",
+      "image_url": "https://mobbin.com/api/mcp/short/snRwxSy7",
+      "position": 1
+    },
+    {
+      "screen_id": "ee85b678-aaea-4395-9339-841c243a6f35",
+      "image_url": "https://mobbin.com/api/mcp/short/e0vtRZnD",
+      "position": 2
+    },
+    {
+      "screen_id": "f3381bf7-c301-4532-9aa5-c62cc16329d6",
+      "image_url": "https://mobbin.com/api/mcp/short/DLO5gJnP",
+      "position": 3
+    },
+    {
+      "screen_id": "2c2e52a3-0b7e-4169-98bd-bf4f30119b31",
+      "image_url": "https://mobbin.com/api/mcp/short/RiXwnMt6",
+      "position": 4
+    }
+  ]
+}

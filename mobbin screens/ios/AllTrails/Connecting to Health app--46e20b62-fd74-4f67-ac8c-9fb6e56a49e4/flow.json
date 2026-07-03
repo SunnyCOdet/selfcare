@@ -1,0 +1,33 @@
+{
+  "id": "46e20b62-fd74-4f67-ac8c-9fb6e56a49e4",
+  "name": "Connecting to Health app",
+  "actions": [
+    "Connecting & Linking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/46e20b62-fd74-4f67-ac8c-9fb6e56a49e4",
+  "app_name": "AllTrails",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2be3796b-3421-4799-b9cf-778d3492fedc",
+      "image_url": "https://mobbin.com/api/mcp/short/BVfKQAdD",
+      "position": 1
+    },
+    {
+      "screen_id": "511e7251-ae92-4c75-aed1-7c148e1de912",
+      "image_url": "https://mobbin.com/api/mcp/short/CngOdWC9",
+      "position": 2
+    },
+    {
+      "screen_id": "d3780831-5103-417a-9528-9e49348cce5c",
+      "image_url": "https://mobbin.com/api/mcp/short/qlVV6BVZ",
+      "position": 3
+    },
+    {
+      "screen_id": "c3bbccc2-e5f1-4c70-b505-6088b92bfde1",
+      "image_url": "https://mobbin.com/api/mcp/short/IYtAwcRo",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "b725ec6f-52b0-4eec-ba21-cc974d54e265",
+  "name": "Setting up menstrual health",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b725ec6f-52b0-4eec-ba21-cc974d54e265",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 18,
+  "screens": [
+    {
+      "screen_id": "4993dff3-a568-4bc4-857c-3b3d90aa6b6f",
+      "image_url": "https://mobbin.com/api/mcp/short/BDSODg46",
+      "position": 1
+    },
+    {
+      "screen_id": "abaa26a4-2cd7-4add-80bc-7cc8426d6fe3",
+      "image_url": "https://mobbin.com/api/mcp/short/jDhN0xhZ",
+      "position": 2
+    },
+    {
+      "screen_id": "654c3c66-7c0c-48a2-b469-89ea5c845e5d",
+      "image_url": "https://mobbin.com/api/mcp/short/YPT55XYM",
+      "position": 3
+    },
+    {
+      "screen_id": "68442971-d518-4d9d-9398-3915c789953d",
+      "image_url": "https://mobbin.com/api/mcp/short/9Lgksone",
+      "position": 4
+    },
+    {
+      "screen_id": "3ea4776a-34de-4751-903f-c6e298e8badd",
+      "image_url": "https://mobbin.com/api/mcp/short/ucRnBvDF",
+      "position": 5
+    },
+    {
+      "screen_id": "aa25bd35-5c64-425f-8494-519c4a4ad389",
+      "image_url": "https://mobbin.com/api/mcp/short/KGGTv9ge",
+      "position": 6
+    },
+    {
+      "screen_id": "3f51aaeb-5cee-4717-85cb-85579188ab2c",
+      "image_url": "https://mobbin.com/api/mcp/short/CgYlsDh6",
+      "position": 7
+    },
+    {
+      "screen_id": "2702fb8a-18bb-4a51-94a4-a1098758d9b5",
+      "image_url": "https://mobbin.com/api/mcp/short/9Z65RyX8",
+      "position": 8
+    },
+    {
+      "screen_id": "8a4c78c8-3579-4563-8301-659117da4bae",
+      "image_url": "https://mobbin.com/api/mcp/short/plUuaihD",
+      "position": 9
+    },
+    {
+      "screen_id": "03e839b1-5176-46af-b3e6-23a955ac2d76",
+      "image_url": "https://mobbin.com/api/mcp/short/cn4Thik8",
+      "position": 10
+    },
+    {
+      "screen_id": "a6dbe31f-9def-4f1c-821b-48b7b50fe7e9",
+      "image_url": "https://mobbin.com/api/mcp/short/sVvnear6",
+      "position": 11
+    },
+    {
+      "screen_id": "c161662b-fd5b-48fa-aab1-86d284323987",
+      "image_url": "https://mobbin.com/api/mcp/short/Z3uHKldV",
+      "position": 12
+    },
+    {
+      "screen_id": "4972c3e9-9d19-427b-ab92-5d3458994141",
+      "image_url": "https://mobbin.com/api/mcp/short/v0GXS3yu",
+      "position": 13
+    },
+    {
+      "screen_id": "c90dddcd-6f09-4fe7-b57d-48b21c0231be",
+      "image_url": "https://mobbin.com/api/mcp/short/owphYOxq",
+      "position": 14
+    },
+    {
+      "screen_id": "70b96f92-a683-4a2f-b134-4df766b37ea2",
+      "image_url": "https://mobbin.com/api/mcp/short/iemRR7xG",
+      "position": 15
+    },
+    {
+      "screen_id": "f20fe5c0-3a73-41af-9867-b33e5ae14637",
+      "image_url": "https://mobbin.com/api/mcp/short/0EkyuS7Z",
+      "position": 16
+    },
+    {
+      "screen_id": "12ad8656-00b6-4409-b6f4-b5f3698c7ead",
+      "image_url": "https://mobbin.com/api/mcp/short/F5b4n8wd",
+      "position": 17
+    },
+    {
+      "screen_id": "494a26ab-fae0-4577-8444-f97556e8ea74",
+      "image_url": "https://mobbin.com/api/mcp/short/VFJA3YpJ",
+      "position": 18
+    }
+  ]
+}

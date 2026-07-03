@@ -1,0 +1,21 @@
+{
+  "id": "3ee01e10-b2e3-4af5-8216-62f5b3133a20",
+  "name": "Plan introduction",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/3ee01e10-b2e3-4af5-8216-62f5b3133a20",
+  "app_name": "Runna",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "45d278b1-9b2a-4447-b0fc-2cd6878270f5",
+      "image_url": "https://mobbin.com/api/mcp/short/Yl9tuo2d",
+      "position": 1
+    },
+    {
+      "screen_id": "51c7513c-109d-4540-a498-090abce3eea9",
+      "image_url": "https://mobbin.com/api/mcp/short/tiNMmVC2",
+      "position": 2
+    }
+  ]
+}

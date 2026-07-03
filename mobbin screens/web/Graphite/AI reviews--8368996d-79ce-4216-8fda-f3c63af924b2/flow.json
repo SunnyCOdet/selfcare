@@ -1,0 +1,31 @@
+{
+  "id": "8368996d-79ce-4216-8fda-f3c63af924b2",
+  "name": "AI reviews",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8368996d-79ce-4216-8fda-f3c63af924b2",
+  "app_name": "Graphite",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3dd2fc0a-d8e9-4755-961d-b86caf476217",
+      "image_url": "https://mobbin.com/api/mcp/short/hCJ4Ivd3",
+      "position": 1
+    },
+    {
+      "screen_id": "af18773f-d529-4239-872f-def83ade59cd",
+      "image_url": "https://mobbin.com/api/mcp/short/v5FXTMtd",
+      "position": 2
+    },
+    {
+      "screen_id": "033884c4-3e1f-4d8a-8c66-56e068a11026",
+      "image_url": "https://mobbin.com/api/mcp/short/xnsdRbMl",
+      "position": 3
+    },
+    {
+      "screen_id": "d0e03896-7815-4921-af2c-b7fe4e9399cd",
+      "image_url": "https://mobbin.com/api/mcp/short/NkHvwelI",
+      "position": 4
+    }
+  ]
+}

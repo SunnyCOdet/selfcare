@@ -1,0 +1,38 @@
+{
+  "id": "7a685266-422f-41c9-8aba-a4ecaf19c5ef",
+  "name": "Setting up heart health notifications",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7a685266-422f-41c9-8aba-a4ecaf19c5ef",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "08f30d55-94c5-4217-b621-90797b762893",
+      "image_url": "https://mobbin.com/api/mcp/short/KADRAG9e",
+      "position": 1
+    },
+    {
+      "screen_id": "ba490e4c-d79c-42d6-9b3e-f36f78328f69",
+      "image_url": "https://mobbin.com/api/mcp/short/c3YwIsDs",
+      "position": 2
+    },
+    {
+      "screen_id": "6d162994-13d8-4cf9-97fd-52012fcdb609",
+      "image_url": "https://mobbin.com/api/mcp/short/dgSpBlyc",
+      "position": 3
+    },
+    {
+      "screen_id": "0f311580-6e21-44d8-b11a-41524e269cba",
+      "image_url": "https://mobbin.com/api/mcp/short/waApCnML",
+      "position": 4
+    },
+    {
+      "screen_id": "fa9b73b4-2972-44a7-ac5c-f292e36c00df",
+      "image_url": "https://mobbin.com/api/mcp/short/cA63sUXF",
+      "position": 5
+    }
+  ]
+}

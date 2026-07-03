@@ -1,0 +1,49 @@
+{
+  "id": "bdd86ab8-492e-4482-8fd9-d11020a61830",
+  "name": "Generating text with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bdd86ab8-492e-4482-8fd9-d11020a61830",
+  "app_name": "Arcade",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "c4a7792c-2a5a-4d11-8d7c-4a7bc8c8443e",
+      "image_url": "https://mobbin.com/api/mcp/short/wN7pGczU",
+      "position": 1
+    },
+    {
+      "screen_id": "2612132e-6868-4760-bbae-4de81b8cc7f3",
+      "image_url": "https://mobbin.com/api/mcp/short/qe873fkT",
+      "position": 2
+    },
+    {
+      "screen_id": "a52d2224-1fe6-4064-8616-1144f21fb8e7",
+      "image_url": "https://mobbin.com/api/mcp/short/8kQ1mXH5",
+      "position": 3
+    },
+    {
+      "screen_id": "d3e4bec3-4335-493a-a9ca-3f9ce8e9e0ae",
+      "image_url": "https://mobbin.com/api/mcp/short/3q1sITkg",
+      "position": 4
+    },
+    {
+      "screen_id": "a199c820-9445-408d-bca1-51560c0edaae",
+      "image_url": "https://mobbin.com/api/mcp/short/49Sl9C88",
+      "position": 5
+    },
+    {
+      "screen_id": "5c2efc12-9a4a-4d84-979b-4fa5cee64a49",
+      "image_url": "https://mobbin.com/api/mcp/short/q3NZHePr",
+      "position": 6
+    },
+    {
+      "screen_id": "2f170cb8-3608-4d1c-9e7d-76ddf855e454",
+      "image_url": "https://mobbin.com/api/mcp/short/BIozRcnt",
+      "position": 7
+    }
+  ]
+}

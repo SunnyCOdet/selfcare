@@ -1,0 +1,33 @@
+{
+  "id": "eb918283-c3c0-4d1f-896b-e0480200df41",
+  "name": "Turning on diabetes tracking",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/eb918283-c3c0-4d1f-896b-e0480200df41",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "6c151808-8ee4-48de-a52f-94aef5df10fd",
+      "image_url": "https://mobbin.com/api/mcp/short/2FvyvM3A",
+      "position": 1
+    },
+    {
+      "screen_id": "6bb568e5-c988-4c0a-a6c8-9d28abbdccca",
+      "image_url": "https://mobbin.com/api/mcp/short/wTWao6rg",
+      "position": 2
+    },
+    {
+      "screen_id": "dde47e65-7bea-40fb-9d9c-a34ff98e232c",
+      "image_url": "https://mobbin.com/api/mcp/short/wpmz3zTs",
+      "position": 3
+    },
+    {
+      "screen_id": "061010d5-d288-4e5f-80d0-a227ca034e30",
+      "image_url": "https://mobbin.com/api/mcp/short/bJ6Y0qxj",
+      "position": 4
+    }
+  ]
+}

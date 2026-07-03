@@ -1,0 +1,38 @@
+{
+  "id": "1f7fbef3-f51c-4133-bf86-8acdf1092977",
+  "name": "Selecting applicable products",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1f7fbef3-f51c-4133-bf86-8acdf1092977",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "d873d9a3-2c62-4628-b26d-c13278455718",
+      "image_url": "https://mobbin.com/api/mcp/short/ALmOGXH5",
+      "position": 1
+    },
+    {
+      "screen_id": "7b1d4125-a845-491d-a5d2-b4dc5be6d2f3",
+      "image_url": "https://mobbin.com/api/mcp/short/9lz91gjd",
+      "position": 2
+    },
+    {
+      "screen_id": "09f4432d-2ce3-4081-899c-d3434c68dcbd",
+      "image_url": "https://mobbin.com/api/mcp/short/CeGPsFwF",
+      "position": 3
+    },
+    {
+      "screen_id": "c55d6afe-bb51-4f83-918f-3b51df554733",
+      "image_url": "https://mobbin.com/api/mcp/short/gASwVvAf",
+      "position": 4
+    },
+    {
+      "screen_id": "c6b42d62-30da-4240-ae5b-4428e1f61e9f",
+      "image_url": "https://mobbin.com/api/mcp/short/tX7HuOJL",
+      "position": 5
+    }
+  ]
+}

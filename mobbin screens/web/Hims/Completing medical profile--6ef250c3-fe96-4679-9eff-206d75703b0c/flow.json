@@ -1,0 +1,53 @@
+{
+  "id": "6ef250c3-fe96-4679-9eff-206d75703b0c",
+  "name": "Completing medical profile",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6ef250c3-fe96-4679-9eff-206d75703b0c",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "2ea82025-0738-4679-bd09-380ca8287e10",
+      "image_url": "https://mobbin.com/api/mcp/short/8UZ83COU",
+      "position": 1
+    },
+    {
+      "screen_id": "d4755ea2-5489-4e23-870e-472963e687bb",
+      "image_url": "https://mobbin.com/api/mcp/short/ujNLkIx6",
+      "position": 2
+    },
+    {
+      "screen_id": "c1c6bc4c-da45-4d28-9a02-d65f8523ef57",
+      "image_url": "https://mobbin.com/api/mcp/short/SvFZekfj",
+      "position": 3
+    },
+    {
+      "screen_id": "7601c60e-578b-4cbd-8a46-76b22b1a3437",
+      "image_url": "https://mobbin.com/api/mcp/short/9CAUov76",
+      "position": 4
+    },
+    {
+      "screen_id": "754c37a7-9dc0-418c-8ff7-15f7a4a9df36",
+      "image_url": "https://mobbin.com/api/mcp/short/uF57qSRD",
+      "position": 5
+    },
+    {
+      "screen_id": "f6f5d556-eec5-4b3d-8424-d6df004f7330",
+      "image_url": "https://mobbin.com/api/mcp/short/GjGZhcGo",
+      "position": 6
+    },
+    {
+      "screen_id": "daf42a1e-1fa7-4d53-94ba-af90655996ca",
+      "image_url": "https://mobbin.com/api/mcp/short/TfufEjBc",
+      "position": 7
+    },
+    {
+      "screen_id": "8c490dc6-6e6c-4650-9460-04e3237648d5",
+      "image_url": "https://mobbin.com/api/mcp/short/ILECl43i",
+      "position": 8
+    }
+  ]
+}

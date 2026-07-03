@@ -1,0 +1,68 @@
+{
+  "id": "2b100c5a-a145-4245-8005-efbbba1021f5",
+  "name": "Creating a task",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2b100c5a-a145-4245-8005-efbbba1021f5",
+  "app_name": "Gusto",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "be8c3958-a3b1-465e-95fd-6fce7f041945",
+      "image_url": "https://mobbin.com/api/mcp/short/TVoXcYdB",
+      "position": 1
+    },
+    {
+      "screen_id": "35e2e438-2ca8-4614-8ec0-ab4f730c965d",
+      "image_url": "https://mobbin.com/api/mcp/short/9IcTrCXP",
+      "position": 2
+    },
+    {
+      "screen_id": "70df3009-5231-4d65-97a7-46fef3edde77",
+      "image_url": "https://mobbin.com/api/mcp/short/LwNy0pr7",
+      "position": 3
+    },
+    {
+      "screen_id": "030224c2-2326-4e00-938c-d6d90b7a087d",
+      "image_url": "https://mobbin.com/api/mcp/short/4J0v0at1",
+      "position": 4
+    },
+    {
+      "screen_id": "4730019a-9c23-440d-942a-97ace1c4e673",
+      "image_url": "https://mobbin.com/api/mcp/short/pRiWHTp5",
+      "position": 5
+    },
+    {
+      "screen_id": "6b85fcca-4755-43fe-862e-56e2070b5cd3",
+      "image_url": "https://mobbin.com/api/mcp/short/CGlyfeBT",
+      "position": 6
+    },
+    {
+      "screen_id": "bf391882-8858-4ea6-87b9-7b42822d5c20",
+      "image_url": "https://mobbin.com/api/mcp/short/etpTVPeF",
+      "position": 7
+    },
+    {
+      "screen_id": "d9de5612-82b4-442d-97d1-111cb3acd0a2",
+      "image_url": "https://mobbin.com/api/mcp/short/jwEZKBZZ",
+      "position": 8
+    },
+    {
+      "screen_id": "e72f45c1-f14f-43fa-89d8-25c94f7fefe2",
+      "image_url": "https://mobbin.com/api/mcp/short/9ofSe3ye",
+      "position": 9
+    },
+    {
+      "screen_id": "3afbec3c-4473-4111-bcb4-26e857dcb4d5",
+      "image_url": "https://mobbin.com/api/mcp/short/3Nkh93YQ",
+      "position": 10
+    },
+    {
+      "screen_id": "ce2bd511-d228-4ff7-b917-b368de982d97",
+      "image_url": "https://mobbin.com/api/mcp/short/Tbpbe7ht",
+      "position": 11
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "aa765507-a1be-4d18-9e5f-363eac763995",
+  "name": "Generating a description with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/aa765507-a1be-4d18-9e5f-363eac763995",
+  "app_name": "Whop",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ec099cfe-2adf-4fed-ae48-a6e680cbaf2d",
+      "image_url": "https://mobbin.com/api/mcp/short/RlUF0goq",
+      "position": 1
+    },
+    {
+      "screen_id": "20ac85d2-d355-4633-82c4-27194cb93cfb",
+      "image_url": "https://mobbin.com/api/mcp/short/4NEbgANj",
+      "position": 2
+    },
+    {
+      "screen_id": "86badbac-aad3-4f0c-b3f7-9ffe35678cec",
+      "image_url": "https://mobbin.com/api/mcp/short/ds3q612V",
+      "position": 3
+    },
+    {
+      "screen_id": "108c7927-32cb-42cc-a73d-7d0fc3969fac",
+      "image_url": "https://mobbin.com/api/mcp/short/EHcYJ0qg",
+      "position": 4
+    },
+    {
+      "screen_id": "ce518c2e-3dbe-4a9c-9527-4650b329c6e6",
+      "image_url": "https://mobbin.com/api/mcp/short/NlHDH5lq",
+      "position": 5
+    }
+  ]
+}

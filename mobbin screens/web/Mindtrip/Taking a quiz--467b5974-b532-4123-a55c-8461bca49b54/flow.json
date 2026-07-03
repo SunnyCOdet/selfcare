@@ -1,0 +1,78 @@
+{
+  "id": "467b5974-b532-4123-a55c-8461bca49b54",
+  "name": "Taking a quiz",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/467b5974-b532-4123-a55c-8461bca49b54",
+  "app_name": "Mindtrip",
+  "platform": "web",
+  "screen_count": 13,
+  "screens": [
+    {
+      "screen_id": "260683ec-edbd-4a0e-a500-9a0e80b48847",
+      "image_url": "https://mobbin.com/api/mcp/short/ONSwZkxA",
+      "position": 1
+    },
+    {
+      "screen_id": "afb45703-234d-4f86-bf5d-54039ece367f",
+      "image_url": "https://mobbin.com/api/mcp/short/iLW1wGX9",
+      "position": 2
+    },
+    {
+      "screen_id": "7a312085-1081-4c71-bc39-7e80250dd582",
+      "image_url": "https://mobbin.com/api/mcp/short/zOJPFgjk",
+      "position": 3
+    },
+    {
+      "screen_id": "88158adf-3167-4030-b9f9-1e223600ac9f",
+      "image_url": "https://mobbin.com/api/mcp/short/rIspe6N7",
+      "position": 4
+    },
+    {
+      "screen_id": "7177f79a-1567-4733-93fc-d00860e80e4e",
+      "image_url": "https://mobbin.com/api/mcp/short/oH3HNZub",
+      "position": 5
+    },
+    {
+      "screen_id": "58815559-9033-44ad-adca-456c458e4d3b",
+      "image_url": "https://mobbin.com/api/mcp/short/5WH57f3S",
+      "position": 6
+    },
+    {
+      "screen_id": "a7ee5437-6fe8-404e-84eb-a2e70aaef6d7",
+      "image_url": "https://mobbin.com/api/mcp/short/56RNBFPS",
+      "position": 7
+    },
+    {
+      "screen_id": "ad569e7b-c6af-4620-91e8-77b6d9ab050c",
+      "image_url": "https://mobbin.com/api/mcp/short/2PeWASaG",
+      "position": 8
+    },
+    {
+      "screen_id": "8f5cd5cb-0385-4d7e-a01f-3619935b52b7",
+      "image_url": "https://mobbin.com/api/mcp/short/bxmlc9wf",
+      "position": 9
+    },
+    {
+      "screen_id": "39ff17cb-74d3-42fc-b458-b9fef0c5f8ef",
+      "image_url": "https://mobbin.com/api/mcp/short/KCjAK6eT",
+      "position": 10
+    },
+    {
+      "screen_id": "62a9d9a0-aba5-46c4-aa49-7bec2a8a9a36",
+      "image_url": "https://mobbin.com/api/mcp/short/LgBo6xBs",
+      "position": 11
+    },
+    {
+      "screen_id": "f42b58a7-187e-411c-a5a5-7c26d2541ddc",
+      "image_url": "https://mobbin.com/api/mcp/short/yuCHmoP6",
+      "position": 12
+    },
+    {
+      "screen_id": "355a8500-f058-4f54-9221-04fbc44e9a7e",
+      "image_url": "https://mobbin.com/api/mcp/short/zv8mf6Am",
+      "position": 13
+    }
+  ]
+}

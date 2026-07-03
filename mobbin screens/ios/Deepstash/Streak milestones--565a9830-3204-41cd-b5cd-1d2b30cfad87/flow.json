@@ -1,0 +1,36 @@
+{
+  "id": "565a9830-3204-41cd-b5cd-1d2b30cfad87",
+  "name": "Streak milestones",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/565a9830-3204-41cd-b5cd-1d2b30cfad87",
+  "app_name": "Deepstash",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "bc128eac-b075-45e7-9548-f642c443cb3a",
+      "image_url": "https://mobbin.com/api/mcp/short/s9uVl8P6",
+      "position": 1
+    },
+    {
+      "screen_id": "a754fe05-cda2-4dbb-a361-19a2a6f02ef4",
+      "image_url": "https://mobbin.com/api/mcp/short/dmyLa9bz",
+      "position": 2
+    },
+    {
+      "screen_id": "ca8c28fd-d8d2-4afa-8805-5954f76393a5",
+      "image_url": "https://mobbin.com/api/mcp/short/iGZKckK1",
+      "position": 3
+    },
+    {
+      "screen_id": "be0a1deb-151f-4c78-887d-6c36b6d47699",
+      "image_url": "https://mobbin.com/api/mcp/short/SPjVr6D3",
+      "position": 4
+    },
+    {
+      "screen_id": "c72ea2b3-f2f5-4a72-a753-3440ac40e6db",
+      "image_url": "https://mobbin.com/api/mcp/short/zGXHf0XL",
+      "position": 5
+    }
+  ]
+}

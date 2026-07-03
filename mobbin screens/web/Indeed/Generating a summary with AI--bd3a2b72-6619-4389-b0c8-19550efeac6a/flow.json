@@ -1,0 +1,59 @@
+{
+  "id": "bd3a2b72-6619-4389-b0c8-19550efeac6a",
+  "name": "Generating a summary with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bd3a2b72-6619-4389-b0c8-19550efeac6a",
+  "app_name": "Indeed",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "528455cb-e94d-4173-88f8-62aaeefc97d0",
+      "image_url": "https://mobbin.com/api/mcp/short/ZHRhHK26",
+      "position": 1
+    },
+    {
+      "screen_id": "3f8acfd4-0270-43d0-9498-27e7a79b79b1",
+      "image_url": "https://mobbin.com/api/mcp/short/YKJ1vx4V",
+      "position": 2
+    },
+    {
+      "screen_id": "fbbb3bc4-80f6-486d-b709-5f332506d641",
+      "image_url": "https://mobbin.com/api/mcp/short/Qyw63UOo",
+      "position": 3
+    },
+    {
+      "screen_id": "63fa7d62-4e2c-44fb-8db2-c027136d8aa6",
+      "image_url": "https://mobbin.com/api/mcp/short/RvuBjnAT",
+      "position": 4
+    },
+    {
+      "screen_id": "e6ec42e4-6f11-4f2a-9e8e-58b5f97d2c45",
+      "image_url": "https://mobbin.com/api/mcp/short/TCmyZOiM",
+      "position": 5
+    },
+    {
+      "screen_id": "255e1af6-cf41-4fd2-8109-b2707e06be8d",
+      "image_url": "https://mobbin.com/api/mcp/short/BsbLfsti",
+      "position": 6
+    },
+    {
+      "screen_id": "f2e2f1d2-7ab0-4e3b-a01a-9a76cb410b74",
+      "image_url": "https://mobbin.com/api/mcp/short/RI1syj8a",
+      "position": 7
+    },
+    {
+      "screen_id": "b0a2658f-4d76-4095-995e-442ae25fda3d",
+      "image_url": "https://mobbin.com/api/mcp/short/TTGjcaF7",
+      "position": 8
+    },
+    {
+      "screen_id": "333fe69f-510e-4462-bf68-a73653fae0f5",
+      "image_url": "https://mobbin.com/api/mcp/short/gPF4zfVu",
+      "position": 9
+    }
+  ]
+}

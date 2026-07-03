@@ -1,0 +1,70 @@
+{
+  "id": "97e25688-e13b-40ae-9e4a-ae6e8f0e3086",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In",
+    "Onboarding",
+    "Verifying"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/97e25688-e13b-40ae-9e4a-ae6e8f0e3086",
+  "app_name": "Indeed",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "bd7f2cf2-1a31-4d8d-9ef6-4035180ace73",
+      "image_url": "https://mobbin.com/api/mcp/short/17nuVVSF",
+      "position": 1
+    },
+    {
+      "screen_id": "871530ec-d43d-4c06-8fc1-8234561b90c5",
+      "image_url": "https://mobbin.com/api/mcp/short/9GmkJxTN",
+      "position": 2
+    },
+    {
+      "screen_id": "e499f12a-4bdb-42b0-9fbf-dcbb00c60e63",
+      "image_url": "https://mobbin.com/api/mcp/short/0MJwGcN4",
+      "position": 3
+    },
+    {
+      "screen_id": "ce92f263-de15-4520-b8a5-66ee79d2ae64",
+      "image_url": "https://mobbin.com/api/mcp/short/noy00Fyh",
+      "position": 4
+    },
+    {
+      "screen_id": "df1058e4-04fe-414d-a8ad-1efb5831ac6b",
+      "image_url": "https://mobbin.com/api/mcp/short/uMcczTjZ",
+      "position": 5
+    },
+    {
+      "screen_id": "1181037a-3d0c-4569-b213-e4a444944745",
+      "image_url": "https://mobbin.com/api/mcp/short/XRvl9hf2",
+      "position": 6
+    },
+    {
+      "screen_id": "24ab03cd-fbe9-46ab-9918-0c2c4f176a11",
+      "image_url": "https://mobbin.com/api/mcp/short/NNrjM2x9",
+      "position": 7
+    },
+    {
+      "screen_id": "ca14fc76-ac39-42f3-a620-9c29ca35bbf7",
+      "image_url": "https://mobbin.com/api/mcp/short/zdaTL3ls",
+      "position": 8
+    },
+    {
+      "screen_id": "d2b3d188-8faf-42d8-8f8f-8c9cc59d6f1d",
+      "image_url": "https://mobbin.com/api/mcp/short/crS7tjm9",
+      "position": 9
+    },
+    {
+      "screen_id": "fcc442d9-9a35-4a54-8a7c-9fb5abd27182",
+      "image_url": "https://mobbin.com/api/mcp/short/8AZQAWrI",
+      "position": 10
+    },
+    {
+      "screen_id": "65c17e19-e742-4561-9235-d885a0d08fce",
+      "image_url": "https://mobbin.com/api/mcp/short/gMY1W4hg",
+      "position": 11
+    }
+  ]
+}

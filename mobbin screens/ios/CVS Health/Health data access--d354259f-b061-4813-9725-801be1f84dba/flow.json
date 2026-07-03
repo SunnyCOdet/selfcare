@@ -1,0 +1,26 @@
+{
+  "id": "d354259f-b061-4813-9725-801be1f84dba",
+  "name": "Health data access",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d354259f-b061-4813-9725-801be1f84dba",
+  "app_name": "CVS Health",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "7bfd68bd-058d-4b39-b097-b448b3ac6ab4",
+      "image_url": "https://mobbin.com/api/mcp/short/TCIEQukO",
+      "position": 1
+    },
+    {
+      "screen_id": "420b6ccf-0797-4763-9445-b91ea330ddd2",
+      "image_url": "https://mobbin.com/api/mcp/short/5LJDFg2w",
+      "position": 2
+    },
+    {
+      "screen_id": "801d295e-e42b-4cdf-a921-8c3348215f78",
+      "image_url": "https://mobbin.com/api/mcp/short/17IXlOOc",
+      "position": 3
+    }
+  ]
+}

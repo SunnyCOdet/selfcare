@@ -1,0 +1,69 @@
+{
+  "id": "5b5cd23c-f2da-425f-a83b-f58b8fe163cb",
+  "name": "Onboarding",
+  "actions": [
+    "Following & Subscribing",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5b5cd23c-f2da-425f-a83b-f58b8fe163cb",
+  "app_name": "Formula 1®",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "ad0f6071-ea62-45ef-a799-64ab20c77eeb",
+      "image_url": "https://mobbin.com/api/mcp/short/NZB5gdSt",
+      "position": 1
+    },
+    {
+      "screen_id": "4795afe6-61cd-48d8-84cb-1ff0a7f33e1a",
+      "image_url": "https://mobbin.com/api/mcp/short/FFRXe1Zm",
+      "position": 2
+    },
+    {
+      "screen_id": "9b393086-e779-4372-b308-83e88709838b",
+      "image_url": "https://mobbin.com/api/mcp/short/XlTJw23g",
+      "position": 3
+    },
+    {
+      "screen_id": "4e60ae5f-8b21-47d8-adb5-b34303608908",
+      "image_url": "https://mobbin.com/api/mcp/short/XpYHUyJO",
+      "position": 4
+    },
+    {
+      "screen_id": "7f0e8a60-a0dc-4913-8b9f-e338bf2ad23c",
+      "image_url": "https://mobbin.com/api/mcp/short/CQ8iBBYs",
+      "position": 5
+    },
+    {
+      "screen_id": "d09a5f27-fb26-4ead-a2df-3af018905d29",
+      "image_url": "https://mobbin.com/api/mcp/short/1kR1w1Rw",
+      "position": 6
+    },
+    {
+      "screen_id": "8c89ed00-1c9c-4465-bcb6-a47d513d7721",
+      "image_url": "https://mobbin.com/api/mcp/short/CQWYGZM7",
+      "position": 7
+    },
+    {
+      "screen_id": "e802bdfd-eccb-46e2-a2e7-5de946d1cac4",
+      "image_url": "https://mobbin.com/api/mcp/short/G4RSNGZF",
+      "position": 8
+    },
+    {
+      "screen_id": "ba029f58-b05a-4c36-bf86-644ae83a2fcb",
+      "image_url": "https://mobbin.com/api/mcp/short/FDAV4NZP",
+      "position": 9
+    },
+    {
+      "screen_id": "db06c40b-4e91-49de-ae75-8626998133a6",
+      "image_url": "https://mobbin.com/api/mcp/short/OVmayd6g",
+      "position": 10
+    },
+    {
+      "screen_id": "19c5129d-89a9-4391-9b3a-fd87ea0d314e",
+      "image_url": "https://mobbin.com/api/mcp/short/zMZKVoeT",
+      "position": 11
+    }
+  ]
+}

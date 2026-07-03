@@ -1,0 +1,54 @@
+{
+  "id": "1e6a66d9-2186-4219-9aaf-4b09968fe447",
+  "name": "Chatting with Lightfield AI (with doc)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Uploading & Downloading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1e6a66d9-2186-4219-9aaf-4b09968fe447",
+  "app_name": "Lightfield",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "6fcd23da-34c0-4578-aab6-13c6dc55050f",
+      "image_url": "https://mobbin.com/api/mcp/short/if1mTEkJ",
+      "position": 1
+    },
+    {
+      "screen_id": "a77b052b-5612-4588-895a-6cc553d5b18d",
+      "image_url": "https://mobbin.com/api/mcp/short/wpxn3ZuX",
+      "position": 2
+    },
+    {
+      "screen_id": "92355491-bdc2-4932-b817-31ba408332f2",
+      "image_url": "https://mobbin.com/api/mcp/short/tG9Ng0q8",
+      "position": 3
+    },
+    {
+      "screen_id": "4e11b2fe-dee1-4d2d-a554-704a197c5905",
+      "image_url": "https://mobbin.com/api/mcp/short/vibfofeX",
+      "position": 4
+    },
+    {
+      "screen_id": "aa64b478-ed2d-4b74-8cf9-2f975acec365",
+      "image_url": "https://mobbin.com/api/mcp/short/3ik331AZ",
+      "position": 5
+    },
+    {
+      "screen_id": "ef48aca6-0a73-497c-b431-837a38eaf981",
+      "image_url": "https://mobbin.com/api/mcp/short/qyOsXIgB",
+      "position": 6
+    },
+    {
+      "screen_id": "99d01dcd-a6c6-4a51-8e61-b202b1fe08af",
+      "image_url": "https://mobbin.com/api/mcp/short/V4qXu74g",
+      "position": 7
+    },
+    {
+      "screen_id": "5b5f4b9f-5940-47a0-845d-f6c74bac4de8",
+      "image_url": "https://mobbin.com/api/mcp/short/N6vB6zXt",
+      "position": 8
+    }
+  ]
+}

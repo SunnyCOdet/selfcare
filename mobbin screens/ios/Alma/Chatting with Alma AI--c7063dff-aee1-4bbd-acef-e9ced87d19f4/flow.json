@@ -1,0 +1,43 @@
+{
+  "id": "c7063dff-aee1-4bbd-acef-e9ced87d19f4",
+  "name": "Chatting with Alma AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c7063dff-aee1-4bbd-acef-e9ced87d19f4",
+  "app_name": "Alma",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "e9a53abe-0ddd-4212-b16c-268cb18c2576",
+      "image_url": "https://mobbin.com/api/mcp/short/Zao2e8bf",
+      "position": 1
+    },
+    {
+      "screen_id": "c4845d0c-6aab-4b72-85e1-e5b1832d7472",
+      "image_url": "https://mobbin.com/api/mcp/short/TRZUHklP",
+      "position": 2
+    },
+    {
+      "screen_id": "72cddfec-051b-42e9-98f8-c5087f1a2d99",
+      "image_url": "https://mobbin.com/api/mcp/short/94BwtuUT",
+      "position": 3
+    },
+    {
+      "screen_id": "eb4291f6-1585-4c8e-a227-41987dc82f9b",
+      "image_url": "https://mobbin.com/api/mcp/short/NKpMSz4t",
+      "position": 4
+    },
+    {
+      "screen_id": "023ee429-ccf6-46ce-85d7-1cc5aef73cfd",
+      "image_url": "https://mobbin.com/api/mcp/short/1SZ475UI",
+      "position": 5
+    },
+    {
+      "screen_id": "ac18a87a-7d82-457e-bd2e-535cc919a989",
+      "image_url": "https://mobbin.com/api/mcp/short/1vtQrih8",
+      "position": 6
+    }
+  ]
+}

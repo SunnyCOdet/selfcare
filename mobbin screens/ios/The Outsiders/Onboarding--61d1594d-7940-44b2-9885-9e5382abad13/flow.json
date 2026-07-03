@@ -1,0 +1,64 @@
+{
+  "id": "61d1594d-7940-44b2-9885-9e5382abad13",
+  "name": "Onboarding",
+  "actions": [
+    "Connecting & Linking",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/61d1594d-7940-44b2-9885-9e5382abad13",
+  "app_name": "The Outsiders",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "37b767e5-9e3d-40f0-83c1-9526f913d96e",
+      "image_url": "https://mobbin.com/api/mcp/short/oocM4SvT",
+      "position": 1
+    },
+    {
+      "screen_id": "e574408f-6e68-4327-8925-43fdecf58e0e",
+      "image_url": "https://mobbin.com/api/mcp/short/MqvBUG3F",
+      "position": 2
+    },
+    {
+      "screen_id": "e19218d8-04f5-44e7-9b6b-03685b11c134",
+      "image_url": "https://mobbin.com/api/mcp/short/C9Mi4MOF",
+      "position": 3
+    },
+    {
+      "screen_id": "025c94c9-1263-467b-869a-85a75f3863d0",
+      "image_url": "https://mobbin.com/api/mcp/short/jCA4Gac0",
+      "position": 4
+    },
+    {
+      "screen_id": "ade88676-c2dd-42cf-99ad-4acc16e4bdb9",
+      "image_url": "https://mobbin.com/api/mcp/short/P7fxcO84",
+      "position": 5
+    },
+    {
+      "screen_id": "3aaaa81a-8563-4317-8e9e-679ab71e31e6",
+      "image_url": "https://mobbin.com/api/mcp/short/iYmFWoAV",
+      "position": 6
+    },
+    {
+      "screen_id": "a5773fb6-0225-4a46-836e-84d1cfb01dbf",
+      "image_url": "https://mobbin.com/api/mcp/short/WkaVzbwW",
+      "position": 7
+    },
+    {
+      "screen_id": "66485262-6b44-43b2-8f43-fdb625fdee25",
+      "image_url": "https://mobbin.com/api/mcp/short/qPNpPxoq",
+      "position": 8
+    },
+    {
+      "screen_id": "eb4872d7-350d-4e8d-8ebf-5152b54cdb99",
+      "image_url": "https://mobbin.com/api/mcp/short/IrSYQvyw",
+      "position": 9
+    },
+    {
+      "screen_id": "9917344e-3eeb-48b4-9756-b87f3aec3da9",
+      "image_url": "https://mobbin.com/api/mcp/short/LnRYszhL",
+      "position": 10
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "adb4c14d-c83d-4d5f-9e27-eefbf75678cc",
+  "name": "Enrolling to a course",
+  "actions": [
+    "Registering",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/adb4c14d-c83d-4d5f-9e27-eefbf75678cc",
+  "app_name": "Coursera",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "6c1c95a8-3f0f-499d-9bcd-deb41a0829fa",
+      "image_url": "https://mobbin.com/api/mcp/short/IDlU21VK",
+      "position": 1
+    },
+    {
+      "screen_id": "8f693afd-01a4-49ec-8efc-3a2490fb2088",
+      "image_url": "https://mobbin.com/api/mcp/short/ES8RzCJo",
+      "position": 2
+    },
+    {
+      "screen_id": "40405e42-eeed-4943-bf00-b002624fef4b",
+      "image_url": "https://mobbin.com/api/mcp/short/ENfDTkZy",
+      "position": 3
+    },
+    {
+      "screen_id": "6608a0b3-55fb-478b-9df5-7d95acfe8993",
+      "image_url": "https://mobbin.com/api/mcp/short/ZGuqjoyO",
+      "position": 4
+    },
+    {
+      "screen_id": "64169a15-9b0f-4d9c-8d8a-006e9295762c",
+      "image_url": "https://mobbin.com/api/mcp/short/xhRlSYmP",
+      "position": 5
+    },
+    {
+      "screen_id": "bc954295-b6f1-479b-887a-e2eb39f98f79",
+      "image_url": "https://mobbin.com/api/mcp/short/4sqbVOPC",
+      "position": 6
+    },
+    {
+      "screen_id": "d76cce29-fa86-4e42-a549-54d3765ad5d9",
+      "image_url": "https://mobbin.com/api/mcp/short/6EY1B9NG",
+      "position": 7
+    }
+  ]
+}

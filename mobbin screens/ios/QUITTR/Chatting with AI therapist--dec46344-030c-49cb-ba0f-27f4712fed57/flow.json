@@ -1,0 +1,33 @@
+{
+  "id": "dec46344-030c-49cb-ba0f-27f4712fed57",
+  "name": "Chatting with AI therapist",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dec46344-030c-49cb-ba0f-27f4712fed57",
+  "app_name": "QUITTR",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "acb125ac-6150-437a-9936-4fb3c65e7f7c",
+      "image_url": "https://mobbin.com/api/mcp/short/sWH67vD5",
+      "position": 1
+    },
+    {
+      "screen_id": "e24aa269-ddf7-48c8-bd67-5d2cc2a98c79",
+      "image_url": "https://mobbin.com/api/mcp/short/FQsMGiYi",
+      "position": 2
+    },
+    {
+      "screen_id": "1e53866b-4ea8-41a2-bf54-7c31fb6ceff2",
+      "image_url": "https://mobbin.com/api/mcp/short/ciOr6JA6",
+      "position": 3
+    },
+    {
+      "screen_id": "f93d1678-0420-4254-be93-002424f99a9f",
+      "image_url": "https://mobbin.com/api/mcp/short/8TXwzM3F",
+      "position": 4
+    }
+  ]
+}

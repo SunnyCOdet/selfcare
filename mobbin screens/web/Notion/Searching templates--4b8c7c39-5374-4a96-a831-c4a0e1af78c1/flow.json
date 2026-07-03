@@ -1,0 +1,33 @@
+{
+  "id": "4b8c7c39-5374-4a96-a831-c4a0e1af78c1",
+  "name": "Searching templates",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4b8c7c39-5374-4a96-a831-c4a0e1af78c1",
+  "app_name": "Notion",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "e214966a-191f-4690-b93f-5559ac4b7e63",
+      "image_url": "https://mobbin.com/api/mcp/short/dimZGhEJ",
+      "position": 1
+    },
+    {
+      "screen_id": "b9f7591b-6b27-48a4-b1de-9e6c9ae5525b",
+      "image_url": "https://mobbin.com/api/mcp/short/bbOOmegy",
+      "position": 2
+    },
+    {
+      "screen_id": "155344b9-4f33-4f2a-ac6d-bb157e04c849",
+      "image_url": "https://mobbin.com/api/mcp/short/5h0oQDdi",
+      "position": 3
+    },
+    {
+      "screen_id": "ede27473-161e-43d9-9146-556b5fdddc74",
+      "image_url": "https://mobbin.com/api/mcp/short/xDKpoUv3",
+      "position": 4
+    }
+  ]
+}

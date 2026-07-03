@@ -1,0 +1,26 @@
+{
+  "id": "7833d404-cca1-435c-be90-4d610f0ecfa9",
+  "name": "AWS health dashboard",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/7833d404-cca1-435c-be90-4d610f0ecfa9",
+  "app_name": "Amazon Web Services (AWS)",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "58153503-cfd8-448b-a535-2cc4e5d1a05d",
+      "image_url": "https://mobbin.com/api/mcp/short/NU7Tn8IC",
+      "position": 1
+    },
+    {
+      "screen_id": "e75d05b8-77a8-4b44-8fa9-fbbf3daca2d2",
+      "image_url": "https://mobbin.com/api/mcp/short/1iRh9BE7",
+      "position": 2
+    },
+    {
+      "screen_id": "9291c01f-0f1f-44ed-a429-452d1010f4cb",
+      "image_url": "https://mobbin.com/api/mcp/short/ppZ4m3NB",
+      "position": 3
+    }
+  ]
+}

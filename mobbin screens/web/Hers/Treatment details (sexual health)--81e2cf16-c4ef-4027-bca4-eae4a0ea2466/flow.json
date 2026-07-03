@@ -1,0 +1,36 @@
+{
+  "id": "81e2cf16-c4ef-4027-bca4-eae4a0ea2466",
+  "name": "Treatment details (sexual health)",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/81e2cf16-c4ef-4027-bca4-eae4a0ea2466",
+  "app_name": "Hers",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "5ae11b0f-c750-4189-a215-52f30e1ad8ce",
+      "image_url": "https://mobbin.com/api/mcp/short/8MFiJnPw",
+      "position": 1
+    },
+    {
+      "screen_id": "f534b937-e8ae-45dc-8083-19cc50080cfd",
+      "image_url": "https://mobbin.com/api/mcp/short/u1rnvzFC",
+      "position": 2
+    },
+    {
+      "screen_id": "ab7bc1d6-ab9d-4524-91e8-8ff63acd3141",
+      "image_url": "https://mobbin.com/api/mcp/short/Yo3l9AAC",
+      "position": 3
+    },
+    {
+      "screen_id": "d9786116-865a-4432-b366-7e3c082d59a8",
+      "image_url": "https://mobbin.com/api/mcp/short/K2Iler7s",
+      "position": 4
+    },
+    {
+      "screen_id": "ebec2040-1717-4555-8a1f-7527492262f1",
+      "image_url": "https://mobbin.com/api/mcp/short/Qmqghj40",
+      "position": 5
+    }
+  ]
+}

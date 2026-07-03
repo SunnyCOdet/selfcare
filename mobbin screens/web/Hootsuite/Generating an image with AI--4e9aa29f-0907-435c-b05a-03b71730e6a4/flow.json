@@ -1,0 +1,54 @@
+{
+  "id": "4e9aa29f-0907-435c-b05a-03b71730e6a4",
+  "name": "Generating an image with AI",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4e9aa29f-0907-435c-b05a-03b71730e6a4",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "4064cb51-becc-475e-b9fb-a863713b52de",
+      "image_url": "https://mobbin.com/api/mcp/short/6uXFQp5e",
+      "position": 1
+    },
+    {
+      "screen_id": "d3920bb7-de8f-4aa4-ae9f-c9ce71d7f345",
+      "image_url": "https://mobbin.com/api/mcp/short/Ha2L6RqP",
+      "position": 2
+    },
+    {
+      "screen_id": "40b93ddd-db42-42e6-aa6c-03e93bffb5ef",
+      "image_url": "https://mobbin.com/api/mcp/short/RkEoZwXu",
+      "position": 3
+    },
+    {
+      "screen_id": "0928c2b3-ab77-472f-9f5e-9b5ec32cecbf",
+      "image_url": "https://mobbin.com/api/mcp/short/0UNMBPLD",
+      "position": 4
+    },
+    {
+      "screen_id": "998d132c-b87d-46dd-80c1-95cb3749bb63",
+      "image_url": "https://mobbin.com/api/mcp/short/oQVwBVAn",
+      "position": 5
+    },
+    {
+      "screen_id": "2abae655-a329-4157-9e35-de44bf0c8e53",
+      "image_url": "https://mobbin.com/api/mcp/short/Iaie4Rey",
+      "position": 6
+    },
+    {
+      "screen_id": "e0cee031-bd69-4e7b-ad82-0125e2ca50ed",
+      "image_url": "https://mobbin.com/api/mcp/short/uLm440kk",
+      "position": 7
+    },
+    {
+      "screen_id": "713598e0-b3e1-4b2c-af09-0efa18c2564d",
+      "image_url": "https://mobbin.com/api/mcp/short/vw1g2o84",
+      "position": 8
+    }
+  ]
+}

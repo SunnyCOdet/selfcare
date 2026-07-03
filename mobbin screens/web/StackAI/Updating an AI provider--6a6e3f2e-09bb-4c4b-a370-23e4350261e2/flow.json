@@ -1,0 +1,38 @@
+{
+  "id": "6a6e3f2e-09bb-4c4b-a370-23e4350261e2",
+  "name": "Updating an AI provider",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6a6e3f2e-09bb-4c4b-a370-23e4350261e2",
+  "app_name": "StackAI",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7e17057c-766e-498f-ae93-7da6525fb0ff",
+      "image_url": "https://mobbin.com/api/mcp/short/k76afkr2",
+      "position": 1
+    },
+    {
+      "screen_id": "c63aae4b-360f-4005-8522-8fd0210a2814",
+      "image_url": "https://mobbin.com/api/mcp/short/OwPJVFvj",
+      "position": 2
+    },
+    {
+      "screen_id": "789acbc0-f591-4b2f-b40c-18dd456a3c11",
+      "image_url": "https://mobbin.com/api/mcp/short/QZcDcW3r",
+      "position": 3
+    },
+    {
+      "screen_id": "d3e5630b-c1bf-4342-841b-d3d92a095e1a",
+      "image_url": "https://mobbin.com/api/mcp/short/bQVhZ3ds",
+      "position": 4
+    },
+    {
+      "screen_id": "e0fa1228-6502-475f-b782-b22e9179affa",
+      "image_url": "https://mobbin.com/api/mcp/short/6V6rHQVh",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "e04e20da-736a-4e79-98f5-6d2599eaba36",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e04e20da-736a-4e79-98f5-6d2599eaba36",
+  "app_name": "Gymshark",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "63db7fed-a447-438d-92f0-468c4e5d46a4",
+      "image_url": "https://mobbin.com/api/mcp/short/FRBPlQGa",
+      "position": 1
+    },
+    {
+      "screen_id": "b11a3705-431c-41c8-88d3-6297e32d00a2",
+      "image_url": "https://mobbin.com/api/mcp/short/wpQg7YQ0",
+      "position": 2
+    },
+    {
+      "screen_id": "a6b34e85-1237-4197-949d-46a7f577ae39",
+      "image_url": "https://mobbin.com/api/mcp/short/TjS60vs0",
+      "position": 3
+    },
+    {
+      "screen_id": "22265bc2-ece2-446f-b901-0e62a18952a8",
+      "image_url": "https://mobbin.com/api/mcp/short/HEfFt9c7",
+      "position": 4
+    },
+    {
+      "screen_id": "b6733bc0-9e0c-4a63-b03e-41fb51bdf9ba",
+      "image_url": "https://mobbin.com/api/mcp/short/mMIqf9Zd",
+      "position": 5
+    },
+    {
+      "screen_id": "3bac7169-c052-4801-800e-5df658d64861",
+      "image_url": "https://mobbin.com/api/mcp/short/NxQ8V7Y4",
+      "position": 6
+    },
+    {
+      "screen_id": "36c6acde-3eae-4161-979f-a0d06b16bc13",
+      "image_url": "https://mobbin.com/api/mcp/short/Kv0xK1Uz",
+      "position": 7
+    },
+    {
+      "screen_id": "eff7a167-4774-41dc-8615-661892523b79",
+      "image_url": "https://mobbin.com/api/mcp/short/924VjF0d",
+      "position": 8
+    },
+    {
+      "screen_id": "b2d16b56-b207-4188-8b6d-8f336a29e7a9",
+      "image_url": "https://mobbin.com/api/mcp/short/mCynOhel",
+      "position": 9
+    },
+    {
+      "screen_id": "8f75436f-0b2b-4de5-b711-ec257007b6fb",
+      "image_url": "https://mobbin.com/api/mcp/short/iaThBsct",
+      "position": 10
+    }
+  ]
+}

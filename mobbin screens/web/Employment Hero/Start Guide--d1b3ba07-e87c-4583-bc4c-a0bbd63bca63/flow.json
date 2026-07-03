@@ -1,0 +1,31 @@
+{
+  "id": "d1b3ba07-e87c-4583-bc4c-a0bbd63bca63",
+  "name": "Start Guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d1b3ba07-e87c-4583-bc4c-a0bbd63bca63",
+  "app_name": "Employment Hero",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5011f00f-7844-4e6f-9f1c-31bef4b66665",
+      "image_url": "https://mobbin.com/api/mcp/short/wboLtU3c",
+      "position": 1
+    },
+    {
+      "screen_id": "9494c3cc-e859-4eae-a5f6-b7a011a06942",
+      "image_url": "https://mobbin.com/api/mcp/short/udRu0tR6",
+      "position": 2
+    },
+    {
+      "screen_id": "fb1ffa39-5dae-4301-b78e-12ba30d14b10",
+      "image_url": "https://mobbin.com/api/mcp/short/DVkGiqrA",
+      "position": 3
+    },
+    {
+      "screen_id": "40056077-da46-42f4-9a36-630df9f8f2cd",
+      "image_url": "https://mobbin.com/api/mcp/short/7uCu7e1O",
+      "position": 4
+    }
+  ]
+}

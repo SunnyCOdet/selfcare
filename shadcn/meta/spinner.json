@@ -1,0 +1,16 @@
+{
+  "name": "spinner",
+  "type": "registry:ui",
+  "dependencies": [
+    "class-variance-authority"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/spinner.tsx",
+      "extractedTo": "ui/spinner.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7a6955d2-fbe5-4365-949e-e7ba4de58a7d",
+  "name": "Chatting with AI GPT",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7a6955d2-fbe5-4365-949e-e7ba4de58a7d",
+  "app_name": "GCOO",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0a38383c-7a37-49f4-912b-1e9f8a129497",
+      "image_url": "https://mobbin.com/api/mcp/short/u9OEnNnJ",
+      "position": 1
+    },
+    {
+      "screen_id": "1c59af90-74b7-4568-a09f-f7cb2606f577",
+      "image_url": "https://mobbin.com/api/mcp/short/tP2Paq5R",
+      "position": 2
+    },
+    {
+      "screen_id": "26ddae7b-24ff-4219-ad06-97564eba0fb4",
+      "image_url": "https://mobbin.com/api/mcp/short/EAlt2oSd",
+      "position": 3
+    },
+    {
+      "screen_id": "26eeaec4-e636-497c-b853-caa38a34f803",
+      "image_url": "https://mobbin.com/api/mcp/short/lWJdvFYh",
+      "position": 4
+    },
+    {
+      "screen_id": "99baa028-7f3b-4380-8c45-eebc6a21b8ea",
+      "image_url": "https://mobbin.com/api/mcp/short/8gmaVCd8",
+      "position": 5
+    }
+  ]
+}

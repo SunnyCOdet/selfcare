@@ -1,0 +1,38 @@
+{
+  "id": "2b0ef5ff-f803-4447-9b57-5cb1e4890060",
+  "name": "Turning on a food tracker",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2b0ef5ff-f803-4447-9b57-5cb1e4890060",
+  "app_name": "Lifesum",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "a4e2cca2-8f5c-48f9-94fa-d22c3f03551a",
+      "image_url": "https://mobbin.com/api/mcp/short/WMNiCgp2",
+      "position": 1
+    },
+    {
+      "screen_id": "30ec8bda-f109-4b22-a50e-c05ddee1e1dd",
+      "image_url": "https://mobbin.com/api/mcp/short/Ysbr3Fhz",
+      "position": 2
+    },
+    {
+      "screen_id": "ae487f49-a4f0-4b6f-9e64-1e79bd91fca3",
+      "image_url": "https://mobbin.com/api/mcp/short/GKVt9J48",
+      "position": 3
+    },
+    {
+      "screen_id": "fcdaab45-daab-412c-a96d-cf93243bae5c",
+      "image_url": "https://mobbin.com/api/mcp/short/StaYkeFa",
+      "position": 4
+    },
+    {
+      "screen_id": "2020f02e-16b0-4623-9a1f-3bf1d22c79a7",
+      "image_url": "https://mobbin.com/api/mcp/short/rwUzi6Nv",
+      "position": 5
+    }
+  ]
+}

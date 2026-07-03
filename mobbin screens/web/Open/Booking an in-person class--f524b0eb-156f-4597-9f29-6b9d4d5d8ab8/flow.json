@@ -1,0 +1,58 @@
+{
+  "id": "f524b0eb-156f-4597-9f29-6b9d4d5d8ab8",
+  "name": "Booking an in-person class",
+  "actions": [
+    "Purchasing & Ordering"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f524b0eb-156f-4597-9f29-6b9d4d5d8ab8",
+  "app_name": "Open",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "98acffe8-688d-42b9-8a80-062fb23ab125",
+      "image_url": "https://mobbin.com/api/mcp/short/KUoUciTF",
+      "position": 1
+    },
+    {
+      "screen_id": "06a23316-ebbe-470e-8f09-03796da335f3",
+      "image_url": "https://mobbin.com/api/mcp/short/Qak5mEXI",
+      "position": 2
+    },
+    {
+      "screen_id": "b33967e3-ef2b-44c7-9379-a8af3c75ca9d",
+      "image_url": "https://mobbin.com/api/mcp/short/ys4IfACd",
+      "position": 3
+    },
+    {
+      "screen_id": "d40b9a3c-afb4-4421-a444-70f96d2ed086",
+      "image_url": "https://mobbin.com/api/mcp/short/OWWAGPBb",
+      "position": 4
+    },
+    {
+      "screen_id": "68561f66-1284-40ec-886c-8cd08e9fefb0",
+      "image_url": "https://mobbin.com/api/mcp/short/5W7t5emW",
+      "position": 5
+    },
+    {
+      "screen_id": "4205c141-71c1-4a0a-bc53-aa4e4a6a6ab4",
+      "image_url": "https://mobbin.com/api/mcp/short/dZ6FCqjZ",
+      "position": 6
+    },
+    {
+      "screen_id": "5891efd2-570c-470f-bba7-db15ff3b7888",
+      "image_url": "https://mobbin.com/api/mcp/short/or7HrJAR",
+      "position": 7
+    },
+    {
+      "screen_id": "5e699742-19b4-423d-9fa8-ed9b68d62a2b",
+      "image_url": "https://mobbin.com/api/mcp/short/eeNUVy0e",
+      "position": 8
+    },
+    {
+      "screen_id": "309870fb-f713-4fac-8626-e6b51cf8f756",
+      "image_url": "https://mobbin.com/api/mcp/short/906q8nE7",
+      "position": 9
+    }
+  ]
+}

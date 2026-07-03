@@ -1,0 +1,41 @@
+{
+  "id": "d4ca42cf-6a02-40a5-b9d8-01326c759913",
+  "name": "Habit stats",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d4ca42cf-6a02-40a5-b9d8-01326c759913",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "764f1e08-24fb-40d3-ae59-6a188f44baba",
+      "image_url": "https://mobbin.com/api/mcp/short/gm1xEiQr",
+      "position": 1
+    },
+    {
+      "screen_id": "4ec387ef-bd3e-435c-b5c1-6b8a2d1f55a5",
+      "image_url": "https://mobbin.com/api/mcp/short/4pd8hRH8",
+      "position": 2
+    },
+    {
+      "screen_id": "bc859f54-d4fc-4f2c-a728-0a5f82dc2bd2",
+      "image_url": "https://mobbin.com/api/mcp/short/coicB0yK",
+      "position": 3
+    },
+    {
+      "screen_id": "ee267ca9-6036-4af7-92bb-64bd42f0b940",
+      "image_url": "https://mobbin.com/api/mcp/short/N7ZWO6l2",
+      "position": 4
+    },
+    {
+      "screen_id": "7b15077c-b50b-4e63-859d-0e9dfb98f104",
+      "image_url": "https://mobbin.com/api/mcp/short/BTapRSzd",
+      "position": 5
+    },
+    {
+      "screen_id": "5a3bc4c2-6365-4d55-8567-dddcdf90c8e7",
+      "image_url": "https://mobbin.com/api/mcp/short/tCGokavm",
+      "position": 6
+    }
+  ]
+}

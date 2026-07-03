@@ -1,0 +1,48 @@
+{
+  "id": "77bd68ea-3b4a-41ca-9c34-f5d5b4c0ba0c",
+  "name": "Scheduling daily habits reminder",
+  "actions": [
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/77bd68ea-3b4a-41ca-9c34-f5d5b4c0ba0c",
+  "app_name": "Wysa",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "7050c907-688b-4e56-bf83-c84ed9b91af5",
+      "image_url": "https://mobbin.com/api/mcp/short/PCgMKP8v",
+      "position": 1
+    },
+    {
+      "screen_id": "e1be7ff1-4331-4038-974e-87ad6235ee4d",
+      "image_url": "https://mobbin.com/api/mcp/short/ToDFQAu5",
+      "position": 2
+    },
+    {
+      "screen_id": "4bc0aad2-399e-4b6c-b06d-36df17a863e5",
+      "image_url": "https://mobbin.com/api/mcp/short/sGFKe41C",
+      "position": 3
+    },
+    {
+      "screen_id": "0fe44ca5-e0da-42ca-885c-a9be6d7f98e7",
+      "image_url": "https://mobbin.com/api/mcp/short/vfWmsrkD",
+      "position": 4
+    },
+    {
+      "screen_id": "a7c6f7b9-122a-496f-8490-3ca6321ee045",
+      "image_url": "https://mobbin.com/api/mcp/short/npll2COG",
+      "position": 5
+    },
+    {
+      "screen_id": "e85705cd-2096-45b9-9426-91651c0ba3c8",
+      "image_url": "https://mobbin.com/api/mcp/short/oWA8Pk3F",
+      "position": 6
+    },
+    {
+      "screen_id": "148f43ae-5368-4375-8d32-48184b3aabd5",
+      "image_url": "https://mobbin.com/api/mcp/short/EBdN6XzS",
+      "position": 7
+    }
+  ]
+}

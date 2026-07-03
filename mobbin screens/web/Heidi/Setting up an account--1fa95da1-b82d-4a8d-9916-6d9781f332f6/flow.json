@@ -1,0 +1,58 @@
+{
+  "id": "1fa95da1-b82d-4a8d-9916-6d9781f332f6",
+  "name": "Setting up an account",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1fa95da1-b82d-4a8d-9916-6d9781f332f6",
+  "app_name": "Heidi",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "be868d39-7d14-4559-ba96-86fecadccd09",
+      "image_url": "https://mobbin.com/api/mcp/short/BhCZf45b",
+      "position": 1
+    },
+    {
+      "screen_id": "5cd3bd10-e7c4-4ffa-a25c-0ec1ba465202",
+      "image_url": "https://mobbin.com/api/mcp/short/RbRzzuug",
+      "position": 2
+    },
+    {
+      "screen_id": "0fed9b2b-0601-434f-b633-e314c73dbb78",
+      "image_url": "https://mobbin.com/api/mcp/short/PFQF6YV5",
+      "position": 3
+    },
+    {
+      "screen_id": "6f32b6a0-7846-4c9f-a648-1422e06e143e",
+      "image_url": "https://mobbin.com/api/mcp/short/8PKh1fhV",
+      "position": 4
+    },
+    {
+      "screen_id": "26d9fcd7-fc05-41e7-8c37-ce2f1bcd6087",
+      "image_url": "https://mobbin.com/api/mcp/short/NqCBVYty",
+      "position": 5
+    },
+    {
+      "screen_id": "ba0e5a08-87fa-472e-a6a0-b51db0390d9d",
+      "image_url": "https://mobbin.com/api/mcp/short/ZJMf4Zik",
+      "position": 6
+    },
+    {
+      "screen_id": "b095099e-291e-4f81-aac6-9816245b3b25",
+      "image_url": "https://mobbin.com/api/mcp/short/gKnRNNyJ",
+      "position": 7
+    },
+    {
+      "screen_id": "5eea9d13-8a4f-4ab3-a9a5-a23d4c81ebb1",
+      "image_url": "https://mobbin.com/api/mcp/short/svBqdF3K",
+      "position": 8
+    },
+    {
+      "screen_id": "00186d8a-6560-4312-a689-4f2f59dc7ea6",
+      "image_url": "https://mobbin.com/api/mcp/short/FOzG03hd",
+      "position": 9
+    }
+  ]
+}

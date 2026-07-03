@@ -1,0 +1,36 @@
+{
+  "id": "91ac168d-05dc-41c1-9e05-8ce178562b2e",
+  "name": "Routine",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/91ac168d-05dc-41c1-9e05-8ce178562b2e",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "3788fe4b-b670-47fa-9d28-2dbd70d09ea3",
+      "image_url": "https://mobbin.com/api/mcp/short/j9Uhpqj5",
+      "position": 1
+    },
+    {
+      "screen_id": "2d47afb8-689f-4fc4-b70c-a1bc6e917402",
+      "image_url": "https://mobbin.com/api/mcp/short/Qo4Qe5tJ",
+      "position": 2
+    },
+    {
+      "screen_id": "4f0d3199-a686-467f-b80a-db4c317fe8ee",
+      "image_url": "https://mobbin.com/api/mcp/short/IXMkd5ce",
+      "position": 3
+    },
+    {
+      "screen_id": "9896db70-8d70-43dd-affc-02ad8b48327c",
+      "image_url": "https://mobbin.com/api/mcp/short/XdngB81J",
+      "position": 4
+    },
+    {
+      "screen_id": "be193477-7417-4785-aa1b-3912902f4c8f",
+      "image_url": "https://mobbin.com/api/mcp/short/tEyMb1cw",
+      "position": 5
+    }
+  ]
+}

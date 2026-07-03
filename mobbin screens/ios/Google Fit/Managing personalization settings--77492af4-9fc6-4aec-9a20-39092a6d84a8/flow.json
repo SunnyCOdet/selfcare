@@ -1,0 +1,33 @@
+{
+  "id": "77492af4-9fc6-4aec-9a20-39092a6d84a8",
+  "name": "Managing personalization settings ",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/77492af4-9fc6-4aec-9a20-39092a6d84a8",
+  "app_name": "Google Fit",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "06a66243-6127-420e-b483-c0ceaf129ea4",
+      "image_url": "https://mobbin.com/api/mcp/short/J8bgUfaS",
+      "position": 1
+    },
+    {
+      "screen_id": "e8aa47e8-b8dc-4869-b615-156b5601774d",
+      "image_url": "https://mobbin.com/api/mcp/short/b5wfRQTn",
+      "position": 2
+    },
+    {
+      "screen_id": "a81055db-1258-4c5e-9ea8-a5745732b8d2",
+      "image_url": "https://mobbin.com/api/mcp/short/2XoZz1pZ",
+      "position": 3
+    },
+    {
+      "screen_id": "7bf2689a-b095-4382-89d4-809a3c45e993",
+      "image_url": "https://mobbin.com/api/mcp/short/ILWJEFYO",
+      "position": 4
+    }
+  ]
+}

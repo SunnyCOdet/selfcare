@@ -1,0 +1,38 @@
+{
+  "id": "e503823f-aa53-413b-916e-cac45b6abca1",
+  "name": "Setting a target",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e503823f-aa53-413b-916e-cac45b6abca1",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "5c12431f-339a-4793-b846-4e384c16b477",
+      "image_url": "https://mobbin.com/api/mcp/short/cYFnSuSO",
+      "position": 1
+    },
+    {
+      "screen_id": "3b9059b8-9858-47e1-849c-536d7b9bd191",
+      "image_url": "https://mobbin.com/api/mcp/short/386AI1Xe",
+      "position": 2
+    },
+    {
+      "screen_id": "1754542b-0eb2-44cb-8e8a-9bd0fa49020d",
+      "image_url": "https://mobbin.com/api/mcp/short/NP4qgv12",
+      "position": 3
+    },
+    {
+      "screen_id": "9a4614d5-0600-4689-96dd-c69bab2fd5b9",
+      "image_url": "https://mobbin.com/api/mcp/short/FGv5F1oT",
+      "position": 4
+    },
+    {
+      "screen_id": "76dd483f-5045-42fc-85b9-064684f2b813",
+      "image_url": "https://mobbin.com/api/mcp/short/NZpXrPdW",
+      "position": 5
+    }
+  ]
+}

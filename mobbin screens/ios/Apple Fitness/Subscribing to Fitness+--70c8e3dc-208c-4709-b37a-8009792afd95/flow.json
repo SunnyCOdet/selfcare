@@ -1,0 +1,33 @@
+{
+  "id": "70c8e3dc-208c-4709-b37a-8009792afd95",
+  "name": "Subscribing to Fitness+",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/70c8e3dc-208c-4709-b37a-8009792afd95",
+  "app_name": "Apple Fitness",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d37dc9d2-860a-43a3-95bc-10dfa2e75f3f",
+      "image_url": "https://mobbin.com/api/mcp/short/KTAVrInd",
+      "position": 1
+    },
+    {
+      "screen_id": "cfa2d3fe-4fd1-4dc8-8ebd-6337ff1e97f7",
+      "image_url": "https://mobbin.com/api/mcp/short/X16eJNox",
+      "position": 2
+    },
+    {
+      "screen_id": "0af7713a-9a40-4b48-9c61-3b61303b9e10",
+      "image_url": "https://mobbin.com/api/mcp/short/NzIwbgjJ",
+      "position": 3
+    },
+    {
+      "screen_id": "a43cc23e-a3f9-452f-a5a5-fa1ba322a6ad",
+      "image_url": "https://mobbin.com/api/mcp/short/gOsfiQ6w",
+      "position": 4
+    }
+  ]
+}

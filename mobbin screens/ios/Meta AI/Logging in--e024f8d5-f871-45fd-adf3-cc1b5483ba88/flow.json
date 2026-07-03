@@ -1,0 +1,28 @@
+{
+  "id": "e024f8d5-f871-45fd-adf3-cc1b5483ba88",
+  "name": "Logging in",
+  "actions": [
+    "Logging In"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e024f8d5-f871-45fd-adf3-cc1b5483ba88",
+  "app_name": "Meta AI",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "f9590e7b-9e6e-4e2a-8b35-82ac64aab2dd",
+      "image_url": "https://mobbin.com/api/mcp/short/BAilkar1",
+      "position": 1
+    },
+    {
+      "screen_id": "5aac55e9-bb88-4bd0-9d8c-bb6234d85b75",
+      "image_url": "https://mobbin.com/api/mcp/short/NTjaETTZ",
+      "position": 2
+    },
+    {
+      "screen_id": "66d46b60-2981-4ef0-94d8-47b666468e04",
+      "image_url": "https://mobbin.com/api/mcp/short/h4Jg8Pet",
+      "position": 3
+    }
+  ]
+}

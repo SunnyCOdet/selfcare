@@ -1,0 +1,23 @@
+{
+  "id": "2c366df8-a550-481e-873d-3ddaddb2d76b",
+  "name": "Adding tracker to Apple Health",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2c366df8-a550-481e-873d-3ddaddb2d76b",
+  "app_name": "Blue Apron",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "f26d6e37-f124-449b-8085-7259432723b6",
+      "image_url": "https://mobbin.com/api/mcp/short/M31SVN8l",
+      "position": 1
+    },
+    {
+      "screen_id": "65cca92d-6155-459a-86ec-3ca65f60457b",
+      "image_url": "https://mobbin.com/api/mcp/short/kmFD6hKL",
+      "position": 2
+    }
+  ]
+}

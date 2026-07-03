@@ -1,0 +1,38 @@
+{
+  "id": "10cd7364-88ec-484d-b8a1-6dd5d601e69c",
+  "name": "Creating a project",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/10cd7364-88ec-484d-b8a1-6dd5d601e69c",
+  "app_name": "Visitors",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "5aca419b-06e9-4d17-a2b0-64e623f90b16",
+      "image_url": "https://mobbin.com/api/mcp/short/JSBUbGXy",
+      "position": 1
+    },
+    {
+      "screen_id": "0038d78a-2f21-4219-90f7-5be8cecd6354",
+      "image_url": "https://mobbin.com/api/mcp/short/uAb0E15j",
+      "position": 2
+    },
+    {
+      "screen_id": "7f908ab7-dc96-46f5-8073-466c9ab94c84",
+      "image_url": "https://mobbin.com/api/mcp/short/D9Db4yv9",
+      "position": 3
+    },
+    {
+      "screen_id": "5794bda6-f0f5-46bc-aacf-226ae1df8d64",
+      "image_url": "https://mobbin.com/api/mcp/short/mjF9mNpX",
+      "position": 4
+    },
+    {
+      "screen_id": "dfebd03a-2aaf-441b-8917-b84a80c28dae",
+      "image_url": "https://mobbin.com/api/mcp/short/VZRlLRkz",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "1eb9c8aa-8224-44ad-9b9c-f7656a310106",
+  "name": "Body & health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1eb9c8aa-8224-44ad-9b9c-f7656a310106",
+  "app_name": "Tonal",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "4d6bde90-cad3-460d-b3fa-f14f0bc71daa",
+      "image_url": "https://mobbin.com/api/mcp/short/QP9Uwbe0",
+      "position": 1
+    },
+    {
+      "screen_id": "a210dc03-38d3-4c60-9e15-697df9eac1a6",
+      "image_url": "https://mobbin.com/api/mcp/short/6fCPKW69",
+      "position": 2
+    }
+  ]
+}

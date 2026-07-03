@@ -1,0 +1,43 @@
+{
+  "id": "6eb89621-7712-429c-bad8-863eb69f0873",
+  "name": "Adding sex, age, and weight",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6eb89621-7712-429c-bad8-863eb69f0873",
+  "app_name": "Hevy",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "d0cb0329-0306-4988-b898-9425238a8599",
+      "image_url": "https://mobbin.com/api/mcp/short/j2kmzm29",
+      "position": 1
+    },
+    {
+      "screen_id": "956e0d31-34df-4640-b07f-fd94aaa75b4e",
+      "image_url": "https://mobbin.com/api/mcp/short/Rp6LYqPZ",
+      "position": 2
+    },
+    {
+      "screen_id": "9044a9e4-465b-4850-8b33-9031cd82f2ec",
+      "image_url": "https://mobbin.com/api/mcp/short/IyDC2BlR",
+      "position": 3
+    },
+    {
+      "screen_id": "920ecfed-bd77-4970-b6f7-49887a512de4",
+      "image_url": "https://mobbin.com/api/mcp/short/5l6dIkvS",
+      "position": 4
+    },
+    {
+      "screen_id": "f4d385ab-7958-4494-89d6-f7c681437d71",
+      "image_url": "https://mobbin.com/api/mcp/short/vb9tJJKf",
+      "position": 5
+    },
+    {
+      "screen_id": "14db3357-172d-401e-9179-05f032ec2a26",
+      "image_url": "https://mobbin.com/api/mcp/short/M4FD8Mp8",
+      "position": 6
+    }
+  ]
+}

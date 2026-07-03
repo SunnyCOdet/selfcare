@@ -1,0 +1,58 @@
+{
+  "id": "3e12aff7-6120-4864-9d47-3cd5d228451f",
+  "name": "Creating a job request with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3e12aff7-6120-4864-9d47-3cd5d228451f",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "bec502f4-01a9-4e2d-887a-6bac22680ad3",
+      "image_url": "https://mobbin.com/api/mcp/short/jIVCTMfY",
+      "position": 1
+    },
+    {
+      "screen_id": "19493748-66f8-444e-a27a-986a39629c1c",
+      "image_url": "https://mobbin.com/api/mcp/short/FX3CXev6",
+      "position": 2
+    },
+    {
+      "screen_id": "a101e69f-970b-49da-9d00-b3c17586d54f",
+      "image_url": "https://mobbin.com/api/mcp/short/TbKvkIZ5",
+      "position": 3
+    },
+    {
+      "screen_id": "e91ede09-fa47-4917-b13b-e35d3c84e176",
+      "image_url": "https://mobbin.com/api/mcp/short/KPQKZXn8",
+      "position": 4
+    },
+    {
+      "screen_id": "0c3bf617-b686-4fea-a89a-12c336d673ed",
+      "image_url": "https://mobbin.com/api/mcp/short/BPwy9WIT",
+      "position": 5
+    },
+    {
+      "screen_id": "9466b10f-c840-4774-9c43-24ca75db9e81",
+      "image_url": "https://mobbin.com/api/mcp/short/dXClloZo",
+      "position": 6
+    },
+    {
+      "screen_id": "216c372c-82e4-45af-91bb-d84987824035",
+      "image_url": "https://mobbin.com/api/mcp/short/l7DOLKll",
+      "position": 7
+    },
+    {
+      "screen_id": "ba328419-32a6-469b-8b86-d556f375fca5",
+      "image_url": "https://mobbin.com/api/mcp/short/6irUbtRi",
+      "position": 8
+    },
+    {
+      "screen_id": "9c36d777-bab4-4a5f-b1fe-2918461e22a1",
+      "image_url": "https://mobbin.com/api/mcp/short/PrFihmwi",
+      "position": 9
+    }
+  ]
+}

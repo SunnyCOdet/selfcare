@@ -1,0 +1,21 @@
+{
+  "id": "a22c33ed-1cbc-4849-9b4c-de5f064d7adb",
+  "name": "Select AI model",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a22c33ed-1cbc-4849-9b4c-de5f064d7adb",
+  "app_name": "Mimo",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "232cf20a-d033-40ca-870c-4962881c7df7",
+      "image_url": "https://mobbin.com/api/mcp/short/rybXhz15",
+      "position": 1
+    },
+    {
+      "screen_id": "1a81808c-76d4-49e8-82a0-4a807cf97020",
+      "image_url": "https://mobbin.com/api/mcp/short/u0bCH0bu",
+      "position": 2
+    }
+  ]
+}

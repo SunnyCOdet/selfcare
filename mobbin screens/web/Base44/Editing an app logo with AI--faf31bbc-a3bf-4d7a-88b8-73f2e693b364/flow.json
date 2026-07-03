@@ -1,0 +1,43 @@
+{
+  "id": "faf31bbc-a3bf-4d7a-88b8-73f2e693b364",
+  "name": "Editing an app logo with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/faf31bbc-a3bf-4d7a-88b8-73f2e693b364",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "ed020d4d-6171-4976-9e82-7ec0e4b174df",
+      "image_url": "https://mobbin.com/api/mcp/short/A0TAzDnc",
+      "position": 1
+    },
+    {
+      "screen_id": "d2065c47-462f-4b21-8320-4df110ae2ba5",
+      "image_url": "https://mobbin.com/api/mcp/short/yt1sRziE",
+      "position": 2
+    },
+    {
+      "screen_id": "7ba45d67-f6bc-483e-8d17-615632a6366e",
+      "image_url": "https://mobbin.com/api/mcp/short/mIoZTWNP",
+      "position": 3
+    },
+    {
+      "screen_id": "07a89943-318c-40e4-bcd2-7c47eb332dd3",
+      "image_url": "https://mobbin.com/api/mcp/short/A6XtQlMj",
+      "position": 4
+    },
+    {
+      "screen_id": "860089bb-66ad-492f-86d4-96a87350bc0e",
+      "image_url": "https://mobbin.com/api/mcp/short/CnpCwOcp",
+      "position": 5
+    },
+    {
+      "screen_id": "d0c24fb8-66bc-4ee4-a3ca-cbe4be1ca8f5",
+      "image_url": "https://mobbin.com/api/mcp/short/N3LMxHDI",
+      "position": 6
+    }
+  ]
+}

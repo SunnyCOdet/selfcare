@@ -1,0 +1,26 @@
+{
+  "id": "68c534a2-ebb3-4b8d-82be-a3003afa82a0",
+  "name": "Guide detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/68c534a2-ebb3-4b8d-82be-a3003afa82a0",
+  "app_name": "Vanta",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "e6dd67af-62df-470e-8240-f01b7d46768f",
+      "image_url": "https://mobbin.com/api/mcp/short/pj19wsbY",
+      "position": 1
+    },
+    {
+      "screen_id": "b38c8d8e-93db-4064-acd9-549c2bdd2820",
+      "image_url": "https://mobbin.com/api/mcp/short/dElLjVYE",
+      "position": 2
+    },
+    {
+      "screen_id": "676a25be-45ae-40f9-83b8-2eb93931aaac",
+      "image_url": "https://mobbin.com/api/mcp/short/JViKEVpA",
+      "position": 3
+    }
+  ]
+}

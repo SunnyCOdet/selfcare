@@ -1,0 +1,59 @@
+{
+  "id": "686ad14b-8991-46e1-89cb-6d4dfe75b36d",
+  "name": "Creating a campaign with AI",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/686ad14b-8991-46e1-89cb-6d4dfe75b36d",
+  "app_name": "Rox",
+  "platform": "web",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "9460db0e-f390-48b2-b5bb-56b958ebbc59",
+      "image_url": "https://mobbin.com/api/mcp/short/bMDlPrz5",
+      "position": 1
+    },
+    {
+      "screen_id": "aa70e01a-b250-45b1-b3c0-cbaf25ab7da6",
+      "image_url": "https://mobbin.com/api/mcp/short/k81ntVpv",
+      "position": 2
+    },
+    {
+      "screen_id": "079aa61d-9b43-45c9-b676-267ce6cd025b",
+      "image_url": "https://mobbin.com/api/mcp/short/wNBVBkgq",
+      "position": 3
+    },
+    {
+      "screen_id": "e8a00e53-b4de-4ed5-9832-ad9c931fda23",
+      "image_url": "https://mobbin.com/api/mcp/short/GCDIM8hq",
+      "position": 4
+    },
+    {
+      "screen_id": "7a6d159c-eff6-4a13-91bb-c03e7424d777",
+      "image_url": "https://mobbin.com/api/mcp/short/MDgYdNzv",
+      "position": 5
+    },
+    {
+      "screen_id": "e9377f4b-37dc-487f-84c1-1741278c4d86",
+      "image_url": "https://mobbin.com/api/mcp/short/uZ6abDo4",
+      "position": 6
+    },
+    {
+      "screen_id": "ad60457e-e432-4941-8657-6813ee3391b0",
+      "image_url": "https://mobbin.com/api/mcp/short/LLw4OQeT",
+      "position": 7
+    },
+    {
+      "screen_id": "b1cb630f-a743-4469-ad47-546bb06429ab",
+      "image_url": "https://mobbin.com/api/mcp/short/bHxXNvBg",
+      "position": 8
+    },
+    {
+      "screen_id": "a7d99a1a-d00d-44ef-897e-a4498a673e69",
+      "image_url": "https://mobbin.com/api/mcp/short/AT87rVdg",
+      "position": 9
+    }
+  ]
+}

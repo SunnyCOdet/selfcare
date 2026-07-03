@@ -1,0 +1,26 @@
+{
+  "id": "0d561da1-ec6b-4741-a57c-a63e0749a119",
+  "name": "Habit reminder",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0d561da1-ec6b-4741-a57c-a63e0749a119",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d664d4d3-b56f-467d-96a2-928233af5567",
+      "image_url": "https://mobbin.com/api/mcp/short/DYvkhs5q",
+      "position": 1
+    },
+    {
+      "screen_id": "42ede85c-4cdc-4c31-9c6c-dff11d54c096",
+      "image_url": "https://mobbin.com/api/mcp/short/MQRmdFSe",
+      "position": 2
+    },
+    {
+      "screen_id": "da2c69e3-8000-47c1-ae98-9be0739eb170",
+      "image_url": "https://mobbin.com/api/mcp/short/8N1SLSwg",
+      "position": 3
+    }
+  ]
+}

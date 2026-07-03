@@ -1,0 +1,21 @@
+{
+  "id": "e81c456d-2f52-47c7-8578-62bbaae2710c",
+  "name": "Pipedrive AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/e81c456d-2f52-47c7-8578-62bbaae2710c",
+  "app_name": "Pipedrive",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "ab647f50-a9a9-4f17-886b-cf15abd158c2",
+      "image_url": "https://mobbin.com/api/mcp/short/j0xw32Eo",
+      "position": 1
+    },
+    {
+      "screen_id": "8667dafb-cb08-4eba-a822-ef799934ad58",
+      "image_url": "https://mobbin.com/api/mcp/short/BU8kp2JN",
+      "position": 2
+    }
+  ]
+}

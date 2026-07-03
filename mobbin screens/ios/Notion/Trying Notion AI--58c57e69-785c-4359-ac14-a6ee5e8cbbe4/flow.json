@@ -1,0 +1,54 @@
+{
+  "id": "58c57e69-785c-4359-ac14-a6ee5e8cbbe4",
+  "name": "Trying Notion AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/58c57e69-785c-4359-ac14-a6ee5e8cbbe4",
+  "app_name": "Notion",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "e380012a-27ec-4f00-96d7-e6bcdd376b45",
+      "image_url": "https://mobbin.com/api/mcp/short/697lnlvQ",
+      "position": 1
+    },
+    {
+      "screen_id": "722b5a96-45b4-4fe8-bccb-23dd19250e48",
+      "image_url": "https://mobbin.com/api/mcp/short/QsEMRWxQ",
+      "position": 2
+    },
+    {
+      "screen_id": "24463aab-6ed4-447b-b6e4-0c7b38e2e200",
+      "image_url": "https://mobbin.com/api/mcp/short/b1BW9exu",
+      "position": 3
+    },
+    {
+      "screen_id": "37f7f0c6-cf32-4198-9164-940408a7b32d",
+      "image_url": "https://mobbin.com/api/mcp/short/e4Mo8RdC",
+      "position": 4
+    },
+    {
+      "screen_id": "31a56ead-1036-4d2f-ac06-5206b10347df",
+      "image_url": "https://mobbin.com/api/mcp/short/h2sJkCrC",
+      "position": 5
+    },
+    {
+      "screen_id": "de38d5ea-eb51-47bc-805b-3ceec5c82dec",
+      "image_url": "https://mobbin.com/api/mcp/short/buVYWnoF",
+      "position": 6
+    },
+    {
+      "screen_id": "78c42859-2418-4d61-80a4-accb8d5bed57",
+      "image_url": "https://mobbin.com/api/mcp/short/DWvWRILN",
+      "position": 7
+    },
+    {
+      "screen_id": "40ec9a77-ab5a-42a2-8573-a5bf123aada7",
+      "image_url": "https://mobbin.com/api/mcp/short/0FKw9IGw",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "7fb8b3ff-79a2-4507-bda0-7f8330d20525",
+  "name": "Asking AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7fb8b3ff-79a2-4507-bda0-7f8330d20525",
+  "app_name": "KakaoBank",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7d09f48d-114c-4557-9220-01ae91b039ab",
+      "image_url": "https://mobbin.com/api/mcp/short/1MFjsDuw",
+      "position": 1
+    },
+    {
+      "screen_id": "3d4b22cb-007c-4152-8401-ef4ff1f45883",
+      "image_url": "https://mobbin.com/api/mcp/short/6wzgZiEr",
+      "position": 2
+    },
+    {
+      "screen_id": "cc068079-b3c5-4977-801c-c428bdbc9ef7",
+      "image_url": "https://mobbin.com/api/mcp/short/FAnLf09u",
+      "position": 3
+    },
+    {
+      "screen_id": "13a9c1b3-7648-4565-8039-96ffd08624f8",
+      "image_url": "https://mobbin.com/api/mcp/short/W1QiQ7N1",
+      "position": 4
+    },
+    {
+      "screen_id": "ce7b225f-0b44-408d-97d4-fcb988cb3db4",
+      "image_url": "https://mobbin.com/api/mcp/short/UTRBZZEi",
+      "position": 5
+    }
+  ]
+}

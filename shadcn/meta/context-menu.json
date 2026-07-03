@@ -1,0 +1,16 @@
+{
+  "name": "context-menu",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/context-menu.tsx",
+      "extractedTo": "ui/context-menu.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

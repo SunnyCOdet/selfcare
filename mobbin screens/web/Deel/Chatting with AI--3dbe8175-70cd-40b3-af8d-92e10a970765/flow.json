@@ -1,0 +1,33 @@
+{
+  "id": "3dbe8175-70cd-40b3-af8d-92e10a970765",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/3dbe8175-70cd-40b3-af8d-92e10a970765",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "520a8cef-49aa-4139-a150-4a6482faebb9",
+      "image_url": "https://mobbin.com/api/mcp/short/oxZDCQNT",
+      "position": 1
+    },
+    {
+      "screen_id": "f710bb72-af51-48fb-bf05-eb61fa65b7b2",
+      "image_url": "https://mobbin.com/api/mcp/short/A9FEhOgK",
+      "position": 2
+    },
+    {
+      "screen_id": "a5617ebc-5de1-470e-a54c-06e8bc34fabe",
+      "image_url": "https://mobbin.com/api/mcp/short/Rf174SJi",
+      "position": 3
+    },
+    {
+      "screen_id": "e0af2612-fc0f-4a8e-9032-a46d233e01e2",
+      "image_url": "https://mobbin.com/api/mcp/short/XbJLuMdZ",
+      "position": 4
+    }
+  ]
+}

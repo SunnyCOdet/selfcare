@@ -1,0 +1,49 @@
+{
+  "id": "4b6390d4-b27d-4cfe-8f06-7f7e54fdd6bd",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4b6390d4-b27d-4cfe-8f06-7f7e54fdd6bd",
+  "app_name": "Coupang",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "61c1bc6b-aee8-4fef-8a5f-52dfe6a53d5b",
+      "image_url": "https://mobbin.com/api/mcp/short/QmVsPpE1",
+      "position": 1
+    },
+    {
+      "screen_id": "43e60a9c-0b14-4d40-8970-0f2c8cb1737c",
+      "image_url": "https://mobbin.com/api/mcp/short/9TPqnLZW",
+      "position": 2
+    },
+    {
+      "screen_id": "d166ca4c-94a2-4706-9cd7-b056a28607ca",
+      "image_url": "https://mobbin.com/api/mcp/short/1X5XV0xW",
+      "position": 3
+    },
+    {
+      "screen_id": "751f56a1-9308-438f-b29f-56c09e327319",
+      "image_url": "https://mobbin.com/api/mcp/short/bDD6yEy0",
+      "position": 4
+    },
+    {
+      "screen_id": "a31d6aee-520d-440b-b5f5-31de9c767c6c",
+      "image_url": "https://mobbin.com/api/mcp/short/3sXotRsa",
+      "position": 5
+    },
+    {
+      "screen_id": "5e8d6cb2-05cc-46e0-8f3d-942cbd441dfc",
+      "image_url": "https://mobbin.com/api/mcp/short/7ZpOaNID",
+      "position": 6
+    },
+    {
+      "screen_id": "df967cd0-29e4-4b99-a0dd-72d81dbad16d",
+      "image_url": "https://mobbin.com/api/mcp/short/9n3bJGi2",
+      "position": 7
+    }
+  ]
+}

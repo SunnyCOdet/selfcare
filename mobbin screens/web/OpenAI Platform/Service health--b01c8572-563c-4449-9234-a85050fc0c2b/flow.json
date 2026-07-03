@@ -1,0 +1,26 @@
+{
+  "id": "b01c8572-563c-4449-9234-a85050fc0c2b",
+  "name": "Service health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b01c8572-563c-4449-9234-a85050fc0c2b",
+  "app_name": "OpenAI Platform",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "d605f83d-3869-4ecc-8874-b913e09e2930",
+      "image_url": "https://mobbin.com/api/mcp/short/wgHZU4mG",
+      "position": 1
+    },
+    {
+      "screen_id": "fd98bb68-c8c4-446c-a0fc-0e1089003e1c",
+      "image_url": "https://mobbin.com/api/mcp/short/FRuQ5T1y",
+      "position": 2
+    },
+    {
+      "screen_id": "56b53d75-8efb-42c0-9921-3f0c97f43306",
+      "image_url": "https://mobbin.com/api/mcp/short/GkFT5dHo",
+      "position": 3
+    }
+  ]
+}

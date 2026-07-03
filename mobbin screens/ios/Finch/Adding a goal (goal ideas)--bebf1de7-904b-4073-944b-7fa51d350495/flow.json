@@ -1,0 +1,39 @@
+{
+  "id": "bebf1de7-904b-4073-944b-7fa51d350495",
+  "name": "Adding a goal (goal ideas)",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bebf1de7-904b-4073-944b-7fa51d350495",
+  "app_name": "Finch",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "7919f7bf-cc2d-475e-a525-549d0ffd9c13",
+      "image_url": "https://mobbin.com/api/mcp/short/ETgZnqc2",
+      "position": 1
+    },
+    {
+      "screen_id": "c2df6652-e991-4035-b7ba-79203f793ec2",
+      "image_url": "https://mobbin.com/api/mcp/short/hIyQA8RA",
+      "position": 2
+    },
+    {
+      "screen_id": "0db074db-ba0c-4ea7-940a-4630a7aac20d",
+      "image_url": "https://mobbin.com/api/mcp/short/kWrWHxVi",
+      "position": 3
+    },
+    {
+      "screen_id": "5fdd6d6f-5f2e-4c52-8157-362d1e4be6d1",
+      "image_url": "https://mobbin.com/api/mcp/short/I9d8O4hD",
+      "position": 4
+    },
+    {
+      "screen_id": "0bd8c36b-4313-43c3-a2ee-8bbc09b4d62c",
+      "image_url": "https://mobbin.com/api/mcp/short/EfB2rFVk",
+      "position": 5
+    }
+  ]
+}

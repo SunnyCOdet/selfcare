@@ -1,0 +1,23 @@
+{
+  "id": "68502b87-ffbd-470d-a65c-07c068760a76",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/68502b87-ffbd-470d-a65c-07c068760a76",
+  "app_name": "Shazam",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "effa361f-350f-4b30-bb58-2584c6ffb032",
+      "image_url": "https://mobbin.com/api/mcp/short/euoUehp2",
+      "position": 1
+    },
+    {
+      "screen_id": "966e975a-0116-43b2-970a-09a90697e805",
+      "image_url": "https://mobbin.com/api/mcp/short/NzhC9ZBy",
+      "position": 2
+    }
+  ]
+}

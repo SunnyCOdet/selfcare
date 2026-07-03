@@ -1,0 +1,49 @@
+{
+  "id": "f1c442a9-d2f0-4954-98ac-1c38a979db65",
+  "name": "Setting up account",
+  "actions": [
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f1c442a9-d2f0-4954-98ac-1c38a979db65",
+  "app_name": "Coda",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "7d618f25-89e0-4d74-a687-3311bece87cd",
+      "image_url": "https://mobbin.com/api/mcp/short/uqchWvd0",
+      "position": 1
+    },
+    {
+      "screen_id": "5e5bfd54-d93a-4532-bcc4-604277f4a312",
+      "image_url": "https://mobbin.com/api/mcp/short/5Qu7ltGd",
+      "position": 2
+    },
+    {
+      "screen_id": "c0b79d55-09e5-40f1-859e-a037a2f91a76",
+      "image_url": "https://mobbin.com/api/mcp/short/oHkkXIJ3",
+      "position": 3
+    },
+    {
+      "screen_id": "37f14db7-a213-4a41-ad10-610ade1413cc",
+      "image_url": "https://mobbin.com/api/mcp/short/nkLy673h",
+      "position": 4
+    },
+    {
+      "screen_id": "c8249d5d-2025-41ee-8ffb-78e24e6d41cc",
+      "image_url": "https://mobbin.com/api/mcp/short/S0yVflgE",
+      "position": 5
+    },
+    {
+      "screen_id": "23ab570f-0288-4e6e-b3ac-28898c7cbc2b",
+      "image_url": "https://mobbin.com/api/mcp/short/swNNDAgK",
+      "position": 6
+    },
+    {
+      "screen_id": "d228d9ef-9657-4397-ae87-ab33e0cce0b6",
+      "image_url": "https://mobbin.com/api/mcp/short/PXJh8x3y",
+      "position": 7
+    }
+  ]
+}

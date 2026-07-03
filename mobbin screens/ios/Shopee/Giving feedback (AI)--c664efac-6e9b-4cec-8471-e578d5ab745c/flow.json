@@ -1,0 +1,28 @@
+{
+  "id": "c664efac-6e9b-4cec-8471-e578d5ab745c",
+  "name": "Giving feedback (AI)",
+  "actions": [
+    "Giving Feedback"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c664efac-6e9b-4cec-8471-e578d5ab745c",
+  "app_name": "Shopee",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "c01eab7e-c4a4-4730-8f09-ce4e766e2816",
+      "image_url": "https://mobbin.com/api/mcp/short/XaYw2Qb7",
+      "position": 1
+    },
+    {
+      "screen_id": "189298d8-3db7-4b4a-8151-410a108e3c68",
+      "image_url": "https://mobbin.com/api/mcp/short/vawoHfIH",
+      "position": 2
+    },
+    {
+      "screen_id": "bb9bf42c-8c1c-4afc-8729-07596db6f774",
+      "image_url": "https://mobbin.com/api/mcp/short/BjCiak1B",
+      "position": 3
+    }
+  ]
+}

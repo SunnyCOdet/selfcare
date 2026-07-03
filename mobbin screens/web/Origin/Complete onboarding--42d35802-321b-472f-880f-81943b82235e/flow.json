@@ -1,0 +1,21 @@
+{
+  "id": "42d35802-321b-472f-880f-81943b82235e",
+  "name": "Complete onboarding",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/42d35802-321b-472f-880f-81943b82235e",
+  "app_name": "Origin",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "591e20b0-b44f-4ed7-81d9-db59fe022d5e",
+      "image_url": "https://mobbin.com/api/mcp/short/e4atG4Td",
+      "position": 1
+    },
+    {
+      "screen_id": "912394f8-c88e-455b-8018-24a8196761d3",
+      "image_url": "https://mobbin.com/api/mcp/short/QWDDkgXp",
+      "position": 2
+    }
+  ]
+}

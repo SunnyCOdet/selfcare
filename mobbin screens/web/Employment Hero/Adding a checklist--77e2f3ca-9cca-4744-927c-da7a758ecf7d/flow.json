@@ -1,0 +1,63 @@
+{
+  "id": "77e2f3ca-9cca-4744-927c-da7a758ecf7d",
+  "name": "Adding a checklist",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/77e2f3ca-9cca-4744-927c-da7a758ecf7d",
+  "app_name": "Employment Hero",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "be262bd6-e044-48b3-9c3d-6170ad7ae22c",
+      "image_url": "https://mobbin.com/api/mcp/short/urqiHdwB",
+      "position": 1
+    },
+    {
+      "screen_id": "cf151c44-6c7f-400e-8d89-320ae1a8aac5",
+      "image_url": "https://mobbin.com/api/mcp/short/gSj0blf7",
+      "position": 2
+    },
+    {
+      "screen_id": "3e685469-604b-43c2-932f-5c80e5181cf4",
+      "image_url": "https://mobbin.com/api/mcp/short/1w3wFV4C",
+      "position": 3
+    },
+    {
+      "screen_id": "5027c700-30d1-4dbc-9490-2ca39c90fc58",
+      "image_url": "https://mobbin.com/api/mcp/short/S4ke7HP0",
+      "position": 4
+    },
+    {
+      "screen_id": "dedbe13d-1c96-4ce2-9432-e7e4433d1bfe",
+      "image_url": "https://mobbin.com/api/mcp/short/MGaETNFD",
+      "position": 5
+    },
+    {
+      "screen_id": "b46c4fd6-413c-415e-99e0-63e741d50c26",
+      "image_url": "https://mobbin.com/api/mcp/short/MSgUpJ0N",
+      "position": 6
+    },
+    {
+      "screen_id": "21a9a893-44f3-4152-b126-b9cd796e3ec3",
+      "image_url": "https://mobbin.com/api/mcp/short/pLuISRLp",
+      "position": 7
+    },
+    {
+      "screen_id": "4efdabe0-d0f5-4e5e-b229-a6bc85a77808",
+      "image_url": "https://mobbin.com/api/mcp/short/mamJGL0B",
+      "position": 8
+    },
+    {
+      "screen_id": "820a5984-181d-4e41-ad4c-47858d5f0c80",
+      "image_url": "https://mobbin.com/api/mcp/short/Pks9WdLo",
+      "position": 9
+    },
+    {
+      "screen_id": "0ee06b38-f542-4d22-bc4e-5713c52795be",
+      "image_url": "https://mobbin.com/api/mcp/short/ekftRvQn",
+      "position": 10
+    }
+  ]
+}

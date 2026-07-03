@@ -1,0 +1,54 @@
+{
+  "id": "1b8fd627-1573-44c7-b4c3-605e18cff01f",
+  "name": "Generating reports with Spark (AI)",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1b8fd627-1573-44c7-b4c3-605e18cff01f",
+  "app_name": "Mixpanel",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "2a92fa1a-6286-4ec9-9064-c9588d28ed6f",
+      "image_url": "https://mobbin.com/api/mcp/short/qsbKdCNz",
+      "position": 1
+    },
+    {
+      "screen_id": "5b32114e-8b17-4478-a525-5473b9509ed1",
+      "image_url": "https://mobbin.com/api/mcp/short/qmUcP1rJ",
+      "position": 2
+    },
+    {
+      "screen_id": "55513a64-69ca-47e1-b987-ed15b5aa7923",
+      "image_url": "https://mobbin.com/api/mcp/short/wHvtX9lw",
+      "position": 3
+    },
+    {
+      "screen_id": "8810600b-d454-411c-9fe8-a862fe344dd9",
+      "image_url": "https://mobbin.com/api/mcp/short/zyNApfd4",
+      "position": 4
+    },
+    {
+      "screen_id": "bb8d51bf-89ec-4770-bcaf-ec45a0d00278",
+      "image_url": "https://mobbin.com/api/mcp/short/6KfrbvLW",
+      "position": 5
+    },
+    {
+      "screen_id": "6373a856-573f-470a-bd78-1d956cb6b379",
+      "image_url": "https://mobbin.com/api/mcp/short/hyjgypEI",
+      "position": 6
+    },
+    {
+      "screen_id": "b1b2093c-54f8-4c27-a70c-41c27e868ebb",
+      "image_url": "https://mobbin.com/api/mcp/short/wX5xiNAs",
+      "position": 7
+    },
+    {
+      "screen_id": "7adf1861-fc90-4aa2-9ff7-75eede3cd082",
+      "image_url": "https://mobbin.com/api/mcp/short/ZfdWSV7f",
+      "position": 8
+    }
+  ]
+}

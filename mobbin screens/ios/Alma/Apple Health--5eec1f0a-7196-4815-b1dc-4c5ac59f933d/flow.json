@@ -1,0 +1,21 @@
+{
+  "id": "5eec1f0a-7196-4815-b1dc-4c5ac59f933d",
+  "name": "Apple Health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/5eec1f0a-7196-4815-b1dc-4c5ac59f933d",
+  "app_name": "Alma",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "05609221-c3c9-4c7c-831d-22a840bdb974",
+      "image_url": "https://mobbin.com/api/mcp/short/XIcPxNhv",
+      "position": 1
+    },
+    {
+      "screen_id": "438f2506-8e60-4f6b-b51f-c29642564ada",
+      "image_url": "https://mobbin.com/api/mcp/short/9NAILeZo",
+      "position": 2
+    }
+  ]
+}

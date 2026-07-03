@@ -1,0 +1,26 @@
+{
+  "id": "c963ab0f-2aa0-479a-b37a-58c5c0e33b5e",
+  "name": "Challenges",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c963ab0f-2aa0-479a-b37a-58c5c0e33b5e",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0c9ac598-1946-4395-9e47-2b2cde1c1c2a",
+      "image_url": "https://mobbin.com/api/mcp/short/rnsiEnaE",
+      "position": 1
+    },
+    {
+      "screen_id": "62baffd6-16c6-45a2-8193-c3cd47e7f20e",
+      "image_url": "https://mobbin.com/api/mcp/short/x6O5anc8",
+      "position": 2
+    },
+    {
+      "screen_id": "9a793311-ae09-46f9-b926-e20e51410c9f",
+      "image_url": "https://mobbin.com/api/mcp/short/B4B3hv2B",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "d6552720-7448-40de-8194-e6a0f932dc40",
+  "name": "Getting started (network)",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d6552720-7448-40de-8194-e6a0f932dc40",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "b64e20ff-9b68-4588-95bd-c8fe92490ab4",
+      "image_url": "https://mobbin.com/api/mcp/short/USz1oavw",
+      "position": 1
+    },
+    {
+      "screen_id": "f52d39ae-1fea-4d85-bf0a-5ce12a672678",
+      "image_url": "https://mobbin.com/api/mcp/short/XKVgbtU8",
+      "position": 2
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "f2bd3064-672b-4818-b4c1-e869ce3b16b3",
+  "name": "Choosing interests",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f2bd3064-672b-4818-b4c1-e869ce3b16b3",
+  "app_name": "Amazon Alexa",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "6fc0d96e-80bc-4d90-928b-a693905dd836",
+      "image_url": "https://mobbin.com/api/mcp/short/2K1Suy1Z",
+      "position": 1
+    },
+    {
+      "screen_id": "9ec5821f-de9a-42b1-9f11-5733bbb0794a",
+      "image_url": "https://mobbin.com/api/mcp/short/gGR11qLb",
+      "position": 2
+    },
+    {
+      "screen_id": "d3583f95-0016-41db-834d-bfabbf257728",
+      "image_url": "https://mobbin.com/api/mcp/short/CtF3zLDQ",
+      "position": 3
+    },
+    {
+      "screen_id": "66225c47-8227-4a20-8551-71676a5756c6",
+      "image_url": "https://mobbin.com/api/mcp/short/omMJti4P",
+      "position": 4
+    },
+    {
+      "screen_id": "8c9ad644-2e99-4f36-bbc6-0b11ec70b5d8",
+      "image_url": "https://mobbin.com/api/mcp/short/5thoLiXI",
+      "position": 5
+    }
+  ]
+}

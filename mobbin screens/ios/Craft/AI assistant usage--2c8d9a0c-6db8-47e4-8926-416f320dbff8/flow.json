@@ -1,0 +1,21 @@
+{
+  "id": "2c8d9a0c-6db8-47e4-8926-416f320dbff8",
+  "name": "AI assistant usage",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/2c8d9a0c-6db8-47e4-8926-416f320dbff8",
+  "app_name": "Craft",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "a8a8c3ab-b97b-48af-94da-6b5fb4e76a15",
+      "image_url": "https://mobbin.com/api/mcp/short/VjU3kqXU",
+      "position": 1
+    },
+    {
+      "screen_id": "7c3215d1-d71c-4168-bcd5-916a8e5b976f",
+      "image_url": "https://mobbin.com/api/mcp/short/9EDHRvcC",
+      "position": 2
+    }
+  ]
+}

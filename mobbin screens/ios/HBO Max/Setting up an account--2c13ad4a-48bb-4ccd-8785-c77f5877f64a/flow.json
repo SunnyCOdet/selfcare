@@ -1,0 +1,58 @@
+{
+  "id": "2c13ad4a-48bb-4ccd-8785-c77f5877f64a",
+  "name": "Setting up an account",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2c13ad4a-48bb-4ccd-8785-c77f5877f64a",
+  "app_name": "HBO Max",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "38291c06-fbe0-4a79-b8f4-849bef830435",
+      "image_url": "https://mobbin.com/api/mcp/short/qhko4OIN",
+      "position": 1
+    },
+    {
+      "screen_id": "865ae8a2-6f38-4f40-94fb-b3d6966cb89f",
+      "image_url": "https://mobbin.com/api/mcp/short/b61ITu6Z",
+      "position": 2
+    },
+    {
+      "screen_id": "22548138-a31e-4496-8596-ddfe743c68aa",
+      "image_url": "https://mobbin.com/api/mcp/short/cFK5RFDU",
+      "position": 3
+    },
+    {
+      "screen_id": "473b9f24-043a-4610-9037-77d6bdcebf62",
+      "image_url": "https://mobbin.com/api/mcp/short/7mgeHZOu",
+      "position": 4
+    },
+    {
+      "screen_id": "b7370018-5fe9-4a8c-87cb-003ed4797b21",
+      "image_url": "https://mobbin.com/api/mcp/short/nYcleRZs",
+      "position": 5
+    },
+    {
+      "screen_id": "777c337e-2d22-4a05-ae01-00ea3ca6a7ab",
+      "image_url": "https://mobbin.com/api/mcp/short/fF93FDIs",
+      "position": 6
+    },
+    {
+      "screen_id": "9b7ca0a9-4f54-4105-b509-ffce7872a2db",
+      "image_url": "https://mobbin.com/api/mcp/short/WQ67ghmq",
+      "position": 7
+    },
+    {
+      "screen_id": "5277cbd6-59ef-46cb-b13d-b3dee463ceb0",
+      "image_url": "https://mobbin.com/api/mcp/short/auIUb6Xg",
+      "position": 8
+    },
+    {
+      "screen_id": "275e74b4-f29d-4e9b-a45f-66f9833f5f11",
+      "image_url": "https://mobbin.com/api/mcp/short/YHP2LI4G",
+      "position": 9
+    }
+  ]
+}

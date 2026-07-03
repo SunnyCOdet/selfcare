@@ -1,0 +1,26 @@
+{
+  "id": "909de090-3d62-4e6a-9d6a-6c59ed8b224a",
+  "name": "AI brush tips",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/909de090-3d62-4e6a-9d6a-6c59ed8b224a",
+  "app_name": "Riveo",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "4d1caa55-bfee-4ca6-9fb4-12353f90720e",
+      "image_url": "https://mobbin.com/api/mcp/short/zljsS4Hf",
+      "position": 1
+    },
+    {
+      "screen_id": "99757f45-e7e5-4e62-8cc4-962fc8e36def",
+      "image_url": "https://mobbin.com/api/mcp/short/EsWAfzau",
+      "position": 2
+    },
+    {
+      "screen_id": "257306ba-789b-4ef9-b22c-f4bfd2a87fe7",
+      "image_url": "https://mobbin.com/api/mcp/short/X9mif4EC",
+      "position": 3
+    }
+  ]
+}

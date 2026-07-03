@@ -1,0 +1,28 @@
+{
+  "id": "838c8a7d-1afd-4252-b42d-331c1bb8cc05",
+  "name": "Adding a checklist using AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/838c8a7d-1afd-4252-b42d-331c1bb8cc05",
+  "app_name": "Tiimo",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "44445843-dc5a-448b-a1e2-059c05a963be",
+      "image_url": "https://mobbin.com/api/mcp/short/nsmbhB0h",
+      "position": 1
+    },
+    {
+      "screen_id": "2341295e-43e8-41c1-8da0-6ae968d58a8f",
+      "image_url": "https://mobbin.com/api/mcp/short/pEKTRQHT",
+      "position": 2
+    },
+    {
+      "screen_id": "55044a4b-a073-4432-b641-bb231ff68b59",
+      "image_url": "https://mobbin.com/api/mcp/short/lyWGv1pk",
+      "position": 3
+    }
+  ]
+}

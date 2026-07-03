@@ -1,0 +1,75 @@
+{
+  "id": "02d5b9c1-dcca-44a8-97f0-1b3776714c1e",
+  "name": "Completing app setup",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/02d5b9c1-dcca-44a8-97f0-1b3776714c1e",
+  "app_name": "Evernote",
+  "platform": "ios",
+  "screen_count": 12,
+  "screens": [
+    {
+      "screen_id": "2e3f4be4-470e-4c5f-a9f1-2e086ddc574e",
+      "image_url": "https://mobbin.com/api/mcp/short/P8323Tu0",
+      "position": 1
+    },
+    {
+      "screen_id": "3b3e7248-7d54-4d01-bb2f-a05998b28ef5",
+      "image_url": "https://mobbin.com/api/mcp/short/x8UYoGl4",
+      "position": 2
+    },
+    {
+      "screen_id": "0caae5cd-40e8-4ca8-b1d3-05611d4bcf43",
+      "image_url": "https://mobbin.com/api/mcp/short/SPX7P7Kn",
+      "position": 3
+    },
+    {
+      "screen_id": "c9b4500e-9725-44bc-b8bc-3c5b29b42097",
+      "image_url": "https://mobbin.com/api/mcp/short/D3dvaZvW",
+      "position": 4
+    },
+    {
+      "screen_id": "68eabcd1-6ff1-4943-86ce-e755a89d6a75",
+      "image_url": "https://mobbin.com/api/mcp/short/c42hLXlb",
+      "position": 5
+    },
+    {
+      "screen_id": "e6c8960b-d482-4a55-8436-9f56d089c6d4",
+      "image_url": "https://mobbin.com/api/mcp/short/mMEOuDwP",
+      "position": 6
+    },
+    {
+      "screen_id": "dd1da79c-909f-4d3b-b7e2-3fba6f48461e",
+      "image_url": "https://mobbin.com/api/mcp/short/dQNRGxuo",
+      "position": 7
+    },
+    {
+      "screen_id": "822590d0-c375-469d-a0a4-8311b2b347ba",
+      "image_url": "https://mobbin.com/api/mcp/short/QUE4rZe0",
+      "position": 8
+    },
+    {
+      "screen_id": "be5e3d71-d192-4444-be67-0b5d4bddc6de",
+      "image_url": "https://mobbin.com/api/mcp/short/0bxwIZHZ",
+      "position": 9
+    },
+    {
+      "screen_id": "9107b404-36a7-4816-bc5a-ba88c2ae13c4",
+      "image_url": "https://mobbin.com/api/mcp/short/1SWigB0x",
+      "position": 10
+    },
+    {
+      "screen_id": "fbe7c95c-dbcf-444f-9863-8e5516339e6e",
+      "image_url": "https://mobbin.com/api/mcp/short/rGETbhNX",
+      "position": 11
+    },
+    {
+      "screen_id": "0c56d56b-9ad9-4ca9-95c4-d6ded5eecea7",
+      "image_url": "https://mobbin.com/api/mcp/short/K9vkotPl",
+      "position": 12
+    }
+  ]
+}

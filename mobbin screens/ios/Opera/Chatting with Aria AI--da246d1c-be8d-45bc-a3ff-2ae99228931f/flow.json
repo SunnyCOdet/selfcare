@@ -1,0 +1,33 @@
+{
+  "id": "da246d1c-be8d-45bc-a3ff-2ae99228931f",
+  "name": "Chatting with Aria AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/da246d1c-be8d-45bc-a3ff-2ae99228931f",
+  "app_name": "Opera",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "941591d6-1903-4af6-91e2-df4d911bb8f4",
+      "image_url": "https://mobbin.com/api/mcp/short/9Qz0oOaA",
+      "position": 1
+    },
+    {
+      "screen_id": "6cbd7ae5-684d-4ff0-99c1-358e29e077ce",
+      "image_url": "https://mobbin.com/api/mcp/short/hrhaAeLr",
+      "position": 2
+    },
+    {
+      "screen_id": "1c0cfb28-bc3c-444e-bb4c-b8a5327c6d9c",
+      "image_url": "https://mobbin.com/api/mcp/short/3fJ2SvyS",
+      "position": 3
+    },
+    {
+      "screen_id": "08707419-9dd5-434d-9934-9345336fef19",
+      "image_url": "https://mobbin.com/api/mcp/short/Bl4RojUv",
+      "position": 4
+    }
+  ]
+}

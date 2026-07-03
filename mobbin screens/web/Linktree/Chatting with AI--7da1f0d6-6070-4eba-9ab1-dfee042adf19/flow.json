@@ -1,0 +1,33 @@
+{
+  "id": "7da1f0d6-6070-4eba-9ab1-dfee042adf19",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7da1f0d6-6070-4eba-9ab1-dfee042adf19",
+  "app_name": "Linktree",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "2c746505-1ac2-4843-909c-22e49e19be4a",
+      "image_url": "https://mobbin.com/api/mcp/short/46n8PWW0",
+      "position": 1
+    },
+    {
+      "screen_id": "316b7d22-2a29-41b6-ad9d-64bac3a3eff2",
+      "image_url": "https://mobbin.com/api/mcp/short/Uq6tWoIZ",
+      "position": 2
+    },
+    {
+      "screen_id": "922aee3e-fd5b-4556-99d6-4e3d1d906be0",
+      "image_url": "https://mobbin.com/api/mcp/short/PjPN2lml",
+      "position": 3
+    },
+    {
+      "screen_id": "9beec08a-0fe0-473b-ad27-af4f9f8962a8",
+      "image_url": "https://mobbin.com/api/mcp/short/imzqZDXj",
+      "position": 4
+    }
+  ]
+}

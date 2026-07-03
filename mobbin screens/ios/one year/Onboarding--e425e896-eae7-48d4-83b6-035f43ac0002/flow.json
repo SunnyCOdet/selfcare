@@ -1,0 +1,38 @@
+{
+  "id": "e425e896-eae7-48d4-83b6-035f43ac0002",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e425e896-eae7-48d4-83b6-035f43ac0002",
+  "app_name": "one year",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c9f47bf4-f948-4353-b668-d6bfad31463e",
+      "image_url": "https://mobbin.com/api/mcp/short/LKfKGCq8",
+      "position": 1
+    },
+    {
+      "screen_id": "26f23d22-fef9-47cf-bf4e-043dabe3e1e0",
+      "image_url": "https://mobbin.com/api/mcp/short/TGCiePpe",
+      "position": 2
+    },
+    {
+      "screen_id": "01193399-263f-4b5b-86da-129f6f9eb1c6",
+      "image_url": "https://mobbin.com/api/mcp/short/h2pmlikg",
+      "position": 3
+    },
+    {
+      "screen_id": "ff455c7d-f0f5-4b40-b9d4-479ffb80de4a",
+      "image_url": "https://mobbin.com/api/mcp/short/LS9Gdx15",
+      "position": 4
+    },
+    {
+      "screen_id": "31e74b69-2334-49c3-8520-14136403d068",
+      "image_url": "https://mobbin.com/api/mcp/short/Ourcn2Lx",
+      "position": 5
+    }
+  ]
+}

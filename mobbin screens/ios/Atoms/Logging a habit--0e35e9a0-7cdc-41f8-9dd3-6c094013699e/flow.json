@@ -1,0 +1,38 @@
+{
+  "id": "0e35e9a0-7cdc-41f8-9dd3-6c094013699e",
+  "name": "Logging a habit",
+  "actions": [
+    "Logging & Tracking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0e35e9a0-7cdc-41f8-9dd3-6c094013699e",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "ab10ab4c-50d8-40a4-8de4-cf211a04bb1e",
+      "image_url": "https://mobbin.com/api/mcp/short/PEe2ZEPF",
+      "position": 1
+    },
+    {
+      "screen_id": "aa924898-11d9-405d-876a-1d2ba12d7ab1",
+      "image_url": "https://mobbin.com/api/mcp/short/5sIEJzEC",
+      "position": 2
+    },
+    {
+      "screen_id": "e5e35f7b-c494-4d4b-9c1e-ff46c3216390",
+      "image_url": "https://mobbin.com/api/mcp/short/0HcIuhBg",
+      "position": 3
+    },
+    {
+      "screen_id": "9bcb13ca-5112-4996-afe6-5014f0bc1723",
+      "image_url": "https://mobbin.com/api/mcp/short/fW80FQqJ",
+      "position": 4
+    },
+    {
+      "screen_id": "904f683f-daef-4507-ac61-d77f1dfd7ae8",
+      "image_url": "https://mobbin.com/api/mcp/short/0hfobLiw",
+      "position": 5
+    }
+  ]
+}

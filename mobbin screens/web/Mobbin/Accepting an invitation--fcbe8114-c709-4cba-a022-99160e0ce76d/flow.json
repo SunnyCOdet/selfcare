@@ -1,0 +1,33 @@
+{
+  "id": "fcbe8114-c709-4cba-a022-99160e0ce76d",
+  "name": "Accepting an invitation",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fcbe8114-c709-4cba-a022-99160e0ce76d",
+  "app_name": "Mobbin",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3bc9750f-d429-433c-b424-e18395551021",
+      "image_url": "https://mobbin.com/api/mcp/short/QzNUUszJ",
+      "position": 1
+    },
+    {
+      "screen_id": "cccb5978-363f-4f81-bb66-12db23ad2e7b",
+      "image_url": "https://mobbin.com/api/mcp/short/cPJvAQbc",
+      "position": 2
+    },
+    {
+      "screen_id": "5b1f282d-56ac-41a1-8e51-ed5ed0fab236",
+      "image_url": "https://mobbin.com/api/mcp/short/NAl96Jmy",
+      "position": 3
+    },
+    {
+      "screen_id": "795a072c-7726-4aba-b6d7-60f02b9b909a",
+      "image_url": "https://mobbin.com/api/mcp/short/SVwwDKod",
+      "position": 4
+    }
+  ]
+}

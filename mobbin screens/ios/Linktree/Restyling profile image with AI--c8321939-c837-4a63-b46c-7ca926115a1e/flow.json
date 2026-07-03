@@ -1,0 +1,43 @@
+{
+  "id": "c8321939-c837-4a63-b46c-7ca926115a1e",
+  "name": "Restyling profile image with AI",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c8321939-c837-4a63-b46c-7ca926115a1e",
+  "app_name": "Linktree",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "91797c43-569d-417d-b2dc-fc10b0a32baf",
+      "image_url": "https://mobbin.com/api/mcp/short/76RLUBzI",
+      "position": 1
+    },
+    {
+      "screen_id": "fea54c36-55cb-4071-879c-8a6768ba966b",
+      "image_url": "https://mobbin.com/api/mcp/short/ow1tTapn",
+      "position": 2
+    },
+    {
+      "screen_id": "935c6823-d482-4ac2-85f0-9ae72aecc9fb",
+      "image_url": "https://mobbin.com/api/mcp/short/IM1SEqhe",
+      "position": 3
+    },
+    {
+      "screen_id": "c183fe5e-5e41-4121-bbbf-0c547e011e26",
+      "image_url": "https://mobbin.com/api/mcp/short/tEJRnuQZ",
+      "position": 4
+    },
+    {
+      "screen_id": "d3c0f9e4-1af0-4480-bbb7-6fb8cf65e54a",
+      "image_url": "https://mobbin.com/api/mcp/short/N2dOK1Ak",
+      "position": 5
+    },
+    {
+      "screen_id": "90e794e3-5222-42bc-aad2-61d35a7e17f1",
+      "image_url": "https://mobbin.com/api/mcp/short/C6uu1f9u",
+      "position": 6
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "79592e57-752e-40d7-98d4-b4179c734d4b",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/79592e57-752e-40d7-98d4-b4179c734d4b",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "88877f59-e0a9-4e07-b4ea-bcc4b26265bd",
+      "image_url": "https://mobbin.com/api/mcp/short/tXbugct2",
+      "position": 1
+    },
+    {
+      "screen_id": "a3280416-080d-4e04-9d82-4873eb1f0880",
+      "image_url": "https://mobbin.com/api/mcp/short/aAyNFYsK",
+      "position": 2
+    },
+    {
+      "screen_id": "686ea6d8-6679-4bbd-af5d-4573047dda2a",
+      "image_url": "https://mobbin.com/api/mcp/short/vL3oXx0e",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "f07b7f3c-416b-436a-a1ae-6c7cf14fee6e",
+  "name": "Use cases",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f07b7f3c-416b-436a-a1ae-6c7cf14fee6e",
+  "app_name": "Sana AI",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "73aec309-c293-4262-ab71-48f7d673ef45",
+      "image_url": "https://mobbin.com/api/mcp/short/N6vFWRGz",
+      "position": 1
+    },
+    {
+      "screen_id": "ab1c8558-c3d5-40f2-b189-3851e26209b7",
+      "image_url": "https://mobbin.com/api/mcp/short/Bdexq4Su",
+      "position": 2
+    },
+    {
+      "screen_id": "50703a12-5aeb-4044-9e7a-d1f39fb78161",
+      "image_url": "https://mobbin.com/api/mcp/short/iaGrpTeP",
+      "position": 3
+    }
+  ]
+}

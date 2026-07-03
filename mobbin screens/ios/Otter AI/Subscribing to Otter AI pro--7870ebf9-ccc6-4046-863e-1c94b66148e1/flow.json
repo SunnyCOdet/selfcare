@@ -1,0 +1,33 @@
+{
+  "id": "7870ebf9-ccc6-4046-863e-1c94b66148e1",
+  "name": "Subscribing to Otter AI pro",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7870ebf9-ccc6-4046-863e-1c94b66148e1",
+  "app_name": "Otter AI",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "fe2fd404-e50a-41f1-b940-b7ff3835e33c",
+      "image_url": "https://mobbin.com/api/mcp/short/DSCLfBUl",
+      "position": 1
+    },
+    {
+      "screen_id": "ebd7fe14-91b4-4de7-a8a2-3718d9977d6f",
+      "image_url": "https://mobbin.com/api/mcp/short/aUBXH5i5",
+      "position": 2
+    },
+    {
+      "screen_id": "069b8d18-90af-4324-b05a-024153e9e5b6",
+      "image_url": "https://mobbin.com/api/mcp/short/QAsaJBSf",
+      "position": 3
+    },
+    {
+      "screen_id": "7d39e4e8-4c2e-438b-91a2-6d4b5deb7c14",
+      "image_url": "https://mobbin.com/api/mcp/short/Ht7iX2HK",
+      "position": 4
+    }
+  ]
+}

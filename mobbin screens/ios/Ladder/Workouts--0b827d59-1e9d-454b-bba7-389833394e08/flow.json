@@ -1,0 +1,51 @@
+{
+  "id": "0b827d59-1e9d-454b-bba7-389833394e08",
+  "name": "Workouts",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0b827d59-1e9d-454b-bba7-389833394e08",
+  "app_name": "Ladder",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "2f109f68-516d-4138-ba6a-4ba600ce63c8",
+      "image_url": "https://mobbin.com/api/mcp/short/wORtKaFr",
+      "position": 1
+    },
+    {
+      "screen_id": "cd65371c-7c65-4b1f-a7e7-1ea7b24ca134",
+      "image_url": "https://mobbin.com/api/mcp/short/lNrGVTZy",
+      "position": 2
+    },
+    {
+      "screen_id": "46073738-1d9d-4064-9d39-faf949d9772b",
+      "image_url": "https://mobbin.com/api/mcp/short/88hxDhf0",
+      "position": 3
+    },
+    {
+      "screen_id": "0e0eb164-8560-4d10-b8bf-93017db938fa",
+      "image_url": "https://mobbin.com/api/mcp/short/W4z2jv9D",
+      "position": 4
+    },
+    {
+      "screen_id": "cff301f6-654d-4d09-aa24-fd7964011d35",
+      "image_url": "https://mobbin.com/api/mcp/short/J2ZAxY2r",
+      "position": 5
+    },
+    {
+      "screen_id": "893c2915-bf31-44e4-800a-4444015b6f2f",
+      "image_url": "https://mobbin.com/api/mcp/short/PP8te0vf",
+      "position": 6
+    },
+    {
+      "screen_id": "a0b0f42d-d5c2-4ec5-ace7-8599a3b3dfd2",
+      "image_url": "https://mobbin.com/api/mcp/short/1IneL0dg",
+      "position": 7
+    },
+    {
+      "screen_id": "00d87d32-cbdb-4eab-82a9-e762020e9a7a",
+      "image_url": "https://mobbin.com/api/mcp/short/rp6IPVOj",
+      "position": 8
+    }
+  ]
+}

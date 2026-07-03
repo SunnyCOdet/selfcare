@@ -1,0 +1,38 @@
+{
+  "id": "68559489-94dd-47cd-b157-c17687bef70f",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/68559489-94dd-47cd-b157-c17687bef70f",
+  "app_name": "lululemon",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c264bfcf-b63d-4866-a625-23a228d59dfd",
+      "image_url": "https://mobbin.com/api/mcp/short/53EqnICE",
+      "position": 1
+    },
+    {
+      "screen_id": "251612c7-1e18-402d-ba14-cf85a817e9e8",
+      "image_url": "https://mobbin.com/api/mcp/short/5yfrVJkI",
+      "position": 2
+    },
+    {
+      "screen_id": "ec15f3a4-7d18-4ea5-8809-7a3cd746eb32",
+      "image_url": "https://mobbin.com/api/mcp/short/MkLZqdjj",
+      "position": 3
+    },
+    {
+      "screen_id": "331367f3-bc7e-47a3-9e87-b4f566b3af49",
+      "image_url": "https://mobbin.com/api/mcp/short/vYFPGHr9",
+      "position": 4
+    },
+    {
+      "screen_id": "de8701e0-32fd-49a5-a289-2bdf51ca8399",
+      "image_url": "https://mobbin.com/api/mcp/short/K7wabAMj",
+      "position": 5
+    }
+  ]
+}

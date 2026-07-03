@@ -1,0 +1,28 @@
+{
+  "id": "8164a5fe-b44a-4f93-992c-ae41d325ca7f",
+  "name": "Completing a guide",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8164a5fe-b44a-4f93-992c-ae41d325ca7f",
+  "app_name": "Time2book",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "2e6265e9-a171-4d31-b7f7-fe0433cfe5c0",
+      "image_url": "https://mobbin.com/api/mcp/short/smp37R6n",
+      "position": 1
+    },
+    {
+      "screen_id": "7108e7fa-76da-4616-9d1d-edddf9a6cb40",
+      "image_url": "https://mobbin.com/api/mcp/short/iynvpJPO",
+      "position": 2
+    },
+    {
+      "screen_id": "7c6850a5-6e83-4830-8b67-a30738cf46e1",
+      "image_url": "https://mobbin.com/api/mcp/short/s0C41VPi",
+      "position": 3
+    }
+  ]
+}

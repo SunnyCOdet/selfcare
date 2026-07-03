@@ -1,0 +1,49 @@
+{
+  "id": "d8ae2afc-33c7-480f-862a-1788e059d09e",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d8ae2afc-33c7-480f-862a-1788e059d09e",
+  "app_name": "Tripsy",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "1614e978-07cb-4a5f-8643-4dd0de9352d0",
+      "image_url": "https://mobbin.com/api/mcp/short/Z0gB2XgC",
+      "position": 1
+    },
+    {
+      "screen_id": "a748e831-0f9c-4c68-a5ef-695ff6029306",
+      "image_url": "https://mobbin.com/api/mcp/short/Rq4MVFmp",
+      "position": 2
+    },
+    {
+      "screen_id": "65de0a7a-0231-4f46-bf4f-c40470fd9d90",
+      "image_url": "https://mobbin.com/api/mcp/short/IP1xjQdr",
+      "position": 3
+    },
+    {
+      "screen_id": "4e5f421a-3133-4aa0-8899-b4542d794e2b",
+      "image_url": "https://mobbin.com/api/mcp/short/v7diCOtM",
+      "position": 4
+    },
+    {
+      "screen_id": "b830e599-d8f7-4f5f-b166-0f06a4aec46a",
+      "image_url": "https://mobbin.com/api/mcp/short/bP1FWBtf",
+      "position": 5
+    },
+    {
+      "screen_id": "d35cd4ce-e696-42f5-86a9-43f7fffce5e7",
+      "image_url": "https://mobbin.com/api/mcp/short/kWH1Y6Wd",
+      "position": 6
+    },
+    {
+      "screen_id": "71b9bd7b-a500-4c0d-babb-6f9dd7784033",
+      "image_url": "https://mobbin.com/api/mcp/short/ISFSXeMD",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "30c3678b-1b7e-4601-9aac-1c4a99419990",
+  "name": "Chatting with Meta AI (voice)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/30c3678b-1b7e-4601-9aac-1c4a99419990",
+  "app_name": "WhatsApp",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "46118ef7-5811-4cd8-853b-cf9309fec70d",
+      "image_url": "https://mobbin.com/api/mcp/short/kaRGJRS4",
+      "position": 1
+    },
+    {
+      "screen_id": "8376c9c1-db0e-4bea-b5c6-72c54c86258e",
+      "image_url": "https://mobbin.com/api/mcp/short/K7LB4MDe",
+      "position": 2
+    },
+    {
+      "screen_id": "b034786a-fd92-4c64-adc1-e1b51a8cd845",
+      "image_url": "https://mobbin.com/api/mcp/short/JANGdF1T",
+      "position": 3
+    },
+    {
+      "screen_id": "6474d2b9-3803-4bd3-90ee-143cf9dda044",
+      "image_url": "https://mobbin.com/api/mcp/short/tYg0QyAV",
+      "position": 4
+    },
+    {
+      "screen_id": "0c9a8437-ea34-4ca5-8785-53ff769d3101",
+      "image_url": "https://mobbin.com/api/mcp/short/Ti40y0PT",
+      "position": 5
+    }
+  ]
+}

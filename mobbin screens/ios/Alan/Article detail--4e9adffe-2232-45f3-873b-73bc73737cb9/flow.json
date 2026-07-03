@@ -1,0 +1,36 @@
+{
+  "id": "4e9adffe-2232-45f3-873b-73bc73737cb9",
+  "name": "Article detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4e9adffe-2232-45f3-873b-73bc73737cb9",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "a1ce0262-f487-439a-8fe3-812211bff587",
+      "image_url": "https://mobbin.com/api/mcp/short/5ix67edM",
+      "position": 1
+    },
+    {
+      "screen_id": "d5232561-04f6-4c48-869a-6684151d33e3",
+      "image_url": "https://mobbin.com/api/mcp/short/jB3G1zPt",
+      "position": 2
+    },
+    {
+      "screen_id": "a8cdf45c-cafd-4cef-813e-55ba4d071061",
+      "image_url": "https://mobbin.com/api/mcp/short/UIowf3ew",
+      "position": 3
+    },
+    {
+      "screen_id": "845ab53c-e857-4b71-b556-fbfcd60b8bbf",
+      "image_url": "https://mobbin.com/api/mcp/short/BytFQM2B",
+      "position": 4
+    },
+    {
+      "screen_id": "c9a6e3f2-aad8-4d8f-a4e1-3e45d10fbf93",
+      "image_url": "https://mobbin.com/api/mcp/short/myAzUaWF",
+      "position": 5
+    }
+  ]
+}

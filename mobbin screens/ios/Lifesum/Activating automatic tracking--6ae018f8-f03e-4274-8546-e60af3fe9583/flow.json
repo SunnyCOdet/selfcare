@@ -1,0 +1,43 @@
+{
+  "id": "6ae018f8-f03e-4274-8546-e60af3fe9583",
+  "name": "Activating automatic tracking",
+  "actions": [
+    "Enabling & Disabling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6ae018f8-f03e-4274-8546-e60af3fe9583",
+  "app_name": "Lifesum",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "a666f36f-588d-41ea-860b-44683892fe04",
+      "image_url": "https://mobbin.com/api/mcp/short/9tK9NmK6",
+      "position": 1
+    },
+    {
+      "screen_id": "4b1a440e-38d2-4f0c-809d-fe8ad59bb0b1",
+      "image_url": "https://mobbin.com/api/mcp/short/xJK6eD7W",
+      "position": 2
+    },
+    {
+      "screen_id": "eb0826c6-8944-48fd-b701-0592fec5a0fc",
+      "image_url": "https://mobbin.com/api/mcp/short/9Dymv3D7",
+      "position": 3
+    },
+    {
+      "screen_id": "b30ce463-66b9-4145-9568-055dedab2815",
+      "image_url": "https://mobbin.com/api/mcp/short/6Apfgmcy",
+      "position": 4
+    },
+    {
+      "screen_id": "d47ca809-504d-424c-b0c0-f4140141f6b4",
+      "image_url": "https://mobbin.com/api/mcp/short/BlC370vh",
+      "position": 5
+    },
+    {
+      "screen_id": "edf8b10e-56e2-4221-848c-657c78d3a6d0",
+      "image_url": "https://mobbin.com/api/mcp/short/tRuItr0E",
+      "position": 6
+    }
+  ]
+}

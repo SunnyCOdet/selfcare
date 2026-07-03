@@ -1,0 +1,21 @@
+{
+  "id": "c3e28dbd-047a-4a57-81bd-4d202b92e5fe",
+  "name": "AI image",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c3e28dbd-047a-4a57-81bd-4d202b92e5fe",
+  "app_name": "Deepstash",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "b4576738-d5e3-49e6-8099-5fc70a857230",
+      "image_url": "https://mobbin.com/api/mcp/short/m7q3jM0v",
+      "position": 1
+    },
+    {
+      "screen_id": "fb246ed3-f013-4f43-975b-aa86d0e0c25f",
+      "image_url": "https://mobbin.com/api/mcp/short/JbMr8b0p",
+      "position": 2
+    }
+  ]
+}

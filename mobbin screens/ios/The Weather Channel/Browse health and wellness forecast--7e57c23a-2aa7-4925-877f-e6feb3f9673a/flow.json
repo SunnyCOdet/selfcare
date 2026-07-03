@@ -1,0 +1,36 @@
+{
+  "id": "7e57c23a-2aa7-4925-877f-e6feb3f9673a",
+  "name": "Browse health and wellness forecast",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/7e57c23a-2aa7-4925-877f-e6feb3f9673a",
+  "app_name": "The Weather Channel",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "6a9ba55f-3516-4d1c-9c5b-76fc87992c74",
+      "image_url": "https://mobbin.com/api/mcp/short/CxOoduBZ",
+      "position": 1
+    },
+    {
+      "screen_id": "9632a3f4-a34b-4601-a66f-f6b14ff34314",
+      "image_url": "https://mobbin.com/api/mcp/short/0MWHfae6",
+      "position": 2
+    },
+    {
+      "screen_id": "fdf6b4b9-57ed-46c5-b654-557910c34c14",
+      "image_url": "https://mobbin.com/api/mcp/short/iJnYKfzC",
+      "position": 3
+    },
+    {
+      "screen_id": "98f52f54-f05d-46ed-bf86-7be6cf925012",
+      "image_url": "https://mobbin.com/api/mcp/short/V1R6NUuD",
+      "position": 4
+    },
+    {
+      "screen_id": "2e74586e-1d2b-47f2-8550-5848ef2c2171",
+      "image_url": "https://mobbin.com/api/mcp/short/0uxuuwfO",
+      "position": 5
+    }
+  ]
+}

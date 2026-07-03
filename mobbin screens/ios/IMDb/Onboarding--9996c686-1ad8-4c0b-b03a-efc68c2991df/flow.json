@@ -1,0 +1,28 @@
+{
+  "id": "9996c686-1ad8-4c0b-b03a-efc68c2991df",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9996c686-1ad8-4c0b-b03a-efc68c2991df",
+  "app_name": "IMDb",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "44b9d91e-016d-44e0-9a78-164de50326fc",
+      "image_url": "https://mobbin.com/api/mcp/short/A6Nr6OZc",
+      "position": 1
+    },
+    {
+      "screen_id": "aabe48c1-7324-41a3-9885-3ea9780aa83f",
+      "image_url": "https://mobbin.com/api/mcp/short/c6MjxWTv",
+      "position": 2
+    },
+    {
+      "screen_id": "ec23bd5f-4b8f-4f58-82f8-d95198391121",
+      "image_url": "https://mobbin.com/api/mcp/short/MCd6fYVE",
+      "position": 3
+    }
+  ]
+}

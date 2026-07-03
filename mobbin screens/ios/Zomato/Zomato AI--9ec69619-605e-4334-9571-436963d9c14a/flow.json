@@ -1,0 +1,21 @@
+{
+  "id": "9ec69619-605e-4334-9571-436963d9c14a",
+  "name": "Zomato AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/9ec69619-605e-4334-9571-436963d9c14a",
+  "app_name": "Zomato",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "c40334e2-8b13-425d-91e1-577f32dfba3b",
+      "image_url": "https://mobbin.com/api/mcp/short/LtF1kZCq",
+      "position": 1
+    },
+    {
+      "screen_id": "9df17e7e-41b7-4ee1-812a-50e526d56928",
+      "image_url": "https://mobbin.com/api/mcp/short/WzE5fz4d",
+      "position": 2
+    }
+  ]
+}

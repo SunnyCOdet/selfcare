@@ -1,0 +1,63 @@
+{
+  "id": "c1ff08b5-b3ca-4e57-8745-a0a0e685c54a",
+  "name": "Setting up strength workouts",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c1ff08b5-b3ca-4e57-8745-a0a0e685c54a",
+  "app_name": "Runna",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "79f36a7e-8410-4910-bee9-f3978527ec22",
+      "image_url": "https://mobbin.com/api/mcp/short/aEXA7e8W",
+      "position": 1
+    },
+    {
+      "screen_id": "0bad18c4-ea7b-43cc-9c1e-e0f10b1ba817",
+      "image_url": "https://mobbin.com/api/mcp/short/cMFeGOXI",
+      "position": 2
+    },
+    {
+      "screen_id": "47205b85-a69d-47e1-98c3-67f0b8b85370",
+      "image_url": "https://mobbin.com/api/mcp/short/1nsuWEdf",
+      "position": 3
+    },
+    {
+      "screen_id": "ecb58334-aa0a-47f9-8b24-38c58a86c029",
+      "image_url": "https://mobbin.com/api/mcp/short/MzHyAYTk",
+      "position": 4
+    },
+    {
+      "screen_id": "e92f2dda-3e77-4cec-a228-72b63d4f4968",
+      "image_url": "https://mobbin.com/api/mcp/short/TfWrkTK1",
+      "position": 5
+    },
+    {
+      "screen_id": "a3c3401c-cc84-4f6f-8b46-a184f7ad55b6",
+      "image_url": "https://mobbin.com/api/mcp/short/p4Xkstrg",
+      "position": 6
+    },
+    {
+      "screen_id": "8df7e0de-4e43-46c8-bf97-5f5ca66c1703",
+      "image_url": "https://mobbin.com/api/mcp/short/AVTG7EmU",
+      "position": 7
+    },
+    {
+      "screen_id": "534d89ec-3d0e-42c1-8fe5-f4f03ddf38d5",
+      "image_url": "https://mobbin.com/api/mcp/short/i3AdHIXu",
+      "position": 8
+    },
+    {
+      "screen_id": "22bcb7e4-13aa-46e0-92eb-2eea43bcdf06",
+      "image_url": "https://mobbin.com/api/mcp/short/4vOWRdeh",
+      "position": 9
+    },
+    {
+      "screen_id": "36cdd719-53f5-4889-88f7-fe77845a4b55",
+      "image_url": "https://mobbin.com/api/mcp/short/YnHehsWE",
+      "position": 10
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2846108f-289a-4e9a-906a-d99629174ed9",
+  "name": "Setting a goal",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/2846108f-289a-4e9a-906a-d99629174ed9",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "53c37a8e-c828-4f63-b39d-4bddfbc24328",
+      "image_url": "https://mobbin.com/api/mcp/short/HUeVP4wL",
+      "position": 1
+    },
+    {
+      "screen_id": "b4cde2e4-fe12-46c7-b361-fcfd4c4a44d4",
+      "image_url": "https://mobbin.com/api/mcp/short/aogkNQWz",
+      "position": 2
+    },
+    {
+      "screen_id": "9dae1a94-6e1f-44c5-bd63-4c662cdc3a63",
+      "image_url": "https://mobbin.com/api/mcp/short/O3IYgSrH",
+      "position": 3
+    },
+    {
+      "screen_id": "a8f61420-d3d4-492f-ac7c-b0e2bb9e6cc7",
+      "image_url": "https://mobbin.com/api/mcp/short/W7tqol4s",
+      "position": 4
+    },
+    {
+      "screen_id": "bca71280-aaf1-46af-88be-b693c79eaa21",
+      "image_url": "https://mobbin.com/api/mcp/short/weZQlmaN",
+      "position": 5
+    }
+  ]
+}

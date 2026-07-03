@@ -1,0 +1,51 @@
+{
+  "id": "4e69e744-7171-493c-b975-6655d6000970",
+  "name": "Article detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/4e69e744-7171-493c-b975-6655d6000970",
+  "app_name": "Apple Store",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "9af55046-d3ea-4c95-910b-a91ec7f4616f",
+      "image_url": "https://mobbin.com/api/mcp/short/XQVmt0gL",
+      "position": 1
+    },
+    {
+      "screen_id": "f159878a-d0ca-46c1-9913-3c2ac1e37c54",
+      "image_url": "https://mobbin.com/api/mcp/short/blteGhxT",
+      "position": 2
+    },
+    {
+      "screen_id": "271bd0ae-79a8-4005-b342-42ec61c4abe1",
+      "image_url": "https://mobbin.com/api/mcp/short/0EEFG0NW",
+      "position": 3
+    },
+    {
+      "screen_id": "07a122b7-bf84-4b65-815a-e294033254d2",
+      "image_url": "https://mobbin.com/api/mcp/short/hz2G1dq1",
+      "position": 4
+    },
+    {
+      "screen_id": "0a87261d-f98a-4b12-9460-d470b30634c9",
+      "image_url": "https://mobbin.com/api/mcp/short/gZXoXYtH",
+      "position": 5
+    },
+    {
+      "screen_id": "0fc7cca3-dc1a-4155-a275-4062819d9588",
+      "image_url": "https://mobbin.com/api/mcp/short/SD12NWrK",
+      "position": 6
+    },
+    {
+      "screen_id": "c758d32d-171a-45e0-bf1d-c036c26dfa3b",
+      "image_url": "https://mobbin.com/api/mcp/short/DckjpFMH",
+      "position": 7
+    },
+    {
+      "screen_id": "ee0d0fcc-9e6d-432f-8946-5aad2f2e67d1",
+      "image_url": "https://mobbin.com/api/mcp/short/fjAq3APs",
+      "position": 8
+    }
+  ]
+}

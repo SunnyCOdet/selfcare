@@ -1,0 +1,38 @@
+{
+  "id": "0bdc80aa-7e06-4034-88ed-91d793bd32be",
+  "name": "Creating a sequence with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/0bdc80aa-7e06-4034-88ed-91d793bd32be",
+  "app_name": "Pin",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "4c293783-252a-4e8a-b44f-a1bcc1c9cecf",
+      "image_url": "https://mobbin.com/api/mcp/short/hsE2p36d",
+      "position": 1
+    },
+    {
+      "screen_id": "a53b1fed-7ab0-442d-9e6c-e2a03206d7c5",
+      "image_url": "https://mobbin.com/api/mcp/short/4d8K3S0r",
+      "position": 2
+    },
+    {
+      "screen_id": "d3ff5e74-e74a-4d6d-b5a6-746ee02f835d",
+      "image_url": "https://mobbin.com/api/mcp/short/WKcMtQK6",
+      "position": 3
+    },
+    {
+      "screen_id": "7e93ff4d-bb72-4bef-bd8a-e5a84ce08c81",
+      "image_url": "https://mobbin.com/api/mcp/short/qpmtbj3I",
+      "position": 4
+    },
+    {
+      "screen_id": "a846cef3-e0f2-4f90-94a3-afa5ad38b171",
+      "image_url": "https://mobbin.com/api/mcp/short/1rOsptrf",
+      "position": 5
+    }
+  ]
+}

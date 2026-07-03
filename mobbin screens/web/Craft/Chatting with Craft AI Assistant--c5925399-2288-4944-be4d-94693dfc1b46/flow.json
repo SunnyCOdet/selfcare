@@ -1,0 +1,68 @@
+{
+  "id": "c5925399-2288-4944-be4d-94693dfc1b46",
+  "name": "Chatting with Craft AI Assistant",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c5925399-2288-4944-be4d-94693dfc1b46",
+  "app_name": "Craft",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "3129ea1e-b5a7-41ca-88b7-c5830215e312",
+      "image_url": "https://mobbin.com/api/mcp/short/8i74BQzi",
+      "position": 1
+    },
+    {
+      "screen_id": "60febed3-737e-4efc-b9e7-a26e95430eca",
+      "image_url": "https://mobbin.com/api/mcp/short/SU0GZSPi",
+      "position": 2
+    },
+    {
+      "screen_id": "7c9c708d-83d4-43d2-928b-2b9dfff904d3",
+      "image_url": "https://mobbin.com/api/mcp/short/2a0FTcJv",
+      "position": 3
+    },
+    {
+      "screen_id": "fba40e7a-f7d4-4e55-95b0-796afca3f305",
+      "image_url": "https://mobbin.com/api/mcp/short/SjYQ1IF7",
+      "position": 4
+    },
+    {
+      "screen_id": "90762a93-c7d7-4d3e-ab4e-78cba1d94666",
+      "image_url": "https://mobbin.com/api/mcp/short/XkkuZyxr",
+      "position": 5
+    },
+    {
+      "screen_id": "dcb95877-221c-486c-8f95-ea4a76d734c8",
+      "image_url": "https://mobbin.com/api/mcp/short/e26KpB4k",
+      "position": 6
+    },
+    {
+      "screen_id": "09d77a01-b155-45b0-be6f-5887db6abe17",
+      "image_url": "https://mobbin.com/api/mcp/short/DXi57gNo",
+      "position": 7
+    },
+    {
+      "screen_id": "a8956cd1-586c-4247-977c-35f15b3bdb81",
+      "image_url": "https://mobbin.com/api/mcp/short/pZlHAARN",
+      "position": 8
+    },
+    {
+      "screen_id": "e435f30f-dfb2-40cb-912d-8a2bb6349e69",
+      "image_url": "https://mobbin.com/api/mcp/short/G8kP1ciT",
+      "position": 9
+    },
+    {
+      "screen_id": "7f9fbdce-008c-4691-b023-ca8016855722",
+      "image_url": "https://mobbin.com/api/mcp/short/8TJdWs8d",
+      "position": 10
+    },
+    {
+      "screen_id": "d0893ab2-2ce6-4322-92fd-f81006e9a848",
+      "image_url": "https://mobbin.com/api/mcp/short/WJDg1GGO",
+      "position": 11
+    }
+  ]
+}

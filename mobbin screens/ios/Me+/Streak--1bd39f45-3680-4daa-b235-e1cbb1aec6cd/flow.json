@@ -1,0 +1,26 @@
+{
+  "id": "1bd39f45-3680-4daa-b235-e1cbb1aec6cd",
+  "name": "Streak",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1bd39f45-3680-4daa-b235-e1cbb1aec6cd",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "9896db70-8d70-43dd-affc-02ad8b48327c",
+      "image_url": "https://mobbin.com/api/mcp/short/ZLeHAm7F",
+      "position": 1
+    },
+    {
+      "screen_id": "d1e8fdf1-b851-41fd-884a-9ade2e95eba9",
+      "image_url": "https://mobbin.com/api/mcp/short/F9voOhEv",
+      "position": 2
+    },
+    {
+      "screen_id": "3ca5a8b2-11c1-46bf-ba5e-d1554aa3449f",
+      "image_url": "https://mobbin.com/api/mcp/short/gJWgBZHW",
+      "position": 3
+    }
+  ]
+}

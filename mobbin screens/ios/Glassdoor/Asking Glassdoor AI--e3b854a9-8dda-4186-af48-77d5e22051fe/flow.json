@@ -1,0 +1,38 @@
+{
+  "id": "e3b854a9-8dda-4186-af48-77d5e22051fe",
+  "name": "Asking Glassdoor AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e3b854a9-8dda-4186-af48-77d5e22051fe",
+  "app_name": "Glassdoor",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "bededbf5-2445-4d80-8f95-c81bd8a62eb0",
+      "image_url": "https://mobbin.com/api/mcp/short/oroe4sk2",
+      "position": 1
+    },
+    {
+      "screen_id": "43b279d7-0e88-4feb-8d21-79b602fa7dbb",
+      "image_url": "https://mobbin.com/api/mcp/short/T66Ik923",
+      "position": 2
+    },
+    {
+      "screen_id": "581b24e0-bb30-434d-b4af-0547e22add50",
+      "image_url": "https://mobbin.com/api/mcp/short/0afG0GTk",
+      "position": 3
+    },
+    {
+      "screen_id": "2cf8d880-ea7c-4af2-ac77-6d96e770d22b",
+      "image_url": "https://mobbin.com/api/mcp/short/0teDMCLm",
+      "position": 4
+    },
+    {
+      "screen_id": "df16c333-5699-4b02-8009-a2a0ad668e88",
+      "image_url": "https://mobbin.com/api/mcp/short/xgYvP2A0",
+      "position": 5
+    }
+  ]
+}

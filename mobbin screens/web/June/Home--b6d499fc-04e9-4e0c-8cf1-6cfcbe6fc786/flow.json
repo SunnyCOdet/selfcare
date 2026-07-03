@@ -1,0 +1,31 @@
+{
+  "id": "b6d499fc-04e9-4e0c-8cf1-6cfcbe6fc786",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b6d499fc-04e9-4e0c-8cf1-6cfcbe6fc786",
+  "app_name": "June",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "c10d8579-2bd4-4825-a98c-1c13bca7632b",
+      "image_url": "https://mobbin.com/api/mcp/short/uLfwbV1A",
+      "position": 1
+    },
+    {
+      "screen_id": "604e1cf1-774b-4c88-97a5-033bf78f9ed3",
+      "image_url": "https://mobbin.com/api/mcp/short/HyNPya1I",
+      "position": 2
+    },
+    {
+      "screen_id": "eecc3570-961e-458a-905a-d3f429e38d67",
+      "image_url": "https://mobbin.com/api/mcp/short/duIXgwOM",
+      "position": 3
+    },
+    {
+      "screen_id": "d7c025e6-c3fd-4b69-b8da-076371fa9b43",
+      "image_url": "https://mobbin.com/api/mcp/short/67rOa9v3",
+      "position": 4
+    }
+  ]
+}

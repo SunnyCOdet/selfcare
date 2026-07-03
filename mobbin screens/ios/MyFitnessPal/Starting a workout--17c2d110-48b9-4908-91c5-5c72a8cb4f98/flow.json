@@ -1,0 +1,59 @@
+{
+  "id": "17c2d110-48b9-4908-91c5-5c72a8cb4f98",
+  "name": "Starting a workout",
+  "actions": [
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/17c2d110-48b9-4908-91c5-5c72a8cb4f98",
+  "app_name": "MyFitnessPal",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "a7484322-0b36-4bf3-9a5b-275855dfb82c",
+      "image_url": "https://mobbin.com/api/mcp/short/Rj8LHN10",
+      "position": 1
+    },
+    {
+      "screen_id": "1ed82deb-65de-4bfb-8d01-477f88f702ce",
+      "image_url": "https://mobbin.com/api/mcp/short/zVIHWTpO",
+      "position": 2
+    },
+    {
+      "screen_id": "0475655d-f987-454f-a262-ae6f1b1ea5ff",
+      "image_url": "https://mobbin.com/api/mcp/short/EjZvcXQS",
+      "position": 3
+    },
+    {
+      "screen_id": "cce4bcc1-9837-4d8e-ac21-5c8e0b24fd9b",
+      "image_url": "https://mobbin.com/api/mcp/short/pQC2rd8O",
+      "position": 4
+    },
+    {
+      "screen_id": "a1837486-cc69-45cf-b549-ab88bb207783",
+      "image_url": "https://mobbin.com/api/mcp/short/GsdHHJeu",
+      "position": 5
+    },
+    {
+      "screen_id": "6c72735b-463f-4f57-9cd4-57a66745722b",
+      "image_url": "https://mobbin.com/api/mcp/short/72fdyYbt",
+      "position": 6
+    },
+    {
+      "screen_id": "c6b340d8-b3c1-4a66-86cc-8580ae1d6dc7",
+      "image_url": "https://mobbin.com/api/mcp/short/7ewMrrOg",
+      "position": 7
+    },
+    {
+      "screen_id": "92855118-3137-4e0b-bcc7-d5f5744f3050",
+      "image_url": "https://mobbin.com/api/mcp/short/545kS4JB",
+      "position": 8
+    },
+    {
+      "screen_id": "859820d3-795c-4a65-acc6-f2a4bd42d430",
+      "image_url": "https://mobbin.com/api/mcp/short/mZPEbGew",
+      "position": 9
+    }
+  ]
+}

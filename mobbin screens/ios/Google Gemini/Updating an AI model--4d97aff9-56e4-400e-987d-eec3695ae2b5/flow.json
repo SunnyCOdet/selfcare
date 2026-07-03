@@ -1,0 +1,29 @@
+{
+  "id": "4d97aff9-56e4-400e-987d-eec3695ae2b5",
+  "name": "Updating an AI model",
+  "actions": [
+    "Editing & Updating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4d97aff9-56e4-400e-987d-eec3695ae2b5",
+  "app_name": "Google Gemini",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "9690ddb3-faf3-4b2a-baf9-ad2c105948d5",
+      "image_url": "https://mobbin.com/api/mcp/short/HWD7TCLR",
+      "position": 1
+    },
+    {
+      "screen_id": "93866f91-1e97-4358-b477-a3549fa52ec2",
+      "image_url": "https://mobbin.com/api/mcp/short/DEjTuwIo",
+      "position": 2
+    },
+    {
+      "screen_id": "3c2493a3-d5b1-4f03-99de-8f04202062bb",
+      "image_url": "https://mobbin.com/api/mcp/short/ntADYaB2",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "f39af42d-7753-4e97-b91a-0757ae4c121d",
+  "name": "Goals",
+  "actions": [
+    "Switching View"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f39af42d-7753-4e97-b91a-0757ae4c121d",
+  "app_name": "Charma",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "49109d7f-c2e3-4d45-a88e-b268ecc41a13",
+      "image_url": "https://mobbin.com/api/mcp/short/SFOri2F4",
+      "position": 1
+    },
+    {
+      "screen_id": "0cf86c81-3424-4ce0-99ac-04559eee8a5a",
+      "image_url": "https://mobbin.com/api/mcp/short/o3ZicSKA",
+      "position": 2
+    },
+    {
+      "screen_id": "8d2cddc5-3c4e-4e2b-9b16-becd3c94f1a8",
+      "image_url": "https://mobbin.com/api/mcp/short/Jg0DJEMB",
+      "position": 3
+    },
+    {
+      "screen_id": "5c5d8405-e93f-4bd8-ace8-abf77338d190",
+      "image_url": "https://mobbin.com/api/mcp/short/3hqmaSkQ",
+      "position": 4
+    }
+  ]
+}

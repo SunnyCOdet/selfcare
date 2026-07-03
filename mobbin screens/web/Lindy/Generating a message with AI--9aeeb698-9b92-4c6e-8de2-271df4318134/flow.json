@@ -1,0 +1,38 @@
+{
+  "id": "9aeeb698-9b92-4c6e-8de2-271df4318134",
+  "name": "Generating a message with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9aeeb698-9b92-4c6e-8de2-271df4318134",
+  "app_name": "Lindy",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "070b94c2-b94f-4092-9a33-cce0ffb633d8",
+      "image_url": "https://mobbin.com/api/mcp/short/AIXwj9fW",
+      "position": 1
+    },
+    {
+      "screen_id": "1a7be7a8-0aa8-4ee6-9b47-9de1db655452",
+      "image_url": "https://mobbin.com/api/mcp/short/JnMXXUlJ",
+      "position": 2
+    },
+    {
+      "screen_id": "63903313-62e7-42a8-9201-69b090465ea3",
+      "image_url": "https://mobbin.com/api/mcp/short/28Xeu0Cc",
+      "position": 3
+    },
+    {
+      "screen_id": "4c30aed9-70ef-4dc0-a1ce-cfc7cdeeb4dd",
+      "image_url": "https://mobbin.com/api/mcp/short/oTZcADoj",
+      "position": 4
+    },
+    {
+      "screen_id": "619621f8-8e80-48c3-a470-27db7befc8ee",
+      "image_url": "https://mobbin.com/api/mcp/short/v5RQC28k",
+      "position": 5
+    }
+  ]
+}

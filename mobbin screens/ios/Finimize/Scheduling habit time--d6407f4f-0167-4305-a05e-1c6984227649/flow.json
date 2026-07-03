@@ -1,0 +1,28 @@
+{
+  "id": "d6407f4f-0167-4305-a05e-1c6984227649",
+  "name": "Scheduling habit time",
+  "actions": [
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d6407f4f-0167-4305-a05e-1c6984227649",
+  "app_name": "Finimize",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "26047782-f6ee-4c12-af26-8c6d7c8093d4",
+      "image_url": "https://mobbin.com/api/mcp/short/ivqsjr20",
+      "position": 1
+    },
+    {
+      "screen_id": "ee861c61-b590-4908-ac72-e1a5bf75b1c9",
+      "image_url": "https://mobbin.com/api/mcp/short/26VGjta6",
+      "position": 2
+    },
+    {
+      "screen_id": "53bd203e-0a8d-401d-aeb2-035c21be55b7",
+      "image_url": "https://mobbin.com/api/mcp/short/lX9ZuaYx",
+      "position": 3
+    }
+  ]
+}

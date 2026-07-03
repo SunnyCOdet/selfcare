@@ -1,0 +1,49 @@
+{
+  "id": "5f41f62e-e221-4972-b85f-1b787629a06e",
+  "name": "Editing a text with AI",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/5f41f62e-e221-4972-b85f-1b787629a06e",
+  "app_name": "Notion Mail",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "aec1ca13-bb30-4a8c-93e2-6a439a1d61c8",
+      "image_url": "https://mobbin.com/api/mcp/short/C3HXKVH7",
+      "position": 1
+    },
+    {
+      "screen_id": "a1700a4e-bcec-4314-991e-16b079c91473",
+      "image_url": "https://mobbin.com/api/mcp/short/0JQCNp07",
+      "position": 2
+    },
+    {
+      "screen_id": "d2dd3ce3-4250-4602-9b4b-f59e80ba48f7",
+      "image_url": "https://mobbin.com/api/mcp/short/aSki5lxh",
+      "position": 3
+    },
+    {
+      "screen_id": "09f29369-fb9e-4a7c-b03e-8842c521fa2c",
+      "image_url": "https://mobbin.com/api/mcp/short/TfCVyoK9",
+      "position": 4
+    },
+    {
+      "screen_id": "fa43f6ff-0fed-41da-94d0-762f8dbc4631",
+      "image_url": "https://mobbin.com/api/mcp/short/pDVaQIQs",
+      "position": 5
+    },
+    {
+      "screen_id": "c76eb3bd-f70d-4235-baf4-f24c06421205",
+      "image_url": "https://mobbin.com/api/mcp/short/ELnULbRn",
+      "position": 6
+    },
+    {
+      "screen_id": "cde16684-ed81-44c7-b66a-985b435b23ff",
+      "image_url": "https://mobbin.com/api/mcp/short/Pp1FpM5W",
+      "position": 7
+    }
+  ]
+}

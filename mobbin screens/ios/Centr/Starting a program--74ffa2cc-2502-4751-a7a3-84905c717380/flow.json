@@ -1,0 +1,38 @@
+{
+  "id": "74ffa2cc-2502-4751-a7a3-84905c717380",
+  "name": "Starting a program",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/74ffa2cc-2502-4751-a7a3-84905c717380",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "efd8bbfc-dfd2-4bd8-8af9-5763f5cc3be4",
+      "image_url": "https://mobbin.com/api/mcp/short/dshRCrY6",
+      "position": 1
+    },
+    {
+      "screen_id": "db0463aa-ebdd-44e3-8576-a416e9f9f34c",
+      "image_url": "https://mobbin.com/api/mcp/short/rvlFs9AJ",
+      "position": 2
+    },
+    {
+      "screen_id": "bf71dd72-ec32-4322-a309-1db631115165",
+      "image_url": "https://mobbin.com/api/mcp/short/Q7zn9JUg",
+      "position": 3
+    },
+    {
+      "screen_id": "14b671f2-9c4d-4bd6-864e-247ff32278b1",
+      "image_url": "https://mobbin.com/api/mcp/short/DphbZzkM",
+      "position": 4
+    },
+    {
+      "screen_id": "d45ad9cb-3818-4116-a156-46e34d5473d2",
+      "image_url": "https://mobbin.com/api/mcp/short/TpJ7VgHH",
+      "position": 5
+    }
+  ]
+}

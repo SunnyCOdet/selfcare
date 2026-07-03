@@ -1,0 +1,69 @@
+{
+  "id": "e195cc54-140b-4097-a402-b5fb60582ae1",
+  "name": "Starting an assesment (mental health)",
+  "actions": [
+    "Selecting & Choosing",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e195cc54-140b-4097-a402-b5fb60582ae1",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "aa257edb-3a00-481d-bbf1-a9dfde8c5ad1",
+      "image_url": "https://mobbin.com/api/mcp/short/uMoZtjda",
+      "position": 1
+    },
+    {
+      "screen_id": "9dd84af3-01ab-414a-9833-32064f9d8518",
+      "image_url": "https://mobbin.com/api/mcp/short/Fgu8J3cN",
+      "position": 2
+    },
+    {
+      "screen_id": "1174df1e-aa7d-4b1f-b1b8-45d25c3166d6",
+      "image_url": "https://mobbin.com/api/mcp/short/HzvOTFd1",
+      "position": 3
+    },
+    {
+      "screen_id": "d594ba8d-6405-4e63-aae7-b93c5e262e0c",
+      "image_url": "https://mobbin.com/api/mcp/short/uENlVZbk",
+      "position": 4
+    },
+    {
+      "screen_id": "e44f9d72-4ecb-4c42-9211-18ed3728323c",
+      "image_url": "https://mobbin.com/api/mcp/short/81uL1AeB",
+      "position": 5
+    },
+    {
+      "screen_id": "b2908b29-d840-446c-a5ce-17ed19b49d5e",
+      "image_url": "https://mobbin.com/api/mcp/short/SFEtOLIZ",
+      "position": 6
+    },
+    {
+      "screen_id": "0cfcf67d-b709-4ee2-b980-aa681732cac8",
+      "image_url": "https://mobbin.com/api/mcp/short/VC8msDwh",
+      "position": 7
+    },
+    {
+      "screen_id": "790a9a36-e625-46a4-a5cb-9831bd290c20",
+      "image_url": "https://mobbin.com/api/mcp/short/3WwtYKVD",
+      "position": 8
+    },
+    {
+      "screen_id": "5e50843e-b295-4b23-9bff-bd1ba2526f3f",
+      "image_url": "https://mobbin.com/api/mcp/short/sNGsVh4s",
+      "position": 9
+    },
+    {
+      "screen_id": "fceeec4f-4a84-4d2c-800b-aa43b48a07bb",
+      "image_url": "https://mobbin.com/api/mcp/short/vzi03wQj",
+      "position": 10
+    },
+    {
+      "screen_id": "0c5cbd5f-91dd-4140-bf4c-691180ec6517",
+      "image_url": "https://mobbin.com/api/mcp/short/5lQQBsoM",
+      "position": 11
+    }
+  ]
+}

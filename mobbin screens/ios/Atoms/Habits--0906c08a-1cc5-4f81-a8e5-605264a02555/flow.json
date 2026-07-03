@@ -1,0 +1,21 @@
+{
+  "id": "0906c08a-1cc5-4f81-a8e5-605264a02555",
+  "name": "Habits",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0906c08a-1cc5-4f81-a8e5-605264a02555",
+  "app_name": "Atoms",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "88877f59-e0a9-4e07-b4ea-bcc4b26265bd",
+      "image_url": "https://mobbin.com/api/mcp/short/GOiBERYW",
+      "position": 1
+    },
+    {
+      "screen_id": "b7ea6975-5e88-4826-9edc-83fdce796d25",
+      "image_url": "https://mobbin.com/api/mcp/short/hKhLHpvS",
+      "position": 2
+    }
+  ]
+}

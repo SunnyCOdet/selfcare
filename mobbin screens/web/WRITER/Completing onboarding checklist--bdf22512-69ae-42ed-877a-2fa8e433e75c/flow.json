@@ -1,0 +1,33 @@
+{
+  "id": "bdf22512-69ae-42ed-877a-2fa8e433e75c",
+  "name": "Completing onboarding checklist",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/bdf22512-69ae-42ed-877a-2fa8e433e75c",
+  "app_name": "WRITER",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "23830a1b-b8eb-4bce-827f-460c7ed0b761",
+      "image_url": "https://mobbin.com/api/mcp/short/yjblrQQA",
+      "position": 1
+    },
+    {
+      "screen_id": "ceaaef5d-1d23-4c8b-857e-fc918102057e",
+      "image_url": "https://mobbin.com/api/mcp/short/2FOg9J1a",
+      "position": 2
+    },
+    {
+      "screen_id": "653421f6-0b20-47af-b78c-fc91604d4bed",
+      "image_url": "https://mobbin.com/api/mcp/short/S1JXAGxr",
+      "position": 3
+    },
+    {
+      "screen_id": "5c0d7553-bec2-44a9-91f4-12f15487b7de",
+      "image_url": "https://mobbin.com/api/mcp/short/R1jTI1yk",
+      "position": 4
+    }
+  ]
+}

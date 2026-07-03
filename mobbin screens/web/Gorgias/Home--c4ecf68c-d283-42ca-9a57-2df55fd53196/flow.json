@@ -1,0 +1,21 @@
+{
+  "id": "c4ecf68c-d283-42ca-9a57-2df55fd53196",
+  "name": "Home",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/c4ecf68c-d283-42ca-9a57-2df55fd53196",
+  "app_name": "Gorgias",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "7c2776fe-d3c8-474d-9585-b0b33c783fe5",
+      "image_url": "https://mobbin.com/api/mcp/short/M7qkTxaC",
+      "position": 1
+    },
+    {
+      "screen_id": "3dc02a8f-7383-4025-9ad8-ac42cd7af7c3",
+      "image_url": "https://mobbin.com/api/mcp/short/0NhAqJOW",
+      "position": 2
+    }
+  ]
+}

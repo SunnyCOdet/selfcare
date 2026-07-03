@@ -1,0 +1,38 @@
+{
+  "id": "6462fe31-592f-4e4e-b93d-26139fd636e2",
+  "name": "Chatting with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/6462fe31-592f-4e4e-b93d-26139fd636e2",
+  "app_name": "Runway",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "c5896c5c-dfed-4f9e-8f1b-3d33ee5db4de",
+      "image_url": "https://mobbin.com/api/mcp/short/NKWki8JA",
+      "position": 1
+    },
+    {
+      "screen_id": "9dc51aaf-67d9-473c-9671-fc4577822013",
+      "image_url": "https://mobbin.com/api/mcp/short/77OMByV7",
+      "position": 2
+    },
+    {
+      "screen_id": "f4209d59-d8fa-4b08-9a03-636ae208187c",
+      "image_url": "https://mobbin.com/api/mcp/short/8zbMgfeD",
+      "position": 3
+    },
+    {
+      "screen_id": "1df8a46b-191c-414d-90bb-e9d522a6aa38",
+      "image_url": "https://mobbin.com/api/mcp/short/OqrELOGB",
+      "position": 4
+    },
+    {
+      "screen_id": "bb6cd316-6614-4115-89c4-0aa4043e317e",
+      "image_url": "https://mobbin.com/api/mcp/short/aI4F5xUe",
+      "position": 5
+    }
+  ]
+}

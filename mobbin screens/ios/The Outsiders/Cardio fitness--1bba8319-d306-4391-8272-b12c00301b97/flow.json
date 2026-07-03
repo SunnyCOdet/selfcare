@@ -1,0 +1,31 @@
+{
+  "id": "1bba8319-d306-4391-8272-b12c00301b97",
+  "name": "Cardio fitness",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1bba8319-d306-4391-8272-b12c00301b97",
+  "app_name": "The Outsiders",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "ff649a4a-e864-4add-a02d-a83372b93382",
+      "image_url": "https://mobbin.com/api/mcp/short/TZ6FjKEv",
+      "position": 1
+    },
+    {
+      "screen_id": "8fc95cd7-4179-45a9-a859-b0e89b29590b",
+      "image_url": "https://mobbin.com/api/mcp/short/xEpnbnKg",
+      "position": 2
+    },
+    {
+      "screen_id": "658f6970-56b6-492c-ba3e-3b72e6e1290f",
+      "image_url": "https://mobbin.com/api/mcp/short/FYNsCtaJ",
+      "position": 3
+    },
+    {
+      "screen_id": "7b78f9c7-b40b-4e3f-abc5-a07f4f9a8298",
+      "image_url": "https://mobbin.com/api/mcp/short/rrWkXpY9",
+      "position": 4
+    }
+  ]
+}

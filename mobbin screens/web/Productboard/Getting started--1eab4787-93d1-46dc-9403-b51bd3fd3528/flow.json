@@ -1,0 +1,33 @@
+{
+  "id": "1eab4787-93d1-46dc-9403-b51bd3fd3528",
+  "name": "Getting started",
+  "actions": [
+    "Marking"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/1eab4787-93d1-46dc-9403-b51bd3fd3528",
+  "app_name": "Productboard",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5c255018-1e32-4fb1-9a60-ae4e78245b0f",
+      "image_url": "https://mobbin.com/api/mcp/short/Q0YLG9tE",
+      "position": 1
+    },
+    {
+      "screen_id": "89103d64-e749-4521-9e2c-1f770417684f",
+      "image_url": "https://mobbin.com/api/mcp/short/aL7rzE4O",
+      "position": 2
+    },
+    {
+      "screen_id": "4abbe9de-cef4-4a61-a71e-b5ef6b11d779",
+      "image_url": "https://mobbin.com/api/mcp/short/0PppLEOI",
+      "position": 3
+    },
+    {
+      "screen_id": "bbf2e68e-c391-4ef0-9062-cb76b394e48e",
+      "image_url": "https://mobbin.com/api/mcp/short/IUULuqr8",
+      "position": 4
+    }
+  ]
+}

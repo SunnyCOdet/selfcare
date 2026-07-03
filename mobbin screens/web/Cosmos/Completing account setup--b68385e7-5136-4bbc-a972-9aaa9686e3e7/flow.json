@@ -1,0 +1,45 @@
+{
+  "id": "b68385e7-5136-4bbc-a972-9aaa9686e3e7",
+  "name": "Completing account setup",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing",
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b68385e7-5136-4bbc-a972-9aaa9686e3e7",
+  "app_name": "Cosmos",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "7164232a-1317-49ed-8ed7-1b40265f11ff",
+      "image_url": "https://mobbin.com/api/mcp/short/Easf7W5A",
+      "position": 1
+    },
+    {
+      "screen_id": "8f866500-f4b4-4fe2-ac6f-3e3589d4a1b8",
+      "image_url": "https://mobbin.com/api/mcp/short/SE3AwkvZ",
+      "position": 2
+    },
+    {
+      "screen_id": "52749b39-f484-4d0e-8b42-1a6c88d437f3",
+      "image_url": "https://mobbin.com/api/mcp/short/PIn00wwO",
+      "position": 3
+    },
+    {
+      "screen_id": "9e84e38f-b71b-4579-85ab-38f32c3d37d7",
+      "image_url": "https://mobbin.com/api/mcp/short/KTYmFk4P",
+      "position": 4
+    },
+    {
+      "screen_id": "1301b30c-4c36-4e2a-828b-c27227366b23",
+      "image_url": "https://mobbin.com/api/mcp/short/4WXELu73",
+      "position": 5
+    },
+    {
+      "screen_id": "c4b97b43-54b7-4d45-a331-45cca6ecde5c",
+      "image_url": "https://mobbin.com/api/mcp/short/NEDLx56a",
+      "position": 6
+    }
+  ]
+}

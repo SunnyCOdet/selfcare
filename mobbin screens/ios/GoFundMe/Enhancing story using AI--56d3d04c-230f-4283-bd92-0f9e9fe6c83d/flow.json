@@ -1,0 +1,28 @@
+{
+  "id": "56d3d04c-230f-4283-bd92-0f9e9fe6c83d",
+  "name": "Enhancing story using AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/56d3d04c-230f-4283-bd92-0f9e9fe6c83d",
+  "app_name": "GoFundMe",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "2555917a-77bc-4247-bd89-ebb1426de881",
+      "image_url": "https://mobbin.com/api/mcp/short/4VLGe1Q5",
+      "position": 1
+    },
+    {
+      "screen_id": "ee4b5ef1-a4b8-4497-a9d2-5985d893abe1",
+      "image_url": "https://mobbin.com/api/mcp/short/xScVRRpo",
+      "position": 2
+    },
+    {
+      "screen_id": "a990508d-4b45-4e6e-a465-691b18a6695e",
+      "image_url": "https://mobbin.com/api/mcp/short/Pikf5X32",
+      "position": 3
+    }
+  ]
+}

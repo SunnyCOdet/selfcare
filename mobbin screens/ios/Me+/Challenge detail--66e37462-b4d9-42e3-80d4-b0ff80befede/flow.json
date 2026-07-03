@@ -1,0 +1,31 @@
+{
+  "id": "66e37462-b4d9-42e3-80d4-b0ff80befede",
+  "name": "Challenge detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/66e37462-b4d9-42e3-80d4-b0ff80befede",
+  "app_name": "Me+",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "cd9cb0ab-c1c3-447f-b528-7a9894e16d62",
+      "image_url": "https://mobbin.com/api/mcp/short/0bX2TR7t",
+      "position": 1
+    },
+    {
+      "screen_id": "a04f8960-46d3-41b5-aa0e-ea49e8e5a9f7",
+      "image_url": "https://mobbin.com/api/mcp/short/R0etnNAU",
+      "position": 2
+    },
+    {
+      "screen_id": "e6eee4ed-645f-45d7-a050-66af8c6d7c4a",
+      "image_url": "https://mobbin.com/api/mcp/short/HfyIY4QI",
+      "position": 3
+    },
+    {
+      "screen_id": "6ffeb417-79d7-4803-961f-f1a3b5d91b12",
+      "image_url": "https://mobbin.com/api/mcp/short/SwqN6iGZ",
+      "position": 4
+    }
+  ]
+}

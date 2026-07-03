@@ -1,0 +1,55 @@
+{
+  "id": "24022308-cb2c-4aaa-bed4-77f019bdb71b",
+  "name": "Onboarding",
+  "actions": [
+    "Browsing Tutorial",
+    "Onboarding",
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/24022308-cb2c-4aaa-bed4-77f019bdb71b",
+  "app_name": "Bears Gratitude",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "c29458a7-a695-4842-bc80-241612e03d17",
+      "image_url": "https://mobbin.com/api/mcp/short/rmK6ykFO",
+      "position": 1
+    },
+    {
+      "screen_id": "d24b21c7-2d16-46ff-8f15-9a335904e2f5",
+      "image_url": "https://mobbin.com/api/mcp/short/ZTpyo0ki",
+      "position": 2
+    },
+    {
+      "screen_id": "547f8df8-9e96-4c11-a280-86bbbb922b19",
+      "image_url": "https://mobbin.com/api/mcp/short/It6kDHGM",
+      "position": 3
+    },
+    {
+      "screen_id": "c20e67de-6eb6-4ac2-bcd7-d1319d8f4e62",
+      "image_url": "https://mobbin.com/api/mcp/short/4f2lkgRl",
+      "position": 4
+    },
+    {
+      "screen_id": "a27cf238-8d4a-4b2d-a776-fb62c69fb955",
+      "image_url": "https://mobbin.com/api/mcp/short/oeoEXOQt",
+      "position": 5
+    },
+    {
+      "screen_id": "4aa790f8-25e3-4b1b-b68a-21e9ff418586",
+      "image_url": "https://mobbin.com/api/mcp/short/8eY2u5ZQ",
+      "position": 6
+    },
+    {
+      "screen_id": "ba7e1d81-a0e9-48d6-abab-8a5208b9ce2c",
+      "image_url": "https://mobbin.com/api/mcp/short/jUXsDMwv",
+      "position": 7
+    },
+    {
+      "screen_id": "602a7f7d-c0e6-4f7c-9b2d-3a8a20891a8f",
+      "image_url": "https://mobbin.com/api/mcp/short/Eh51OqXE",
+      "position": 8
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "ae9639b7-bb49-449f-98ae-3902f844e0d3",
+  "name": "Adding morning routines",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ae9639b7-bb49-449f-98ae-3902f844e0d3",
+  "app_name": "Tiimo",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "ae95ea5c-716a-4903-b039-75aed9dc237d",
+      "image_url": "https://mobbin.com/api/mcp/short/UXJdDkhu",
+      "position": 1
+    },
+    {
+      "screen_id": "91c78878-a680-4007-9d72-6791dd6146cc",
+      "image_url": "https://mobbin.com/api/mcp/short/ZKsZ33Er",
+      "position": 2
+    },
+    {
+      "screen_id": "c6ae3650-762d-41f8-af89-100e55011f0f",
+      "image_url": "https://mobbin.com/api/mcp/short/QBQV6BRr",
+      "position": 3
+    },
+    {
+      "screen_id": "37f58a3d-1e1e-48a0-8a6c-167af5250b49",
+      "image_url": "https://mobbin.com/api/mcp/short/3h23uRUB",
+      "position": 4
+    },
+    {
+      "screen_id": "a32e5f83-c716-44e6-8443-96e063ab13f1",
+      "image_url": "https://mobbin.com/api/mcp/short/H1mCgmhC",
+      "position": 5
+    },
+    {
+      "screen_id": "cbd57019-9df1-46be-960a-d766965a34cf",
+      "image_url": "https://mobbin.com/api/mcp/short/weThgsHZ",
+      "position": 6
+    }
+  ]
+}

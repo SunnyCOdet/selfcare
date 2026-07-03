@@ -1,0 +1,23 @@
+{
+  "id": "fa0b0849-f764-436d-b077-d7daff9e45cb",
+  "name": "Disabling Copilot AI",
+  "actions": [
+    "Turning On/Off"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/fa0b0849-f764-436d-b077-d7daff9e45cb",
+  "app_name": "Navattic",
+  "platform": "web",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "47ee0436-869c-4e4b-9dd0-26816051fc18",
+      "image_url": "https://mobbin.com/api/mcp/short/jF67tRe5",
+      "position": 1
+    },
+    {
+      "screen_id": "884bd640-eaf3-42ec-848e-8f76270f5859",
+      "image_url": "https://mobbin.com/api/mcp/short/Q7SM9htL",
+      "position": 2
+    }
+  ]
+}

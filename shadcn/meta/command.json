@@ -1,0 +1,18 @@
+{
+  "name": "command",
+  "type": "registry:ui",
+  "dependencies": [
+    "cmdk"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [
+    "dialog"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/command.tsx",
+      "extractedTo": "ui/command.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

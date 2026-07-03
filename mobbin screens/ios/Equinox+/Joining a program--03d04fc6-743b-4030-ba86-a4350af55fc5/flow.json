@@ -1,0 +1,49 @@
+{
+  "id": "03d04fc6-743b-4030-ba86-a4350af55fc5",
+  "name": "Joining a program",
+  "actions": [
+    "Registering",
+    "Scheduling"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/03d04fc6-743b-4030-ba86-a4350af55fc5",
+  "app_name": "Equinox+",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "182adce2-cfdf-460a-8a08-c65de690601d",
+      "image_url": "https://mobbin.com/api/mcp/short/KfYv1O5X",
+      "position": 1
+    },
+    {
+      "screen_id": "84f0199a-f3eb-4830-bd19-018bc59d5354",
+      "image_url": "https://mobbin.com/api/mcp/short/dP34Xtlb",
+      "position": 2
+    },
+    {
+      "screen_id": "dcd32ba9-2bf9-497c-b3cb-a6167a60bfb7",
+      "image_url": "https://mobbin.com/api/mcp/short/0SPJOxYv",
+      "position": 3
+    },
+    {
+      "screen_id": "c4dedc49-dfbd-4b46-9825-e83c0d131943",
+      "image_url": "https://mobbin.com/api/mcp/short/IOG4IkN6",
+      "position": 4
+    },
+    {
+      "screen_id": "33415aaf-4736-4d22-964c-5372e804fc2e",
+      "image_url": "https://mobbin.com/api/mcp/short/X8vMm3vS",
+      "position": 5
+    },
+    {
+      "screen_id": "d53d39f2-d1b0-496f-be1a-61ae1ba5cb22",
+      "image_url": "https://mobbin.com/api/mcp/short/WH9Sd2OT",
+      "position": 6
+    },
+    {
+      "screen_id": "40983dcb-4002-4c23-807c-365c0d0ae224",
+      "image_url": "https://mobbin.com/api/mcp/short/eBqv5jDY",
+      "position": 7
+    }
+  ]
+}

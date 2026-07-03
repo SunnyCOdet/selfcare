@@ -1,0 +1,44 @@
+{
+  "id": "4ddf1a88-5026-45d5-a401-1b69b8b2ec50",
+  "name": "Starting quick start guide",
+  "actions": [
+    "Browsing Tutorial",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/4ddf1a88-5026-45d5-a401-1b69b8b2ec50",
+  "app_name": "Charma",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "5a511622-ce51-49f7-b2cf-7e0bb8601a66",
+      "image_url": "https://mobbin.com/api/mcp/short/pOWMf7vV",
+      "position": 1
+    },
+    {
+      "screen_id": "0f9561e6-9481-45df-ab8e-6fe0ba2b6532",
+      "image_url": "https://mobbin.com/api/mcp/short/ErAlTvn3",
+      "position": 2
+    },
+    {
+      "screen_id": "e3cf7765-4cfb-4c13-a56e-acc6b2a5a141",
+      "image_url": "https://mobbin.com/api/mcp/short/I3Eu78iZ",
+      "position": 3
+    },
+    {
+      "screen_id": "d3226080-2bd6-4210-abd3-662334a6f11d",
+      "image_url": "https://mobbin.com/api/mcp/short/A2gD4vJ4",
+      "position": 4
+    },
+    {
+      "screen_id": "a43f5807-9546-4ad8-9f05-a71dc115351a",
+      "image_url": "https://mobbin.com/api/mcp/short/pEbpkBea",
+      "position": 5
+    },
+    {
+      "screen_id": "dcb0d6a3-2120-4680-ba15-ea755e6ca0fb",
+      "image_url": "https://mobbin.com/api/mcp/short/MpbqDsVM",
+      "position": 6
+    }
+  ]
+}

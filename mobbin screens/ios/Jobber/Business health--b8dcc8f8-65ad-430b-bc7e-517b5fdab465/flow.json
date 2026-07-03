@@ -1,0 +1,26 @@
+{
+  "id": "b8dcc8f8-65ad-430b-bc7e-517b5fdab465",
+  "name": "Business health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/b8dcc8f8-65ad-430b-bc7e-517b5fdab465",
+  "app_name": "Jobber",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "7c26cbf3-c152-4731-b827-e411bcbd5cc7",
+      "image_url": "https://mobbin.com/api/mcp/short/P9Elsxiy",
+      "position": 1
+    },
+    {
+      "screen_id": "aaaa68ff-32f2-46f0-ba47-fe3ff66a4108",
+      "image_url": "https://mobbin.com/api/mcp/short/76ekNVh3",
+      "position": 2
+    },
+    {
+      "screen_id": "5097dfd2-931a-4947-9e84-1e629562b152",
+      "image_url": "https://mobbin.com/api/mcp/short/FCNq2R0x",
+      "position": 3
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "7ccb359e-49ec-4b50-ad1d-a6ba64b79a96",
+  "name": "Adding a workout",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7ccb359e-49ec-4b50-ad1d-a6ba64b79a96",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "d2b5d75c-9a3e-4e3c-9969-b18bfd456200",
+      "image_url": "https://mobbin.com/api/mcp/short/AMDj4zWY",
+      "position": 1
+    },
+    {
+      "screen_id": "3a73b2a0-4876-4010-b593-801794915361",
+      "image_url": "https://mobbin.com/api/mcp/short/RDVYEzHA",
+      "position": 2
+    },
+    {
+      "screen_id": "34245a8d-12ed-49f2-b06d-5fa4185ebb66",
+      "image_url": "https://mobbin.com/api/mcp/short/JeFNvf12",
+      "position": 3
+    },
+    {
+      "screen_id": "66f84189-7186-4314-b4f2-95283879246f",
+      "image_url": "https://mobbin.com/api/mcp/short/aO6khfWp",
+      "position": 4
+    },
+    {
+      "screen_id": "def5844f-d359-480d-949a-7fff9041e99d",
+      "image_url": "https://mobbin.com/api/mcp/short/ej1PVaOr",
+      "position": 5
+    }
+  ]
+}

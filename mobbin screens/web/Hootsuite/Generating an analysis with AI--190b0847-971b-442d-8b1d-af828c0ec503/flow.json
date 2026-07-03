@@ -1,0 +1,33 @@
+{
+  "id": "190b0847-971b-442d-8b1d-af828c0ec503",
+  "name": "Generating an analysis with AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/190b0847-971b-442d-8b1d-af828c0ec503",
+  "app_name": "Hootsuite",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f328bc16-c6ad-44ab-b8f7-8af798e40521",
+      "image_url": "https://mobbin.com/api/mcp/short/1bYf0KzB",
+      "position": 1
+    },
+    {
+      "screen_id": "af1e6109-8677-4733-bf63-77b53b68d1e6",
+      "image_url": "https://mobbin.com/api/mcp/short/jPM8aoNo",
+      "position": 2
+    },
+    {
+      "screen_id": "e596cdc0-e670-4d36-bdc5-55bb72adbacc",
+      "image_url": "https://mobbin.com/api/mcp/short/sdvtGMff",
+      "position": 3
+    },
+    {
+      "screen_id": "942da203-c8a6-4ad1-b141-e18da7fd984f",
+      "image_url": "https://mobbin.com/api/mcp/short/pMMsMFuy",
+      "position": 4
+    }
+  ]
+}

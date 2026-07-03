@@ -1,0 +1,53 @@
+{
+  "id": "e8ee7348-2019-4b8f-8179-7f4961ef6ea8",
+  "name": "Choosing a learning goal",
+  "actions": [
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e8ee7348-2019-4b8f-8179-7f4961ef6ea8",
+  "app_name": "Duolingo",
+  "platform": "ios",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "181ffc84-d045-4fac-a191-a4ef3aaa6565",
+      "image_url": "https://mobbin.com/api/mcp/short/WXhymc9d",
+      "position": 1
+    },
+    {
+      "screen_id": "9799f5f7-ba2b-49b2-8ee8-ddd71bdef69e",
+      "image_url": "https://mobbin.com/api/mcp/short/L9mmDlCQ",
+      "position": 2
+    },
+    {
+      "screen_id": "9c30033c-1d4e-47e9-aabb-0990fcd46705",
+      "image_url": "https://mobbin.com/api/mcp/short/ZSSqYvvT",
+      "position": 3
+    },
+    {
+      "screen_id": "a2b878d8-992d-44e3-acf7-be805eff6cdb",
+      "image_url": "https://mobbin.com/api/mcp/short/lYVvnABE",
+      "position": 4
+    },
+    {
+      "screen_id": "f2f559af-8fc4-4386-ad9b-4129ee8f172b",
+      "image_url": "https://mobbin.com/api/mcp/short/7khvFBZN",
+      "position": 5
+    },
+    {
+      "screen_id": "88a1d039-ece8-46fe-95ff-96415e109c18",
+      "image_url": "https://mobbin.com/api/mcp/short/6SksaIsv",
+      "position": 6
+    },
+    {
+      "screen_id": "4856c663-4ff0-4622-bd9b-e835dd82731f",
+      "image_url": "https://mobbin.com/api/mcp/short/2MFEwJEr",
+      "position": 7
+    },
+    {
+      "screen_id": "9821f315-2612-4288-a781-8864ea8346d6",
+      "image_url": "https://mobbin.com/api/mcp/short/t3D0xA7O",
+      "position": 8
+    }
+  ]
+}

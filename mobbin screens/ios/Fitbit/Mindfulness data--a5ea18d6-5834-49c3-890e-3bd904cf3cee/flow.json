@@ -1,0 +1,61 @@
+{
+  "id": "a5ea18d6-5834-49c3-890e-3bd904cf3cee",
+  "name": "Mindfulness data",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/a5ea18d6-5834-49c3-890e-3bd904cf3cee",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "7a43ee28-ce4a-4c03-ad22-ad8fc98bd9bd",
+      "image_url": "https://mobbin.com/api/mcp/short/wbJUkLuJ",
+      "position": 1
+    },
+    {
+      "screen_id": "79311759-f8f9-4094-9011-c8225567ee21",
+      "image_url": "https://mobbin.com/api/mcp/short/Cj3wamjV",
+      "position": 2
+    },
+    {
+      "screen_id": "b49d0a2a-c1d1-45a3-8d67-010371fa2b66",
+      "image_url": "https://mobbin.com/api/mcp/short/u4NnQSH9",
+      "position": 3
+    },
+    {
+      "screen_id": "98f10919-5ef7-4ad6-9654-6a599a5bd6c1",
+      "image_url": "https://mobbin.com/api/mcp/short/ldugbIWz",
+      "position": 4
+    },
+    {
+      "screen_id": "c33d170c-f360-443e-9df7-5c7a00748c6f",
+      "image_url": "https://mobbin.com/api/mcp/short/lEj0KKu9",
+      "position": 5
+    },
+    {
+      "screen_id": "38a96bc4-5b55-4a8e-9d98-419d90e8df58",
+      "image_url": "https://mobbin.com/api/mcp/short/wqc3IjJn",
+      "position": 6
+    },
+    {
+      "screen_id": "4de418bd-f267-412a-a008-27f9e303cd29",
+      "image_url": "https://mobbin.com/api/mcp/short/e89yXwIc",
+      "position": 7
+    },
+    {
+      "screen_id": "f5138086-1797-48e1-b6eb-d71b567a128e",
+      "image_url": "https://mobbin.com/api/mcp/short/na1esw2m",
+      "position": 8
+    },
+    {
+      "screen_id": "07c5997c-c2e5-4901-94eb-c884ca5c200b",
+      "image_url": "https://mobbin.com/api/mcp/short/A2oVVaOB",
+      "position": 9
+    },
+    {
+      "screen_id": "c104848e-dee5-41b2-afd6-a6ad00822d49",
+      "image_url": "https://mobbin.com/api/mcp/short/HdtnkBP7",
+      "position": 10
+    }
+  ]
+}

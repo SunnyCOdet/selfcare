@@ -1,0 +1,43 @@
+{
+  "id": "b0080a82-c63d-47f0-b9fd-b8bd5f289fe0",
+  "name": "Asking Jobber AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b0080a82-c63d-47f0-b9fd-b8bd5f289fe0",
+  "app_name": "Jobber",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "3872fb82-2e8f-41fe-b587-e1063401f155",
+      "image_url": "https://mobbin.com/api/mcp/short/cK838Eyb",
+      "position": 1
+    },
+    {
+      "screen_id": "c6b6d75c-2fc4-480d-899d-4572a3321295",
+      "image_url": "https://mobbin.com/api/mcp/short/qceITWiN",
+      "position": 2
+    },
+    {
+      "screen_id": "6e4ec3e6-b5c6-452e-9258-82bd3b2b079d",
+      "image_url": "https://mobbin.com/api/mcp/short/FNQSZoec",
+      "position": 3
+    },
+    {
+      "screen_id": "a777baa5-131b-4911-8554-a71bc4e10d90",
+      "image_url": "https://mobbin.com/api/mcp/short/oU0hveFg",
+      "position": 4
+    },
+    {
+      "screen_id": "77ec6169-0251-4fe8-9a58-16fd2b3ee15b",
+      "image_url": "https://mobbin.com/api/mcp/short/3UhEeCLf",
+      "position": 5
+    },
+    {
+      "screen_id": "27264be8-99d1-4fea-be2b-8c89a85d91f3",
+      "image_url": "https://mobbin.com/api/mcp/short/bVagw9c3",
+      "position": 6
+    }
+  ]
+}

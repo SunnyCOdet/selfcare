@@ -1,0 +1,33 @@
+{
+  "id": "44b430ac-84b1-4992-977a-ee0328764048",
+  "name": "Creating an insight (AI)",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/44b430ac-84b1-4992-977a-ee0328764048",
+  "app_name": "Dovetail",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "683a9626-c25a-444a-bba3-ec0cd48ad46c",
+      "image_url": "https://mobbin.com/api/mcp/short/M42tfmks",
+      "position": 1
+    },
+    {
+      "screen_id": "885e428e-0081-4967-966e-b35e00aa68aa",
+      "image_url": "https://mobbin.com/api/mcp/short/vkBnuiQn",
+      "position": 2
+    },
+    {
+      "screen_id": "0cdf12f8-8b0a-4d5c-8beb-aaa877029afa",
+      "image_url": "https://mobbin.com/api/mcp/short/7lMfysL0",
+      "position": 3
+    },
+    {
+      "screen_id": "805c43d2-ab72-4c08-af42-fdc3d4c567e6",
+      "image_url": "https://mobbin.com/api/mcp/short/IQItmfPq",
+      "position": 4
+    }
+  ]
+}

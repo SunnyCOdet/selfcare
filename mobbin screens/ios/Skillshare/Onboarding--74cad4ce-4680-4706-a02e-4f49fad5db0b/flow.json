@@ -1,0 +1,71 @@
+{
+  "id": "74cad4ce-4680-4706-a02e-4f49fad5db0b",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account",
+    "Onboarding",
+    "Selecting & Choosing",
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/74cad4ce-4680-4706-a02e-4f49fad5db0b",
+  "app_name": "Skillshare",
+  "platform": "ios",
+  "screen_count": 11,
+  "screens": [
+    {
+      "screen_id": "4790e5ed-cf81-4882-8896-63f3d768a81d",
+      "image_url": "https://mobbin.com/api/mcp/short/vvkjA3I2",
+      "position": 1
+    },
+    {
+      "screen_id": "ec37abaf-6f0c-44b2-960d-c556546a349f",
+      "image_url": "https://mobbin.com/api/mcp/short/1GriZJkj",
+      "position": 2
+    },
+    {
+      "screen_id": "c77b2f55-92d9-474b-bd5c-4466f005b83d",
+      "image_url": "https://mobbin.com/api/mcp/short/obijSIfu",
+      "position": 3
+    },
+    {
+      "screen_id": "2287c407-42da-4415-8483-439524b82853",
+      "image_url": "https://mobbin.com/api/mcp/short/61ncGVJW",
+      "position": 4
+    },
+    {
+      "screen_id": "7c7e65e9-6338-4584-a76e-f11fe946152f",
+      "image_url": "https://mobbin.com/api/mcp/short/guVrfBwT",
+      "position": 5
+    },
+    {
+      "screen_id": "445d434d-f954-4059-a771-61424dba071d",
+      "image_url": "https://mobbin.com/api/mcp/short/cbyXYhgF",
+      "position": 6
+    },
+    {
+      "screen_id": "0717095b-3c4a-4d26-aee5-faf19c66190a",
+      "image_url": "https://mobbin.com/api/mcp/short/np5feV01",
+      "position": 7
+    },
+    {
+      "screen_id": "197a35ca-d2cd-412e-bdf5-60965a2ab74a",
+      "image_url": "https://mobbin.com/api/mcp/short/rPEodQE0",
+      "position": 8
+    },
+    {
+      "screen_id": "af1b2050-9c51-4baf-af08-3107c8916a18",
+      "image_url": "https://mobbin.com/api/mcp/short/PR3IENpT",
+      "position": 9
+    },
+    {
+      "screen_id": "a447647c-5231-46c4-8087-5aae4992c17c",
+      "image_url": "https://mobbin.com/api/mcp/short/WKHy8sdc",
+      "position": 10
+    },
+    {
+      "screen_id": "1db36058-5050-4139-b41f-c7161970c05b",
+      "image_url": "https://mobbin.com/api/mcp/short/OKUIuaXf",
+      "position": 11
+    }
+  ]
+}

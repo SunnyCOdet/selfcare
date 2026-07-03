@@ -1,0 +1,28 @@
+{
+  "id": "8f994779-00ec-4e2f-8c03-a0bed4765760",
+  "name": "Asking Hypelist AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8f994779-00ec-4e2f-8c03-a0bed4765760",
+  "app_name": "Hypelist",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "596b55a3-0adf-4469-a46b-ad5bbbec6fe6",
+      "image_url": "https://mobbin.com/api/mcp/short/wNktOS43",
+      "position": 1
+    },
+    {
+      "screen_id": "dcd765c7-c2b8-40bb-80e8-2019eafd7fca",
+      "image_url": "https://mobbin.com/api/mcp/short/TnjwGdvM",
+      "position": 2
+    },
+    {
+      "screen_id": "16417417-ba63-44e6-8252-ff0e4a5a3aeb",
+      "image_url": "https://mobbin.com/api/mcp/short/9gEoTQ8M",
+      "position": 3
+    }
+  ]
+}

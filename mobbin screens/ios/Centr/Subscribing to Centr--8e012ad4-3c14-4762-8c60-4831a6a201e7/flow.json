@@ -1,0 +1,38 @@
+{
+  "id": "8e012ad4-3c14-4762-8c60-4831a6a201e7",
+  "name": "Subscribing to Centr",
+  "actions": [
+    "Subscribing & Upgrading"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/8e012ad4-3c14-4762-8c60-4831a6a201e7",
+  "app_name": "Centr",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "b310c206-40f7-4f17-ad2d-0056c28e85e9",
+      "image_url": "https://mobbin.com/api/mcp/short/tVlcfuvs",
+      "position": 1
+    },
+    {
+      "screen_id": "ae9d5d98-c17a-461e-ba9d-e890570942a5",
+      "image_url": "https://mobbin.com/api/mcp/short/0eI4A8X5",
+      "position": 2
+    },
+    {
+      "screen_id": "624f66dc-073d-4ed0-bcd3-770f7c22cc40",
+      "image_url": "https://mobbin.com/api/mcp/short/DGr4SEYO",
+      "position": 3
+    },
+    {
+      "screen_id": "f9ca5a72-8a2e-4ca7-9ae5-560cacbea0ce",
+      "image_url": "https://mobbin.com/api/mcp/short/fnUjKtCm",
+      "position": 4
+    },
+    {
+      "screen_id": "81e1e56c-84e0-4829-8e66-6485b12195cb",
+      "image_url": "https://mobbin.com/api/mcp/short/RG1UeEjs",
+      "position": 5
+    }
+  ]
+}

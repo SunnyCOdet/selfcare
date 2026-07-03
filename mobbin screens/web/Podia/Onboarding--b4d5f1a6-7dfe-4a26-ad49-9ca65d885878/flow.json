@@ -1,0 +1,33 @@
+{
+  "id": "b4d5f1a6-7dfe-4a26-ad49-9ca65d885878",
+  "name": "Onboarding",
+  "actions": [
+    "Creating Account"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b4d5f1a6-7dfe-4a26-ad49-9ca65d885878",
+  "app_name": "Podia",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "edace237-fe37-4002-a43a-0fe08b58890a",
+      "image_url": "https://mobbin.com/api/mcp/short/zZhoZ3Yx",
+      "position": 1
+    },
+    {
+      "screen_id": "05d4fc0b-92ee-4ac7-8d63-832d2bebe536",
+      "image_url": "https://mobbin.com/api/mcp/short/BugLSdOR",
+      "position": 2
+    },
+    {
+      "screen_id": "6007ac25-a05b-465c-a3fd-5f22cda949f5",
+      "image_url": "https://mobbin.com/api/mcp/short/VncojABY",
+      "position": 3
+    },
+    {
+      "screen_id": "2d46ac6d-5403-4d21-a1b4-4dd2df74bf9b",
+      "image_url": "https://mobbin.com/api/mcp/short/lQ8UdRUQ",
+      "position": 4
+    }
+  ]
+}

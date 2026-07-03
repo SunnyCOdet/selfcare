@@ -1,0 +1,36 @@
+{
+  "id": "0695b36f-58d2-4609-8caf-c8607519f279",
+  "name": "Path detail",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0695b36f-58d2-4609-8caf-c8607519f279",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "0b559e9e-7ce4-4e5e-802b-616ba950d2c2",
+      "image_url": "https://mobbin.com/api/mcp/short/AGIJ0bAg",
+      "position": 1
+    },
+    {
+      "screen_id": "64eb6868-cc47-4cd0-bc67-f08fbdb4bd5d",
+      "image_url": "https://mobbin.com/api/mcp/short/9dkNgiv4",
+      "position": 2
+    },
+    {
+      "screen_id": "ab669e54-d2b7-4e31-808b-f87fdb15d0ae",
+      "image_url": "https://mobbin.com/api/mcp/short/sIdqsGqd",
+      "position": 3
+    },
+    {
+      "screen_id": "6ac41af4-704c-4da8-b457-206b90966869",
+      "image_url": "https://mobbin.com/api/mcp/short/5xOobmqN",
+      "position": 4
+    },
+    {
+      "screen_id": "5616572c-7273-42b9-8645-2d8fdfc5be6f",
+      "image_url": "https://mobbin.com/api/mcp/short/wY5S091E",
+      "position": 5
+    }
+  ]
+}

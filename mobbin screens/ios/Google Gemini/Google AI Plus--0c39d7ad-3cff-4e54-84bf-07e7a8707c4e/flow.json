@@ -1,0 +1,31 @@
+{
+  "id": "0c39d7ad-3cff-4e54-84bf-07e7a8707c4e",
+  "name": "Google AI Plus",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/0c39d7ad-3cff-4e54-84bf-07e7a8707c4e",
+  "app_name": "Google Gemini",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "93866f91-1e97-4358-b477-a3549fa52ec2",
+      "image_url": "https://mobbin.com/api/mcp/short/MqB6Rawc",
+      "position": 1
+    },
+    {
+      "screen_id": "0170e684-e9cb-4f55-b55d-dd47747317fa",
+      "image_url": "https://mobbin.com/api/mcp/short/5WcsC8id",
+      "position": 2
+    },
+    {
+      "screen_id": "2ec2fe17-4544-4820-9980-457278645f4b",
+      "image_url": "https://mobbin.com/api/mcp/short/RHKomZLx",
+      "position": 3
+    },
+    {
+      "screen_id": "e27fecb2-20fe-403f-8b2b-fa463d4374c5",
+      "image_url": "https://mobbin.com/api/mcp/short/BqiYoyyX",
+      "position": 4
+    }
+  ]
+}

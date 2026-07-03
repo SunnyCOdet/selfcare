@@ -1,0 +1,26 @@
+{
+  "name": "sidebar",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui",
+    "class-variance-authority",
+    "lucide-react"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [
+    "button",
+    "separator",
+    "sheet",
+    "tooltip",
+    "input",
+    "use-mobile",
+    "skeleton"
+  ],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/sidebar.tsx",
+      "extractedTo": "ui/sidebar.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

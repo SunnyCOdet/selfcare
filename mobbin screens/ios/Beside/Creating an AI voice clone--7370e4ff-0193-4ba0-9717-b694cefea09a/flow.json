@@ -1,0 +1,59 @@
+{
+  "id": "7370e4ff-0193-4ba0-9717-b694cefea09a",
+  "name": "Creating an AI voice clone",
+  "actions": [
+    "Adding & Creating",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/7370e4ff-0193-4ba0-9717-b694cefea09a",
+  "app_name": "Beside",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "7559b133-5c92-4d0b-aa70-60cbecef2fec",
+      "image_url": "https://mobbin.com/api/mcp/short/iMDJfGBO",
+      "position": 1
+    },
+    {
+      "screen_id": "1df64da3-787a-4983-b3b8-7fe46c93f32a",
+      "image_url": "https://mobbin.com/api/mcp/short/V7EMN1Iz",
+      "position": 2
+    },
+    {
+      "screen_id": "5b8e0f57-43b6-459e-8d31-d9202dc176f8",
+      "image_url": "https://mobbin.com/api/mcp/short/yIZAWVs9",
+      "position": 3
+    },
+    {
+      "screen_id": "724e36dc-7957-4614-a6ab-d46246d621b8",
+      "image_url": "https://mobbin.com/api/mcp/short/aAWfRF2S",
+      "position": 4
+    },
+    {
+      "screen_id": "4dc6f78e-4867-4a49-a4dd-8d2df8ee51aa",
+      "image_url": "https://mobbin.com/api/mcp/short/h9ukcW0n",
+      "position": 5
+    },
+    {
+      "screen_id": "6a8469ec-83f1-4cfa-91f9-7f5aed54ff98",
+      "image_url": "https://mobbin.com/api/mcp/short/NaqNrMoF",
+      "position": 6
+    },
+    {
+      "screen_id": "5154fee2-6423-4cc8-931b-beb1579a788c",
+      "image_url": "https://mobbin.com/api/mcp/short/tD5j9xSM",
+      "position": 7
+    },
+    {
+      "screen_id": "4c502dc1-bab7-405e-93be-65e17e4c8df2",
+      "image_url": "https://mobbin.com/api/mcp/short/bu4Fy5Ho",
+      "position": 8
+    },
+    {
+      "screen_id": "47cc2244-085d-4093-a76d-13aec23d9f5b",
+      "image_url": "https://mobbin.com/api/mcp/short/jQvLWOs2",
+      "position": 9
+    }
+  ]
+}

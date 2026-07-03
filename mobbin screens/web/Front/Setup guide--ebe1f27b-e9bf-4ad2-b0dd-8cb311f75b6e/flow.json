@@ -1,0 +1,46 @@
+{
+  "id": "ebe1f27b-e9bf-4ad2-b0dd-8cb311f75b6e",
+  "name": "Setup guide",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/ebe1f27b-e9bf-4ad2-b0dd-8cb311f75b6e",
+  "app_name": "Front",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "fb763f8a-c0a6-49e4-bb81-1fe1d42554bf",
+      "image_url": "https://mobbin.com/api/mcp/short/HKXzIPXs",
+      "position": 1
+    },
+    {
+      "screen_id": "34f46cbf-4653-4101-8658-83a9a7217efc",
+      "image_url": "https://mobbin.com/api/mcp/short/rKDanqD0",
+      "position": 2
+    },
+    {
+      "screen_id": "a6551ae0-fb3d-4b2d-baa8-fe52f2029199",
+      "image_url": "https://mobbin.com/api/mcp/short/UPNnqV65",
+      "position": 3
+    },
+    {
+      "screen_id": "e4261256-28d3-4c38-8dbd-344590d27eb2",
+      "image_url": "https://mobbin.com/api/mcp/short/4TYcpic4",
+      "position": 4
+    },
+    {
+      "screen_id": "3908af07-5b0e-49d5-a470-2fee7b0f278c",
+      "image_url": "https://mobbin.com/api/mcp/short/ntV04n9P",
+      "position": 5
+    },
+    {
+      "screen_id": "d45e3c73-35a6-4917-b5fa-50c84e4b65d2",
+      "image_url": "https://mobbin.com/api/mcp/short/IirunoCr",
+      "position": 6
+    },
+    {
+      "screen_id": "3b64830f-1d1f-4818-ae2a-28c3f6ffdaaf",
+      "image_url": "https://mobbin.com/api/mcp/short/hz3dCKW0",
+      "position": 7
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "e06b7836-f5ae-45b7-8c8c-0cb1ab4e96d5",
+  "name": "Watching a video class",
+  "actions": [
+    "Watching Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/e06b7836-f5ae-45b7-8c8c-0cb1ab4e96d5",
+  "app_name": "Open",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "8ce59ce4-b571-41e3-954c-e87dba56427f",
+      "image_url": "https://mobbin.com/api/mcp/short/u26KEDMe",
+      "position": 1
+    },
+    {
+      "screen_id": "f276689f-ee39-4e83-95d5-a46ab019da45",
+      "image_url": "https://mobbin.com/api/mcp/short/GHvmjVfO",
+      "position": 2
+    },
+    {
+      "screen_id": "1f46ce70-0832-4c36-8dbd-92835ba49b81",
+      "image_url": "https://mobbin.com/api/mcp/short/pZX7dV1O",
+      "position": 3
+    },
+    {
+      "screen_id": "bb246553-fde4-473e-831e-4a4778e59e32",
+      "image_url": "https://mobbin.com/api/mcp/short/jr0jnHrM",
+      "position": 4
+    },
+    {
+      "screen_id": "5dc29a96-ecde-44b0-914e-07961161d2e8",
+      "image_url": "https://mobbin.com/api/mcp/short/goUQ2azC",
+      "position": 5
+    }
+  ]
+}

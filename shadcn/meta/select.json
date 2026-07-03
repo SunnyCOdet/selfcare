@@ -1,0 +1,16 @@
+{
+  "name": "select",
+  "type": "registry:ui",
+  "dependencies": [
+    "radix-ui"
+  ],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york-v4/ui/select.tsx",
+      "extractedTo": "ui/select.tsx",
+      "type": "registry:ui"
+    }
+  ]
+}

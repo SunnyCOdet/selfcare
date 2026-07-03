@@ -1,0 +1,41 @@
+{
+  "id": "733fb520-dea6-452a-ae77-7f6c81a7af25",
+  "name": "Habits",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/733fb520-dea6-452a-ae77-7f6c81a7af25",
+  "app_name": "Cleo",
+  "platform": "ios",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "c37cd675-564c-4512-99d9-acbdbecacebe",
+      "image_url": "https://mobbin.com/api/mcp/short/zRkoJLPc",
+      "position": 1
+    },
+    {
+      "screen_id": "a22d0773-1f33-4846-b490-71c4a59462aa",
+      "image_url": "https://mobbin.com/api/mcp/short/r2OZPJQu",
+      "position": 2
+    },
+    {
+      "screen_id": "68050892-6e3c-4c15-8779-dfe174be1052",
+      "image_url": "https://mobbin.com/api/mcp/short/BHHdHpBA",
+      "position": 3
+    },
+    {
+      "screen_id": "3aa5456d-1ca0-4c18-8278-7119b6878fae",
+      "image_url": "https://mobbin.com/api/mcp/short/OqcBUpeJ",
+      "position": 4
+    },
+    {
+      "screen_id": "c911fd1b-086b-46b2-b010-e85c46a5839e",
+      "image_url": "https://mobbin.com/api/mcp/short/atckx8vV",
+      "position": 5
+    },
+    {
+      "screen_id": "b487195b-7276-4850-bb56-3b55f42bdd27",
+      "image_url": "https://mobbin.com/api/mcp/short/tlaVTnzu",
+      "position": 6
+    }
+  ]
+}

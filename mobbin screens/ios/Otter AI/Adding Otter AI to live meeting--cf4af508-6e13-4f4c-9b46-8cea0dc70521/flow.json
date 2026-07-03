@@ -1,0 +1,33 @@
+{
+  "id": "cf4af508-6e13-4f4c-9b46-8cea0dc70521",
+  "name": "Adding Otter AI to live meeting",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/cf4af508-6e13-4f4c-9b46-8cea0dc70521",
+  "app_name": "Otter AI",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "8434c842-e09d-44a3-b0b6-398b580d0655",
+      "image_url": "https://mobbin.com/api/mcp/short/9KYqn119",
+      "position": 1
+    },
+    {
+      "screen_id": "03fadb58-12bd-40a4-a483-43ecd72308cf",
+      "image_url": "https://mobbin.com/api/mcp/short/DLbQAxjH",
+      "position": 2
+    },
+    {
+      "screen_id": "8188ee4c-9d4d-49f9-8df8-8cdb6946fe71",
+      "image_url": "https://mobbin.com/api/mcp/short/j6fvk1ZM",
+      "position": 3
+    },
+    {
+      "screen_id": "8e6dceaf-fe1a-4adc-abc3-c046130c2397",
+      "image_url": "https://mobbin.com/api/mcp/short/ADLoUr2P",
+      "position": 4
+    }
+  ]
+}

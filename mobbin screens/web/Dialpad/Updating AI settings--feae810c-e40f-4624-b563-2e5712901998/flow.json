@@ -1,0 +1,28 @@
+{
+  "id": "feae810c-e40f-4624-b563-2e5712901998",
+  "name": "Updating AI settings",
+  "actions": [
+    "Editing & Updating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/feae810c-e40f-4624-b563-2e5712901998",
+  "app_name": "Dialpad",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "94f47301-3618-4f08-bdf8-fdf795829643",
+      "image_url": "https://mobbin.com/api/mcp/short/6siyJVmM",
+      "position": 1
+    },
+    {
+      "screen_id": "c0e07267-8b05-4d07-a350-3a24637c2f30",
+      "image_url": "https://mobbin.com/api/mcp/short/eqse3NBM",
+      "position": 2
+    },
+    {
+      "screen_id": "607d8754-75da-4553-a200-6f10d0764d5c",
+      "image_url": "https://mobbin.com/api/mcp/short/7V7LyTQ7",
+      "position": 3
+    }
+  ]
+}

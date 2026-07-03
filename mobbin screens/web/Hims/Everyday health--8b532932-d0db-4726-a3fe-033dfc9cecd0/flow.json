@@ -1,0 +1,31 @@
+{
+  "id": "8b532932-d0db-4726-a3fe-033dfc9cecd0",
+  "name": "Everyday health",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/8b532932-d0db-4726-a3fe-033dfc9cecd0",
+  "app_name": "Hims",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "3b2970bd-6fbd-44a6-bd5d-9a8bde3bf02d",
+      "image_url": "https://mobbin.com/api/mcp/short/5lPtF8rJ",
+      "position": 1
+    },
+    {
+      "screen_id": "cada6a66-06dd-4b1e-b97f-1cc09a6b4b2c",
+      "image_url": "https://mobbin.com/api/mcp/short/RJf3MQzD",
+      "position": 2
+    },
+    {
+      "screen_id": "43693059-8a47-419a-97e9-4769e569a73b",
+      "image_url": "https://mobbin.com/api/mcp/short/YKTOi3S9",
+      "position": 3
+    },
+    {
+      "screen_id": "08e0da86-f3bb-416a-83cd-41b90a8ca537",
+      "image_url": "https://mobbin.com/api/mcp/short/ivci0hDX",
+      "position": 4
+    }
+  ]
+}

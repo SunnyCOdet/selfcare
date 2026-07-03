@@ -1,0 +1,75 @@
+{
+  "id": "54f4362c-b8e2-457e-a0fe-b7cfaab386d5",
+  "name": "Setting up email preferences",
+  "actions": [
+    "Inviting Teammates & Friends",
+    "Selecting & Choosing",
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/54f4362c-b8e2-457e-a0fe-b7cfaab386d5",
+  "app_name": "Superhuman Mail",
+  "platform": "web",
+  "screen_count": 12,
+  "screens": [
+    {
+      "screen_id": "6696fa9d-ffbc-4fc8-a427-7444d1a2e1a4",
+      "image_url": "https://mobbin.com/api/mcp/short/QXpTY3tN",
+      "position": 1
+    },
+    {
+      "screen_id": "3588719c-3ac1-4bd3-9996-f366f2c0241e",
+      "image_url": "https://mobbin.com/api/mcp/short/JIvCBjaf",
+      "position": 2
+    },
+    {
+      "screen_id": "cd4189a6-9360-49a3-90db-60a65d15459c",
+      "image_url": "https://mobbin.com/api/mcp/short/0B7f8Qpb",
+      "position": 3
+    },
+    {
+      "screen_id": "7f121633-0de0-4323-b7a5-7090e1222a43",
+      "image_url": "https://mobbin.com/api/mcp/short/uxy5yMfP",
+      "position": 4
+    },
+    {
+      "screen_id": "ca27e831-7ea8-4638-b022-402cc3d2bb62",
+      "image_url": "https://mobbin.com/api/mcp/short/r1tyFDHV",
+      "position": 5
+    },
+    {
+      "screen_id": "8e3f0bc7-8246-4d5b-a4af-bb594d0f1fee",
+      "image_url": "https://mobbin.com/api/mcp/short/nm6dKny8",
+      "position": 6
+    },
+    {
+      "screen_id": "19cd9aab-cce4-43a6-8864-37746afcc83d",
+      "image_url": "https://mobbin.com/api/mcp/short/UgHM5ZBb",
+      "position": 7
+    },
+    {
+      "screen_id": "3dd1c9a9-1748-44c2-9558-6791a28681b6",
+      "image_url": "https://mobbin.com/api/mcp/short/tHOWaBJz",
+      "position": 8
+    },
+    {
+      "screen_id": "c48721a6-0d63-411e-87fe-32b5504ec14f",
+      "image_url": "https://mobbin.com/api/mcp/short/mJ9aE2lT",
+      "position": 9
+    },
+    {
+      "screen_id": "ba56c2de-4b7b-45cb-9848-40895ec356f7",
+      "image_url": "https://mobbin.com/api/mcp/short/KPIyN7ys",
+      "position": 10
+    },
+    {
+      "screen_id": "9f349eb4-f4dc-4480-87aa-4ad11be7fd9e",
+      "image_url": "https://mobbin.com/api/mcp/short/VRVzeu6z",
+      "position": 11
+    },
+    {
+      "screen_id": "4e1cdd4c-933d-4506-8a09-d28fd17c7229",
+      "image_url": "https://mobbin.com/api/mcp/short/T4PV0dpQ",
+      "position": 12
+    }
+  ]
+}

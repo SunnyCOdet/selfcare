@@ -1,0 +1,36 @@
+{
+  "id": "f17999fb-5cab-441a-8cf1-2e6b929767a6",
+  "name": "Add phone",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f17999fb-5cab-441a-8cf1-2e6b929767a6",
+  "app_name": "Fitbit",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "52ffa90d-20d8-427d-b31e-f73b3ceeed44",
+      "image_url": "https://mobbin.com/api/mcp/short/ehEEiVK5",
+      "position": 1
+    },
+    {
+      "screen_id": "de1d1b75-9a70-4c09-9d16-67012499ff35",
+      "image_url": "https://mobbin.com/api/mcp/short/FJJRws3N",
+      "position": 2
+    },
+    {
+      "screen_id": "a6c2fbac-48fb-46b2-8cb4-73eed57814ff",
+      "image_url": "https://mobbin.com/api/mcp/short/JomZW8vM",
+      "position": 3
+    },
+    {
+      "screen_id": "f7786b29-fc74-4d17-9f89-2737637615c6",
+      "image_url": "https://mobbin.com/api/mcp/short/LdSJXmHk",
+      "position": 4
+    },
+    {
+      "screen_id": "aa03f2ae-1d3a-42e0-ad10-b330275faf9f",
+      "image_url": "https://mobbin.com/api/mcp/short/CRfN2CBc",
+      "position": 5
+    }
+  ]
+}

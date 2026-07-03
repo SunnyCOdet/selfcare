@@ -1,0 +1,33 @@
+{
+  "id": "f9cf5888-f7d4-4d85-80c0-106c75c9d18c",
+  "name": "Completing a guide",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f9cf5888-f7d4-4d85-80c0-106c75c9d18c",
+  "app_name": "Shopify",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "bfa6753e-d301-403c-989e-f43cc01311ad",
+      "image_url": "https://mobbin.com/api/mcp/short/5M2HZCSc",
+      "position": 1
+    },
+    {
+      "screen_id": "12ab8f2a-c2c4-4c5d-b1ec-63b1555e0e06",
+      "image_url": "https://mobbin.com/api/mcp/short/OScb7u7D",
+      "position": 2
+    },
+    {
+      "screen_id": "d844fb71-8135-458c-bd0e-81895ab3d383",
+      "image_url": "https://mobbin.com/api/mcp/short/Rcojj2pe",
+      "position": 3
+    },
+    {
+      "screen_id": "bdbb68bf-daaf-40cd-947e-c317007f964b",
+      "image_url": "https://mobbin.com/api/mcp/short/E15xVtIv",
+      "position": 4
+    }
+  ]
+}

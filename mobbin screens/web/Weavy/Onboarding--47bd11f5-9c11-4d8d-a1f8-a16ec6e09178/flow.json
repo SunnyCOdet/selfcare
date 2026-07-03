@@ -1,0 +1,39 @@
+{
+  "id": "47bd11f5-9c11-4d8d-a1f8-a16ec6e09178",
+  "name": "Onboarding",
+  "actions": [
+    "Logging In",
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/47bd11f5-9c11-4d8d-a1f8-a16ec6e09178",
+  "app_name": "Weavy",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "94f6c424-5dd7-470f-b852-92b58e658292",
+      "image_url": "https://mobbin.com/api/mcp/short/jfwmSOXz",
+      "position": 1
+    },
+    {
+      "screen_id": "09cf567e-d79a-42d1-97f5-94be058e6d80",
+      "image_url": "https://mobbin.com/api/mcp/short/rwvImRlg",
+      "position": 2
+    },
+    {
+      "screen_id": "bb8570ff-6072-4ee2-b677-35be12f65015",
+      "image_url": "https://mobbin.com/api/mcp/short/pVJFa5sA",
+      "position": 3
+    },
+    {
+      "screen_id": "36bac72d-f8a5-4e6d-a704-39c9c4b69fee",
+      "image_url": "https://mobbin.com/api/mcp/short/DMZYxm4N",
+      "position": 4
+    },
+    {
+      "screen_id": "e21bbacb-d700-418a-a4fb-48bcecfffb08",
+      "image_url": "https://mobbin.com/api/mcp/short/iOh5n0Wf",
+      "position": 5
+    }
+  ]
+}

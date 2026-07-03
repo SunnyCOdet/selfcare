@@ -1,0 +1,23 @@
+{
+  "id": "9f0c1c73-609d-4d97-be32-4db2b2b172d7",
+  "name": "Reviewing daily progress",
+  "actions": [
+    "Misc"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/9f0c1c73-609d-4d97-be32-4db2b2b172d7",
+  "app_name": "Gymshark Training and Fitness",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "31786383-4ce4-458f-b24e-33c47ed0eb80",
+      "image_url": "https://mobbin.com/api/mcp/short/9QKPU353",
+      "position": 1
+    },
+    {
+      "screen_id": "7f0eef36-d323-49a3-a7b0-ae3be548cc16",
+      "image_url": "https://mobbin.com/api/mcp/short/8M46i0wF",
+      "position": 2
+    }
+  ]
+}

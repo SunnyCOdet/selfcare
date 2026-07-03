@@ -1,0 +1,38 @@
+{
+  "id": "d4fe213f-9c92-4c91-807c-acae13cbbbe4",
+  "name": "Creating a custom popup with AI",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d4fe213f-9c92-4c91-807c-acae13cbbbe4",
+  "app_name": "Felt",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "2dec038c-b178-4b2b-84cb-84785b052d5d",
+      "image_url": "https://mobbin.com/api/mcp/short/F0eKSRXu",
+      "position": 1
+    },
+    {
+      "screen_id": "c2dc2a7f-ba63-463c-8683-9678d2e369e8",
+      "image_url": "https://mobbin.com/api/mcp/short/26uVdlKK",
+      "position": 2
+    },
+    {
+      "screen_id": "6852c811-15b7-4243-891e-32564fd3fdd8",
+      "image_url": "https://mobbin.com/api/mcp/short/ieLzA5sx",
+      "position": 3
+    },
+    {
+      "screen_id": "8778dd01-ffd3-40ad-bc4b-e41fbeeb6189",
+      "image_url": "https://mobbin.com/api/mcp/short/3LwY7NhL",
+      "position": 4
+    },
+    {
+      "screen_id": "be5a21d5-76a5-4afa-8cba-e2300c7258c1",
+      "image_url": "https://mobbin.com/api/mcp/short/GmvOCCpm",
+      "position": 5
+    }
+  ]
+}

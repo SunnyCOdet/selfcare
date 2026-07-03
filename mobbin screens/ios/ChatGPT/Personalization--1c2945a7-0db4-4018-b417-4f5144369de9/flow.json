@@ -1,0 +1,21 @@
+{
+  "id": "1c2945a7-0db4-4018-b417-4f5144369de9",
+  "name": "Personalization",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/1c2945a7-0db4-4018-b417-4f5144369de9",
+  "app_name": "ChatGPT",
+  "platform": "ios",
+  "screen_count": 2,
+  "screens": [
+    {
+      "screen_id": "18d1fd7e-2ac4-4601-a7bf-600b8c626de2",
+      "image_url": "https://mobbin.com/api/mcp/short/UfuWRldw",
+      "position": 1
+    },
+    {
+      "screen_id": "917bcd14-d7e3-410d-bcae-65f739a2717b",
+      "image_url": "https://mobbin.com/api/mcp/short/SNGtgxHQ",
+      "position": 2
+    }
+  ]
+}

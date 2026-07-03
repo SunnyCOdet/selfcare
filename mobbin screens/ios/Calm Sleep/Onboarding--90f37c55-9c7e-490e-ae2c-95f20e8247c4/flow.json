@@ -1,0 +1,38 @@
+{
+  "id": "90f37c55-9c7e-490e-ae2c-95f20e8247c4",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/90f37c55-9c7e-490e-ae2c-95f20e8247c4",
+  "app_name": "Calm Sleep",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "d8c7a8a9-1d7b-405b-96e7-6160965592a0",
+      "image_url": "https://mobbin.com/api/mcp/short/fUPjUQPh",
+      "position": 1
+    },
+    {
+      "screen_id": "6f7e7e51-41d1-4694-bc72-0202e7aac5c1",
+      "image_url": "https://mobbin.com/api/mcp/short/cDPKDPyt",
+      "position": 2
+    },
+    {
+      "screen_id": "43f8e82f-4025-4e93-b040-39a6b988e4ac",
+      "image_url": "https://mobbin.com/api/mcp/short/B2HWpx5M",
+      "position": 3
+    },
+    {
+      "screen_id": "10795668-3734-4fca-a7bb-8add92671d08",
+      "image_url": "https://mobbin.com/api/mcp/short/cwZlhIx7",
+      "position": 4
+    },
+    {
+      "screen_id": "be8adaae-985a-47fb-b83d-c8cc3b68e506",
+      "image_url": "https://mobbin.com/api/mcp/short/e3Sjm6ZC",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "dd0c371e-d6cf-4066-972a-1fac164505a5",
+  "name": "Generating research with AI",
+  "actions": [
+    "Adding & Creating",
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/dd0c371e-d6cf-4066-972a-1fac164505a5",
+  "app_name": "Exa",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "ba23a2f6-0405-4c3c-8145-875d963eef90",
+      "image_url": "https://mobbin.com/api/mcp/short/VU32Imth",
+      "position": 1
+    },
+    {
+      "screen_id": "3291d0a7-542e-40e9-88c8-d2ec2897f99c",
+      "image_url": "https://mobbin.com/api/mcp/short/CfsYuOEt",
+      "position": 2
+    },
+    {
+      "screen_id": "cc467604-e104-41b6-8b0a-3b1d3e774a05",
+      "image_url": "https://mobbin.com/api/mcp/short/wxaqJo4s",
+      "position": 3
+    },
+    {
+      "screen_id": "e27219ed-d597-45e4-af9a-a4ac52f6e591",
+      "image_url": "https://mobbin.com/api/mcp/short/5LAu610k",
+      "position": 4
+    }
+  ]
+}

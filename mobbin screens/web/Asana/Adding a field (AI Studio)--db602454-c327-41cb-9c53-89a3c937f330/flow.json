@@ -1,0 +1,29 @@
+{
+  "id": "db602454-c327-41cb-9c53-89a3c937f330",
+  "name": "Adding a field (AI Studio)",
+  "actions": [
+    "Adding & Creating",
+    "Selecting & Choosing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/db602454-c327-41cb-9c53-89a3c937f330",
+  "app_name": "Asana",
+  "platform": "web",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "eabd219a-564c-4f75-8c40-8cad0c02938b",
+      "image_url": "https://mobbin.com/api/mcp/short/8PsrYCto",
+      "position": 1
+    },
+    {
+      "screen_id": "4e26b199-0ba4-422a-8b6e-605750cb4dbf",
+      "image_url": "https://mobbin.com/api/mcp/short/vQqEIqm8",
+      "position": 2
+    },
+    {
+      "screen_id": "2af90759-4ce5-4763-a3d0-796f38cb18e8",
+      "image_url": "https://mobbin.com/api/mcp/short/IQT0G7yq",
+      "position": 3
+    }
+  ]
+}

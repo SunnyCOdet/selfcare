@@ -1,0 +1,31 @@
+{
+  "id": "419e86f5-96b9-4ee9-b81e-4f1e32a0c300",
+  "name": "Welcome series",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/419e86f5-96b9-4ee9-b81e-4f1e32a0c300",
+  "app_name": "pliability",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "f9c3bd88-78a2-42d1-b949-7e47fb08fc1c",
+      "image_url": "https://mobbin.com/api/mcp/short/d8xm8HHs",
+      "position": 1
+    },
+    {
+      "screen_id": "a5ef4c26-9cf1-4a12-bb4f-d3a04ecc6999",
+      "image_url": "https://mobbin.com/api/mcp/short/WfKNFcCY",
+      "position": 2
+    },
+    {
+      "screen_id": "d34ebd99-03d1-4571-82a9-856604fe9c23",
+      "image_url": "https://mobbin.com/api/mcp/short/I6ZTzNqM",
+      "position": 3
+    },
+    {
+      "screen_id": "35883783-70d6-4133-9b08-481bf505c8b7",
+      "image_url": "https://mobbin.com/api/mcp/short/4u26sM7C",
+      "position": 4
+    }
+  ]
+}

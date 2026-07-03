@@ -1,0 +1,53 @@
+{
+  "id": "afe0ee04-b4b2-4c1a-aa32-fa5cdc266e05",
+  "name": "Adding healthcare",
+  "actions": [
+    "Adding & Creating"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/afe0ee04-b4b2-4c1a-aa32-fa5cdc266e05",
+  "app_name": "Deel",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "e08e1667-72f2-4da3-a834-0bb7602bd2f3",
+      "image_url": "https://mobbin.com/api/mcp/short/gDSZLzIb",
+      "position": 1
+    },
+    {
+      "screen_id": "5de01549-91c2-435a-bbce-e34771f49dbf",
+      "image_url": "https://mobbin.com/api/mcp/short/dOpnsTan",
+      "position": 2
+    },
+    {
+      "screen_id": "6820d845-7931-4e46-97eb-c771c0cd208d",
+      "image_url": "https://mobbin.com/api/mcp/short/wX7Vwf16",
+      "position": 3
+    },
+    {
+      "screen_id": "d655b849-49bc-4d6a-97d0-1fb03998e965",
+      "image_url": "https://mobbin.com/api/mcp/short/E6Fsjc1m",
+      "position": 4
+    },
+    {
+      "screen_id": "15118ec6-abaf-4908-992e-fe335d85ee53",
+      "image_url": "https://mobbin.com/api/mcp/short/A1uSTITe",
+      "position": 5
+    },
+    {
+      "screen_id": "e2763d0e-b5f4-49fc-9248-74dc99e28cb7",
+      "image_url": "https://mobbin.com/api/mcp/short/Jzic9QWc",
+      "position": 6
+    },
+    {
+      "screen_id": "8b1fb0b5-266c-45e6-be35-4e58b392cd9f",
+      "image_url": "https://mobbin.com/api/mcp/short/zWKdcGWh",
+      "position": 7
+    },
+    {
+      "screen_id": "89c2cb73-ed24-430b-9c64-d3e0492a1607",
+      "image_url": "https://mobbin.com/api/mcp/short/j2CHGmQp",
+      "position": 8
+    }
+  ]
+}

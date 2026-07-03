@@ -1,0 +1,63 @@
+{
+  "id": "b62bf494-7fdb-4389-8767-a196ad06b19a",
+  "name": "Setting up advice",
+  "actions": [
+    "Setting Up"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/b62bf494-7fdb-4389-8767-a196ad06b19a",
+  "app_name": "Monarch",
+  "platform": "web",
+  "screen_count": 10,
+  "screens": [
+    {
+      "screen_id": "556dff24-0862-457a-b87d-1637c584a552",
+      "image_url": "https://mobbin.com/api/mcp/short/aNNmQ7qf",
+      "position": 1
+    },
+    {
+      "screen_id": "35d579c4-3fa9-47e2-8d20-bce2758033d7",
+      "image_url": "https://mobbin.com/api/mcp/short/D0kj8CRq",
+      "position": 2
+    },
+    {
+      "screen_id": "4245e426-3370-4a70-9384-b79ba04d385d",
+      "image_url": "https://mobbin.com/api/mcp/short/fGBUT0vC",
+      "position": 3
+    },
+    {
+      "screen_id": "b4379fd7-3e3e-45a4-a9b8-f458ce45005d",
+      "image_url": "https://mobbin.com/api/mcp/short/fGfEbuF3",
+      "position": 4
+    },
+    {
+      "screen_id": "5185ffb6-aad7-4626-a3fb-709845d6782b",
+      "image_url": "https://mobbin.com/api/mcp/short/daAIbuUi",
+      "position": 5
+    },
+    {
+      "screen_id": "49873c26-c277-4080-95dd-226d562ebbf5",
+      "image_url": "https://mobbin.com/api/mcp/short/FrJUu3N8",
+      "position": 6
+    },
+    {
+      "screen_id": "d9a7de98-e27d-4ca8-aa83-41149e4a30e0",
+      "image_url": "https://mobbin.com/api/mcp/short/VcTjaTam",
+      "position": 7
+    },
+    {
+      "screen_id": "99b6ce6f-19ae-40c4-95b4-b066f81c260b",
+      "image_url": "https://mobbin.com/api/mcp/short/LYtJsw8x",
+      "position": 8
+    },
+    {
+      "screen_id": "b6af9e95-09e9-423d-9fcd-6081a5e378ba",
+      "image_url": "https://mobbin.com/api/mcp/short/j8KbCr0M",
+      "position": 9
+    },
+    {
+      "screen_id": "53631102-dc15-414f-92b8-e6802620d214",
+      "image_url": "https://mobbin.com/api/mcp/short/GSlHf5IX",
+      "position": 10
+    }
+  ]
+}

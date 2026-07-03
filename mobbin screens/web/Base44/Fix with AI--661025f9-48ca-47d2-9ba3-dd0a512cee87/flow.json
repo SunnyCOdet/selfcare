@@ -1,0 +1,31 @@
+{
+  "id": "661025f9-48ca-47d2-9ba3-dd0a512cee87",
+  "name": "Fix with AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/661025f9-48ca-47d2-9ba3-dd0a512cee87",
+  "app_name": "Base44",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "71d29ab5-bd1b-46a9-a9d7-0932827e94a4",
+      "image_url": "https://mobbin.com/api/mcp/short/xRr5s9uj",
+      "position": 1
+    },
+    {
+      "screen_id": "9a0d9b9b-35ee-4058-a50e-61aeb1f7a18d",
+      "image_url": "https://mobbin.com/api/mcp/short/nVUV4Hla",
+      "position": 2
+    },
+    {
+      "screen_id": "46a5fb6d-389d-4765-a538-9b5c79c0a004",
+      "image_url": "https://mobbin.com/api/mcp/short/rRpm0oXo",
+      "position": 3
+    },
+    {
+      "screen_id": "a37f93a8-71be-44e2-a428-1c36d2e64acd",
+      "image_url": "https://mobbin.com/api/mcp/short/NUXV0BE4",
+      "position": 4
+    }
+  ]
+}

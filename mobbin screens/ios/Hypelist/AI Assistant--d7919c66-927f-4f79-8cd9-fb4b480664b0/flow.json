@@ -1,0 +1,26 @@
+{
+  "id": "d7919c66-927f-4f79-8cd9-fb4b480664b0",
+  "name": "AI Assistant",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d7919c66-927f-4f79-8cd9-fb4b480664b0",
+  "app_name": "Hypelist",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "0f0372f3-37d8-49d1-827f-7f77dc88a448",
+      "image_url": "https://mobbin.com/api/mcp/short/lxmSj3CK",
+      "position": 1
+    },
+    {
+      "screen_id": "61ce2cdf-60f1-4445-831a-83360e0946cb",
+      "image_url": "https://mobbin.com/api/mcp/short/JQo084AF",
+      "position": 2
+    },
+    {
+      "screen_id": "b9866253-8328-47d4-9aca-2171249bfa23",
+      "image_url": "https://mobbin.com/api/mcp/short/2bnD10I6",
+      "position": 3
+    }
+  ]
+}

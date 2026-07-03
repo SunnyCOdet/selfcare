@@ -1,0 +1,36 @@
+{
+  "id": "da26925a-9e93-4e17-b188-a18e3466edec",
+  "name": "Manychat AI",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/da26925a-9e93-4e17-b188-a18e3466edec",
+  "app_name": "ManyChat",
+  "platform": "web",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "fb95bef5-11dd-48a2-bf61-5f30badc6077",
+      "image_url": "https://mobbin.com/api/mcp/short/6OGvLv2Z",
+      "position": 1
+    },
+    {
+      "screen_id": "b326aa49-33c8-41bd-91fd-f7f8a2b7efc1",
+      "image_url": "https://mobbin.com/api/mcp/short/eWXJRpPk",
+      "position": 2
+    },
+    {
+      "screen_id": "2d5fac97-be9e-4136-8538-1d3bd11644d8",
+      "image_url": "https://mobbin.com/api/mcp/short/fFcCUJL9",
+      "position": 3
+    },
+    {
+      "screen_id": "7e6021f2-090e-486c-a5cd-fcd255f9453f",
+      "image_url": "https://mobbin.com/api/mcp/short/VkUWJBpz",
+      "position": 4
+    },
+    {
+      "screen_id": "52cf4c43-38d3-4e69-aa80-93d89bb27e6e",
+      "image_url": "https://mobbin.com/api/mcp/short/tabc6WL6",
+      "position": 5
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "82e40498-9053-4542-a74f-82d4270ccdc2",
+  "name": "Creating songs with AI (manual)",
+  "actions": [
+    "Adding & Creating",
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/82e40498-9053-4542-a74f-82d4270ccdc2",
+  "app_name": "Suno",
+  "platform": "web",
+  "screen_count": 6,
+  "screens": [
+    {
+      "screen_id": "4c041f64-0248-4f1e-8d68-532c6ba1036e",
+      "image_url": "https://mobbin.com/api/mcp/short/iDvcq6tf",
+      "position": 1
+    },
+    {
+      "screen_id": "bce29fe2-eb31-4cde-9c1b-e9cb1a3c3e6c",
+      "image_url": "https://mobbin.com/api/mcp/short/ldk0q0CT",
+      "position": 2
+    },
+    {
+      "screen_id": "ee1453af-9d35-4929-a0fd-57f087455bc6",
+      "image_url": "https://mobbin.com/api/mcp/short/NJ4jVXB1",
+      "position": 3
+    },
+    {
+      "screen_id": "59250ce8-051f-41d3-869b-7f1bf3b052f9",
+      "image_url": "https://mobbin.com/api/mcp/short/ZcZcBCtF",
+      "position": 4
+    },
+    {
+      "screen_id": "3d44b459-41fa-48c6-a1c9-6a1de46d410b",
+      "image_url": "https://mobbin.com/api/mcp/short/Fz1Wf6s4",
+      "position": 5
+    },
+    {
+      "screen_id": "d2176e1c-e15c-481f-9a36-f1099f966013",
+      "image_url": "https://mobbin.com/api/mcp/short/A11CnB81",
+      "position": 6
+    }
+  ]
+}

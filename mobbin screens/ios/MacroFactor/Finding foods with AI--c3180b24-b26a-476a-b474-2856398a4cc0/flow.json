@@ -1,0 +1,38 @@
+{
+  "id": "c3180b24-b26a-476a-b474-2856398a4cc0",
+  "name": "Finding foods with AI",
+  "actions": [
+    "Searching & Finding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/c3180b24-b26a-476a-b474-2856398a4cc0",
+  "app_name": "MacroFactor",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "973de2e0-5394-4e12-86be-b715985c4d6d",
+      "image_url": "https://mobbin.com/api/mcp/short/PNL8IqYU",
+      "position": 1
+    },
+    {
+      "screen_id": "08198645-19c9-45fe-967e-6066dc5846a8",
+      "image_url": "https://mobbin.com/api/mcp/short/MqDuj0C5",
+      "position": 2
+    },
+    {
+      "screen_id": "d817fca7-cec4-4582-a3f1-c17a7c2a7e57",
+      "image_url": "https://mobbin.com/api/mcp/short/OWHmuT1z",
+      "position": 3
+    },
+    {
+      "screen_id": "c78d88da-4aa5-4e8d-aa55-fea6003986a3",
+      "image_url": "https://mobbin.com/api/mcp/short/OuQT5YMH",
+      "position": 4
+    },
+    {
+      "screen_id": "81878b4e-abad-4828-928d-70c199b8b324",
+      "image_url": "https://mobbin.com/api/mcp/short/1cD8lUsk",
+      "position": 5
+    }
+  ]
+}

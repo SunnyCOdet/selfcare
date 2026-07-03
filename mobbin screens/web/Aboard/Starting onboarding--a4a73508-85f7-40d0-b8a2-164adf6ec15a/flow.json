@@ -1,0 +1,33 @@
+{
+  "id": "a4a73508-85f7-40d0-b8a2-164adf6ec15a",
+  "name": "Starting onboarding",
+  "actions": [
+    "Starting & Completing"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/a4a73508-85f7-40d0-b8a2-164adf6ec15a",
+  "app_name": "Aboard",
+  "platform": "web",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "5963e6a2-d37b-45d5-9f6e-10b71aa04743",
+      "image_url": "https://mobbin.com/api/mcp/short/6NN03oTz",
+      "position": 1
+    },
+    {
+      "screen_id": "2b4c370b-5a11-4b07-80f6-063af6e19db4",
+      "image_url": "https://mobbin.com/api/mcp/short/IClDPrtI",
+      "position": 2
+    },
+    {
+      "screen_id": "e00cfe10-0c1f-46ae-99b4-b2c8cc7ce1e7",
+      "image_url": "https://mobbin.com/api/mcp/short/cjNJZWUU",
+      "position": 3
+    },
+    {
+      "screen_id": "9ad2cb82-a891-4aa4-b226-f0b0fe8ed600",
+      "image_url": "https://mobbin.com/api/mcp/short/HWDUcTu4",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "82527e5e-bbf2-4756-9913-0b73b5333d26",
+  "name": "Joining Twist channels",
+  "actions": [
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/82527e5e-bbf2-4756-9913-0b73b5333d26",
+  "app_name": "Twist",
+  "platform": "web",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "2a7619b4-b368-4cc0-937f-24fde0c5ad58",
+      "image_url": "https://mobbin.com/api/mcp/short/O9KBldiw",
+      "position": 1
+    },
+    {
+      "screen_id": "c07383b7-80f9-4f52-a81e-6ae68f997f70",
+      "image_url": "https://mobbin.com/api/mcp/short/I6fLPUpy",
+      "position": 2
+    },
+    {
+      "screen_id": "cbd7fc2c-171a-479e-9cef-e321cfc5b227",
+      "image_url": "https://mobbin.com/api/mcp/short/IFWoNjkg",
+      "position": 3
+    },
+    {
+      "screen_id": "795461f3-e979-425b-ae84-6107c16fce4a",
+      "image_url": "https://mobbin.com/api/mcp/short/r1vdx8Cb",
+      "position": 4
+    },
+    {
+      "screen_id": "7d8a7fdf-5f62-4554-9a87-182c119352ba",
+      "image_url": "https://mobbin.com/api/mcp/short/8yiXJBbG",
+      "position": 5
+    },
+    {
+      "screen_id": "abb25dee-6132-4674-8808-9695d6b411ab",
+      "image_url": "https://mobbin.com/api/mcp/short/fvgoJ6EJ",
+      "position": 6
+    },
+    {
+      "screen_id": "2961167e-6c44-4495-9deb-303f121c3597",
+      "image_url": "https://mobbin.com/api/mcp/short/VojXJRkz",
+      "position": 7
+    }
+  ]
+}

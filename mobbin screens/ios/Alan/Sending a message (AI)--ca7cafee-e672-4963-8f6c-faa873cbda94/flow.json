@@ -1,0 +1,28 @@
+{
+  "id": "ca7cafee-e672-4963-8f6c-faa873cbda94",
+  "name": "Sending a message (AI)",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ca7cafee-e672-4963-8f6c-faa873cbda94",
+  "app_name": "Alan",
+  "platform": "ios",
+  "screen_count": 3,
+  "screens": [
+    {
+      "screen_id": "bb35ae60-cfb8-4bf4-b323-4b08aaf8e57d",
+      "image_url": "https://mobbin.com/api/mcp/short/BsB18bMv",
+      "position": 1
+    },
+    {
+      "screen_id": "41ba1463-656e-4ee6-9382-4b727de0183f",
+      "image_url": "https://mobbin.com/api/mcp/short/F4ePVxtq",
+      "position": 2
+    },
+    {
+      "screen_id": "0d47e480-53c1-4369-891b-2d6766562c51",
+      "image_url": "https://mobbin.com/api/mcp/short/2X3TyVyi",
+      "position": 3
+    }
+  ]
+}

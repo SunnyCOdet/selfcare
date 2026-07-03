@@ -1,0 +1,46 @@
+{
+  "id": "d530acce-2b26-4a6f-b5a6-bd428254f674",
+  "name": "Today",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/d530acce-2b26-4a6f-b5a6-bd428254f674",
+  "app_name": "Mindvalley",
+  "platform": "ios",
+  "screen_count": 7,
+  "screens": [
+    {
+      "screen_id": "227803c0-028d-4acc-91d1-1d34bb9d55fb",
+      "image_url": "https://mobbin.com/api/mcp/short/0zCaHsfa",
+      "position": 1
+    },
+    {
+      "screen_id": "f0dc13f3-a3a8-4f2d-bbd4-ddbf9d9ea754",
+      "image_url": "https://mobbin.com/api/mcp/short/LY2SOGK5",
+      "position": 2
+    },
+    {
+      "screen_id": "99d99eb6-56cd-496b-968e-1980fad0a091",
+      "image_url": "https://mobbin.com/api/mcp/short/CJPvJuM6",
+      "position": 3
+    },
+    {
+      "screen_id": "8518f4b2-f52c-4bf5-8df9-48b3179ff9bb",
+      "image_url": "https://mobbin.com/api/mcp/short/9V4byhiL",
+      "position": 4
+    },
+    {
+      "screen_id": "3b721901-d980-4a0b-837d-97d107b45749",
+      "image_url": "https://mobbin.com/api/mcp/short/nYczSw1P",
+      "position": 5
+    },
+    {
+      "screen_id": "f6e4fb3a-6abb-4056-a774-12ad33c69357",
+      "image_url": "https://mobbin.com/api/mcp/short/uU4DsMfD",
+      "position": 6
+    },
+    {
+      "screen_id": "1945ac87-c61b-4ec3-9971-494d0b1b0b98",
+      "image_url": "https://mobbin.com/api/mcp/short/BDXBOgzs",
+      "position": 7
+    }
+  ]
+}

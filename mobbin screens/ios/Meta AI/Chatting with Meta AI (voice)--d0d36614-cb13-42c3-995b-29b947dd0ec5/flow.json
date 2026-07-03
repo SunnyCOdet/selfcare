@@ -1,0 +1,39 @@
+{
+  "id": "d0d36614-cb13-42c3-995b-29b947dd0ec5",
+  "name": "Chatting with Meta AI (voice)",
+  "actions": [
+    "Chatting & Sending Messages",
+    "Recording Audio & Video"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/d0d36614-cb13-42c3-995b-29b947dd0ec5",
+  "app_name": "Meta AI",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "66d46b60-2981-4ef0-94d8-47b666468e04",
+      "image_url": "https://mobbin.com/api/mcp/short/GJlJBnAP",
+      "position": 1
+    },
+    {
+      "screen_id": "eb1bfa2a-c62a-4ed3-a9f6-b826b56a93d8",
+      "image_url": "https://mobbin.com/api/mcp/short/S80r6fG8",
+      "position": 2
+    },
+    {
+      "screen_id": "fca8709b-7a3a-4ce9-995d-3bd6677c5dd4",
+      "image_url": "https://mobbin.com/api/mcp/short/FFjKg9bo",
+      "position": 3
+    },
+    {
+      "screen_id": "a13d716b-b9dc-4775-9934-b5c881b221a3",
+      "image_url": "https://mobbin.com/api/mcp/short/RE6vPtkV",
+      "position": 4
+    },
+    {
+      "screen_id": "74ff3d32-f5fd-4a4a-b631-3b6075030cd2",
+      "image_url": "https://mobbin.com/api/mcp/short/nePUV2Z9",
+      "position": 5
+    }
+  ]
+}

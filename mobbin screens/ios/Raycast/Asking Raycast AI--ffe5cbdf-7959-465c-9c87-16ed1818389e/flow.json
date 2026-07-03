@@ -1,0 +1,58 @@
+{
+  "id": "ffe5cbdf-7959-465c-9c87-16ed1818389e",
+  "name": "Asking Raycast AI",
+  "actions": [
+    "Chatting & Sending Messages"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/ffe5cbdf-7959-465c-9c87-16ed1818389e",
+  "app_name": "Raycast",
+  "platform": "ios",
+  "screen_count": 9,
+  "screens": [
+    {
+      "screen_id": "0d4b905a-3ac7-47ea-b565-b0f29b71b3b9",
+      "image_url": "https://mobbin.com/api/mcp/short/WIOZmmsK",
+      "position": 1
+    },
+    {
+      "screen_id": "c0a83b93-c87a-4386-8ff1-cde48414d71e",
+      "image_url": "https://mobbin.com/api/mcp/short/0Bl5bdhP",
+      "position": 2
+    },
+    {
+      "screen_id": "b582277a-67ef-46b8-bbfe-5048e2d4eef5",
+      "image_url": "https://mobbin.com/api/mcp/short/Wp6ZiQJr",
+      "position": 3
+    },
+    {
+      "screen_id": "2693cd75-7338-4e12-bed9-bf7d8d85ccc9",
+      "image_url": "https://mobbin.com/api/mcp/short/wR3s1BRn",
+      "position": 4
+    },
+    {
+      "screen_id": "5627aaa6-3240-477a-8c8d-8a3c0881824c",
+      "image_url": "https://mobbin.com/api/mcp/short/BgeyrQ4w",
+      "position": 5
+    },
+    {
+      "screen_id": "48b8a26f-7d63-40f2-8dc4-7a15edc900af",
+      "image_url": "https://mobbin.com/api/mcp/short/JArx2h7n",
+      "position": 6
+    },
+    {
+      "screen_id": "9bcaddc4-005e-4a60-ae12-40ccc13db6b9",
+      "image_url": "https://mobbin.com/api/mcp/short/qWHnb05I",
+      "position": 7
+    },
+    {
+      "screen_id": "3734e28c-fa18-4d20-9a7d-ae3bbbd7c7f1",
+      "image_url": "https://mobbin.com/api/mcp/short/CaVwk8CT",
+      "position": 8
+    },
+    {
+      "screen_id": "d20e2256-89a8-40c8-b42e-a80135ae1740",
+      "image_url": "https://mobbin.com/api/mcp/short/8pDDY6Gx",
+      "position": 9
+    }
+  ]
+}

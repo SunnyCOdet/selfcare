@@ -1,0 +1,53 @@
+{
+  "id": "522bd8ea-0fbb-459d-a85e-826cb631fe83",
+  "name": "Updating health profile",
+  "actions": [
+    "Editing Profile"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/522bd8ea-0fbb-459d-a85e-826cb631fe83",
+  "app_name": "Julienne",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "cbbee3dd-b123-40de-9ee0-1a547dd437e2",
+      "image_url": "https://mobbin.com/api/mcp/short/0dR7mWr9",
+      "position": 1
+    },
+    {
+      "screen_id": "48b235e2-dfdd-4d57-85c1-326d7e156aee",
+      "image_url": "https://mobbin.com/api/mcp/short/NO3LmWIg",
+      "position": 2
+    },
+    {
+      "screen_id": "3bf35ad0-da74-4cf8-9aa0-6fe7d68c40ee",
+      "image_url": "https://mobbin.com/api/mcp/short/A6ShhYL9",
+      "position": 3
+    },
+    {
+      "screen_id": "a03af262-f37c-4802-8d1e-d83d0efd52fa",
+      "image_url": "https://mobbin.com/api/mcp/short/4pR5OEML",
+      "position": 4
+    },
+    {
+      "screen_id": "7a4e6cef-b9cf-4327-8620-e95a176663dc",
+      "image_url": "https://mobbin.com/api/mcp/short/iVSpRqNi",
+      "position": 5
+    },
+    {
+      "screen_id": "2cc09336-e738-4336-9d68-1df641ac0b74",
+      "image_url": "https://mobbin.com/api/mcp/short/PUsjQAiT",
+      "position": 6
+    },
+    {
+      "screen_id": "1735f163-60a7-4388-a69b-a5ad381ff830",
+      "image_url": "https://mobbin.com/api/mcp/short/Ihj4hzKU",
+      "position": 7
+    },
+    {
+      "screen_id": "ae93a680-f722-464a-85c5-384d7829b9c3",
+      "image_url": "https://mobbin.com/api/mcp/short/vtVaFiOe",
+      "position": 8
+    }
+  ]
+}

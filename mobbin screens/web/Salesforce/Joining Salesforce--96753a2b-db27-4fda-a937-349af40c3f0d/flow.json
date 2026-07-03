@@ -1,0 +1,54 @@
+{
+  "id": "96753a2b-db27-4fda-a937-349af40c3f0d",
+  "name": "Joining Salesforce",
+  "actions": [
+    "Creating Account",
+    "Joining & Accepting"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/96753a2b-db27-4fda-a937-349af40c3f0d",
+  "app_name": "Salesforce",
+  "platform": "web",
+  "screen_count": 8,
+  "screens": [
+    {
+      "screen_id": "3654288f-3533-42c2-8255-cb3d0b2b4c70",
+      "image_url": "https://mobbin.com/api/mcp/short/EINcy9kD",
+      "position": 1
+    },
+    {
+      "screen_id": "7392c535-4937-42b0-b6aa-608913bf8b24",
+      "image_url": "https://mobbin.com/api/mcp/short/XZpJmfJ4",
+      "position": 2
+    },
+    {
+      "screen_id": "a7e483a0-6f78-457b-b7b0-825b070d27bc",
+      "image_url": "https://mobbin.com/api/mcp/short/JYIKxKVD",
+      "position": 3
+    },
+    {
+      "screen_id": "2719718f-2fc0-413b-8771-09487c5057e9",
+      "image_url": "https://mobbin.com/api/mcp/short/aGYfAoAF",
+      "position": 4
+    },
+    {
+      "screen_id": "db1bd156-7b0d-4062-9515-73373b43408b",
+      "image_url": "https://mobbin.com/api/mcp/short/vZYzygd1",
+      "position": 5
+    },
+    {
+      "screen_id": "dd6dd35c-77fe-4425-8132-ca880ddde9eb",
+      "image_url": "https://mobbin.com/api/mcp/short/iFuEW4Ug",
+      "position": 6
+    },
+    {
+      "screen_id": "715b659e-5f14-4e71-8063-04172f5dd778",
+      "image_url": "https://mobbin.com/api/mcp/short/ZYryW0BJ",
+      "position": 7
+    },
+    {
+      "screen_id": "fd2dd6db-d0ce-4908-b65a-3190f3b65643",
+      "image_url": "https://mobbin.com/api/mcp/short/aHWY00Ut",
+      "position": 8
+    }
+  ]
+}

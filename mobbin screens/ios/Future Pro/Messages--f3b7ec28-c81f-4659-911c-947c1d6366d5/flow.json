@@ -1,0 +1,31 @@
+{
+  "id": "f3b7ec28-c81f-4659-911c-947c1d6366d5",
+  "name": "Messages",
+  "actions": [],
+  "mobbin_url": "https://mobbin.com/flows/f3b7ec28-c81f-4659-911c-947c1d6366d5",
+  "app_name": "Future Pro",
+  "platform": "ios",
+  "screen_count": 4,
+  "screens": [
+    {
+      "screen_id": "d2b5d75c-9a3e-4e3c-9969-b18bfd456200",
+      "image_url": "https://mobbin.com/api/mcp/short/hXsrfDvU",
+      "position": 1
+    },
+    {
+      "screen_id": "e71f9be5-9bef-4e28-b358-f64059ee7f24",
+      "image_url": "https://mobbin.com/api/mcp/short/cOYTK4CN",
+      "position": 2
+    },
+    {
+      "screen_id": "a276a6cd-e2a2-4577-8d3a-50f36407b24c",
+      "image_url": "https://mobbin.com/api/mcp/short/8qeYMBgf",
+      "position": 3
+    },
+    {
+      "screen_id": "37652d20-9f5a-4232-8a9a-fad4d08d22b6",
+      "image_url": "https://mobbin.com/api/mcp/short/1AgSNeut",
+      "position": 4
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "f96a399d-d7d9-4c68-a3e0-a27edd49b97d",
+  "name": "Onboarding",
+  "actions": [
+    "Onboarding"
+  ],
+  "mobbin_url": "https://mobbin.com/flows/f96a399d-d7d9-4c68-a3e0-a27edd49b97d",
+  "app_name": "Microsoft Copilot",
+  "platform": "ios",
+  "screen_count": 5,
+  "screens": [
+    {
+      "screen_id": "30c12257-4b75-45c0-ac5e-5019cc5d102a",
+      "image_url": "https://mobbin.com/api/mcp/short/9FA6sIsx",
+      "position": 1
+    },
+    {
+      "screen_id": "54305d26-7a9b-4ccb-99cb-cfb669b80453",
+      "image_url": "https://mobbin.com/api/mcp/short/U8huItjV",
+      "position": 2
+    },
+    {
+      "screen_id": "92a6425c-3a61-417e-8c21-ce7691a373ab",
+      "image_url": "https://mobbin.com/api/mcp/short/wrVF1k5z",
+      "position": 3
+    },
+    {
+      "screen_id": "3a1e7328-001e-4611-8aab-0afbdaa5f9ba",
+      "image_url": "https://mobbin.com/api/mcp/short/hVISAIXM",
+      "position": 4
+    },
+    {
+      "screen_id": "f58d46af-7503-4903-9a41-3cb6ec416da9",
+      "image_url": "https://mobbin.com/api/mcp/short/5gZIjoY3",
+      "position": 5
+    }
+  ]
+}
