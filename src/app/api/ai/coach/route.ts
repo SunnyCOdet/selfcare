@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
-import { generateJSON, aiConfigured } from "@/lib/ai/provider";
+import { generateJSON, streamJSON, parseModelJson, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
+
+export const maxDuration = 300;
 import { PLAN_UPDATER_SYSTEM, isValidPlan, savePlanVersion } from "@/lib/ai/plan";
 import { paypalConfigured, paypalTransactions, incomingPayments } from "@/lib/paypal";
 import { todayStr } from "@/lib/dates";
@@ -158,7 +160,17 @@ export async function POST(req: Request) {
     return NextResponse.json({ error: "Empty message" }, { status: 400 });
   }
 
-  try {
+  const wantStream = body.stream === true;
+
+  // Core flow, usable in JSON mode (emit=null) and SSE mode (emit sends
+  // {t:"d"} text deltas and {t:"s"} status lines as work happens).
+  const runCoach = async (emit: ((e: Record<string, unknown>) => void) | null) => {
+    let reply = "";
+    const push = (s: string) => {
+      push(s);
+      emit?.({ t: "d", d: s });
+    };
+
     // Validate the conversation belongs to this user (RLS would also catch it)
     if (conversationId) {
       const { data: conv } = await supabase
@@ -206,12 +218,17 @@ ${instruction ? `SPECIAL INSTRUCTION:\n${instruction}\n` : ""}${
 
 Reply as Jarvis now.`;
 
-    const result = await generateJSON<{
-      reply: string;
-      conversation_title?: string;
-      action?: CoachAction;
-    }>(PERSONA, userPrompt);
-    let reply = result.reply;
+    type CoachResult = { reply: string; conversation_title?: string; action?: CoachAction };
+    let result: CoachResult;
+    if (emit) {
+      // True token streaming: reply text deltas flow to the client as the
+      // model writes them; the full JSON is parsed after for actions.
+      const raw = await streamJSON(PERSONA, userPrompt, (d) => emit({ t: "d", d }));
+      result = parseModelJson<CoachResult>(raw);
+    } else {
+      result = await generateJSON<CoachResult>(PERSONA, userPrompt);
+    }
+    reply = result.reply;
     const action = result.action ?? null;
 
     let planUpdated = false;
@@ -246,15 +263,16 @@ ${action.instructions}
 
 Return the full updated JSON plan now.`;
 
+        emit?.({ t: "s", s: "Rebuilding your plan…" });
         const newPlan = await generateJSON<TransformationPlan>(UPDATER_SYSTEM, updaterPrompt);
         if (!isValidPlan(newPlan)) throw new Error("rewriter returned incomplete plan");
 
         planVersion = await savePlanVersion(supabase, user.id, newPlan);
         planUpdated = true;
-        reply += `\n\n✅ Plan updated — now on v${planVersion}. Check the Plan tab.`;
+        push(`\n\n✅ Plan updated — now on v${planVersion}. Check the Plan tab.`);
       } catch (e) {
         console.error("plan update failed:", e);
-        reply += `\n\n⚠️ I couldn't apply the plan update (${e instanceof Error ? e.message : "error"}). Try asking again.`;
+        push(`\n\n⚠️ I couldn't apply the plan update (${e instanceof Error ? e.message : "error"}). Try asking again.`);
       }
     } else if (action?.type === "switch_theme") {
       const preset = PRESET_THEMES[(action.theme ?? "").toLowerCase()];
@@ -265,10 +283,10 @@ Return the full updated JSON plan now.`;
           .eq("id", user.id);
         if (!themeErr) {
           themeUpdated = true;
-          reply += `\n\n🎨 "${preset.name}" template applied.`;
+          push(`\n\n🎨 "${preset.name}" template applied.`);
         }
       } else {
-        reply += `\n\n⚠️ I don't have a "${action.theme}" preset — ask me to create it as a custom template.`;
+        push(`\n\n⚠️ I don't have a "${action.theme}" preset — ask me to create it as a custom template.`);
       }
     } else if (action?.type === "create_theme") {
       const vars = sanitizeThemeVars(action.vars);
@@ -280,10 +298,10 @@ Return the full updated JSON plan now.`;
           .eq("id", user.id);
         if (!themeErr) {
           themeUpdated = true;
-          reply += `\n\n🎨 Custom "${name}" template created and applied.`;
+          push(`\n\n🎨 Custom "${name}" template created and applied.`);
         }
       } else {
-        reply += `\n\n⚠️ The template I designed didn't pass validation — ask me to try again.`;
+        push(`\n\n⚠️ The template I designed didn't pass validation — ask me to try again.`);
       }
     } else if (action?.type === "create_goal" && action.goal?.title) {
       try {
@@ -310,10 +328,10 @@ Return the full updated JSON plan now.`;
         });
         if (goalErr) throw new Error(goalErr.message);
         goalUpdated = true;
-        reply += `\n\n🎯 Goal locked in with ${milestones.length} milestones.`;
+        push(`\n\n🎯 Goal locked in with ${milestones.length} milestones.`);
       } catch (e) {
         console.error("create_goal failed:", e);
-        reply += `\n\n⚠️ I couldn't save the goal — try again.`;
+        push(`\n\n⚠️ I couldn't save the goal — try again.`);
       }
     } else if (action?.type === "update_goal" && action.goal_title) {
       try {
@@ -351,10 +369,10 @@ Return the full updated JSON plan now.`;
           });
         }
         goalUpdated = true;
-        reply += `\n\n🎯 Progress logged on "${goal.title}".`;
+        push(`\n\n🎯 Progress logged on "${goal.title}".`);
       } catch (e) {
         console.error("update_goal failed:", e);
-        reply += `\n\n⚠️ Couldn't log that against a goal (${e instanceof Error ? e.message : "error"}).`;
+        push(`\n\n⚠️ Couldn't log that against a goal (${e instanceof Error ? e.message : "error"}).`);
       }
     } else if (action?.type === "remember" && action.content) {
       const { error: memErr } = await supabase.from("agent_memories").insert({
@@ -402,7 +420,7 @@ Return the full updated JSON plan now.`;
           }
         }
         if (workoutLogged) {
-          reply += `\n\n💪 Logged.${prNames.length ? ` PR on ${prNames.join(", ")}! 🔥` : ""}`;
+          push(`\n\n💪 Logged.${prNames.length ? ` PR on ${prNames.join(", ")}! 🔥` : ""}`);
         }
       } catch (e) {
         console.error("log_workout failed:", e);
@@ -417,7 +435,7 @@ Return the full updated JSON plan now.`;
       });
       if (!tErr) {
         trackerUpdated = true;
-        reply += `\n\n📊 "${action.name.trim()}" is now on your daily checklist.`;
+        push(`\n\n📊 "${action.name.trim()}" is now on your daily checklist.`);
       }
     } else if (action?.type === "schedule_ping" && action.message) {
       const mins = Math.min(10080, Math.max(5, Math.round(Number(action.minutes_from_now) || 60)));
@@ -429,7 +447,7 @@ Return the full updated JSON plan now.`;
       });
       if (!pErr) {
         pingScheduled = true;
-        reply += `\n\n⏰ I'll ping you in ${mins >= 60 ? `${Math.round(mins / 60)}h` : `${mins}min`}.`;
+        push(`\n\n⏰ I'll ping you in ${mins >= 60 ? `${Math.round(mins / 60)}h` : `${mins}min`}.`);
       }
     } else if (action?.type === "revert_plan") {
       try {
@@ -444,15 +462,16 @@ Return the full updated JSON plan now.`;
         if (!prev?.plan) throw new Error("no previous version");
         planVersion = await savePlanVersion(supabase, user.id, prev.plan as TransformationPlan);
         planUpdated = true;
-        reply += `\n\n↩️ Reverted — previous plan restored as v${planVersion}.`;
+        push(`\n\n↩️ Reverted — previous plan restored as v${planVersion}.`);
       } catch (e) {
-        reply += `\n\n⚠️ Couldn't revert (${e instanceof Error ? e.message : "error"}).`;
+        push(`\n\n⚠️ Couldn't revert (${e instanceof Error ? e.message : "error"}).`);
       }
     } else if (action?.type === "web_search" && action.query) {
       if (!process.env.TAVILY_API_KEY) {
-        reply += `\n\n🌐 I can't search the web yet — add a TAVILY_API_KEY (free at tavily.com) and I'll have live search.`;
+        push(`\n\n🌐 I can't search the web yet — add a TAVILY_API_KEY (free at tavily.com) and I'll have live search.`);
       } else {
         try {
+          emit?.({ t: "s", s: "Searching the web…" });
           const sRes = await fetch("https://api.tavily.com/search", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
@@ -477,17 +496,18 @@ Return the full updated JSON plan now.`;
             PERSONA,
             `${userPrompt}\n\nWEB SEARCH RESULTS for "${action.query}":\n${findings}\n\nNow answer the client's question using these results. Cite specifics. action must be null. Reply as Jarvis.`
           );
-          reply = followUp.reply;
+          push("\n\n" + followUp.reply);
         } catch (e) {
           console.error("web_search failed:", e);
-          reply += `\n\n⚠️ Search failed — answering from what I know.`;
+          push(`\n\n⚠️ Search failed — answering from what I know.`);
         }
       }
     } else if (action?.type === "paypal_query") {
       if (!paypalConfigured()) {
-        reply += `\n\n⚠️ PayPal isn't connected on the server yet.`;
+        push(`\n\n⚠️ PayPal isn't connected on the server yet.`);
       } else {
         try {
+          emit?.({ t: "s", s: "Checking PayPal…" });
           const days = Math.min(31, Math.max(1, Number(action.days) || 30));
           const txs = await paypalTransactions(days);
           const summary = txs.slice(0, 80).map((t) => ({
@@ -501,7 +521,7 @@ Return the full updated JSON plan now.`;
             PERSONA,
             `${userPrompt}\n\nLIVE PAYPAL TRANSACTIONS (last ${days} days; status S=success P=pending D=denied V=reversed; positive = money IN, negative = money out. IMPORTANT: rows with NO payer name are PayPal internal currency conversions or balance transfers — they are NOT revenue and NOT fees; ignore them or mention them only as conversions. Only payer-named positive rows are client payments.):\n${JSON.stringify(summary)}\n\nAnswer the client's question using this real data — specific amounts, dates, payers, totals. action must be null. Reply as Jarvis.`
           );
-          reply = followUp.reply;
+          push("\n\n" + followUp.reply);
         } catch (e) {
           const msg = e instanceof Error ? e.message : "PayPal query failed";
           reply += msg.includes("PERMISSION_PENDING")
@@ -511,14 +531,14 @@ Return the full updated JSON plan now.`;
       }
     } else if (action?.type === "paypal_sync") {
       if (!paypalConfigured()) {
-        reply += `\n\n⚠️ PayPal isn't connected on the server yet.`;
+        push(`\n\n⚠️ PayPal isn't connected on the server yet.`);
       } else {
         try {
           const txs = incomingPayments(await paypalTransactions(31));
           const month = todayStr().slice(0, 7);
           const thisMonth = txs.filter((t) => (t.date ?? "").slice(0, 7) === month);
           if (thisMonth.length === 0) {
-            reply += `\n\n📥 PayPal checked — no incoming payments found this month.`;
+            push(`\n\n📥 PayPal checked — no incoming payments found this month.`);
           } else {
             const { data: prof } = await supabase
               .from("profiles")
@@ -595,7 +615,7 @@ Return the full updated JSON plan now.`;
     const { error: insertErr } = await supabase.from("coach_messages").insert(rows);
     if (insertErr) console.error("coach message save failed:", insertErr.message);
 
-    return NextResponse.json({
+    return {
       reply,
       conversation_id: conversationId,
       conversation_title: conversationTitle,
@@ -607,12 +627,43 @@ Return the full updated JSON plan now.`;
       workout_logged: workoutLogged,
       tracker_updated: trackerUpdated,
       ping_scheduled: pingScheduled,
-    });
-  } catch (e) {
-    console.error("coach error:", e);
-    return NextResponse.json(
-      { error: e instanceof Error ? e.message : "Jarvis request failed" },
-      { status: 500 }
-    );
+    };
+  };
+
+  if (!wantStream) {
+    try {
+      return NextResponse.json(await runCoach(null));
+    } catch (e) {
+      console.error("coach error:", e);
+      return NextResponse.json(
+        { error: e instanceof Error ? e.message : "Jarvis request failed" },
+        { status: 500 }
+      );
+    }
   }
+
+  const encoder = new TextEncoder();
+  const stream = new ReadableStream({
+    async start(controller) {
+      const emit = (e: Record<string, unknown>) =>
+        controller.enqueue(encoder.encode(`data: ${JSON.stringify(e)}
+
+`));
+      try {
+        const payload = await runCoach(emit);
+        emit({ t: "done", ...payload });
+      } catch (e) {
+        console.error("coach stream error:", e);
+        emit({ t: "err", m: e instanceof Error ? e.message : "Jarvis request failed" });
+      }
+      controller.close();
+    },
+  });
+  return new Response(stream, {
+    headers: {
+      "Content-Type": "text/event-stream",
+      "Cache-Control": "no-cache, no-transform",
+      Connection: "keep-alive",
+    },
+  });
 }

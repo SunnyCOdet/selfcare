@@ -1,47 +1,21 @@
 "use client";
 
+/**
+ * Lovi-style onboarding (one question per screen, mascot speech bubbles,
+ * big option cards, auto-advance) rebuilt on shadcn/ui — for an all-in-one
+ * life transformation app, not just fitness.
+ */
+
 import { useMemo, useState } from "react";
 import { createClient } from "@/lib/supabase/client";
 import type { Activity } from "@/lib/types";
 import { AiInterview } from "./ai-interview";
-import {
-  ChevronRight,
-  ChevronLeft,
-  Upload,
-  Check,
-  User,
-  Target,
-  Bike,
-  Moon,
-  Camera,
-  MessageSquareText,
-} from "lucide-react";
-
-const STEPS = [
-  { key: "basics", label: "Basics", icon: User },
-  { key: "goal", label: "Goal", icon: Target },
-  { key: "activities", label: "Activities", icon: Bike },
-  { key: "lifestyle", label: "Lifestyle", icon: Moon },
-  { key: "photos", label: "Photos", icon: Camera },
-  { key: "interview", label: "Jarvis", icon: MessageSquareText },
-] as const;
-
-const ACTIVITY_OPTIONS = [
-  "Swimming",
-  "Running",
-  "Cycling",
-  "Boxing",
-  "Yoga",
-  "Dance",
-  "Football",
-  "Basketball",
-  "Badminton",
-  "Trekking",
-  "Skipping",
-  "Martial arts",
-];
-
-const PROFICIENCY = ["Complete beginner", "Know the basics", "Intermediate", "Advanced"];
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Progress } from "@/components/ui/progress";
+import { Label } from "@/components/ui/label";
+import { ChevronLeft, Check, Upload, Sparkles } from "lucide-react";
 
 export type WizardData = {
   full_name: string;
@@ -50,25 +24,150 @@ export type WizardData = {
   height_cm: string;
   weight_kg: string;
   target_weight_kg: string;
+  goal_areas: string[];
   body_goal: string;
   inspiration: string;
   gym_days_per_week: string;
   activities: Activity[];
+  protein_sources: string[];
+  carb_sources: string[];
+  avoid_foods: string[];
+  avoid_foods_note: string;
+  cooking: string;
+  eating_out: string;
+  diet_preference: string;
   wake_time: string;
   sleep_time: string;
-  diet_preference: string;
   occupation_schedule: string;
   skin_type: string;
   skin_concerns: string;
 };
 
-export function OnboardingWizard({
-  userId,
-  initialName,
+const GOAL_AREAS = [
+  { key: "Body & fitness", emoji: "💪", desc: "Physique, strength, 20k steps" },
+  { key: "Income & career", emoji: "💰", desc: "Earn more, build the thing" },
+  { key: "Skills & learning", emoji: "🧠", desc: "Master new abilities" },
+  { key: "Style & grooming", emoji: "✨", desc: "Skin, hair, presence" },
+  { key: "Discipline & mind", emoji: "🧘", desc: "Routine, focus, sleep" },
+];
+
+const ACTIVITIES = ["Swimming", "Running", "Cycling", "Boxing", "Yoga", "Dance", "Football", "Basketball", "Badminton", "Trekking", "Skipping", "Martial arts"];
+const PROFICIENCY = ["Complete beginner", "Know the basics", "Intermediate", "Advanced"];
+
+const PROTEINS = [
+  { key: "Eggs", emoji: "🥚" },
+  { key: "Chicken", emoji: "🍗" },
+  { key: "Fish", emoji: "🐟" },
+  { key: "Paneer", emoji: "🧀" },
+  { key: "Dal & legumes", emoji: "🍲" },
+  { key: "Whey protein", emoji: "🥤" },
+  { key: "Soya / tofu", emoji: "🫘" },
+  { key: "Curd / yogurt", emoji: "🥛" },
+  { key: "Red meat", emoji: "🥩" },
+];
+
+const CARBS = [
+  { key: "Rice", emoji: "🍚" },
+  { key: "Roti / chapati", emoji: "🫓" },
+  { key: "Oats", emoji: "🥣" },
+  { key: "Potato / sweet potato", emoji: "🥔" },
+  { key: "Bread", emoji: "🍞" },
+  { key: "Poha / upma", emoji: "🍛" },
+  { key: "Fruits", emoji: "🍎" },
+  { key: "Millets", emoji: "🌾" },
+  { key: "Pasta / noodles", emoji: "🍝" },
+];
+
+const AVOIDS = ["No beef", "No pork", "No seafood", "No dairy", "No gluten", "Jain food only", "Nothing — I eat everything"];
+
+const COOKING = [
+  { key: "I cook myself", emoji: "👨‍🍳", desc: "Full control of the kitchen" },
+  { key: "Family cooks", emoji: "🍛", desc: "I eat what's made at home" },
+  { key: "Mess / tiffin", emoji: "🍱", desc: "Fixed menu, limited choice" },
+  { key: "Mostly order in", emoji: "🛵", desc: "Swiggy/Zomato life" },
+];
+
+const EATING_OUT = ["Rarely (0–1x/week)", "Sometimes (2–3x/week)", "Often (4–6x/week)", "Almost daily"];
+
+const DIETS = [
+  { key: "Non-veg", emoji: "🍗", desc: "Everything on the table" },
+  { key: "Eggetarian", emoji: "🥚", desc: "Veg + eggs" },
+  { key: "Vegetarian", emoji: "🥦", desc: "No meat, no eggs" },
+  { key: "Vegan", emoji: "🌱", desc: "No animal products" },
+];
+
+const SKIN_TYPES = [
+  { key: "Oily", emoji: "💧", desc: "Shiny by midday" },
+  { key: "Dry", emoji: "🏜️", desc: "Tight, flaky patches" },
+  { key: "Combination", emoji: "🌗", desc: "Oily T-zone, dry cheeks" },
+  { key: "Normal", emoji: "😌", desc: "Rarely complains" },
+  { key: "Not sure", emoji: "🤷", desc: "Jarvis will figure it out" },
+];
+
+/** Jarvis orb — the mascot. */
+function Orb({ size = "md" }: { size?: "md" | "lg" }) {
+  return (
+    <div
+      className={`${size === "lg" ? "w-20 h-20" : "w-11 h-11"} rounded-full bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center shrink-0 shadow-[0_8px_32px_-8px_rgba(139,92,246,0.6)]`}
+    >
+      <Sparkles className={size === "lg" ? "w-9 h-9 text-white" : "w-5 h-5 text-white"} />
+    </div>
+  );
+}
+
+/** Speech-bubble question header (Lovi pattern). */
+function Bubble({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="flex items-start gap-3 mb-6 fade-up">
+      <Orb />
+      <div className="bg-surface-2 border border-white/8 rounded-2xl rounded-tl-md px-4 py-3">
+        <p className="text-lg font-bold leading-snug">{children}</p>
+      </div>
+    </div>
+  );
+}
+
+/** Big option card (Lovi pattern). */
+function OptionCard({
+  emoji,
+  title,
+  desc,
+  selected,
+  onSelect,
 }: {
-  userId: string;
-  initialName: string;
+  emoji: string;
+  title: string;
+  desc?: string;
+  selected: boolean;
+  onSelect: () => void;
 }) {
+  return (
+    <button
+      type="button"
+      onClick={onSelect}
+      className={`w-full flex items-center gap-4 rounded-2xl border px-5 py-4 text-left transition-all active:scale-[0.98] ${
+        selected
+          ? "border-accent/60 bg-accent/10 shadow-[0_0_24px_-8px_rgba(139,92,246,0.5)]"
+          : "border-white/8 bg-surface-2 hover:border-white/20"
+      }`}
+    >
+      <span className="text-2xl">{emoji}</span>
+      <span className="flex-1 min-w-0">
+        <span className="block font-semibold">{title}</span>
+        {desc && <span className="block text-sm text-muted-foreground mt-0.5">{desc}</span>}
+      </span>
+      <span
+        className={`w-6 h-6 rounded-full border-2 flex items-center justify-center shrink-0 transition-all ${
+          selected ? "bg-accent border-accent" : "border-white/20"
+        }`}
+      >
+        {selected && <Check className="w-3.5 h-3.5 text-white" strokeWidth={3.5} />}
+      </span>
+    </button>
+  );
+}
+
+export function OnboardingWizard({ userId, initialName }: { userId: string; initialName: string }) {
   const supabase = useMemo(() => createClient(), []);
   const [step, setStep] = useState(0);
   const [saving, setSaving] = useState(false);
@@ -76,96 +175,110 @@ export function OnboardingWizard({
   const [facePhoto, setFacePhoto] = useState<File | null>(null);
   const [bodyPhoto, setBodyPhoto] = useState<File | null>(null);
 
-  const [data, setData] = useState<WizardData>({
+  const [d, setD] = useState<WizardData>({
     full_name: initialName,
     age: "",
     gender: "",
     height_cm: "",
     weight_kg: "",
     target_weight_kg: "",
+    goal_areas: [],
     body_goal: "",
     inspiration: "",
     gym_days_per_week: "5",
     activities: [],
+    protein_sources: [],
+    carb_sources: [],
+    avoid_foods: [],
+    avoid_foods_note: "",
+    cooking: "",
+    eating_out: "",
+    diet_preference: "",
     wake_time: "06:30",
     sleep_time: "22:30",
-    diet_preference: "",
     occupation_schedule: "",
     skin_type: "",
     skin_concerns: "",
   });
 
   function set<K extends keyof WizardData>(key: K, value: WizardData[K]) {
-    setData((d) => ({ ...d, [key]: value }));
+    setD((prev) => ({ ...prev, [key]: value }));
   }
-
+  function toggle(key: "goal_areas" | "protein_sources" | "carb_sources" | "avoid_foods", value: string) {
+    setD((prev) => {
+      const list = prev[key];
+      const nothing = value.startsWith("Nothing");
+      let next: string[];
+      if (nothing) next = list.includes(value) ? [] : [value];
+      else next = list.includes(value) ? list.filter((x) => x !== value) : [...list.filter((x) => !x.startsWith("Nothing")), value];
+      return { ...prev, [key]: next };
+    });
+  }
   function toggleActivity(name: string) {
-    setData((d) => {
-      const exists = d.activities.find((a) => a.name === name);
+    setD((prev) => {
+      const exists = prev.activities.find((a) => a.name === name);
       return {
-        ...d,
+        ...prev,
         activities: exists
-          ? d.activities.filter((a) => a.name !== name)
-          : [...d.activities, { name, proficiency: "Know the basics" }],
+          ? prev.activities.filter((a) => a.name !== name)
+          : [...prev.activities, { name, proficiency: "Know the basics" }],
       };
     });
   }
 
-  function setProficiency(name: string, proficiency: string) {
-    setData((d) => ({
-      ...d,
-      activities: d.activities.map((a) => (a.name === name ? { ...a, proficiency } : a)),
-    }));
-  }
-
-  const canNext = (() => {
-    if (step === 0) return data.full_name && data.age && data.height_cm && data.weight_kg && data.gender;
-    if (step === 1) return data.body_goal.length > 3;
-    return true;
-  })();
+  const TOTAL = 17;
+  const next = () => setStep((s) => Math.min(TOTAL - 1, s + 1));
+  const back = () => setStep((s) => Math.max(0, s - 1));
+  const pick = <K extends keyof WizardData>(key: K, value: WizardData[K]) => {
+    set(key, value);
+    setTimeout(next, 250);
+  };
 
   async function uploadPhoto(file: File, type: "face" | "front") {
     const ext = file.name.split(".").pop() || "jpg";
     const path = `${userId}/${Date.now()}-${type}.${ext}`;
     const { error: upErr } = await supabase.storage.from("photos").upload(path, file);
     if (upErr) throw new Error(`Photo upload failed: ${upErr.message}`);
-    await supabase.from("progress_photos").insert({
-      user_id: userId,
-      storage_path: path,
-      photo_type: type,
-    });
+    await supabase.from("progress_photos").insert({ user_id: userId, storage_path: path, photo_type: type });
   }
 
-  async function saveProfileAndContinue() {
+  async function saveAndContinue() {
     setSaving(true);
     setError(null);
     try {
       if (facePhoto) await uploadPhoto(facePhoto, "face");
       if (bodyPhoto) await uploadPhoto(bodyPhoto, "front");
-
       const { error: dbErr } = await supabase
         .from("profiles")
         .update({
-          full_name: data.full_name,
-          age: parseInt(data.age) || null,
-          gender: data.gender || null,
-          height_cm: parseFloat(data.height_cm) || null,
-          weight_kg: parseFloat(data.weight_kg) || null,
-          target_weight_kg: parseFloat(data.target_weight_kg) || null,
-          body_goal: data.body_goal || null,
-          inspiration: data.inspiration || null,
-          gym_days_per_week: parseInt(data.gym_days_per_week) || null,
-          activities: data.activities,
-          wake_time: data.wake_time || null,
-          sleep_time: data.sleep_time || null,
-          diet_preference: data.diet_preference || null,
-          occupation_schedule: data.occupation_schedule || null,
-          skin_type: data.skin_type || null,
-          skin_concerns: data.skin_concerns || null,
+          full_name: d.full_name,
+          age: parseInt(d.age) || null,
+          gender: d.gender || null,
+          height_cm: parseFloat(d.height_cm) || null,
+          weight_kg: parseFloat(d.weight_kg) || null,
+          target_weight_kg: parseFloat(d.target_weight_kg) || null,
+          body_goal: d.body_goal || null,
+          inspiration: d.inspiration || null,
+          gym_days_per_week: parseInt(d.gym_days_per_week) || null,
+          activities: d.activities,
+          diet_preference: d.diet_preference || null,
+          wake_time: d.wake_time || null,
+          sleep_time: d.sleep_time || null,
+          occupation_schedule: d.occupation_schedule || null,
+          skin_type: d.skin_type || null,
+          skin_concerns: d.skin_concerns || null,
+          extra: {
+            goal_areas: d.goal_areas,
+            protein_sources: d.protein_sources,
+            carb_sources: d.carb_sources,
+            avoid_foods: [...d.avoid_foods, d.avoid_foods_note].filter(Boolean),
+            cooking: d.cooking,
+            eating_out: d.eating_out,
+          },
         })
         .eq("id", userId);
       if (dbErr) throw new Error(dbErr.message);
-      setStep(5);
+      next(); // -> interview
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
@@ -173,293 +286,398 @@ export function OnboardingWizard({
     }
   }
 
+  const canNext = (() => {
+    switch (step) {
+      case 1: return d.full_name.trim().length > 0;
+      case 2: return !!(d.age && d.height_cm && d.weight_kg && d.gender);
+      case 3: return d.goal_areas.length > 0;
+      case 4: return d.body_goal.trim().length > 3;
+      case 7: return d.protein_sources.length > 0;
+      case 8: return d.carb_sources.length > 0;
+      default: return true;
+    }
+  })();
+
   return (
-    <div className="w-full max-w-2xl">
-      {/* Mobile: Tonal-style thin progress bar */}
-      <div className="md:hidden mb-8">
-        <div className="flex items-center justify-between mb-2 px-0.5">
-          <span className="text-[11px] font-semibold uppercase tracking-widest text-muted">
-            {STEPS[step].label}
-          </span>
-          <span className="text-[11px] text-muted/60">
-            {step + 1} / {STEPS.length}
-          </span>
+    <div className="w-full max-w-xl mx-auto flex flex-col min-h-[calc(100dvh-5rem)]">
+      {/* Top bar: back + progress (Lovi) */}
+      {step > 0 && step < TOTAL - 1 && (
+        <div className="flex items-center gap-3 mb-8">
+          <Button variant="ghost" size="icon-sm" onClick={back} aria-label="Back">
+            <ChevronLeft className="size-5" />
+          </Button>
+          <Progress value={(step / (TOTAL - 1)) * 100} className="flex-1" />
+          <span className="text-xs text-muted-foreground tabular-nums">{step}/{TOTAL - 1}</span>
         </div>
-        <div className="h-1 rounded-full bg-white/10 overflow-hidden">
-          <div
-            className="h-full rounded-full bg-foreground transition-all duration-500"
-            style={{ width: `${((step + 1) / STEPS.length) * 100}%` }}
-          />
-        </div>
-      </div>
+      )}
 
-      {/* Desktop: icon stepper */}
-      <div className="hidden md:flex items-center justify-between mb-10 px-2">
-        {STEPS.map((s, i) => (
-          <div key={s.key} className="flex flex-col items-center gap-1.5 flex-1">
-            <div
-              className={`w-9 h-9 rounded-full flex items-center justify-center border transition-all ${
-                i < step
-                  ? "bg-accent/20 border-accent/60 text-accent"
-                  : i === step
-                    ? "bg-accent border-accent text-white shadow-[0_0_20px_-4px_rgba(139,92,246,0.7)]"
-                    : "border-white/10 text-muted/50"
-              }`}
-            >
-              {i < step ? <Check className="w-4 h-4" /> : <s.icon className="w-4 h-4" />}
-            </div>
-            <span className={`text-[10px] uppercase tracking-wide ${i === step ? "text-foreground" : "text-muted/50"}`}>
-              {s.label}
-            </span>
-          </div>
-        ))}
-      </div>
-
-      <div className="glass p-5 md:p-8 fade-up" key={step}>
+      <div className="flex-1 fade-up" key={step}>
         {step === 0 && (
-          <div className="space-y-5">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Let&apos;s get the basics</h2>
-              <p className="text-muted text-sm">Your coach needs your starting point.</p>
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">Your name</label>
-              <input className="input-field" value={data.full_name} onChange={(e) => set("full_name", e.target.value)} placeholder="Sunny" />
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Age</label>
-                <input className="input-field" type="number" value={data.age} onChange={(e) => set("age", e.target.value)} placeholder="22" />
-              </div>
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Gender</label>
-                <div className="flex gap-2">
-                  {["Male", "Female", "Other"].map((g) => (
-                    <button key={g} type="button" onClick={() => set("gender", g)} className={`chip ${data.gender === g ? "chip-active" : ""}`}>
-                      {g}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-            <div className="grid grid-cols-3 gap-4">
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Height (cm)</label>
-                <input className="input-field" type="number" value={data.height_cm} onChange={(e) => set("height_cm", e.target.value)} placeholder="175" />
-              </div>
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Weight (kg)</label>
-                <input className="input-field" type="number" value={data.weight_kg} onChange={(e) => set("weight_kg", e.target.value)} placeholder="72" />
-              </div>
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Target (kg)</label>
-                <input className="input-field" type="number" value={data.target_weight_kg} onChange={(e) => set("target_weight_kg", e.target.value)} placeholder="78" />
-              </div>
-            </div>
+          <div className="flex flex-col items-center justify-center text-center h-full min-h-[60vh]">
+            <Orb size="lg" />
+            <h1 className="text-3xl font-extrabold tracking-tight mt-8">
+              Hi, I&apos;m <span className="gradient-text">Jarvis</span>.
+            </h1>
+            <p className="text-muted-foreground mt-3 max-w-sm">
+              Body, money, skills, discipline — one plan, engineered around your real life. A few questions and I&apos;ll build yours.
+            </p>
+            <Button size="lg" className="mt-10 w-full max-w-xs" onClick={next}>
+              Let&apos;s go
+            </Button>
+            <p className="text-[11px] text-muted-foreground/60 mt-6 max-w-xs">
+              Personalized plans beat generic ones on adherence — that&apos;s the whole game.
+            </p>
           </div>
         )}
 
         {step === 1 && (
-          <div className="space-y-5">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Your dream physique</h2>
-              <p className="text-muted text-sm">
-                Doesn&apos;t matter where you start — overweight, underweight, skinny-fat. Describe where you&apos;re going.
-              </p>
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">Describe the body & face you want</label>
-              <textarea
-                className="input-field min-h-28 resize-y"
-                value={data.body_goal}
-                onChange={(e) => set("body_goal", e.target.value)}
-                placeholder="Lean, sharp jawline, visible abs, broad shoulders — model-ready for a portfolio shoot..."
-              />
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">
-                Who inspires you? (actor, athlete, model — anyone)
-              </label>
-              <input
-                className="input-field"
-                value={data.inspiration}
-                onChange={(e) => set("inspiration", e.target.value)}
-                placeholder="Hrithik Roshan"
-              />
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">Gym days per week</label>
-              <div className="flex gap-2 flex-wrap">
-                {["3", "4", "5", "6"].map((n) => (
-                  <button key={n} type="button" onClick={() => set("gym_days_per_week", n)} className={`chip ${data.gym_days_per_week === n ? "chip-active" : ""}`}>
-                    {n} days
-                  </button>
-                ))}
-              </div>
-            </div>
-          </div>
+          <>
+            <Bubble>What should I call you?</Bubble>
+            <Input
+              autoFocus
+              value={d.full_name}
+              onChange={(e) => set("full_name", e.target.value)}
+              placeholder="Your name"
+              onKeyDown={(e) => e.key === "Enter" && canNext && next()}
+            />
+          </>
         )}
 
         {step === 2 && (
-          <div className="space-y-5">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">What do you enjoy?</h2>
-              <p className="text-muted text-sm">
-                Pick activities you love (or want to learn). Your plan will include them — consistency is easier when it&apos;s fun.
-              </p>
-            </div>
-            <div className="flex flex-wrap gap-2">
-              {ACTIVITY_OPTIONS.map((a) => (
-                <button
-                  key={a}
-                  type="button"
-                  onClick={() => toggleActivity(a)}
-                  className={`chip ${data.activities.find((x) => x.name === a) ? "chip-active" : ""}`}
-                >
-                  {a}
-                </button>
-              ))}
-            </div>
-            {data.activities.length > 0 && (
-              <div className="space-y-3 pt-2">
-                <p className="text-sm text-muted">How good are you at each?</p>
-                {data.activities.map((a) => (
-                  <div key={a.name} className="flex items-center justify-between gap-3 bg-surface-2 rounded-xl px-4 py-3">
-                    <span className="font-medium text-sm">{a.name}</span>
-                    <select
-                      className="input-field !w-auto !py-1.5 text-sm"
-                      value={a.proficiency}
-                      onChange={(e) => setProficiency(a.name, e.target.value)}
-                    >
-                      {PROFICIENCY.map((p) => (
-                        <option key={p} value={p}>
-                          {p}
-                        </option>
-                      ))}
-                    </select>
+          <>
+            <Bubble>The numbers I&apos;m working with{d.full_name ? `, ${d.full_name.split(" ")[0]}` : ""}?</Bubble>
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-3">
+                <div className="space-y-1.5">
+                  <Label>Age</Label>
+                  <Input type="number" value={d.age} onChange={(e) => set("age", e.target.value)} placeholder="22" />
+                </div>
+                <div className="space-y-1.5">
+                  <Label>Gender</Label>
+                  <div className="flex gap-2">
+                    {["Male", "Female", "Other"].map((g) => (
+                      <button
+                        key={g}
+                        type="button"
+                        onClick={() => set("gender", g)}
+                        className={`flex-1 h-12 rounded-xl border text-sm font-medium transition-all active:scale-95 ${
+                          d.gender === g ? "border-accent/60 bg-accent/10 text-accent" : "border-white/10 bg-surface-2 text-muted-foreground"
+                        }`}
+                      >
+                        {g}
+                      </button>
+                    ))}
                   </div>
-                ))}
+                </div>
               </div>
-            )}
-          </div>
+              <div className="grid grid-cols-3 gap-3">
+                <div className="space-y-1.5">
+                  <Label>Height cm</Label>
+                  <Input type="number" value={d.height_cm} onChange={(e) => set("height_cm", e.target.value)} placeholder="175" />
+                </div>
+                <div className="space-y-1.5">
+                  <Label>Weight kg</Label>
+                  <Input type="number" value={d.weight_kg} onChange={(e) => set("weight_kg", e.target.value)} placeholder="72" />
+                </div>
+                <div className="space-y-1.5">
+                  <Label>Target kg</Label>
+                  <Input type="number" value={d.target_weight_kg} onChange={(e) => set("target_weight_kg", e.target.value)} placeholder="78" />
+                </div>
+              </div>
+            </div>
+          </>
         )}
 
         {step === 3 && (
-          <div className="space-y-5">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Your lifestyle</h2>
-              <p className="text-muted text-sm">The plan has to survive contact with your real life.</p>
+          <>
+            <Bubble>What are we transforming? Pick everything that matters.</Bubble>
+            <div className="space-y-3">
+              {GOAL_AREAS.map((g) => (
+                <OptionCard
+                  key={g.key}
+                  emoji={g.emoji}
+                  title={g.key}
+                  desc={g.desc}
+                  selected={d.goal_areas.includes(g.key)}
+                  onSelect={() => toggle("goal_areas", g.key)}
+                />
+              ))}
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Wake up</label>
-                <input className="input-field" type="time" value={data.wake_time} onChange={(e) => set("wake_time", e.target.value)} />
-              </div>
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Sleep</label>
-                <input className="input-field" type="time" value={data.sleep_time} onChange={(e) => set("sleep_time", e.target.value)} />
-              </div>
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">Diet preference</label>
-              <div className="flex gap-2 flex-wrap">
-                {["Vegetarian", "Eggetarian", "Non-veg", "Vegan"].map((d) => (
-                  <button key={d} type="button" onClick={() => set("diet_preference", d)} className={`chip ${data.diet_preference === d ? "chip-active" : ""}`}>
-                    {d}
-                  </button>
-                ))}
-              </div>
-            </div>
-            <div>
-              <label className="text-sm text-muted mb-1.5 block">Work / study schedule</label>
-              <input
-                className="input-field"
-                value={data.occupation_schedule}
-                onChange={(e) => set("occupation_schedule", e.target.value)}
-                placeholder="College 9-4, free evenings / Remote job, flexible..."
-              />
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Skin type</label>
-                <select className="input-field" value={data.skin_type} onChange={(e) => set("skin_type", e.target.value)}>
-                  <option value="">Not sure</option>
-                  <option>Oily</option>
-                  <option>Dry</option>
-                  <option>Combination</option>
-                  <option>Normal</option>
-                  <option>Sensitive</option>
-                </select>
-              </div>
-              <div>
-                <label className="text-sm text-muted mb-1.5 block">Skin concerns</label>
-                <input className="input-field" value={data.skin_concerns} onChange={(e) => set("skin_concerns", e.target.value)} placeholder="Acne, dark circles, tanning..." />
-              </div>
-            </div>
-          </div>
+          </>
         )}
 
         {step === 4 && (
-          <div className="space-y-5">
-            <div>
-              <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-1.5">Starting photos</h2>
-              <p className="text-muted text-sm">
-                Private — only you can see them. Day 1 photos are what future-you will thank you for.
-              </p>
+          <>
+            <Bubble>Describe the body &amp; presence you want. Dream big.</Bubble>
+            <div className="space-y-4">
+              <Textarea
+                value={d.body_goal}
+                onChange={(e) => set("body_goal", e.target.value)}
+                placeholder="Lean, sharp jawline, visible abs, broad shoulders — model-ready..."
+                className="min-h-28"
+              />
+              <div className="space-y-1.5">
+                <Label>Who inspires you? (actor, athlete, anyone)</Label>
+                <Input value={d.inspiration} onChange={(e) => set("inspiration", e.target.value)} placeholder="Hrithik Roshan" />
+              </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              <PhotoDrop label="Face photo" file={facePhoto} onFile={setFacePhoto} />
-              <PhotoDrop label="Body photo" file={bodyPhoto} onFile={setBodyPhoto} />
-            </div>
-            <p className="text-xs text-muted/60">You can skip this and add photos later from the Progress page.</p>
-          </div>
+          </>
         )}
 
-        {step === 5 && <AiInterview userId={userId} profile={data} />}
-
-        {error && <p className="text-sm text-red-400 mt-4">{error}</p>}
-
-        {step < 5 && (
-          <div className="flex justify-between mt-8">
-            <button type="button" onClick={() => setStep((s) => Math.max(0, s - 1))} disabled={step === 0} className="btn-ghost">
-              <ChevronLeft className="w-4 h-4" /> Back
-            </button>
-            {step < 4 ? (
-              <button type="button" onClick={() => setStep((s) => s + 1)} disabled={!canNext} className="btn-primary">
-                Next <ChevronRight className="w-4 h-4" />
-              </button>
-            ) : (
-              <button type="button" onClick={saveProfileAndContinue} disabled={saving} className="btn-ai">
-                {saving ? "Saving..." : "Meet Jarvis"} <ChevronRight className="w-4 h-4" />
-              </button>
-            )}
-          </div>
+        {step === 5 && (
+          <>
+            <Bubble>How many gym days can you actually commit to?</Bubble>
+            <div className="grid grid-cols-2 gap-3">
+              {["3", "4", "5", "6"].map((n) => (
+                <OptionCard
+                  key={n}
+                  emoji="🏋️"
+                  title={`${n} days / week`}
+                  selected={d.gym_days_per_week === n}
+                  onSelect={() => pick("gym_days_per_week", n)}
+                />
+              ))}
+            </div>
+          </>
         )}
+
+        {step === 6 && (
+          <>
+            <Bubble>What do you enjoy? Consistency is easier when it&apos;s fun.</Bubble>
+            <div className="space-y-2.5">
+              {ACTIVITIES.map((a) => {
+                const sel = d.activities.find((x) => x.name === a);
+                return (
+                  <div key={a}>
+                    <OptionCard emoji="⚡" title={a} selected={!!sel} onSelect={() => toggleActivity(a)} />
+                    {sel && (
+                      <div className="flex gap-2 mt-2 mb-1 pl-2 flex-wrap">
+                        {PROFICIENCY.map((p) => (
+                          <button
+                            key={p}
+                            type="button"
+                            onClick={() =>
+                              set(
+                                "activities",
+                                d.activities.map((x) => (x.name === a ? { ...x, proficiency: p } : x))
+                              )
+                            }
+                            className={`text-xs rounded-full border px-3 py-1.5 transition-all ${
+                              sel.proficiency === p ? "border-accent/60 bg-accent/10 text-accent" : "border-white/10 text-muted-foreground"
+                            }`}
+                          >
+                            {p}
+                          </button>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        {step === 7 && (
+          <>
+            <Bubble>Which protein sources can you eat? Your meals get built from these.</Bubble>
+            <div className="grid grid-cols-2 gap-3">
+              {PROTEINS.map((p) => (
+                <OptionCard
+                  key={p.key}
+                  emoji={p.emoji}
+                  title={p.key}
+                  selected={d.protein_sources.includes(p.key)}
+                  onSelect={() => toggle("protein_sources", p.key)}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {step === 8 && (
+          <>
+            <Bubble>And your carb sources?</Bubble>
+            <div className="grid grid-cols-2 gap-3">
+              {CARBS.map((c) => (
+                <OptionCard
+                  key={c.key}
+                  emoji={c.emoji}
+                  title={c.key}
+                  selected={d.carb_sources.includes(c.key)}
+                  onSelect={() => toggle("carb_sources", c.key)}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {step === 9 && (
+          <>
+            <Bubble>Anything you avoid or can&apos;t stand?</Bubble>
+            <div className="space-y-3">
+              <div className="grid grid-cols-2 gap-3">
+                {AVOIDS.map((a) => (
+                  <OptionCard
+                    key={a}
+                    emoji={a.startsWith("Nothing") ? "🙌" : "🚫"}
+                    title={a}
+                    selected={d.avoid_foods.includes(a)}
+                    onSelect={() => toggle("avoid_foods", a)}
+                  />
+                ))}
+              </div>
+              <Input
+                value={d.avoid_foods_note}
+                onChange={(e) => set("avoid_foods_note", e.target.value)}
+                placeholder="Anything else? e.g. hate mushrooms, allergic to peanuts..."
+              />
+            </div>
+          </>
+        )}
+
+        {step === 10 && (
+          <>
+            <Bubble>Who makes your food? Be honest — the plan has to survive reality.</Bubble>
+            <div className="space-y-3">
+              {COOKING.map((c) => (
+                <OptionCard
+                  key={c.key}
+                  emoji={c.emoji}
+                  title={c.key}
+                  desc={c.desc}
+                  selected={d.cooking === c.key}
+                  onSelect={() => pick("cooking", c.key)}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {step === 11 && (
+          <>
+            <Bubble>How often do you eat out or order in?</Bubble>
+            <div className="space-y-3">
+              {EATING_OUT.map((e) => (
+                <OptionCard
+                  key={e}
+                  emoji="🍽️"
+                  title={e}
+                  selected={d.eating_out === e}
+                  onSelect={() => pick("eating_out", e)}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {step === 12 && (
+          <>
+            <Bubble>Diet style?</Bubble>
+            <div className="space-y-3">
+              {DIETS.map((diet) => (
+                <OptionCard
+                  key={diet.key}
+                  emoji={diet.emoji}
+                  title={diet.key}
+                  desc={diet.desc}
+                  selected={d.diet_preference === diet.key}
+                  onSelect={() => pick("diet_preference", diet.key)}
+                />
+              ))}
+            </div>
+          </>
+        )}
+
+        {step === 13 && (
+          <>
+            <Bubble>Your day&apos;s shape — when do you wake, sleep, and work?</Bubble>
+            <div className="space-y-4">
+              <div className="grid grid-cols-2 gap-3">
+                <div className="space-y-1.5">
+                  <Label>Wake up</Label>
+                  <Input type="time" value={d.wake_time} onChange={(e) => set("wake_time", e.target.value)} />
+                </div>
+                <div className="space-y-1.5">
+                  <Label>Sleep</Label>
+                  <Input type="time" value={d.sleep_time} onChange={(e) => set("sleep_time", e.target.value)} />
+                </div>
+              </div>
+              <div className="space-y-1.5">
+                <Label>Work / study schedule</Label>
+                <Input
+                  value={d.occupation_schedule}
+                  onChange={(e) => set("occupation_schedule", e.target.value)}
+                  placeholder="College 9–4, evenings free / remote job, flexible..."
+                />
+              </div>
+            </div>
+          </>
+        )}
+
+        {step === 14 && (
+          <>
+            <Bubble>Your skin — what am I working with?</Bubble>
+            <div className="space-y-3">
+              {SKIN_TYPES.map((s) => (
+                <OptionCard
+                  key={s.key}
+                  emoji={s.emoji}
+                  title={s.key}
+                  desc={s.desc}
+                  selected={d.skin_type === s.key}
+                  onSelect={() => set("skin_type", s.key)}
+                />
+              ))}
+              <Input
+                value={d.skin_concerns}
+                onChange={(e) => set("skin_concerns", e.target.value)}
+                placeholder="Concerns? Acne, dark circles, tanning..."
+              />
+            </div>
+          </>
+        )}
+
+        {step === 15 && (
+          <>
+            <Bubble>Day-1 photos. Private — future you will thank you.</Bubble>
+            <div className="grid grid-cols-2 gap-3">
+              <PhotoDrop label="Face" file={facePhoto} onFile={setFacePhoto} />
+              <PhotoDrop label="Body" file={bodyPhoto} onFile={setBodyPhoto} />
+            </div>
+            <p className="text-xs text-muted-foreground/60 mt-3">Skippable — you can add them later from Progress.</p>
+          </>
+        )}
+
+        {step === 16 && <AiInterview userId={userId} profile={d} />}
       </div>
+
+      {/* Bottom CTA (Lovi pill, pinned) */}
+      {step > 0 && step < 16 && (
+        <div className="sticky bottom-0 pt-4 pb-[calc(1rem+env(safe-area-inset-bottom))] bg-gradient-to-t from-background via-background/90 to-transparent">
+          {error && <p className="text-sm text-red-400 mb-2">{error}</p>}
+          {step === 15 ? (
+            <Button size="lg" className="w-full" variant="ai" disabled={saving} onClick={saveAndContinue}>
+              {saving ? "Saving..." : "Meet Jarvis"} <Sparkles className="size-4" />
+            </Button>
+          ) : (
+            <Button size="lg" className="w-full" disabled={!canNext} onClick={next}>
+              Continue
+            </Button>
+          )}
+        </div>
+      )}
     </div>
   );
 }
 
-function PhotoDrop({
-  label,
-  file,
-  onFile,
-}: {
-  label: string;
-  file: File | null;
-  onFile: (f: File | null) => void;
-}) {
+function PhotoDrop({ label, file, onFile }: { label: string; file: File | null; onFile: (f: File | null) => void }) {
   return (
-    <label className="glass glass-hover cursor-pointer flex flex-col items-center justify-center gap-2 py-10 text-center">
+    <label className="flex flex-col items-center justify-center gap-2 py-10 text-center rounded-2xl border border-dashed border-white/15 bg-surface-2 cursor-pointer hover:border-accent/40 transition-colors active:scale-[0.98]">
       <Upload className="w-6 h-6 text-accent" />
-      <span className="text-sm font-medium">{file ? file.name : label}</span>
-      <span className="text-xs text-muted">{file ? "Tap to change" : "Tap to upload"}</span>
-      <input
-        type="file"
-        accept="image/*"
-        className="hidden"
-        onChange={(e) => onFile(e.target.files?.[0] ?? null)}
-      />
+      <span className="text-sm font-medium">{file ? file.name.slice(0, 18) : label}</span>
+      <span className="text-xs text-muted-foreground">{file ? "Tap to change" : "Tap to upload"}</span>
+      <input type="file" accept="image/*" className="hidden" onChange={(e) => onFile(e.target.files?.[0] ?? null)} />
     </label>
   );
 }

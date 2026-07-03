@@ -189,6 +189,162 @@ export async function generateJSON<T>(system: string, user: string): Promise<T> 
   return extractJson(raw) as T;
 }
 
+/** Parse a raw model completion into JSON (public wrapper for streaming callers). */
+export function parseModelJson<T>(raw: string): T {
+  return extractJson(raw) as T;
+}
+
+/**
+ * Incrementally extracts the value of the top-level "reply" string field
+ * while a JSON completion streams in, emitting decoded text deltas.
+ */
+export function createReplyExtractor(onDelta: (text: string) => void) {
+  let buf = "";
+  let phase: "seek" | "inReply" | "done" = "seek";
+  let escape = false;
+  let unicode: string | null = null;
+
+  return function feed(chunk: string) {
+    buf += chunk;
+    if (phase === "seek") {
+      const m = buf.match(/"reply"\s*:\s*"/);
+      if (!m || m.index === undefined) return;
+      phase = "inReply";
+      // reprocess everything after the opening quote
+      const start = m.index + m[0].length;
+      const rest = buf.slice(start);
+      buf = "";
+      feedReply(rest);
+      return;
+    }
+    if (phase === "inReply") feedReply(chunk);
+  };
+
+  function feedReply(text: string) {
+    let out = "";
+    for (const ch of text) {
+      if (phase !== "inReply") break;
+      if (unicode !== null) {
+        unicode += ch;
+        if (unicode.length === 4) {
+          const code = parseInt(unicode, 16);
+          if (!Number.isNaN(code)) out += String.fromCharCode(code);
+          unicode = null;
+        }
+        continue;
+      }
+      if (escape) {
+        escape = false;
+        if (ch === "n") out += "\n";
+        else if (ch === "t") out += "\t";
+        else if (ch === "r") out += "";
+        else if (ch === "u") unicode = "";
+        else out += ch; // \" \\ \/ etc.
+        continue;
+      }
+      if (ch === "\\") {
+        escape = true;
+        continue;
+      }
+      if (ch === '"') {
+        phase = "done";
+        break;
+      }
+      out += ch;
+    }
+    if (out) onDelta(out);
+  }
+}
+
+/**
+ * Streaming JSON completion (OpenAI-compatible providers). Emits decoded
+ * "reply" text deltas as they arrive and resolves with the full raw
+ * completion for parsing. Falls back to non-streaming for other providers.
+ */
+export async function streamJSON(
+  system: string,
+  user: string,
+  onReplyDelta: (text: string) => void
+): Promise<string> {
+  const provider = getProvider();
+
+  if (provider !== "deepseek" && provider !== "openai") {
+    const raw =
+      provider === "anthropic" ? await callAnthropic(system, user) : await callGemini(system, user);
+    try {
+      const parsed = extractJson(raw) as { reply?: string };
+      if (typeof parsed.reply === "string") onReplyDelta(parsed.reply);
+    } catch {
+      /* caller will surface the parse error */
+    }
+    return raw;
+  }
+
+  const baseUrl = provider === "deepseek" ? "https://api.deepseek.com" : "https://api.openai.com/v1";
+  const apiKey = provider === "deepseek" ? process.env.DEEPSEEK_API_KEY! : process.env.OPENAI_API_KEY!;
+  const model =
+    provider === "deepseek"
+      ? process.env.DEEPSEEK_MODEL || "deepseek-v4-flash"
+      : process.env.OPENAI_MODEL || "gpt-4o";
+
+  const res = await fetchWithRetry(
+    () =>
+      fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${apiKey}` },
+        body: JSON.stringify({
+          model,
+          messages: [
+            { role: "system", content: system },
+            { role: "user", content: user },
+          ],
+          response_format: { type: "json_object" },
+          temperature: 0.7,
+          max_tokens: 8000,
+          stream: true,
+          ...(provider === "deepseek" ? { thinking: { type: "disabled" } } : {}),
+        }),
+      }),
+    `${provider} stream`
+  );
+  if (!res.ok || !res.body) {
+    const body = await res.text().catch(() => "");
+    throw new Error(`${provider} stream error ${res.status}: ${body.slice(0, 300)}`);
+  }
+
+  const extractor = createReplyExtractor(onReplyDelta);
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let full = "";
+  let sseBuf = "";
+
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    sseBuf += decoder.decode(value, { stream: true });
+    const lines = sseBuf.split("\n");
+    sseBuf = lines.pop() ?? "";
+    for (const line of lines) {
+      const trimmed = line.trim();
+      if (!trimmed.startsWith("data:")) continue;
+      const payload = trimmed.slice(5).trim();
+      if (payload === "[DONE]") continue;
+      try {
+        const json = JSON.parse(payload);
+        const delta: string = json?.choices?.[0]?.delta?.content ?? "";
+        if (delta) {
+          full += delta;
+          extractor(delta);
+        }
+      } catch {
+        /* ignore malformed keep-alive lines */
+      }
+    }
+  }
+  if (!full) throw new Error(`${provider} stream returned no content`);
+  return full;
+}
+
 // ---------- Vision (image + text -> JSON) ----------
 
 async function callGeminiVision(

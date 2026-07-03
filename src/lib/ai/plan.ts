@@ -39,7 +39,9 @@ export const PLAN_RULES = `Rules:
 - Base calories/macros on their stats (Mifflin-St Jeor + activity), goal direction (cut/bulk/recomp), and diet preference/cuisine.
 - Respect injuries, proficiency levels, schedule constraints, and equipment access.
 - 20,000 daily steps is mandatory and must appear in the schedule and non-negotiables.
+- FOOD POSSIBILITIES ARE HARD CONSTRAINTS: if the profile lists protein_sources / carb_sources, build every meal ONLY from those foods; never prescribe anything in avoid_foods. Respect their cooking situation (mess/tiffin or order-in = prescribe realistic picks and swaps, not home recipes) and eating-out frequency.
 - Meals must match their cuisine/diet preference with real foods and rough portions.
+- If goal_areas include non-fitness areas (income, skills, discipline), weave daily blocks for them into weekly_schedule and daily_non_negotiables.
 - Be specific (exercise names, sets x reps, product types) but never prescribe medication.
 - Tone: confident, motivating, no fluff.`;
 

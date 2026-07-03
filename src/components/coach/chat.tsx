@@ -165,6 +165,7 @@ export function CoachChat({
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [animateLast, setAnimateLast] = useState(false);
+  const [status, setStatus] = useState<string | null>(null);
   const [listening, setListening] = useState(false);
   const bottomRef = useRef<HTMLDivElement>(null);
   const checkinFired = useRef(false);
@@ -231,42 +232,110 @@ export function CoachChat({
     if (kind === "chat" && !message.trim()) return;
     setError(null);
     setLoading(true);
+    setStatus(null);
+    setAnimateLast(false); // real streaming — no fake typewriter
     if (message.trim()) {
       setMessages((m) => [...m, { role: "user", content: message.trim() }]);
       setInput("");
     }
+    let started = false;
+    const appendDelta = (d: string) => {
+      if (!started) {
+        started = true;
+        setMessages((m) => [...m, { role: "coach", content: d, kind }]);
+      } else {
+        setMessages((m) => {
+          const copy = [...m];
+          copy[copy.length - 1] = { ...copy[copy.length - 1], content: copy[copy.length - 1].content + d };
+          return copy;
+        });
+      }
+    };
+    const finish = (data: Record<string, unknown>) => {
+      setStatus(null);
+      setMessages((m) => {
+        const copy = [...m];
+        const last = copy[copy.length - 1];
+        if (started && last?.role === "coach") {
+          copy[copy.length - 1] = {
+            ...last,
+            content: typeof data.reply === "string" && !started ? data.reply : last.content,
+            planUpdated: !!data.plan_updated,
+            themeUpdated: !!data.theme_updated,
+            goalUpdated: !!data.goal_updated,
+            workoutLogged: !!data.workout_logged,
+            trackerUpdated: !!data.tracker_updated,
+            pingScheduled: !!data.ping_scheduled,
+          };
+        } else if (typeof data.reply === "string") {
+          copy.push({
+            role: "coach",
+            content: data.reply,
+            kind,
+            planUpdated: !!data.plan_updated,
+            themeUpdated: !!data.theme_updated,
+            goalUpdated: !!data.goal_updated,
+            workoutLogged: !!data.workout_logged,
+            trackerUpdated: !!data.tracker_updated,
+            pingScheduled: !!data.ping_scheduled,
+          });
+        }
+        return copy;
+      });
+      if (typeof data.conversation_id === "string") {
+        setActiveId(data.conversation_id);
+        bumpConversation(data.conversation_id, (data.conversation_title as string) ?? undefined);
+      }
+      if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
+    };
+
     try {
       const res = await fetch("/api/ai/coach", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, kind, conversation_id: activeId }),
+        body: JSON.stringify({ message, kind, conversation_id: activeId, stream: true }),
       });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Jarvis unavailable");
-      setAnimateLast(true);
-      setMessages((m) => [
-        ...m,
-        {
-          role: "coach",
-          content: data.reply,
-          kind,
-          planUpdated: !!data.plan_updated,
-          themeUpdated: !!data.theme_updated,
-          goalUpdated: !!data.goal_updated,
-          workoutLogged: !!data.workout_logged,
-          trackerUpdated: !!data.tracker_updated,
-          pingScheduled: !!data.ping_scheduled,
-        },
-      ]);
-      if (data.conversation_id) {
-        setActiveId(data.conversation_id);
-        bumpConversation(data.conversation_id, data.conversation_title ?? undefined);
+      if (!res.ok) {
+        const data = await res.json().catch(() => ({}));
+        throw new Error((data as { error?: string }).error || "Jarvis unavailable");
       }
-      if (data.theme_updated || data.plan_updated || data.goal_updated) router.refresh();
+
+      if (res.headers.get("content-type")?.includes("text/event-stream") && res.body) {
+        const reader = res.body.getReader();
+        const decoder = new TextDecoder();
+        let buf = "";
+        for (;;) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          buf += decoder.decode(value, { stream: true });
+          const lines = buf.split("\n");
+          buf = lines.pop() ?? "";
+          for (const line of lines) {
+            const t = line.trim();
+            if (!t.startsWith("data:")) continue;
+            let ev: Record<string, unknown>;
+            try {
+              ev = JSON.parse(t.slice(5).trim());
+            } catch {
+              continue;
+            }
+            if (ev.t === "d" && typeof ev.d === "string") appendDelta(ev.d);
+            else if (ev.t === "s" && typeof ev.s === "string") setStatus(ev.s);
+            else if (ev.t === "done") finish(ev);
+            else if (ev.t === "err") throw new Error((ev.m as string) || "Jarvis unavailable");
+          }
+        }
+      } else {
+        // non-streaming fallback
+        const data = await res.json();
+        started = false;
+        finish(data);
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
       setLoading(false);
+      setStatus(null);
     }
   }
 
@@ -500,10 +569,18 @@ export function CoachChat({
         )}
 
         {loading && (
-          <div className="flex items-center gap-1.5 px-1">
-            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "0ms" }} />
-            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "150ms" }} />
-            <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "300ms" }} />
+          <div className="flex items-center gap-2 px-1">
+            {status ? (
+              <span className="text-sm text-muted flex items-center gap-2 fade-up">
+                <Sparkles className="w-3.5 h-3.5 text-accent animate-pulse" /> {status}
+              </span>
+            ) : (
+              <>
+                <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "0ms" }} />
+                <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "150ms" }} />
+                <span className="w-2 h-2 rounded-full bg-muted/60 animate-bounce" style={{ animationDelay: "300ms" }} />
+              </>
+            )}
           </div>
         )}
 
