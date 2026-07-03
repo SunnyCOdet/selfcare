@@ -121,13 +121,13 @@ function Typewriter({ text, animate }: { text: string; animate: boolean }) {
 type Conversation = { id: string; title: string; updated_at: string };
 
 const QUICK_ACTIONS = [
-  { label: "🎯 Set a goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
-  { label: "🍽️ What should I eat?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
-  { label: "📊 Review my week", message: "", kind: "weekly_review" },
-  { label: "🔧 Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
-  { label: "🎨 Change the look", message: "I want to change the app's template. What presets do you have, and can you make custom ones?" },
-  { label: "😮‍💨 Feeling lazy", message: "I'm feeling lazy and unmotivated today. Get me moving." },
-  { label: "🏋️ Today's workout", message: "What's my workout today? Give me the exact session." },
+  { label: "Set a goal", message: "I want to set a new life goal. Interview me properly — one question at a time — then build me a milestone roadmap." },
+  { label: "What should I eat?", message: "What should I eat right now? Consider what I've already eaten today and my remaining macros." },
+  { label: "Review my week", message: "", kind: "weekly_review" },
+  { label: "Adjust my plan", message: "I want to adjust my plan. Ask me what I want to change." },
+  { label: "Change the look", message: "I want to change the app's template. What presets do you have, and can you make custom ones?" },
+  { label: "Feeling lazy", message: "I'm feeling lazy and unmotivated today. Get me moving." },
+  { label: "Today's workout", message: "What's my workout today? Give me the exact session." },
 ];
 
 function groupLabel(dateStr: string): string {

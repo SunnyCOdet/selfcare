@@ -12,7 +12,7 @@ import type { TransformationPlan } from "@/lib/types";
 
 const PERSONA = `You are "Jarvis", an elite personal transformation AGENT inside the Ascend app — not just an advisor. You can directly modify the client's plan and the app itself. Your client is on a face + body transformation journey toward a modeling-level physique, but you manage their whole routine and goals.
 
-Personality: direct, warm, motivating, zero fluff. Like a top coach texting their client — short punchy sentences, occasional emoji (max 1-2), never corporate. Push them, but never shame them. Celebrate wins loudly.
+Personality: direct, warm, motivating, zero fluff. Short, confident sentences — the voice of a world-class coach and operator. Strictly professional: never use emojis, emoticons, or decorative symbols in any reply. Push the client, never shame them. Acknowledge wins plainly and specifically.
 
 ## Your powers (actions)
 
@@ -269,10 +269,10 @@ Return the full updated JSON plan now.`;
 
         planVersion = await savePlanVersion(supabase, user.id, newPlan);
         planUpdated = true;
-        push(`\n\n✅ Plan updated — now on v${planVersion}. Check the Plan tab.`);
+        push(`\n\nPlan updated — now on v${planVersion}. Check the Plan tab.`);
       } catch (e) {
         console.error("plan update failed:", e);
-        push(`\n\n⚠️ I couldn't apply the plan update (${e instanceof Error ? e.message : "error"}). Try asking again.`);
+        push(`\n\nI couldn't apply the plan update (${e instanceof Error ? e.message : "error"}). Try asking again.`);
       }
     } else if (action?.type === "switch_theme") {
       const preset = PRESET_THEMES[(action.theme ?? "").toLowerCase()];
@@ -283,10 +283,10 @@ Return the full updated JSON plan now.`;
           .eq("id", user.id);
         if (!themeErr) {
           themeUpdated = true;
-          push(`\n\n🎨 "${preset.name}" template applied.`);
+          push(`\n\n"${preset.name}" template applied.`);
         }
       } else {
-        push(`\n\n⚠️ I don't have a "${action.theme}" preset — ask me to create it as a custom template.`);
+        push(`\n\nI don't have a "${action.theme}" preset — ask me to create it as a custom template.`);
       }
     } else if (action?.type === "create_theme") {
       const vars = sanitizeThemeVars(action.vars);
@@ -298,10 +298,10 @@ Return the full updated JSON plan now.`;
           .eq("id", user.id);
         if (!themeErr) {
           themeUpdated = true;
-          push(`\n\n🎨 Custom "${name}" template created and applied.`);
+          push(`\n\nCustom "${name}" template created and applied.`);
         }
       } else {
-        push(`\n\n⚠️ The template I designed didn't pass validation — ask me to try again.`);
+        push(`\n\nThe template I designed didn't pass validation — ask me to try again.`);
       }
     } else if (action?.type === "create_goal" && action.goal?.title) {
       try {
@@ -328,10 +328,10 @@ Return the full updated JSON plan now.`;
         });
         if (goalErr) throw new Error(goalErr.message);
         goalUpdated = true;
-        push(`\n\n🎯 Goal locked in with ${milestones.length} milestones.`);
+        push(`\n\nGoal locked in with ${milestones.length} milestones.`);
       } catch (e) {
         console.error("create_goal failed:", e);
-        push(`\n\n⚠️ I couldn't save the goal — try again.`);
+        push(`\n\nI couldn't save the goal — try again.`);
       }
     } else if (action?.type === "update_goal" && action.goal_title) {
       try {
@@ -369,10 +369,10 @@ Return the full updated JSON plan now.`;
           });
         }
         goalUpdated = true;
-        push(`\n\n🎯 Progress logged on "${goal.title}".`);
+        push(`\n\nProgress logged on "${goal.title}".`);
       } catch (e) {
         console.error("update_goal failed:", e);
-        push(`\n\n⚠️ Couldn't log that against a goal (${e instanceof Error ? e.message : "error"}).`);
+        push(`\n\nCouldn't log that against a goal (${e instanceof Error ? e.message : "error"}).`);
       }
     } else if (action?.type === "remember" && action.content) {
       const { error: memErr } = await supabase.from("agent_memories").insert({
@@ -420,7 +420,7 @@ Return the full updated JSON plan now.`;
           }
         }
         if (workoutLogged) {
-          push(`\n\n💪 Logged.${prNames.length ? ` PR on ${prNames.join(", ")}! 🔥` : ""}`);
+          push(`\n\nLogged.${prNames.length ? ` New personal record on ${prNames.join(", ")}.` : ""}`);
         }
       } catch (e) {
         console.error("log_workout failed:", e);
@@ -429,13 +429,13 @@ Return the full updated JSON plan now.`;
       const { error: tErr } = await supabase.from("custom_trackers").insert({
         user_id: user.id,
         name: action.name.trim().slice(0, 60),
-        emoji: (action.emoji ?? "✅").slice(0, 8),
+        emoji: (action.emoji ?? "").slice(0, 8),
         unit: action.unit?.slice(0, 20) ?? null,
         target_value: typeof action.target_value === "number" ? action.target_value : null,
       });
       if (!tErr) {
         trackerUpdated = true;
-        push(`\n\n📊 "${action.name.trim()}" is now on your daily checklist.`);
+        push(`\n\n"${action.name.trim()}" is now on your daily checklist.`);
       }
     } else if (action?.type === "schedule_ping" && action.message) {
       const mins = Math.min(10080, Math.max(5, Math.round(Number(action.minutes_from_now) || 60)));
@@ -447,7 +447,7 @@ Return the full updated JSON plan now.`;
       });
       if (!pErr) {
         pingScheduled = true;
-        push(`\n\n⏰ I'll ping you in ${mins >= 60 ? `${Math.round(mins / 60)}h` : `${mins}min`}.`);
+        push(`\n\nI'll ping you in ${mins >= 60 ? `${Math.round(mins / 60)}h` : `${mins}min`}.`);
       }
     } else if (action?.type === "revert_plan") {
       try {
@@ -462,13 +462,13 @@ Return the full updated JSON plan now.`;
         if (!prev?.plan) throw new Error("no previous version");
         planVersion = await savePlanVersion(supabase, user.id, prev.plan as TransformationPlan);
         planUpdated = true;
-        push(`\n\n↩️ Reverted — previous plan restored as v${planVersion}.`);
+        push(`\n\nReverted — previous plan restored as v${planVersion}.`);
       } catch (e) {
-        push(`\n\n⚠️ Couldn't revert (${e instanceof Error ? e.message : "error"}).`);
+        push(`\n\nCouldn't revert (${e instanceof Error ? e.message : "error"}).`);
       }
     } else if (action?.type === "web_search" && action.query) {
       if (!process.env.TAVILY_API_KEY) {
-        push(`\n\n🌐 I can't search the web yet — add a TAVILY_API_KEY (free at tavily.com) and I'll have live search.`);
+        push(`\n\nI can't search the web yet — add a TAVILY_API_KEY (free at tavily.com) and I'll have live search.`);
       } else {
         try {
           emit?.({ t: "s", s: "Searching the web…" });
@@ -499,12 +499,12 @@ Return the full updated JSON plan now.`;
           push("\n\n" + followUp.reply);
         } catch (e) {
           console.error("web_search failed:", e);
-          push(`\n\n⚠️ Search failed — answering from what I know.`);
+          push(`\n\nSearch failed — answering from what I know.`);
         }
       }
     } else if (action?.type === "paypal_query") {
       if (!paypalConfigured()) {
-        push(`\n\n⚠️ PayPal isn't connected on the server yet.`);
+        push(`\n\nPayPal isn't connected on the server yet.`);
       } else {
         try {
           emit?.({ t: "s", s: "Checking PayPal…" });
@@ -525,20 +525,20 @@ Return the full updated JSON plan now.`;
         } catch (e) {
           const msg = e instanceof Error ? e.message : "PayPal query failed";
           reply += msg.includes("PERMISSION_PENDING")
-            ? `\n\n⏳ PayPal history access was just enabled and their side is still propagating it (can take a few hours). Ask me again later.`
-            : `\n\n⚠️ Couldn't reach PayPal (${msg.slice(0, 120)}).`;
+            ? `\n\nPayPal history access was just enabled and their side is still propagating it (can take a few hours). Ask me again later.`
+            : `\n\nCouldn't reach PayPal (${msg.slice(0, 120)}).`;
         }
       }
     } else if (action?.type === "paypal_sync") {
       if (!paypalConfigured()) {
-        push(`\n\n⚠️ PayPal isn't connected on the server yet.`);
+        push(`\n\nPayPal isn't connected on the server yet.`);
       } else {
         try {
           const txs = incomingPayments(await paypalTransactions(31));
           const month = todayStr().slice(0, 7);
           const thisMonth = txs.filter((t) => (t.date ?? "").slice(0, 7) === month);
           if (thisMonth.length === 0) {
-            push(`\n\n📥 PayPal checked — no incoming payments found this month.`);
+            push(`\n\nPayPal checked — no incoming payments found this month.`);
           } else {
             const { data: prof } = await supabase
               .from("profiles")
@@ -558,15 +558,15 @@ Return the full updated JSON plan now.`;
             });
             if (bfErr) throw new Error(bfErr.message);
             goalUpdated = !!result?.goal_updated;
-            reply += `\n\n📥 PayPal synced: ${result?.added ?? 0} payment(s) imported${
+            reply += `\n\nPayPal synced: ${result?.added ?? 0} payment(s) imported${
               result?.skipped ? ` (${result.skipped} already tracked)` : ""
             }${result?.month_total != null ? `. Month now: ${result.month_total}` : ""}.`;
           }
         } catch (e) {
           const msg = e instanceof Error ? e.message : "sync failed";
           reply += msg.includes("PERMISSION_PENDING")
-            ? `\n\n⏳ PayPal history access is still propagating on their side (few hours). Ask me to sync again later.`
-            : `\n\n⚠️ PayPal sync failed (${msg.slice(0, 120)}).`;
+            ? `\n\nPayPal history access is still propagating on their side (few hours). Ask me to sync again later.`
+            : `\n\nPayPal sync failed (${msg.slice(0, 120)}).`;
         }
       }
     }

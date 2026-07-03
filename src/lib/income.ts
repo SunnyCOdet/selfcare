@@ -73,13 +73,13 @@ export async function celebrate(
       .eq("user_id", prof.id);
     const body =
       monthTotal != null && target != null
-        ? `${amount.toLocaleString()} ${currency} in. Month: ${monthTotal.toLocaleString()} / ${Number(target).toLocaleString()} 📈`
+        ? `${amount.toLocaleString()} ${currency} in. Month: ${monthTotal.toLocaleString()} / ${Number(target).toLocaleString()}`
         : `${amount.toLocaleString()} ${currency} landed.`;
     for (const s of subs ?? []) {
       try {
         await webpush.sendNotification(
           { endpoint: s.endpoint, keys: s.keys as { p256dh: string; auth: string } },
-          JSON.stringify({ title: "Payment received 💰", body, url: "/plan#goals", tag: "income" })
+          JSON.stringify({ title: "Payment received", body, url: "/plan#goals", tag: "income" })
         );
       } catch {
         /* stale sub — cron cleans these */

@@ -105,7 +105,7 @@ Rules:
 - Send ONLY if you have something genuinely worth their attention. If they're on track and there's nothing sharp to say, stay silent (send: false).
 - Morning slot: a punchy brief for the day — today's training focus, steps, readiness-based intensity call, the goal milestone that matters most today. Max ~15 words in the body.
 - Evening slot: streak-saving nudges (steps far from 20k, day incomplete), or a milestone deadline within 3 days. If they've already crushed the day, either stay silent or send one short congratulation (rarely).
-- Voice: their coach texting them. Direct, personal, uses their real numbers. No corporate fluff. 1 emoji max.
+- Voice: their coach texting them. Direct, personal, uses their real numbers. No corporate fluff. Strictly no emojis or decorative symbols.
 
 Respond with JSON: {"send": boolean, "title": string, "body": string}`;
 
@@ -189,7 +189,7 @@ Decide now.`
     role: "coach",
     kind: "weekly_review",
     conversation_id: conv?.id ?? null,
-    content: decision.message + (changed ? "\n\n✅ Plan updated for next week — check the Plan tab." : ""),
+    content: decision.message + (changed ? "\n\nPlan updated for next week — review it in the Plan tab." : ""),
   });
 
   return { changed, message: decision.message };
@@ -241,7 +241,7 @@ export async function GET(req: Request) {
   for (const ping of duePings ?? []) {
     await db.from("scheduled_pings").update({ sent: true }).eq("id", ping.id);
     for (const s of subsByUser.get(ping.user_id) ?? []) {
-      if (await sendPush(db, s, { title: "Jarvis ⏰", body: ping.message, url: "/coach", tag: `ping-${ping.id}` })) {
+      if (await sendPush(db, s, { title: "Jarvis", body: ping.message, url: "/coach", tag: `ping-${ping.id}` })) {
         results.pings++;
       }
     }
@@ -258,7 +258,7 @@ export async function GET(req: Request) {
           const { changed } = await weeklyAdapt(db, userId, data);
           for (const s of userSubs) {
             await sendPush(db, s, {
-              title: changed ? "Your plan just evolved 🧠" : "Your week, reviewed",
+              title: changed ? "Your plan has been updated" : "Your week, reviewed",
               body: changed
                 ? "I reviewed your week and adjusted next week's plan. See what changed."
                 : "Weekly review is in — open the coach.",
