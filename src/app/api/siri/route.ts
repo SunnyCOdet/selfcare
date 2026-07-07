@@ -79,7 +79,10 @@ async function handle(token: unknown, text: unknown) {
   }
   const said = typeof text === "string" ? text.trim() : "";
   if (!said) {
-    return speak("I didn't catch that — try again.", 400);
+    return speak(
+      "I received no words from the Shortcut. Make sure the Dictated Text is being sent — the most reliable way is Get Contents of URL set to POST with a JSON body field named text.",
+      400
+    );
   }
   // Classic setup mistake: the "[Dictated Text]" placeholder was pasted into the
   // URL but never replaced with the actual Dictated Text variable.
@@ -142,6 +145,19 @@ export async function GET(req: Request) {
 
 export async function POST(req: Request) {
   const { searchParams } = new URL(req.url);
-  const body = await req.json().catch(() => ({}));
-  return handle(searchParams.get("token") ?? body.token, searchParams.get("text") ?? body.text);
+  const raw = await req.text().catch(() => "");
+  let body: { token?: unknown; text?: unknown } = {};
+  const trimmed = raw.trim();
+  if (trimmed.startsWith("{")) {
+    try {
+      body = JSON.parse(trimmed);
+    } catch {
+      body = {};
+    }
+  }
+  // Accept the dictation from: ?text=, a JSON {text}, or a raw plain-text body.
+  const rawText = trimmed && !trimmed.startsWith("{") ? raw : null;
+  const token = searchParams.get("token") ?? body.token;
+  const text = searchParams.get("text") ?? body.text ?? rawText;
+  return handle(token, text);
 }
