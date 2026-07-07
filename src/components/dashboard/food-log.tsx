@@ -127,6 +127,13 @@ export function FoodLog({
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [flow, setFlow] = useState<PhotoFlow | null>(null);
+  const [pendingText, setPendingText] = useState<{
+    description: string;
+    dishName: string;
+    components: string[];
+    questions: string[];
+    answers: Record<number, string>;
+  } | null>(null);
   const [expanded, setExpanded] = useState<string | null>(null);
 
   const calories = items.reduce((s, f) => s + (f.calories ?? 0), 0);
@@ -140,26 +147,53 @@ export function FoodLog({
   const calRingC = 2 * Math.PI * calRingR;
   const calPct = Math.min(100, (calories / calTarget) * 100);
 
-  async function analyzeText() {
-    if (!input.trim() || loading) return;
+  async function analyzeText(portionAnswers?: { question: string; answer: string }[]) {
+    if (loading) return;
+    const description = pendingText?.description ?? input.trim();
+    if (!description) return;
     setLoading(true);
     setError(null);
     try {
       const res = await fetch("/api/ai/food", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ description: input.trim() }),
+        body: JSON.stringify({ description, answers: portionAnswers }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || "Analysis failed");
+      // The server won't estimate until it knows every portion — collect them.
+      if (data.needs_portions) {
+        setPendingText({
+          description,
+          dishName: data.dish_name || description,
+          components: data.components ?? [],
+          questions: data.questions ?? [],
+          answers: {},
+        });
+        return;
+      }
       setItems((prev) => [...prev, data.log]);
       setInput("");
+      setPendingText(null);
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
       setLoading(false);
     }
   }
+
+  function submitTextPortions() {
+    if (!pendingText) return;
+    const answers = pendingText.questions.map((q, i) => ({
+      question: q,
+      answer: pendingText.answers[i]?.trim() ?? "",
+    }));
+    analyzeText(answers);
+  }
+
+  const textPortionsComplete =
+    !!pendingText &&
+    pendingText.questions.every((_, i) => (pendingText.answers[i]?.trim().length ?? 0) > 0);
 
   async function onPhoto(file: File) {
     setError(null);
@@ -196,7 +230,7 @@ export function FoodLog({
     try {
       const answers = f.questions.map((q, i) => ({
         question: q,
-        answer: f.answers[i]?.trim() || "not sure - estimate from the photo",
+        answer: f.answers[i]?.trim() || "I don't know",
       }));
       if (f.extraInfo.trim()) {
         answers.push({ question: "Anything else about this food?", answer: f.extraInfo.trim() });
@@ -282,7 +316,7 @@ export function FoodLog({
           </div>
         </div>
 
-        {!flow && (
+        {!flow && !pendingText && (
           <div className="flex gap-2 mt-5">
             <label className="btn-primary !py-2.5 !px-4 text-sm cursor-pointer shrink-0">
               <Camera className="w-4 h-4" /> Scan food
@@ -344,6 +378,9 @@ export function FoodLog({
               )}
             </div>
 
+            <p className="text-[11px] text-muted/80">
+              Tell me the amount for each item — I won&apos;t guess portions.
+            </p>
             {flow.questions.map((q, i) => (
               <div key={i}>
                 <label className="text-xs text-muted mb-1 block">{q}</label>
@@ -353,7 +390,7 @@ export function FoodLog({
                   onChange={(e) =>
                     setFlow({ ...flow, answers: { ...flow.answers, [i]: e.target.value } })
                   }
-                  placeholder="Not sure? Leave blank - I will estimate"
+                  placeholder="e.g. 2 pieces / 150 g / 1 cup — or 'I don't know'"
                 />
               </div>
             ))}
@@ -387,10 +424,63 @@ export function FoodLog({
             </div>
 
             <div className="flex gap-2">
-              <button onClick={finalizePhoto} className="btn-ai !py-2 text-sm">
+              <button
+                onClick={finalizePhoto}
+                disabled={!flow.questions.every((_, i) => (flow.answers[i]?.trim().length ?? 0) > 0)}
+                className="btn-ai !py-2 text-sm disabled:opacity-40 disabled:cursor-not-allowed"
+              >
                 <Sparkles className="w-4 h-4" /> Analyze it
               </button>
               <button onClick={() => setFlow(null)} className="btn-ghost !py-2 text-sm">
+                Cancel
+              </button>
+            </div>
+          </div>
+        )}
+
+        {pendingText && (
+          <div className="mt-5 space-y-4 rounded-lg bg-surface-2 p-4 fade-up">
+            <div>
+              <p className="font-bold text-sm flex items-center gap-1.5">
+                <Sparkles className="w-4 h-4 text-accent" /> {pendingText.dishName}
+              </p>
+              <p className="text-xs text-muted mt-1">
+                How much of each? I won&apos;t guess portions.
+              </p>
+            </div>
+            {pendingText.questions.map((q, i) => (
+              <div key={i}>
+                <label className="text-xs text-muted mb-1 block">{q}</label>
+                <input
+                  className="input-field !py-2 text-sm"
+                  value={pendingText.answers[i] ?? ""}
+                  onChange={(e) =>
+                    setPendingText({
+                      ...pendingText,
+                      answers: { ...pendingText.answers, [i]: e.target.value },
+                    })
+                  }
+                  placeholder="e.g. 2 pieces / 150 g / 1 cup"
+                  autoFocus={i === 0}
+                />
+              </div>
+            ))}
+            <div className="flex gap-2">
+              <button
+                onClick={submitTextPortions}
+                disabled={loading || !textPortionsComplete}
+                className="btn-ai !py-2 text-sm disabled:opacity-40 disabled:cursor-not-allowed"
+              >
+                {loading ? <Loader2 className="w-4 h-4 animate-spin" /> : <Sparkles className="w-4 h-4" />}
+                Log it
+              </button>
+              <button
+                onClick={() => {
+                  setPendingText(null);
+                  setInput("");
+                }}
+                className="btn-ghost !py-2 text-sm"
+              >
                 Cancel
               </button>
             </div>
