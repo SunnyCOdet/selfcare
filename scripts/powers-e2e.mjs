@@ -157,8 +157,11 @@ try {
 } finally {
   // ---------- restore today's row exactly ----------
   if (snapshot) {
-    const { id, created_at, updated_at, ...cols } = snapshot;
-    await admin.from("daily_checkins").update(cols).eq("id", id);
+    const cols = { ...snapshot };
+    delete cols.id;
+    delete cols.created_at;
+    delete cols.updated_at;
+    await admin.from("daily_checkins").update(cols).eq("id", snapshot.id);
     console.log("\n  (restored today's check-in from snapshot)");
   } else {
     await admin.from("daily_checkins").delete().eq("user_id", user.id).eq("checkin_date", today);
