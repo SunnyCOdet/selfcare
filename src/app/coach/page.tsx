@@ -4,7 +4,12 @@ import { Nav } from "@/components/nav";
 import { CoachChat } from "@/components/coach/chat";
 import { todayStr } from "@/lib/dates";
 
-export default async function CoachPage() {
+export default async function CoachPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ prefill?: string }>;
+}) {
+  const { prefill } = await searchParams;
   const supabase = await createClient();
   const {
     data: { user },
@@ -62,6 +67,7 @@ export default async function CoachPage() {
         initialConversationId={openConvId}
         initialMessages={initialMessages ?? []}
         needsDailyCheckin={needsDailyCheckin}
+        initialInput={typeof prefill === "string" ? prefill.slice(0, 500) : ""}
       />
     </div>
   );

@@ -5,6 +5,7 @@ import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
 import { TodayPanel } from "@/components/dashboard/today-panel";
 import { StreakCard } from "@/components/dashboard/streak-card";
+import { DeepWork } from "@/components/dashboard/deep-work";
 import { WeekStrip } from "@/components/dashboard/week-strip";
 import { GoalsCard } from "@/components/dashboard/goals-card";
 import { FoodLog } from "@/components/dashboard/food-log";
@@ -36,6 +37,7 @@ export default async function DashboardPage() {
     { data: trackers },
     { data: trackerLogs },
     { data: vitals },
+    { data: focusToday },
   ] = await Promise.all([
     supabase.from("profiles").select("*").eq("id", user.id).single(),
     supabase
@@ -96,6 +98,11 @@ export default async function DashboardPage() {
       .eq("user_id", user.id)
       .order("checkin_date", { ascending: false })
       .limit(14),
+    supabase
+      .from("focus_sessions")
+      .select("minutes")
+      .eq("user_id", user.id)
+      .eq("log_date", today),
   ]);
 
   if (!profile?.onboarding_completed || !planRow) redirect("/onboarding");
@@ -114,6 +121,8 @@ export default async function DashboardPage() {
   const hour = currentHour();
   const greeting = hour < 12 ? "Good morning" : hour < 17 ? "Good afternoon" : "Good evening";
   const readiness = computeReadiness(vitals ?? []);
+  const focusMinutes = (focusToday ?? []).reduce((s, r) => s + (r.minutes ?? 0), 0);
+  const focusCount = (focusToday ?? []).length;
 
   return (
     <div className="flex-1">
@@ -227,6 +236,12 @@ export default async function DashboardPage() {
             <div className="hidden lg:block">
               <StreakCard streak={streak} />
             </div>
+            <DeepWork
+              userId={user.id}
+              syncToken={profile.sync_token}
+              initialMinutesToday={focusMinutes}
+              initialSessions={focusCount}
+            />
             <TodaySchedule plan={plan} />
           </div>
         </div>

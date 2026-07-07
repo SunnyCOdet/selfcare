@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Nav } from "@/components/nav";
@@ -325,6 +326,14 @@ export default async function PlanPage() {
         </Section>
 
         <Section icon={CalendarDays} title="Full weekly schedule" delay={0.45}>
+          <Link
+            href={`/coach?prefill=${encodeURIComponent(
+              "Edit my weekly schedule: "
+            )}`}
+            className="btn-ghost !py-2 text-sm mb-4 inline-flex"
+          >
+            <Sparkles className="w-4 h-4 text-accent" /> Edit schedule with AI
+          </Link>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {plan.weekly_schedule.map((d) => (
               <div key={d.day} className="metric-tile p-4">

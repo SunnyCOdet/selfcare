@@ -127,19 +127,23 @@ export async function GET(_req: Request, ctx: { params: Promise<{ token: string 
       const start = `${ymd}T${pad(t.h)}${pad(t.m)}00`;
       const end = `${ymd}T${pad(eh)}${pad(em)}00`;
 
+      // Wake-up / alarm blocks ring AT the time; everything else nudges 10 min early.
+      const isWake = /\b(wake|alarm|get up|rise and shine|rise)\b/i.test(block.activity ?? "");
+      const trigger = isWake ? "TRIGGER:PT0S" : "TRIGGER:-PT10M";
+
       lines.push(
         "BEGIN:VEVENT",
         `UID:${ymd}-${i}-${token.slice(0, 8)}@ascend`,
         `DTSTAMP:${stamp}`,
         `DTSTART;TZID=Asia/Kolkata:${start}`,
         `DTEND;TZID=Asia/Kolkata:${end}`,
-        fold(`SUMMARY:${esc(block.activity ?? "Ascend")}`)
+        fold(`SUMMARY:${esc((isWake ? "⏰ " : "") + (block.activity ?? "Ascend"))}`)
       );
       if (block.details) lines.push(fold(`DESCRIPTION:${esc(block.details)}`));
       lines.push(
         "BEGIN:VALARM",
         "ACTION:DISPLAY",
-        "TRIGGER:-PT10M",
+        trigger,
         fold(`DESCRIPTION:${esc(block.activity ?? "Ascend")}`),
         "END:VALARM",
         "END:VEVENT"

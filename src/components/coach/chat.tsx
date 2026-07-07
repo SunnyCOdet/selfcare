@@ -130,18 +130,20 @@ export function CoachChat({
   initialConversationId,
   initialMessages,
   needsDailyCheckin,
+  initialInput = "",
 }: {
   conversations: Conversation[];
   initialConversationId: string | null;
   initialMessages: Msg[];
   needsDailyCheckin: boolean;
+  initialInput?: string;
 }) {
   const router = useRouter();
   const supabase = useMemo(() => createClient(), []);
   const [conversations, setConversations] = useState<Conversation[]>(initialConversations);
   const [activeId, setActiveId] = useState<string | null>(initialConversationId);
   const [messages, setMessages] = useState<Msg[]>(initialMessages);
-  const [input, setInput] = useState("");
+  const [input, setInput] = useState(initialInput);
   const [loading, setLoading] = useState(false);
   const [switching, setSwitching] = useState(false);
   const [error, setError] = useState<string | null>(null);

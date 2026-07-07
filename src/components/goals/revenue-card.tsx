@@ -1,7 +1,18 @@
 "use client";
 
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Legend } from "recharts";
-import { Wallet } from "lucide-react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
+import {
+  ResponsiveContainer,
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  Tooltip,
+  Legend,
+  ReferenceLine,
+} from "recharts";
+import { Wallet, RefreshCw, Loader2 } from "lucide-react";
 
 export type IncomeEvent = {
   source: string;
@@ -46,7 +57,30 @@ export function RevenueCard({
   targetValue: number | null;
   targetMetric: string | null;
 }) {
-  if (events.length === 0) return null;
+  const router = useRouter();
+  const [syncing, setSyncing] = useState(false);
+  const [syncMsg, setSyncMsg] = useState<string | null>(null);
+
+  async function syncPaypal() {
+    setSyncing(true);
+    setSyncMsg(null);
+    try {
+      const res = await fetch("/api/paypal/sync", { method: "POST" });
+      const json = await res.json();
+      if (!json.ok) {
+        setSyncMsg(json.error ?? "Sync failed");
+      } else if ((json.added ?? 0) > 0) {
+        setSyncMsg(`Imported ${json.added} payment${json.added === 1 ? "" : "s"}`);
+        router.refresh();
+      } else {
+        setSyncMsg(json.message ?? "Already up to date");
+      }
+    } catch {
+      setSyncMsg("Couldn't reach the server");
+    } finally {
+      setSyncing(false);
+    }
+  }
 
   const usdGoal =
     !targetMetric ||
@@ -74,13 +108,16 @@ export function RevenueCard({
     else row.razorpay += convert(e);
     daily.set(day, row);
   }
-  const chartData = [...daily.entries()]
-    .sort(([a], [b]) => a.localeCompare(b))
-    .map(([day, v]) => ({
+  // Cumulative month-to-date curve (running totals), per source
+  const sortedDays = [...daily.entries()].sort(([a], [b]) => a.localeCompare(b));
+  const chartData = sortedDays.map(([day], i) => {
+    const upto = sortedDays.slice(0, i + 1);
+    return {
       day,
-      Razorpay: Math.round(v.razorpay),
-      PayPal: Math.round(v.paypal),
-    }));
+      Razorpay: Math.round(upto.reduce((s, [, v]) => s + v.razorpay, 0)),
+      PayPal: Math.round(upto.reduce((s, [, v]) => s + v.paypal, 0)),
+    };
+  });
 
   // Month-by-month history (up to 6 months, newest first)
   const byMonth = new Map<string, IncomeEvent[]>();
@@ -92,9 +129,27 @@ export function RevenueCard({
 
   return (
     <section className="glass p-6 fade-up" style={{ animationDelay: "0.04s" }}>
-      <h2 className="font-semibold flex items-center gap-2 mb-4">
-        <Wallet className="w-5 h-5 text-warning" /> Revenue — auto-tracked
-      </h2>
+      <div className="flex items-center justify-between gap-3 mb-4 flex-wrap">
+        <h2 className="font-semibold flex items-center gap-2">
+          <Wallet className="w-5 h-5 text-warning" /> Revenue — auto-tracked
+        </h2>
+        <div className="flex items-center gap-2">
+          {syncMsg && <span className="text-[11px] text-muted">{syncMsg}</span>}
+          <button
+            onClick={syncPaypal}
+            disabled={syncing}
+            className="btn-ghost !py-1.5 !px-3 text-xs shrink-0"
+            title="Import this month's PayPal payments"
+          >
+            {syncing ? (
+              <Loader2 className="w-3.5 h-3.5 animate-spin" />
+            ) : (
+              <RefreshCw className="w-3.5 h-3.5" />
+            )}
+            Sync PayPal
+          </button>
+        </div>
+      </div>
 
       {/* This month, per source */}
       <div className="grid grid-cols-2 gap-3">
@@ -140,11 +195,21 @@ export function RevenueCard({
         )}
       </div>
 
-      {/* Daily bars this month */}
+      {/* Cumulative revenue curve this month */}
       {chartData.length > 0 && (
         <div className="h-44 mt-4">
           <ResponsiveContainer width="100%" height="100%">
-            <BarChart data={chartData} margin={{ top: 4, right: 4, left: -18, bottom: 0 }}>
+            <AreaChart data={chartData} margin={{ top: 4, right: 8, left: -18, bottom: 0 }}>
+              <defs>
+                <linearGradient id="rzfill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#38bdf8" stopOpacity={0.35} />
+                  <stop offset="100%" stopColor="#38bdf8" stopOpacity={0} />
+                </linearGradient>
+                <linearGradient id="ppfill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stopColor="#818cf8" stopOpacity={0.4} />
+                  <stop offset="100%" stopColor="#818cf8" stopOpacity={0} />
+                </linearGradient>
+              </defs>
               <XAxis dataKey="day" tick={{ fill: "#98989f", fontSize: 10 }} axisLine={false} tickLine={false} />
               <YAxis tick={{ fill: "#98989f", fontSize: 10 }} axisLine={false} tickLine={false} />
               <Tooltip
@@ -156,12 +221,34 @@ export function RevenueCard({
                   fontSize: 12,
                 }}
                 formatter={(v, name) => [`${goalSym}${Number(v ?? 0).toLocaleString()}`, name]}
-                labelFormatter={(d) => `Day ${d}`}
+                labelFormatter={(d) => `Day ${d} (month-to-date)`}
               />
               <Legend wrapperStyle={{ fontSize: 11 }} />
-              <Bar dataKey="Razorpay" stackId="rev" fill="#38bdf8" radius={[0, 0, 0, 0]} />
-              <Bar dataKey="PayPal" stackId="rev" fill="#818cf8" radius={[4, 4, 0, 0]} />
-            </BarChart>
+              {targetValue != null && targetValue > 0 && (
+                <ReferenceLine
+                  y={targetValue}
+                  stroke="#a3e635"
+                  strokeDasharray="6 6"
+                  label={{ value: "goal", fill: "#a3e635", fontSize: 10, position: "insideTopRight" }}
+                />
+              )}
+              <Area
+                type="monotone"
+                dataKey="Razorpay"
+                stackId="rev"
+                stroke="#38bdf8"
+                strokeWidth={2.5}
+                fill="url(#rzfill)"
+              />
+              <Area
+                type="monotone"
+                dataKey="PayPal"
+                stackId="rev"
+                stroke="#818cf8"
+                strokeWidth={2.5}
+                fill="url(#ppfill)"
+              />
+            </AreaChart>
           </ResponsiveContainer>
         </div>
       )}
