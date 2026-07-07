@@ -155,9 +155,11 @@ export async function POST(req: Request) {
       body = {};
     }
   }
-  // Accept the dictation from: ?text=, a JSON {text}, or a raw plain-text body.
+  // Accept the dictation from a JSON {text}, a raw plain-text body, or ?text=.
+  // Body wins over the query param: a leftover ?text= in the URL is often the
+  // space-truncated first word, so the full body must take precedence.
   const rawText = trimmed && !trimmed.startsWith("{") ? raw : null;
   const token = searchParams.get("token") ?? body.token;
-  const text = searchParams.get("text") ?? body.text ?? rawText;
+  const text = body.text ?? rawText ?? searchParams.get("text");
   return handle(token, text);
 }
