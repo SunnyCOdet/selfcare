@@ -81,6 +81,14 @@ async function handle(token: unknown, text: unknown) {
   if (!said) {
     return speak("I didn't catch that — try again.", 400);
   }
+  // Classic setup mistake: the "[Dictated Text]" placeholder was pasted into the
+  // URL but never replaced with the actual Dictated Text variable.
+  if (/\[?\s*dictated\s*text\s*\]?/i.test(said)) {
+    return speak(
+      "Your Shortcut is sending a placeholder, not your voice. Edit the Shortcut, delete the text after 'text=' in the URL, and insert the Dictated Text variable there instead.",
+      400
+    );
+  }
   if (!aiConfigured()) {
     return speak("The assistant isn't configured on the server yet.", 503);
   }
@@ -121,8 +129,9 @@ async function handle(token: unknown, text: unknown) {
     }
   }
 
-  let reply = (ai.reply || "Done.").toString().trim();
-  if (unmatched) reply += " (I couldn't find one of those habits on your plan.)";
+  let reply = (ai.reply ?? "").toString().trim();
+  if (!reply) reply = actions.length ? "Got it — logged." : "I didn't quite catch what to log. Try saying it another way.";
+  if (unmatched) reply += " I couldn't find one of those habits on your plan, though.";
   return speak(reply);
 }
 
