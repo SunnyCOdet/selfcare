@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { generateJSONWithImage, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
-import { searchNutrition } from "@/lib/ai/nutrition";
+import { lookupNutrition, searchNutrition } from "@/lib/ai/nutrition";
 
 /**
  * Photo-based food logging, two phases:
@@ -117,7 +117,11 @@ export async function POST(req: Request) {
     const dishHint = (body.dish_name ?? "").toString().slice(0, 100);
     const searchQuery =
       dishHint || answers.map((a) => a.answer).join(" ").slice(0, 100) || "meal";
-    const webNutrition = await searchNutrition(searchQuery);
+    const [dbNutrition, webNutrition] = await Promise.all([
+      lookupNutrition(searchQuery),
+      searchNutrition(searchQuery),
+    ]);
+    const grounding = [dbNutrition, webNutrition].filter(Boolean).join("\n");
 
     const prompt = `CLIENT:
 - Diet preference: ${context.profile?.diet_preference ?? "unknown"}
@@ -128,7 +132,7 @@ export async function POST(req: Request) {
 
 CLIENT'S ANSWERS ABOUT THIS FOOD:
 ${answers.map((a) => `Q: ${a.question}\nA: ${a.answer}`).join("\n") || "(none — estimate from the image using standard preparations)"}
-${webNutrition ? `\nWEB-VERIFIED NUTRITION DATA (prefer these values over your own estimates when they match the item):\n${webNutrition}\n` : ""}
+${grounding ? `\nVERIFIED NUTRITION DATABASE (per 100 g unless noted — scale to the portion, prefer over your own recall):\n${grounding}\n` : ""}
 Dissect this meal now.`;
 
     const result = await generateJSONWithImage<{

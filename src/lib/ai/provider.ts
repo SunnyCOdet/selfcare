@@ -179,8 +179,12 @@ function extractJson(raw: string): unknown {
   return JSON.parse(text);
 }
 
-export async function generateJSON<T>(system: string, user: string): Promise<T> {
-  const provider = getProvider();
+export async function generateJSON<T>(
+  system: string,
+  user: string,
+  opts?: { provider?: Provider }
+): Promise<T> {
+  const provider = opts?.provider ?? getProvider();
   let raw: string;
   if (provider === "openai") raw = await callOpenAI(system, user);
   else if (provider === "deepseek") raw = await callDeepSeek(system, user);

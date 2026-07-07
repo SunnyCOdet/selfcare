@@ -2,11 +2,12 @@ import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
 import { generateJSON, aiConfigured } from "@/lib/ai/provider";
 import { buildUserContext } from "@/lib/ai/context";
-import { searchNutrition } from "@/lib/ai/nutrition";
+import { lookupNutrition, searchNutrition } from "@/lib/ai/nutrition";
 
 const SYSTEM = `You are a precision sports nutritionist inside a body-transformation app. The client tells you a food they ate (or want to eat). You estimate its macros for the described portion and judge it against their remaining daily targets and diet preference.
 
 Rules:
+- When a VERIFIED NUTRITION DATABASE block is provided, those numbers are per 100 g from real databases (USDA / Open Food Facts). Pick the closest matching item, scale it to the stated portion (grams / 100 × the value), and PREFER these over your own recall. Do the arithmetic carefully and make sure calories ≈ protein×4 + carbs×4 + fat×9.
 - Estimate realistically for typical Indian/global portions; if portion unstated, assume a standard serving and say so in notes.
 - verdict: "good" (fits goals/macros well), "okay" (fine in moderation or with tweaks), "avoid" (works against their goal — say why and give a swap).
 - notes: one or two short sentences, specific to THEIR remaining calories/protein today. Mention remaining protein if they're behind.
@@ -36,17 +37,19 @@ export async function POST(req: Request) {
   }
 
   try {
-    const [context, webNutrition] = await Promise.all([
+    const [context, dbNutrition, webNutrition] = await Promise.all([
       buildUserContext(supabase, user.id),
+      lookupNutrition(description),
       searchNutrition(description),
     ]);
+    const grounding = [dbNutrition, webNutrition].filter(Boolean).join("\n");
 
     const userPrompt = `CLIENT:
 - Diet preference: ${context.profile?.diet_preference ?? "unknown"}
 - Goal: ${context.profile?.body_goal ?? "transformation"}
 - Daily targets: ${JSON.stringify(context.plan_summary?.nutrition_targets ?? {})}
 - Eaten so far today: ${JSON.stringify(context.food_today.items)} (total ~${context.food_today.calories_so_far} kcal, ${context.food_today.protein_so_far}g protein)
-${webNutrition ? `\nWEB-VERIFIED NUTRITION DATA (prefer these values over your own estimates when they match the item):\n${webNutrition}\n` : ""}
+${grounding ? `\nVERIFIED NUTRITION DATABASE (per 100 g unless noted — scale to the portion, prefer over your own recall):\n${grounding}\n` : ""}
 FOOD TO ANALYZE: "${description}"`;
 
     const result = await generateJSON<{
@@ -57,7 +60,11 @@ FOOD TO ANALYZE: "${description}"`;
       verdict: string;
       notes: string;
       alternative: string | null;
-    }>(SYSTEM, userPrompt);
+    }>(SYSTEM, userPrompt, {
+      // Nutrition math needs a strong model; DeepSeek is text-only and weaker
+      // at it, so use Gemini for food when its key is present.
+      provider: process.env.GEMINI_API_KEY ? "gemini" : undefined,
+    });
 
     const verdict = ["good", "okay", "avoid"].includes(result.verdict) ? result.verdict : "okay";
 
