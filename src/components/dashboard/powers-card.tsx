@@ -33,6 +33,7 @@ export function PowersCard({ syncToken }: { syncToken: string }) {
 
   const origin = typeof window !== "undefined" ? window.location.origin : "";
   const host = typeof window !== "undefined" ? window.location.host : "";
+  const siriUrl = `${origin}/api/siri?token=${syncToken}&text=[Dictated Text]`;
   const log = (qs: string) => `${origin}/api/log?token=${syncToken}&${qs}`;
   const calendarWebcal = `webcal://${host}/api/calendar/${syncToken}.ics`;
   const calendarHttps = `${origin}/api/calendar/${syncToken}.ics`;
@@ -48,10 +49,29 @@ export function PowersCard({ syncToken }: { syncToken: string }) {
 
       {open && (
         <div className="mt-4 space-y-5 text-sm text-muted">
-          {/* Voice / Shortcuts quick-log */}
+          {/* One-URL Siri assistant */}
           <div className="space-y-3">
             <p className="flex items-center gap-2 text-xs font-semibold text-foreground/80">
-              <Mic className="w-3.5 h-3.5 text-accent" /> Log by voice (Siri + Shortcuts)
+              <Mic className="w-3.5 h-3.5 text-accent" /> Talk to Ascend — one Siri command for everything
+            </p>
+            <p className="text-xs leading-relaxed">
+              Set up <b>once</b> and just talk: <i>&quot;log 2 litres of water and mark my workout done&quot;</i> or{" "}
+              <i>&quot;what&apos;s my streak?&quot;</i> — it logs anything you say and answers questions about your day.
+            </p>
+            <ol className="space-y-1.5 list-decimal list-inside text-xs leading-relaxed">
+              <li>iPhone → <b>Shortcuts</b> → new Shortcut named <b>&quot;Ascend&quot;</b></li>
+              <li>Add <b>Dictate Text</b></li>
+              <li>Add <b>Get Contents of URL</b> → paste the link below, and replace <code className="text-accent">[Dictated Text]</code> with the <b>Dictated Text</b> variable</li>
+              <li>Add <b>Speak Text</b> → set it to the <b>Contents of URL</b></li>
+              <li>Now say <b>&quot;Hey Siri, Ascend&quot;</b> and talk</li>
+            </ol>
+            <CopyRow label="Your single assistant URL" value={siriUrl} />
+          </div>
+
+          {/* Voice / Shortcuts quick-log */}
+          <div className="space-y-3 pt-1 border-t border-white/5">
+            <p className="flex items-center gap-2 text-xs font-semibold text-foreground/80 pt-3">
+              <Mic className="w-3.5 h-3.5 text-accent" /> Or: fixed one-tap links (no dictation)
             </p>
             <p className="text-xs leading-relaxed">
               Each link logs one thing when opened — no need to open the app. Put one in an iOS Shortcut
