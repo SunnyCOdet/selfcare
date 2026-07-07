@@ -5,6 +5,7 @@ import { WeightChart } from "@/components/progress/weight-chart";
 import { PhotoSection } from "@/components/progress/photo-section";
 import { PhotoCompare } from "@/components/progress/photo-compare";
 import { StepsSyncCard } from "@/components/dashboard/steps-sync-card";
+import { PowersCard } from "@/components/dashboard/powers-card";
 import { NotificationsCard } from "@/components/notifications-card";
 
 export default async function ProgressPage() {
@@ -111,6 +112,7 @@ export default async function ProgressPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <NotificationsCard />
           {profile?.sync_token && <StepsSyncCard syncToken={profile.sync_token} />}
+          {profile?.sync_token && <PowersCard syncToken={profile.sync_token} />}
         </div>
       </main>
     </div>
